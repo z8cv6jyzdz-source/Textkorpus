@@ -1,0 +1,13 @@
+Nachtrag T1 und T4 (30.09.2026, Schritt 4 vor B4)
+
+T1: 71 Steckbriefe vorher, 72 nachher (neu: Tanner1966). Zeile 72 (Roessler2014) berichtigt: 16 → 15 Felder, „kapitel“ nach Register 29.09., 06:40. Übrige Zeilen byte-gleich: 71 von 72.
+T4: 148 Einträge vorher, 151 nachher (neu: Tanner1966 zweimal, Radnor2017 einmal). Bestehende Zeilen byte-gleich.
+MD5 vorher: T1 ff015c061061ede7cf50bcbc9afd12f9 · T4 1bf90f1da185639cd4c0b1db0487dee9
+MD5 nachher: T1 7bab35b273989f36cf035f280a2fa916 · T4 4d981572bef92f9279f9f89cff6cd84c
+
+Neue oder geänderte Zeilen:
+T1 Roessler2014 | kapitel: 1 (Einleitung, B1b S7: nur Mitzitation neben Olivier et al., 2026, ohne Population und ohne Vor-2020-Halbsatz, Register 29.09., 06:40. Löst den Klick 1 vom 28.09. ab, der den Sprungbefund als Zwischen-Studien-Vergleich mit Population „überwiegend Spielerinnen“ und Vor-2020-Halbsatz vorsah)
+T1 Tanner1966 | kapitel: 1 (Einleitung, Zug Reifung: Alter beim Wachstumsgipfel, Register 29.09., 17:12, ersetzt Malina & Kozieł, 2014)
+T4 Tanner1966 | Tab. I: Standardfehler statt SD / Geschlecht
+T4 Tanner1966 | Stichprobe / Standard / Fassung
+T4 Radnor2017 | Begriffe „children“, „adolescents“, „youth“ / Sprint nur im Abstract / Modalität

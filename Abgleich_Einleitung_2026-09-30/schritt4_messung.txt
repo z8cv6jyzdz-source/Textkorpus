@@ -1,0 +1,67 @@
+Schritt 4 — Messung (30.09.2026), Textstand T gegen den Stand mit den Neufassungen
+
+Absatz | Sätze | Wörter T | Wörter neu | Differenz | ohne Belegklammern neu | längster Satz neu | Median neu | Belegklammern | narrative Zitate
+B1a | 6 | 153 | 153 | +0 | 105 | 30 | 25.5 | 6 | 0
+B1b | 7 | 152 | 152 | +0 | 116 | 30 | 22.0 | 6 | 0
+B2 | 11 | 229 | 229 | +0 | 205 | 27 | 21.0 | 5 | 0
+B3 | 5 | 127 | 121 | -6 | 101 | 29 | 26.0 | 5 | 0
+B4 | 7 | 153 | 176 | +23 | 152 | 31 | 27.0 | 4 | 0
+B5 | 4 | 99 | 99 | +0 | 99 | 32 | 26.5 | 0 | 0
+
+Einleitung: 930 Wörter (T 913), ohne Belegklammern 778, 40 Sätze, Median 24.0, längster Satz 32
+Semikola außerhalb von Belegklammern: 0 · Belegklammern: 26 · Sätze mit Beleg: 26 · Quellen: 22
+Abschnittsverweise: 0 · Doppelpunkte außerhalb von Belegklammern: 0 · narrative Zitate: 0
+Seitenprognose (Modellrechnung wie textstand_T.py): 27.8078 Seiten, gerundet 27.8 (T: 27.7605, gerundet 27.8)
+B1b wortgleich mit der Freigabe (Textvorschlag B1 § 1.2): ja (Assertion)
+
+Geänderte Sätze:
+B1b S1 (P1, freigegeben 18:02): 18 -> 19 Wörter
+  alt: Der Dehnungs-Verkürzungs-Zyklus (DVZ), stellt bei Sprung- und Hüpfbewegungen den grundlegenden Wirkmechanismus der Trainingsform dar (Markovic & Mikulic, 2010).
+  neu: Der Dehnungs-Verkürzungs-Zyklus (DVZ) stellt bei Sprung- und Hüpfbewegungen die grundlegende Muskelaktion des plyometrischen Trainings dar (Markovic & Mikulic, 2010).
+B1b S7 (P9, freigegeben 18:02): 23 -> 22 Wörter
+  alt: Plyometrische Übungen sind zudem Bestandteil mehrkomponentiger Präventionsprogramme, die in Metaanalysen zum Nachwuchssport Verletzungen verringerten und (Olivier et al., 2026; Rössler et al., 2014).
+  neu: Plyometrische Übungen sind zudem Bestandteil mehrkomponentiger Präventionsprogramme, die in Metaanalysen zum Nachwuchssport Verletzungen verringerten (Olivier et al., 2026; Rössler et al., 2014).
+B3 S5 (P2 und Passung (Klick § 2.7 a), freigegeben 18:46): 32 -> 26 Wörter
+  alt: Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliable und valide feldbasierte Leistungsdiagnostiktests (Dugdale et al., 2019; Ferguson et al., 2024).
+  neu: Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliable feldbasierte Leistungsdiagnostiktests (Dugdale et al., 2019).
+B4 S1 (P3 als P3b, freigegeben 19:45): 17 -> 36 Wörter
+  alt: In dieser Altersspanne befinden sich jugendliche häufig in der Phase um den Wachstumsgipfel (Tanner et al., 1966).
+  neu: Spieler der U15 befinden sich häufig in der Phase um den Wachstumsgipfel. In einer britischen Längsschnittstudie erreichten Jungen ihn im Mittel mit 14 Jahren, bei einer Spanne von 12 bis 16 Jahren (Tanner et al., 1966).
+B4 S2 (P4 als P4c, freigegeben 19:45): 26 -> 30 Wörter
+  alt: Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Leistung während des DVZ und infolgedessen die Sprint- und Sprungleistung von Kindern und Jugendlichen (Radnor et al., 2018).
+  neu: Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training, wozu eine verbesserte Funktion des DVZ beitragen könnte (Radnor et al., 2018).
+
+Variante (nur per Klick): B4-P4a DVZ-Bezug gestrichen (Fassung 3 S3, Freigabe 17:44, nach Klick 19:45 nicht gewählt)
+
+Absatz | Sätze | Wörter T | Wörter neu | Differenz | ohne Belegklammern neu | längster Satz neu | Median neu | Belegklammern | narrative Zitate
+B1a | 6 | 153 | 153 | +0 | 105 | 30 | 25.5 | 6 | 0
+B1b | 7 | 152 | 152 | +0 | 116 | 30 | 22.0 | 6 | 0
+B2 | 11 | 229 | 229 | +0 | 205 | 27 | 21.0 | 5 | 0
+B3 | 5 | 127 | 121 | -6 | 101 | 29 | 26.0 | 5 | 0
+B4 | 7 | 153 | 168 | +15 | 144 | 31 | 24.0 | 4 | 0
+B5 | 4 | 99 | 99 | +0 | 99 | 32 | 26.5 | 0 | 0
+
+Einleitung: 922 Wörter (T 913), ohne Belegklammern 770, 40 Sätze, Median 23.5, längster Satz 32
+Semikola außerhalb von Belegklammern: 0 · Belegklammern: 26 · Sätze mit Beleg: 26 · Quellen: 22
+Abschnittsverweise: 0 · Doppelpunkte außerhalb von Belegklammern: 0 · narrative Zitate: 0
+Seitenprognose (Modellrechnung wie textstand_T.py): 27.7855 Seiten, gerundet 27.8 (T: 27.7605, gerundet 27.8)
+B4, Satz 2 des Textstands (Klick § 3.7 b, nicht gewählt): Neufassung 30 -> Variante 22 Wörter
+  Variante: Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training (Radnor et al., 2018).
+
+Variante (nur per Klick): B4-P3e ein Satz ohne Spanne (erwogen, nicht vorgeschlagen, Textvorschlag § 3.2)
+
+Absatz | Sätze | Wörter T | Wörter neu | Differenz | ohne Belegklammern neu | längster Satz neu | Median neu | Belegklammern | narrative Zitate
+B1a | 6 | 153 | 153 | +0 | 105 | 30 | 25.5 | 6 | 0
+B1b | 7 | 152 | 152 | +0 | 116 | 30 | 22.0 | 6 | 0
+B2 | 11 | 229 | 229 | +0 | 205 | 27 | 21.0 | 5 | 0
+B3 | 5 | 127 | 121 | -6 | 101 | 29 | 26.0 | 5 | 0
+B4 | 6 | 153 | 168 | +15 | 144 | 31 | 28.5 | 4 | 0
+B5 | 4 | 99 | 99 | +0 | 99 | 32 | 26.5 | 0 | 0
+
+Einleitung: 922 Wörter (T 913), ohne Belegklammern 770, 39 Sätze, Median 24.0, längster Satz 32
+Semikola außerhalb von Belegklammern: 0 · Belegklammern: 26 · Sätze mit Beleg: 26 · Quellen: 22
+Abschnittsverweise: 0 · Doppelpunkte außerhalb von Belegklammern: 0 · narrative Zitate: 0
+Seitenprognose (Modellrechnung wie textstand_T.py): 27.7855 Seiten, gerundet 27.8 (T: 27.7605, gerundet 27.8)
+B4, Satz 1 des Textstands (nicht zur Wahl): Neufassung 36 -> Variante 28 Wörter
+  Variante: Spieler der U15 befinden sich häufig in der Phase um den Wachstumsgipfel, den Jungen in einer britischen Längsschnittstudie im Mittel mit 14 Jahren erreichten (Tanner et al., 1966).
+

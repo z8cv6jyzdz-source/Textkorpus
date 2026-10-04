@@ -1,0 +1,29 @@
+Wortbilanz Schritt 3 (30.09.2026) — Textstand T: 913 Wörter, Obergrenze 1.200, Korpus 506 bis 927
+
+Nr   | Variante | alt | neu | Differenz | Art
+P1   | B1b S1 Freigabe 07:00 | 18 | 19 | +1 | gemessen
+P2   | B3 S5 ohne „und valide“ | 32 | 30 | -2 | gemessen
+P2*  | B3 S5 Freigabe (Vergleich) | 32 | 28 | -4 | gemessen
+P3a  | B4 S1 nur „Jungen“ statt „jugendliche“ | 17 | 17 | +0 | gemessen, setzt P3 nicht um (F17 § 6.4)
+P3b  | B4 S1 wie Fassung 3 S1 und S2 | 17 | 36 | +19 | gemessen
+P3c  | B4 S1 mit Studie und Alter (Entwurf, Richtwert) | 17 | 29 | +12 | Richtwert
+P3d  | B4 S1 mit Studie ohne Alter, ohne Rückgriff (Entwurf, Richtwert) | 17 | 22 | +5 | Richtwert
+P4a  | B4 S2 Freigabe 17:44 | 26 | 22 | -4 | gemessen
+P4b  | B4 S2 Verfasser mit „auch ohne Training“ | 26 | 29 | +3 | gemessen, Indikativ bleibt
+P4c  | B4 S2 DVZ-Bezug modal mit „auch ohne Training“ (Entwurf, Richtwert) | 26 | 30 | +4 | Richtwert
+P9   | B1b S7 Freigabe 07:00 | 23 | 22 | -1 | gemessen
+
+Empfohlen P1 bis P4 und P9 (regelkonforme Varianten): kleinste -1 (912 Wörter, P3d und P4a), größte +21 (934, P3b und P4c), mit P3c und P4c +14 (927, Richtwert)
+
+Varianten im Wortlaut:
+P1  Der Dehnungs-Verkürzungs-Zyklus (DVZ) stellt bei Sprung- und Hüpfbewegungen die grundlegende Muskelaktion des plyometrischen Trainings dar (Markovic & Mikulic, 2010).
+P2  Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliable feldbasierte Leistungsdiagnostiktests (Dugdale et al., 2019; Ferguson et al., 2024).
+P2*  Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliabel (Dugdale et al., 2019; Ferguson et al., 2024).
+P3a  In dieser Altersspanne befinden sich Jungen häufig in der Phase um den Wachstumsgipfel (Tanner et al., 1966).
+P3b  Spieler der U15 befinden sich häufig in der Phase um den Wachstumsgipfel. In einer britischen Längsschnittstudie erreichten Jungen ihn im Mittel mit 14 Jahren, bei einer Spanne von 12 bis 16 Jahren (Tanner et al., 1966).
+P3c  In dieser Altersspanne befinden sich Jungen häufig in der Phase um den Wachstumsgipfel, den sie in einer britischen Längsschnittstudie im Mittel mit 14 Jahren erreichten (Tanner et al., 1966).
+P3d  Spieler der U15 befinden sich nach einer britischen Längsschnittstudie an Jungen häufig in der Phase um den Wachstumsgipfel (Tanner et al., 1966).
+P4a  Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training (Radnor et al., 2018).
+P4b  Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Leistung während des DVZ und infolgedessen die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training (Radnor et al., 2018).
+P4c  Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training, wozu eine verbesserte Funktion des DVZ beitragen könnte (Radnor et al., 2018).
+P9  Plyometrische Übungen sind zudem Bestandteil mehrkomponentiger Präventionsprogramme, die in Metaanalysen zum Nachwuchssport Verletzungen verringerten (Olivier et al., 2026; Rössler et al., 2014).

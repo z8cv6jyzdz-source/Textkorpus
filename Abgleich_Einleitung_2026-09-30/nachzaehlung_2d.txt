@@ -1,0 +1,112 @@
+=== Konsens ===
+d1 Vorzüge (T3 primär oder sekundär) vorhanden: 8 von 10: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Liu2024, Sammoud2024
+d1 Lesart i: erster Satz mit T1 — Vorzüge im Einführungssatz 6: Lloyd2016, Beato2018, Negra2019, Negra2020, Aloui2022, Sammoud2024
+   Wirksamkeit und Vorzüge 5: Lloyd2016, Beato2018, Negra2019, Negra2020, Sammoud2024 · nur Vorzüge 1: Aloui2022 · nur Wirksamkeit 2: Liu2024, Bouafif2026 · anders: Hammami2016 2.8 (D1+T1), Moran2024 1.2 (T1+T2)
+d1 Lesart ii: Einführung des plyometrischen Arms (Befund § 3.2) — Vorzüge im Einführungssatz 7: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Sammoud2024
+   Wirksamkeit und Vorzüge 6: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Sammoud2024 · nur Vorzüge 1: Aloui2022 · nur Wirksamkeit 2: Liu2024, Bouafif2026 · anders: Moran2024 1.2 (T1+T2)
+d5 Bedeutung der Lücke (L2 primär oder sekundär): 5: Beato2018, Negra2020, Liu2024, Moran2024, Bouafif2026
+d5 L2 als Primärcode: 5: Beato2018, Negra2020, Liu2024, Moran2024, Bouafif2026
+d5 Stellung der L2-Sätze zum schließenden Lückensatz: Beato2018: 4.4 vor (letzter L1 5.2) | Negra2020: 2.4 vor (letzter L1 2.6) | Liu2024: 5.3 vor, 6.2 vor, 6.3 vor, 6.4 vor (letzter L1 7.1) | Moran2024: 1.5 vor, 3.3 nach (letzter L1 3.2) | Bouafif2026: 5.6 nach, 7.1 nach (letzter L1 3.4)
+d5 Satz vor dem Zweck ist ein Bedeutungssatz (L2 primär): 2: Moran2024, Bouafif2026
+d7 Dosis (K3 primär oder sekundär): 4: Hammami2016 4.2 E1(K3;T4) | Beato2018 2.7 K3(E1;T4), 4.1 K3(K2;K4), 4.3 L1(K3), 5.1 L1(K2;K3), 5.2 L1(K3) | Negra2020 2.3 L1(K3), 2.4 L2(K3), 2.6 L1(K3), 2.9 Z3(K3) | Aloui2022 2.7 K3(E1;T4), 5.1 Z3(K3)
+d10 Schließender Lückensatz und Zweck im selben Absatz: 8: Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Liu2024, Moran2024, Sammoud2024 · getrennt: Lloyd2016, Bouafif2026
+
+=== Codierer B ===
+d1 Vorzüge (T3 primär oder sekundär) vorhanden: 9 von 10: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Liu2024, Sammoud2024, Bouafif2026
+d1 Lesart i: erster Satz mit T1 — Vorzüge im Einführungssatz 8: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Sammoud2024, Bouafif2026
+   Wirksamkeit und Vorzüge 7: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Sammoud2024, Bouafif2026 · nur Vorzüge 1: Aloui2022 · nur Wirksamkeit 1: Liu2024 · anders: Moran2024 1.2 (T1+T2+T4)
+d1 Lesart ii: Einführung des plyometrischen Arms (Befund § 3.2) — Vorzüge im Einführungssatz 8: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Sammoud2024, Bouafif2026
+   Wirksamkeit und Vorzüge 7: Lloyd2016, Hammami2016, Beato2018, Negra2019, Negra2020, Sammoud2024, Bouafif2026 · nur Vorzüge 1: Aloui2022 · nur Wirksamkeit 1: Liu2024 · anders: Moran2024 1.2 (T1+T2+T4)
+d5 Bedeutung der Lücke (L2 primär oder sekundär): 6: Hammami2016, Beato2018, Negra2020, Liu2024, Moran2024, Bouafif2026
+d5 L2 als Primärcode: 5: Beato2018, Negra2020, Liu2024, Moran2024, Bouafif2026
+d5 Stellung der L2-Sätze zum schließenden Lückensatz: Hammami2016: 6.1 gleich (letzter L1 6.1) | Beato2018: 4.4 vor (letzter L1 5.2) | Negra2020: 2.4 vor (letzter L1 2.6) | Liu2024: 5.3 vor, 6.2 vor, 6.3 vor, 6.4 vor, 7.1 gleich (letzter L1 7.1) | Moran2024: 3.3 gleich (letzter L1 3.3) | Bouafif2026: 7.1 nach (letzter L1 3.4)
+d5 Satz vor dem Zweck ist ein Bedeutungssatz (L2 primär): 2: Moran2024, Bouafif2026
+d7 Dosis (K3 primär oder sekundär): 3: Beato2018 2.7 K3(E1;T4), 4.1 K3(K2;K4), 4.3 L1(K3), 4.4 L2(K2;K3), 5.1 L1(K2;K3), 5.2 L1(K3) | Negra2020 2.3 L1(K3), 2.4 L2(K3), 2.6 L1(K3), 2.7 Z1(K3;Z2), 2.9 Z3(K3) | Aloui2022 2.7 K3(E1;T4)
+d10 Schließender Lückensatz und Zweck im selben Absatz: 8: Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Liu2024, Moran2024, Sammoud2024 · getrennt: Lloyd2016, Bouafif2026
+
+=== ohne Codierung oder nur Konsens ===
+d2 Erster Absatz (Konsens), Primärcodes und letzter Satz:
+  Lloyd2016    T1 T1 E1 L1  | letzter Satz L1: However, although studies have examined the efficacy of individual forms of resistance training (e.g., plyometrics), min
+  Hammami2016  R1 R2 R1 R1 R1 R1 (rein R) | letzter Satz R1: Explosive actions requiring acceleration, jumping and agility are also needed in response to the movements of an opposin
+  Beato2018    R1 R1 R2 (rein R) | letzter Satz R2: Therefore, the capacity to perform quick and powerful movements in soccer, as well as in other team sports is one of the
+  Negra2019    R2 R2 R2 (rein R) | letzter Satz R2: Accordingly, the development of muscle power, speed and CoD through well-designed strength and conditioning programs is 
+  Negra2020    R2 R2 R2 R2 R2 R2 R2 (rein R) | letzter Satz R2: As a consequence, training programs to promote higher explosive action in youth should be considered a priority.8
+  Aloui2022    R1 R2 R2 R2 R1 R1 R1 (rein R) | letzter Satz R1: Notably, 96% of sprints are less than 30 m, and 49% are less than 10 m (Stølen et al., 2005).
+  Liu2024      R3 R3 R3 R3 (rein R) | letzter Satz R3: Additionally, impaired neuromuscular coordination results from decreased motor unit recruitment, affecting speed, agilit
+  Moran2024    R2 T1 T2 T2 T4  | letzter Satz T4: Accordingly, this informs the selection of training methods that a coach can choose to optimise athletes’ performance [6
+  Sammoud2024  R2 R1 R2 R2 E1 K4  | letzter Satz K4: In fact, regular engagement in physical fitness interventions at an early age is useful to guide effective long-term phy
+  Bouafif2026  R3 R3 R3 L1  | letzter Satz L1: However, there remains a lack of research examining asymmetry across different stages of maturation using ecologically v
+d2 Erster Absatz rein Relevanz: 6: Hammami2016, Beato2018, Negra2019, Negra2020, Aloui2022, Liu2024
+d3 Mechanismus (T2 primär oder sekundär): Einführung (Lesart ii), erstes T2, erste Detailevidenz (E2, E3, K3 primär oder sekundär), T2-Sätze
+  Lloyd2016    Einführung 1.1 · T2 2.3 (nach der Einführung, vor der Detailevidenz) · Detailevidenz 2.6 · T2-Sätze primär 0 (0 Wörter), mit Sekundärcode 1
+  Hammami2016  kein T2
+  Beato2018    Einführung 2.1 · T2 2.3 (nach der Einführung, vor der Detailevidenz) · Detailevidenz 2.7 · T2-Sätze primär 2 (58 Wörter), mit Sekundärcode 5
+  Negra2019    Einführung 2.1 · T2 3.1 (nach der Einführung, vor der Detailevidenz) · Detailevidenz 4.1 · T2-Sätze primär 4 (120 Wörter), mit Sekundärcode 5
+  Negra2020    kein T2
+  Aloui2022    Einführung 2.1 · T2 2.2 (nach der Einführung, vor der Detailevidenz) · Detailevidenz 2.7 · T2-Sätze primär 1 (22 Wörter), mit Sekundärcode 3
+  Liu2024      kein T2
+  Moran2024    Einführung 1.2 · T2 1.2 (im Einführungssatz, —) · Detailevidenz — · T2-Sätze primär 5 (153 Wörter), mit Sekundärcode 6
+  Sammoud2024  kein T2
+  Bouafif2026  Einführung 2.1 · T2 2.3 (nach der Einführung, vor der Detailevidenz) · Detailevidenz 3.1 · T2-Sätze primär 1 (30 Wörter), mit Sekundärcode 1
+d3 Negra 2019 Absatz 3: 4 Sätze, 118 Wörter, Primärcodes T2 T2 T2 T4
+d4 Reife (K1 primär oder sekundär): Sätze, Wörter der K1-Primärsätze, Hypothese zur Reife
+  Lloyd2016    9 Sätze (4 primär, 132 Wörter primär) · Zweck- oder Hypothesensatz mit K1: 4.2 · K1-Satz direkt vor einem Lückensatz: 2.3, 3.4 · 1.4 L1(K1) However, although studies have examined the efficacy of indi | 2.1 K1(E1) Previous meta-analyses have attempted to examine the effects | 2.2 K1(E1) Combined, these meta-analyses showed that although adolescen | 2.3 K1(T2) Such findings may reflect the heightened neural plasticity a | 2.4 L1(K1) However, it should be noted that neither meta-analysis showe | 2.5 L1(K1) Additionally, very few studies have specifically examined th | 3.4 K1(E1) Interestingly, the review showed that boys who were pre-peak | 3.5 L1(K1) Although these data and those reported by Behringer et al. ( | 4.2 Z3(K1) We hypothesized that boys who were pre-PHV would respond mor
+  Hammami2016  keine
+  Beato2018    keine
+  Negra2019    keine
+  Negra2020    1 Sätze (0 primär, 0 Wörter primär) · Zweck- oder Hypothesensatz mit K1: — · K1-Satz direkt vor einem Lückensatz: 2.2 · 2.2 E1(K1) Several studies have reported that RT14–17 and PT5,8 conduct
+  Aloui2022    keine
+  Liu2024      keine
+  Moran2024    keine
+  Sammoud2024  1 Sätze (0 primär, 0 Wörter primär) · Zweck- oder Hypothesensatz mit K1: — · K1-Satz direkt vor einem Lückensatz: — · 1.5 E1(K1) While growth and maturation cause improvements in these key 
+  Bouafif2026  13 Sätze (4 primär, 104 Wörter primär) · Zweck- oder Hypothesensatz mit K1: 8.2 · K1-Satz direkt vor einem Lückensatz: — · 1.4 L1(K1;D1) However, there remains a lack of research examining asymmetr | 3.3 L1(K1) However, such findings have not been widely replicated acros | 3.4 L1(K1) Given that training adaptations are influenced by maturity s | 4.1 K1() Youth athletes undergo rapid neuromuscular, hormonal, and mo | 4.2 K1() Prepubertal athletes (pre-PHV), for instance, tend to experi | 4.3 K1() In contrast, post-PHV players may respond better in terms of | 4.4 K1(E1) A recent meta-analysis by Ramirez-Campillo et al. [9] confir | 4.5 T4(K1) These findings underscore the need for maturity-specific pro | 5.1 D1(K1) Furthermore, the estimation of maturity status through PHV i | 5.2 D1(K1) PHV represents the period of maximum growth rate in stature  | 6.3 R3(K1;K4) Notably, Read et al. [10] suggested that asymmetries may eme | 7.1 L2(K1) Collectively, these findings highlight the importance of tai | 8.2 Z3(K1) Based on existing literature [9,12,13], we hypothesized that
+d6 Prävention und Verletzung im Kernkorpus (injur, prevent):
+  Hammami2016  5.5 T4(), Einführung 4.1: Bedoya et al (3) suggested that the initial number of foot contacts should be 50–60 per session and ion order to prevent over-use 
+  Negra2019    4.4 E2(T3), Einführung 2.1: Importantly, Rosas et al. 16 did not record any training-related injuries and clearly concluded that LPJT is a safe and effective 
+  Liu2024      2.3 R3(), Einführung 3.2: These reductions are noteworthy because when the season restarts, diminished performance levels may compromise the ability to hand
+  Sammoud2024  2.8 R3(), Einführung 3.1: Furthermore, there is evidence that increased levels of inter-limb asymmetries may increase the risk of injury in male youth socce
+  Sammoud2024  3.2 T3(E1), Einführung 3.1: Additionally, PJT has been demonstrated to decrease the incidence and severity of sports-related injuries in athletes [18].
+  Bouafif2026  1.2 R3(), Einführung 2.1: These asymmetries, often manifested as imbalances in strength, power, or neuromuscular control between limbs, have been linked to 
+  Bouafif2026  6.2 D1(), Einführung 2.1: These tests are not only predictive of asymmetry-related injury risk but are also sensitive to detecting changes in functional per
+  Bouafif2026  6.3 R3(K1;K4), Einführung 2.1: Notably, Read et al. [10] suggested that asymmetries may emerge early in development and remain relatively stable, advocating for 
+d1 Gerät, Ausrüstung (equipment, apparatus, device, gear) im Kernkorpus:
+  (Ende der Liste)
+d1 Setting und Aufwand (supervis, home, video, online, remote, body mass, body weight, unloaded, cost, time, feasib, easy):
+  Lloyd2016    1.1 T1(E1;T3) [supervised]: It is well documented that developmentally appropriate, well-supervised resistance training interventions are 
+  Negra2019    2.1 T1(T3;E1) [easy-to-administer, own body mass, unloaded]: Previous studies have shown that unloaded plyometric jump training (UPJT), during which the performer must pro
+  Aloui2022    2.1 T1(T3) [easy]: One specific type of power training that is easy to administer and therefore popular is plyometric jump traini
+  Liu2024      6.1 T1(T3;E1) [easily, training time]: Comparing HIIT training methods and resistance training methods easily employable as plyometric jump training 
+  Sammoud2024  3.1 T1(T3;E1) [costeffective, feasible]: Plyometric jump training (PJT) is a popular, costeffective, and feasible training method that is effective in 
+  Bouafif2026  5.5 D1() [feasibility]: While alternative Mirwald et al. (2002) maturity offset equation have been proposed to refine accuracy in spec
+d8 Dimensionen der Lücke nach Anhang C des Befunds, Satzbezüge gegen die Konsenscodierung geprüft:
+  Lloyd2016    3 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Hammami2016  2 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Beato2018    5 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Negra2019    3 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Negra2020    3 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Aloui2022    2 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Liu2024      3 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Moran2024    2 Dimensionen · zitierte Sätze ohne Lückencode: —
+  Sammoud2024  4 Dimensionen · zitierte Sätze ohne Lückencode: 2.5 E3(), 2.6 E3()
+  Bouafif2026  2 Dimensionen · zitierte Sätze ohne Lückencode: —
+d8 Zwei oder drei Dimensionen: 8: Lloyd2016, Hammami2016, Negra2019, Negra2020, Aloui2022, Liu2024, Moran2024, Bouafif2026 · vier: Sammoud2024 · fünf: Beato2018
+d8 Studien je Dimension: Trainingsform 7 (Lloyd2016, Beato2018, Negra2019, Negra2020, Aloui2022, Liu2024, Moran2024) · Uneinheitlichkeit 5 (Lloyd2016, Hammami2016, Negra2019, Liu2024, Sammoud2024) · Population oder Niveau 5 (Beato2018, Negra2020, Aloui2022, Moran2024, Sammoud2024) · Zielgröße 3 (Hammami2016, Negra2019, Sammoud2024) · Reife 2 (Lloyd2016, Bouafif2026) · Saisonphase 2 (Beato2018, Liu2024) · Dosis oder Zeitverlauf 2 (Beato2018, Negra2020) · Studiendesign 2 (Beato2018, Sammoud2024) · Messinstrumente 1 (Bouafif2026)
+d9 Anteile je Gruppe am Kernkorpus (Wörter der Sätze nach Primärcode, Median und Spanne über 10 Studien):
+  R Median 19.1 % (5.3 bis 43.0) · Lloyd2016 8.7, Hammami2016 24.8, Beato2018 12.6, Negra2019 11.3, Negra2020 40.7, Aloui2022 23.8, Liu2024 33.0, Moran2024 5.3, Sammoud2024 43.0, Bouafif2026 14.5
+  T Median 16.1 % (5.4 bis 39.5) · Lloyd2016 11.4, Hammami2016 24.6, Beato2018 26.3, Negra2019 34.1, Negra2020 5.4, Aloui2022 16.1, Liu2024 16.1, Moran2024 39.5, Sammoud2024 7.0, Bouafif2026 9.4
+  E Median 18.4 % (7.2 bis 39.3) · Lloyd2016 15.9, Hammami2016 27.1, Beato2018 18.8, Negra2019 39.3, Negra2020 7.2, Aloui2022 31.0, Liu2024 17.6, Moran2024 19.2, Sammoud2024 17.9, Bouafif2026 9.1
+  K Median 5.5 % (0.0 bis 25.0) · Lloyd2016 25.0, Hammami2016 0.0, Beato2018 11.9, Negra2019 0.0, Negra2020 0.0, Aloui2022 6.0, Liu2024 5.3, Moran2024 0.0, Sammoud2024 5.7, Bouafif2026 16.7
+  D Median 0.0 % (0.0 bis 28.5) · Lloyd2016 0.0, Hammami2016 7.3, Beato2018 0.0, Negra2019 0.0, Negra2020 0.0, Aloui2022 0.0, Liu2024 0.0, Moran2024 0.0, Sammoud2024 0.0, Bouafif2026 28.5
+  L Median 20.5 % (4.2 bis 28.5) · Lloyd2016 24.2, Hammami2016 4.2, Beato2018 25.6, Negra2019 6.6, Negra2020 24.1, Aloui2022 8.1, Liu2024 23.4, Moran2024 28.5, Sammoud2024 17.6, Bouafif2026 12.0
+  Z Median 9.3 % (4.7 bis 22.6) · Lloyd2016 14.8, Hammami2016 12.0, Beato2018 4.8, Negra2019 8.8, Negra2020 22.6, Aloui2022 15.0, Liu2024 4.7, Moran2024 7.5, Sammoud2024 8.8, Bouafif2026 9.9
+d7 Einführungssätze (Lesart ii, Konsens):
+  Lloyd2016    1.1 T1(E1;T3): It is well documented that developmentally appropriate, well-supervised resistance training interventions are safe and effective in stimulating positive adaptations on a range of physical performance 
+  Hammami2016  4.1 T1(E1;T3): Plyometric training is recognized as a safe and effective method to improve explosive actions and should be an important component of fitness programs for soccer players (3, 5).
+  Beato2018    2.1 T1(E1;T3): A popular and an effective way for improving power and sprint performance is plyometric training (17).
+  Negra2019    2.1 T1(T3;E1): Previous studies have shown that unloaded plyometric jump training (UPJT), during which the performer must propel their own body mass, is an easy-to-administer, safe, effective, and efficient training
+  Negra2020    2.1 T1(T3;E1): Youth resistance training (RT) and plyometric training (PT) are recognized as safe methods to improve explosive actions and should be important components of fitness programs among soccer players.9–13
+  Aloui2022    2.1 T1(T3): One specific type of power training that is easy to administer and therefore popular is plyometric jump training (PJT) (Ramirez-Campillo and Castillo, 2020; Ramirez-Campillo et al., 2021a; Sole and Ra
+  Liu2024      3.2 T1(E1): Consequently, offseason training programs hold significant value in mitigating the declines resulting from the cessation of regular training sessions (Clemente et al., 2022).
+  Moran2024    1.2 T1(T2): The training specificity principle supports the use of vertical and horizontal jumps to improve performance in vertically- and horizontally-orientated tasks such as jumping and sprinting respectively 
+  Sammoud2024  3.1 T1(T3;E1): Plyometric jump training (PJT) is a popular, costeffective, and feasible training method that is effective in improving physical fitness, particularly strength- and power-related variables, in youth a
+  Bouafif2026  2.1 T1(E1): Plyometric jump training, which consists of dynamic and explosive exercises such as hops, bounds, and jumps, has gained attention as an effective method to improve neuromuscular control, inter-limb co

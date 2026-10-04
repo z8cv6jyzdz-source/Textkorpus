@@ -1,0 +1,125 @@
+Übereinstimmung A/B (39 Sätze): Primärcode 38 von 39 (97.4 %), kappa 0.97 · Gruppe 38 von 39 (97.4 %), kappa 0.97 · Sekundärcodes gleich 26 von 39 (66.7 %)
+Abweichungen: 13 Sätze, davon Primärcode 1, nur Sekundärcode 12, entschieden nach A 5, nach B 8
+
+Umfang (Korpus 10 Kern-RCTs: Minimum, Median, Maximum):
+  Wörter             T 913 · Korpus 506, 666, 927 · in der Spanne
+  Absätze            T 6 · Korpus 2, 5, 8 · in der Spanne
+  Sätze              T 39,0 · Korpus 15,0, 22,5, 34,0 · über der Spanne
+  Satzlänge Median   T 24,0 · Korpus 27,0, 30,2, 31,0 · unter der Spanne
+  Sätze mit Beleg    T 66,7 % · Korpus 60,7, 74,2, 87,0 % · in der Spanne
+
+Anteile nach Primärcode (Wortanteil in %): T Konsens · T nur A · T nur B · Korpus Minimum, Median, Maximum · Lage · Befund § 5.2 (Stand B2 Fassung 2)
+  R   11,0  11,0  11,0 ·   5,3  19,1  43,0 · in der Spanne    · 10
+  T   31,8  29,8  31,8 ·   5,4  16,1  39,5 · in der Spanne    · 28
+  E    5,5   5,5   5,5 ·   7,2  18,4  39,3 · unter der Spanne · 6,8
+  K   20,7  22,7  20,7 ·   0,0   5,5  25,0 · in der Spanne    · 24
+  D   13,9  13,9  13,9 ·   0,0   0,0  28,5 · in der Spanne    · 14
+  L    6,4   6,4   6,4 ·   4,2  20,5  28,5 · in der Spanne    · 6
+  Z   10,8  10,8  10,8 ·   4,7   9,3  22,6 · in der Spanne    · 11
+
+Zugfolge (Primärgruppen zusammengefasst): R T E K T K T R E K D K L Z
+Absatzdominanz: K T T D K Z (B1a B1b B2 B3 B4 B5)
+Zugfolgen im Korpus (Befund § 2.1): Lloyd T E L K L R E K L Z | Hammami R D R E T D R E T E L T Z L Z | Beato R T E T E K T E T E K L Z | Negra R T E T E L E Z L Z | Negra R T E L Z | Aloui R T E K T E K E L Z | Liu R T E L T L K L Z | Moran R T E T L Z | Sammoud R E K R E R L T L Z | Bouafif R L T E T E K L K T D R L Z
+
+Grundfigur (Befund § 2.1, § 3, § 5.3), Konsens:
+  Einleitung endet mit Lücke → Zweck                                             Korpus 10 von 10                  T: ja
+  Zwecksatz als Folgerung markiert                                               Korpus 10 von 10                  T: ja („deshalb“, B5 S1)
+  Satz vor dem Zwecksatz ist Lücken- oder Bedeutungssatz                         Korpus 10 von 10 (8 L, 2 L2)      T: ja (B4 S6, L1)
+  Eröffnung mit Relevanz oder Problem                                            Korpus 9 von 10                   T: ja (R1)
+  Lücke und Zweck im selben Absatz                                               Korpus 8 von 10                   T: nein (letzter Lückensatz B4 S6, Zweck B5 S1)
+  Relevanz → Trainingsmittel → Lücke → Zweck nach erstem Auftreten               Korpus 7 von 10 (beide Codierungen) T: ja
+  Kontext zwischen Trainingsmittel und Lücke (erstes Auftreten)                  Korpus 4 von 10 (B: 3)            T: ja (erstes K B1a S5, erstes L B1a S6)
+  Kontext zwischen Trainingsmittel und Lücke (erster Lückensatz mit Primärcode)  Korpus Lesart zu § 2.1            T: ja (erster L-Primärsatz B4 S5)
+  Trainingsmittel im ersten oder zweiten Absatz eingeführt                       Korpus 7 von 10                   T: ja (B1a S3, Absatz 1)
+  Einführung im selben Satz begründet                                            Korpus 10 von 10                  T: ja (T1 mit E1)
+  Schluss mit Hypothese                                                          Korpus 7 von 10                   T: ja
+
+Erstes Auftreten (Konsens), relative Wortposition und Satz, Korpusmedian der Studien mit dem Code:
+  R1  T 0,00 (B1a S1)      · Korpus n= 6, Median 0,00
+  R2  T —                  · Korpus n= 9, Median 0,01
+  R3  T 0,33 (B2 S1)       · Korpus n= 3, Median 0,00
+  T1  T 0,05 (B1a S3)      · Korpus n=10, Median 0,18
+  T2  T 0,17 (B1b S1)      · Korpus n= 6, Median 0,24
+  T3  T 0,31 (B1b S7)      · Korpus n= 8, Median 0,25
+  T4  T 0,29 (B1b S6)      · Korpus n= 7, Median 0,43
+  E1  T 0,05 (B1a S3)      · Korpus n=10, Median 0,22
+  E2  T 0,50 (B2 S9)       · Korpus n= 5, Median 0,47
+  E3  T 0,08 (B1a S4)      · Korpus n= 5, Median 0,54
+  K1  T 0,72 (B4 S1)       · Korpus n= 4, Median 0,21
+  K2  T 0,33 (B2 S1)       · Korpus n= 3, Median 0,61
+  K3  T 0,11 (B1a S5)      · Korpus n= 4, Median 0,44
+  K4  T 0,83 (B4 S5)       · Korpus n= 5, Median 0,30
+  D1  T 0,58 (B3 S1)       · Korpus n= 5, Median 0,20
+  L1  T 0,13 (B1a S6)      · Korpus n=10, Median 0,58
+  L2  T 0,56 (B2 S11)      · Korpus n= 5, Median 0,65
+  Z1  T 0,89 (B5 S1)       · Korpus n=10, Median 0,91
+  Z2  T 0,93 (B5 S2)       · Korpus n= 2, Median 0,87
+  Z3  T 0,94 (B5 S3)       · Korpus n= 7, Median 0,96
+
+Vorkommen je Funktion (Primär oder Sekundär) im Textstand, Konsens · A · B · Korpus (Studien, Befund § 2.2):
+  R1  ja · ja · ja · Korpus 6 von 10 · B1a S1, B1a S2
+  R2  nein · nein · nein · Korpus 9 von 10 · —
+  R3  ja · ja · ja · Korpus 3 von 10 · B2 S1, B2 S8, B2 S9, B2 S10, B2 S11
+  T1  ja · ja · ja · Korpus 10 von 10 · B1a S3
+  T2  ja · ja · ja · Korpus 6 von 10 · B1b S1, B1b S2, B1b S3, B1b S4, B1b S5, B1b S6, B4 S2
+  T3  ja · ja · ja · Korpus 8 von 10 · B1b S7, B2 S3, B2 S6, B2 S7
+  T4  ja · ja · ja · Korpus 7 von 10 · B1b S6, B2 S2, B2 S3, B2 S4, B2 S5, B2 S6, B2 S7
+  E1  ja · ja · ja · Korpus 10 von 10 · B1a S3, B1a S5, B1b S7, B4 S4
+  E2  ja · ja · nein · Korpus 5 von 10 · B2 S9
+  E3  ja · ja · ja · Korpus 5 von 10 · B1a S4, B1a S5, B2 S9, B2 S10, B4 S4
+  K1  ja · ja · ja · Korpus 4 von 10 · B4 S1, B4 S2, B4 S3, B4 S4, B4 S5
+  K2  ja · ja · ja · Korpus 3 von 10 · B2 S1, B2 S2, B2 S11, B4 S6
+  K3  ja · ja · ja · Korpus 4 von 10 · B1a S5, B1a S6
+  K4  ja · ja · ja · Korpus 5 von 10 · B4 S5, B4 S6
+  D1  ja · ja · ja · Korpus 5 von 10 · B3 S1, B3 S2, B3 S3, B3 S4, B3 S5
+  L1  ja · ja · ja · Korpus 10 von 10 · B1a S6, B4 S5, B4 S6
+  L2  ja · ja · ja · Korpus 5 von 10 · B2 S11
+  Z1  ja · ja · ja · Korpus 10 von 10 · B5 S1
+  Z2  ja · ja · ja · Korpus 2 von 10 · B5 S2
+  Z3  ja · ja · ja · Korpus 7 von 10 · B5 S3, B5 S4
+
+Lesarten (Anteile in %, R T E K D L Z):
+  B2 S2 als K2 (Codierung A)   R 11,0 · T 29,8 · E 5,5 · K 22,7 · D 13,9 · L 6,4 · Z 10,8
+  B2 S9 als E2                 R 8,0 · T 31,8 · E 8,4 · K 20,7 · D 13,9 · L 6,4 · Z 10,8
+  B4 S4 als E1                 R 11,0 · T 31,8 · E 8,7 · K 17,5 · D 13,9 · L 6,4 · Z 10,8
+
+Satz | Wörter | Beleg | A | B | Konsens | Entscheidung
+B1a S1 | 30 | 1 | R1 | R1 | R1 | übereinstimmend
+B1a S2 | 19 | 1 | R1 | R1 | R1 | übereinstimmend
+B1a S3 | 24 | 1 | T1 (E1) | T1 (E1) | T1 (E1) | übereinstimmend
+B1a S4 | 23 | 1 | E3 | E3 (D1) | E3 | A: Die Testnamen sind Ort des Befunds, keine Aussage über Konstrukt oder Güte (Codebuch: Funktion, nicht Thema einzelner Wörter). D1 von B nicht übernommen
+B1a S5 | 27 | 1 | K3 (E1;E3) | K3 (E1;E3) | K3 (E1;E3) | übereinstimmend
+B1a S6 | 30 | 1 | K3 | K3 (L1) | K3 (L1) | B: „eine Mindestdauer lässt sich daraus nicht ableiten“ ist eine Beschränkung vorhandener Studien (Codebuch L1)
+B1b S1 | 18 | 1 | T2 (T1) | T2 | T2 | B: Eingeführt ist das Trainingsmittel in B1a S3 (Regel 1), der Satz nennt den Wirkmechanismus
+B1b S2 | 24 | 1 | T2 | T2 | T2 | übereinstimmend
+B1b S3 | 29 | 1 | T2 | T2 | T2 | übereinstimmend
+B1b S4 | 30 | 1 | T2 | T2 | T2 | übereinstimmend
+B1b S5 | 12 | 0 | T2 | T2 | T2 | übereinstimmend
+B1b S6 | 16 | 1 | T4 (T2) | T4 (T2) | T4 (T2) | übereinstimmend
+B1b S7 | 23 | 1 | T3 (E1) | T3 (E1) | T3 (E1) | übereinstimmend
+B2 S1 | 16 | 0 | K2 | K2 (R3) | K2 (R3) | B: Die Unterbrechung des Mannschaftstrainings ist die Lage, auf die die Studie antwortet (Codebuch R3)
+B2 S2 | 18 | 0 | K2 (T4) | T4 (K2) | T4 (K2) | B: Primär eine Gestaltungsanforderung an Trainingsangebote (Codebuch T4), das Setting liefert den Grund („daher“). Einzige Abweichung beim Primärcode
+B2 S3 | 19 | 0 | T3 (T4) | T3 (T4) | T3 (T4) | übereinstimmend
+B2 S4 | 14 | 0 | T4 | T4 | T4 | übereinstimmend
+B2 S5 | 21 | 1 | T4 | T4 | T4 | übereinstimmend
+B2 S6 | 21 | 1 | T4 (T3) | T4 (T3) | T4 (T3) | übereinstimmend
+B2 S7 | 21 | 0 | T3 (T4) | T3 (T4) | T3 (T4) | übereinstimmend
+B2 S8 | 24 | 1 | R3 | R3 | R3 | übereinstimmend
+B2 S9 | 27 | 1 | R3 (E2;E3) | R3 (E3;K2) | R3 (E2;E3) | A: konkret beschriebene Primärstudie (Codebuch E2, Korpus Padrón-Cabo 3.3 R3 mit E2), die Winterpause ist Rahmen, K2 steht schon in B2 S1
+B2 S10 | 27 | 1 | E3 (R3) | E3 (R3;K4) | E3 (R3) | A: „Im Kindes- und Jugendalter“ begrenzt den Geltungsbereich, der Moderator trägt die Aussage nicht (Regel 5)
+B2 S11 | 21 | 0 | K2 (L2) | K2 (R3;L2) | K2 (R3;L2) | B: „nicht zwangsläufig zu einem Leistungsverlust“ trägt das Problem (Codebuch R3)
+B3 S1 | 29 | 1 | D1 | D1 | D1 | übereinstimmend
+B3 S2 | 29 | 1 | D1 | D1 | D1 | übereinstimmend
+B3 S3 | 20 | 1 | D1 | D1 | D1 | übereinstimmend
+B3 S4 | 17 | 1 | D1 | D1 | D1 | übereinstimmend
+B3 S5 | 32 | 1 | D1 | D1 | D1 | übereinstimmend
+B4 S1 | 17 | 1 | K1 | K1 | K1 | übereinstimmend
+B4 S2 | 26 | 1 | K1 | K1 (T2) | K1 (T2) | B: Die Aussage bindet die Reifung an den DVZ, den Wirkmechanismus des Trainingsmittels (Codebuch T2)
+B4 S3 | 23 | 0 | K1 | K1 (Z2) | K1 | A: allgemeine methodische Folgerung, keine angekündigte eigene Designentscheidung (Codebuch Z2), das Design steht in B5 S2
+B4 S4 | 29 | 1 | K1 (E1;E3) | K1 (E1;E3) | K1 (E1;E3) | übereinstimmend
+B4 S5 | 31 | 1 | L1 (K4;K2) | L1 (K1;K4) | L1 (K1;K4) | B: drei Moderatoren tragen den Satz, bei höchstens zwei Sekundärcodes nach Satzfolge. K2 (Übergangsperiode) steht in der Lückenanalyse nach Anhang C
+B4 S6 | 27 | 0 | L1 | L1 (K2;K4) | L1 (K2;K4) | B: Die Dimensionen der Lücke tragen den Satz, wie im Korpus Beato 4.2 (L1 mit K2, K4), Sammoud 2.9 und Moran 3.2 (L1 mit K4)
+B5 S1 | 32 | 0 | Z1 | Z1 (L1) | Z1 | A: Im Korpus stehen Zwecksätze mit „Therefore“ oder „Thus“ ohne L1, L1 nur mit Lückeninhalt im Satz (Moran 3.4, Hilska 4.1, Asimakidis 5.1). Regel 4 greift nicht
+B5 S2 | 14 | 0 | Z2 | Z2 | Z2 | übereinstimmend
+B5 S3 | 24 | 0 | Z3 | Z3 | Z3 | übereinstimmend
+B5 S4 | 29 | 0 | Z3 | Z3 | Z3 | übereinstimmend

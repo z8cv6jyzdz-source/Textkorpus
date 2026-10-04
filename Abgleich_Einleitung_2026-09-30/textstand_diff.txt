@@ -1,0 +1,53 @@
+-  V B1a S1 (ähnlichster A-Satz B3 S2, Ähnlichkeit 0.41): Im Wettkampf von U14- bis U16-Fußballspielern aus Akademievereinen sind Beschleunigungen, Entschleunigungen und Richtungswechsel um 45 bis 135° häufig (Algroy et al., 2021; Havanecz et al., 2026; Parr et al., 2022).
+-  V B1a S2 (ähnlichster A-Satz B3 S2, Ähnlichkeit 0.84): Auf sehr hohe Geschwindigkeiten entfällt nur ein kleiner Teil der Laufstrecke (Algroy et al., 2021; Parr et al., 2022).
+=  V B1a S3  |  A B1 S1
+-  V B1a S4 (ähnlichster A-Satz B1 S7, Ähnlichkeit 0.43): Bei der Richtungswechselleistung war die Verbesserung in einer Metaanalyse nur im Illinois-Test nachweisbar, weder im Zickzack-Lauf noch im T-Test (Zheng et al., 2025).
+-  V B1a S5 (ähnlichster A-Satz B1 S6, Ähnlichkeit 0.82): In einer weiteren Metaanalyse verbesserten schon Programme bis sieben Wochen Sprint über 20 und 30 m und Sprunghöhe, die 10-m-Zeit dagegen nicht nachweisbar (Ramirez-Campillo et al., 2020).
+-  V B1a S6 (ähnlichster A-Satz B1 S1, Ähnlichkeit 0.41): Die Programme, nach denen sich alle drei Leistungen verbesserten, dauerten überwiegend sechs bis zwölf Wochen (Oliver et al., 2024; Zheng et al., 2025), eine Mindestdauer lässt sich daraus nicht ableiten.
+-  V B1b S1 (ähnlichster A-Satz B1 S2, Ähnlichkeit 0.86): Der Dehnungs-Verkürzungs-Zyklus (DVZ) stellt bei Sprung- und Hüpfbewegungen die grundlegende Muskelaktion des plyometrischen Trainings dar (Markovic & Mikulic, 2010).
++  A B1 S2 (ähnlichster V-Satz B1b S1, Ähnlichkeit 0.86): Der Dehnungs-Verkürzungs-Zyklus (DVZ), stellt bei Sprung- und Hüpfbewegungen den grundlegenden Wirkmechanismus der Trainingsform dar (Markovic & Mikulic, 2010).
+=  V B1b S2  |  A B1 S3
+-  V B1b S3 (ähnlichster A-Satz B2 S8, Ähnlichkeit 0.35): Zu dieser Mehrleistung könnten ein Kraftaufbau schon während der Dehnung, gespeicherte elastische Energie, Dehnreflexe sowie eine neuronale und kontraktile Potenzierung beitragen (Markovic & Mikulic, 2010; Radnor et al., 2018).
+-  V B1b S4 (ähnlichster A-Satz B1 S4, Ähnlichkeit 0.70): Mit Bodenkontakten unter 250 ms verläuft der DVZ im Maximalsprint schnell, mit längeren in der 180°-Wende und im Sprung mit Ausholbewegung langsam (Dos’Santos et al., 2018; Lloyd et al., 2011).
+-  V B1b S5 (ähnlichster A-Satz B1 S1, Ähnlichkeit 0.45): An Sprint-, Richtungswechsel- und Sprungleistung sind damit schneller und langsamer DVZ beteiligt.
+-  V B1b S6 (ähnlichster A-Satz B2 S5, Ähnlichkeit 0.49): Ein Programm mit Übungen beider Formen setzt an dieser gemeinsamen Muskelaktion an (Lloyd et al., 2011).
+-  V B1b S7 (ähnlichster A-Satz B1 S8, Ähnlichkeit 0.99): Plyometrische Übungen sind zudem Bestandteil mehrkomponentiger Präventionsprogramme, die in Metaanalysen zum Nachwuchssport Verletzungen verringerten (Olivier et al., 2026; Rössler et al., 2014).
++  A B1 S4 (ähnlichster V-Satz B1b S4, Ähnlichkeit 0.70): Der Maximalsprint nutzt die schnelle Form mit Bodenkontakten unter 250 ms, die 180°-Wende und der Sprung mit Ausholbewegung die langsame (Dos’Santos et al., 2018; Lloyd et al., 2011).
++  A B1 S5 (ähnlichster V-Satz B1b S6, Ähnlichkeit 0.43): Das Training setzt damit an einer Muskelaktion an, die allen drei Leistungen gemeinsam ist.
++  A B1 S6 (ähnlichster V-Satz B1a S5, Ähnlichkeit 0.82): Auch Programme bis sieben Wochen verbesserten Sprint über 20 und 30 m und Sprunghöhe, die 10-m-Zeit dagegen nicht nachweisbar (Ramirez-Campillo et al., 2020).
++  A B1 S7 (ähnlichster V-Satz B1b S7, Ähnlichkeit 0.45): Der Sprunghöheneffekt von Programmen unter 7,5 Wochen war in einer älteren Metaanalyse zu Nachwuchsathleten nachweisbar, wenn auch kleiner als bei längeren Programmen (Moran et al., 2017).
++  A B1 S8 (ähnlichster V-Satz B1b S7, Ähnlichkeit 0.99): Plyometrische Übungen sind zudem Bestandteil mehrkomponentiger Präventionsprogramme, die in Metaanalysen zum Nachwuchssport Verletzungen verringerten und (Olivier et al., 2026; Rössler et al., 2014).
+=  V B2 S1  |  A B2 S1
+=  V B2 S2  |  A B2 S2
+=  V B2 S3  |  A B2 S3
+=  V B2 S4  |  A B2 S4
+=  V B2 S5  |  A B2 S5
+=  V B2 S6  |  A B2 S6
+=  V B2 S7  |  A B2 S7
+=  V B2 S8  |  A B2 S8
+=  V B2 S9  |  A B2 S9
+=  V B2 S10  |  A B2 S10
+=  V B2 S11  |  A B2 S11
+-  V B3 S1 (ähnlichster A-Satz B3 S3, Ähnlichkeit 0.86): Im Sprint entscheidet in der Beschleunigungsphase vor allem die horizontale Ausrichtung der Bodenreaktionskraft, in der Phase maximaler Geschwindigkeit eine hohe vertikale Kraft in kurzen Bodenkontakten (Hicks et al., 2020).
++  A B3 S1 (ähnlichster V-Satz B1a S3, Ähnlichkeit 0.36): Spielanalysen zufolge beschleunigen und entschleunigen Nachwuchsfußballspieler im Wettkampf häufig und intensiv.
++  A B3 S2 (ähnlichster V-Satz B1a S2, Ähnlichkeit 0.84): Dabei werden sehr hohe Geschwindigkeiten nur auf einem kleinen Teil der Laufstrecke erreicht (Algroy et al., 2021; Parr et al., 2022).
++  A B3 S3 (ähnlichster V-Satz B3 S1, Ähnlichkeit 0.86): Beim Beschleunigen entscheidet vor allem die horizontale Ausrichtung der Bodenreaktionskraft, bei maximaler Geschwindigkeit eine hohe vertikale Kraft in kurzen Bodenkontakten (Hicks et al., 2020).
+=  V B3 S2  |  A B3 S4
+=  V B3 S3  |  A B3 S5
+=  V B3 S4  |  A B3 S6
+-  V B3 S5 (ähnlichster A-Satz B3 S7, Ähnlichkeit 0.88): Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliabel (Dugdale et al., 2019; Ferguson et al., 2024).
+-  V B4 S1 (ähnlichster A-Satz B4 S1, Ähnlichkeit 0.70): Spieler der U15 befinden sich häufig in der Phase um den Wachstumsgipfel.
+-  V B4 S2 (ähnlichster A-Satz B3 S6, Ähnlichkeit 0.37): In einer britischen Längsschnittstudie erreichten Jungen ihn im Mittel mit 14 Jahren, bei einer Spanne von 12 bis 16 Jahren (Tanner et al., 1966).
+-  V B4 S3 (ähnlichster A-Satz B4 S2, Ähnlichkeit 0.81): Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training (Radnor et al., 2018).
++  A B3 S7 (ähnlichster V-Satz B3 S5, Ähnlichkeit 0.88): Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliable und valide feldbasierte Leistungsdiagnostiktests (Dugdale et al., 2019; Ferguson et al., 2024).
++  A B4 S1 (ähnlichster V-Satz B4 S1, Ähnlichkeit 0.70): In dieser Altersspanne befinden sich jugendliche häufig in der Phase um den Wachstumsgipfel (Tanner et al., 1966).
++  A B4 S2 (ähnlichster V-Satz B4 S3, Ähnlichkeit 0.81): Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Leistung während des DVZ und infolgedessen die Sprint- und Sprungleistung von Kindern und Jugendlichen (Radnor et al., 2018).
+=  V B4 S4  |  A B4 S3
+=  V B4 S5  |  A B4 S4
+=  V B4 S6  |  A B4 S5
+=  V B4 S7  |  A B4 S6
+-  V B5 S1 (ähnlichster A-Satz B6 S1, Ähnlichkeit 0.99): Ziel der Studie war es deshalb zu prüfen, ob ein sechswöchiges videobasiertes, gerätefreies plyometrisches Heimtrainingsprogramm in der Sommerpause die Sprint-, Richtungswechsel- und Sprungleistung männlicher U15-Fußballspieler des leistungsorientierten Breitensports gegenüber einer Kontrollgruppe verbessert.
++  A B6 S1 (ähnlichster V-Satz B5 S1, Ähnlichkeit 0.99): Ziel der Studie war es zu prüfen, ob ein sechswöchiges videobasiertes, gerätefreies plyometrisches Heimtrainingsprogramm in der Sommerpause die Sprint-, Richtungswechsel- und Sprungleistung männlicher U15-Fußballspieler des leistungsorientierten Breitensports gegenüber einer Kontrollgruppe verbessert.
+=  V B5 S2  |  A B6 S2
+=  V B5 S3  |  A B6 S3
+=  V B5 S4  |  A B6 S4

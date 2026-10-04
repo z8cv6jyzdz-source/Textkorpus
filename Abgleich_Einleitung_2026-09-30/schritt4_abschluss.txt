@@ -1,0 +1,101 @@
+Schritt 4, Abschluss (30.09.2026): Einleitung im freigegebenen Wortlaut, neu codiert und gemessen
+Freigaben: B1b 18:02 (P1, P9) · B3 18:46 (P2, S5 ohne Ferguson et al., 2024) · B4 19:45 (P3b, P4c) · B1a, B2, B5 wortgleich (Assertionen)
+
+Umfang: T (Textstand) · freigegebener Stand · Korpus 10 Kern-RCTs Minimum, Median, Maximum · Lage des freigegebenen Stands
+  Wörter             T 913 · neu 930 · Korpus 506, 666, 927 · über der Spanne
+  Absätze            T 6 · neu 6 · Korpus 2, 5, 8 · in der Spanne
+  Sätze              T 39 · neu 40 · Korpus 15, 22, 34 · über der Spanne
+  Satzlänge Median   T 24,0 · neu 24,0 · Korpus 27,0, 30,2, 31,0 · unter der Spanne
+  Sätze mit Beleg    T 66,7 % · neu 65,0 % · Korpus 60,7, 74,2, 87,0 % · in der Spanne
+
+Anteile nach Primärcode (Wortanteil in %): T · neu · Korpus Minimum, Median, Maximum · Lage neu
+  R   11,0  10,8 ·   5,3  19,1  43,0 · in der Spanne
+  T   31,8  31,2 ·   5,4  16,1  39,5 · in der Spanne
+  E    5,5   5,4 ·   7,2  18,4  39,3 · unter der Spanne
+  K   20,7  22,8 ·   0,0   5,5  25,0 · in der Spanne
+  D   13,9  13,0 ·   0,0   0,0  28,5 · in der Spanne
+  L    6,4   6,2 ·   4,2  20,5  28,5 · in der Spanne
+  Z   10,8  10,6 ·   4,7   9,3  22,6 · in der Spanne
+
+Zugfolge T:   R T E K T K T R E K D K L Z
+Zugfolge neu: R T E K T K T R E K D K L Z
+Absatzdominanz T: K T T D K Z · neu: K T T D K Z (B1a B1b B2 B3 B4 B5)
+
+Grundfigur (Befund Argumentationsstruktur § 2.1, § 3, § 5.3): Korpus · T · neu
+  Einleitung endet mit Lücke → Zweck                                 Korpus 10 von 10        T: ja                                           neu: ja
+  Zwecksatz als Folgerung markiert                                   Korpus 10 von 10        T: ja                                           neu: ja
+  Satz vor dem Zwecksatz ist Lücken- oder Bedeutungssatz             Korpus 10 von 10        T: ja (B4 S6, L1)                               neu: ja (B4 S7, L1)
+  Eröffnung mit Relevanz oder Problem                                Korpus 9 von 10         T: ja (R1)                                      neu: ja (R1)
+  Lücke und Zweck im selben Absatz                                   Korpus 8 von 10         T: nein (letzter Lückensatz B4 S6, Zweck B5 S1) neu: nein (letzter Lückensatz B4 S7, Zweck B5 S1)
+  Relevanz → Trainingsmittel → Lücke → Zweck nach erstem Auftreten   Korpus 7 von 10         T: ja                                           neu: ja
+  Kontext zwischen Trainingsmittel und Lücke (erstes Auftreten)      Korpus 4 von 10         T: ja (erstes K B1a S5, erstes L B1a S6)        neu: ja (erstes K B1a S5, erstes L B1a S6)
+  Kontext zwischen Trainingsmittel und Lücke (erster L-Primärsatz)   Korpus Lesart zu § 2.1  T: ja (B4 S5)                                   neu: ja (B4 S6)
+  Trainingsmittel im ersten oder zweiten Absatz eingeführt           Korpus 7 von 10         T: ja (B1a S3)                                  neu: ja (B1a S3)
+  Einführung im selben Satz begründet                                Korpus 10 von 10        T: ja (T1 mit E1)                               neu: ja (T1 mit E1)
+  Schluss mit Hypothese                                              Korpus 7 von 10         T: ja                                           neu: ja
+
+Erstes Auftreten (relative Wortposition und Satz): T · neu · Korpusmedian der Studien mit dem Code
+  R1  T 0,00 (B1a S1)    · neu 0,00 (B1a S1)    · Korpus n= 6, Median 0,00
+  R2  T —                · neu —                · Korpus n= 9, Median 0,01
+  R3  T 0,33 (B2 S1)     · neu 0,33 (B2 S1)     · Korpus n= 3, Median 0,00
+  T1  T 0,05 (B1a S3)    · neu 0,05 (B1a S3)    · Korpus n=10, Median 0,18
+  T2  T 0,17 (B1b S1)    · neu 0,16 (B1b S1)    · Korpus n= 6, Median 0,24
+  T3  T 0,31 (B1b S7)    · neu 0,30 (B1b S7)    · Korpus n= 8, Median 0,25
+  T4  T 0,29 (B1b S6)    · neu 0,29 (B1b S6)    · Korpus n= 7, Median 0,43
+  E1  T 0,05 (B1a S3)    · neu 0,05 (B1a S3)    · Korpus n=10, Median 0,22
+  E2  T 0,50 (B2 S9)     · neu 0,49 (B2 S9)     · Korpus n= 5, Median 0,47
+  E3  T 0,08 (B1a S4)    · neu 0,08 (B1a S4)    · Korpus n= 5, Median 0,54
+  K1  T 0,72 (B4 S1)     · neu 0,70 (B4 S1)     · Korpus n= 4, Median 0,21
+  K2  T 0,33 (B2 S1)     · neu 0,33 (B2 S1)     · Korpus n= 3, Median 0,61
+  K3  T 0,11 (B1a S5)    · neu 0,10 (B1a S5)    · Korpus n= 4, Median 0,44
+  K4  T 0,83 (B4 S5)     · neu 0,83 (B4 S6)     · Korpus n= 5, Median 0,30
+  D1  T 0,58 (B3 S1)     · neu 0,57 (B3 S1)     · Korpus n= 5, Median 0,20
+  L1  T 0,13 (B1a S6)    · neu 0,13 (B1a S6)    · Korpus n=10, Median 0,58
+  L2  T 0,56 (B2 S11)    · neu 0,55 (B2 S11)    · Korpus n= 5, Median 0,65
+  Z1  T 0,89 (B5 S1)     · neu 0,89 (B5 S1)     · Korpus n=10, Median 0,91
+  Z2  T 0,93 (B5 S2)     · neu 0,93 (B5 S2)     · Korpus n= 2, Median 0,87
+  Z3  T 0,94 (B5 S3)     · neu 0,94 (B5 S3)     · Korpus n= 7, Median 0,96
+
+Vorkommen (Primär oder Sekundär): Funktionen, die zwischen T und neu wechseln: keine
+
+Satz | Wörter | Beleg | Code (neu) | geändert gegenüber T
+B1a S1 | 30 | 1 | R1 | —
+B1a S2 | 19 | 1 | R1 | —
+B1a S3 | 24 | 1 | T1 (E1) | —
+B1a S4 | 23 | 1 | E3 | —
+B1a S5 | 27 | 1 | K3 (E1, E3) | —
+B1a S6 | 30 | 1 | K3 (L1) | —
+B1b S1 | 19 | 1 | T2 | P1
+B1b S2 | 24 | 1 | T2 | —
+B1b S3 | 29 | 1 | T2 | —
+B1b S4 | 30 | 1 | T2 | —
+B1b S5 | 12 | 0 | T2 | —
+B1b S6 | 16 | 1 | T4 (T2) | —
+B1b S7 | 22 | 1 | T3 (E1) | P9
+B2 S1 | 16 | 0 | K2 (R3) | —
+B2 S2 | 18 | 0 | T4 (K2) | —
+B2 S3 | 19 | 0 | T3 (T4) | —
+B2 S4 | 14 | 0 | T4 | —
+B2 S5 | 21 | 1 | T4 | —
+B2 S6 | 21 | 1 | T4 (T3) | —
+B2 S7 | 21 | 0 | T3 (T4) | —
+B2 S8 | 24 | 1 | R3 | —
+B2 S9 | 27 | 1 | R3 (E2, E3) | —
+B2 S10 | 27 | 1 | E3 (R3) | —
+B2 S11 | 21 | 0 | K2 (R3, L2) | —
+B3 S1 | 29 | 1 | D1 | —
+B3 S2 | 29 | 1 | D1 | —
+B3 S3 | 20 | 1 | D1 | —
+B3 S4 | 17 | 1 | D1 | —
+B3 S5 | 26 | 1 | D1 | P2 und Klick § 2.7 a
+B4 S1 | 12 | 0 | K1 | P3b (ersetzt T S1)
+B4 S2 | 24 | 1 | K1 (E2) | P3b (neu, Beleg aus T S1)
+B4 S3 | 30 | 1 | K1 (T2) | P4c (T S2)
+B4 S4 | 23 | 0 | K1 | —
+B4 S5 | 29 | 1 | K1 (E1, E3) | —
+B4 S6 | 31 | 1 | L1 (K1, K4) | —
+B4 S7 | 27 | 0 | L1 (K2, K4) | —
+B5 S1 | 32 | 0 | Z1 | —
+B5 S2 | 14 | 0 | Z2 | —
+B5 S3 | 24 | 0 | Z3 | —
+B5 S4 | 29 | 0 | Z3 | —

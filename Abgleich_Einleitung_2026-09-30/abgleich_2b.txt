@@ -1,0 +1,7 @@
+Schritt 2 (b), Messungen am Textstand T (30.09.2026)
+Adverbiale Konnektoren (Liste: daher, deshalb, damit, dagegen, zudem, dazu, somit, folglich, jedoch, allerdings, außerdem, ferner, hingegen, infolgedessen, dennoch, trotzdem, zugleich):
+  B1a S5 dagegen · B1b S5 damit · B1b S7 zudem · B2 S2 daher · B2 S11 damit · B4 S2 infolgedessen · B4 S3 deshalb · B4 S4 dagegen · B5 S1 deshalb · B5 S2 dazu
+  10 in 39 Sätzen, Grenze nach Stilprofil (höchstens einer je drei Sätze) 13
+Zahlen im Fließtext ohne Belegklammern: B1a 45, 135 (Grad), 20, 30, 10 (m) · B1b 250 (ms), 180 (Grad) · B2 15 (Tage) · B3 10, 15, 40 (m), 505 (Testname) · B4 keine · B5 keine
+  dazu in Worten: sieben Wochen, sechs bis zwölf Wochen, U14 bis U16, U15, sechswöchig (Programmangabe). Keine Effektstärke, keine eigene Studienzahl.
+Wörter: B1b S1 bis S6 129 · B4 S1 bis S4 95 · B2 S8 bis S10 78 (8,5 % von 913) · R1 49 (5,4 %) · R3 als Primärcode 51 (5,6 %)
