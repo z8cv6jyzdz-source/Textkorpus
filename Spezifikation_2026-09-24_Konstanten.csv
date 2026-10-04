@@ -1,0 +1,61 @@
+name,wert,einheit,schritt,bedeutung,quelle,fundstelle,status
+ZOLL_IN_CM,2.54,cm je in,S05,"Umrechnung Zoll in Zentimeter, exakt",NIST SP 811 (2008),"Anhang B.8 (fett = exakt, Anhang B.2)",nachträglich (K3)
+PFUND_IN_KG,0.45359237,kg je lb,S05,"Umrechnung Pfund (avoirdupois) in Kilogramm, exakt",NIST SP 811 (2008),Anhang B.8 mit Fußnote 22,nachträglich (K3)
+JAHR_IN_TAGEN,365.25,d,S05 (Phase 1),Teiler für das Dezimalalter aus der Tagesdifferenz,Festlegung K1,–,nachträglich (K1)
+KR_ALTER_MIN,4.0,Jahre,S05,untere Grenze des Gültigkeitsbereichs,Khamis & Roche (1994),S. 506 und Tab. 1 S. 505,Antrag
+KR_ALTER_MAX,17.5,Jahre,S05,obere Grenze des Gültigkeitsbereichs,Khamis & Roche (1994),S. 506 und Tab. 1 S. 505,Antrag
+KR_RASTER,0.5,Jahre,S05,"Abstand der Tabellenzeilen, Grundlage der Interpolation",Khamis & Roche (1994),Tab. 1 S. 505,nachträglich (O2)
+KR_TABELLE,Tab. 1 White Males,–,S05,"Koeffiziententabelle, Anlage _Koeffizienten_KR.csv",Khamis & Roche (1994),Tab. 1 S. 505,nachträglich (O1)
+PROZENT_FAKTOR,100,1,"S05, S07, S10",Umrechnung eines Anteils in Prozent,Definition,–,Antrag
+SPRINT_DISTANZEN,5 10 30,m,S02,Distanzen der Sprintteilzeiten,"Antrag § 3, PA § 11.8",–,Antrag
+V_MAX,10.0,m/s,S02,"höchste zulässige Abschnittsgeschwindigkeit, darüber auslösegestört","Auswertungsplan § 2 B0.2, PA § 11.8",–,Plan 12.09.
+DT_MIN,0,s,S02,"Abschnittszeit muss größer sein, sonst auslösegestört","Auswertungsplan § 2 B0.2, PA § 11.8",–,Plan 12.09.
+VERSUCHE_JE_TEST,3,1,"S01, S04, S11","Protokollvorgabe Versuche je Spieler, Zeitpunkt und Test","Antrag § 3, PA § 3.1",–,Antrag
+EINHEITEN_ANGEBOTEN,12,Einheiten,"S07, S08","angebotene Einheiten je Spieler, Nenner der Adhärenz","PA § 3.1, FA § 4",–,Plan 12.09.
+WOCHENDECKEL,2,Einheiten je Woche,S07,höchstens gezählte Einheiten je Programmwoche (WOCAP) und Soll je Woche,"FA § 3, PA § 3.1",–,Plan 12.09.
+W1_BEGINN,2026-07-20 00:00:00,Zeitpunkt,S06,"Beginn Programmwoche 1 (Montag), jede weitere Woche 7 Tage später",FA § 2,–,Plan 12.09.
+W6_ENDE,2026-08-30 23:59:59,Zeitpunkt,S06,Ende Programmwoche 6 (Sonntag),FA § 2,–,Plan 12.09.
+VIDEO_UHRZEIT,20:00,Uhrzeit,"S06, S07","Veröffentlichung des Wochenvideos sonntags, Beginn des Fensters",FA § 2,–,Plan 12.09.
+VIDEO_W1,2026-07-19 20:00:00,Zeitpunkt,"S06, S07","Veröffentlichung des Videos der Woche 1, jede weitere Woche 7 Tage später",FA § 2,–,"Plan 12.09., P3 nachträglich"
+DUBLETTE_ABSTAND,5,min,S06,höchster Abstand eines Dubletten- oder Sammelmeldungspaars,FA § 1,–,Plan 12.09.
+CR10_VERSATZ,1,1,S06,CR-10 = H005 − 1,"Codebuch, FA Anhang A",–,Plan 12.09.
+DAUER_W1,37:09,min:s,S07,Sitzungsdauer der Programmwoche 1 (Wochenvideo plus Aufwärmvideo),FA § 5,Tab. 12,"Plan 12.09., K10 nachträglich"
+DAUER_W2,36:55,min:s,S07,Sitzungsdauer der Programmwoche 2 (Wochenvideo plus Aufwärmvideo),FA § 5,Tab. 12,"Plan 12.09., K10 nachträglich"
+DAUER_W3,33:10,min:s,S07,Sitzungsdauer der Programmwoche 3 (Wochenvideo plus Aufwärmvideo),FA § 5,Tab. 12,"Plan 12.09., K10 nachträglich"
+DAUER_W4,34:48,min:s,S07,Sitzungsdauer der Programmwoche 4 (Wochenvideo plus Aufwärmvideo),FA § 5,Tab. 12,"Plan 12.09., K10 nachträglich"
+DAUER_W5,39:56,min:s,S07,Sitzungsdauer der Programmwoche 5 (Wochenvideo plus Aufwärmvideo),FA § 5,Tab. 12,"Plan 12.09., K10 nachträglich"
+DAUER_W6,40:07,min:s,S07,Sitzungsdauer der Programmwoche 6 (Wochenvideo plus Aufwärmvideo),FA § 5,Tab. 12,"Plan 12.09., K10 nachträglich"
+INTERVALL_GRENZE_1,24,h,S07,Grenze der Meldeintervalle,"FA § 2, PA § 3.1",–,Plan 12.09.
+INTERVALL_GRENZE_2,48,h,S07,"Grenze der Meldeintervalle, schriftlich vorgegebener Mindestabstand","FA § 2, PA § 3.1",–,Plan 12.09.
+TIME_SUM_GRENZE,30,s,S07,Grenze kurzer Bearbeitungsdauer,FA § 8,–,Plan 12.09.
+TAGESZEIT_GRENZEN,06:00 12:00 18:00,Uhrzeit,S07,Grenzen der vier Tageszeitbänder,FA § 2,–,Plan 12.09.
+MANNSCHAFTSTRAINING_VA,2026-08-03,Datum,S07,"Beginn Mannschaftstraining Verein A, Block AB ab W3",FA § 4.4,–,Plan 12.09.
+MANNSCHAFTSTRAINING_VB,2026-08-10,Datum,S07,"Beginn Mannschaftstraining Verein B, Block AB ab W4",FA § 4.4,–,Plan 12.09.
+EXPLORATIV_SCHWELLE,6,Einheiten,S07,Teilung x unter 6 und ab 6,FA § 9,–,Plan 12.09.
+FISHER_N_MIN,4,1,S07,kleinstes n für das Fisher-KI (n − 3 > 0),Formel des Fisher-KI,–,nachträglich (P1)
+R_N_MIN,3,1,S09,kleinstes n für r und p (df = n − 2 > 0),Formel des t-Tests für r,–,nachträglich (K28)
+PP_SCHWELLE_HAUPT,6,Einheiten,"S08, S16","Mindestdosis Per-Protokoll, festgelegt 11.09.2026",PA § 11.7,–,Plan 12.09.
+PP_SCHWELLEN_SENSITIV,5 7,Einheiten,"S08, S17",Per-Protokoll-Schwellen der Sensitivitätsanalyse,"PA § 11.5, § 11.7",–,Plan 12.09.
+AK_SCHWELLE,9,Einheiten,"S08, S16","Antragskriterium, 75 % von 12 Einheiten","Antrag § 8, PA § 11.7",–,Antrag
+N_MIN_JE_GRUPPE,8,1,S08,"Fallzahlregel, kleinste Gruppengröße für Inferenz",PA § 11.9,–,Plan 12.09.
+ALPHA,0.05,1,"S09, S13, S14, S18","Signifikanzniveau, zweiseitig","Antrag § 1, PA § 11.4",–,Antrag
+KI_NIVEAU,0.95,1,alle,Niveau aller Konfidenzintervalle,"PA § 11.2, § 11.4",–,Plan 12.09.
+POWER_ZIEL,0.80,1,S18,Zielpower der Sensitivitäts-Poweranalyse,PA § 11.1,–,Plan 12.09.
+SESOI_FAKTOR,0.2,1,"S10, S11, S18","SESOI = 0,2 · Zwischen-Athleten-SD","PA § 11.3, Hopkins (2000), Cohen (1988)","Hopkins S. 8, Cohen S. 25",Plan 12.09.
+MDC_FAKTOR,1.96,1,S10,"MDC = TE · 1,96 · √2",PA § 11.3,–,Plan 12.09. (K14)
+J_FORMEL,1 − 3/(4·df_g − 1),1,S15,Korrekturfaktor J mit df_g = n_IG + n_KG − 2,Lakens (2013),Formel 4,nachträglich (O3)
+D_ERWARTUNG_D006,0.06,SD-Einheiten,S18,"Vorab-Erwartung 10-m-Beschleunigung, plyometrische Gruppe nach PHV, innerhalb der Gruppe",Lloyd et al. (2016),Tab. 4 S. 1243,Plan 12.09.
+D_ERWARTUNG_D011,0.11,SD-Einheiten,S18,"Vorab-Erwartung 10 m, höchstens 14 Einheiten",Ramirez-Campillo et al. (2020),Abschn. 3.5,Plan 12.09.
+D_ERWARTUNG_D037,0.37,SD-Einheiten,S18,"Vorab-Erwartung CMJ, weniger als 14,5 Einheiten",Moran et al. (2016),Tab. 4,Plan 12.09.
+D_ERWARTUNG_D093,0.93,SD-Einheiten,S18,"Vorab-Erwartung 10 m, mehr als 14 Einheiten",Ramirez-Campillo et al. (2020),Abschn. 3.5,Plan 12.09.
+NULLSTELLE_INTERVALL,0 10,SD-Einheiten,S18,Suchintervall für d*,Festlegung O9,–,nachträglich (O9)
+NULLSTELLE_TOLERANZ,1e-10,1,S18,absolute Toleranz der Nullstellensuche,Rechenkonvention 0.5 Nr. 9,–,nachträglich (O9)
+BOOT_B,10000,1,S19,Zahl der Bootstrap-Ziehungen,Festlegung O8,–,nachträglich (O8)
+BOOT_STARTWERT,20260924,1,S19,Startwert des Zufallszahlengenerators,Festlegung O8,–,nachträglich (O8)
+BOOT_BLOECKE,20,1,S19,Zahl der Blöcke für den Monte-Carlo-Fehler,Festlegung Toleranz 24.09.2026,–,nachträglich
+ABGLEICH_FAKTOR,3,1,"S19, G.3",Vielfaches des kombinierten MC-SE beim Abgleich,Festlegung Toleranz 24.09.2026,–,nachträglich
+QUANTIL_TYP,7,1,0.5 Nr. 7,Quantildefinition nach Formel in 0.5 Nr. 7,Rechenkonvention,–,nachträglich
+STELLEN_AUSGABE,12,1,G.1,mindestens ausgegebene signifikante Stellen,Rechenkonvention 0.5 Nr. 1,–,nachträglich
+TOL_DETERMINISTISCH,1e-9,1,G.3,"Toleranz |a − b| ≤ 1e-9 · max(1, |a|)",Festlegung Toleranz 24.09.2026,–,nachträglich
+TOL_ITERATIV,1e-6,1,G.3,relative Toleranz iterativer Rechnungen,Festlegung Toleranz 24.09.2026,–,nachträglich
+TOL_NIST_STELLEN,9,1,"G.2, G.3",mindestens übereinstimmende signifikante Stellen bei NIST-Zertifikatswerten,Festlegung Toleranz 24.09.2026,–,nachträglich

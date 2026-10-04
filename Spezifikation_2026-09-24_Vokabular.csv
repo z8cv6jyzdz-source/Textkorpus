@@ -1,0 +1,8 @@
+bemerkung_exakt,kategorie,bedeutung,quelle
+System nicht aufgenommen,TECH,technischer Ausfall der Lichtschranke,"PA § 3.1, Versuchszahl-Protokollbefund § 3"
+Nur 2 Versuche aus Zeitmangel,ZEIT,dritter Versuch aus Zeitmangel nicht durchgeführt,"PA § 3.1, Versuchszahl-Protokollbefund § 3"
+Linie nicht getroffen,FEHL,nicht wiederholbarer Fehlversuch,"PA § 3.1, Versuchszahl-Protokollbefund § 3"
+Kein fester Stand,FEHL,nicht wiederholbarer Fehlversuch,"PA § 3.1, Versuchszahl-Protokollbefund § 3"
+Fehlversuch,FEHL,nicht wiederholbarer Fehlversuch,"PA § 3.1, Versuchszahl-Protokollbefund § 3"
+Fehversuch,FEHL,Schreibvariante von Fehlversuch,Auswertungsplan § 2 B0.4
+System falsch aufgenommen,FALSCH,Lichtschranke falsch aufgenommen,PA § 3.1
