@@ -1,0 +1,47 @@
+ABGLEICHPROTOKOLL Phase 6.1 (Abgleich je Kennung nach Spezifikation Teil G.3)
+Datum: 2026-09-25 11:27:54
+Datei 1 (a): ../ausgabe_python_f2/Ergebnisse_Python_2026-09-25.csv, Kennungen 3559
+Datei 2 (b): ../Blindrechnung_R_2026-09-24/Abgabe_R_2026-09-25/Ergebnisse_R_2026-09-25.csv, Kennungen 3559
+Gemeinsame Kennungen: 3559, nur in Datei 1: 0, nur in Datei 2: 0
+
+Urteile je Klasse (bestanden / Abweichung / nachrichtlich):
+  EXAKT       1801 Kennungen: bestanden  1801, Abweichung     0, nachrichtlich     0
+  DETERM      1714 Kennungen: bestanden  1714, Abweichung     0, nachrichtlich     0
+  ITERATIV      23 Kennungen: bestanden    23, Abweichung     0, nachrichtlich     0
+  ZUFALL         6 Kennungen: bestanden     6, Abweichung     0, nachrichtlich     0
+  NACHRICHT     15 Kennungen: bestanden     0, Abweichung     0, nachrichtlich    15
+
+Urteile je Schritt:
+  S01      8 Kennungen: Abweichungen    0
+  S02     14 Kennungen: Abweichungen    0
+  S03    132 Kennungen: Abweichungen    0
+  S04   1240 Kennungen: Abweichungen    0
+  S05     95 Kennungen: Abweichungen    0
+  S06     25 Kennungen: Abweichungen    0
+  S07    154 Kennungen: Abweichungen    0
+  S08    824 Kennungen: Abweichungen    0
+  S09     24 Kennungen: Abweichungen    0
+  S10    238 Kennungen: Abweichungen    0
+  S11     36 Kennungen: Abweichungen    0
+  S12    170 Kennungen: Abweichungen    0
+  S13     86 Kennungen: Abweichungen    0
+  S14    120 Kennungen: Abweichungen    0
+  S15     48 Kennungen: Abweichungen    0
+  S16     48 Kennungen: Abweichungen    0
+  S17    246 Kennungen: Abweichungen    0
+  S18     30 Kennungen: Abweichungen    0
+  S19     21 Kennungen: Abweichungen    0
+
+Größte relative Abweichungen der bestandenen deterministischen Kennungen (nachrichtlich):
+  S14.SWW.CM.PRE.BPAHIG.X                       relativ 2.67e-10
+  S14.SWW.CM.X.ITT.HAUPT                        relativ 1.67e-10
+  S14.SWW.Z30.X.ITT.HAUPT                       relativ 1.19e-10
+  S14.SWW.SBJ.X.ITT.HAUPT                       relativ 1.15e-10
+  S14.SWW.Z30.PRE.BPAHKG.X                      relativ 6.43e-11
+  S14.SWW.SBJ.PRE.BPAHIG.X                      relativ 3.67e-11
+  S14.SWW.CM.PRE.BPAHKG.X                       relativ 2.31e-11
+  S14.SWW.SBJ.PRE.BPAHKG.X                      relativ 1.23e-11
+  S14.SWW.Z30.PRE.BPAHIG.X                      relativ 5.97e-12
+  S13.SEAMIG.SBJ.X.ITT.HAUPT                    relativ 1.41e-13
+
+Urteil: bestanden. Keine Abweichung außerhalb der Toleranzen von G.3.
