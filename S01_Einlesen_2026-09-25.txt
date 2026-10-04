@@ -1,0 +1,61 @@
+=====================================================================
+Skript:   S01_Einlesen_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Einlesen, Prüfsummen und Strukturprüfung des Datenstands
+Schritt:  S01
+Aufruf:   Rscript S01_Einlesen_2026-09-25.R
+Start:    2026-09-25 09:15:23 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Versuchsdaten.csv  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+  Pruefsummen.txt  a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b
+  Spezifikation_2026-09-24_Vokabular.csv  7afaa01d82dc9f5ca10534a09f916dca5475842caa32e71aad866ba43612860f
+  Spezifikation_2026-09-24_Kennungen.csv  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+=====================================================================
+
+Regel 1: SHA-256 gegen Pruefsummen.txt
+  Versuchsdaten.csv            Soll 429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+                               Ist  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba  stimmt
+  Personendaten.csv            Soll acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+                               Ist  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef  stimmt
+  Fragebogen_A.csv             Soll 5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+                               Ist  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4  stimmt
+  Zuordnung_Fragebogen.csv     Soll f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+                               Ist  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa  stimmt
+  Listenplatz_IG.csv           Soll 2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+                               Ist  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8  stimmt
+  Datenwoerterbuch.md          Soll 07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+                               Ist  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6  stimmt
+Alle Prüfsummen des Datenstands stimmen.
+
+Regel 3: Personendaten
+  Personendaten geprüft: 31 Zeilen
+
+Regel 2: Versuchsdaten
+  Versuchsdaten geprüft: 1116 Zeilen
+
+Regel 4: Fragebogen
+  Fragebogen geprüft: 111 Zeilen
+
+Zuordnungstabelle und Listenplatz
+  Zuordnung geprüft: 22 Listenlabels, 17 mit Analysecode
+  Listenplatz_IG geprüft: 18 IG-Spieler, davon ohne Listenplatz: 1
+Vollständigkeit der Kennungen geprüft: 8 Kennungen wie in der Anlage.
+
+Ergebnisregister S01: 8 Kennungen, davon fehlend mit Grund: 0
+
+Kennung | Wert | Grund
+S01.N.X.X.ALL.X | 31 | 
+S01.N.X.X.IG.X | 18 | 
+S01.N.X.X.KG.X | 13 | 
+S01.N.X.X.VA.X | 7 | 
+S01.N.X.X.VB.X | 11 | 
+S01.N.X.X.VC.X | 13 | 
+S01.NZEIL.X.X.ALL.X | 1116 | 
+S01.NMELD.FB.X.ALL.X | 111 | 
+Ende: 2026-09-25 09:15:33 UTC

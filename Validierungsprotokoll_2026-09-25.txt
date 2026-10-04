@@ -1,0 +1,275 @@
+VALIDIERUNGSPROTOKOLL der Blindrechnung in R (Phase 4)
+Datum: 2026-09-25 09:19:02 UTC
+Teil a: Referenztests R01 bis R13 (Spezifikation Teil G.2) mit den Anlagen _Referenzdaten.csv und _Referenzdaten_Daten.csv.
+Teil b: Grenzfälle mit konstruierten Kleindatensätzen, Sollwerte von Hand ausgeschrieben im Skript Grenzfaelle_2026-09-25.R.
+Beide Teile rechnen mit denselben Funktionen (Funktionen_2026-09-25.R) wie die Schritte S01 bis S19.
+Urteil je Zeile: bestanden 1, nicht bestanden 0. Die Kette läuft nur weiter, wenn alle Zeilen bestanden sind.
+
+===== Teil a: Referenztests (Ausgabe von Referenztests_2026-09-25.R) =====
+=====================================================================
+Skript:   Referenztests_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Referenztests R01 bis R13 mit veröffentlichten Sollwerten
+Schritt:  Teil G.2 (Phase 4.1)
+Aufruf:   Rscript Referenztests_2026-09-25.R
+Start:    2026-09-25 09:15:12 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Spezifikation_2026-09-24_Referenzdaten.csv._Referenzdaten.csv  5fcd4f50130cffe0271074af537d2430346e76191282ebe67dfac2e517c1bb88
+  Spezifikation_2026-09-24_Referenzdaten_Daten.csv._Referenzdaten_Daten.csv  a6003700cf923646cf9341c866637fe227995543ce9096b458a5c4a45f662ac7
+=====================================================================
+
+Nachträge zur Toleranz (Verfasser, Rückfrage R5):
+  R08 Teststatistik W: Toleranz 0.0000005 ersetzt durch 0.00001 (Nachtrag vom 2026-09-25, Genauigkeit der Quelle (Rechnung in einfacher Genauigkeit in Dataplot))
+  R08 F_9,90(0.95): Toleranz 0.00005 ersetzt durch 0.0001 (Nachtrag vom 2026-09-25, gedruckter Quantilwert abgeschnitten statt gerundet)
+
+Referenztests: Soll, Ist, Abweichung, Toleranz, bestanden
+---------------------------------------------------------------------
+R01  Mittel                               Soll 10000002               Ist 10000002               Abw 0            Tol exakt (1e-9 relativ)                 bestanden 1
+R01  SD mit Nenner n − 1                Soll 1                      Ist 1                      Abw 0            Tol exakt (1e-9 relativ)                 bestanden 1
+R02  F                                    Soll 1.18046237440255E+00   Ist 1.18046237440245       Abw -1.03029e-13 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  Residuen-SD                          Soll 1.04076068334656E-01   Ist 0.10407606833466       Abw 4.02456e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  R²                                  Soll 1.90999039051129E-01   Ist 0.190999039051116      Abw -1.28508e-14 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  df zwischen                          Soll 4                      Ist 4                      Abw 0            Tol exakt                                bestanden 1
+R02  df innerhalb                         Soll 20                     Ist 20                     Abw 0            Tol exakt                                bestanden 1
+R02  SS zwischen                          Soll 5.11462616000000E-02   Ist 0.0511462615999995     Abw -4.78784e-16 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  SS innerhalb                         Soll 2.16636560000000E-01   Ist 0.216636560000016      Abw 1.64868e-14  Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  MS zwischen                          Soll 1.27865654000000E-02   Ist 0.0127865653999999     Abw -1.19696e-16 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  MS innerhalb                         Soll 1.08318280000000E-02   Ist 0.0108318280000008     Abw 8.23994e-16  Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  F                                    Soll 1.59467335677930E+01   Ist 15.9467335666769       Abw -1.11607e-09 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  Residuen-SD                          Soll 1.51048314446410E-05   Ist 1.51048314447351e-05   Abw 9.40935e-17  Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  R²                                  Soll 2.57426544538321E-01   Ist 0.257426544524943      Abw -1.33781e-11 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  df zwischen                          Soll 1                      Ist 1                      Abw 0            Tol exakt                                bestanden 1
+R03  df innerhalb                         Soll 46                     Ist 46                     Abw 0            Tol exakt                                bestanden 1
+R03  SS zwischen                          Soll 3.63834187500000E-09   Ist 3.63834187479071e-09   Abw -2.09286e-19 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  SS innerhalb                         Soll 1.04951729166667E-08   Ist 1.04951729167975e-08   Abw 1.30771e-19  Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  MS zwischen                          Soll 3.63834187500000E-09   Ist 3.63834187479071e-09   Abw -2.09286e-19 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  MS innerhalb                         Soll 2.28155932971014E-10   Ist 2.28155932973858e-10   Abw 2.84405e-21  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  B0                                   Soll -0.262323073774029     Ist -0.26232307377389      Abw 1.39222e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  SE B0                                Soll 0.232818234301152      Ist 0.232818234301154      Abw 1.97065e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  B1                                   Soll 1.00211681802045       Ist 1.00211681802045       Abw 3.9968e-15   Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  SE B1                                Soll 0.429796848199937E-03  Ist 0.00042979684819994    Abw 2.60209e-18  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  Residuen-SD                          Soll 0.884796396144373      Ist 0.884796396144378      Abw 5.44009e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  R²                                  Soll 0.999993745883712      Ist 0.999993745883712      Abw -3.33067e-16 Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B0                                   Soll -3482258.63459582      Ist -3482258.63459557      Abw 2.5006e-07   Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B0                                Soll 890420.383607373       Ist 890420.383608234       Abw 8.61357e-07  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B1                                   Soll 15.0618722713733       Ist 15.0618722714392       Abw 6.58691e-11  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B1                                Soll 84.9149257747669       Ist 84.9149257748588       Abw 9.18874e-11  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B2                                   Soll -0.358191792925910E-01 Ist -0.0358191792925869    Abw 4.08007e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B2                                Soll 0.334910077722432E-01  Ist 0.033491007772277      Abw 3.38202e-14  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B3                                   Soll -2.02022980381683      Ist -2.02022980381654      Abw 2.91767e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B3                                Soll 0.488399681651699      Ist 0.488399681652145      Abw 4.46365e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B4                                   Soll -1.03322686717359      Ist -1.03322686717346      Abw 1.33893e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B4                                Soll 0.214274163161675      Ist 0.214274163161879      Abw 2.04392e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B5                                   Soll -0.511041056535807E-01 Ist -0.0511041056536783    Abw -9.75678e-14 Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B5                                Soll 0.226073200069370      Ist 0.226073200069594      Abw 2.24015e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B6                                   Soll 1829.15146461355       Ist 1829.15146461343       Abw -1.23919e-10 Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B6                                Soll 455.478499142212       Ist 455.478499142653       Abw 4.41105e-10  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  Residuen-SD                          Soll 304.854073561965       Ist 304.854073562282       Abw 3.17073e-10  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  R²                                  Soll 0.995479004577296      Ist 0.995479004577286      Abw -9.76996e-15 Tol mindestens 9 signifikante Stellen    bestanden 1
+R06  t_df(0.975)                          Soll 2.228                  Ist 2.22813885198627       Abw 0.000138852  Tol 0.0005                               bestanden 1
+R06  t_df(0.975)                          Soll 2.086                  Ist 2.08596344726586       Abw -3.65527e-05 Tol 0.0005                               bestanden 1
+R06  t_df(0.975)                          Soll 2.064                  Ist 2.06389856162803       Abw -0.000101438 Tol 0.0005                               bestanden 1
+R06  t_df(0.975)                          Soll 2.042                  Ist 2.04227245630124       Abw 0.000272456  Tol 0.0005                               bestanden 1
+R07  χ²_df(0.025)                       Soll 3.247                  Ist 3.24697278023684       Abw -2.72198e-05 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.975)                       Soll 20.483                 Ist 20.4831773508074       Abw 0.000177351  Tol 0.0005                               bestanden 1
+R07  χ²_df(0.025)                       Soll 9.591                  Ist 9.59077739226487       Abw -0.000222608 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.975)                       Soll 34.170                 Ist 34.1696069028383       Abw -0.000393097 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.025)                       Soll 16.791                 Ist 16.7907722655666       Abw -0.000227734 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.975)                       Soll 46.979                 Ist 46.9792422436712       Abw 0.000242244  Tol 0.0005                               bestanden 1
+R08  Teststatistik W                      Soll 1.705910               Ist 1.70591769300089       Abw 7.693e-06    Tol 0.00001                              bestanden 1
+R08  df1                                  Soll 9                      Ist 9                      Abw 0            Tol exakt                                bestanden 1
+R08  df2                                  Soll 90                     Ist 90                     Abw 0            Tol exakt                                bestanden 1
+R08  F_9,90(0.95)                         Soll 1.9855                 Ist 1.9855949637305        Abw 9.49637e-05  Tol 0.0001                               bestanden 1
+R09  n                                    Soll 195                    Ist 195                    Abw 0            Tol exakt                                bestanden 1
+R09  W                                    Soll 0.99827                Ist 0.99827215618536       Abw 2.15619e-06  Tol 0.000005                             bestanden 1
+R09  p                                    Soll 0.99923                Ist 0.999226870285809      Abw -3.12971e-06 Tol 0.000005                             bestanden 1
+R10  PAS in Zoll                          Soll 57.2                   Ist 57.167862              Abw -0.032138    Tol 0.05                                 bestanden 1
+R11  M Movie 1                            Soll 8.70                   Ist 8.7                    Abw 0            Tol 0.005                                bestanden 1
+R11  M Movie 2                            Soll 7.70                   Ist 7.7                    Abw 0            Tol 0.005                                bestanden 1
+R11  SD Movie 1                           Soll 0.82                   Ist 0.823272602348565      Abw 0.0032726    Tol 0.005                                bestanden 1
+R11  SD Movie 2                           Soll 0.95                   Ist 0.948683298050514      Abw -0.0013167   Tol 0.005                                bestanden 1
+R11  d_s                                  Soll 1.13                   Ist 1.1258799375612        Abw -0.00412006  Tol 0.005                                bestanden 1
+R11  g_s                                  Soll 1.08                   Ist 1.07830754583326       Abw -0.00169245  Tol 0.005                                bestanden 1
+R11  t                                    Soll 2.52                   Ist 2.51754407489007       Abw -0.00245593  Tol 0.005                                bestanden 1
+R11  p                                    Soll 0.022                  Ist 0.0215083336351396     Abw -0.000491666 Tol 0.0005                               bestanden 1
+R11  KI der Differenz, untere Grenze      Soll 0.17                   Ist 0.165487483935001      Abw -0.00451252  Tol 0.005                                bestanden 1
+R11  KI der Differenz, obere Grenze       Soll 1.83                   Ist 1.834512516065         Abw 0.00451252   Tol 0.005                                bestanden 1
+R12  λ                                   Soll 22.830000              Ist 22.83                  Abw 7.10543e-15  Tol 0.0000005                            bestanden 1
+R12  F_crit                               Soll 1.942507               Ist 1.94250745151732       Abw 4.51517e-07  Tol 0.0000005                            bestanden 1
+R12  df2                                  Soll 2253                   Ist 2253                   Abw 0            Tol exakt                                bestanden 1
+R12  Power                                Soll 0.950078               Ist 0.950077974639853      Abw -2.53601e-08 Tol 0.0000005                            bestanden 1
+R12  kleinstes N mit Power ≥ 0.95       Soll 2283                   Ist 2283                   Abw 0            Tol exakt                                bestanden 1
+R12  Power × 100                         Soll 70                     Ist 69.3404197195979       Abw -0.65958     Tol 1.5                                  bestanden 1
+R12  n je Gruppe                          Soll 64                     Ist 64                     Abw 0            Tol 1                                    bestanden 1
+R12  n je Gruppe                          Soll 64                     Ist 64                     Abw 0            Tol 1                                    bestanden 1
+R12  n je Gruppe                          Soll 17                     Ist 17                     Abw 0            Tol 1                                    bestanden 1
+R13  T                                    Soll 0.3903                 Ist 0.390304               Abw 4e-06        Tol 0.00005                              bestanden 1
+R13  df                                   Soll 99                     Ist 99                     Abw 0            Tol exakt                                bestanden 1
+R13  χ²_99(0.025)                       Soll 73.361                 Ist 73.3610801912837       Abw 8.01913e-05  Tol 0.0005                               bestanden 1
+R13  χ²_99(0.975)                       Soll 128.422                Ist 128.42198864384        Abw -1.13562e-05 Tol 0.0005                               bestanden 1
+---------------------------------------------------------------------
+Sollwerte gesamt: 83, bestanden: 83, nicht bestanden: 0
+Alle Referenztests bestanden.
+Ende: 2026-09-25 09:15:14 UTC
+
+===== Teil b: Grenzfaelle (Ausgabe von Grenzfaelle_2026-09-25.R) =====
+=====================================================================
+Skript:   Grenzfaelle_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Grenzfälle mit von Hand nachrechenbaren Sollwerten
+Schritt:  Phase 4.2
+Aufruf:   Rscript Grenzfaelle_2026-09-25.R
+Start:    2026-09-25 09:15:14 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Funktionen_2026-09-25.R  30c74291db1a027df40d3f2e1a794ca10b4907c49d5fcb667224cff54ef2dd10
+=====================================================================
+
+ABBRUCH: Koeffizientenzeile fehlt für Alter 15.5
+
+ABBRUCH: Anzahl oder Merkmal nicht ganzzahlig: 2.5
+
+ABBRUCH: Merkmal nicht 0 oder 1: 2
+
+ABBRUCH: Feld Test enthält Werte außerhalb des Zahlenformats: abc
+
+ABBRUCH: Feld Test enthält Werte außerhalb des Zahlenformats: 1,5
+
+ABBRUCH: Feld Test enthält unzulässige Werte: 4
+
+ABBRUCH: Feld Test enthält leere Werte
+
+ABBRUCH: Feld Test enthält unbekannte Kategorien: D
+
+ABBRUCH: Fehlender Wert ohne zulässigen Grund: S00.B.X.X.X.X Grund: 
+
+ABBRUCH: Fehlender Wert ohne zulässigen Grund: S00.C.X.X.X.X Grund: unbekannt
+
+ABBRUCH: Kennung doppelt gesetzt: S00.A.X.X.X.X
+
+Grenzfälle: Fall, Soll, Ist, bestanden
+---------------------------------------------------------------------
+G01a Mittel von 1 2 3 4 = 2.5                                  Soll 2.5                              Ist 2.5                              1
+G01b SD von 1 2 3 4 = sqrt(5/3)                                Soll 1.29099444873581                 Ist 1.29099444873581                 1
+G01c Mittel von 1 NA 3 = 2                                     Soll 2                                Ist 2                                1
+G01d SD von 1 NA 3 = sqrt(2)                                   Soll 1.4142135623731                  Ist 1.4142135623731                  1
+G01e SD bei n = 1 fehlend                                      Soll NA                               Ist NA                               1
+G01f Mittel bei n = 0 fehlend                                  Soll NA                               Ist NA                               1
+G01g SD von 3 3 3 = 0                                          Soll 0                                Ist 0                                1
+G02a Median von 1 2 3 4 = 2.5                                  Soll 2.5                              Ist 2.5                              1
+G02b Quantil 0.25 von 1 2 3 4 = 1.75                           Soll 1.75                             Ist 1.75                             1
+G02c Quantil 0.975 von 1 2 3 4 = 3.925                         Soll 3.925                            Ist 3.925                            1
+G02d Quantil 1 von 1 2 3 4 = 4                                 Soll 4                                Ist 4                                1
+G02e Quantil 0.3 von 7 = 7                                     Soll 7                                Ist 7                                1
+G02f Quantil 0.025 von 4 3 2 1 (unsortiert) = 1.075            Soll 1.075                            Ist 1.075                            1
+G02g Quantil 0.975 wie quantile(type = 7) bei 10 Werten        Soll 9.775                            Ist 9.775                            1
+G03a SD_pool = sqrt(22/5)                                      Soll 2.0976176963403                  Ist 2.0976176963403                  1
+G03b SD_pool fehlend bei n2 = 1                                Soll NA                               Ist NA                               1
+G04a Bestwert Zeit von 1.9 1.7 1.8 = 1.7                       Soll 1.7                              Ist 1.7                              1
+G04b Bestwert SBJ von 190 210 205 = 210                        Soll 210                              Ist 210                              1
+G04c Bestwert Zeit von NA 1.8 = 1.8                            Soll 1.8                              Ist 1.8                              1
+G04d Bestwert von NA NA fehlend                                Soll NA                               Ist NA                               1
+G04e Gleichstand 1.5 1.5 = 1.5                                 Soll 1.5                              Ist 1.5                              1
+G05a Lauf 1.0 1.8 4.5 nicht gestört                           Soll FALSE                            Ist FALSE                            1
+G05b Lauf 1.0 1.4 4.0 gestört (12.5 m/s)                      Soll TRUE                             Ist TRUE                             1
+G05c Lauf 1.0 0.9 gestört (dt < 0)                            Soll TRUE                             Ist TRUE                             1
+G05d Lauf ohne 5 m, 1.8 4.5 nicht gestört                     Soll FALSE                            Ist FALSE                            1
+G05e Lauf 1.0 1.0 gestört (dt = 0)                            Soll TRUE                             Ist TRUE                             1
+G05f Lauf in Reihenfolge 30 5 10 nicht gestört                Soll FALSE                            Ist FALSE                            1
+G05g Lauf mit genau 10 m/s nicht gestört                      Soll FALSE                            Ist FALSE                            1
+G05h Lauf ohne gültige Teilzeit nicht gestört                Soll FALSE                            Ist FALSE                            1
+G06a Dublettenpaare = 1                                        Soll 1                                Ist 1                                1
+G06b Sammelmeldungspaare = 2                                   Soll 2                                Ist 2                                1
+G06c Kennzeichnung Dublette je Meldung = 1 1 0 0 0             Soll 1 1 0 0 0                        Ist 1 1 0 0 0                        1
+G06d Kennzeichnung Sammelmeldung je Meldung = 1 1 0 1 0        Soll 1 1 0 1 0                        Ist 1 1 0 1 0                        1
+G06e eine Meldung: keine Paare                                 Soll 0 0                              Ist 0 0                              1
+G07a NMELD = 6                                                 Soll 6                                Ist 6                                1
+G07b GANZ = 4                                                  Soll 4                                Ist 4                                1
+G07c GT = 5                                                    Soll 5                                Ist 5                                1
+G07d WOCAP = 3                                                 Soll 3                                Ist 3                                1
+G07e DIST = 3                                                  Soll 3                                Ist 3                                1
+G07f ohne Meldung alles 0                                      Soll 0 0 0 0 0                        Ist 0 0 0 0 0                        1
+G08a Alter 14.5 auf der Zeile: w = 0                           Soll 0                                Ist 0                                1
+G08b Alter 14.5 Koeffizienten der Zeile                        Soll -5.000  0.700 -0.002  0.400      Ist -5.000  0.700 -0.002  0.400      1
+G08c Alter 14.7: a_lo = 14.5, w = 0.4                          Soll 14.5  0.4                        Ist 14.500000000000000  0.399999999999999 1
+G08d Alter 14.7 interpoliert                                   Soll -4.6000  0.7400 -0.0024  0.3600  Ist -4.6000  0.7400 -0.0024  0.3600  1
+G08e Vorhersage 1 + 2·3 + 4·5 + 6·7 = 69                    Soll 69                               Ist 69                               1
+G08f Alter 15.2 über der Tabelle: Abbruch                     Soll Abbruch                          Ist Abbruch                          1
+G09a Koeffizienten 1 und 0.5                                   Soll 1.0 0.5                          Ist 1.000000000000001 0.499999999999999 1
+G09b Residuen -0.5 1 -0.5                                      Soll -0.5  1.0 -0.5                   Ist -0.500000000000001  1.000000000000000 -0.500000000000000 1
+G09c sigma = sqrt(1.5), df = 1                                 Soll 1.22474487139159 1.00000000000000 Ist 1.22474487139159 1.00000000000000 1
+G09d SE Steigung = sqrt(0.75)                                  Soll 0.866025403784439                Ist 0.866025403784439                1
+G09e R² = 0.25                                                Soll 0.25                             Ist 0.25                             1
+G09f exakte Gerade: Koeffizienten 1 und 2, sigma 0             Soll 1 2 0                            Ist 9.99999999999999e-01 2.00000000000000e+00 8.88178419700125e-16 1
+G09g doppelte Spalte: kein voller Rang                         Soll FALSE                            Ist FALSE                            1
+G09h konstante Gruppe: kein voller Rang                        Soll FALSE                            Ist FALSE                            1
+G09i n = p: kein voller Rang                                   Soll FALSE                            Ist FALSE                            1
+G09j t = 0.5/sqrt(0.75)                                        Soll 0.577350269189626                Ist 0.577350269189625                1
+G09k p = 2·(1 − T_1(|t|))                                   Soll 0.666666666666667                Ist 0.666666666666667                1
+G09l KI = b ± t_1(0.975)·SE                                  Soll -10.5038960872134  11.5038960872134 Ist -10.5038960872134  11.5038960872134 1
+G10a ANOVA F = 2.4, df 1 und 4                                 Soll 2.4 1.0 4.0                      Ist 2.4 1.0 4.0                      1
+G10b ANOVA SS zwischen 6, SS innerhalb 10                      Soll  6 10                            Ist  6 10                            1
+G10c ANOVA p = 1 − F_1,4(2.4)                                Soll 0.196261178149269                Ist 0.196261178149269                1
+G10d Brown-Forsythe F = 0.8                                    Soll 0.8                              Ist 0.8                              1
+G10e Brown-Forsythe bei gleichen Gruppen 1 2 3 und 1 2 3: F = 0 Soll 0                                Ist 0                                1
+G10f Brown-Forsythe df1 = 1, df2 = 4                           Soll 1 4                              Ist 1 4                              1
+G11a TE = sqrt(8/3)                                            Soll 1.63299316185545                 Ist 1.63299316185545                 1
+G11b df_TE = 3, n = 2                                          Soll 3 2                              Ist 3 2                              1
+G11c Mittel aller Versuche der TE-Menge = 2.6                  Soll 2.6                              Ist 2.6                              1
+G11d leere TE-Menge: TE fehlend, df 0, n 0                     Soll NA  0  0                         Ist NA  0  0                         1
+G11e KI-Grenze unten = 2·sqrt(3/chi2_3(0.975))                Soll 1.13297909320449                 Ist 1.13297909320449                 1
+G12a J bei df 18 = 1 − 3/71                                  Soll 0.957746478873239                Ist 0.957746478873239                1
+G12b Differenz −2, SD_pool sqrt(2.5), df 4                   Soll -2.00000000000000  1.58113883008419  4.00000000000000 Ist -2.00000000000000  1.58113883008419  4.00000000000000 1
+G12c SE = sqrt(2.5)·sqrt(2/3)                                 Soll 1.29099444873581                 Ist 1.29099444873581                 1
+G12d konstante Gruppen: t fehlend                              Soll NA                               Ist NA                               1
+G13a Überlappung L 3, U 5, IG 1, KG 1                         Soll 3 5 1 1                          Ist 3 5 1 1                          1
+G13b disjunkt: L 3 > U 2, beide 0                              Soll 3 2 0 0                          Ist 3 2 0 0                          1
+G13c Grenzen eingeschlossen: IG 3, KG 2                        Soll 3 2                              Ist 3 2                              1
+G14a Power bei lambda 0 = 0.05                                 Soll 0.05                             Ist 0.05                             1
+G14b Power steigt mit lambda                                   Soll TRUE                             Ist TRUE                             1
+G14c F_krit(1, 20, 0.05) = qf(0.95, 1, 20)                     Soll 4.35124350332929                 Ist 4.35124350332929                 1
+G15a 1/3 mit 17 Stellen                                        Soll 0.33333333333333331              Ist 0.33333333333333331              1
+G15a2 1.05 mit 17 Stellen einschließlich Nullen               Soll 1.0500000000000000               Ist 1.0500000000000000               1
+G15b Anzahl 3 als 3                                            Soll 3                                Ist 3                                1
+G15c Merkmal 1 als 1                                           Soll 1                                Ist 1                                1
+G15d fehlend als leer                                          Soll                                  Ist                                  1
+G15e Rücklesen von 0.1 + 0.2 ohne Verlust                     Soll 0.3                              Ist 0.3                              1
+G15f Anzahl 2.5: Abbruch                                       Soll Abbruch                          Ist Abbruch                          1
+G15g Merkmal 2: Abbruch                                        Soll Abbruch                          Ist Abbruch                          1
+G16a '1.5' und '' ergeben 1.5 und NA                           Soll 1.5 NA                           Ist 1.5 NA                           1
+G16b 'abc': Abbruch                                            Soll Abbruch                          Ist Abbruch                          1
+G16c '1,5' (Dezimalkomma): Abbruch                             Soll Abbruch                          Ist Abbruch                          1
+G16d Ganzzahl 4 außerhalb 1 bis 3: Abbruch                    Soll Abbruch                          Ist Abbruch                          1
+G16e leere Ganzzahl ohne Erlaubnis: Abbruch                    Soll Abbruch                          Ist Abbruch                          1
+G16f unbekannte Kategorie: Abbruch                             Soll Abbruch                          Ist Abbruch                          1
+G17a fehlend ohne Grund: Abbruch                               Soll Abbruch                          Ist Abbruch                          1
+G17b fehlend mit unzulässigem Grund: Abbruch                  Soll Abbruch                          Ist Abbruch                          1
+G17c doppelte Kennung: Abbruch                                 Soll Abbruch                          Ist Abbruch                          1
+G17d fehlend mit Grund: Wert leer, Grund gesetzt               Soll  Eingang fehlt                   Ist  Eingang fehlt                   1
+G18 SHA-256 von Versuchsdaten.csv wie sha256sum                Soll 429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba Ist 429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba 1
+G18 SHA-256 von Personendaten.csv wie sha256sum                Soll acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef Ist acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef 1
+G18 SHA-256 von Fragebogen_A.csv wie sha256sum                 Soll 5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4 Ist 5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4 1
+G18 SHA-256 von Zuordnung_Fragebogen.csv wie sha256sum         Soll f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa Ist f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa 1
+G18 SHA-256 von Listenplatz_IG.csv wie sha256sum               Soll 2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8 Ist 2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8 1
+G18 SHA-256 von Datenwoerterbuch.md wie sha256sum              Soll 07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6 Ist 07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6 1
+G18 SHA-256 von Pruefsummen.txt wie sha256sum                  Soll a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b Ist a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b 1
+G18 SHA-256 von 'a' x 0 wie sha256sum                          Soll e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 Ist e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 1
+G18 SHA-256 von 'a' x 55 wie sha256sum                         Soll 9f4390f8d30c2dd92ec9f095b65e2b9ae9b0a925a5258e241c9f1e910f734318 Ist 9f4390f8d30c2dd92ec9f095b65e2b9ae9b0a925a5258e241c9f1e910f734318 1
+G18 SHA-256 von 'a' x 56 wie sha256sum                         Soll b35439a4ac6f0948b6d6f9e3c6af0f5f590ce20f1bde7090ef7970686ec6738a Ist b35439a4ac6f0948b6d6f9e3c6af0f5f590ce20f1bde7090ef7970686ec6738a 1
+G18 SHA-256 von 'a' x 63 wie sha256sum                         Soll 7d3e74a05d7db15bce4ad9ec0658ea98e3f06eeecf16b4c6fff2da457ddc2f34 Ist 7d3e74a05d7db15bce4ad9ec0658ea98e3f06eeecf16b4c6fff2da457ddc2f34 1
+G18 SHA-256 von 'a' x 64 wie sha256sum                         Soll ffe054fe7ae0cb6dc65c3af9b61d5209f439851db43d0ba5997337df154668eb Ist ffe054fe7ae0cb6dc65c3af9b61d5209f439851db43d0ba5997337df154668eb 1
+G18 SHA-256 von 'a' x 65 wie sha256sum                         Soll 635361c48bb9eab14198e76ea8ab7f1a41685d6ad62aa9146d301d4f17eb0ae0 Ist 635361c48bb9eab14198e76ea8ab7f1a41685d6ad62aa9146d301d4f17eb0ae0 1
+G19a Bias Zeit 2.0 1.9 1.8 = -0.1                              Soll -0.1                             Ist -0.0999999999999999              1
+G19b Bias SBJ 200 210 205 = 0                                  Soll 0                                Ist 0                                1
+G20a Zeit: b1 < 0 günstig                                     Soll  TRUE FALSE                      Ist  TRUE FALSE                      1
+G20b SBJ: b1 > 0 günstig                                      Soll  TRUE FALSE                      Ist  TRUE FALSE                      1
+---------------------------------------------------------------------
+Fälle gesamt: 114, bestanden: 114, nicht bestanden: 0
+Alle Grenzfälle bestanden.
+Ende: 2026-09-25 09:15:20 UTC
+
+===== Zusammenfassung =====
+Referenztests: 83 Sollwerte, bestanden 83, nicht bestanden 0
+Grenzfälle: 114 Fälle, bestanden 114, nicht bestanden 0
+Urteil: Validierung bestanden, Studiendaten wurden gerechnet.

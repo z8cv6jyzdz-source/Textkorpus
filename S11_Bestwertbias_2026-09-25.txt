@@ -1,0 +1,74 @@
+=====================================================================
+Skript:   S11_Bestwertbias_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Bestwert-Bias des dritten Versuchs
+Schritt:  S11
+Aufruf:   Rscript S11_Bestwertbias_2026-09-25.R
+Start:    2026-09-25 09:17:05 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Versuchsdaten.csv  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+  Pruefsummen.txt  a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b
+  Spezifikation_2026-09-24_Kennungen.csv  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+=====================================================================
+
+Lesart R1 für das SESOI zum Zeitpunkt POST: a
+  Z05  PRE   Spieler mit drei gültigen Versuchen:  6
+  Z05  POST  Spieler mit drei gültigen Versuchen: 12
+  Z10  PRE   Spieler mit drei gültigen Versuchen: 10
+  Z10  POST  Spieler mit drei gültigen Versuchen:  7
+  Z30  PRE   Spieler mit drei gültigen Versuchen: 17
+  Z30  POST  Spieler mit drei gültigen Versuchen: 12
+  SBJ  PRE   Spieler mit drei gültigen Versuchen: 12
+  SBJ  POST  Spieler mit drei gültigen Versuchen:  3
+  CL   PRE   Spieler mit drei gültigen Versuchen:  4
+  CL   POST  Spieler mit drei gültigen Versuchen:  0
+  CR   PRE   Spieler mit drei gültigen Versuchen:  4
+  CR   POST  Spieler mit drei gültigen Versuchen:  0
+Vollständigkeit der Kennungen geprüft: 36 Kennungen wie in der Anlage.
+
+Ergebnisregister S11: 36 Kennungen, davon fehlend mit Grund: 4
+
+Kennung | Wert | Grund
+S11.N.Z05.PRE.ALL.X | 6 | 
+S11.DMEAN.Z05.PRE.ALL.X | -0.028333333333333339 | 
+S11.DSESOI.Z05.PRE.ALL.X | -1.7881759081898263 | 
+S11.N.Z05.POST.ALL.X | 12 | 
+S11.DMEAN.Z05.POST.ALL.X | -0.0058333333333333388 | 
+S11.DSESOI.Z05.POST.ALL.X | -0.44971599906581999 | 
+S11.N.Z10.PRE.ALL.X | 10 | 
+S11.DMEAN.Z10.PRE.ALL.X | -0.0050000000000000044 | 
+S11.DSESOI.Z10.PRE.ALL.X | -0.23301076015418529 | 
+S11.N.Z10.POST.ALL.X | 7 | 
+S11.DMEAN.Z10.POST.ALL.X | -0.018571428571428555 | 
+S11.DSESOI.Z10.POST.ALL.X | -0.96719262842723919 | 
+S11.N.Z30.PRE.ALL.X | 17 | 
+S11.DMEAN.Z30.PRE.ALL.X | -0.015882352941176445 | 
+S11.DSESOI.Z30.PRE.ALL.X | -0.25350196516137902 | 
+S11.N.Z30.POST.ALL.X | 12 | 
+S11.DMEAN.Z30.POST.ALL.X | -0.0074999999999999884 | 
+S11.DSESOI.Z30.POST.ALL.X | -0.13901362733023495 | 
+S11.N.SBJ.PRE.ALL.X | 12 | 
+S11.DMEAN.SBJ.PRE.ALL.X | 0.75000000000000000 | 
+S11.DSESOI.SBJ.PRE.ALL.X | 0.22596922689443352 | 
+S11.N.SBJ.POST.ALL.X | 3 | 
+S11.DMEAN.SBJ.POST.ALL.X | 0.33333333333333337 | 
+S11.DSESOI.SBJ.POST.ALL.X | 0.10831437997511145 | 
+S11.N.CL.PRE.ALL.X | 4 | 
+S11.DMEAN.CL.PRE.ALL.X | -0.032499999999999973 | 
+S11.DSESOI.CL.PRE.ALL.X | -1.4255839620369921 | 
+S11.N.CL.POST.ALL.X | 0 | 
+S11.DMEAN.CL.POST.ALL.X |  | zu wenige Werte
+S11.DSESOI.CL.POST.ALL.X |  | Eingang fehlt
+S11.N.CR.PRE.ALL.X | 4 | 
+S11.DMEAN.CR.PRE.ALL.X | -0.074999999999999956 | 
+S11.DSESOI.CR.PRE.ALL.X | -3.2150744690965616 | 
+S11.N.CR.POST.ALL.X | 0 | 
+S11.DMEAN.CR.POST.ALL.X |  | zu wenige Werte
+S11.DSESOI.CR.POST.ALL.X |  | Eingang fehlt
+Ende: 2026-09-25 09:17:14 UTC

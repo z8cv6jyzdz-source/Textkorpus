@@ -1,0 +1,43 @@
+=====================================================================
+Skript:   S02_Gueltigkeit_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Gültigkeit der Versuche und Auslöseprüfung der Sprintläufe
+Schritt:  S02
+Aufruf:   Rscript S02_Gueltigkeit_2026-09-25.R
+Start:    2026-09-25 09:15:33 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Versuchsdaten.csv  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+  Pruefsummen.txt  a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b
+  Spezifikation_2026-09-24_Konstanten.csv  6eec0094230e13ca52896f8e0828a55fafffcc9fa52f9c7620368f1bddad4329
+  Spezifikation_2026-09-24_Kennungen.csv  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+=====================================================================
+
+Konstanten: V_MAX = 10 m/s, DT_MIN = 0 s, Distanzen = 5 10 30 m
+Zeilen gesamt: 1116, gültig_roh = 1: 692, gültig = 1: 692
+Sprintläufe geprüft: 186, davon auslösegestört: 0
+Vollständigkeit der Kennungen geprüft: 14 Kennungen wie in der Anlage.
+
+Ergebnisregister S02: 14 Kennungen, davon fehlend mit Grund: 0
+
+Kennung | Wert | Grund
+S02.NAUSL.X.PRE.ALL.X | 0 | 
+S02.NAUSL.X.POST.ALL.X | 0 | 
+S02.NGUELT.Z05.PRE.ALL.X | 53 | 
+S02.NGUELT.Z05.POST.ALL.X | 64 | 
+S02.NGUELT.Z10.PRE.ALL.X | 67 | 
+S02.NGUELT.Z10.POST.ALL.X | 38 | 
+S02.NGUELT.Z30.PRE.ALL.X | 78 | 
+S02.NGUELT.Z30.POST.ALL.X | 65 | 
+S02.NGUELT.SBJ.PRE.ALL.X | 72 | 
+S02.NGUELT.SBJ.POST.ALL.X | 53 | 
+S02.NGUELT.CL.PRE.ALL.X | 55 | 
+S02.NGUELT.CL.POST.ALL.X | 48 | 
+S02.NGUELT.CR.PRE.ALL.X | 59 | 
+S02.NGUELT.CR.POST.ALL.X | 40 | 
+Ende: 2026-09-25 09:15:42 UTC

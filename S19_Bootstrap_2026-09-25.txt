@@ -1,0 +1,55 @@
+=====================================================================
+Skript:   S19_Bootstrap_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Bootstrap-Konfidenzintervall der adjustierten Differenz
+Schritt:  S19
+Aufruf:   Rscript S19_Bootstrap_2026-09-25.R
+Start:    2026-09-25 09:18:25 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Versuchsdaten.csv  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+  Pruefsummen.txt  a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b
+  Spezifikation_2026-09-24_Konstanten.csv  6eec0094230e13ca52896f8e0828a55fafffcc9fa52f9c7620368f1bddad4329
+  Spezifikation_2026-09-24_Kennungen.csv  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+=====================================================================
+
+Konstanten: B = 10000, Startwert = 20260924, Blöcke = 20, KI-Niveau = 0.95
+Zufallszahlengenerator: Mersenne-Twister, Inversion, Rejection
+
+Zielgröße Z30: 10000 Ziehungen, gültig 10000, verworfen 0, Dauer 2.4 s
+
+Zielgröße CM: 10000 Ziehungen, gültig 10000, verworfen 0, Dauer 2.7 s
+
+Zielgröße SBJ: 10000 Ziehungen, gültig 10000, verworfen 0, Dauer 2.5 s
+Vollständigkeit der Kennungen geprüft: 21 Kennungen wie in der Anlage.
+
+Ergebnisregister S19: 21 Kennungen, davon fehlend mit Grund: 0
+
+Kennung | Wert | Grund
+S19.BNGUELT.Z30.X.ITT.BOOT | 10000 | 
+S19.BNVERW.Z30.X.ITT.BOOT | 0 | 
+S19.BKIU.Z30.X.ITT.BOOT | -0.17696714174146883 | 
+S19.BKIO.Z30.X.ITT.BOOT | 0.10708819588395836 | 
+S19.BSD.Z30.X.ITT.BOOT | 0.071679174642008653 | 
+S19.BMCU.Z30.X.ITT.BOOT | 0.0021465768108100262 | 
+S19.BMCO.Z30.X.ITT.BOOT | 0.0026385587879131254 | 
+S19.BNGUELT.CM.X.ITT.BOOT | 10000 | 
+S19.BNVERW.CM.X.ITT.BOOT | 0 | 
+S19.BKIU.CM.X.ITT.BOOT | -0.10508396506537650 | 
+S19.BKIO.CM.X.ITT.BOOT | 0.052634871468095153 | 
+S19.BSD.CM.X.ITT.BOOT | 0.040365877972483970 | 
+S19.BMCU.CM.X.ITT.BOOT | 0.0010520255323711186 | 
+S19.BMCO.CM.X.ITT.BOOT | 0.00097145278006820191 | 
+S19.BNGUELT.SBJ.X.ITT.BOOT | 10000 | 
+S19.BNVERW.SBJ.X.ITT.BOOT | 0 | 
+S19.BKIU.SBJ.X.ITT.BOOT | -13.113000390354621 | 
+S19.BKIO.SBJ.X.ITT.BOOT | 9.6716035813647299 | 
+S19.BSD.SBJ.X.ITT.BOOT | 5.7586337487000687 | 
+S19.BMCU.SBJ.X.ITT.BOOT | 0.15113098635601988 | 
+S19.BMCO.SBJ.X.ITT.BOOT | 0.13845250031142842 | 
+Ende: 2026-09-25 09:18:42 UTC

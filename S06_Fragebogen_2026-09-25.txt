@@ -1,0 +1,63 @@
+=====================================================================
+Skript:   S06_Fragebogen_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Fragebogen A: Dekodierung, Fallkorrekturen, Zuordnung, Wochen, Dubletten
+Schritt:  S06
+Aufruf:   Rscript S06_Fragebogen_2026-09-25.R
+Start:    2026-09-25 09:16:13 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Versuchsdaten.csv  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+  Pruefsummen.txt  a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b
+  Spezifikation_2026-09-24_Fragebogen.csv  04318c066939248c5feca5077c65a703508a1137738310fdfa68b3a329003f04
+  Spezifikation_2026-09-24_Konstanten.csv  6eec0094230e13ca52896f8e0828a55fafffcc9fa52f9c7620368f1bddad4329
+  Spezifikation_2026-09-24_Kennungen.csv  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+=====================================================================
+
+Fallkorrekturen angewandt: 7 Meldungen (CASE 59, 70, 140, 158, 165, 190, 206)
+Programmwochen: W1 ab 2026-07-20 00:00:00, W6 bis 2026-08-30 23:59:59
+Meldungen: 111, Dublettenpaare: 1, Sammelmeldungspaare: 7
+  Paar CASE 118 und 119: Sammelmeldung, Abstand 44 s
+  Paar CASE 153 und 154: Sammelmeldung, Abstand 62 s
+  Paar CASE 171 und 172: Sammelmeldung, Abstand 68 s
+  Paar CASE 188 und 189: Sammelmeldung, Abstand 236 s
+  Paar CASE 222 und 223: Sammelmeldung, Abstand 37 s
+  Paar CASE 250 und 251: Sammelmeldung, Abstand 40 s
+  Paar CASE 253 und 254: Dublette, Abstand 49 s
+  Paar CASE 260 und 261: Sammelmeldung, Abstand 66 s
+Vollständigkeit der Kennungen geprüft: 25 Kennungen wie in der Anlage.
+
+Ergebnisregister S06: 25 Kennungen, davon fehlend mit Grund: 0
+
+Kennung | Wert | Grund
+S06.NMELD.FB.X.ALL.X | 111 | 
+S06.NMELD.FB.X.PBW-01.X | 0 | 
+S06.NMELD.FB.X.PBW-02.X | 12 | 
+S06.NMELD.FB.X.PBW-04.X | 7 | 
+S06.NMELD.FB.X.PBW-05.X | 8 | 
+S06.NMELD.FB.X.PBW-06.X | 5 | 
+S06.NMELD.FB.X.PBW-07.X | 6 | 
+S06.NMELD.FB.X.PBW-08.X | 9 | 
+S06.NMELD.FB.X.PBW-09.X | 8 | 
+S06.NMELD.FB.X.PBW-10.X | 5 | 
+S06.NMELD.FB.X.PBW-11.X | 2 | 
+S06.NMELD.FB.X.PBW-21.X | 0 | 
+S06.NMELD.FB.X.PHL-01.X | 10 | 
+S06.NMELD.FB.X.PHL-02.X | 9 | 
+S06.NMELD.FB.X.PHL-03.X | 12 | 
+S06.NMELD.FB.X.PHL-05.X | 0 | 
+S06.NMELD.FB.X.PHL-06.X | 1 | 
+S06.NMELD.FB.X.PHL-07.X | 11 | 
+S06.NMELD.FB.X.PHL-08.X | 6 | 
+S06.NKORR.FB.X.ALL.X | 7 | 
+S06.NDUBL.FB.X.ALL.X | 1 | 
+S06.NSAMM.FB.X.ALL.X | 7 | 
+S06.NSTAT.FB.X.IG.GANZ | 92 | 
+S06.NSTAT.FB.X.IG.TEILW | 6 | 
+S06.NSTAT.FB.X.IG.GARN | 13 | 
+Ende: 2026-09-25 09:16:24 UTC

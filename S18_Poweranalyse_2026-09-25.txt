@@ -1,0 +1,68 @@
+=====================================================================
+Skript:   S18_Poweranalyse_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Sensitivitäts-Poweranalyse, Standardweg
+Schritt:  S18
+Aufruf:   Rscript S18_Poweranalyse_2026-09-25.R
+Start:    2026-09-25 09:18:15 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Versuchsdaten.csv  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6
+  Pruefsummen.txt  a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b
+  Spezifikation_2026-09-24_Konstanten.csv  6eec0094230e13ca52896f8e0828a55fafffcc9fa52f9c7620368f1bddad4329
+  Spezifikation_2026-09-24_Kennungen.csv  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+=====================================================================
+
+Konstanten: alpha = 0.05, Zielpower = 0.8, Intervall [0, 10], Toleranz 1e-10, d-Erwartungen D006 0.06 D011 0.11 D037 0.37 D093 0.93
+
+Zielgröße Z10: N = 17, df2 = 13
+
+Zielgröße Z30: N = 26, df2 = 22
+  MDES gefunden nach 11 Iterationen, geschätzte Genauigkeit 5.00004482262284e-11
+
+Zielgröße CM: N = 23, df2 = 19
+  MDES gefunden nach 11 Iterationen, geschätzte Genauigkeit 5.00004482262284e-11
+
+Zielgröße SBJ: N = 26, df2 = 22
+  MDES gefunden nach 11 Iterationen, geschätzte Genauigkeit 5.00004482262284e-11
+Vollständigkeit der Kennungen geprüft: 30 Kennungen wie in der Anlage.
+
+Ergebnisregister S18: 30 Kennungen, davon fehlend mit Grund: 0
+
+Kennung | Wert | Grund
+S18.NTOT.Z10.X.ITT.X | 17 | 
+S18.DF1.Z10.X.ITT.X | 1 | 
+S18.DF2.Z10.X.ITT.X | 13 | 
+S18.FCRIT.Z10.X.ITT.X | 4.6671927318268480 | 
+S18.POW.Z10.X.ITT.D006 | 0.051465039746301122 | 
+S18.POW.Z10.X.ITT.D011 | 0.054933987950295027 | 
+S18.NTOT.Z30.X.ITT.X | 26 | 
+S18.DF1.Z30.X.ITT.X | 1 | 
+S18.DF2.Z30.X.ITT.X | 22 | 
+S18.FCRIT.Z30.X.ITT.X | 4.3009495017776569 | 
+S18.MDES.Z30.X.ITT.X | 1.1817570761884006 | 
+S18.MDESR.Z30.X.ITT.X | 5.9087853809420032 | 
+S18.POW.Z30.X.ITT.D037 | 0.14196148211827675 | 
+S18.POW.Z30.X.ITT.D093 | 0.59704610417137216 | 
+S18.NTOT.CM.X.ITT.X | 23 | 
+S18.DF1.CM.X.ITT.X | 1 | 
+S18.DF2.CM.X.ITT.X | 19 | 
+S18.FCRIT.CM.X.ITT.X | 4.3807496923317988 | 
+S18.MDES.CM.X.ITT.X | 1.2423435117310158 | 
+S18.MDESR.CM.X.ITT.X | 6.2117175586550788 | 
+S18.POW.CM.X.ITT.D037 | 0.13306683436039568 | 
+S18.POW.CM.X.ITT.D093 | 0.55514364611747835 | 
+S18.NTOT.SBJ.X.ITT.X | 26 | 
+S18.DF1.SBJ.X.ITT.X | 1 | 
+S18.DF2.SBJ.X.ITT.X | 22 | 
+S18.FCRIT.SBJ.X.ITT.X | 4.3009495017776569 | 
+S18.MDES.SBJ.X.ITT.X | 1.1817570761884006 | 
+S18.MDESR.SBJ.X.ITT.X | 5.9087853809420032 | 
+S18.POW.SBJ.X.ITT.D037 | 0.14196148211827675 | 
+S18.POW.SBJ.X.ITT.D093 | 0.59704610417137216 | 
+Ende: 2026-09-25 09:18:24 UTC

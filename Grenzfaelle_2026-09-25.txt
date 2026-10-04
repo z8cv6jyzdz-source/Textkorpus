@@ -1,0 +1,154 @@
+=====================================================================
+Skript:   Grenzfaelle_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Grenzfälle mit von Hand nachrechenbaren Sollwerten
+Schritt:  Phase 4.2
+Aufruf:   Rscript Grenzfaelle_2026-09-25.R
+Start:    2026-09-25 09:15:14 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Funktionen_2026-09-25.R  30c74291db1a027df40d3f2e1a794ca10b4907c49d5fcb667224cff54ef2dd10
+=====================================================================
+
+ABBRUCH: Koeffizientenzeile fehlt für Alter 15.5
+
+ABBRUCH: Anzahl oder Merkmal nicht ganzzahlig: 2.5
+
+ABBRUCH: Merkmal nicht 0 oder 1: 2
+
+ABBRUCH: Feld Test enthält Werte außerhalb des Zahlenformats: abc
+
+ABBRUCH: Feld Test enthält Werte außerhalb des Zahlenformats: 1,5
+
+ABBRUCH: Feld Test enthält unzulässige Werte: 4
+
+ABBRUCH: Feld Test enthält leere Werte
+
+ABBRUCH: Feld Test enthält unbekannte Kategorien: D
+
+ABBRUCH: Fehlender Wert ohne zulässigen Grund: S00.B.X.X.X.X Grund: 
+
+ABBRUCH: Fehlender Wert ohne zulässigen Grund: S00.C.X.X.X.X Grund: unbekannt
+
+ABBRUCH: Kennung doppelt gesetzt: S00.A.X.X.X.X
+
+Grenzfälle: Fall, Soll, Ist, bestanden
+---------------------------------------------------------------------
+G01a Mittel von 1 2 3 4 = 2.5                                  Soll 2.5                              Ist 2.5                              1
+G01b SD von 1 2 3 4 = sqrt(5/3)                                Soll 1.29099444873581                 Ist 1.29099444873581                 1
+G01c Mittel von 1 NA 3 = 2                                     Soll 2                                Ist 2                                1
+G01d SD von 1 NA 3 = sqrt(2)                                   Soll 1.4142135623731                  Ist 1.4142135623731                  1
+G01e SD bei n = 1 fehlend                                      Soll NA                               Ist NA                               1
+G01f Mittel bei n = 0 fehlend                                  Soll NA                               Ist NA                               1
+G01g SD von 3 3 3 = 0                                          Soll 0                                Ist 0                                1
+G02a Median von 1 2 3 4 = 2.5                                  Soll 2.5                              Ist 2.5                              1
+G02b Quantil 0.25 von 1 2 3 4 = 1.75                           Soll 1.75                             Ist 1.75                             1
+G02c Quantil 0.975 von 1 2 3 4 = 3.925                         Soll 3.925                            Ist 3.925                            1
+G02d Quantil 1 von 1 2 3 4 = 4                                 Soll 4                                Ist 4                                1
+G02e Quantil 0.3 von 7 = 7                                     Soll 7                                Ist 7                                1
+G02f Quantil 0.025 von 4 3 2 1 (unsortiert) = 1.075            Soll 1.075                            Ist 1.075                            1
+G02g Quantil 0.975 wie quantile(type = 7) bei 10 Werten        Soll 9.775                            Ist 9.775                            1
+G03a SD_pool = sqrt(22/5)                                      Soll 2.0976176963403                  Ist 2.0976176963403                  1
+G03b SD_pool fehlend bei n2 = 1                                Soll NA                               Ist NA                               1
+G04a Bestwert Zeit von 1.9 1.7 1.8 = 1.7                       Soll 1.7                              Ist 1.7                              1
+G04b Bestwert SBJ von 190 210 205 = 210                        Soll 210                              Ist 210                              1
+G04c Bestwert Zeit von NA 1.8 = 1.8                            Soll 1.8                              Ist 1.8                              1
+G04d Bestwert von NA NA fehlend                                Soll NA                               Ist NA                               1
+G04e Gleichstand 1.5 1.5 = 1.5                                 Soll 1.5                              Ist 1.5                              1
+G05a Lauf 1.0 1.8 4.5 nicht gestört                           Soll FALSE                            Ist FALSE                            1
+G05b Lauf 1.0 1.4 4.0 gestört (12.5 m/s)                      Soll TRUE                             Ist TRUE                             1
+G05c Lauf 1.0 0.9 gestört (dt < 0)                            Soll TRUE                             Ist TRUE                             1
+G05d Lauf ohne 5 m, 1.8 4.5 nicht gestört                     Soll FALSE                            Ist FALSE                            1
+G05e Lauf 1.0 1.0 gestört (dt = 0)                            Soll TRUE                             Ist TRUE                             1
+G05f Lauf in Reihenfolge 30 5 10 nicht gestört                Soll FALSE                            Ist FALSE                            1
+G05g Lauf mit genau 10 m/s nicht gestört                      Soll FALSE                            Ist FALSE                            1
+G05h Lauf ohne gültige Teilzeit nicht gestört                Soll FALSE                            Ist FALSE                            1
+G06a Dublettenpaare = 1                                        Soll 1                                Ist 1                                1
+G06b Sammelmeldungspaare = 2                                   Soll 2                                Ist 2                                1
+G06c Kennzeichnung Dublette je Meldung = 1 1 0 0 0             Soll 1 1 0 0 0                        Ist 1 1 0 0 0                        1
+G06d Kennzeichnung Sammelmeldung je Meldung = 1 1 0 1 0        Soll 1 1 0 1 0                        Ist 1 1 0 1 0                        1
+G06e eine Meldung: keine Paare                                 Soll 0 0                              Ist 0 0                              1
+G07a NMELD = 6                                                 Soll 6                                Ist 6                                1
+G07b GANZ = 4                                                  Soll 4                                Ist 4                                1
+G07c GT = 5                                                    Soll 5                                Ist 5                                1
+G07d WOCAP = 3                                                 Soll 3                                Ist 3                                1
+G07e DIST = 3                                                  Soll 3                                Ist 3                                1
+G07f ohne Meldung alles 0                                      Soll 0 0 0 0 0                        Ist 0 0 0 0 0                        1
+G08a Alter 14.5 auf der Zeile: w = 0                           Soll 0                                Ist 0                                1
+G08b Alter 14.5 Koeffizienten der Zeile                        Soll -5.000  0.700 -0.002  0.400      Ist -5.000  0.700 -0.002  0.400      1
+G08c Alter 14.7: a_lo = 14.5, w = 0.4                          Soll 14.5  0.4                        Ist 14.500000000000000  0.399999999999999 1
+G08d Alter 14.7 interpoliert                                   Soll -4.6000  0.7400 -0.0024  0.3600  Ist -4.6000  0.7400 -0.0024  0.3600  1
+G08e Vorhersage 1 + 2·3 + 4·5 + 6·7 = 69                    Soll 69                               Ist 69                               1
+G08f Alter 15.2 über der Tabelle: Abbruch                     Soll Abbruch                          Ist Abbruch                          1
+G09a Koeffizienten 1 und 0.5                                   Soll 1.0 0.5                          Ist 1.000000000000001 0.499999999999999 1
+G09b Residuen -0.5 1 -0.5                                      Soll -0.5  1.0 -0.5                   Ist -0.500000000000001  1.000000000000000 -0.500000000000000 1
+G09c sigma = sqrt(1.5), df = 1                                 Soll 1.22474487139159 1.00000000000000 Ist 1.22474487139159 1.00000000000000 1
+G09d SE Steigung = sqrt(0.75)                                  Soll 0.866025403784439                Ist 0.866025403784439                1
+G09e R² = 0.25                                                Soll 0.25                             Ist 0.25                             1
+G09f exakte Gerade: Koeffizienten 1 und 2, sigma 0             Soll 1 2 0                            Ist 9.99999999999999e-01 2.00000000000000e+00 8.88178419700125e-16 1
+G09g doppelte Spalte: kein voller Rang                         Soll FALSE                            Ist FALSE                            1
+G09h konstante Gruppe: kein voller Rang                        Soll FALSE                            Ist FALSE                            1
+G09i n = p: kein voller Rang                                   Soll FALSE                            Ist FALSE                            1
+G09j t = 0.5/sqrt(0.75)                                        Soll 0.577350269189626                Ist 0.577350269189625                1
+G09k p = 2·(1 − T_1(|t|))                                   Soll 0.666666666666667                Ist 0.666666666666667                1
+G09l KI = b ± t_1(0.975)·SE                                  Soll -10.5038960872134  11.5038960872134 Ist -10.5038960872134  11.5038960872134 1
+G10a ANOVA F = 2.4, df 1 und 4                                 Soll 2.4 1.0 4.0                      Ist 2.4 1.0 4.0                      1
+G10b ANOVA SS zwischen 6, SS innerhalb 10                      Soll  6 10                            Ist  6 10                            1
+G10c ANOVA p = 1 − F_1,4(2.4)                                Soll 0.196261178149269                Ist 0.196261178149269                1
+G10d Brown-Forsythe F = 0.8                                    Soll 0.8                              Ist 0.8                              1
+G10e Brown-Forsythe bei gleichen Gruppen 1 2 3 und 1 2 3: F = 0 Soll 0                                Ist 0                                1
+G10f Brown-Forsythe df1 = 1, df2 = 4                           Soll 1 4                              Ist 1 4                              1
+G11a TE = sqrt(8/3)                                            Soll 1.63299316185545                 Ist 1.63299316185545                 1
+G11b df_TE = 3, n = 2                                          Soll 3 2                              Ist 3 2                              1
+G11c Mittel aller Versuche der TE-Menge = 2.6                  Soll 2.6                              Ist 2.6                              1
+G11d leere TE-Menge: TE fehlend, df 0, n 0                     Soll NA  0  0                         Ist NA  0  0                         1
+G11e KI-Grenze unten = 2·sqrt(3/chi2_3(0.975))                Soll 1.13297909320449                 Ist 1.13297909320449                 1
+G12a J bei df 18 = 1 − 3/71                                  Soll 0.957746478873239                Ist 0.957746478873239                1
+G12b Differenz −2, SD_pool sqrt(2.5), df 4                   Soll -2.00000000000000  1.58113883008419  4.00000000000000 Ist -2.00000000000000  1.58113883008419  4.00000000000000 1
+G12c SE = sqrt(2.5)·sqrt(2/3)                                 Soll 1.29099444873581                 Ist 1.29099444873581                 1
+G12d konstante Gruppen: t fehlend                              Soll NA                               Ist NA                               1
+G13a Überlappung L 3, U 5, IG 1, KG 1                         Soll 3 5 1 1                          Ist 3 5 1 1                          1
+G13b disjunkt: L 3 > U 2, beide 0                              Soll 3 2 0 0                          Ist 3 2 0 0                          1
+G13c Grenzen eingeschlossen: IG 3, KG 2                        Soll 3 2                              Ist 3 2                              1
+G14a Power bei lambda 0 = 0.05                                 Soll 0.05                             Ist 0.05                             1
+G14b Power steigt mit lambda                                   Soll TRUE                             Ist TRUE                             1
+G14c F_krit(1, 20, 0.05) = qf(0.95, 1, 20)                     Soll 4.35124350332929                 Ist 4.35124350332929                 1
+G15a 1/3 mit 17 Stellen                                        Soll 0.33333333333333331              Ist 0.33333333333333331              1
+G15a2 1.05 mit 17 Stellen einschließlich Nullen               Soll 1.0500000000000000               Ist 1.0500000000000000               1
+G15b Anzahl 3 als 3                                            Soll 3                                Ist 3                                1
+G15c Merkmal 1 als 1                                           Soll 1                                Ist 1                                1
+G15d fehlend als leer                                          Soll                                  Ist                                  1
+G15e Rücklesen von 0.1 + 0.2 ohne Verlust                     Soll 0.3                              Ist 0.3                              1
+G15f Anzahl 2.5: Abbruch                                       Soll Abbruch                          Ist Abbruch                          1
+G15g Merkmal 2: Abbruch                                        Soll Abbruch                          Ist Abbruch                          1
+G16a '1.5' und '' ergeben 1.5 und NA                           Soll 1.5 NA                           Ist 1.5 NA                           1
+G16b 'abc': Abbruch                                            Soll Abbruch                          Ist Abbruch                          1
+G16c '1,5' (Dezimalkomma): Abbruch                             Soll Abbruch                          Ist Abbruch                          1
+G16d Ganzzahl 4 außerhalb 1 bis 3: Abbruch                    Soll Abbruch                          Ist Abbruch                          1
+G16e leere Ganzzahl ohne Erlaubnis: Abbruch                    Soll Abbruch                          Ist Abbruch                          1
+G16f unbekannte Kategorie: Abbruch                             Soll Abbruch                          Ist Abbruch                          1
+G17a fehlend ohne Grund: Abbruch                               Soll Abbruch                          Ist Abbruch                          1
+G17b fehlend mit unzulässigem Grund: Abbruch                  Soll Abbruch                          Ist Abbruch                          1
+G17c doppelte Kennung: Abbruch                                 Soll Abbruch                          Ist Abbruch                          1
+G17d fehlend mit Grund: Wert leer, Grund gesetzt               Soll  Eingang fehlt                   Ist  Eingang fehlt                   1
+G18 SHA-256 von Versuchsdaten.csv wie sha256sum                Soll 429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba Ist 429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba 1
+G18 SHA-256 von Personendaten.csv wie sha256sum                Soll acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef Ist acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef 1
+G18 SHA-256 von Fragebogen_A.csv wie sha256sum                 Soll 5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4 Ist 5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4 1
+G18 SHA-256 von Zuordnung_Fragebogen.csv wie sha256sum         Soll f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa Ist f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa 1
+G18 SHA-256 von Listenplatz_IG.csv wie sha256sum               Soll 2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8 Ist 2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8 1
+G18 SHA-256 von Datenwoerterbuch.md wie sha256sum              Soll 07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6 Ist 07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6 1
+G18 SHA-256 von Pruefsummen.txt wie sha256sum                  Soll a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b Ist a125862cf917c4a58fd452d4e4739aff2364da1e0958303371440caa81509f7b 1
+G18 SHA-256 von 'a' x 0 wie sha256sum                          Soll e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 Ist e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 1
+G18 SHA-256 von 'a' x 55 wie sha256sum                         Soll 9f4390f8d30c2dd92ec9f095b65e2b9ae9b0a925a5258e241c9f1e910f734318 Ist 9f4390f8d30c2dd92ec9f095b65e2b9ae9b0a925a5258e241c9f1e910f734318 1
+G18 SHA-256 von 'a' x 56 wie sha256sum                         Soll b35439a4ac6f0948b6d6f9e3c6af0f5f590ce20f1bde7090ef7970686ec6738a Ist b35439a4ac6f0948b6d6f9e3c6af0f5f590ce20f1bde7090ef7970686ec6738a 1
+G18 SHA-256 von 'a' x 63 wie sha256sum                         Soll 7d3e74a05d7db15bce4ad9ec0658ea98e3f06eeecf16b4c6fff2da457ddc2f34 Ist 7d3e74a05d7db15bce4ad9ec0658ea98e3f06eeecf16b4c6fff2da457ddc2f34 1
+G18 SHA-256 von 'a' x 64 wie sha256sum                         Soll ffe054fe7ae0cb6dc65c3af9b61d5209f439851db43d0ba5997337df154668eb Ist ffe054fe7ae0cb6dc65c3af9b61d5209f439851db43d0ba5997337df154668eb 1
+G18 SHA-256 von 'a' x 65 wie sha256sum                         Soll 635361c48bb9eab14198e76ea8ab7f1a41685d6ad62aa9146d301d4f17eb0ae0 Ist 635361c48bb9eab14198e76ea8ab7f1a41685d6ad62aa9146d301d4f17eb0ae0 1
+G19a Bias Zeit 2.0 1.9 1.8 = -0.1                              Soll -0.1                             Ist -0.0999999999999999              1
+G19b Bias SBJ 200 210 205 = 0                                  Soll 0                                Ist 0                                1
+G20a Zeit: b1 < 0 günstig                                     Soll  TRUE FALSE                      Ist  TRUE FALSE                      1
+G20b SBJ: b1 > 0 günstig                                      Soll  TRUE FALSE                      Ist  TRUE FALSE                      1
+---------------------------------------------------------------------
+Fälle gesamt: 114, bestanden: 114, nicht bestanden: 0
+Alle Grenzfälle bestanden.
+Ende: 2026-09-25 09:15:20 UTC

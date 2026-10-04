@@ -1,0 +1,106 @@
+=====================================================================
+Skript:   Referenztests_2026-09-25.R
+Fassung:  2026-09-25
+Zweck:    Referenztests R01 bis R13 mit veröffentlichten Sollwerten
+Schritt:  Teil G.2 (Phase 4.1)
+Aufruf:   Rscript Referenztests_2026-09-25.R
+Start:    2026-09-25 09:15:12 UTC
+R:        R version 4.3.3 (2024-02-29)
+Eingang (Datei, SHA-256):
+  Spezifikation_2026-09-24_Referenzdaten.csv._Referenzdaten.csv  5fcd4f50130cffe0271074af537d2430346e76191282ebe67dfac2e517c1bb88
+  Spezifikation_2026-09-24_Referenzdaten_Daten.csv._Referenzdaten_Daten.csv  a6003700cf923646cf9341c866637fe227995543ce9096b458a5c4a45f662ac7
+=====================================================================
+
+Nachträge zur Toleranz (Verfasser, Rückfrage R5):
+  R08 Teststatistik W: Toleranz 0.0000005 ersetzt durch 0.00001 (Nachtrag vom 2026-09-25, Genauigkeit der Quelle (Rechnung in einfacher Genauigkeit in Dataplot))
+  R08 F_9,90(0.95): Toleranz 0.00005 ersetzt durch 0.0001 (Nachtrag vom 2026-09-25, gedruckter Quantilwert abgeschnitten statt gerundet)
+
+Referenztests: Soll, Ist, Abweichung, Toleranz, bestanden
+---------------------------------------------------------------------
+R01  Mittel                               Soll 10000002               Ist 10000002               Abw 0            Tol exakt (1e-9 relativ)                 bestanden 1
+R01  SD mit Nenner n − 1                Soll 1                      Ist 1                      Abw 0            Tol exakt (1e-9 relativ)                 bestanden 1
+R02  F                                    Soll 1.18046237440255E+00   Ist 1.18046237440245       Abw -1.03029e-13 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  Residuen-SD                          Soll 1.04076068334656E-01   Ist 0.10407606833466       Abw 4.02456e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  R²                                  Soll 1.90999039051129E-01   Ist 0.190999039051116      Abw -1.28508e-14 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  df zwischen                          Soll 4                      Ist 4                      Abw 0            Tol exakt                                bestanden 1
+R02  df innerhalb                         Soll 20                     Ist 20                     Abw 0            Tol exakt                                bestanden 1
+R02  SS zwischen                          Soll 5.11462616000000E-02   Ist 0.0511462615999995     Abw -4.78784e-16 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  SS innerhalb                         Soll 2.16636560000000E-01   Ist 0.216636560000016      Abw 1.64868e-14  Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  MS zwischen                          Soll 1.27865654000000E-02   Ist 0.0127865653999999     Abw -1.19696e-16 Tol mindestens 9 signifikante Stellen    bestanden 1
+R02  MS innerhalb                         Soll 1.08318280000000E-02   Ist 0.0108318280000008     Abw 8.23994e-16  Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  F                                    Soll 1.59467335677930E+01   Ist 15.9467335666769       Abw -1.11607e-09 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  Residuen-SD                          Soll 1.51048314446410E-05   Ist 1.51048314447351e-05   Abw 9.40935e-17  Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  R²                                  Soll 2.57426544538321E-01   Ist 0.257426544524943      Abw -1.33781e-11 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  df zwischen                          Soll 1                      Ist 1                      Abw 0            Tol exakt                                bestanden 1
+R03  df innerhalb                         Soll 46                     Ist 46                     Abw 0            Tol exakt                                bestanden 1
+R03  SS zwischen                          Soll 3.63834187500000E-09   Ist 3.63834187479071e-09   Abw -2.09286e-19 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  SS innerhalb                         Soll 1.04951729166667E-08   Ist 1.04951729167975e-08   Abw 1.30771e-19  Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  MS zwischen                          Soll 3.63834187500000E-09   Ist 3.63834187479071e-09   Abw -2.09286e-19 Tol mindestens 9 signifikante Stellen    bestanden 1
+R03  MS innerhalb                         Soll 2.28155932971014E-10   Ist 2.28155932973858e-10   Abw 2.84405e-21  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  B0                                   Soll -0.262323073774029     Ist -0.26232307377389      Abw 1.39222e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  SE B0                                Soll 0.232818234301152      Ist 0.232818234301154      Abw 1.97065e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  B1                                   Soll 1.00211681802045       Ist 1.00211681802045       Abw 3.9968e-15   Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  SE B1                                Soll 0.429796848199937E-03  Ist 0.00042979684819994    Abw 2.60209e-18  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  Residuen-SD                          Soll 0.884796396144373      Ist 0.884796396144378      Abw 5.44009e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R04  R²                                  Soll 0.999993745883712      Ist 0.999993745883712      Abw -3.33067e-16 Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B0                                   Soll -3482258.63459582      Ist -3482258.63459557      Abw 2.5006e-07   Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B0                                Soll 890420.383607373       Ist 890420.383608234       Abw 8.61357e-07  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B1                                   Soll 15.0618722713733       Ist 15.0618722714392       Abw 6.58691e-11  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B1                                Soll 84.9149257747669       Ist 84.9149257748588       Abw 9.18874e-11  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B2                                   Soll -0.358191792925910E-01 Ist -0.0358191792925869    Abw 4.08007e-15  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B2                                Soll 0.334910077722432E-01  Ist 0.033491007772277      Abw 3.38202e-14  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B3                                   Soll -2.02022980381683      Ist -2.02022980381654      Abw 2.91767e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B3                                Soll 0.488399681651699      Ist 0.488399681652145      Abw 4.46365e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B4                                   Soll -1.03322686717359      Ist -1.03322686717346      Abw 1.33893e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B4                                Soll 0.214274163161675      Ist 0.214274163161879      Abw 2.04392e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B5                                   Soll -0.511041056535807E-01 Ist -0.0511041056536783    Abw -9.75678e-14 Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B5                                Soll 0.226073200069370      Ist 0.226073200069594      Abw 2.24015e-13  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  B6                                   Soll 1829.15146461355       Ist 1829.15146461343       Abw -1.23919e-10 Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  SE B6                                Soll 455.478499142212       Ist 455.478499142653       Abw 4.41105e-10  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  Residuen-SD                          Soll 304.854073561965       Ist 304.854073562282       Abw 3.17073e-10  Tol mindestens 9 signifikante Stellen    bestanden 1
+R05  R²                                  Soll 0.995479004577296      Ist 0.995479004577286      Abw -9.76996e-15 Tol mindestens 9 signifikante Stellen    bestanden 1
+R06  t_df(0.975)                          Soll 2.228                  Ist 2.22813885198627       Abw 0.000138852  Tol 0.0005                               bestanden 1
+R06  t_df(0.975)                          Soll 2.086                  Ist 2.08596344726586       Abw -3.65527e-05 Tol 0.0005                               bestanden 1
+R06  t_df(0.975)                          Soll 2.064                  Ist 2.06389856162803       Abw -0.000101438 Tol 0.0005                               bestanden 1
+R06  t_df(0.975)                          Soll 2.042                  Ist 2.04227245630124       Abw 0.000272456  Tol 0.0005                               bestanden 1
+R07  χ²_df(0.025)                       Soll 3.247                  Ist 3.24697278023684       Abw -2.72198e-05 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.975)                       Soll 20.483                 Ist 20.4831773508074       Abw 0.000177351  Tol 0.0005                               bestanden 1
+R07  χ²_df(0.025)                       Soll 9.591                  Ist 9.59077739226487       Abw -0.000222608 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.975)                       Soll 34.170                 Ist 34.1696069028383       Abw -0.000393097 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.025)                       Soll 16.791                 Ist 16.7907722655666       Abw -0.000227734 Tol 0.0005                               bestanden 1
+R07  χ²_df(0.975)                       Soll 46.979                 Ist 46.9792422436712       Abw 0.000242244  Tol 0.0005                               bestanden 1
+R08  Teststatistik W                      Soll 1.705910               Ist 1.70591769300089       Abw 7.693e-06    Tol 0.00001                              bestanden 1
+R08  df1                                  Soll 9                      Ist 9                      Abw 0            Tol exakt                                bestanden 1
+R08  df2                                  Soll 90                     Ist 90                     Abw 0            Tol exakt                                bestanden 1
+R08  F_9,90(0.95)                         Soll 1.9855                 Ist 1.9855949637305        Abw 9.49637e-05  Tol 0.0001                               bestanden 1
+R09  n                                    Soll 195                    Ist 195                    Abw 0            Tol exakt                                bestanden 1
+R09  W                                    Soll 0.99827                Ist 0.99827215618536       Abw 2.15619e-06  Tol 0.000005                             bestanden 1
+R09  p                                    Soll 0.99923                Ist 0.999226870285809      Abw -3.12971e-06 Tol 0.000005                             bestanden 1
+R10  PAS in Zoll                          Soll 57.2                   Ist 57.167862              Abw -0.032138    Tol 0.05                                 bestanden 1
+R11  M Movie 1                            Soll 8.70                   Ist 8.7                    Abw 0            Tol 0.005                                bestanden 1
+R11  M Movie 2                            Soll 7.70                   Ist 7.7                    Abw 0            Tol 0.005                                bestanden 1
+R11  SD Movie 1                           Soll 0.82                   Ist 0.823272602348565      Abw 0.0032726    Tol 0.005                                bestanden 1
+R11  SD Movie 2                           Soll 0.95                   Ist 0.948683298050514      Abw -0.0013167   Tol 0.005                                bestanden 1
+R11  d_s                                  Soll 1.13                   Ist 1.1258799375612        Abw -0.00412006  Tol 0.005                                bestanden 1
+R11  g_s                                  Soll 1.08                   Ist 1.07830754583326       Abw -0.00169245  Tol 0.005                                bestanden 1
+R11  t                                    Soll 2.52                   Ist 2.51754407489007       Abw -0.00245593  Tol 0.005                                bestanden 1
+R11  p                                    Soll 0.022                  Ist 0.0215083336351396     Abw -0.000491666 Tol 0.0005                               bestanden 1
+R11  KI der Differenz, untere Grenze      Soll 0.17                   Ist 0.165487483935001      Abw -0.00451252  Tol 0.005                                bestanden 1
+R11  KI der Differenz, obere Grenze       Soll 1.83                   Ist 1.834512516065         Abw 0.00451252   Tol 0.005                                bestanden 1
+R12  λ                                   Soll 22.830000              Ist 22.83                  Abw 7.10543e-15  Tol 0.0000005                            bestanden 1
+R12  F_crit                               Soll 1.942507               Ist 1.94250745151732       Abw 4.51517e-07  Tol 0.0000005                            bestanden 1
+R12  df2                                  Soll 2253                   Ist 2253                   Abw 0            Tol exakt                                bestanden 1
+R12  Power                                Soll 0.950078               Ist 0.950077974639853      Abw -2.53601e-08 Tol 0.0000005                            bestanden 1
+R12  kleinstes N mit Power ≥ 0.95       Soll 2283                   Ist 2283                   Abw 0            Tol exakt                                bestanden 1
+R12  Power × 100                         Soll 70                     Ist 69.3404197195979       Abw -0.65958     Tol 1.5                                  bestanden 1
+R12  n je Gruppe                          Soll 64                     Ist 64                     Abw 0            Tol 1                                    bestanden 1
+R12  n je Gruppe                          Soll 64                     Ist 64                     Abw 0            Tol 1                                    bestanden 1
+R12  n je Gruppe                          Soll 17                     Ist 17                     Abw 0            Tol 1                                    bestanden 1
+R13  T                                    Soll 0.3903                 Ist 0.390304               Abw 4e-06        Tol 0.00005                              bestanden 1
+R13  df                                   Soll 99                     Ist 99                     Abw 0            Tol exakt                                bestanden 1
+R13  χ²_99(0.025)                       Soll 73.361                 Ist 73.3610801912837       Abw 8.01913e-05  Tol 0.0005                               bestanden 1
+R13  χ²_99(0.975)                       Soll 128.422                Ist 128.42198864384        Abw -1.13562e-05 Tol 0.0005                               bestanden 1
+---------------------------------------------------------------------
+Sollwerte gesamt: 83, bestanden: 83, nicht bestanden: 0
+Alle Referenztests bestanden.
+Ende: 2026-09-25 09:15:14 UTC
