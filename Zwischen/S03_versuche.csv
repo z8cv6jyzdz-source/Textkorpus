@@ -1,0 +1,1117 @@
+"Code","Gruppe","Zeitpunkt","Test","Seite","Versuch","Wert","ungueltig","Bemerkung","gueltig_roh","auslgestoert","gueltig","Kategorie"
+"BW-01","IG","prä","Sprint_5m","–",1,1.06,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"BW-01","IG","prä","Sprint_5m","–",3,1.05,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_10m","–",1,1.84,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_10m","–",2,1.93,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_10m","–",3,1.9,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_30m","–",1,4.53,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_30m","–",2,4.68,"","",1,FALSE,1,
+"BW-01","IG","prä","Sprint_30m","–",3,4.55,"","",1,FALSE,1,
+"BW-01","IG","prä","Standweitsprung","–",1,,"x","Kein fester Stand",0,FALSE,0,"FEHL"
+"BW-01","IG","prä","Standweitsprung","–",2,219,"","",1,FALSE,1,
+"BW-01","IG","prä","Standweitsprung","–",3,222,"","",1,FALSE,1,
+"BW-01","IG","prä","COD_505","L",1,2.6,"","",1,FALSE,1,
+"BW-01","IG","prä","COD_505","L",2,2.44,"","",1,FALSE,1,
+"BW-01","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-01","IG","prä","COD_505","R",1,2.67,"","",1,FALSE,1,
+"BW-01","IG","prä","COD_505","R",2,2.72,"","",1,FALSE,1,
+"BW-01","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-02","IG","prä","Sprint_5m","–",1,1.19,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_5m","–",2,1.08,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"BW-02","IG","prä","Sprint_10m","–",1,2,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_10m","–",2,1.92,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_10m","–",3,1.92,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_30m","–",1,4.81,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_30m","–",2,4.72,"","",1,FALSE,1,
+"BW-02","IG","prä","Sprint_30m","–",3,4.69,"","",1,FALSE,1,
+"BW-02","IG","prä","Standweitsprung","–",1,,"x","Kein fester Stand",0,FALSE,0,"FEHL"
+"BW-02","IG","prä","Standweitsprung","–",2,221,"","",1,FALSE,1,
+"BW-02","IG","prä","Standweitsprung","–",3,228,"","",1,FALSE,1,
+"BW-02","IG","prä","COD_505","L",1,2.44,"","",1,FALSE,1,
+"BW-02","IG","prä","COD_505","L",2,2.51,"","",1,FALSE,1,
+"BW-02","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-02","IG","prä","COD_505","R",1,2.5,"","",1,FALSE,1,
+"BW-02","IG","prä","COD_505","R",2,2.54,"","",1,FALSE,1,
+"BW-02","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-04","IG","prä","Sprint_5m","–",1,1.2,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_5m","–",2,1.16,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"BW-04","IG","prä","Sprint_10m","–",1,1.99,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_10m","–",2,1.95,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_10m","–",3,1.95,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_30m","–",1,4.71,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_30m","–",2,4.63,"","",1,FALSE,1,
+"BW-04","IG","prä","Sprint_30m","–",3,4.69,"","",1,FALSE,1,
+"BW-04","IG","prä","Standweitsprung","–",1,251,"","",1,FALSE,1,
+"BW-04","IG","prä","Standweitsprung","–",2,245,"","",1,FALSE,1,
+"BW-04","IG","prä","Standweitsprung","–",3,244,"","",1,FALSE,1,
+"BW-04","IG","prä","COD_505","L",1,2.37,"","",1,FALSE,1,
+"BW-04","IG","prä","COD_505","L",2,2.37,"","",1,FALSE,1,
+"BW-04","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-04","IG","prä","COD_505","R",1,2.48,"","",1,FALSE,1,
+"BW-04","IG","prä","COD_505","R",2,2.7,"","",1,FALSE,1,
+"BW-04","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-05","IG","prä","Sprint_5m","–",1,1.11,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_5m","–",2,1.04,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"BW-05","IG","prä","Sprint_10m","–",1,1.87,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_10m","–",2,1.86,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_10m","–",3,1.86,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_30m","–",1,4.49,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_30m","–",2,4.42,"","",1,FALSE,1,
+"BW-05","IG","prä","Sprint_30m","–",3,4.43,"","",1,FALSE,1,
+"BW-05","IG","prä","Standweitsprung","–",1,238,"","",1,FALSE,1,
+"BW-05","IG","prä","Standweitsprung","–",2,232,"","",1,FALSE,1,
+"BW-05","IG","prä","Standweitsprung","–",3,228,"","",1,FALSE,1,
+"BW-05","IG","prä","COD_505","L",1,2.57,"","",1,FALSE,1,
+"BW-05","IG","prä","COD_505","L",2,2.46,"","",1,FALSE,1,
+"BW-05","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-05","IG","prä","COD_505","R",1,2.49,"","",1,FALSE,1,
+"BW-05","IG","prä","COD_505","R",2,2.49,"","",1,FALSE,1,
+"BW-05","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-06","IG","prä","Sprint_5m","–",1,1.02,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_5m","–",2,1.06,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_5m","–",3,1.05,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_10m","–",1,1.84,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_10m","–",2,1.87,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_10m","–",3,1.84,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_30m","–",1,4.5,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_30m","–",2,4.59,"","",1,FALSE,1,
+"BW-06","IG","prä","Sprint_30m","–",3,4.55,"","",1,FALSE,1,
+"BW-06","IG","prä","Standweitsprung","–",1,239,"","",1,FALSE,1,
+"BW-06","IG","prä","Standweitsprung","–",2,243,"","",1,FALSE,1,
+"BW-06","IG","prä","Standweitsprung","–",3,243,"","",1,FALSE,1,
+"BW-06","IG","prä","COD_505","L",1,2.54,"","",1,FALSE,1,
+"BW-06","IG","prä","COD_505","L",2,2.63,"","",1,FALSE,1,
+"BW-06","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-06","IG","prä","COD_505","R",1,2.61,"","",1,FALSE,1,
+"BW-06","IG","prä","COD_505","R",2,2.64,"","",1,FALSE,1,
+"BW-06","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-07","IG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"BW-07","IG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"BW-07","IG","prä","Sprint_5m","–",3,1.05,"","",1,FALSE,1,
+"BW-07","IG","prä","Sprint_10m","–",1,1.81,"","",1,FALSE,1,
+"BW-07","IG","prä","Sprint_10m","–",2,1.79,"","",1,FALSE,1,
+"BW-07","IG","prä","Sprint_10m","–",3,1.79,"","",1,FALSE,1,
+"BW-07","IG","prä","Sprint_30m","–",1,4.29,"","",1,FALSE,1,
+"BW-07","IG","prä","Sprint_30m","–",2,4.29,"","",1,FALSE,1,
+"BW-07","IG","prä","Sprint_30m","–",3,4.31,"","",1,FALSE,1,
+"BW-07","IG","prä","Standweitsprung","–",1,246,"","",1,FALSE,1,
+"BW-07","IG","prä","Standweitsprung","–",2,244,"","",1,FALSE,1,
+"BW-07","IG","prä","Standweitsprung","–",3,247,"","",1,FALSE,1,
+"BW-07","IG","prä","COD_505","L",1,2.53,"","",1,FALSE,1,
+"BW-07","IG","prä","COD_505","L",2,2.41,"","",1,FALSE,1,
+"BW-07","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-07","IG","prä","COD_505","R",1,2.5,"","",1,FALSE,1,
+"BW-07","IG","prä","COD_505","R",2,2.62,"","",1,FALSE,1,
+"BW-07","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","prä","Sprint_5m","–",1,1.13,"","",1,FALSE,1,
+"BW-08","IG","prä","Sprint_5m","–",2,1.09,"","",1,FALSE,1,
+"BW-08","IG","prä","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","prä","Sprint_10m","–",1,1.89,"","",1,FALSE,1,
+"BW-08","IG","prä","Sprint_10m","–",2,1.87,"","",1,FALSE,1,
+"BW-08","IG","prä","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","prä","Sprint_30m","–",1,4.47,"","",1,FALSE,1,
+"BW-08","IG","prä","Sprint_30m","–",2,4.45,"","",1,FALSE,1,
+"BW-08","IG","prä","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","prä","Standweitsprung","–",1,230,"","",1,FALSE,1,
+"BW-08","IG","prä","Standweitsprung","–",2,246,"","",1,FALSE,1,
+"BW-08","IG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","prä","COD_505","L",1,2.42,"","",1,FALSE,1,
+"BW-08","IG","prä","COD_505","L",2,,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"BW-08","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","prä","COD_505","R",1,,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"BW-08","IG","prä","COD_505","R",2,2.41,"","",1,FALSE,1,
+"BW-08","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","prä","Sprint_5m","–",1,1.15,"","",1,FALSE,1,
+"BW-09","IG","prä","Sprint_5m","–",2,1.12,"","",1,FALSE,1,
+"BW-09","IG","prä","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","prä","Sprint_10m","–",1,1.95,"","",1,FALSE,1,
+"BW-09","IG","prä","Sprint_10m","–",2,1.93,"","",1,FALSE,1,
+"BW-09","IG","prä","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","prä","Sprint_30m","–",1,4.82,"","",1,FALSE,1,
+"BW-09","IG","prä","Sprint_30m","–",2,4.82,"","",1,FALSE,1,
+"BW-09","IG","prä","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","prä","Standweitsprung","–",1,237,"","",1,FALSE,1,
+"BW-09","IG","prä","Standweitsprung","–",2,237,"","",1,FALSE,1,
+"BW-09","IG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","prä","COD_505","L",1,2.53,"","",1,FALSE,1,
+"BW-09","IG","prä","COD_505","L",2,2.49,"","",1,FALSE,1,
+"BW-09","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","prä","COD_505","R",1,2.57,"","",1,FALSE,1,
+"BW-09","IG","prä","COD_505","R",2,,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"BW-09","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","prä","Sprint_5m","–",1,1.16,"","",1,FALSE,1,
+"BW-10","IG","prä","Sprint_5m","–",2,1.12,"","",1,FALSE,1,
+"BW-10","IG","prä","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","prä","Sprint_10m","–",1,1.91,"","",1,FALSE,1,
+"BW-10","IG","prä","Sprint_10m","–",2,1.85,"","",1,FALSE,1,
+"BW-10","IG","prä","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","prä","Sprint_30m","–",1,4.7,"","",1,FALSE,1,
+"BW-10","IG","prä","Sprint_30m","–",2,4.55,"","",1,FALSE,1,
+"BW-10","IG","prä","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","prä","Standweitsprung","–",1,195,"","",1,FALSE,1,
+"BW-10","IG","prä","Standweitsprung","–",2,207,"","",1,FALSE,1,
+"BW-10","IG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","prä","COD_505","L",1,2.49,"","",1,FALSE,1,
+"BW-10","IG","prä","COD_505","L",2,2.61,"","",1,FALSE,1,
+"BW-10","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","prä","COD_505","R",1,2.6,"","",1,FALSE,1,
+"BW-10","IG","prä","COD_505","R",2,2.52,"","",1,FALSE,1,
+"BW-10","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","prä","Sprint_5m","–",1,1.21,"","",1,FALSE,1,
+"BW-11","IG","prä","Sprint_5m","–",2,1.18,"","",1,FALSE,1,
+"BW-11","IG","prä","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","prä","Sprint_10m","–",1,2.07,"","",1,FALSE,1,
+"BW-11","IG","prä","Sprint_10m","–",2,2.06,"","",1,FALSE,1,
+"BW-11","IG","prä","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","prä","Sprint_30m","–",1,4.9,"","",1,FALSE,1,
+"BW-11","IG","prä","Sprint_30m","–",2,4.89,"","",1,FALSE,1,
+"BW-11","IG","prä","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","prä","Standweitsprung","–",1,211,"","",1,FALSE,1,
+"BW-11","IG","prä","Standweitsprung","–",2,222,"","",1,FALSE,1,
+"BW-11","IG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","prä","COD_505","L",1,,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"BW-11","IG","prä","COD_505","L",2,2.69,"","",1,FALSE,1,
+"BW-11","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","prä","COD_505","R",1,,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"BW-11","IG","prä","COD_505","R",2,,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"BW-11","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","prä","Sprint_5m","–",1,1.15,"","",1,FALSE,1,
+"BW-21","IG","prä","Sprint_5m","–",2,1.13,"","",1,FALSE,1,
+"BW-21","IG","prä","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","prä","Sprint_10m","–",1,2,"","",1,FALSE,1,
+"BW-21","IG","prä","Sprint_10m","–",2,1.97,"","",1,FALSE,1,
+"BW-21","IG","prä","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","prä","Sprint_30m","–",1,5.06,"","",1,FALSE,1,
+"BW-21","IG","prä","Sprint_30m","–",2,5,"","",1,FALSE,1,
+"BW-21","IG","prä","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","prä","Standweitsprung","–",1,221,"","",1,FALSE,1,
+"BW-21","IG","prä","Standweitsprung","–",2,223,"","",1,FALSE,1,
+"BW-21","IG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","prä","COD_505","L",1,2.72,"","",1,FALSE,1,
+"BW-21","IG","prä","COD_505","L",2,2.7,"","",1,FALSE,1,
+"BW-21","IG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","prä","COD_505","R",1,2.6,"","",1,FALSE,1,
+"BW-21","IG","prä","COD_505","R",2,2.52,"","",1,FALSE,1,
+"BW-21","IG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-01","IG","prä","Sprint_5m","–",1,1.15,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_5m","–",2,1.09,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_5m","–",3,1.02,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-01","IG","prä","Sprint_10m","–",2,1.87,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_10m","–",3,1.87,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_30m","–",1,4.77,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_30m","–",2,4.7,"","",1,FALSE,1,
+"HL-01","IG","prä","Sprint_30m","–",3,4.66,"","",1,FALSE,1,
+"HL-01","IG","prä","Standweitsprung","–",1,236,"","",1,FALSE,1,
+"HL-01","IG","prä","Standweitsprung","–",2,217,"","",1,FALSE,1,
+"HL-01","IG","prä","Standweitsprung","–",3,236,"","",1,FALSE,1,
+"HL-01","IG","prä","COD_505","L",1,2.58,"","",1,FALSE,1,
+"HL-01","IG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-01","IG","prä","COD_505","L",3,2.48,"","",1,FALSE,1,
+"HL-01","IG","prä","COD_505","R",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-01","IG","prä","COD_505","R",2,2.62,"","",1,FALSE,1,
+"HL-01","IG","prä","COD_505","R",3,2.49,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_5m","–",1,0.98,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_5m","–",2,0.87,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_5m","–",3,0.97,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_10m","–",1,1.75,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_10m","–",2,1.65,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_10m","–",3,1.71,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_30m","–",1,4.21,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_30m","–",2,4.09,"","",1,FALSE,1,
+"HL-02","IG","prä","Sprint_30m","–",3,4.19,"","",1,FALSE,1,
+"HL-02","IG","prä","Standweitsprung","–",1,246,"","",1,FALSE,1,
+"HL-02","IG","prä","Standweitsprung","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-02","IG","prä","Standweitsprung","–",3,251,"","",1,FALSE,1,
+"HL-02","IG","prä","COD_505","L",1,2.58,"","",1,FALSE,1,
+"HL-02","IG","prä","COD_505","L",2,2.27,"","",1,FALSE,1,
+"HL-02","IG","prä","COD_505","L",3,2.24,"","",1,FALSE,1,
+"HL-02","IG","prä","COD_505","R",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-02","IG","prä","COD_505","R",2,2.15,"","",1,FALSE,1,
+"HL-02","IG","prä","COD_505","R",3,2.25,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_5m","–",1,1,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-03","IG","prä","Sprint_5m","–",3,1.01,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_10m","–",1,1.76,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_10m","–",2,1.79,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_10m","–",3,1.71,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_30m","–",1,4.22,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_30m","–",2,4.28,"","",1,FALSE,1,
+"HL-03","IG","prä","Sprint_30m","–",3,4.25,"","",1,FALSE,1,
+"HL-03","IG","prä","Standweitsprung","–",1,248,"","",1,FALSE,1,
+"HL-03","IG","prä","Standweitsprung","–",2,238,"","",1,FALSE,1,
+"HL-03","IG","prä","Standweitsprung","–",3,238,"","",1,FALSE,1,
+"HL-03","IG","prä","COD_505","L",1,2.39,"","",1,FALSE,1,
+"HL-03","IG","prä","COD_505","L",2,2.41,"","",1,FALSE,1,
+"HL-03","IG","prä","COD_505","L",3,2.45,"","",1,FALSE,1,
+"HL-03","IG","prä","COD_505","R",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-03","IG","prä","COD_505","R",2,2.47,"","",1,FALSE,1,
+"HL-03","IG","prä","COD_505","R",3,2.56,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-05","IG","prä","Sprint_5m","–",2,1,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_5m","–",3,0.97,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_10m","–",1,1.76,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_10m","–",2,1.73,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_10m","–",3,1.77,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_30m","–",1,4.29,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_30m","–",2,4.25,"","",1,FALSE,1,
+"HL-05","IG","prä","Sprint_30m","–",3,4.32,"","",1,FALSE,1,
+"HL-05","IG","prä","Standweitsprung","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-05","IG","prä","Standweitsprung","–",2,220,"","",1,FALSE,1,
+"HL-05","IG","prä","Standweitsprung","–",3,232,"","",1,FALSE,1,
+"HL-05","IG","prä","COD_505","L",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-05","IG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-05","IG","prä","COD_505","L",3,2.45,"","",1,FALSE,1,
+"HL-05","IG","prä","COD_505","R",1,2.66,"","",1,FALSE,1,
+"HL-05","IG","prä","COD_505","R",2,2.58,"","",1,FALSE,1,
+"HL-05","IG","prä","COD_505","R",3,2.45,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_5m","–",1,1.06,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_5m","–",2,1.08,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-06","IG","prä","Sprint_10m","–",1,1.81,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_10m","–",2,1.85,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-06","IG","prä","Sprint_30m","–",1,4.51,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_30m","–",2,4.54,"","",1,FALSE,1,
+"HL-06","IG","prä","Sprint_30m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-06","IG","prä","Standweitsprung","–",1,243,"","",1,FALSE,1,
+"HL-06","IG","prä","Standweitsprung","–",2,237,"","",1,FALSE,1,
+"HL-06","IG","prä","Standweitsprung","–",3,234,"","",1,FALSE,1,
+"HL-06","IG","prä","COD_505","L",1,2.47,"","",1,FALSE,1,
+"HL-06","IG","prä","COD_505","L",2,2.45,"","",1,FALSE,1,
+"HL-06","IG","prä","COD_505","L",3,2.46,"","",1,FALSE,1,
+"HL-06","IG","prä","COD_505","R",1,2.52,"","",1,FALSE,1,
+"HL-06","IG","prä","COD_505","R",2,2.59,"","",1,FALSE,1,
+"HL-06","IG","prä","COD_505","R",3,2.37,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_5m","–",1,1.03,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_5m","–",2,1.04,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_5m","–",3,1.09,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_10m","–",1,1.82,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_10m","–",2,1.84,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_10m","–",3,1.86,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_30m","–",1,4.48,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_30m","–",2,4.51,"","",1,FALSE,1,
+"HL-07","IG","prä","Sprint_30m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-07","IG","prä","Standweitsprung","–",1,252,"","",1,FALSE,1,
+"HL-07","IG","prä","Standweitsprung","–",2,255,"","",1,FALSE,1,
+"HL-07","IG","prä","Standweitsprung","–",3,243,"","",1,FALSE,1,
+"HL-07","IG","prä","COD_505","L",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-07","IG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-07","IG","prä","COD_505","L",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-07","IG","prä","COD_505","R",1,2.42,"","",1,FALSE,1,
+"HL-07","IG","prä","COD_505","R",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-07","IG","prä","COD_505","R",3,2.54,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_5m","–",1,1.05,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_5m","–",2,1.02,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_5m","–",3,0.93,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_10m","–",1,1.9,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_10m","–",2,1.8,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","prä","Sprint_30m","–",1,4.59,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_30m","–",2,4.49,"","",1,FALSE,1,
+"HL-08","IG","prä","Sprint_30m","–",3,4.48,"","",1,FALSE,1,
+"HL-08","IG","prä","Standweitsprung","–",1,232,"","",1,FALSE,1,
+"HL-08","IG","prä","Standweitsprung","–",2,245,"","",1,FALSE,1,
+"HL-08","IG","prä","Standweitsprung","–",3,238,"","",1,FALSE,1,
+"HL-08","IG","prä","COD_505","L",1,2.47,"","",1,FALSE,1,
+"HL-08","IG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","prä","COD_505","L",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","prä","COD_505","R",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","prä","COD_505","R",2,2.49,"","",1,FALSE,1,
+"HL-08","IG","prä","COD_505","R",3,2.53,"","",1,FALSE,1,
+"VS-01","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","Sprint_5m","–",3,1.09,"","",1,FALSE,1,
+"VS-01","KG","prä","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","Sprint_10m","–",3,1.93,"","",1,FALSE,1,
+"VS-01","KG","prä","Sprint_30m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","Sprint_30m","–",3,4.91,"","",1,FALSE,1,
+"VS-01","KG","prä","Standweitsprung","–",1,209,"","",1,FALSE,1,
+"VS-01","KG","prä","Standweitsprung","–",2,220,"","",1,FALSE,1,
+"VS-01","KG","prä","Standweitsprung","–",3,228,"","",1,FALSE,1,
+"VS-01","KG","prä","COD_505","L",1,2.54,"","",1,FALSE,1,
+"VS-01","KG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","prä","COD_505","L",3,2.5,"","",1,FALSE,1,
+"VS-01","KG","prä","COD_505","R",1,2.31,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"VS-01","KG","prä","COD_505","R",2,2.37,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"VS-01","KG","prä","COD_505","R",3,2.42,"","",1,FALSE,1,
+"VS-02","KG","prä","Sprint_5m","–",1,1.19,"","",1,FALSE,1,
+"VS-02","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-02","KG","prä","Sprint_5m","–",3,1.12,"","",1,FALSE,1,
+"VS-02","KG","prä","Sprint_10m","–",1,2.02,"","",1,FALSE,1,
+"VS-02","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-02","KG","prä","Sprint_10m","–",3,1.96,"","",1,FALSE,1,
+"VS-02","KG","prä","Sprint_30m","–",1,4.94,"","",1,FALSE,1,
+"VS-02","KG","prä","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-02","KG","prä","Sprint_30m","–",3,4.89,"","",1,FALSE,1,
+"VS-02","KG","prä","Standweitsprung","–",1,206,"","",1,FALSE,1,
+"VS-02","KG","prä","Standweitsprung","–",2,208,"","",1,FALSE,1,
+"VS-02","KG","prä","Standweitsprung","–",3,207,"","",1,FALSE,1,
+"VS-02","KG","prä","COD_505","L",1,2.57,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"VS-02","KG","prä","COD_505","L",2,2.54,"","",1,FALSE,1,
+"VS-02","KG","prä","COD_505","L",3,2.55,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"VS-02","KG","prä","COD_505","R",1,2.6,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"VS-02","KG","prä","COD_505","R",2,2.49,"","",1,FALSE,1,
+"VS-02","KG","prä","COD_505","R",3,2.47,"","",1,FALSE,1,
+"VS-03","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-03","KG","prä","Sprint_5m","–",2,1.25,"","",1,FALSE,1,
+"VS-03","KG","prä","Sprint_5m","–",3,1.1,"","",1,FALSE,1,
+"VS-03","KG","prä","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-03","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-03","KG","prä","Sprint_10m","–",3,1.92,"","",1,FALSE,1,
+"VS-03","KG","prä","Sprint_30m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-03","KG","prä","Sprint_30m","–",2,5.06,"","",1,FALSE,1,
+"VS-03","KG","prä","Sprint_30m","–",3,4.94,"","",1,FALSE,1,
+"VS-03","KG","prä","Standweitsprung","–",1,228,"","",1,FALSE,1,
+"VS-03","KG","prä","Standweitsprung","–",2,235,"","",1,FALSE,1,
+"VS-03","KG","prä","Standweitsprung","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-03","KG","prä","COD_505","L",1,2.64,"","",1,FALSE,1,
+"VS-03","KG","prä","COD_505","L",2,2.6,"x","Linie nicht getroffen",0,FALSE,0,"FEHL"
+"VS-03","KG","prä","COD_505","L",3,2.47,"","",1,FALSE,1,
+"VS-03","KG","prä","COD_505","R",1,2.74,"","",1,FALSE,1,
+"VS-03","KG","prä","COD_505","R",2,2.85,"","",1,FALSE,1,
+"VS-03","KG","prä","COD_505","R",3,2.83,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_5m","–",1,1.24,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_5m","–",2,1.18,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_5m","–",3,1.17,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_10m","–",1,2.05,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-04","KG","prä","Sprint_10m","–",3,2,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_30m","–",1,5.13,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_30m","–",2,5.07,"","",1,FALSE,1,
+"VS-04","KG","prä","Sprint_30m","–",3,5.02,"","",1,FALSE,1,
+"VS-04","KG","prä","Standweitsprung","–",1,210,"","",1,FALSE,1,
+"VS-04","KG","prä","Standweitsprung","–",2,205,"","",1,FALSE,1,
+"VS-04","KG","prä","Standweitsprung","–",3,207,"","",1,FALSE,1,
+"VS-04","KG","prä","COD_505","L",1,2.74,"","",1,FALSE,1,
+"VS-04","KG","prä","COD_505","L",2,2.8,"","",1,FALSE,1,
+"VS-04","KG","prä","COD_505","L",3,2.64,"","",1,FALSE,1,
+"VS-04","KG","prä","COD_505","R",1,2.69,"","",1,FALSE,1,
+"VS-04","KG","prä","COD_505","R",2,2.61,"","",1,FALSE,1,
+"VS-04","KG","prä","COD_505","R",3,2.59,"","",1,FALSE,1,
+"VS-05","KG","prä","Sprint_5m","–",1,1.2,"","",1,FALSE,1,
+"VS-05","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","Sprint_5m","–",3,1.14,"","",1,FALSE,1,
+"VS-05","KG","prä","Sprint_10m","–",1,2.05,"","",1,FALSE,1,
+"VS-05","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","Sprint_10m","–",3,1.98,"","",1,FALSE,1,
+"VS-05","KG","prä","Sprint_30m","–",1,5.05,"","",1,FALSE,1,
+"VS-05","KG","prä","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","Sprint_30m","–",3,4.95,"","",1,FALSE,1,
+"VS-05","KG","prä","Standweitsprung","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","Standweitsprung","–",2,207,"","",1,FALSE,1,
+"VS-05","KG","prä","Standweitsprung","–",3,228,"","",1,FALSE,1,
+"VS-05","KG","prä","COD_505","L",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","COD_505","L",3,2.58,"","",1,FALSE,1,
+"VS-05","KG","prä","COD_505","R",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","prä","COD_505","R",2,2.5,"","",1,FALSE,1,
+"VS-05","KG","prä","COD_505","R",3,2.56,"","",1,FALSE,1,
+"VS-06","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-06","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-06","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-06","KG","prä","Sprint_10m","–",1,1.85,"","",1,FALSE,1,
+"VS-06","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-06","KG","prä","Sprint_10m","–",3,1.78,"","",1,FALSE,1,
+"VS-06","KG","prä","Sprint_30m","–",1,4.48,"","",1,FALSE,1,
+"VS-06","KG","prä","Sprint_30m","–",2,4.45,"","",1,FALSE,1,
+"VS-06","KG","prä","Sprint_30m","–",3,4.5,"","",1,FALSE,1,
+"VS-06","KG","prä","Standweitsprung","–",1,259,"","",1,FALSE,1,
+"VS-06","KG","prä","Standweitsprung","–",2,255,"","",1,FALSE,1,
+"VS-06","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","prä","COD_505","L",1,2.35,"","",1,FALSE,1,
+"VS-06","KG","prä","COD_505","L",2,2.5,"","",1,FALSE,1,
+"VS-06","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","prä","COD_505","R",1,2.29,"","",1,FALSE,1,
+"VS-06","KG","prä","COD_505","R",2,2.52,"","",1,FALSE,1,
+"VS-06","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-07","KG","prä","Sprint_5m","–",1,1.19,"","",1,FALSE,1,
+"VS-07","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-07","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-07","KG","prä","Sprint_10m","–",1,2.06,"","",1,FALSE,1,
+"VS-07","KG","prä","Sprint_10m","–",2,2.07,"","",1,FALSE,1,
+"VS-07","KG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-07","KG","prä","Sprint_30m","–",1,5.19,"","",1,FALSE,1,
+"VS-07","KG","prä","Sprint_30m","–",2,5.21,"","",1,FALSE,1,
+"VS-07","KG","prä","Sprint_30m","–",3,5.38,"","",1,FALSE,1,
+"VS-07","KG","prä","Standweitsprung","–",1,219,"","",1,FALSE,1,
+"VS-07","KG","prä","Standweitsprung","–",2,207,"","",1,FALSE,1,
+"VS-07","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-07","KG","prä","COD_505","L",1,2.69,"","",1,FALSE,1,
+"VS-07","KG","prä","COD_505","L",2,2.49,"","",1,FALSE,1,
+"VS-07","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-07","KG","prä","COD_505","R",1,2.58,"","",1,FALSE,1,
+"VS-07","KG","prä","COD_505","R",2,2.55,"","",1,FALSE,1,
+"VS-07","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-08","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-08","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-08","KG","prä","Sprint_10m","–",1,2.09,"","",1,FALSE,1,
+"VS-08","KG","prä","Sprint_10m","–",2,2.16,"","",1,FALSE,1,
+"VS-08","KG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-08","KG","prä","Sprint_30m","–",1,5.45,"","",1,FALSE,1,
+"VS-08","KG","prä","Sprint_30m","–",2,5.48,"","",1,FALSE,1,
+"VS-08","KG","prä","Sprint_30m","–",3,5.44,"","",1,FALSE,1,
+"VS-08","KG","prä","Standweitsprung","–",1,202,"","",1,FALSE,1,
+"VS-08","KG","prä","Standweitsprung","–",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-08","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","prä","COD_505","L",1,2.68,"","",1,FALSE,1,
+"VS-08","KG","prä","COD_505","L",2,2.65,"","",1,FALSE,1,
+"VS-08","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","prä","COD_505","R",1,2.55,"","",1,FALSE,1,
+"VS-08","KG","prä","COD_505","R",2,2.76,"","",1,FALSE,1,
+"VS-08","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","prä","Sprint_5m","–",1,1.1,"","",1,FALSE,1,
+"VS-10","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-10","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-10","KG","prä","Sprint_10m","–",1,1.87,"","",1,FALSE,1,
+"VS-10","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-10","KG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-10","KG","prä","Sprint_30m","–",1,4.66,"","",1,FALSE,1,
+"VS-10","KG","prä","Sprint_30m","–",2,4.64,"","",1,FALSE,1,
+"VS-10","KG","prä","Sprint_30m","–",3,4.75,"","",1,FALSE,1,
+"VS-10","KG","prä","Standweitsprung","–",1,232,"","",1,FALSE,1,
+"VS-10","KG","prä","Standweitsprung","–",2,231,"","",1,FALSE,1,
+"VS-10","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","prä","COD_505","L",1,2.4,"","",1,FALSE,1,
+"VS-10","KG","prä","COD_505","L",2,2.59,"","",1,FALSE,1,
+"VS-10","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","prä","COD_505","R",1,2.55,"","",1,FALSE,1,
+"VS-10","KG","prä","COD_505","R",2,2.41,"","",1,FALSE,1,
+"VS-10","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-11","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-11","KG","prä","Sprint_5m","–",3,1.18,"","",1,FALSE,1,
+"VS-11","KG","prä","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-11","KG","prä","Sprint_10m","–",2,1.97,"","",1,FALSE,1,
+"VS-11","KG","prä","Sprint_10m","–",3,2.1,"","",1,FALSE,1,
+"VS-11","KG","prä","Sprint_30m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-11","KG","prä","Sprint_30m","–",2,5.04,"","",1,FALSE,1,
+"VS-11","KG","prä","Sprint_30m","–",3,5.05,"","",1,FALSE,1,
+"VS-11","KG","prä","Standweitsprung","–",1,204,"","",1,FALSE,1,
+"VS-11","KG","prä","Standweitsprung","–",2,199,"","",1,FALSE,1,
+"VS-11","KG","prä","Standweitsprung","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-11","KG","prä","COD_505","L",1,2.75,"","",1,FALSE,1,
+"VS-11","KG","prä","COD_505","L",2,2.85,"","",1,FALSE,1,
+"VS-11","KG","prä","COD_505","L",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-11","KG","prä","COD_505","R",1,2.64,"","",1,FALSE,1,
+"VS-11","KG","prä","COD_505","R",2,2.73,"","",1,FALSE,1,
+"VS-11","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-16","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","Sprint_10m","–",2,1.98,"","",1,FALSE,1,
+"VS-16","KG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","Sprint_30m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","Sprint_30m","–",2,4.92,"","",1,FALSE,1,
+"VS-16","KG","prä","Sprint_30m","–",3,4.92,"","",1,FALSE,1,
+"VS-16","KG","prä","Standweitsprung","–",1,226,"","",1,FALSE,1,
+"VS-16","KG","prä","Standweitsprung","–",2,225,"","",1,FALSE,1,
+"VS-16","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-16","KG","prä","COD_505","L",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-16","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-16","KG","prä","COD_505","R",1,2.32,"","",1,FALSE,1,
+"VS-16","KG","prä","COD_505","R",2,2.49,"","",1,FALSE,1,
+"VS-16","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-17","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-17","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-17","KG","prä","Sprint_10m","–",1,2.02,"","",1,FALSE,1,
+"VS-17","KG","prä","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-17","KG","prä","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-17","KG","prä","Sprint_30m","–",1,5.19,"","",1,FALSE,1,
+"VS-17","KG","prä","Sprint_30m","–",2,4.79,"","",1,FALSE,1,
+"VS-17","KG","prä","Sprint_30m","–",3,4.66,"","",1,FALSE,1,
+"VS-17","KG","prä","Standweitsprung","–",1,258,"","",1,FALSE,1,
+"VS-17","KG","prä","Standweitsprung","–",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-17","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","prä","COD_505","L",1,2.54,"","",1,FALSE,1,
+"VS-17","KG","prä","COD_505","L",2,2.62,"","",1,FALSE,1,
+"VS-17","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","prä","COD_505","R",1,2.52,"","",1,FALSE,1,
+"VS-17","KG","prä","COD_505","R",2,2.48,"","",1,FALSE,1,
+"VS-17","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","prä","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","Sprint_10m","–",2,2.05,"","",1,FALSE,1,
+"VS-18","KG","prä","Sprint_10m","–",3,2,"","",1,FALSE,1,
+"VS-18","KG","prä","Sprint_30m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","Sprint_30m","–",2,5.19,"","",1,FALSE,1,
+"VS-18","KG","prä","Sprint_30m","–",3,5.07,"","",1,FALSE,1,
+"VS-18","KG","prä","Standweitsprung","–",1,201,"","",1,FALSE,1,
+"VS-18","KG","prä","Standweitsprung","–",2,209,"","",1,FALSE,1,
+"VS-18","KG","prä","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","prä","COD_505","L",1,2.61,"","",1,FALSE,1,
+"VS-18","KG","prä","COD_505","L",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","prä","COD_505","R",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","COD_505","R",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","prä","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-01","IG","post","Sprint_5m","–",1,1.12,"","",1,FALSE,1,
+"BW-01","IG","post","Sprint_5m","–",2,1.08,"","",1,FALSE,1,
+"BW-01","IG","post","Sprint_5m","–",3,1.09,"","",1,FALSE,1,
+"BW-01","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-01","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-01","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-01","IG","post","Sprint_30m","–",1,4.62,"","",1,FALSE,1,
+"BW-01","IG","post","Sprint_30m","–",2,4.54,"","",1,FALSE,1,
+"BW-01","IG","post","Sprint_30m","–",3,4.55,"","",1,FALSE,1,
+"BW-01","IG","post","Standweitsprung","–",1,218,"","",1,FALSE,1,
+"BW-01","IG","post","Standweitsprung","–",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-01","IG","post","Standweitsprung","–",3,214,"","",1,FALSE,1,
+"BW-01","IG","post","COD_505","L",1,2.57,"","",1,FALSE,1,
+"BW-01","IG","post","COD_505","L",2,2.41,"","",1,FALSE,1,
+"BW-01","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-01","IG","post","COD_505","R",1,2.68,"","",1,FALSE,1,
+"BW-01","IG","post","COD_505","R",2,2.74,"","",1,FALSE,1,
+"BW-01","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-02","IG","post","Sprint_5m","–",1,1.09,"","",1,FALSE,1,
+"BW-02","IG","post","Sprint_5m","–",2,1.08,"","",1,FALSE,1,
+"BW-02","IG","post","Sprint_5m","–",3,1.09,"","",1,FALSE,1,
+"BW-02","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-02","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-02","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-02","IG","post","Sprint_30m","–",1,4.76,"","",1,FALSE,1,
+"BW-02","IG","post","Sprint_30m","–",2,4.7,"","",1,FALSE,1,
+"BW-02","IG","post","Sprint_30m","–",3,4.72,"","",1,FALSE,1,
+"BW-02","IG","post","Standweitsprung","–",1,232,"","",1,FALSE,1,
+"BW-02","IG","post","Standweitsprung","–",2,234,"","",1,FALSE,1,
+"BW-02","IG","post","Standweitsprung","–",3,235,"","",1,FALSE,1,
+"BW-02","IG","post","COD_505","L",1,2.4,"","",1,FALSE,1,
+"BW-02","IG","post","COD_505","L",2,2.45,"","",1,FALSE,1,
+"BW-02","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-02","IG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-02","IG","post","COD_505","R",2,2.44,"","",1,FALSE,1,
+"BW-02","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-04","IG","post","Sprint_5m","–",1,1.16,"","",1,FALSE,1,
+"BW-04","IG","post","Sprint_5m","–",2,1.14,"","",1,FALSE,1,
+"BW-04","IG","post","Sprint_5m","–",3,1.13,"","",1,FALSE,1,
+"BW-04","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-04","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-04","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-04","IG","post","Sprint_30m","–",1,4.72,"","",1,FALSE,1,
+"BW-04","IG","post","Sprint_30m","–",2,4.73,"","",1,FALSE,1,
+"BW-04","IG","post","Sprint_30m","–",3,4.68,"","",1,FALSE,1,
+"BW-04","IG","post","Standweitsprung","–",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-04","IG","post","Standweitsprung","–",2,239,"","",1,FALSE,1,
+"BW-04","IG","post","Standweitsprung","–",3,250,"","",1,FALSE,1,
+"BW-04","IG","post","COD_505","L",1,2.39,"","",1,FALSE,1,
+"BW-04","IG","post","COD_505","L",2,2.46,"","",1,FALSE,1,
+"BW-04","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-04","IG","post","COD_505","R",1,2.64,"","",1,FALSE,1,
+"BW-04","IG","post","COD_505","R",2,2.52,"","",1,FALSE,1,
+"BW-04","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-05","IG","post","Sprint_5m","–",1,1.13,"","",1,FALSE,1,
+"BW-05","IG","post","Sprint_5m","–",2,1.11,"","",1,FALSE,1,
+"BW-05","IG","post","Sprint_5m","–",3,1.1,"","",1,FALSE,1,
+"BW-05","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-05","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-05","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-05","IG","post","Sprint_30m","–",1,4.63,"","",1,FALSE,1,
+"BW-05","IG","post","Sprint_30m","–",2,4.54,"","",1,FALSE,1,
+"BW-05","IG","post","Sprint_30m","–",3,4.55,"","",1,FALSE,1,
+"BW-05","IG","post","Standweitsprung","–",1,217,"","",1,FALSE,1,
+"BW-05","IG","post","Standweitsprung","–",2,237,"","",1,FALSE,1,
+"BW-05","IG","post","Standweitsprung","–",3,229,"","",1,FALSE,1,
+"BW-05","IG","post","COD_505","L",1,2.5,"","",1,FALSE,1,
+"BW-05","IG","post","COD_505","L",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-05","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-05","IG","post","COD_505","R",1,2.41,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-05","IG","post","COD_505","R",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-05","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-06","IG","post","Sprint_5m","–",1,1.03,"","",1,FALSE,1,
+"BW-06","IG","post","Sprint_5m","–",2,1.04,"","",1,FALSE,1,
+"BW-06","IG","post","Sprint_5m","–",3,1.05,"","",1,FALSE,1,
+"BW-06","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-06","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-06","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-06","IG","post","Sprint_30m","–",1,4.52,"","",1,FALSE,1,
+"BW-06","IG","post","Sprint_30m","–",2,4.51,"","",1,FALSE,1,
+"BW-06","IG","post","Sprint_30m","–",3,4.51,"","",1,FALSE,1,
+"BW-06","IG","post","Standweitsprung","–",1,216,"","",1,FALSE,1,
+"BW-06","IG","post","Standweitsprung","–",2,244,"","",1,FALSE,1,
+"BW-06","IG","post","Standweitsprung","–",3,237,"","",1,FALSE,1,
+"BW-06","IG","post","COD_505","L",1,2.56,"","",1,FALSE,1,
+"BW-06","IG","post","COD_505","L",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-06","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-06","IG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-06","IG","post","COD_505","R",2,2.62,"","",1,FALSE,1,
+"BW-06","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-07","IG","post","Sprint_5m","–",1,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_5m","–",2,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_5m","–",3,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_10m","–",1,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_10m","–",2,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_10m","–",3,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_30m","–",1,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_30m","–",2,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Sprint_30m","–",3,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Standweitsprung","–",1,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Standweitsprung","–",2,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","Standweitsprung","–",3,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","COD_505","L",1,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","COD_505","L",2,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","COD_505","L",3,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","COD_505","R",1,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","COD_505","R",2,,"","",0,FALSE,0,"NANG"
+"BW-07","IG","post","COD_505","R",3,,"","",0,FALSE,0,"NANG"
+"BW-08","IG","post","Sprint_5m","–",1,1.03,"","",1,FALSE,1,
+"BW-08","IG","post","Sprint_5m","–",2,1.09,"","",1,FALSE,1,
+"BW-08","IG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-08","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-08","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-08","IG","post","Sprint_30m","–",1,4.44,"","",1,FALSE,1,
+"BW-08","IG","post","Sprint_30m","–",2,4.53,"","",1,FALSE,1,
+"BW-08","IG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","post","Standweitsprung","–",1,239,"","",1,FALSE,1,
+"BW-08","IG","post","Standweitsprung","–",2,239,"","",1,FALSE,1,
+"BW-08","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","post","COD_505","L",1,2.51,"","",1,FALSE,1,
+"BW-08","IG","post","COD_505","L",2,2.46,"","",1,FALSE,1,
+"BW-08","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-08","IG","post","COD_505","R",1,2.5,"","",1,FALSE,1,
+"BW-08","IG","post","COD_505","R",2,2.58,"","",1,FALSE,1,
+"BW-08","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","post","Sprint_5m","–",1,1.09,"","",1,FALSE,1,
+"BW-09","IG","post","Sprint_5m","–",2,1.07,"","",1,FALSE,1,
+"BW-09","IG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-09","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-09","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-09","IG","post","Sprint_30m","–",1,4.78,"","",1,FALSE,1,
+"BW-09","IG","post","Sprint_30m","–",2,4.81,"","",1,FALSE,1,
+"BW-09","IG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","post","Standweitsprung","–",1,229,"","",1,FALSE,1,
+"BW-09","IG","post","Standweitsprung","–",2,236,"","",1,FALSE,1,
+"BW-09","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","post","COD_505","L",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-09","IG","post","COD_505","L",2,2.55,"","",1,FALSE,1,
+"BW-09","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-09","IG","post","COD_505","R",1,2.55,"","",1,FALSE,1,
+"BW-09","IG","post","COD_505","R",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-09","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","post","Sprint_5m","–",1,1.11,"","",1,FALSE,1,
+"BW-10","IG","post","Sprint_5m","–",2,1.09,"","",1,FALSE,1,
+"BW-10","IG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-10","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-10","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-10","IG","post","Sprint_30m","–",1,4.51,"","",1,FALSE,1,
+"BW-10","IG","post","Sprint_30m","–",2,4.51,"","",1,FALSE,1,
+"BW-10","IG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","post","Standweitsprung","–",1,201,"","",1,FALSE,1,
+"BW-10","IG","post","Standweitsprung","–",2,202,"","",1,FALSE,1,
+"BW-10","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","post","COD_505","L",1,2.4,"","",1,FALSE,1,
+"BW-10","IG","post","COD_505","L",2,2.36,"","",1,FALSE,1,
+"BW-10","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-10","IG","post","COD_505","R",1,2.49,"","",1,FALSE,1,
+"BW-10","IG","post","COD_505","R",2,2.6,"","",1,FALSE,1,
+"BW-10","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","post","Sprint_5m","–",1,1.18,"","",1,FALSE,1,
+"BW-11","IG","post","Sprint_5m","–",2,1.2,"","",1,FALSE,1,
+"BW-11","IG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","post","Sprint_10m","–",1,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-11","IG","post","Sprint_10m","–",2,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-11","IG","post","Sprint_10m","–",3,,"","System falsch aufgenommen",0,FALSE,0,"FALSCH"
+"BW-11","IG","post","Sprint_30m","–",1,4.89,"","",1,FALSE,1,
+"BW-11","IG","post","Sprint_30m","–",2,4.89,"","",1,FALSE,1,
+"BW-11","IG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","post","Standweitsprung","–",1,210,"","",1,FALSE,1,
+"BW-11","IG","post","Standweitsprung","–",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"BW-11","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","post","COD_505","L",1,2.53,"","",1,FALSE,1,
+"BW-11","IG","post","COD_505","L",2,2.51,"","",1,FALSE,1,
+"BW-11","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-11","IG","post","COD_505","R",1,2.64,"","",1,FALSE,1,
+"BW-11","IG","post","COD_505","R",2,2.55,"","",1,FALSE,1,
+"BW-11","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"BW-21","IG","post","Sprint_5m","–",1,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_5m","–",2,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_5m","–",3,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_10m","–",1,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_10m","–",2,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_10m","–",3,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_30m","–",1,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_30m","–",2,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Sprint_30m","–",3,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Standweitsprung","–",1,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Standweitsprung","–",2,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","Standweitsprung","–",3,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","COD_505","L",1,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","COD_505","L",2,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","COD_505","L",3,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","COD_505","R",1,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","COD_505","R",2,,"","",0,FALSE,0,"NANG"
+"BW-21","IG","post","COD_505","R",3,,"","",0,FALSE,0,"NANG"
+"HL-01","IG","post","Sprint_5m","–",1,1.16,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_5m","–",2,1.1,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_5m","–",3,1.11,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_10m","–",1,1.98,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_10m","–",2,1.98,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_10m","–",3,2.01,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_30m","–",1,4.72,"","",1,FALSE,1,
+"HL-01","IG","post","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-01","IG","post","Sprint_30m","–",3,4.81,"","",1,FALSE,1,
+"HL-01","IG","post","Standweitsprung","–",1,237,"","",1,FALSE,1,
+"HL-01","IG","post","Standweitsprung","–",2,237,"","",1,FALSE,1,
+"HL-01","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-01","IG","post","COD_505","L",1,2.49,"","",1,FALSE,1,
+"HL-01","IG","post","COD_505","L",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-01","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-01","IG","post","COD_505","R",1,2.76,"","",1,FALSE,1,
+"HL-01","IG","post","COD_505","R",2,2.61,"","",1,FALSE,1,
+"HL-01","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-02","IG","post","Sprint_5m","–",1,1.01,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_5m","–",2,1.02,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_5m","–",3,1.05,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_10m","–",1,1.76,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_10m","–",2,1.78,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_10m","–",3,1.82,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_30m","–",1,4.72,"","",1,FALSE,1,
+"HL-02","IG","post","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-02","IG","post","Sprint_30m","–",3,4.24,"","",1,FALSE,1,
+"HL-02","IG","post","Standweitsprung","–",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-02","IG","post","Standweitsprung","–",2,238,"","",1,FALSE,1,
+"HL-02","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-02","IG","post","COD_505","L",1,2.32,"","",1,FALSE,1,
+"HL-02","IG","post","COD_505","L",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-02","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-02","IG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-02","IG","post","COD_505","R",2,2.29,"","",1,FALSE,1,
+"HL-02","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-03","IG","post","Sprint_5m","–",1,1.11,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_5m","–",2,1.08,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_5m","–",3,1.09,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_10m","–",1,1.86,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_10m","–",2,1.88,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_10m","–",3,1.83,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_30m","–",1,4.44,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_30m","–",2,4.37,"","",1,FALSE,1,
+"HL-03","IG","post","Sprint_30m","–",3,4.35,"","",1,FALSE,1,
+"HL-03","IG","post","Standweitsprung","–",1,233,"","",1,FALSE,1,
+"HL-03","IG","post","Standweitsprung","–",2,240,"","",1,FALSE,1,
+"HL-03","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-03","IG","post","COD_505","L",1,2.58,"","",1,FALSE,1,
+"HL-03","IG","post","COD_505","L",2,2.49,"","",1,FALSE,1,
+"HL-03","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-03","IG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-03","IG","post","COD_505","R",2,2.52,"","",1,FALSE,1,
+"HL-03","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-05","IG","post","Sprint_5m","–",1,1.11,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_5m","–",2,1.1,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_5m","–",3,1.07,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_10m","–",1,1.84,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_10m","–",2,1.83,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_10m","–",3,1.86,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_30m","–",1,4.3,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_30m","–",2,4.49,"","",1,FALSE,1,
+"HL-05","IG","post","Sprint_30m","–",3,4.51,"","",1,FALSE,1,
+"HL-05","IG","post","Standweitsprung","–",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-05","IG","post","Standweitsprung","–",2,216,"","",1,FALSE,1,
+"HL-05","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-05","IG","post","COD_505","L",1,2.56,"","",1,FALSE,1,
+"HL-05","IG","post","COD_505","L",2,2.48,"","",1,FALSE,1,
+"HL-05","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-05","IG","post","COD_505","R",1,2.51,"","",1,FALSE,1,
+"HL-05","IG","post","COD_505","R",2,2.36,"","",1,FALSE,1,
+"HL-05","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-06","IG","post","Sprint_5m","–",1,1.03,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_5m","–",2,1.06,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_5m","–",3,1.04,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_10m","–",1,1.88,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_10m","–",2,1.88,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_10m","–",3,1.88,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_30m","–",1,4.5,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_30m","–",2,4.49,"","",1,FALSE,1,
+"HL-06","IG","post","Sprint_30m","–",3,4.51,"","",1,FALSE,1,
+"HL-06","IG","post","Standweitsprung","–",1,231,"","",1,FALSE,1,
+"HL-06","IG","post","Standweitsprung","–",2,243,"","",1,FALSE,1,
+"HL-06","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-06","IG","post","COD_505","L",1,2.56,"","",1,FALSE,1,
+"HL-06","IG","post","COD_505","L",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-06","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-06","IG","post","COD_505","R",1,2.58,"","",1,FALSE,1,
+"HL-06","IG","post","COD_505","R",2,2.45,"","",1,FALSE,1,
+"HL-06","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-07","IG","post","Sprint_5m","–",1,1.21,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_5m","–",2,1.08,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_5m","–",3,1.17,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_10m","–",1,2,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_10m","–",2,1.91,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_10m","–",3,1.94,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_30m","–",1,4.82,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_30m","–",2,4.79,"","",1,FALSE,1,
+"HL-07","IG","post","Sprint_30m","–",3,4.85,"","",1,FALSE,1,
+"HL-07","IG","post","Standweitsprung","–",1,231,"","",1,FALSE,1,
+"HL-07","IG","post","Standweitsprung","–",2,243,"","",1,FALSE,1,
+"HL-07","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-07","IG","post","COD_505","L",1,2.44,"","",1,FALSE,1,
+"HL-07","IG","post","COD_505","L",2,2.42,"","",1,FALSE,1,
+"HL-07","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-07","IG","post","COD_505","R",1,2.31,"","",1,FALSE,1,
+"HL-07","IG","post","COD_505","R",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-07","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-08","IG","post","Sprint_5m","–",1,1.07,"","",1,FALSE,1,
+"HL-08","IG","post","Sprint_5m","–",2,1.17,"","",1,FALSE,1,
+"HL-08","IG","post","Sprint_5m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","post","Sprint_10m","–",1,1.88,"","",1,FALSE,1,
+"HL-08","IG","post","Sprint_10m","–",2,1.95,"","",1,FALSE,1,
+"HL-08","IG","post","Sprint_10m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","post","Sprint_30m","–",1,4.58,"","",1,FALSE,1,
+"HL-08","IG","post","Sprint_30m","–",2,4.72,"","",1,FALSE,1,
+"HL-08","IG","post","Sprint_30m","–",3,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"HL-08","IG","post","Standweitsprung","–",1,230,"","",1,FALSE,1,
+"HL-08","IG","post","Standweitsprung","–",2,245,"","",1,FALSE,1,
+"HL-08","IG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-08","IG","post","COD_505","L",1,2.52,"","",1,FALSE,1,
+"HL-08","IG","post","COD_505","L",2,2.34,"","",1,FALSE,1,
+"HL-08","IG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"HL-08","IG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"HL-08","IG","post","COD_505","R",2,2.42,"","",1,FALSE,1,
+"HL-08","IG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-01","KG","post","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","post","Sprint_5m","–",2,1.21,"","",1,FALSE,1,
+"VS-01","KG","post","Sprint_5m","–",3,1.23,"","",1,FALSE,1,
+"VS-01","KG","post","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","post","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-01","KG","post","Sprint_10m","–",3,2.05,"","",1,FALSE,1,
+"VS-01","KG","post","Sprint_30m","–",1,4.79,"","",1,FALSE,1,
+"VS-01","KG","post","Sprint_30m","–",2,4.91,"","",1,FALSE,1,
+"VS-01","KG","post","Sprint_30m","–",3,5.09,"","",1,FALSE,1,
+"VS-01","KG","post","Standweitsprung","–",1,222,"","",1,FALSE,1,
+"VS-01","KG","post","Standweitsprung","–",2,224,"","",1,FALSE,1,
+"VS-01","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-01","KG","post","COD_505","L",1,2.4,"","",1,FALSE,1,
+"VS-01","KG","post","COD_505","L",2,2.51,"","",1,FALSE,1,
+"VS-01","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-01","KG","post","COD_505","R",1,2.49,"","",1,FALSE,1,
+"VS-01","KG","post","COD_505","R",2,2.5,"","",1,FALSE,1,
+"VS-01","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-02","KG","post","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-02","KG","post","Sprint_5m","–",2,1.26,"","",1,FALSE,1,
+"VS-02","KG","post","Sprint_5m","–",3,1.24,"","",1,FALSE,1,
+"VS-02","KG","post","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-02","KG","post","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-02","KG","post","Sprint_10m","–",3,2.06,"","",1,FALSE,1,
+"VS-02","KG","post","Sprint_30m","–",1,4.91,"","",1,FALSE,1,
+"VS-02","KG","post","Sprint_30m","–",2,5.08,"","",1,FALSE,1,
+"VS-02","KG","post","Sprint_30m","–",3,5.05,"","",1,FALSE,1,
+"VS-02","KG","post","Standweitsprung","–",1,194,"","",1,FALSE,1,
+"VS-02","KG","post","Standweitsprung","–",2,197,"","",1,FALSE,1,
+"VS-02","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-02","KG","post","COD_505","L",1,2.53,"","",1,FALSE,1,
+"VS-02","KG","post","COD_505","L",2,2.53,"","",1,FALSE,1,
+"VS-02","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-02","KG","post","COD_505","R",1,2.59,"","",1,FALSE,1,
+"VS-02","KG","post","COD_505","R",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-02","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","Sprint_5m","–",1,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","Sprint_5m","–",2,1.15,"","",1,FALSE,1,
+"VS-03","KG","post","Sprint_5m","–",3,1.21,"","",1,FALSE,1,
+"VS-03","KG","post","Sprint_10m","–",1,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","Sprint_10m","–",2,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","Sprint_10m","–",3,2.06,"","",1,FALSE,1,
+"VS-03","KG","post","Sprint_30m","–",1,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","Sprint_30m","–",2,5.23,"","",1,FALSE,1,
+"VS-03","KG","post","Sprint_30m","–",3,5.26,"","",1,FALSE,1,
+"VS-03","KG","post","Standweitsprung","–",1,218,"","",1,FALSE,1,
+"VS-03","KG","post","Standweitsprung","–",2,226,"","",1,FALSE,1,
+"VS-03","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","COD_505","L",1,2.59,"","",1,FALSE,1,
+"VS-03","KG","post","COD_505","L",2,2.68,"","",1,FALSE,1,
+"VS-03","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-03","KG","post","COD_505","R",1,2.66,"","",1,FALSE,1,
+"VS-03","KG","post","COD_505","R",2,2.71,"","",1,FALSE,1,
+"VS-03","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-04","KG","post","Sprint_5m","–",1,1.15,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_5m","–",2,1.23,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_5m","–",3,1.13,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_10m","–",1,2.03,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_10m","–",2,2.05,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_10m","–",3,1.93,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_30m","–",1,5.02,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_30m","–",2,5.17,"","",1,FALSE,1,
+"VS-04","KG","post","Sprint_30m","–",3,4.99,"","",1,FALSE,1,
+"VS-04","KG","post","Standweitsprung","–",1,212,"","",1,FALSE,1,
+"VS-04","KG","post","Standweitsprung","–",2,210,"","",1,FALSE,1,
+"VS-04","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-04","KG","post","COD_505","L",1,2.52,"","",1,FALSE,1,
+"VS-04","KG","post","COD_505","L",2,2.52,"","",1,FALSE,1,
+"VS-04","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-04","KG","post","COD_505","R",1,2.54,"","",1,FALSE,1,
+"VS-04","KG","post","COD_505","R",2,2.56,"","",1,FALSE,1,
+"VS-04","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-05","KG","post","Sprint_5m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","post","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","post","Sprint_5m","–",3,1.17,"","",1,FALSE,1,
+"VS-05","KG","post","Sprint_10m","–",1,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","post","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","post","Sprint_10m","–",3,1.98,"","",1,FALSE,1,
+"VS-05","KG","post","Sprint_30m","–",1,5.21,"","",1,FALSE,1,
+"VS-05","KG","post","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-05","KG","post","Sprint_30m","–",3,5.03,"","",1,FALSE,1,
+"VS-05","KG","post","Standweitsprung","–",1,225,"","",1,FALSE,1,
+"VS-05","KG","post","Standweitsprung","–",2,225,"","",1,FALSE,1,
+"VS-05","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-05","KG","post","COD_505","L",1,2.52,"","",1,FALSE,1,
+"VS-05","KG","post","COD_505","L",2,2.51,"","",1,FALSE,1,
+"VS-05","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-05","KG","post","COD_505","R",1,2.77,"","",1,FALSE,1,
+"VS-05","KG","post","COD_505","R",2,2.64,"","",1,FALSE,1,
+"VS-05","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","post","Sprint_5m","–",1,1.12,"","",1,FALSE,1,
+"VS-06","KG","post","Sprint_5m","–",2,1.19,"","",1,FALSE,1,
+"VS-06","KG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","post","Sprint_10m","–",1,1.84,"","",1,FALSE,1,
+"VS-06","KG","post","Sprint_10m","–",2,1.93,"","",1,FALSE,1,
+"VS-06","KG","post","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","post","Sprint_30m","–",1,4.5,"","",1,FALSE,1,
+"VS-06","KG","post","Sprint_30m","–",2,4.54,"","",1,FALSE,1,
+"VS-06","KG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","post","Standweitsprung","–",1,262,"","",1,FALSE,1,
+"VS-06","KG","post","Standweitsprung","–",2,261,"","",1,FALSE,1,
+"VS-06","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","post","COD_505","L",1,2.24,"","",1,FALSE,1,
+"VS-06","KG","post","COD_505","L",2,2.3,"","",1,FALSE,1,
+"VS-06","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-06","KG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-06","KG","post","COD_505","R",2,2.34,"","",1,FALSE,1,
+"VS-06","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-07","KG","post","Sprint_5m","–",1,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_5m","–",2,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_5m","–",3,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_10m","–",1,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_10m","–",2,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_10m","–",3,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_30m","–",1,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_30m","–",2,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Sprint_30m","–",3,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Standweitsprung","–",1,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Standweitsprung","–",2,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","Standweitsprung","–",3,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","COD_505","L",1,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","COD_505","L",2,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","COD_505","L",3,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","COD_505","R",1,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","COD_505","R",2,,"","",0,FALSE,0,"NANG"
+"VS-07","KG","post","COD_505","R",3,,"","",0,FALSE,0,"NANG"
+"VS-08","KG","post","Sprint_5m","–",1,1.22,"","",1,FALSE,1,
+"VS-08","KG","post","Sprint_5m","–",2,1.25,"","",1,FALSE,1,
+"VS-08","KG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","post","Sprint_10m","–",1,2.07,"","",1,FALSE,1,
+"VS-08","KG","post","Sprint_10m","–",2,2.21,"","",1,FALSE,1,
+"VS-08","KG","post","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","post","Sprint_30m","–",1,5.22,"","",1,FALSE,1,
+"VS-08","KG","post","Sprint_30m","–",2,5.44,"","",1,FALSE,1,
+"VS-08","KG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","post","Standweitsprung","–",1,202,"","",1,FALSE,1,
+"VS-08","KG","post","Standweitsprung","–",2,213,"","",1,FALSE,1,
+"VS-08","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","post","COD_505","L",1,2.75,"","",1,FALSE,1,
+"VS-08","KG","post","COD_505","L",2,2.77,"","",1,FALSE,1,
+"VS-08","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-08","KG","post","COD_505","R",1,2.7,"","",1,FALSE,1,
+"VS-08","KG","post","COD_505","R",2,2.62,"","",1,FALSE,1,
+"VS-08","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","post","Sprint_5m","–",1,1.15,"","",1,FALSE,1,
+"VS-10","KG","post","Sprint_5m","–",2,1.17,"","",1,FALSE,1,
+"VS-10","KG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","post","Sprint_10m","–",1,1.94,"","",1,FALSE,1,
+"VS-10","KG","post","Sprint_10m","–",2,1.98,"","",1,FALSE,1,
+"VS-10","KG","post","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","post","Sprint_30m","–",1,4.86,"","",1,FALSE,1,
+"VS-10","KG","post","Sprint_30m","–",2,4.9,"","",1,FALSE,1,
+"VS-10","KG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","post","Standweitsprung","–",1,220,"","",1,FALSE,1,
+"VS-10","KG","post","Standweitsprung","–",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-10","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","post","COD_505","L",1,2.45,"","",1,FALSE,1,
+"VS-10","KG","post","COD_505","L",2,2.54,"","",1,FALSE,1,
+"VS-10","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-10","KG","post","COD_505","R",1,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-10","KG","post","COD_505","R",2,2.37,"","",1,FALSE,1,
+"VS-10","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","post","Sprint_5m","–",1,1.17,"","",1,FALSE,1,
+"VS-11","KG","post","Sprint_5m","–",2,1.18,"","",1,FALSE,1,
+"VS-11","KG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","post","Sprint_10m","–",1,1.92,"","",1,FALSE,1,
+"VS-11","KG","post","Sprint_10m","–",2,1.95,"","",1,FALSE,1,
+"VS-11","KG","post","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","post","Sprint_30m","–",1,4.64,"","",1,FALSE,1,
+"VS-11","KG","post","Sprint_30m","–",2,4.72,"","",1,FALSE,1,
+"VS-11","KG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","post","Standweitsprung","–",1,218,"","",1,FALSE,1,
+"VS-11","KG","post","Standweitsprung","–",2,212,"","",1,FALSE,1,
+"VS-11","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","post","COD_505","L",1,2.5,"","",1,FALSE,1,
+"VS-11","KG","post","COD_505","L",2,2.5,"","",1,FALSE,1,
+"VS-11","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-11","KG","post","COD_505","R",1,2.67,"","",1,FALSE,1,
+"VS-11","KG","post","COD_505","R",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-11","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-16","KG","post","Sprint_5m","–",1,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_5m","–",2,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_5m","–",3,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_10m","–",1,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_10m","–",2,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_10m","–",3,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_30m","–",1,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_30m","–",2,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Sprint_30m","–",3,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Standweitsprung","–",1,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Standweitsprung","–",2,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","Standweitsprung","–",3,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","COD_505","L",1,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","COD_505","L",2,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","COD_505","L",3,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","COD_505","R",1,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","COD_505","R",2,,"","",0,FALSE,0,"NANG"
+"VS-16","KG","post","COD_505","R",3,,"","",0,FALSE,0,"NANG"
+"VS-17","KG","post","Sprint_5m","–",1,1.35,"","",1,FALSE,1,
+"VS-17","KG","post","Sprint_5m","–",2,1.13,"","",1,FALSE,1,
+"VS-17","KG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","post","Sprint_10m","–",1,2.09,"","",1,FALSE,1,
+"VS-17","KG","post","Sprint_10m","–",2,1.91,"","",1,FALSE,1,
+"VS-17","KG","post","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","post","Sprint_30m","–",1,4.86,"","",1,FALSE,1,
+"VS-17","KG","post","Sprint_30m","–",2,4.76,"","",1,FALSE,1,
+"VS-17","KG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","post","Standweitsprung","–",1,232,"","",1,FALSE,1,
+"VS-17","KG","post","Standweitsprung","–",2,235,"","",1,FALSE,1,
+"VS-17","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","post","COD_505","L",1,2.58,"","",1,FALSE,1,
+"VS-17","KG","post","COD_505","L",2,2.61,"","",1,FALSE,1,
+"VS-17","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-17","KG","post","COD_505","R",1,2.65,"","",1,FALSE,1,
+"VS-17","KG","post","COD_505","R",2,2.76,"","",1,FALSE,1,
+"VS-17","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","post","Sprint_5m","–",1,1.24,"","",1,FALSE,1,
+"VS-18","KG","post","Sprint_5m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","post","Sprint_5m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","post","Sprint_10m","–",1,2.08,"","",1,FALSE,1,
+"VS-18","KG","post","Sprint_10m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","post","Sprint_10m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","post","Sprint_30m","–",1,5.18,"","",1,FALSE,1,
+"VS-18","KG","post","Sprint_30m","–",2,,"","System nicht aufgenommen",0,FALSE,0,"TECH"
+"VS-18","KG","post","Sprint_30m","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","post","Standweitsprung","–",1,227,"","",1,FALSE,1,
+"VS-18","KG","post","Standweitsprung","–",2,218,"","",1,FALSE,1,
+"VS-18","KG","post","Standweitsprung","–",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","post","COD_505","L",1,2.52,"","",1,FALSE,1,
+"VS-18","KG","post","COD_505","L",2,2.52,"","",1,FALSE,1,
+"VS-18","KG","post","COD_505","L",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
+"VS-18","KG","post","COD_505","R",1,2.56,"","",1,FALSE,1,
+"VS-18","KG","post","COD_505","R",2,,"x","Fehlversuch",0,FALSE,0,"FEHL"
+"VS-18","KG","post","COD_505","R",3,,"","Nur 2 Versuche aus Zeitmangel",0,FALSE,0,"ZEIT"
