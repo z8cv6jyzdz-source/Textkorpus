@@ -1,0 +1,204 @@
+====================================================================================================
+B1 ROHDATENSCHICHT — Studiendaten_U15_gesamt.xlsx, Blatt 02_Rohdaten
+Skript: Auswertung_B1_Rohdaten_2026-09-12.py · Lauf: 2026-09-15 20:23
+Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx · zuletzt geändert: 2026-09-15 20:22
+====================================================================================================
+
+1  STRUKTUR UND VOLLSTÄNDIGKEIT
+Zeilen: 1116 · Spieler (Codes): 31
+Codes: BW-01, BW-02, BW-04, BW-05, BW-06, BW-07, BW-08, BW-09, BW-10, BW-11, BW-21, HL-01, HL-02, HL-03, HL-05, HL-06, HL-07, HL-08, VS-01, VS-02, VS-03, VS-04, VS-05, VS-06, VS-07, VS-08, VS-10, VS-11, VS-16, VS-17, VS-18
+Spieler je Verein (aus Zeilenstruktur): A (IG) n = 7, B (IG) n = 11, C (KG) n = 13
+Doppelte Schlüssel (Code, Zeitpunkt, Zielgröße, Versuch): 0 []
+Erwartete Zeilen 31 Spieler × 6 Zielgrößen × 3 Versuche × 2 Zeitpunkte = 1116 → stimmt
+Versuchsnummern: {1: 372, 2: 372, 3: 372}
+Einheiten je Test: {('Sprint_5m', 's'): 186, ('Sprint_10m', 's'): 186, ('Sprint_30m', 's'): 186, ('Standweitsprung', 'cm'): 186, ('COD_505', 's'): 372}
+
+2  GÜLTIGKEITSFLAG NACHGERECHNET (B0.2)
+Regel: gilt_neu = 1, wenn ein Wert eingetragen ist UND die Spalte 'ungültig' leer ist; sonst 0.
+Abweichungen zwischen Blattspalte gilt und Nachrechnung: 0
+Zeilen mit Wert, aber Eintrag in 'ungültig' (Wert wird verworfen): 7
+   VS-01  prä  505R  V1  Wert 2.31  Bemerkung: Linie nicht getroffen
+   VS-01  prä  505R  V2  Wert 2.37  Bemerkung: Linie nicht getroffen
+   VS-02  prä  505L  V1  Wert 2.57  Bemerkung: Linie nicht getroffen
+   VS-02  prä  505L  V3  Wert 2.55  Bemerkung: Linie nicht getroffen
+   VS-02  prä  505R  V1  Wert 2.6  Bemerkung: Linie nicht getroffen
+   VS-03  prä  505L  V2  Wert 2.6  Bemerkung: Linie nicht getroffen
+   BW-05  post 505R  V1  Wert 2.41  Bemerkung: Fehlversuch
+  prä  IG: gültig  245 · nicht gültig   79 · Zeilen 324
+  prä  KG: gültig  139 · nicht gültig   95 · Zeilen 234
+  post IG: gültig  185 · nicht gültig  139 · Zeilen 324
+  post KG: gültig  123 · nicht gültig  111 · Zeilen 234
+  gesamt gültig: 692 · nicht gültig: 424
+
+3  BEMERKUNGSVOKABULAR → KATEGORIE (B0.4) — Originalwortlaut bleibt in der Spalte Bemerkung erhalten
+Originalwortlaut                   Kategorie                    prä  post
+Fehlversuch                        Fehlversuch                    2    23
+Fehversuch                         Fehlversuch                    0     1
+Kein fester Stand                  Fehlversuch                    2     0
+Linie nicht getroffen              Fehlversuch                   12     0
+System falsch aufgenommen          System falsch aufgenommen      0    27
+Nur 2 Versuche aus Zeitmangel      Zeitmangel                    64   106
+System nicht aufgenommen           technisch                     94    17
+Sytem nicht aufgenommen            technisch                      0     2
+(leer)                             ohne Bemerkung                 0    74
+Unbekannte Wortlaute (nicht im Vokabular): 0
+Gültige Versuche mit Bemerkung (informativ): 0
+
+4  NICHT GÜLTIGE VERSUCHE JE KATEGORIE
+
+Prä, alle Spieler (N = 31)
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+technisch                        35     21     10     15      8      5      94
+Zeitmangel                        5      5      5     18     19     12      64
+Fehlversuch                       0      0      0      5      7      4      16
+Summe                            40     26     15     38     34     21     174
+
+Prä, IG (Verein A + B)
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+technisch                         9      3      2      8      5      2      29
+Zeitmangel                        5      5      5     11     11      5      42
+Fehlversuch                       0      0      0      2      4      2       8
+Summe                            14      8      7     21     20      9      79
+
+Prä, KG (Verein C)
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+technisch                        26     18      8      7      3      3      65
+Zeitmangel                        0      0      0      7      8      7      22
+Fehlversuch                       0      0      0      3      3      2       8
+Summe                            26     18      8     17     14     12      95
+
+Post, IG (Verein A + B) — KG-Post steht aus
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+technisch                         1      1      3      0      0      0       5
+Zeitmangel                        4      0      4     16     16     11      51
+Fehlversuch                       0      0      0      6      9      5      20
+System falsch aufgenommen         0     27      0      0      0      0      27
+ohne Bemerkung                    6      6      6      6      6      6      36
+Summe                            11     34     13     28     31     22     139
+
+Post, Verein A
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+technisch                         1      1      3      0      0      0       5
+Zeitmangel                        0      0      0      7      7      7      21
+Fehlversuch                       0      0      0      3      4      2       9
+Summe                             1      1      3     10     11      9      35
+
+Post, Verein B
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+Zeitmangel                        4      0      4      9      9      4      30
+Fehlversuch                       0      0      0      3      5      3      11
+System falsch aufgenommen         0     27      0      0      0      0      27
+ohne Bemerkung                    6      6      6      6      6      6      36
+Summe                            10     33     10     18     20     13     104
+
+Post, KG (Verein C) — Erwartung: 558/2 = 279 Zeilen leer
+Kategorie                        5m    10m    30m   505L   505R    SBJ   Summe
+technisch                         5      7      2      0      0      0      14
+Zeitmangel                        7      8      7     11     11     11      55
+Fehlversuch                       0      0      0      0      3      1       4
+ohne Bemerkung                    6      6      6      6      8      6      38
+Summe                            18     21     15     17     22     18     111
+
+Spieler ohne einen einzigen gültigen Post-Versuch (Teilnehmerebene, nicht Versuchsebene):
+   BW-07, BW-21, VS-07, VS-16
+   → BW-07, BW-21: zur Post-Testung nicht angetreten (Angabe Verfasser, Datendurchsicht § 1); VS-xx: KG-Post steht aus (15.09.).
+   Diese Zeilen sind keine undokumentierten Versuchslücken; sie gehören in den Teilnehmerfluss (B4).
+
+Undokumentierte Lücken auf Versuchsebene (nicht gültig, ohne Bemerkung, Spieler mit Post-Werten) — CONSORT Item 13a/16 brauchen einen Grund:
+   VS-02  post 505R  V2  ungültig='x' Wert=None
+   VS-06  post 505R  V1  ungültig='x' Wert=None
+   Erwartung aus Datendurchsicht § 4.2 (post): BW-05 505R V2 · BW-09 505L V1 · BW-11 SBJ V2 · HL-02 SBJ V1; prä (§ 3.1): 3 ohne Bemerkung.
+
+Technische Ausfälle je Spieler und Sprintstrecke (prä), Mittel je Gruppe — Vergleich mit § 3.1:
+   5m   IG: 0.50 je Spieler (n = 18, Summe 9)
+   5m   KG: 2.00 je Spieler (n = 13, Summe 26)
+   10m  IG: 0.17 je Spieler (n = 18, Summe 3)
+   10m  KG: 1.38 je Spieler (n = 13, Summe 18)
+   30m  IG: 0.11 je Spieler (n = 18, Summe 2)
+   30m  KG: 0.62 je Spieler (n = 13, Summe 8)
+
+Mittlere Zahl gültiger Versuche je Spieler (k̄), Zielgröße × Zeitpunkt × Verein:
+Zielgröße     A prä   A post    B prä   B post    C prä   C post
+5m             2.57     2.86     2.00     2.09     1.00     1.62
+10m            2.57     2.86     2.55     0.00     1.62     1.38
+30m            2.71     2.57     2.55     2.09     2.38     1.85
+505L           1.86     1.57     1.82     1.36     1.69     1.69
+505R           2.29     1.43     1.64     1.18     1.92     1.31
+SBJ            2.71     1.71     2.36     1.82     2.08     1.62
+
+5  LEISTUNGSUNABHÄNGIGKEIT DER TECHNISCHEN AUSFÄLLE (prä)
+Je Spieler: Zahl technischer Ausfälle (Kategorie technisch) gegen Bestwert prä derselben Strecke.
+Pearson r roh (alle Spieler) und innerhalb der Gruppen; p zweiseitig (t-Verteilung). n = Spieler mit Bestwert.
+  5m:
+     roh, alle      r = +0.260  p = 0.199  n = 26   (Ausfälle: {0: 11, 1: 10, 2: 5})
+     innerhalb IG   r = +0.000  p = 1.000  n = 18   (Ausfälle: {0: 10, 1: 7, 2: 1})
+     innerhalb KG   r = -0.091  p = 0.831  n = 8   (Ausfälle: {0: 1, 1: 3, 2: 4})
+     innerhalb A    r = +0.389  p = 0.388  n = 7   (Ausfälle: {0: 4, 1: 3})
+     innerhalb B    r = -0.385  p = 0.242  n = 11   (Ausfälle: {0: 6, 1: 4, 2: 1})
+     innerhalb C    r = -0.091  p = 0.831  n = 8   (Ausfälle: {0: 1, 1: 3, 2: 4})
+     gruppenzentriert r = -0.017  (gepoolt innerhalb IG/KG, n = 26; p nicht ausgewiesen, df durch Zentrierung reduziert)
+  10m:
+     roh, alle      r = +0.377  p = 0.037  n = 31   (Ausfälle: {0: 15, 1: 11, 2: 5})
+     innerhalb IG   r = -0.102  p = 0.688  n = 18   (Ausfälle: {0: 15, 1: 3})
+     innerhalb KG   r = -0.227  p = 0.455  n = 13   (Ausfälle: {1: 8, 2: 5})
+     innerhalb A    r = +0.698  p = 0.081  n = 7   (Ausfälle: {0: 4, 1: 3})
+     innerhalb B    r = +nan  p = nan  n = 11   (Ausfälle: {0: 11})
+     innerhalb C    r = -0.227  p = 0.455  n = 13   (Ausfälle: {1: 8, 2: 5})
+     gruppenzentriert r = -0.152  (gepoolt innerhalb IG/KG, n = 31; p nicht ausgewiesen, df durch Zentrierung reduziert)
+  30m:
+     roh, alle      r = +0.326  p = 0.073  n = 31   (Ausfälle: {0: 22, 1: 8, 2: 1})
+     innerhalb IG   r = -0.047  p = 0.852  n = 18   (Ausfälle: {0: 16, 1: 2})
+     innerhalb KG   r = +0.087  p = 0.776  n = 13   (Ausfälle: {0: 6, 1: 6, 2: 1})
+     innerhalb A    r = +0.377  p = 0.405  n = 7   (Ausfälle: {0: 5, 1: 2})
+     innerhalb B    r = +nan  p = nan  n = 11   (Ausfälle: {0: 11})
+     innerhalb C    r = +0.087  p = 0.776  n = 13   (Ausfälle: {0: 6, 1: 6, 2: 1})
+     gruppenzentriert r = +0.032  (gepoolt innerhalb IG/KG, n = 31; p nicht ausgewiesen, df durch Zentrierung reduziert)
+
+6  PLAUSIBILITÄT DER SPRINTLÄUFE — REGEL FÜR AUSLÖSEGESTÖRTE LÄUFE (B0.2)
+Ein Lauf (Code, Zeitpunkt, Versuch) ist auslösegestört, wenn eine Abschnittsgeschwindigkeit > 10.0 m/s
+oder eine Abschnittszeit ≤ 0 s ist. Folge: ALLE Teilzeiten des Laufs (5, 10, 30 m) werden verworfen.
+Geprüft werden alle Läufe mit mindestens zwei gültigen Teilzeiten; Läufe mit nur einer Teilzeit sind nicht prüfbar.
+Geprüfte Läufe (≥ 2 Teilzeiten): 135 · auslösegestört nach Regel: 1
+   VS-06  post V1: 5m 1.12, 10m 1.54, 30m 4.50 → 5–10 m 0.42 s = 11.9 m/s
+Verteilung der Abschnittsgeschwindigkeiten (m/s), alle gültigen Läufe prä + post:
+   0–5 m    n = 117  min  3.70  Median  4.50  max  5.75
+   5–30 m   n =  30  min  6.13  Median  7.04  max  7.35
+   5–10 m   n =  87  min  5.21  Median  6.25  max 11.90
+   10–30 m  n = 102  min  5.95  Median  7.22  max  8.26
+   0–10 m   n =  18  min  4.63  Median  5.18  max  5.68
+   0–30 m   n =  11  min  5.51  Median  6.26  max  6.74
+Langsamste und schnellste Einzelwerte je Strecke (Sichtkontrolle der Ränder):
+   5m   schnellste: 0.87 (HL-02 prä V2), 0.93 (HL-08 prä V3), 0.97 (HL-02 prä V3)  · langsamste: 1.25 (VS-08 post V2), 1.26 (VS-02 post V2), 1.35 (VS-17 post V1)
+   10m  schnellste: 1.54 (VS-06 post V1), 1.65 (HL-02 prä V2), 1.71 (HL-02 prä V3)  · langsamste: 2.10 (VS-11 prä V3), 2.16 (VS-08 prä V2), 2.21 (VS-08 post V2)
+   30m  schnellste: 4.09 (HL-02 prä V2), 4.19 (HL-02 prä V3), 4.21 (HL-02 prä V1)  · langsamste: 5.44 (VS-08 prä V3), 5.45 (VS-08 prä V1), 5.48 (VS-08 prä V2)
+
+HL-08 post, Versuch 2 (Fall aus Datendurchsicht § 4.1): aktuelle Blattwerte
+   5m   V1 Wert=1.07 ungültig='' Bemerkung=''
+   5m   V2 Wert=1.17 ungültig='' Bemerkung=''
+   5m   V3 Wert=None ungültig='' Bemerkung='System nicht aufgenommen'
+   10m  V1 Wert=1.88 ungültig='' Bemerkung=''
+   10m  V2 Wert=1.95 ungültig='' Bemerkung=''
+   10m  V3 Wert=None ungültig='' Bemerkung='System nicht aufgenommen'
+   30m  V1 Wert=4.58 ungültig='' Bemerkung=''
+   30m  V2 Wert=4.72 ungültig='' Bemerkung=''
+   30m  V3 Wert=None ungültig='' Bemerkung='System nicht aufgenommen'
+   Abschnitt 5–10 m mit Blattwert 10 m = 1.95: 0.78 s = 6.4 m/s → nach Regel zulässig
+   Zum Vergleich mit dem in der Datendurchsicht genannten Erstwert 1,55 s: 0.38 s = 13.2 m/s → unmöglich
+   ⚠ Der Blattwert 1,95 trägt keine Bemerkung. Ob er der Bogenwert (Abtippfehler 1,55 ↔ 1,95) oder ein gesetzter Wert ist,
+     steht nicht im Workbook. Bogenwert → Bemerkung 'nach Bogenprüfung korrigiert, ursprünglich 1,55'; gesetzter Wert → Lauf ungültig (B0.2).
+
+7  ABGLEICH MIT FRÜHEREN ANGABEN
+§ 3.1 (Fassung 9): 174 nicht gültige Prä-Versuche = 94 System nicht aufgenommen + 61 Zeitmangel + 12 Linie nicht getroffen + 4 (Kein fester Stand / Fehlversuch) + 3 ohne Bemerkung
+   neu gerechnet: 174 = 94 + 64 + 12 + 4 + 0   → ABWEICHUNG
+Datendurchsicht 10./11.09. (Post, IG): 51 Zeitmangel · 27 System falsch aufgenommen · 16 Fehlversuch · 3 + 2 System/Sytem nicht aufgenommen · 4 ohne Bemerkung
+   neu gerechnet: 51 · 27 · 19 · 3 + 2 · 36   (Summe nicht gültig IG post: 139; davon BW-07/BW-21 nicht angetreten: 36)
+   Bemerkungen der nicht angetretenen Spieler BW-07 / BW-21 (post): {'': 36}
+Datendurchsicht Tab. 1 — Spieler mit ≥ 1 gültigem Versuch je Verein × Zeitpunkt × Zielgröße:
+Verein  Zeitp.      5m    10m    30m   505L   505R    SBJ
+A       prä          7      7      7      6      7      7
+A       post         7      7      7      7      7      7
+B       prä         11     11     11     11     10     11
+B       post         9      0      9      9      8      9
+C       prä          8     13     13     12     12     13
+C       post        11     11     11     11     11     11
+   Erwartung aus Datendurchsicht: A prä 7/7/7/6/7/7 (5m,10m,30m,505L,505R,SBJ), A post 7/7/7/7/7/7, B prä 11/11/11/11/10/11, B post 9/0/9/9/8/9, C prä 8/13/13/12/12/13

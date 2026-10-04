@@ -1,0 +1,111 @@
+Datensicherung, Schritt 1.3 Strukturprüfung
+Skriptfassung 2026-09-24, Fassung 2 · Lauf 2026-09-24 19:00:15
+Basisordner: /home/claude/phase1/basis
+
+Eingangsdateien mit SHA-256 (zum Laufzeitpunkt):
+  Statistik/Studiendaten_U15_gesamt.xlsx  d7c4ae29533429c0c8ed4acfbb9fbca3ef7e0ed092e3063532df2835c3e98642  110697 B  geändert 2026-09-24 19:00:10
+  SoSci_Fragebogen/data_test546007_2026-08-31_11-37.json  7faf00a66b1bfcdfe78e100c8259b81b426bd797c006d10d756f243c1b5b40ab  50146 B  geändert 2026-09-24 19:00:03
+  Claude/02_Befunde/Spezifikation_2026-09-24_Vokabular.csv  7afaa01d82dc9f5ca10534a09f916dca5475842caa32e71aad866ba43612860f  748 B  geändert 2026-09-24 19:00:03
+  Claude/02_Befunde/Spezifikation_2026-09-24_Fragebogen.csv  04318c066939248c5feca5077c65a703508a1137738310fdfa68b3a329003f04  2887 B  geändert 2026-09-24 19:00:03
+
+Blätter im Workbook: 00_Aenderungen, 00_Hinweise, 01_Personen, 02_Rohdaten, 03_Analyse, 04_Kennwerte, 06_Überlappung, 05_KhamisRoche
+Vokabular der Bemerkungen (Anlage): 7 Einträge
+Fallkorrekturen (Anlage): CASE 59 -> BW-06, CASE 70 -> BW-06, CASE 140 -> BW-04, CASE 158 -> BW-04, CASE 165 -> BW-04, CASE 190 -> BW-04, CASE 206 -> BW-04
+
+==============================================================================
+1  Blatt 01_Personen
+==============================================================================
+Kopfzeile: Code, Verein, Gruppe, Geburtsdatum, Testdatum_prä, Alter_prä_dez, Testdatum_post, Alter_post_dez, Größe_prä_cm, Gewicht_prä_kg, Größe_Mutter_cm, Größe_Vater_cm, Elterngröße_mittel_cm, PAH_cm, PAH_Prozent, Familiarisierung, Status, Bemerkung, Größe_post_cm, Gewicht_post_kg, Wachstum_cm, Reifeband, h_ok, h_x, h_x2
+Spielerzeilen (Code nach Muster XX-nn): 31
+Fremdzeilen (Hinweis oder Legende, kein Spieler): 7
+   Zeile 34: Legende | 
+   Zeile 35: Gelb | von Hand ausfüllen
+   Zeile 36: Grün | Formel – nicht überschreiben
+   Zeile 37: Alter_prä_dez | (Testdatum − Geburtsdatum) / 365,25 · Eingangsgröße für Kham
+   Zeile 38: Elterngröße_mittel_cm | schlichtes Mittel · keine Geschlechtskorrektur, diese gehört
+   Zeile 39: PAH_cm | Khamis & Roche (1994): Größe in Zoll, Gewicht in Pfund, Elte
+   Zeile 40: PAH_Prozent | Größe_prä_cm / PAH_cm × 100 · Kovariate der ANCOVA
+Code eindeutig: ja
+Status je Verein: A ausgewertet 7, B ausgewertet 9, B nicht angetreten 2, C ausgewertet 11, C nicht angetreten 2
+Status "nicht angetreten": BW-07, BW-21, VS-07, VS-16
+
+==============================================================================
+2  Blatt 02_Rohdaten
+==============================================================================
+Kopfzeile: Code, Verein, Zeitpunkt, Test, Seite, Versuch, Wert, Einheit, ungültig, Bemerkung, gilt
+Datenzeilen: 1116
+Schlüssel (Code, Zeitpunkt, Test, Seite, Versuch) eindeutig: ja
+Raster Spieler x Zeitpunkt x Test x Seite x Versuch: Soll 1116, Ist 1116, fehlend 0, überzählig 0
+Codemenge in 01_Personen und 02_Rohdaten identisch: ja (31 Codes)
+Spalte ungültig, Verteilung: None 1074, 'x' 42
+Bemerkungen, Verteilung:
+   Nur 2 Versuche aus Zeitmangel     170   Vokabular ZEIT
+   System nicht aufgenommen          113   Vokabular TECH
+   Fehlversuch                        28   Vokabular FEHL
+   System falsch aufgenommen          27   Vokabular FALSCH
+   Linie nicht getroffen              12   Vokabular FEHL
+   Kein fester Stand                   2   Vokabular FEHL
+
+Ungültige Zeilen ohne Bemerkung außerhalb der Menge "nicht angetreten" (S03 mit K5, Abbruch der Spezifikation): 0
+
+Sprintläufe mit mindestens einer gültigen Teilzeit: 146, davon auslösegestört nach S02 Regel 2: 0
+
+==============================================================================
+3  Fragebogen-Rohexport (JSON)
+==============================================================================
+Metadaten: Projekt test546007, Export 2026-08-31 11:37:38, Filter ['Kontext: Interview', 'Min. bearbeitet bis Seite 9', 'Fehlende Antworten ≤ 0 %']
+Meldungen: 111
+   Fallkorrektur CASE 59: Listenlabel roh HL-06 -> BW-06
+   Fallkorrektur CASE 70: Listenlabel roh HL-06 -> BW-06
+   Fallkorrektur CASE 140: Listenlabel roh HL-04 -> BW-04
+   Fallkorrektur CASE 158: Listenlabel roh HL-04 -> BW-04
+   Fallkorrektur CASE 165: Listenlabel roh HL-04 -> BW-04
+   Fallkorrektur CASE 190: Listenlabel roh HL-04 -> BW-04
+   Fallkorrektur CASE 206: Listenlabel roh HL-04 -> BW-04
+CASE eindeutig: ja
+Meldungen je Listenlabel (roh -> nach Fallkorrektur):
+   BW-01    0 ->   0   Analysecode: BW-01
+   BW-02   12 ->  12   Analysecode: BW-02
+   BW-03    0 ->   0   Analysecode: (kein realer Spieler)
+   BW-04    2 ->   7   Analysecode: BW-04
+   BW-05    8 ->   8   Analysecode: BW-05
+   BW-06    3 ->   5   Analysecode: BW-06
+   BW-07    6 ->   6   Analysecode: BW-07
+   BW-08    9 ->   9   Analysecode: BW-08
+   BW-09    8 ->   8   Analysecode: BW-09
+   BW-10    5 ->   5   Analysecode: BW-10
+   BW-11    2 ->   2   Analysecode: BW-11
+   BW-12    0 ->   0   Analysecode: (kein realer Spieler)
+   BW-13    0 ->   0   Analysecode: (kein realer Spieler)
+   BW-14    0 ->   0   Analysecode: (kein realer Spieler)
+   HL-01   10 ->  10   Analysecode: HL-01
+   HL-02    9 ->   9   Analysecode: HL-02
+   HL-03   12 ->  12   Analysecode: HL-03
+   HL-04    5 ->   0   Analysecode: HL-05
+   HL-05    0 ->   0   Analysecode: (kein realer Spieler)
+   HL-06    3 ->   1   Analysecode: HL-06
+   HL-07   11 ->  11   Analysecode: HL-07
+   HL-08    6 ->   6   Analysecode: HL-08
+IG-Spieler ohne zugeordnete Meldung: BW-01, BW-21, HL-05
+
+==============================================================================
+4  Ergebnis
+==============================================================================
+Verstöße, an denen die Spezifikation abbricht: 0
+
+Hinweise und Kontrollfälle (a bis g nach der Übergabe): 4
+   [g] 01_Personen enthält 7 Hinweis- und Legendenzeilen unterhalb der Spieler (Zeilen 34, 35, 36, 37, 38, 39, 40). Sie werden beim Export nicht als Spieler gelesen, im Workbook können sie bleiben.
+   [leer] VS-18 (Zeile 31): Größe_prä_cm leer, %PAH für diesen Spieler nicht berechenbar (zulässig, S05 Regel 9)
+   [leer] VS-18 (Zeile 31): Gewicht_prä_kg leer, %PAH für diesen Spieler nicht berechenbar (zulässig, S05 Regel 9)
+   [Bem] VS-18: Bemerkung in 01_Personen vorhanden (Freitext, geht nicht in den Datenstand). Prüfen, ob überholt.
+
+Kontrollfälle laut Übergabe, gefunden ja/nein:
+   a  13 Spieler von Verein C mit Status ausstehend trotz Post-Werten             NICHT gefunden
+   b  VS-07 und VS-16 ohne Post-Werte und ohne Grund                              NICHT gefunden
+   c  zwei ungültige Zeilen ohne Bemerkung (VS-02 post 505 R V2, VS-06 post 505 R V1) NICHT gefunden
+   d  Sytem nicht aufgenommen (2x) nicht im Vokabular, Fehversuch (1x) nur Schreibvariante NICHT gefunden
+   e  VS-18 Körperhöhe und Körpermasse als Text                                   NICHT gefunden
+   f  VS-11 Familiarisierung leer                                                 NICHT gefunden
+   g  Hinweis- und Legendenzeilen unter den Spielerzeilen                         gefunden
+
+Abbruchprobe bestanden: ja

@@ -1,0 +1,53 @@
+Rechenprobe des Handprobenblatts (Excel-Formelprobe, Phase 6.3) mit LibreOffice Calc
+Datei: Handprobe_2026-09-25.xlsx (SHA-256 cb19f33ed56a10025dc6f3af62d3c5267a4be068636a7bf4eb0b4875d4e0bf00)
+Rechner der Probe: LibreOffice 24.2.7.2 420(Build:2) (headless, Konvertierung xlsx nach xlsx mit Neuberechnung aller Formeln)
+
+Kennwert | Kennung | Toleranz | Urteil | relative Abweichung Formel gegen R
+1 | S02.NGUELT.Z30.PRE.ALL.X | 0 | stimmt | 0
+2 | S03.NKAT.Z30.POST.KG.TECH | 0 | stimmt | 0
+3 | S04.K.Z30.PRE.PBW-01.X | 0 | stimmt | 0
+4 | S04.BEST.Z30.PRE.PBW-01.X | 1e-06 | stimmt | 0
+5 | S04.MEAN.Z30.PRE.PBW-01.X | 1e-06 | stimmt | 0
+6 | S04.BEST.CM.PRE.PBW-01.X | 1e-06 | stimmt | 0
+7 | S05.MP.PAH.PRE.PBW-01.X | 1e-06 | stimmt | 0
+8 | S05.PAS.PAH.PRE.PBW-01.X | 1e-06 | stimmt | 0
+9 | S05.PAH.PAH.PRE.PBW-01.X | 1e-06 | stimmt | 0
+10 | S06.NMELD.FB.X.PHL-01.X | 0 | stimmt | 0
+11 | S07.ADH.ADH.X.PHL-01.GANZ | 0 | stimmt | 0
+12 | S07.SUMME.ADH.X.IG.GANZ | 0 | stimmt | 0
+13 | S07.RATE.ADH.X.IG.GANZ | 1e-06 | stimmt | 0
+14 | S08.N.Z30.X.ITTIG.X | 0 | stimmt | 0
+15 | S10.TE.Z30.PRE.ALL.X | 1e-06 | stimmt | 0
+16 | S10.DFTE.Z30.PRE.ALL.X | 0 | stimmt | 0
+17 | S10.SB.Z30.PRE.ALL.X | 1e-06 | stimmt | 0
+18 | S10.SESOI.Z30.PRE.ALL.X | 1e-06 | stimmt | 0
+19 | S12.M.Z30.PRE.ITTIG.HAUPT | 1e-06 | stimmt | 0
+20 | S12.SD.Z30.PRE.ITTIG.HAUPT | 1e-06 | stimmt | 0
+21 | S15.UD.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 0
+22 | S15.SDPOST.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 0
+23 | S15.UDT.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 0
+24 | S15.UDP.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 9.76e-19
+25 | S13.B1.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 3.96e-16
+26 | S13.SEB1.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 0
+27 | S13.DF.Z30.X.ITT.HAUPT | 0 | stimmt | 0
+28 | S13.P.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 4e-15
+29 | S13.KIU.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 9.99e-16
+30 | S15.SDPRE.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 0
+31 | S15.J.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 0
+32 | S15.G.Z30.X.ITT.HAUPT | 1e-06 | stimmt | 9.99e-16
+33 | S18.FCRIT.Z30.X.ITT.X | 1e-06 | stimmt | 0
+34 | S13.H0REJ.X.X.ITT.HAUPT | 0 | stimmt | 0
+
+Kennwerte mit Urteil „stimmt“: 34 von 34
+Größte relative Abweichung einer Formel gegen die berichtete Rechnung: 4e-15 (Toleranz 1e-6, Anzahlen exakt)
+
+Zusatzprüfungen:
+Z1 | Formelwert 0 | Sollwert 0 | stimmt
+Z2 | Formelwert 0 | Sollwert 0 | stimmt
+Z3 | Formelwert 26 | Sollwert 26 | stimmt
+Z4 | Formelwert 34 | Sollwert 34 | stimmt
+Zusatzprüfungen bestanden: 4 von 4
+
+Blatt Formelwerte: Summe der Abweichungen je Spieler gegen die berichtete Rechnung = 0
+
+Gesamturteil der Rechenprobe: bestanden

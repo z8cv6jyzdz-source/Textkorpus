@@ -1,0 +1,51 @@
+Kapitelstruktur — Überschriftenzählung (28.09.2026), Skript Kapitelstruktur_Zaehlung_2026-09-28.py
+Ebene 1 Kapitel · 2 Unterabschnitt · 3 Unterunterabschnitt · A Absatztitel (kein Verzeichniseintrag)
+
+(1) Vergleichskorpus — elf Referenzstudien, Überschriften am extrahierten Volltext geprüft
+Studie                       Zeitschrift                E1   E2 E3+4  Abs  Meth. E2    Erg. E2  Disk. E2  Limit.       Schluss                Wörter/Überschr.
+Lloyd et al. (2016)          JSCR                        5    5    0    6  5           0        0         kein Block   Practical Applications    359
+Hammami et al. (2016)        JSCR, Autorenmanuskript     5    4   10    0  4 (+10 E3/4) 0        0         kein Block   Practical Applications    210
+Beato et al. (2018)          JSCR, Autorenmanuskript     5    3    0    0  3           0        0         Absatz       Practical Applications    441
+Negra et al. (2019)          IJSPP, Autorenmanuskript    7    7    6    0  3 (+6 E3/4) 0        4         Absatz       Practical Applications + Conclusions    218
+Negra et al. (2020)          JSHS                        5   13    0    0  11          2        0         kein Block   Conclusion                236
+Aloui et al. (2022)          Front. Physiol.             5   15    0    0  5           5        5         Absatz       Conclusion                169
+Liu et al. (2024)            JSSM                        5    5    0    3  5           0        0         Absatz       Conclusion                431
+Moran et al. (2024)          PLOS ONE                    5    4    0    6  4           0        0         Absatz       Conclusion                443
+Sammoud et al. (2024)        BMC SSMR                    5   11    4    0  7 (+4 E3/4) 0        4         Überschrift  Conclusions               229
+Bouafif et al. (2026)        PLOS ONE                    5    5    0    1  5           0        0         Absatz       Conclusion                545
+Padrón-Cabo et al. (2025)    JSCR                        5    8    0    4  4           4        0         Absatz       Practical Applications    307
+
+Zusammenfassung Korpus (n = 11), 176 Überschriften und Absatztitel hinterlegt und gefunden:
+  Stichprobe als eigener Abschnitt: 11 von 11 · Design als eigener Abschnitt (Experimental Approach, Experimental Design, Study design, Design): 9 von 11
+  Unterabschnitte 2. Ebene in der Methodik: Median 5, Spanne 3 bis 11
+  Testbeschreibung: Absatztitel 5 · Zwischentitel der Ebene 3 oder 4 3 · eigene Unterabschnitte 2. Ebene 1 (Negra 2020) · ohne Überschrift oder nur per Verweis 2 (Beato, Aloui)
+  Ergebnisse ohne Unterabschnitte: 8 von 11 · Diskussion ohne Unterabschnitte: 8 von 11
+  Limitationen: Überschrift 1 · Absatz 7 · kein Block 3 (Lloyd et al. (2016), Hammami et al. (2016), Negra et al. (2020))
+  Schlusskapitel (Practical Applications und/oder Conclusion): 11 von 11
+  Dritte oder vierte Verzeichnisebene vorhanden: 3 von 11 (Hammami, Negra 2019, Sammoud, Lesart bei den Manuskripten)
+  Wörter je Überschrift (ohne Absatztitel): Median 307, Spanne 169 bis 545
+
+(2) Master — Überschriften der Gliederung v5 nach Formatvorlage, ohne den Altbestand Kapitel 2 und 3
+  Ebene 1: 5  1 Einleitung · 4 Methodik · 5 Ergebnisse · 6 Diskussion · 7 Fazit und Ausblick
+  Ebene 2: 12  4.1 Studiendesign · 4.2 Stichprobe · 4.3 Untersuchungsablauf · 4.4 Leistungsdiagnostik · 4.5 Trainingsintervention · 4.6 Adhärenz- und Belastungsmonitoring · 4.7 Statistische Auswertung · 5.1 Teilnehmerfluss, Adhärenz und Ausgangswerte · 5.2 Gruppenvergleiche je Zielgröße · 6.1 Einordnung der Ergebnisse · 6.2 Methodendiskussion · 6.3 Stärken und Limitationen
+  Ebene 3: 5  4.4.1 30-m-Sprint mit Zwischenzeiten (5/10 m) · 4.4.2 505-Richtungswechseltest (bilateral) · 4.4.3 Standweitsprung · 4.5.1 Plyometrisches Heimtrainingsprogramm · 4.5.2 Vergleichs- und Begleitbedingung
+  Überschriften gesamt (v5, Kapitel 1 bis 7 in Arbeitsnummern): 22
+  Wörter je Unterabschnitt in Kapitel 4 (Absätze Standard, gemessen): 4.1 291 · 4.2 208 · 4.3 340 · 4.4 155 · 4.4.1 62 · 4.4.2 103 · 4.4.3 72 · 4.5 0 · 4.5.1 418 · 4.5.2 150 · 4.6 154 · 4.7 463
+  Leere Elternüberschrift (0 Wörter eigener Text, direkt gefolgt von Ebene 3): 4.5
+  Wörter je Überschrift bei 6.350 Wörtern Budget: 289
+
+(3) Gliederung v6 — Überschriften je Ebene und Budgets als Summen der Blöcke (Fassung 17 § 5.2)
+  1    Einleitung                                     Budget  1500  aus 1
+  2.1  Studiendesign                                  Budget   300  aus 4.1
+  2.2  Stichprobe                                     Budget   215  aus 4.2
+  2.3  Untersuchungsablauf                            Budget   340  aus 4.3
+  2.4  Leistungsdiagnostik                            Budget   420  aus 4.4
+  2.5  Trainingsintervention und Begleitbedingungen   Budget   725  aus 4.5.1 + 4.5.2 + 4.6
+  2.6  Statistische Auswertung                        Budget   550  aus 4.7
+  3    Ergebnisse                                     Budget   450  aus 5.1 + 5.2
+  4.1  Einordnung der Ergebnisse                      Budget   700  aus 6.1
+  4.2  Methodendiskussion, Stärken und Limitationen   Budget   900  aus 6.2 + 6.3
+  5    Fazit und Ausblick                             Budget   250  aus 7
+  Summe Budgets: 6350 (Vorgabe 6.350)
+  Überschriften v6: Ebene 1 5 · Ebene 2 8 · Ebene 3 0 · gesamt 13 (v5: 22) · Wörter je Überschrift 488
+  Varianten: Diskussion ohne Unterabschnitte gesamt 11 (577 je Überschrift) · zusätzlich 4.3 und 4.4 zusammengelegt 10 (635) · Ergebnisse mit zwei Unterabschnitten 15 (423)

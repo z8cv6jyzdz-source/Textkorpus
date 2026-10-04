@@ -1,0 +1,53 @@
+==============================================================================================================
+B9 ANALYSESETS — ITT und Per-Protokoll je Spieler und Zielgröße
+Skript: Auswertung_B9_ITT_PerProtokoll_2026-09-12.py · Lauf: 2026-09-15 20:23 · Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx
+==============================================================================================================
+
+Legende je Zelle: I = im ITT-Analyseset (prä + post + %PAH) · P = zusätzlich im Per-Protokoll-Set (IG ≥ 6 Einheiten) · K = KG-Post steht aus (Set offen)
+  −prä = kein gültiger Prä-Wert · −post = kein gültiger Post-Wert · −PAH = %PAH fehlt · n.a. = nicht angetreten · <6 = unter Mindestdosis (nur ITT) · Instr. = Instrumentenfehler (nur ITT)
+Code   Gr V  Einh.       5m      10m      30m     505L     505R     505M      SBJ   Status
+BW-01  IG B      0     I <6    −post     I <6     I <6     I <6     I <6     I <6   ausgewertet
+BW-02  IG B     12      I+P    −post      I+P      I+P      I+P      I+P      I+P   ausgewertet
+BW-04  IG B      6      I+P    −post      I+P      I+P      I+P      I+P      I+P   ausgewertet
+BW-05  IG B      7      I+P    −post      I+P      I+P    −post    −post      I+P   ausgewertet
+BW-06  IG B      2     I <6    −post     I <6     I <6     I <6     I <6     I <6   ausgewertet
+BW-07  IG B      6     n.a.     n.a.     n.a.     n.a.     n.a.     n.a.     n.a.   Post-Testung nicht angetreten – bei de
+BW-08  IG B      9      I+P    −post      I+P      I+P      I+P      I+P      I+P   ausgewertet
+BW-09  IG B      7      I+P    −post      I+P      I+P      I+P      I+P      I+P   ausgewertet
+BW-10  IG B      5     I <6    −post     I <6     I <6     I <6     I <6     I <6   ausgewertet
+BW-11  IG B      2     I <6    −post     I <6     I <6     −prä     −prä     I <6   ausgewertet
+BW-21  IG B      0     n.a.     n.a.     n.a.     n.a.     n.a.     n.a.     n.a.   Post-Testung nicht angetreten – bei de
+HL-01  IG A      8      I+P      I+P      I+P      I+P      I+P      I+P      I+P   ausgewertet
+HL-02  IG A      8      I+P      I+P      I+P      I+P      I+P      I+P      I+P   ausgewertet
+HL-03  IG A      9      I+P      I+P      I+P      I+P      I+P      I+P      I+P   ausgewertet
+HL-05  IG A      0     I <6     I <6     I <6     I <6     I <6     I <6     I <6   ausgewertet
+HL-06  IG A      0     I <6     I <6     I <6     I <6     I <6     I <6     I <6   ausgewertet
+HL-07  IG A      7      I+P      I+P      I+P     −prä      I+P     −prä      I+P   ausgewertet
+HL-08  IG A      4     I <6     I <6     I <6     I <6     I <6     I <6     I <6   ausgewertet
+VS-01  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-02  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-03  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-04  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-05  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-06  KG C      —     −prä        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-07  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-08  KG C      —     −prä        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-10  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-11  KG C      —        K        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-16  KG C      —     −prä        K        K     −prä        K     −prä        K   Post-Testung ausstehend (Termin 15.09.
+VS-17  KG C      —     −prä        K        K        K        K        K        K   Post-Testung ausstehend (Termin 15.09.
+VS-18  KG C      —     −prä     −PAH     −PAH     −PAH     −prä     −prä     −PAH   Post-Testung ausstehend (Termin 15.09.
+
+NENNER JE ANALYSE (CONSORT Item 16) — KG in Klammern: maximal erreichbar, Post steht aus
+Zielgröße   ITT IG  ITT KG  PP IG  PP9 IG  § 11.9 ITT  § 11.9 PP  § 11.9 PP9
+5m              16     (8)      9       3    Inferenz   Inferenz  deskriptiv
+10m              7    (12)      4       1  deskriptiv deskriptiv  deskriptiv
+30m             16    (12)      9       3    Inferenz   Inferenz  deskriptiv
+505L            15    (11)      8       3    Inferenz   Inferenz  deskriptiv
+505R            14    (12)      8       3    Inferenz   Inferenz  deskriptiv
+505M            13    (11)      7       3    Inferenz deskriptiv  deskriptiv
+SBJ             16    (12)      9       3    Inferenz   Inferenz  deskriptiv
+PP9 = Ethikantrag-Kriterium „Adherence ≥ 75 %“ (≥ 9 von 12): nach § 11.9 nur deskriptiv → Hauptanalyse ITT (Auswertungsplan 12.09.). 505M = Mittelwert beider Seiten; 505 L/R deskriptiv.
+
+Sprachregelung (§ 10): ITT-Ergebnis = „Wirkung des Programmangebots“; PP-Ergebnis = beobachtender Vergleich der Durchführenden, kein kausaler Effekt.
+Verdünnung (§ 11.7): 92 von 216 angebotenen Einheiten vollständig (42,6 %) — ein ITT-Nullbefund bedeutet zunächst nur, dass das Angebot in dieser Umsetzungsrate nichts bewirkt hat.

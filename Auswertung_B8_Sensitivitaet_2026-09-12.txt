@@ -1,0 +1,74 @@
+==============================================================================================================
+B8 SENSITIVITÄTSANALYSEN — Stand und Sensitivitäts-Poweranalyse (MDES) mit aktuellen n
+Skript: Auswertung_B8_Sensitivitaet_2026-09-12.py · Lauf: 2026-09-15 20:23 · Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx
+Software: Python 3.11.15 · NumPy 2.4.4 · SciPy 1.17.1 (nichtzentrale t-Verteilung) · α = 0.05 zweiseitig · Power = 0.8
+==============================================================================================================
+
+1  SENSITIVITÄTS-POWERANALYSE (MDES) — Analyseset je Zielgröße: prä + %PAH; IG zusätzlich mit Post-Wert; KG = maximal erreichbar (Post steht aus)
+Zielgröße   n1/n2 df_e      TE      SD  R²max     d1     d2    r_w       Q Fakt.SE  MDES oQ  ×SESOI  MDES mQ  ×SESOI   KI½ mQ
+5m           16/8   20  0.0462  0.0792  0.435  -1.27   2.06 -0.181  0.2315   1.495     0.96     4.8     1.43     7.2   0.0804
+10m          7/12   15  0.0369  0.1073  0.777  -2.40   2.69 -0.116  0.6849   2.007     0.67     3.4     1.35     6.8   0.1031
+30m         16/12   24  0.0775  0.3133  0.881  -1.77   1.64 -0.274  0.1761   1.486     0.38     1.9     0.57     2.9   0.1264
+505L        15/11   22  0.0888  0.1140  0.155  -0.80   1.49 -0.287  0.0986   1.275     1.07     5.3     1.36     6.8   0.1100
+505R        14/12   22  0.0829  0.1166  0.245  -0.20   1.63 -0.361  0.1186   1.329     1.00     5.0     1.33     6.7   0.1099
+505M        13/11   20  0.0579  0.1004  0.446  -0.70   1.48 -0.414  0.1003   1.264     0.90     4.5     1.14     5.7   0.0808
+SBJ         16/12   24  6.1482 16.5952  0.744   0.76   1.64  0.358  0.1045   1.310     0.56     2.8     0.74     3.7   8.6650
+  MDES in Einheiten der Prä-SD zwischen Spielern (Cohen-d-Skala); ×SESOI = MDES·SD/SESOI = Vielfaches des SESOI (0,2·SD) → immer MDES/0,2.
+  505M = Mittelwert beider Beinseiten (konfirmatorisch, Ethikantrag); TE für R²max aus den gepaarten Einzelversuchen (B3 § 11). 505 L/R nur zur Information (deskriptiv).
+  KI½ = halbe Breite des 95-%-KI der adjustierten Differenz in Rohheiten (mit Q). 5 m und 10 m nur zur Information: nach § 11.9 deskriptiv.
+  Fassung 9 § 11.1 (n 17/7, 17/11, 17/11, 17/11, 16/10, 16/11): MDES mit Q 1,43 · 0,72 · 0,54 · 0,73 · 1,34 · 1,32 (×SESOI 7,1 · 3,6 · 2,7 · 3,7 · 6,7 · 6,6); Faktor SE 1,433 · 1,341 · 1,387 · 1,280 · 1,235 · 1,330.
+  ⚠ Abweichungen gegenüber § 11.1 entstehen aus den geänderten Analysesets (IG 16 statt 17 mit Post-Bedingung; 10 m IG 7), nicht aus einer Methodenänderung.
+
+2  POWER BEI DEN DOKUMENTIERTEN VORAB-ERWARTUNGEN (§ 6.5/§ 11.1) — Literaturerwartungen, keine Annahmen über unseren Effekt
+   E1: Lloyd et al. (2016), 10 m, d = 0,06
+   E2: RC (2020), 10 m ≤ 7 Wo., d = 0,11
+   E3: Moran et al. (2017), CMJ, d = 0,37
+   E4: RC (2020), Sprung/Sprint kurz, d ≈ 0,7
+   E5: d = 0,93
+Zielgröße    E1 (d=0.06)   E2 (d=0.11)   E3 (d=0.37)    E4 (d=0.7)   E5 (d=0.93)
+5m                  0.05          0.06          0.11          0.28          0.44
+10m                 0.05          0.06          0.12          0.31          0.49
+30m                 0.06          0.08          0.44          0.93          1.00
+505L                0.05          0.06          0.12          0.30          0.48
+505R                0.05          0.06          0.12          0.31          0.50
+505M                0.05          0.06          0.15          0.41          0.63
+SBJ                 0.06          0.07          0.29          0.76          0.94
+
+3  R²-SENSITIVITÄT (F3): MDES mit Q über R² = 0,30 … 0,79 (statt R²max) — Schlussfolgerung darf nicht an der R²-Annahme hängen
+Zielgröße   R²max    R²=0.3    R²=0.4    R²=0.5    R²=0.6    R²=0.7   R²=0.79   (MDES in d, jeweils ×SESOI in Klammern)
+5m          0.435 1.60(8.0) 1.48(7.4) 1.35(6.7) 1.21(6.0) 1.04(5.2) 0.87(4.4)
+10m         0.777 2.39(12.0) 2.22(11.1) 2.02(10.1) 1.81(9.0) 1.57(7.8) 1.31(6.6)
+30m         0.881 1.39(6.9) 1.28(6.4) 1.17(5.9) 1.05(5.2) 0.91(4.5) 0.76(3.8)
+505L        0.155 1.24(6.2) 1.15(5.7) 1.05(5.2) 0.94(4.7) 0.81(4.1) 0.68(3.4)
+505R        0.245 1.28(6.4) 1.19(5.9) 1.08(5.4) 0.97(4.8) 0.84(4.2) 0.70(3.5)
+505M        0.446 1.28(6.4) 1.18(5.9) 1.08(5.4) 0.96(4.8) 0.84(4.2) 0.70(3.5)
+SBJ         0.744 1.22(6.1) 1.13(5.7) 1.03(5.2) 0.92(4.6) 0.80(4.0) 0.67(3.3)
+  Über die gesamte Spanne bleibt der MDES bei 30 m, SBJ, 505M (und 505 L/R) ein Vielfaches des SESOI; die Aussage „Sprint unterpowert für d ≈ 0,1“ hängt nicht an R².
+  Nach dem 15.09.: R² aus dem gefitteten Modell (B7) einsetzen; R²max ist eine Obergrenze aus der Messgüte (Modellrechnung, § 1.1: Messung geht vor).
+
+4  F6 MITTELWERT STATT BESTWERT — Baseline-d und Prä-Post-Δ der IG unter beiden Aggregationen (das ANCOVA-Modell folgt in B7 C)
+Zielgröße  d Baseline Best d Baseline Mittel  Δ IG Best Δ IG Mittel  Diff. Δ in SESOI
+5m                   -1.22             -1.27      0.031       0.022   -0.008    -0.53
+10m                  -1.29             -1.33      0.097       0.089   -0.008    -0.39
+30m                  -1.68             -1.79      0.056       0.066    0.011     0.17
+505L                 -0.70             -0.92     -0.000      -0.009   -0.009    -0.39
+505R                 -0.17             -0.21      0.011      -0.009   -0.020    -0.88
+505M                 -0.60             -0.73      0.016       0.004   -0.012    -0.61
+SBJ                   0.84              0.76     -4.438      -3.385    1.052     0.32
+  Weichen Bestwert- und Mittelwertanalyse nach dem 15.09. nicht ab, ist § 11.8 erledigt; weichen sie ab, gehört das in 6.1.
+
+5  F2 FAMILIARISIERUNG (Stand 12.09.: Spalte je Spieler 1/2 aus Anwesenheitslisten; Verein A durchgängig 1, B 8 × 2 / 3 × 1, C 12 × 2, VS-11 leer)
+  Variante a (Ausschluss der Spieler mit einer Familiarisierung): IG-Set fällt auf n < 8 → nur deskriptiv (B4 § 7). Variante b (Kovariate 1/2): in B7 Block F, nach KG-Post.
+  ⚠ In der IG ist die Dosis mit Verein A konfundiert (alle A = 1) — Variante b schätzt Vereins- und Familiarisierungseffekt gemeinsam; nur als Sensitivität berichten.
+  Deskriptiv heute (IG, Bestwert): Prä-Post-Δ nach Familiarisierungsdosis — kein Gruppenvergleich, keine Inferenz:
+   5m    Fam=1: n=9 Δ=+0.066 (SD 0.059) · Fam=2: n=7 Δ=-0.014 (SD 0.041)
+   10m   Fam=1: n=7 Δ=+0.097 (SD 0.018) · Fam=2: n=0
+   30m   Fam=1: n=9 Δ=+0.089 (SD 0.101) · Fam=2: n=7 Δ=+0.013 (SD 0.056)
+   505L  Fam=1: n=8 Δ=+0.016 (SD 0.082) · Fam=2: n=7 Δ=-0.019 (SD 0.095)
+   505R  Fam=1: n=9 Δ=+0.008 (SD 0.094) · Fam=2: n=5 Δ=+0.018 (SD 0.049)
+   505M  Fam=1: n=8 Δ=+0.019 (SD 0.077) · Fam=2: n=5 Δ=+0.010 (SD 0.054)
+   SBJ   Fam=1: n=9 Δ=-5.000 (SD 7.697) · Fam=2: n=7 Δ=-3.714 (SD 4.572)
+  (Zeiten negativ = schneller, Standweitsprung positiv = weiter; Fam = 1 ist bei 30 m/SBJ/505 praktisch Verein A + BW-01/BW-02.)
+
+6  ÄNDERUNGSWERT-RECHNUNG (Δ ~ Gruppe + %PAH) und MODELL OHNE %PAH — vorab festgelegt, Modelle in B7 E; Lord's Paradox in 6.1 (§ 11.2).
+   Erwartung: Bei Baseline-d bis −1,7 unterscheiden sich ANCOVA- und Änderungswert-Schätzer systematisch (b2 < 1); beide beantworten verschiedene Fragen.

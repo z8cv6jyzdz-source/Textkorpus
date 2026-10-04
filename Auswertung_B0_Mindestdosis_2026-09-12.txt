@@ -1,0 +1,215 @@
+====================================================================================================
+B0.1 MINDESTDOSIS DER PER-PROTOKOLL-RECHNUNG — Festlegung, Gegenprüfung, Berichtsform
+Skript: Auswertung_B0_Mindestdosis_2026-09-12.py · Lauf: 2026-09-15 20:23
+Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx · Fragebogen: /mnt/user-data/uploads/Bachelorarbeit/SoSci_Fragebogen/Fragebogen Datensatz.txt (111 Meldungen)
+====================================================================================================
+
+FESTLEGUNG (11.09.2026): Per-Protokoll = ≥ 6 von 12 Einheiten vollständig absolviert (Konvention „Hälfte des Programms“).
+Begründungsauflagen: (1) keine Literaturschwelle, (2) keine Fallzahlbegründung, (3) Schwellenlandschaft vollständig offenlegen.
+Ethikantrag (16.06.2026, Abschnitt 8): „Adherence unter 75 % … Ausschluss aus der Hauptanalyse; Berücksichtigung in Sensitivitätsanalyse“ = ≥ 9 von 12 Einheiten.
+Auswertungsplan 12.09.: Das Antragskriterium bleibt berichtet (Abschnitt 2b); Hauptanalyse = alle Zugeteilten (ITT), weil die Antragsteilmenge n < 8 hat (§ 11.9).
+Protokollabweichung: Die Festlegung erfolgt nach Sichtung der IG-Post-Werte (Durchsicht 10.09.); § 11.7 verlangte sie davor.
+Mildernd: Die Schwelle steht unverändert seit der Maßnahmenliste vom 09.09. (vor dem Post-Termin von Verein A am 10.09.);
+die KG-Post-Werte, die den Vergleich tragen, sind bis heute unbekannt. Gesichtet wurde erst danach; die Schwelle ist nicht am Ergebnis ausgerichtet.
+
+0  CODESCHEMA — BEFUND VOR JEDER ZUSAMMENFÜHRUNG
+  Workbook-IG-Codes: BW-01, BW-02, BW-04, BW-05, BW-06, BW-07, BW-08, BW-09, BW-10, BW-11, BW-21, HL-01, HL-02, HL-03, HL-05, HL-06, HL-07, HL-08
+  altes Schema (Fragebogen-Liste, 18 reale Spieler laut Konkordanz): BW-01, BW-02, BW-04, BW-05, BW-06, BW-07, BW-08, BW-09, BW-10, BW-11, BW-21, HL-01, HL-02, HL-03, HL-04, HL-06, HL-07, HL-08
+  neues Schema (Konkordanz): BW-01, BW-02, BW-03, BW-04, BW-05, BW-06, BW-07, BW-08, BW-09, BW-10, BW-11, HL-01, HL-02, HL-03, HL-04, HL-05, HL-06, HL-07
+  Übereinstimmung Workbook ∩ alt: 17/18 · Workbook ∩ neu: 16/18
+  nur im Workbook: HL-05 · nur im alten Schema: HL-04
+  ⚠ BEFUND: Das Workbook führt das ALTE Schema (BW-21 und HL-08 vorhanden, BW-03/HL-04 nicht) — entgegen der Angabe im Übergabeprotokoll
+    Fragebogenauswertung § 3 („Die Studiendaten führen das NEUE“). Einzige Abweichung: Verein A hat im Workbook HL-05 statt HL-04.
+    HL-04 (Liste) und HL-05 (Liste) haben beide keine echte Meldung (die fünf HL-04-Meldungen sind CASE-korrigiert BW-04);
+    für die Adhärenzzuordnung ist deshalb ohne Belang, ob Workbook-HL-05 dem Listenplatz HL-04 oder HL-05 entspricht: 0 Meldungen in beiden Lesarten.
+    Folge für § 11.7 / Fassung 9: „BW-11 neu“ (Instrumentenfehler) ist im Workbook BW-21; Workbook-BW-11 ist ein anderer Spieler (BW-10 neu).
+    Zusammenführung Fragebogen ↔ Workbook in diesem Skript: Listen-Code (alt, CASE-korrigiert) = Workbook-Code; HL-04 (Liste) → HL-05 (Workbook).
+
+1  MELDUNGEN JE CODE — roh (wie gewählt) und CASE-korrigiert (altes Schema = Workbook-Code)
+Liste alt neu    Workbook  Meld. roh ganz roh Meld. korr  ganz teilw. gar nicht Anteil ganz
+BW-01     BW-01  BW-01             0        0          0     0      0         0          0 %
+BW-02     BW-02  BW-02            12       12         12    12      0         0        100 %
+BW-04     BW-03  BW-04             2        1          7     6      1         0         50 %
+BW-05     BW-04  BW-05             8        7          8     7      0         1         58 %
+BW-06     BW-05  BW-06             3        1          5     2      2         1         17 %
+BW-07     BW-06  BW-07             6        6          6     6      0         0         50 %
+BW-08     BW-07  BW-08             9        9          9     9      0         0         75 %
+BW-09     BW-08  BW-09             8        7          8     7      0         1         58 %
+BW-10     BW-09  BW-10             5        5          5     5      0         0         42 %
+BW-11     BW-10  BW-11             2        2          2     2      0         0         17 %
+BW-21     BW-11  BW-21             0        0          0     0      0         0          0 %
+HL-01     HL-01  HL-01            10        8         10     8      1         1         67 %
+HL-02     HL-02  HL-02             9        8          9     8      0         1         67 %
+HL-03     HL-03  HL-03            12        9         12     9      0         3         75 %
+HL-04     HL-04  HL-05             5        5          0     0      0         0          0 %
+HL-06     HL-05  HL-06             3        1          1     0      0         1          0 %
+HL-07     HL-06  HL-07            11        7         11     7      1         3         58 %
+HL-08     HL-07  HL-08             6        4          6     4      1         1         33 %
+  Meldungen unter Listencodes ohne realen Spieler (HL-05, BW-03, BW-12…14 alt) nach Korrektur: 0  
+  Summe Meldungen 111 · ganz 92 · teilweise 6 · gar nicht 13
+  BW-21 (Workbook) = BW-11 neu: kein Listenplatz (Liste endete bei BW-14 alt) → Instrumentenfehler, 0 Meldungen, bleibt in jeder ITT-Analyse; für Per-Protokoll nicht klassifizierbar.
+
+  Umsetzungsrate: 92 vollständige von 216 angebotenen Einheiten (18 × 12) = 42.6 %
+  je zugeteiltem Spieler: Mittel 5.11 · Median 6.0 · Spanne 0–12 (n = 18, BW-21 mit 0 gezählt)
+  ohne BW-21 (Instrumentenfehler): Mittel 5.41 · Median 6.0 (n = 17)
+
+2  RECHNUNG a — VERTEILUNG DER VOLLSTÄNDIGEN EINHEITEN NACH KORREKTUR (alle 18 zugeteilten IG-Spieler)
+  vollständige Einheiten: 0×4 · 2×2 · 4×1 · 5×1 · 6×2 · 7×3 · 8×2 · 9×2 · 12×1
+  Übergabeprompt (Rohstand, vor Korrektur, 16 meldende Codes): 1×3 · 2×1 · 4×1 · 5×2 · 6×1 · 7×3 · 8×2 · 9×2 · 12×1
+
+  Schwelle Anteil Progr. n (korrigiert) n (roh, Prompt)    § 11.9   Spieler
+       ≥ 4           33 %             12              12  ok               BW-02, BW-04, BW-05, BW-07, BW-08, BW-09, BW-10, HL-01, HL-02, HL-03, HL-07, HL-08
+       ≥ 5           42 %             11              11  ok               BW-02, BW-04, BW-05, BW-07, BW-08, BW-09, BW-10, HL-01, HL-02, HL-03, HL-07
+       ≥ 6           50 %             10               9  ok               BW-02, BW-04, BW-05, BW-07, BW-08, BW-09, HL-01, HL-02, HL-03, HL-07   ← GEWÄHLT
+       ≥ 7           58 %              8               8  ok               BW-02, BW-05, BW-08, BW-09, HL-01, HL-02, HL-03, HL-07
+       ≥ 8           67 %              5               5  unterschritten   BW-02, BW-08, HL-01, HL-02, HL-03
+       ≥ 9           75 %              3               —  unterschritten   BW-02, BW-08, HL-03
+      ≥ 12          100 %              1               1  unterschritten   BW-02
+
+  Bei ≥ 6 Einheiten: n = 10 (Rohstand 9). Änderung durch die CASE-Korrekturen: BW-04 alt (= BW-03 neu) erhält die fünf unter HL-04 gemeldeten Einheiten
+  und erreicht damit die Schwelle. Die Schwelle bleibt; nur die Spielerzahl ändert sich (Auflage Rechnung a).
+  § 11.9 begrenzt die Schwelle nach oben: bei ≥ 8 Einheiten n = 5 < 8. Zulässige Schwellen nach § 11.9: ≥ 1, ≥ 2, ≥ 3, ≥ 4, ≥ 5, ≥ 6, ≥ 7
+
+2b  ETHIKANTRAG-KRITERIUM „Adherence ≥ 75 %“ (≥ 9 von 12 vollständige Einheiten) — Abweichung mit Grund
+  Spieler mit ≥ 9 Einheiten: n = 3 → BW-02 (12), BW-08 (9), HL-03 (9)
+     5m   : ANCOVA-fähig (prä + post + %PAH) n = 3 → BW-02, BW-08, HL-03
+     10m  : ANCOVA-fähig (prä + post + %PAH) n = 1 → HL-03
+     30m  : ANCOVA-fähig (prä + post + %PAH) n = 3 → BW-02, BW-08, HL-03
+     505L : ANCOVA-fähig (prä + post + %PAH) n = 3 → BW-02, BW-08, HL-03
+     505R : ANCOVA-fähig (prä + post + %PAH) n = 3 → BW-02, BW-08, HL-03
+     SBJ  : ANCOVA-fähig (prä + post + %PAH) n = 3 → BW-02, BW-08, HL-03
+  Folge: Die im Antrag vorgesehene Hauptanalyse (nur Spieler ≥ 75 %) hätte n = 3 < 8 in der IG — nach § 11.9 keine Inferenz möglich.
+  Deshalb (Auswertungsplan 12.09., vor Kenntnis der KG-Werte): Hauptanalyse = alle Zugeteilten (ITT, CONSORT-Logik); die Antragsteilmenge (≥ 9) wird
+  deskriptiv berichtet (Einzelwerte, kein Test); Per-Protokoll ≥ 6/12 (Festlegung des Verfassers) als zusätzlicher, beobachtender Vergleich.
+  Das ist die einzige Analyseabweichung vom Ethikantrag, die nicht durch die Datenlage erzwungen ist — sie ist durch die Umsetzungsrate erzwungen.
+
+3  RECHNUNG b — SCHNITTMENGE MIT DEN POST-WERTEN (Per-Protokoll-Nenner je Zielgröße)
+  Per-Protokoll-fähig = Schwelle erreicht UND gültiger Prä- UND Post-Bestwert der Zielgröße UND %PAH (ANCOVA-Set).
+Zielgröße  PP (≥6) n  § 11.9                Spieler
+5m                 9  ok                    BW-02, BW-04, BW-05, BW-08, BW-09, HL-01, HL-02, HL-03, HL-07
+10m                4  n < 8 → deskriptiv    HL-01, HL-02, HL-03, HL-07
+30m                9  ok                    BW-02, BW-04, BW-05, BW-08, BW-09, HL-01, HL-02, HL-03, HL-07
+505L               8  ok                    BW-02, BW-04, BW-05, BW-08, BW-09, HL-01, HL-02, HL-03
+505R               8  ok                    BW-02, BW-04, BW-08, BW-09, HL-01, HL-02, HL-03, HL-07
+SBJ                9  ok                    BW-02, BW-04, BW-05, BW-08, BW-09, HL-01, HL-02, HL-03, HL-07
+  Die Per-Protokoll-Rechnung ist ein beobachtender Vergleich der PP-Teilmenge der IG mit der (unveränderten) KG; die KG-Post-Werte stehen aus.
+
+4  RECHNUNG c — SCHWELLEN-SENSITIVITÄT (≥ 5 / ≥ 6 / ≥ 7), vorab festgelegt; Hauptaussage bleibt ≥ 6
+Zielgröße    n PP ≥5   n PP ≥6   n PP ≥7   (ANCOVA-Set: prä + post + %PAH)
+5m                10         9         8
+10m                4         4         4
+30m               10         9         8
+505L               9         8         7
+505R               9         8         7
+SBJ               10         9         8
+  Die drei ANCOVA-Läufe (je Schwelle) sind in B7 vorbereitet und laufen nach Eintragung der KG-Post-Werte; alle drei Ergebnisse werden berichtet.
+  Deskriptiv heute möglich: Prä-Post-Veränderung des Bestwerts innerhalb der jeweiligen PP-Teilmenge (kein Gruppenvergleich, keine Inferenz):
+   5m    ≥5: n=10 Δ=+0.024 (SD 0.067) · ≥6: n=9 Δ=+0.030 (SD 0.068) · ≥7: n=8 Δ=+0.038 (SD 0.069) · <6: n=7 Δ=+0.031 (SD 0.065)
+   10m   ≥5: n=4 Δ=+0.107 (SD 0.013) · ≥6: n=4 Δ=+0.107 (SD 0.013) · ≥7: n=4 Δ=+0.107 (SD 0.013) · <6: n=3 Δ=+0.083 (SD 0.015)
+   30m   ≥5: n=10 Δ=+0.074 (SD 0.108) · ≥6: n=9 Δ=+0.087 (SD 0.106) · ≥7: n=8 Δ=+0.091 (SD 0.113) · <6: n=7 Δ=+0.016 (SD 0.046)
+   505L  ≥5: n=9 Δ=+0.020 (SD 0.069) · ≥6: n=8 Δ=+0.039 (SD 0.044) · ≥7: n=7 Δ=+0.041 (SD 0.046) · <6: n=7 Δ=-0.044 (SD 0.105)
+   505R  ≥5: n=9 Δ=+0.024 (SD 0.085) · ≥6: n=8 Δ=+0.031 (SD 0.088) · ≥7: n=7 Δ=+0.030 (SD 0.095) · <6: n=6 Δ=-0.015 (SD 0.062)
+   SBJ   ≥5: n=10 Δ=-4.000 (SD 6.182) · ≥6: n=9 Δ=-3.889 (SD 6.547) · ≥7: n=8 Δ=-4.250 (SD 6.902) · <6: n=7 Δ=-5.143 (SD 6.543)
+  (Vorzeichen: Zeiten negativ = schneller; Standweitsprung positiv = weiter. Nur Orientierung — ein Vergleich „PP gegen Rest“ wäre eine zweite Selektionsschicht.)
+
+5  RECHNUNG d — ADHÄRENZ STETIG GEGEN PRÄ-POST-VERÄNDERUNG, NUR IG, EXPLORATIV (Maßnahme F4)
+  x = vollständig absolvierte Einheiten (0–12); y = Bestwert post − Bestwert prä. Ohne BW-21 (Adhärenz unbekannt, Instrumentenfehler).
+  Variante I: nicht dokumentierende Spieler (BW-01, HL-05) mit 0 · Variante II: nur Spieler mit ≥ 1 Meldung.
+  Pearson r und Spearman ρ mit 95-%-KI (Fisher-z) und p; kein Gruppenvergleich nach Adhärenz. Ohne Adjustierung für Mehrfachtestung.
+   5m    Var. I : n = 16  r = -0.007 [-0.501; +0.491] p = 0.981   ρ = -0.012 p = 0.965
+   5m    Var. II: n = 14  r = +0.141 [-0.421; +0.625] p = 0.630   ρ = +0.127 p = 0.665
+   10m   Var. I : n =  7  r = +0.705 [-0.103; +0.952] p = 0.077   ρ = +0.837 p = 0.019
+   10m   Var. II: n =  6  r = +0.926 [+0.459; +0.992] p = 0.008   ρ = +0.986 p = 0.000
+   30m   Var. I : n = 16  r = +0.269 [-0.262; +0.675] p = 0.314   ρ = +0.293 p = 0.270
+   30m   Var. II: n = 14  r = +0.253 [-0.321; +0.691] p = 0.383   ρ = +0.327 p = 0.253
+   505L  Var. I : n = 15  r = +0.180 [-0.366; +0.634] p = 0.521   ρ = +0.187 p = 0.505
+   505L  Var. II: n = 13  r = +0.220 [-0.377; +0.688] p = 0.470   ρ = +0.193 p = 0.528
+   505R  Var. I : n = 14  r = +0.168 [-0.398; +0.642] p = 0.565   ρ = +0.290 p = 0.314
+   505R  Var. II: n = 12  r = -0.000 [-0.574; +0.574] p = 1.000   ρ = +0.214 p = 0.503
+   SBJ   Var. I : n = 16  r = +0.238 [-0.292; +0.656] p = 0.375   ρ = +0.086 p = 0.752
+   SBJ   Var. II: n = 14  r = +0.061 [-0.486; +0.573] p = 0.837   ρ = -0.095 p = 0.747
+  Einzelwerte (Variante I) je Spieler: Einheiten ganz | Δ je Zielgröße (post − prä, Bestwert):
+Code   Verein  ganz       5m      10m      30m     505L     505R      SBJ
+BW-01  B          0    +0.03        —    +0.01    -0.03    +0.01       -4
+BW-02  B         12    +0.00        —    +0.01    -0.04    -0.06       +7
+BW-04  B          6    -0.03        —    +0.05    +0.02    +0.04       -1
+BW-05  B          7    +0.06        —    +0.12    +0.04        —       -1
+BW-06  B          2    +0.01        —    +0.01    +0.02    +0.01       +1
+BW-07  B          6        —        —        —        —        —        —
+BW-08  B          9    -0.06        —    -0.01    +0.04    +0.09       -7
+BW-09  B          7    -0.05        —    -0.04    +0.06    -0.02       -1
+BW-10  B          5    -0.03        —    -0.04    -0.13    -0.03       -5
+BW-11  B          2    +0.00        —    +0.00    -0.18        —      -12
+BW-21  B          0        —        —        —        —        —        —
+HL-01  A          8    +0.08    +0.11    +0.06    +0.01    +0.12       +1
+HL-02  A          8    +0.14    +0.11    +0.15    +0.08    +0.14      -13
+HL-03  A          9    +0.08    +0.12    +0.13    +0.10    +0.05       -8
+HL-05  A          0    +0.10    +0.10    +0.05    +0.03    -0.09      -16
+HL-06  A          0    -0.03    +0.07    -0.02    +0.11    +0.08       +0
+HL-07  A          7    +0.05    +0.09    +0.31        —    -0.11      -12
+HL-08  A          4    +0.14    +0.08    +0.10    -0.13    -0.07       +0
+  Lesart nach Ramirez-Campillo et al. (2020): stetige Auswertung statt Dichotomisierung; sie kostet keine Fallzahl und erzeugt keine zweite Selektionsschicht.
+
+6  ADHÄRENZ JE SPIELER (für 4.6 / 5.1) — Nenner 12 angebotene Einheiten (Schwab-Punkt „Nenner“ offen)
+  K20 (12.09.): „Wo-cap“ = höchstens zwei „ganz“-Meldungen je Programmwoche nach Meldedatum; „H003-dist“ = distinkte Einheitennummern mit Status „ganz“ — beides Untergrenzen (F1 § 6.3).
+Workbook neu     Meld.  ganz Wo-cap H003-dist teilw  gar Attendance  CR-10 M Schmerz Videopause Fremdtr.  Untergrund (ganz/teilw.)
+BW-01    BW-01       0     0      0         0     0    0         0 %      nan       0          0        0  
+BW-02    BW-02      12    12     12        12     0    0       100 %      2.3       1          1       11  Kunstrasen 6, Rasen 3, Anderes 2, Drinnen 1
+BW-04    BW-03       7     6      5         6     1    0        50 %      2.4       1          1        4  Rasen 4, Drinnen 3
+BW-05    BW-04       8     7      7         7     0    1        58 %      2.6       0          0        0  Drinnen 7
+BW-06    BW-05       5     2      2         2     2    1        17 %      4.5       2          1        3  Drinnen 3, Rasen 1
+BW-07    BW-06       6     6      6         6     0    0        50 %      3.3       0          5        5  Drinnen 6
+BW-08    BW-07       9     9      8         8     0    0        75 %      3.0       2          0        1  Drinnen 6, Hartplatz 2, Kunstrasen 1
+BW-09    BW-08       8     7      7         7     0    1        58 %      2.7       2          0        7  Drinnen 7
+BW-10    BW-09       5     5      5         5     0    0        42 %      4.0       0          3        4  Kunstrasen 3, Hartplatz 1, Drinnen 1
+BW-11    BW-10       2     2      2         2     0    0        17 %      3.5       1          0        2  Rasen 2
+BW-21    BW-11       0     0      0         0     0    0         0 %      nan       0          0        0  
+HL-01    HL-01      10     8      8         8     1    1        67 %      3.8       1          1        8  Drinnen 8, Rasen 1
+HL-02    HL-02       9     8      8         7     0    1        67 %      3.5       0          0        3  Rasen 4, Kunstrasen 2, Hartplatz 1, Drinnen 1
+HL-03    HL-03      12     9      9         5     0    3        75 %      3.4       1          5        7  Drinnen 5, Rasen 4
+HL-05    HL-04       0     0      0         0     0    0         0 %      nan       0          0        0  
+HL-06    HL-05       1     0      0         0     0    1         0 %      nan       0          0        1  
+HL-07    HL-06      11     7      7         7     1    3        58 %      2.8       0          6        3  Drinnen 5, Hartplatz 3
+HL-08    HL-07       6     4      4         4     1    1        33 %      3.0       1          2        1  Drinnen 5
+  Summen: ganz 92 · Wo-cap 90 · H003-dist 86 von 216 · Mengen ≥ 6: Haupt 10 / Wo-cap 9 / H003-dist 9 · ≥ 9: 3 / 2 / 1
+  CR-10 (nur vollständige Einheiten, n = 92): M 2.90 · SD 0.91 · Median 3 · Spanne 0–5
+  Attendance = vollständige zu angebotenen Einheiten (12). Compliance (Protokolltreue) ist im unbeaufsichtigten Setting nicht objektiv prüfbar (§ 4). Meldedatum ≠ Trainingsdatum.
+  Vollständige Fragebogenauswertung (Zeitstruktur, Belastung, Untergrund, Videopausen, Fremdtraining, unerwünschte Ereignisse, Instrumentqualität): Auswertung_F1_Fragebogen_2026-09-12.py/.txt.
+
+7  UNERWÜNSCHTE EFFEKTE (CONSORT Item 19) — Schmerzmeldungen H007 = ja; Freitext H007_01; Abbruchgründe H004_03
+  Schmerzmeldungen: 12 von 111 Meldungen · betroffene Spieler: 9 (BW-02, BW-04, BW-06, BW-08, BW-09, BW-11, HL-01, HL-03, HL-08)
+     BW-02   24.07.2026  absolviert=ganz       „Leichte Knie schmerzen habe aber auch auf Socken trainiert“
+     BW-04   01.08.2026  absolviert=teilweise  „Knöchelverletzung“
+     BW-06   02.08.2026  absolviert=gar nicht  „Knie und oberschenkel“
+     BW-06   26.07.2026  absolviert=teilweise  „Bisschen Muskelkater noch von der ersten Einheit“
+     BW-08   27.07.2026  absolviert=ganz       „nur ein bisschen muskelkater nicht schlimm“
+     BW-08   30.07.2026  absolviert=ganz       „knie wie immer ein bisschen“
+     BW-09   23.08.2026  absolviert=ganz       „Muskelkater in Beinen von Spiel“
+     BW-09   24.07.2026  absolviert=ganz       „Oberschenkelmuskelkater vom joggen“
+     BW-11   25.07.2026  absolviert=ganz       „Knie“
+     HL-01   24.07.2026  absolviert=gar nicht  „Hinter Oberschenkel“
+     HL-03   21.07.2026  absolviert=ganz       „In den Knien“
+     HL-08   07.08.2026  absolviert=ganz       „Meine Knie aber das war auch schon ein bisschen vor dem Training“
+  Nicht absolvierte Einheiten (H004 = gar nicht) mit Grund:
+     BW-05   26.07.2026  „Hatte Kin Probleme“
+     BW-06   02.08.2026  „Schmerzen“
+     BW-09   30.08.2026  „Hatte es vergessen und konnte dann heute ja leider nur eine Einheit machen sorry“
+     HL-01   24.07.2026  „Habe die ersten beiden Übungen gemacht habe dann im Hinteren Oberschenkel mich leicht geze“
+     HL-02   23.07.2026  „Hab denn Plan von Sven erledigt“
+     HL-03   09.08.2026  „war auf dem Weg in den Urlaub“
+     HL-03   30.08.2026  „Wegen dem Trainingslager“
+     HL-03   30.08.2026  „Wegen dem Trainingslager“
+     HL-06   23.07.2026  „Hatte diese Woche Athletik Training und zwei Einheiten am Tag war zu antreffend um zu trai“
+     HL-07   22.08.2026  „Ich konnte nicht weil es in meiner Umgebung keinen Ort dafür gab im Urlaub“
+     HL-07   29.08.2026  „Keine Zeit wegen dem Trainingslager“
+     HL-07   29.08.2026  „Hatte es leider vergessen sorry hoffe das ist nicht zu schlimm“
+     HL-08   02.08.2026  „Es waren 40 Grad in Wien und hatten keine Klimaanlage deswegen konnte ich erst heute Train“
+  Teilweise absolvierte Einheiten (H004 = teilweise) mit Grund:
+     BW-04   01.08.2026  „Alles“
+     BW-06   01.08.2026  „Letzte paar minuten“
+     BW-06   26.07.2026  „Konnte die weitsprünge nicht machen, da ich zum wnde hin nur begrenzten platz hatte ich ab“
+     HL-01   20.07.2026  „Sprünge“
+     HL-07   25.07.2026  „Kraftübungen weil ich gestern das trainiert hatte“
+     HL-08   26.07.2026  „Die letzten 2 Übungen“
+  Für die KG bestand kein Erfassungsinstrument (Fragebogen B nie erhoben) — als Limitation berichten (§ 12 Nr. 12).
+  Bearbeitungsdauer TIME_SUM (s): Median 46 · Spanne 22–95 (Datenqualitätshinweis)

@@ -1,0 +1,72 @@
+Datensicherung, Schritt 1.4 Korrekturen mit Eintrag · Modus: schreiben
+Skriptfassung 2026-09-24, Fassung 2 · Lauf 2026-09-24 19:00:10
+Workbook: /home/claude/phase1/basis/Statistik/Studiendaten_U15_gesamt.xlsx  SHA-256 3f212fbbd1587ef3bd4352d53768655b83ab9456d054c2e81347da765fbceb45  geändert 2026-09-24 19:00:03
+Korrekturliste: /home/claude/phase1/basis/Claude/03_Skripte/Datensicherung_Korrektur_2026-09-24_Liste.csv  SHA-256 41953a5f151d681dbcbc514c68e822e6ec6c85fe453396a922089b0a76dfeb41
+
+Korrekturen in der Liste: 24
+1   02_Rohdaten G977   VS-06  Wert Sprint_10m post Versuch 1 Verfasser alt='1.54'  neu='1.84'  ist='1.84'  ok
+2   01_Personen P32    VS-11  Familiarisierung       Verfasser alt=''  neu='2'  ist='2'  ok
+3   01_Personen R32    VS-11  Bemerkung              Verfasser alt='Zeile nachträglich ergänzt – Geburtsdatum fehlt'  neu=''  ist=''  ok
+4   01_Personen Q20    VS-01  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+5   01_Personen Q21    VS-02  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+6   01_Personen Q22    VS-03  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+7   01_Personen Q23    VS-04  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+8   01_Personen Q24    VS-05  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+9   01_Personen Q25    VS-06  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+10  01_Personen Q26    VS-07  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='Post-Testung nicht angetreten – bei der Testeinheit nicht anwesend; kein Post-Wert, nicht auswertbar'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+11  01_Personen Q27    VS-08  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+12  01_Personen Q28    VS-10  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+13  01_Personen Q29    VS-16  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='Post-Testung nicht angetreten – bei der Testeinheit nicht anwesend; kein Post-Wert, nicht auswertbar'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+14  01_Personen Q30    VS-17  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+15  01_Personen Q31    VS-18  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+16  01_Personen Q32    VS-11  Status                 Skript    alt='Post-Testung ausstehend (Termin 15.09.2026)'  neu='ausgewertet'  ist='Post-Testung ausstehend (Termin 15.09.2026)'  ok
+17  01_Personen I31    VS-18  Größe_prä_cm           Skript    alt='?'  neu=''  ist='?'  ok
+18  01_Personen J31    VS-18  Gewicht_prä_kg         Skript    alt='?'  neu=''  ist='?'  ok
+19  01_Personen R31    VS-18  Bemerkung              Skript    alt=''  neu='Körperhöhe und Körpermasse prä nicht erfasst, %PAH nicht berechenbar (Verfasser 24.09.2026)'  ist=''  ok
+20  02_Rohdaten J765   HL-01  Bemerkung Sprint_30m post Versuch 2 Skript    alt='Sytem nicht aufgenommen'  neu='System nicht aufgenommen'  ist='Sytem nicht aufgenommen'  ok
+21  02_Rohdaten J783   HL-02  Bemerkung Sprint_30m post Versuch 2 Skript    alt='Sytem nicht aufgenommen'  neu='System nicht aufgenommen'  ist='Sytem nicht aufgenommen'  ok
+22  02_Rohdaten J785   HL-02  Bemerkung Standweitsprung post Versuch 1 Skript    alt='Fehversuch'  neu='Fehlversuch'  ist='Fehversuch'  ok
+23  02_Rohdaten J918   VS-02  Bemerkung COD_505 post R Versuch 2 Skript    alt=''  neu='Fehlversuch'  ist=''  ok
+24  02_Rohdaten J989   VS-06  Bemerkung COD_505 post R Versuch 1 Skript    alt=''  neu='Fehlversuch'  ist=''  ok
+
+Alle alten Werte passen zur Liste.
+Sicherung: /home/claude/phase1/basis/Claude/_Archiv/Studiendaten_U15_gesamt_vor_Skriptkorrektur_2026-09-24.xlsx  SHA-256 3f212fbbd1587ef3bd4352d53768655b83ab9456d054c2e81347da765fbceb45
+Blattzuordnung: 00_Hinweise -> xl/worksheets/sheet1.xml, 01_Personen -> xl/worksheets/sheet2.xml, 02_Rohdaten -> xl/worksheets/sheet3.xml, 03_Analyse -> xl/worksheets/sheet4.xml, 04_Kennwerte -> xl/worksheets/sheet5.xml, 06_Überlappung -> xl/worksheets/sheet6.xml, 05_KhamisRoche -> xl/worksheets/sheet7.xml
+Geschrieben: /home/claude/phase1/basis/Statistik/Studiendaten_U15_gesamt.xlsx  SHA-256 d7c4ae29533429c0c8ed4acfbb9fbca3ef7e0ed092e3063532df2835c3e98642  Blatt 00_Aenderungen mit 24 Zeilen, davon 21 vom Skript geschrieben
+
+Zellvergleich neu gegen Sicherung (Formeln als Text, Werte als Werte):
+   00_Hinweise: Formeln vorher 0, nachher 0
+   01_Personen!Q20: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q21: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q22: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q23: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q24: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q25: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q26: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'Post-Testung nicht angetreten – bei der Testeinheit nicht anwesend; kein Post-Wert, nicht auswertbar' (protokolliert)
+   01_Personen!Q27: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q28: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!Q29: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'Post-Testung nicht angetreten – bei der Testeinheit nicht anwesend; kein Post-Wert, nicht auswertbar' (protokolliert)
+   01_Personen!Q30: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!I31: '?' -> None (protokolliert)
+   01_Personen!J31: '?' -> None (protokolliert)
+   01_Personen!Q31: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen!R31: None -> 'Körperhöhe und Körpermasse prä nicht erfasst, %PAH nicht berechenbar (Verfasser 24.09.2026)' (protokolliert)
+   01_Personen!Q32: 'Post-Testung ausstehend (Termin 15.09.2026)' -> 'ausgewertet' (protokolliert)
+   01_Personen: Formeln vorher 310, nachher 310
+   02_Rohdaten!J765: 'Sytem nicht aufgenommen' -> 'System nicht aufgenommen' (protokolliert)
+   02_Rohdaten!J783: 'Sytem nicht aufgenommen' -> 'System nicht aufgenommen' (protokolliert)
+   02_Rohdaten!J785: 'Fehversuch' -> 'Fehlversuch' (protokolliert)
+   02_Rohdaten!J918: None -> 'Fehlversuch' (protokolliert)
+   02_Rohdaten!J989: None -> 'Fehlversuch' (protokolliert)
+   02_Rohdaten: Formeln vorher 1116, nachher 1116
+   03_Analyse: Formeln vorher 1271, nachher 1271
+   04_Kennwerte: Formeln vorher 66, nachher 66
+   06_Überlappung: Formeln vorher 24, nachher 24
+   05_KhamisRoche: Formeln vorher 1, nachher 1
+
+Protokollierte Zellen geändert: 21 von 21
+Nicht protokollierte Abweichungen: 0
+Geänderte Formelzellen: 0
+Zellvergleich bestanden: ja
+
+Hinweis: Zwischengespeicherte Formelwerte (z. B. Spalte gilt in 02_Rohdaten) werden beim nächsten Öffnen in Excel neu berechnet (fullCalcOnLoad gesetzt). Der Datenstand verwendet keine Formelspalten.

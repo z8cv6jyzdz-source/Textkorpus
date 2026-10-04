@@ -1,0 +1,138 @@
+Endabgleich_Manuskript_2026-09-25.py, Laufprotokoll
+Datum: 2026-09-25 19:14:46
+Master: Master_2026-09-25_mit47.docx SHA-256 58c0e5fedc74bee5a73e728be8d5c4ee0323b6ea0a078a694184d45cf024ac6c Größe 55198 Byte
+Kennzahlenblatt neu: Kennzahlen_2026-09-25.md SHA-256 573b57700f6cec1e67a848c7f7091d7526077e9b2dac526538860e1c1d803fdf
+Werte: Kennzahlen_2026-09-25_Werte.csv SHA-256 210803ce0a62bd00bf5beb096e9b40c42ce3bf90ca10f84407baa17cd5fa3504
+Kennzahlenblatt alt: Kennzahlen_2026-09-22.md SHA-256 3a6cc286e1a5ccc687474b39f781e6f007812f081bc30abaf5f1ffedbf86b258
+Programmkennzahlen: Programmkennzahlen_2026-09-23.txt SHA-256 7b60818be9b6c2c011d786acb5665dda1285f4739da81612a9b9caee777bdf36
+Einheiten im Master: 165 (Absätze und Tabellen in Dokumentreihenfolge)
+Zeilen im Kennzahlenblatt (Werte): 216
+Zeilen im alten Kennzahlenblatt (22.09.): 59
+Programmkennungen: 12
+Zahlen im Master gesamt: 888
+  Klasse Begleitbedingung (Anhang D): 40
+  Klasse Datum, Konstante: 6
+  Klasse Fachbezeichnung: 6
+  Klasse Kalenderjahr: 2
+  Klasse Kalenderwoche (Antrag): 3
+  Klasse Kennzahl neu: 106
+  Klasse Kennzahl neu (mehrdeutig): 75
+  Klasse Konstante der Methodik: 3
+  Klasse Literaturangabe (Kapitel 1 bis 3): 216
+  Klasse Programmzahl: 20
+  Klasse Prozessdatum (Register): 3
+  Klasse Seitenangabe: 18
+  Klasse Termin (K-03): 3
+  Klasse Testname, Messstrecke: 101
+  Klasse Verweis: 80
+  Klasse Zitatdatum: 1
+  Klasse Zitatjahr: 176
+  Klasse nur im alten Blatt (22.09.): 3
+  Klasse ungedeckt: 26
+
+Satzprüfungen
+4.4 Versuche prä: vorgesehen 558 (3 Versuche × 31 Spieler × 6 Messgrößen) gültig 384 ungültig 174 Kategorien {'TECH': 94, 'ZEIT': 64, 'FEHL': 16, 'FALSCH': 0, 'NANG': 0, 'AUSL': 0}
+4.4 TECH je Spieler prä, Sprints: IG ['0,50', '0,17', '0,11'] KG ['2,00', '1,38', '0,62'] Faktor KG/IG ['4.0', '8.3', '5.5']
+Tab. 1 Master Spalten: ['Zielgröße', 'n', 'TE [95-%-KI]', 'CV (%)', 'SESOI', 'TE/SESOI', 'TE post [95-%-KI]']
+Tab. 1 neu Spalten: ['Zielgröße', 'n', 'TE [95-%-KI]', 'CV (%)', 'SESOI', 'TE/SESOI', 'TE post [95-%-KI]']
+  SP1a | 4.2 Analysepopulation N | Text 26 | K-01.14 IG 16 · KG 10 = 26 | stimmt
+  SP1b | 4.2 Zuteilung IG/KG, Vereine, Jahrgänge | Text 16 7 9 2011 10 2012 | K-01.14, K-01.16, K-02.5: 16 7 9 2011 10 2012 | stimmt
+  SP2 | 4.2 IG Alter (Jahre) | Text 15,10 ± 0,26 | K-02.1 15,10 ± 0,26 (n = 16) | stimmt
+  SP2 | 4.2 IG Körperhöhe (cm) | Text 173,9 ± 10,7 | K-02.2 173,9 ± 10,7 (n = 16) | stimmt
+  SP2 | 4.2 IG Körpermasse (kg) | Text 60,8 ± 10,1 | K-02.3 60,8 ± 10,1 (n = 16) | stimmt
+  SP2 | 4.2 KG Alter (Jahre) | Text 14,08 ± 0,31 | K-02.1 14,08 ± 0,31 (n = 10) | stimmt
+  SP2 | 4.2 KG Körperhöhe (cm) | Text 168,7 ± 6,6 | K-02.2 168,7 ± 6,6 (n = 10) | stimmt
+  SP2 | 4.2 KG Körpermasse (kg) | Text 53,3 ± 7,5 | K-02.3 53,3 ± 7,5 (n = 10) | stimmt
+  SP2 | 4.2 IG %PAH | Text 94,74 ± 2,77 | K-02.4 94,74 ± 2,77 (n = 16) | stimmt
+  SP2 | 4.2 KG %PAH | Text 90,50 ± 2,73 | K-02.4 90,50 ± 2,73 (n = 10) | stimmt
+  SP3 | 4.4 Prä-Versuche vorgesehen, ungültig, drei Mechanismen | Text 558 174 94 64 16 | K-01.1, K-11.3, K-11.4 Summe PRE: 558 174 94 64 16 (TECH 94 + FALSCH 0, ZEIT 64, FEHL 16, NANG 0, AUSL 0) | stimmt
+  SP4 | 4.4 Lichtschrankenausfälle je Spieler (KG gegenüber IG, Sprints prä) | Text 0,62–2,00 gegenüber 0,11–0,50 | K-11.4 PRE TECH / K-01.2, K-01.3: 0,62–2,00 gegenüber 0,11–0,50 (Faktor KG/IG 4.0, 8.3, 5.5) | stimmt
+  SP5 | 4.4 mittlere Zahl gültiger Prä-Versuche je Spieler, Spanne über sechs Messgrößen | Text IG 1,83 bis 2,61, KG 1,00 bis 2,38 | K-11.3 k̄ prä: IG 1,83 bis 2,61, KG 1,00 bis 2,38 | stimmt
+  SP6 | Tab. 1 Master gegen Tab_1_Messguete.csv (R-Objekt) in den gemeinsamen Spalten Zielgröße, n, TE [95-%-KI], CV (%), SESOI, TE/SESOI, TE post [95-%-KI] | 0 Abweichungen | Spalten nur neu:  · nur Master:  | stimmt
+  SP9 | Termine Verein A (Hohenlind) prä (02.07.2026) | 1 Fundstellen in Kapitel 4 | 4.3 | stimmt
+  SP9 | Termine Verein A (Hohenlind) post (10.09.2026) | 1 Fundstellen in Kapitel 4 | 4.3 | stimmt
+  SP9 | Termine Verein B (Blau-Weiß Köln) prä (14.07.2026) | 0 Fundstellen in Kapitel 4 | im Master nicht genannt, Zeitstrahl Abb. H7 offen (Platzhalter in 4.3), kein Widerspruch | stimmt
+  SP9 | Termine Verein B (Blau-Weiß Köln) post (01.09.2026) | 0 Fundstellen in Kapitel 4 | im Master nicht genannt, Zeitstrahl Abb. H7 offen (Platzhalter in 4.3), kein Widerspruch | stimmt
+  SP9 | Termine Verein C (Vorwärts Spoho) prä (13.07.2026) | 0 Fundstellen in Kapitel 4 | im Master nicht genannt, Zeitstrahl Abb. H7 offen (Platzhalter in 4.3), kein Widerspruch | stimmt
+  SP9 | Termine Verein C (Vorwärts Spoho) post (14.09.2026) | 1 Fundstellen in Kapitel 4 | 4.3 | stimmt
+  SP9c | 4.7 Absatz 126: Prozessdatum „12.09.2026“ (Kontext …ide Festlegungen (11. und 12.09.2026 ) erfolgten …) | Text 12.09.2026 | Register: Adhärenzkriterium: Hauptanalyse mit allen Zugeteilten, Verfasser vor Kenntnis der KG-Werte | stimmt
+  SP9c | 4.7 Absatz 126: Prozessdatum „11.09.2026“ (Kontext …nach einer Festlegung vom 11.09.2026 alle Teilmen…) | Text 11.09.2026 | Register: Mindestdosis sechs Einheiten und Fallzahlregel acht je Gruppe, Verfasser nach Sichtung der | stimmt
+  SP9c | 4.7 Absatz 129: Prozessdatum „15.09.2026“ (Kontext …iner ersten Auswertung am 15.09.2026 mit Zweifeln…) | Text 15.09.2026 | Register: erste Auswertung (Python, Analyseprotokoll_2026-09-15), Anlass für R5 (Auswertungsplan § 5 | stimmt
+  SP10 | 4.1 geplante Fallzahl (Antrag, Planungsstand) | Text 45 | Antrag ≈ 45 (F14 § 11.1), keine Ergebniszahl | stimmt
+  SP10 | 4.6 Antragskriterium | Text 75 % | Antrag 75 % = 9 von 12 (F14 § 11.7), keine Ergebniszahl | stimmt
+  SP11 | 4.5.1 Kontakte je Einheit W1 bis W6 | Text 52 66 80 96 106 120 | P-01 52 66 80 96 106 120 | stimmt
+  SP11 | 4.5.1 Videodauern (Aufwärmvideo, Wochenvideo von bis, Einheit von bis) | Text 8:53 24:17 31:14 33:10 40:07 | P-10 8:53 24:17 31:14 33:10 40:07 | stimmt
+  SP11 | 4.5.1 Abweichung vom Antrag: Startvolumen, Antragsspanne, Wochen ohne Kraftblock | Text 52 60 80 3 4 | P-12 52 60 80 3 4 | stimmt
+  SP11 | 4.5.1 Pausen (Sätze, Stufe-1-Sätze, Übungen) | Text 90 45 120 | P-09 90 45 120 (⚠ P-09: die Stufe-1-Pause steht nur im Produktionsleitfaden, am Video prüfen) | stimmt
+  SP11 | 4.5.1 Programmzeitraum | Text 20.07. bis 30.08.2026 | Intervention 20.07.2026 bis 30.08.2026 (Konstante der Spezifikation) | stimmt
+Satzprüfungen: 30 davon stimmt 30 Abweichungen 0
+
+Vergleich altes Blatt (22.09.) gegen neues Blatt (25.09.) in den vom Master genutzten Zeilen
+  K-02b.1 alt gegen K-02.1 neu: gleich | Alter (Jahre) | 15,10 ± 0,26 (n = 16) | 14,08 ± 0,31 (n = 10) | 15,10 ± 0,26 (n = 16) | 14,08 ± 0,31 (n = 10)
+  K-02b.2 alt gegen K-02.2 neu: gleich | Körperhöhe (cm) | 173,9 ± 10,7 (n = 16) | 168,7 ± 6,6 (n = 10) | 173,9 ± 10,7 (n = 16) | 168,7 ± 6,6 (n = 10)
+  K-02b.3 alt gegen K-02.3 neu: gleich | Körpermasse (kg) | 60,8 ± 10,1 (n = 16) | 53,3 ± 7,5 (n = 10) | 60,8 ± 10,1 (n = 16) | 53,3 ± 7,5 (n = 10)
+  K-02b.4 alt gegen K-02.4 neu: verschieden | %PAH | 94,65 ± 2,90 (n = 16) | 90,41 ± 2,85 (n = 10) | 94,74 ± 2,77 (n = 16) | 90,50 ± 2,73 (n = 10)
+  K-05.1 alt: Sprint 5 m (s) | 26 | 1,077 ± 0,079 | 0,016 | 0,046 | 4,2 | 2,92 | 0,57 | 0,128 | K-05.1 neu: 21 | 0,046 [0,037 bis 0,063] | 27 | 4,2 | 0,079 (n = 26) | 0,016 | 2,92 | 1 | 0,040 [0,032 bis 0,051] (n = 25) | verschieden: nein
+  K-05.2 alt: Sprint 10 m (s) | 31 | 1,898 ± 0,107 | 0,021 | 0,037 | 1,9 | 1,72 | 0,31 | 0,102 | K-05.2 neu: 26 | 0,037 [0,030 bis 0,048] | 36 | 1,9 | 0,107 (n = 31) | 0,021 | 1,72 | 1 | 0,050 [0,038 bis 0,073] (n = 13) | verschieden: nein
+  K-05.3 alt: Sprint 30 m (s) | 31 | 4,696 ± 0,313 | 0,063 | 0,077 | 1,6 | 1,24 | 0,22 | 0,215 | K-05.3 neu: 30 | 0,077 [0,065 bis 0,097] | 47 | 1,6 | 0,313 (n = 31) | 0,063 | 1,24 | 1 | 0,090 [0,074 bis 0,116] (n = 26) | verschieden: nein
+  K-05.4 alt: 505 links (s) | 29 | 2,498 ± 0,114 | 0,023 | 0,089 | 3,5 | 3,89 | 0,72 | 0,246 | K-05.4 neu: 22 | 0,089 [0,070 bis 0,122] | 26 | 3,5 | 0,114 (n = 29) | 0,023 | 3,89 | 1 | 0,053 [0,041 bis 0,076] (n = 21) | verschieden: nein
+  K-05.5 alt: 505 rechts (s) | 29 | 2,485 ± 0,117 | 0,023 | 0,083 | 3,3 | 3,55 | 0,66 | 0,230 | K-05.5 neu: 26 | 0,083 [0,066 bis 0,111] | 30 | 3,3 | 0,117 (n = 29) | 0,023 | 3,55 | 1 | 0,072 [0,053 bis 0,113] (n = 14) | verschieden: nein
+  K-05.7 alt: 505 Seitenmittel (s) | 27 | 2,490 ± 0,100 | 0,020 | 0,058 | 2,3 | 2,88 | 0,55 | 0,160 | K-05.6 neu: 19 | 0,055 [0,042 bis 0,078] | 21 | 2,2 | 0,100 (n = 27) | 0,020 | 2,73 | 1 | 0,041 [0,029 bis 0,067] (n = 12) | verschieden: TE, CV, TE/SESOI
+  K-05.6 alt: Standweitsprung (cm) | 31 | 232,0 ± 16,6 | 3,3 | 6,1 | 2,7 | 1,85 | 0,33 | 17,0 | K-05.7 neu: 29 | 6,1 [5,1 bis 7,8] | 41 | 2,7 | 16,6 (n = 31) | 3,3 | 1,85 | 1 | 6,7 [5,3 bis 9,2] (n = 23) | verschieden: nein
+  alt K-04.1: vorgesehene Prä-Versuche | 558
+  alt K-04.2: gültige Prä-Versuche | 384
+  alt K-04.3: nicht gültige Prä-Versuche | 174
+  alt K-04.4: davon Lichtschrankenausfall | 94
+  alt K-04.5: davon dritter Versuch aus Zeitmangel entfallen | 64
+  alt K-04.6: davon nicht wiederholbarer Fehlversuch | 16
+
+Formale Prüfungen (F14 § 10) je Abschnitt in Kapitel 4
+  4.3 Absatz 88: Semikola 3, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  4.3 Absatz 90: Semikola 0, Abschnittsverweise 1, Sätze über 40 Wörter 0, Marker 0
+  4.3 Absatz 91: Semikola 1, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  4.3 Absatz 92: Semikola 1, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  4.3 Absatz 93: Semikola 2, Abschnittsverweise 1, Sätze über 40 Wörter 0, Marker 0
+  4.3 Absatz 94: Semikola 1, Abschnittsverweise 3, Sätze über 40 Wörter 0, Marker 0
+  4.3 Absatz 95: Semikola 2, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  4.4 Absatz 97: Semikola 6, Abschnittsverweise 1, Sätze über 40 Wörter 0, Marker 1
+  4.4 Absatz 98: Semikola 4, Abschnittsverweise 3, Sätze über 40 Wörter 0, Marker 0
+  4.4 Absatz 99: Semikola 1, Abschnittsverweise 2, Sätze über 40 Wörter 1, Marker 0
+  4.4.1 Absatz 104: Semikola 2, Abschnittsverweise 1, Sätze über 40 Wörter 0, Marker 0
+  4.4.2 Absatz 106: Semikola 4, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  4.5.1 Absatz 113: Semikola 1, Abschnittsverweise 0, Sätze über 40 Wörter 0, Marker 0
+  4.5.2 Absatz 116: Semikola 2, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  4.5.2 Absatz 117: Semikola 1, Abschnittsverweise 0, Sätze über 40 Wörter 0, Marker 0
+  4.5.2 Absatz 118: Semikola 4, Abschnittsverweise 1, Sätze über 40 Wörter 1, Marker 0
+  4.5.2 Absatz 119: Semikola 3, Abschnittsverweise 1, Sätze über 40 Wörter 1, Marker 0
+  4.5.2 Absatz 120: Semikola 0, Abschnittsverweise 1, Sätze über 40 Wörter 0, Marker 0
+  4.6 Absatz 122: Semikola 1, Abschnittsverweise 5, Sätze über 40 Wörter 0, Marker 0
+  4.6 Absatz 123: Semikola 0, Abschnittsverweise 2, Sätze über 40 Wörter 0, Marker 0
+  Wortprüfung randomisiert: 2 Fundstellen 2.2 (et al., 2017). Eine aktuelle randomisierte Studie auf lokalem Wettkampf)· 2.2 (mme die Verletzungszahl (acht randomisierte Studien, 7521 Teilnehmer)
+  Wortprüfung SPSS: 0 Fundstellen 
+  Wortprüfung leistungsunabhängig: 0 Fundstellen 
+  Wortprüfung MDC: 0 Fundstellen 
+  Wortprüfung TE/√n: 0 Fundstellen 
+  Wortprüfung ITT: 0 Fundstellen 
+  Wortprüfung Signifikanz: 2 Fundstellen 2.2 (hied verfehlte allerdings die Signifikanz (p = 0,09)· 4.7 (usgangswerte wurden nicht auf Signifikanz getestet, berichtet wird die)
+
+Zahlen in Kapitel 4 ohne Deckung im neuen Blatt (ungedeckt oder nur alt): 17
+  4.4 Absatz 97: „…ert. Die Auflösung betrug 1/25 000 s (Microgate, 2016)…“ [ungedeckt ]
+  4.4 Absatz 97: „…protokolliert wurde auf 0,01 s. Eine Zwischenzeit…“ [ungedeckt ]
+  4.4 Absatz 98: „…die Zeitplanung es zuließ. Von 558 vorgesehenen Prä-Ver…“ [nur im alten Blatt (22.09.) K-04.1]
+  4.4 Absatz 98: „…rgesehenen Prä-Versuchen waren 174 nicht gültig: 94 dur…“ [nur im alten Blatt (22.09.) K-04.3]
+  4.4 Absatz 98: „…suchen waren 174 nicht gültig: 94 durch Lichtschranken…“ [nur im alten Blatt (22.09.) K-04.4]
+  4.4 Absatz 98: „…nterventionsgruppe (je Spieler 0,62 –2,00 gegenüber 0,11…“ [ungedeckt ]
+  4.4 Absatz 98: „…eler 0,62–2,00 gegenüber 0,11– 0,50 )…“ [ungedeckt ]
+  4.4 Absatz 101: „…che innerhalb der Sitzung) mit 95 -%-Konfidenzinterval…“ [ungedeckt ]
+  4.4 Absatz 101: „…isch bedeutsamer Unterschied ( 0,2 × Standardabweichung…“ [ungedeckt ]
+  4.6 Absatz 122: „…nalysekriterium von mindestens 75 % (neun von zwölf Ei…“ [ungedeckt ]
+  4.7 Absatz 126: „…nur die Spieler mit mindestens 75 % der Einheiten (neu…“ [ungedeckt ]
+  4.7 Absatz 127: „…ng (f = 0,25, erforderlich n = 34 ) ist für die berich…“ [ungedeckt ]
+  4.7 Absatz 127: „…4), das n des Analysesets, α = 0,05 und Power 0,80, ohne…“ [ungedeckt ]
+  4.7 Absatz 128: „…nz im Post-Wert, berichtet mit 95 -%-Konfidenzinterval…“ [ungedeckt ]
+  4.7 Absatz 128: „…onfirmatorischen Zielgröße p < 0,05 zugunsten der Interv…“ [ungedeckt ]
+  4.7 Absatz 128: „…Interventionsgruppe liegt (α = 0,05 zweiseitig, ohne Adj…“ [ungedeckt ]
+  4.7 Absatz 131: „…rfolgte ohne Zusatzpakete in R 4.3.3 (R Core Team, 2024).…“ [ungedeckt ]
+
+Vorschläge: 0 · bestätigte Stellen: 2
+Dateien: Abgleichprotokoll_Manuskript_2026-09-25.md, Endabgleich_Manuskript_2026-09-25_Zahlen.csv

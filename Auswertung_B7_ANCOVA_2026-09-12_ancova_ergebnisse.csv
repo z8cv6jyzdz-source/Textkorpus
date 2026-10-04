@@ -1,0 +1,5 @@
+# Quelle: Auswertung_B7_ANCOVA_2026-09-12.py --csv (Python-Gegenprobe; SPSS-Werte vergleichen, V5); ITT, Bestwert, Post ~ Gruppe + Prä + %PAH; 505M = Mittelwert beider Seiten (Pipeline: Zielgröße 505M ergänzen)
+Zielgroesse;AdjM_IG;KIu_IG;KIo_IG;AdjM_KG;KIu_KG;KIo_KG;AdjDiff;AdjDiff_KIu;AdjDiff_KIo;ES;ES_KIu;ES_KIo;P_Text
+30m;4.6741;4.5950;4.7532;4.7205;4.6125;4.8285;-0.0464;-0.1995;0.1067;-0.1918;-0.8243;0.4407;0,536
+505M;2.4915;2.4493;2.5338;2.5060;2.4564;2.5556;-0.0144;-0.0860;0.0572;-0.1361;-0.8114;0.5391;0,678
+SBJ;229.5031;224.8442;234.1620;229.2950;223.0949;235.4951;0.2081;-8.3079;8.7240;0.0123;-0.4920;0.5166;0,960

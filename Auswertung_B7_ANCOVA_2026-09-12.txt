@@ -1,0 +1,292 @@
+==============================================================================================================
+B7 KONFIRMATORISCHE ANCOVA — Post ~ Gruppe + Prä + %PAH · Spezifikation, Sperre, Verifikation
+Skript: Auswertung_B7_ANCOVA_2026-09-12.py · Lauf: 2026-09-15 20:24 · Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx
+==============================================================================================================
+
+KG-Post-Werte je Zielgröße: {'5m': 11, '10m': 11, '30m': 11, '505L': 11, '505R': 11, '505M': 11, 'SBJ': 11}
+STATUS: FREIGEGEBEN — KG-Post-Werte vorhanden; Abschnitt A–E laufen.
+Adhärenz (Fragebogen A) geladen: ja
+
+==============================================================================================================
+ZIELGRÖSSE 30m (s) — Zeiten: negatives b1 = IG schneller; Standweitsprung: positives b1 = IG weiter
+A  HAUPTANALYSE — ITT (vollständige Fälle), Bestwert
+
+  ── ITT · Bestwert: N = 26 (IG 16 / KG 10) · df_e = 22 · R² = 0.777
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.674 [4.595; 4.753] · KG 4.720 [4.612; 4.828]
+     adjustierte Differenz IG − KG: b1 = -0.046 [95 % -0.200; 0.107] · SE 0.074 · t(22) = -0.629 · p = 0.5360
+     partielles η² = 0.018 [90 % 0.000; 0.175] [95 % 0.000; 0.217] · d_adj (Hedges, J = 0.966) = b1·J/SD_prä = -0.19 [-0.82; +0.44]
+     unadjustierte Differenz der Post-Mittel: -0.327 [95 % -0.497; -0.156] (Item 18) · Post-Mittel IG 4.566 KG 4.893
+     Kovariaten: b_Prä = 0.6778 (SE 0.1176, p = 0.0000) · b_%PAH = -0.0048 (SE 0.0095, p = 0.6176)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.915, p = 0.035 · Brown-Forsythe F = 2.30, p = 0.142 · Gruppe×Prä F(1,21) = 0.75, p = 0.395 · Gruppe×%PAH F = 1.92, p = 0.180 · beide F(2,20) = 1.87, p = 0.180 · Linearität Prä² F = 0.82, p = 0.375
+     Kovariatenbereiche: Prä IG 4.090–4.890 / KG 4.450–5.440 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+B  PER-PROTOKOLL (≥ 6 Einheiten) — beobachtender Vergleich, nicht randomisiert
+
+  ── PP ≥ 6 · Bestwert: N = 19 (IG 9 / KG 10) · df_e = 15 · R² = 0.757
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.761 [4.622; 4.900] · KG 4.732 [4.604; 4.861]
+     adjustierte Differenz IG − KG: b1 = 0.028 [95 % -0.199; 0.256] · SE 0.107 · t(15) = 0.265 · p = 0.7943
+     partielles η² = 0.005 [90 % 0.000; 0.146] [95 % 0.000; 0.203] · d_adj (Hedges, J = 0.949) = b1·J/SD_prä = +0.11 [-0.75; +0.96]
+     unadjustierte Differenz der Post-Mittel: -0.311 [95 % -0.523; -0.099] (Item 18) · Post-Mittel IG 4.582 KG 4.893
+     Kovariaten: b_Prä = 0.6045 (SE 0.1448, p = 0.0008) · b_%PAH = -0.0177 (SE 0.0148, p = 0.2500)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.953, p = 0.441 · Brown-Forsythe F = 1.46, p = 0.244 · Gruppe×Prä F(1,14) = 0.28, p = 0.607 · Gruppe×%PAH F = 0.32, p = 0.579 · beide F(2,13) = 0.47, p = 0.637 · Linearität Prä² F = 0.40, p = 0.539
+     Kovariatenbereiche: Prä IG 4.090–4.820 / KG 4.450–5.440 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+C  SENSITIVITÄT: Mittelwert-Aggregation (§ 11.8)
+
+  ── ITT · Mittelwert: N = 26 (IG 16 / KG 10) · df_e = 22 · R² = 0.775
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.721 [4.640; 4.802] · KG 4.786 [4.675; 4.897]
+     adjustierte Differenz IG − KG: b1 = -0.065 [95 % -0.223; 0.093] · SE 0.076 · t(22) = -0.854 · p = 0.4024
+     partielles η² = 0.032 [90 % 0.000; 0.206] [95 % 0.000; 0.249] · d_adj (Hedges, J = 0.966) = b1·J/SD_prä = -0.28 [-0.96; +0.40]
+     unadjustierte Differenz der Post-Mittel: -0.346 [95 % -0.508; -0.184] (Item 18) · Post-Mittel IG 4.613 KG 4.959
+     Kovariaten: b_Prä = 0.6551 (SE 0.1220, p = 0.0000) · b_%PAH = -0.0048 (SE 0.0095, p = 0.6151)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.957, p = 0.331 · Brown-Forsythe F = 1.17, p = 0.289 · Gruppe×Prä F(1,21) = 0.38, p = 0.547 · Gruppe×%PAH F = 7.57, p = 0.012 · beide F(2,20) = 3.62, p = 0.046 · Linearität Prä² F = 0.38, p = 0.545
+     Kovariatenbereiche: Prä IG 4.163–4.895 / KG 4.477–5.457 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+D  SENSITIVITÄT: PP-Schwellen ≥ 5 / ≥ 7 (B0.1 c)
+
+  ── PP ≥ 5 · Bestwert: N = 20 (IG 10 / KG 10) · df_e = 16 · R² = 0.753
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.734 [4.606; 4.861] · KG 4.734 [4.607; 4.862]
+     adjustierte Differenz IG − KG: b1 = -0.000 [95 % -0.217; 0.216] · SE 0.102 · t(16) = -0.004 · p = 0.9968
+     partielles η² = 0.000 [90 % 0.000; 0.000] [95 % 0.000; 0.000] · d_adj (Hedges, J = 0.952) = b1·J/SD_prä = -0.00 [-0.84; +0.83]
+     unadjustierte Differenz der Post-Mittel: -0.318 [95 % -0.518; -0.118] (Item 18) · Post-Mittel IG 4.575 KG 4.893
+     Kovariaten: b_Prä = 0.6072 (SE 0.1442, p = 0.0007) · b_%PAH = -0.0149 (SE 0.0145, p = 0.3189)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.956, p = 0.471 · Brown-Forsythe F = 1.23, p = 0.281 · Gruppe×Prä F(1,15) = 0.23, p = 0.636 · Gruppe×%PAH F = 0.70, p = 0.415 · beide F(2,14) = 0.71, p = 0.507 · Linearität Prä² F = 0.33, p = 0.576
+     Kovariatenbereiche: Prä IG 4.090–4.820 / KG 4.450–5.440 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+
+  ── PP ≥ 7 · Bestwert: N = 18 (IG 8 / KG 10) · df_e = 14 · R² = 0.756
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.766 [4.610; 4.922] · KG 4.736 [4.604; 4.869]
+     adjustierte Differenz IG − KG: b1 = 0.029 [95 % -0.217; 0.276] · SE 0.115 · t(14) = 0.254 · p = 0.8029
+     partielles η² = 0.005 [90 % 0.000; 0.149] [95 % 0.000; 0.209] · d_adj (Hedges, J = 0.945) = b1·J/SD_prä = +0.11 [-0.79; +1.01]
+     unadjustierte Differenz der Post-Mittel: -0.323 [95 % -0.548; -0.098] (Item 18) · Post-Mittel IG 4.570 KG 4.893
+     Kovariaten: b_Prä = 0.6050 (SE 0.1507, p = 0.0013) · b_%PAH = -0.0178 (SE 0.0154, p = 0.2676)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.955, p = 0.504 · Brown-Forsythe F = 1.03, p = 0.324 · Gruppe×Prä F(1,13) = 0.27, p = 0.613 · Gruppe×%PAH F = 0.30, p = 0.591 · beide F(2,12) = 0.43, p = 0.659 · Linearität Prä² F = 0.38, p = 0.546
+     Kovariatenbereiche: Prä IG 4.090–4.820 / KG 4.450–5.440 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+E  SENSITIVITÄT: Änderungswert-Modell und Modell ohne %PAH
+
+  ── ITT · Bestwert — Änderungswert Δ ~ Gruppe + %PAH: N = 26 (IG 16 / KG 10) · df_e = 23 · R² = 0.040
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 0.052 [-0.032; 0.136] · KG 0.004 [-0.107; 0.116]
+     adjustierte Differenz IG − KG: b1 = 0.048 [95 % -0.105; 0.201] · SE 0.074 · t(23) = 0.649 · p = 0.5228
+     partielles η² = 0.018 [90 % 0.000; 0.172] [95 % 0.000; 0.213] · d_adj (Hedges, J = 0.967) = b1·J/SD_prä = +0.20 [-0.43; +0.83]
+     unadjustierte Differenz der Post-Mittel: 0.057 [95 % -0.063; 0.177] (Item 18) · Post-Mittel IG 0.056 KG -0.001
+     Kovariaten: b_%PAH = 0.0020 (SE 0.0104, p = 0.8468)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.939, p = 0.126 · Brown-Forsythe F = 4.44, p = 0.046 · Gruppe×%PAH F(1,22) = 1.29, p = 0.269 · Linearität %PAH² F = 0.89, p = 0.356
+     Kovariatenbereiche: %PAH IG 86.651–98.187 / KG 85.916–95.016
+
+  ── ITT · Bestwert — ohne %PAH: N = 26 (IG 16 / KG 10) · df_e = 23 · R² = 0.774
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.668 [4.594; 4.743] · KG 4.729 [4.630; 4.829]
+     adjustierte Differenz IG − KG: b1 = -0.061 [95 % -0.199; 0.078] · SE 0.067 · t(23) = -0.910 · p = 0.3724
+     partielles η² = 0.035 [90 % 0.000; 0.207] [95 % 0.000; 0.249] · d_adj (Hedges, J = 0.967) = b1·J/SD_prä = -0.25 [-0.83; +0.32]
+     unadjustierte Differenz der Post-Mittel: -0.327 [95 % -0.497; -0.156] (Item 18) · Post-Mittel IG 4.566 KG 4.893
+     Kovariaten: b_Prä = 0.6934 (SE 0.1116, p = 0.0000)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.906, p = 0.021 · Brown-Forsythe F = 2.99, p = 0.097 · Gruppe×Prä F(1,22) = 0.82, p = 0.375 · Linearität Prä² F = 1.04, p = 0.318
+     Kovariatenbereiche: Prä IG 4.090–4.890 / KG 4.450–5.440
+F  SENSITIVITÄT: Familiarisierung (§ 11.5 Nr. 1) — Variante b: Kovariate 1/2 (in der IG mit Verein A konfundiert: alle A = 1); Variante a: Ausschluss der Spieler mit einer Familiarisierung
+     (Familiarisierung fehlt bei 1 Spieler(n) — ausgeschlossen)
+
+  ── ITT · Bestwert — + Familiarisierung (1/2) als Kovariate [F2 b]: N = 25 (IG 16 / KG 9) · df_e = 20 · R² = 0.862
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.660 [4.595; 4.725] · KG 4.755 [4.659; 4.850]
+     adjustierte Differenz IG − KG: b1 = -0.095 [95 % -0.227; 0.037] · SE 0.063 · t(20) = -1.502 · p = 0.1486
+     partielles η² = 0.101 [90 % 0.000; 0.314] [95 % 0.000; 0.357] · d_adj (Hedges, J = 0.962) = b1·J/SD_prä = -0.39 [-0.93; +0.15]
+     unadjustierte Differenz der Post-Mittel: -0.355 [95 % -0.529; -0.181] (Item 18) · Post-Mittel IG 4.566 KG 4.921
+     Kovariaten: b_Prä = 0.7548 (SE 0.1009, p = 0.0000) · b_%PAH = -0.0005 (SE 0.0087, p = 0.9532) · b_Fam = -0.0348 (SE 0.0608, p = 0.5727)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.913, p = 0.036 · Brown-Forsythe F = 2.08, p = 0.163 · Gruppe×Prä F(1,19) = 0.72, p = 0.406 · Gruppe×%PAH F = 0.44, p = 0.515 · beide F(2,18) = 0.72, p = 0.498 · Linearität Prä² F = 1.97, p = 0.177
+     Kovariatenbereiche: Prä IG 4.090–4.890 / KG 4.450–5.440 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+
+  ── ITT · Bestwert · nur Familiarisierung = 2 [F2 a]: IG 7 / KG 9 → n < 8 in einer Gruppe: § 11.9, nur deskriptiv (keine Inferenz).
+
+==============================================================================================================
+ZIELGRÖSSE 505M (s) — Zeiten: negatives b1 = IG schneller; Standweitsprung: positives b1 = IG weiter
+A  HAUPTANALYSE — ITT (vollständige Fälle), Bestwert
+
+  ── ITT · Bestwert: N = 23 (IG 13 / KG 10) · df_e = 19 · R² = 0.635
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 2.492 [2.449; 2.534] · KG 2.506 [2.456; 2.556]
+     adjustierte Differenz IG − KG: b1 = -0.014 [95 % -0.086; 0.057] · SE 0.034 · t(19) = -0.422 · p = 0.6777
+     partielles η² = 0.009 [90 % 0.000; 0.159] [95 % 0.000; 0.206] · d_adj (Hedges, J = 0.960) = b1·J/SD_prä = -0.14 [-0.81; +0.54]
+     unadjustierte Differenz der Post-Mittel: -0.060 [95 % -0.147; 0.026] (Item 18) · Post-Mittel IG 2.472 KG 2.532
+     Kovariaten: b_Prä = 0.7678 (SE 0.1549, p = 0.0001) · b_%PAH = 0.0018 (SE 0.0052, p = 0.7385)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.927, p = 0.096 · Brown-Forsythe F = 1.12, p = 0.301 · Gruppe×Prä F(1,18) = 0.72, p = 0.407 · Gruppe×%PAH F = 0.02, p = 0.889 · beide F(2,17) = 0.37, p = 0.698 · Linearität Prä² F = 0.13, p = 0.723
+     Kovariatenbereiche: Prä IG 2.195–2.575 / KG 2.320–2.695 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+B  PER-PROTOKOLL (≥ 6 Einheiten) — beobachtender Vergleich, nicht randomisiert
+
+  ── PP ≥ 6 · Bestwert: IG 7 / KG 10 → n < 8 in einer Gruppe: § 11.9, nur deskriptiv (keine Inferenz).
+C  SENSITIVITÄT: Mittelwert-Aggregation (§ 11.8)
+
+  ── ITT · Mittelwert: N = 23 (IG 13 / KG 10) · df_e = 19 · R² = 0.549
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 2.525 [2.477; 2.572] · KG 2.521 [2.465; 2.577]
+     adjustierte Differenz IG − KG: b1 = 0.004 [95 % -0.077; 0.085] · SE 0.039 · t(19) = 0.098 · p = 0.9228
+     partielles η² = 0.001 [90 % 0.000; 0.040] [95 % 0.000; 0.097] · d_adj (Hedges, J = 0.960) = b1·J/SD_prä = +0.04 [-0.77; +0.85]
+     unadjustierte Differenz der Post-Mittel: -0.051 [95 % -0.140; 0.037] (Item 18) · Post-Mittel IG 2.501 KG 2.552
+     Kovariaten: b_Prä = 0.7632 (SE 0.1790, p = 0.0004) · b_%PAH = 0.0008 (SE 0.0057, p = 0.8931)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.961, p = 0.482 · Brown-Forsythe F = 4.37, p = 0.049 · Gruppe×Prä F(1,18) = 0.00, p = 0.989 · Gruppe×%PAH F = 0.07, p = 0.789 · beide F(2,17) = 0.04, p = 0.958 · Linearität Prä² F = 1.81, p = 0.196
+     Kovariatenbereiche: Prä IG 2.282–2.607 / KG 2.415–2.742 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+D  SENSITIVITÄT: PP-Schwellen ≥ 5 / ≥ 7 (B0.1 c)
+
+  ── PP ≥ 5 · Bestwert: N = 18 (IG 8 / KG 10) · df_e = 14 · R² = 0.685
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 2.491 [2.426; 2.557] · KG 2.508 [2.452; 2.564]
+     adjustierte Differenz IG − KG: b1 = -0.017 [95 % -0.118; 0.085] · SE 0.047 · t(14) = -0.356 · p = 0.7273
+     partielles η² = 0.009 [90 % 0.000; 0.181] [95 % 0.000; 0.238] · d_adj (Hedges, J = 0.945) = b1·J/SD_prä = -0.15 [-1.04; +0.74]
+     unadjustierte Differenz der Post-Mittel: -0.071 [95 % -0.175; 0.033] (Item 18) · Post-Mittel IG 2.461 KG 2.532
+     Kovariaten: b_Prä = 0.7866 (SE 0.1581, p = 0.0002) · b_%PAH = 0.0036 (SE 0.0066, p = 0.5951)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.905, p = 0.070 · Brown-Forsythe F = 2.62, p = 0.125 · Gruppe×Prä F(1,13) = 0.62, p = 0.446 · Gruppe×%PAH F = 0.37, p = 0.555 · beide F(2,12) = 0.34, p = 0.716 · Linearität Prä² F = 0.41, p = 0.535
+     Kovariatenbereiche: Prä IG 2.195–2.530 / KG 2.320–2.695 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+
+  ── PP ≥ 7 · Bestwert: IG 6 / KG 10 → n < 8 in einer Gruppe: § 11.9, nur deskriptiv (keine Inferenz).
+E  SENSITIVITÄT: Änderungswert-Modell und Modell ohne %PAH
+
+  ── ITT · Bestwert — Änderungswert Δ ~ Gruppe + %PAH: N = 23 (IG 13 / KG 10) · df_e = 20 · R² = 0.055
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 0.006 [-0.037; 0.050] · KG 0.019 [-0.032; 0.069]
+     adjustierte Differenz IG − KG: b1 = -0.012 [95 % -0.086; 0.061] · SE 0.035 · t(20) = -0.345 · p = 0.7337
+     partielles η² = 0.006 [90 % 0.000; 0.137] [95 % 0.000; 0.183] · d_adj (Hedges, J = 0.962) = b1·J/SD_prä = -0.11 [-0.81; +0.58]
+     unadjustierte Differenz der Post-Mittel: 0.009 [95 % -0.050; 0.069] (Item 18) · Post-Mittel IG 0.016 KG 0.006
+     Kovariaten: b_%PAH = 0.0050 (SE 0.0049, p = 0.3147)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.921, p = 0.069 · Brown-Forsythe F = 0.15, p = 0.701 · Gruppe×%PAH F(1,19) = 0.19, p = 0.664 · Linearität %PAH² F = 3.94, p = 0.062
+     Kovariatenbereiche: %PAH IG 86.651–98.187 / KG 85.916–95.016
+
+  ── ITT · Bestwert — ohne %PAH: N = 23 (IG 13 / KG 10) · df_e = 20 · R² = 0.633
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 2.494 [2.456; 2.532] · KG 2.503 [2.459; 2.546]
+     adjustierte Differenz IG − KG: b1 = -0.008 [95 % -0.068; 0.051] · SE 0.029 · t(20) = -0.295 · p = 0.7709
+     partielles η² = 0.004 [90 % 0.000; 0.125] [95 % 0.000; 0.172] · d_adj (Hedges, J = 0.962) = b1·J/SD_prä = -0.08 [-0.64; +0.48]
+     unadjustierte Differenz der Post-Mittel: -0.060 [95 % -0.147; 0.026] (Item 18) · Post-Mittel IG 2.472 KG 2.532
+     Kovariaten: b_Prä = 0.7459 (SE 0.1375, p = 0.0000)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.943, p = 0.209 · Brown-Forsythe F = 1.14, p = 0.297 · Gruppe×Prä F(1,19) = 0.88, p = 0.361 · Linearität Prä² F = 0.11, p = 0.740
+     Kovariatenbereiche: Prä IG 2.195–2.575 / KG 2.320–2.695
+F  SENSITIVITÄT: Familiarisierung (§ 11.5 Nr. 1) — Variante b: Kovariate 1/2 (in der IG mit Verein A konfundiert: alle A = 1); Variante a: Ausschluss der Spieler mit einer Familiarisierung
+     (Familiarisierung fehlt bei 1 Spieler(n) — ausgeschlossen)
+
+  ── ITT · Bestwert — + Familiarisierung (1/2) als Kovariate [F2 b]: N = 22 (IG 13 / KG 9) · df_e = 17 · R² = 0.671
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 2.483 [2.439; 2.527] · KG 2.510 [2.453; 2.566]
+     adjustierte Differenz IG − KG: b1 = -0.027 [95 % -0.108; 0.055] · SE 0.039 · t(17) = -0.685 · p = 0.5024
+     partielles η² = 0.027 [90 % 0.000; 0.220] [95 % 0.000; 0.268] · d_adj (Hedges, J = 0.955) = b1·J/SD_prä = -0.25 [-1.02; +0.52]
+     unadjustierte Differenz der Post-Mittel: -0.055 [95 % -0.145; 0.036] (Item 18) · Post-Mittel IG 2.472 KG 2.526
+     Kovariaten: b_Prä = 0.9085 (SE 0.1775, p = 0.0001) · b_%PAH = 0.0060 (SE 0.0059, p = 0.3280) · b_Fam = 0.0144 (SE 0.0402, p = 0.7255)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.899, p = 0.029 · Brown-Forsythe F = 0.04, p = 0.839 · Gruppe×Prä F(1,16) = 2.48, p = 0.135 · Gruppe×%PAH F = 0.00, p = 0.968 · beide F(2,15) = 1.54, p = 0.246 · Linearität Prä² F = 0.71, p = 0.412
+     Kovariatenbereiche: Prä IG 2.195–2.575 / KG 2.320–2.615 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+
+  ── ITT · Bestwert · nur Familiarisierung = 2 [F2 a]: IG 5 / KG 9 → n < 8 in einer Gruppe: § 11.9, nur deskriptiv (keine Inferenz).
+
+==============================================================================================================
+ZIELGRÖSSE SBJ (cm) — Zeiten: negatives b1 = IG schneller; Standweitsprung: positives b1 = IG weiter
+A  HAUPTANALYSE — ITT (vollständige Fälle), Bestwert
+
+  ── ITT · Bestwert: N = 26 (IG 16 / KG 10) · df_e = 22 · R² = 0.763
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 229.5 [224.8; 234.2] · KG 229.3 [223.1; 235.5]
+     adjustierte Differenz IG − KG: b1 = 0.2 [95 % -8.3; 8.7] · SE 4.1 · t(22) = 0.051 · p = 0.9600
+     partielles η² = 0.000 [90 % 0.000; 0.000] [95 % 0.000; 0.038] · d_adj (Hedges, J = 0.966) = b1·J/SD_prä = +0.01 [-0.49; +0.52]
+     unadjustierte Differenz der Post-Mittel: 10.1 [95 % -2.5; 22.7] (Item 18) · Post-Mittel IG 233.3 KG 223.2
+     Kovariaten: b_Prä = 0.7813 (SE 0.1094, p = 0.0000) · b_%PAH = 0.2449 (SE 0.6198, p = 0.6965)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.967, p = 0.553 · Brown-Forsythe F = 0.78, p = 0.385 · Gruppe×Prä F(1,21) = 1.76, p = 0.199 · Gruppe×%PAH F = 0.71, p = 0.408 · beide F(2,20) = 2.10, p = 0.149 · Linearität Prä² F = 0.34, p = 0.565
+     Kovariatenbereiche: Prä IG 207.0–255.0 / KG 202.0–259.0 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+B  PER-PROTOKOLL (≥ 6 Einheiten) — beobachtender Vergleich, nicht randomisiert
+
+  ── PP ≥ 6 · Bestwert: N = 19 (IG 9 / KG 10) · df_e = 15 · R² = 0.797
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 231.4 [224.5; 238.3] · KG 230.5 [224.0; 236.9]
+     adjustierte Differenz IG − KG: b1 = 0.9 [95 % -10.3; 12.1] · SE 5.3 · t(15) = 0.173 · p = 0.8651
+     partielles η² = 0.002 [90 % 0.000; 0.106] [95 % 0.000; 0.167] · d_adj (Hedges, J = 0.949) = b1·J/SD_prä = +0.05 [-0.60; +0.70]
+     unadjustierte Differenz der Post-Mittel: 16.2 [95 % 3.8; 28.6] (Item 18) · Post-Mittel IG 239.4 KG 223.2
+     Kovariaten: b_Prä = 0.5845 (SE 0.1201, p = 0.0002) · b_%PAH = 0.9816 (SE 0.7902, p = 0.2333)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.956, p = 0.493 · Brown-Forsythe F = 1.25, p = 0.278 · Gruppe×Prä F(1,14) = 0.80, p = 0.387 · Gruppe×%PAH F = 1.81, p = 0.199 · beide F(2,13) = 1.08, p = 0.367 · Linearität Prä² F = 0.12, p = 0.734
+     Kovariatenbereiche: Prä IG 228.0–255.0 / KG 202.0–259.0 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+C  SENSITIVITÄT: Mittelwert-Aggregation (§ 11.8)
+
+  ── ITT · Mittelwert: N = 26 (IG 16 / KG 10) · df_e = 22 · R² = 0.771
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 225.7 [221.4; 230.0] · KG 227.9 [222.2; 233.6]
+     adjustierte Differenz IG − KG: b1 = -2.2 [95 % -10.1; 5.6] · SE 3.8 · t(22) = -0.585 · p = 0.5646
+     partielles η² = 0.015 [90 % 0.000; 0.168] [95 % 0.000; 0.210] · d_adj (Hedges, J = 0.966) = b1·J/SD_prä = -0.13 [-0.59; +0.33]
+     unadjustierte Differenz der Post-Mittel: 8.4 [95 % -3.7; 20.4] (Item 18) · Post-Mittel IG 229.8 KG 221.4
+     Kovariaten: b_Prä = 0.6954 (SE 0.0993, p = 0.0000) · b_%PAH = 0.8703 (SE 0.5688, p = 0.1403)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.984, p = 0.949 · Brown-Forsythe F = 4.75, p = 0.039 · Gruppe×Prä F(1,21) = 0.81, p = 0.379 · Gruppe×%PAH F = 0.06, p = 0.805 · beide F(2,20) = 0.39, p = 0.682 · Linearität Prä² F = 0.38, p = 0.546
+     Kovariatenbereiche: Prä IG 201.0–250.0 / KG 201.5–258.0 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+D  SENSITIVITÄT: PP-Schwellen ≥ 5 / ≥ 7 (B0.1 c)
+
+  ── PP ≥ 5 · Bestwert: N = 20 (IG 10 / KG 10) · df_e = 16 · R² = 0.802
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 228.7 [222.0; 235.3] · KG 230.2 [223.6; 236.9]
+     adjustierte Differenz IG − KG: b1 = -1.6 [95 % -12.7; 9.5] · SE 5.3 · t(16) = -0.302 · p = 0.7666
+     partielles η² = 0.006 [90 % 0.000; 0.150] [95 % 0.000; 0.204] · d_adj (Hedges, J = 0.952) = b1·J/SD_prä = -0.08 [-0.68; +0.51]
+     unadjustierte Differenz der Post-Mittel: 12.5 [95 % -1.6; 26.6] (Item 18) · Post-Mittel IG 235.7 KG 223.2
+     Kovariaten: b_Prä = 0.6639 (SE 0.1144, p = 0.0000) · b_%PAH = 0.9897 (SE 0.8274, p = 0.2491)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.980, p = 0.928 · Brown-Forsythe F = 0.75, p = 0.399 · Gruppe×Prä F(1,15) = 0.31, p = 0.583 · Gruppe×%PAH F = 0.34, p = 0.570 · beide F(2,14) = 0.54, p = 0.597 · Linearität Prä² F = 0.02, p = 0.892
+     Kovariatenbereiche: Prä IG 207.0–255.0 / KG 202.0–259.0 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+
+  ── PP ≥ 7 · Bestwert: N = 18 (IG 8 / KG 10) · df_e = 14 · R² = 0.793
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 229.6 [222.1; 237.0] · KG 230.1 [223.7; 236.4]
+     adjustierte Differenz IG − KG: b1 = -0.5 [95 % -12.1; 11.1] · SE 5.4 · t(14) = -0.093 · p = 0.9274
+     partielles η² = 0.001 [90 % 0.000; 0.045] [95 % 0.000; 0.118] · d_adj (Hedges, J = 0.945) = b1·J/SD_prä = -0.03 [-0.68; +0.63]
+     unadjustierte Differenz der Post-Mittel: 14.9 [95 % 2.0; 27.9] (Item 18) · Post-Mittel IG 238.1 KG 223.2
+     Kovariaten: b_Prä = 0.5604 (SE 0.1217, p = 0.0004) · b_%PAH = 1.1390 (SE 0.8005, p = 0.1767)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.934, p = 0.226 · Brown-Forsythe F = 1.46, p = 0.245 · Gruppe×Prä F(1,13) = 1.66, p = 0.220 · Gruppe×%PAH F = 1.43, p = 0.253 · beide F(2,12) = 1.22, p = 0.328 · Linearität Prä² F = 0.01, p = 0.921
+     Kovariatenbereiche: Prä IG 228.0–255.0 / KG 202.0–259.0 · %PAH IG 91.99–98.19 / KG 85.92–95.02
+E  SENSITIVITÄT: Änderungswert-Modell und Modell ohne %PAH
+
+  ── ITT · Bestwert — Änderungswert Δ ~ Gruppe + %PAH: N = 26 (IG 16 / KG 10) · df_e = 23 · R² = 0.010
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG -4.1 [-9.0; 0.8] · KG -3.7 [-10.3; 2.8]
+     adjustierte Differenz IG − KG: b1 = -0.4 [95 % -9.4; 8.6] · SE 4.4 · t(23) = -0.087 · p = 0.9314
+     partielles η² = 0.000 [90 % 0.000; 0.025] [95 % 0.000; 0.075] · d_adj (Hedges, J = 0.967) = b1·J/SD_prä = -0.02 [-0.56; +0.51]
+     unadjustierte Differenz der Post-Mittel: -1.2 [95 % -8.3; 5.8] (Item 18) · Post-Mittel IG -4.4 KG -3.2
+     Kovariaten: b_%PAH = -0.2027 (SE 0.6146, p = 0.7446)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.979, p = 0.851 · Brown-Forsythe F = 3.08, p = 0.092 · Gruppe×%PAH F(1,22) = 0.12, p = 0.733 · Linearität %PAH² F = 0.22, p = 0.643
+     Kovariatenbereiche: %PAH IG 86.7–98.2 / KG 85.9–95.0
+
+  ── ITT · Bestwert — ohne %PAH: N = 26 (IG 16 / KG 10) · df_e = 23 · R² = 0.761
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 229.8 [225.6; 234.1] · KG 228.8 [223.3; 234.2]
+     adjustierte Differenz IG − KG: b1 = 1.1 [95 % -6.0; 8.1] · SE 3.4 · t(23) = 0.313 · p = 0.7574
+     partielles η² = 0.004 [90 % 0.000; 0.116] [95 % 0.000; 0.158] · d_adj (Hedges, J = 0.967) = b1·J/SD_prä = +0.06 [-0.36; +0.48]
+     unadjustierte Differenz der Post-Mittel: 10.1 [95 % -2.5; 22.7] (Item 18) · Post-Mittel IG 233.3 KG 223.2
+     Kovariaten: b_Prä = 0.7969 (SE 0.1001, p = 0.0000)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.966, p = 0.529 · Brown-Forsythe F = 1.06, p = 0.314 · Gruppe×Prä F(1,22) = 1.79, p = 0.195 · Linearität Prä² F = 0.48, p = 0.494
+     Kovariatenbereiche: Prä IG 207.0–255.0 / KG 202.0–259.0
+F  SENSITIVITÄT: Familiarisierung (§ 11.5 Nr. 1) — Variante b: Kovariate 1/2 (in der IG mit Verein A konfundiert: alle A = 1); Variante a: Ausschluss der Spieler mit einer Familiarisierung
+     (Familiarisierung fehlt bei 1 Spieler(n) — ausgeschlossen)
+
+  ── ITT · Bestwert — + Familiarisierung (1/2) als Kovariate [F2 b]: N = 25 (IG 16 / KG 9) · df_e = 20 · R² = 0.788
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 230.8 [226.1; 235.5] · KG 228.3 [221.5; 235.1]
+     adjustierte Differenz IG − KG: b1 = 2.5 [95 % -6.7; 11.7] · SE 4.4 · t(20) = 0.559 · p = 0.5823
+     partielles η² = 0.015 [90 % 0.000; 0.177] [95 % 0.000; 0.221] · d_adj (Hedges, J = 0.962) = b1·J/SD_prä = +0.15 [-0.40; +0.69]
+     unadjustierte Differenz der Post-Mittel: 9.5 [95 % -3.8; 22.9] (Item 18) · Post-Mittel IG 233.3 KG 223.8
+     Kovariaten: b_Prä = 0.8583 (SE 0.1166, p = 0.0000) · b_%PAH = -0.0782 (SE 0.6993, p = 0.9120) · b_Fam = 0.3279 (SE 4.4365, p = 0.9418)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.968, p = 0.587 · Brown-Forsythe F = 0.85, p = 0.366 · Gruppe×Prä F(1,19) = 0.88, p = 0.361 · Gruppe×%PAH F = 0.07, p = 0.797 · beide F(2,18) = 0.78, p = 0.473 · Linearität Prä² F = 0.07, p = 0.791
+     Kovariatenbereiche: Prä IG 207.0–255.0 / KG 202.0–259.0 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+
+  ── ITT · Bestwert · nur Familiarisierung = 2 [F2 a]: IG 7 / KG 9 → n < 8 in einer Gruppe: § 11.9, nur deskriptiv (keine Inferenz).
+
+Deskriptiv: 5 m, 10 m (§ 11.9) sowie 505 links und rechts je Seite (Ethikantrag: Mittelwert) — siehe B5; hier keine Modelle.
+→ ancova_ergebnisse.csv geschrieben: /mnt/user-data/uploads/Bachelorarbeit/Claude/03_Skripte/../Auswertung/ancova_ergebnisse.csv
+
+==============================================================================================================
+V  TECHNISCHE VERIFIKATION DES RECHENWEGS (läuft immer; ohne inhaltliche Bedeutung)
+V1 Reduktionsprobe: ohne Kovariaten muss b1 dem Mittelwertunterschied und t dem gepoolten Zweistichproben-t entsprechen.
+   b1 = -1.305840 · Mittelwertdifferenz = -1.305840 · t_OLS = -3.999455 · t_scipy = -3.999455 · p_OLS = 0.000496 · p_scipy = 0.000496 → identisch
+V2 Simulation mit bekanntem Effekt (Design wie unsere Studie: IG 16 / KG 11; Prä und %PAH aus den echten Daten der SBJ-Sets; KG-Post SIMULIERT):
+   Post = 0,9·Prä + 0,5·%PAH_c + δ·Gruppe + e, e ~ N(0, 7²). Prüfung: Wiederfindung von δ, KI-Überdeckung, Fehler 1. Art bei δ = 0 (2000 Wiederholungen).
+   δ =  0.0: mittlere Schätzung +0.102 (SD 3.504) · Anteil p < 0,05 = 0.046 (Fehler 1. Art, Soll 0,05) · KI-Überdeckung 0.954 (Soll 0,95)
+   δ =  8.0: mittlere Schätzung +8.096 (SD 3.532) · Anteil p < 0,05 = 0.600 (Power) · KI-Überdeckung 0.951 (Soll 0,95)
+V3 Vollständiger Ausgabeblock an simulierten Daten (ein Datensatz, δ = 8 cm) — prüft Formatierung, η²-KI, Voraussetzungstests:
+
+  ── SIMULATION SBJ (KG-Post künstlich!): N = 28 (IG 16 / KG 12) · df_e = 24 · R² = 0.889
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 217.9 [213.6; 222.2] · KG 210.1 [204.9; 215.3]
+     adjustierte Differenz IG − KG: b1 = 7.8 [95 % 0.2; 15.4] · SE 3.7 · t(24) = 2.123 · p = 0.0443
+     partielles η² = 0.158 [90 % 0.002; 0.360] [95 % 0.000; 0.399] · d_adj (Hedges, J = 0.968) = b1·J/SD_prä = +0.48 [+0.01; +0.95]
+     unadjustierte Differenz der Post-Mittel: 24.6 [95 % 11.3; 37.9] (Item 18) · Post-Mittel IG 225.1 KG 200.5
+     Kovariaten: b_Prä = 0.8594 (SE 0.0979, p = 0.0000) · b_%PAH = 1.3971 (SE 0.5397, p = 0.0161)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.953, p = 0.233 · Brown-Forsythe F = 1.08, p = 0.308 · Gruppe×Prä F(1,23) = 0.05, p = 0.824 · Gruppe×%PAH F = 2.78, p = 0.109 · beide F(2,22) = 1.79, p = 0.191 · Linearität Prä² F = 0.25, p = 0.622
+     Kovariatenbereiche: Prä IG 207.0–255.0 / KG 202.0–259.0 · %PAH IG 86.65–98.19 / KG 85.92–95.02
+V4 Pseudo-Gruppen innerhalb der IG (Verein A = 1 gegen Verein B = 0), echte Post-Werte — reiner Code-Test, KEIN Ergebnis der Studie:
+   (n A = 7 < 8 → nach § 11.9 wäre dies ohnehin nur deskriptiv; hier nur Lauf des Codes)
+
+  ── PSEUDO A vs B · 30m (kein Studienergebnis): N = 16 (IG 7 / KG 9) · df_e = 12 · R² = 0.845
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 4.605 [4.523; 4.687] · KG 4.536 [4.467; 4.606]
+     adjustierte Differenz IG − KG: b1 = 0.069 [95 % -0.054; 0.191] · SE 0.056 · t(12) = 1.225 · p = 0.2443
+     partielles η² = 0.111 [90 % 0.000; 0.374] [95 % 0.000; 0.425] · d_adj (Hedges, J = 0.936) = b1·J/SD_prä = +0.31 [-0.24; +0.86]
+     unadjustierte Differenz der Post-Mittel: -0.125 [95 % -0.319; 0.068] (Item 18) · Post-Mittel IG 4.496 KG 4.621
+     Kovariaten: b_Prä = 0.8973 (SE 0.1205, p = 0.0000) · b_%PAH = 0.0024 (SE 0.0086, p = 0.7882)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.870, p = 0.028 · Brown-Forsythe F = 1.22, p = 0.289 · Gruppe×Prä F(1,11) = 0.04, p = 0.842 · Gruppe×%PAH F = 0.04, p = 0.848 · beide F(2,10) = 0.04, p = 0.965 · Linearität Prä² F = 0.04, p = 0.847
+     Kovariatenbereiche: Prä IG 4.090–4.660 / KG 4.420–4.890 · %PAH IG 94.39–98.19 / KG 86.65–97.17
+   (n A = 7 < 8 → nach § 11.9 wäre dies ohnehin nur deskriptiv; hier nur Lauf des Codes)
+
+  ── PSEUDO A vs B · SBJ (kein Studienergebnis): N = 16 (IG 7 / KG 9) · df_e = 12 · R² = 0.819
+     adjustierte Mittelwerte (Kovariaten am Gesamtmittel): IG 230.5 [224.0; 236.9] · KG 235.5 [230.0; 241.0]
+     adjustierte Differenz IG − KG: b1 = -5.1 [95 % -14.5; 4.4] · SE 4.3 · t(12) = -1.170 · p = 0.2649
+     partielles η² = 0.102 [90 % 0.000; 0.365] [95 % 0.000; 0.416] · d_adj (Hedges, J = 0.936) = b1·J/SD_prä = -0.37 [-1.05; +0.32]
+     unadjustierte Differenz der Post-Mittel: 7.3 [95 % -7.7; 22.3] (Item 18) · Post-Mittel IG 237.4 KG 230.1
+     Kovariaten: b_Prä = 1.0497 (SE 0.1494, p = 0.0000) · b_%PAH = 0.0633 (SE 0.7043, p = 0.9299)
+     Voraussetzungen: Residuen Shapiro-Wilk W = 0.947, p = 0.448 · Brown-Forsythe F = 2.11, p = 0.168 · Gruppe×Prä F(1,11) = 0.41, p = 0.535 · Gruppe×%PAH F = 0.02, p = 0.890 · beide F(2,10) = 0.21, p = 0.817 · Linearität Prä² F = 1.32, p = 0.275
+     Kovariatenbereiche: Prä IG 232.0–255.0 / KG 207.0–251.0 · %PAH IG 94.39–98.19 / KG 86.65–97.17
+
+V5 Gegenprobe zur SPSS-Syntax: Nach dem SPSS-Lauf die Werte b1, SE, p, adjustierte Mittelwerte und partielles η² je Zielgröße hier eintragen und vergleichen.
+   SPSS „Partial Eta Squared“ für Gruppe entspricht F/(F + df_e) mit F = t²; EMMEANS „Gruppe“ mit Kovariaten am Mittel = adjustierte Mittelwerte oben.

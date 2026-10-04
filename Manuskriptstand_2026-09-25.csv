@@ -1,0 +1,34 @@
+nr,arbeitsnummer,v6,titel,woerter,richtwert,absaetze,semikola,abschnittsverweise,platzhalter,marker,saetze_ueber_32,saetze_ueber_40,absaetze_ueber_250,beschriftungen,anmerkungen
+Abkürzungsverzeichnis,Abkürzungsverzeichnis,,Abkürzungsverzeichnis,0,,0,0,0,0,0,0,0,0,0,0
+Abbildungsverzeichnis,Abbildungsverzeichnis,,Abbildungsverzeichnis,9,,1,0,0,0,0,0,0,0,0,0
+Tabellenverzeichnis,Tabellenverzeichnis,,Tabellenverzeichnis,9,,1,0,0,0,0,0,0,0,0,0
+1,1,1,1 Einleitung,930,1500,6,0,0,0,0,0,0,0,0,0
+4,4,4,4 Methodik,0,,0,0,0,0,0,0,0,0,0,0
+4.1,4.1,4.1,4.1 Studiendesign,291,300,5,0,0,0,0,0,0,0,0,0
+4.2,4.2,4.2,4.2 Stichprobe,208,215,2,0,0,0,0,0,0,0,0,0
+4.3,4.3,4.3,4.3 Untersuchungsablauf,340,340,6,0,0,0,0,1,0,0,0,0
+4.4,4.4,4.4,4.4 Leistungsdiagnostik,155,420,3,0,0,0,0,0,0,0,0,0
+4.4.1,4.4.1,4.4,4.4.1 30-m-Sprint mit Zwischenzeiten (5/10 m),62,,1,0,0,0,0,0,0,0,0,0
+4.4.2,4.4.2,4.4,4.4.2 505-Richtungswechseltest (bilateral),103,,1,0,0,0,0,0,0,0,0,0
+4.4.3,4.4.3,4.4,4.4.3 Standweitsprung,72,,1,0,0,0,0,0,0,0,0,0
+4.5,4.5,4.5,4.5 Trainingsintervention,0,,0,0,0,0,0,0,0,0,0,0
+4.5.1,4.5.1,4.5,4.5.1 Plyometrisches Heimtrainingsprogramm,418,420,4,0,0,0,0,1,0,0,0,0
+4.5.2,4.5.2,4.5,4.5.2 Vergleichs- und Begleitbedingung,150,150,2,0,0,0,0,0,0,0,0,0
+4.6,4.6,4.5,4.6 Adhärenz- und Belastungsmonitoring,154,155,2,0,0,0,0,0,0,0,0,0
+4.7,4.7,4.7,4.7 Statistische Auswertung,463,550,6,0,0,0,0,0,0,0,0,0
+5,5,5,5 Ergebnisse,450,,6,0,0,0,0,0,0,0,0,0
+6,6,6,6 Diskussion,0,,0,0,0,0,0,0,0,0,0,0
+6.1,6.1,6.1,6.1 Einordnung der Ergebnisse,700,700,6,0,0,0,0,0,0,0,0,0
+6.2,6.2,6.2,6.2 Methodendiskussion,0,400,0,0,0,0,0,0,0,0,0,0
+6.3,6.3,6.2,6.3 Stärken und Limitationen,0,500,0,0,0,0,0,0,0,0,0,0
+7,7,7,7 Fazit und Ausblick,0,250,0,0,0,0,0,0,0,0,0,0
+Literaturverzeichnis,Literaturverzeichnis,,Literaturverzeichnis,0,,0,0,0,0,0,0,0,0,0,0
+Anhang,Anhang,,Anhang,0,,0,0,0,0,0,0,0,0,0,0
+Anhang A: Fragebogen A (SoSci Survey),Anhang A: Fragebogen A (SoSci Survey),,Anhang A: Fragebogen A (SoSci Survey),0,,0,0,0,0,0,0,0,0,0,0
+Anhang B: Übungs- und Videoübersicht,Anhang B: Übungs- und Videoübersicht,,Anhang B: Übungs- und Videoübersicht,0,,0,0,0,0,0,0,0,0,0,0
+Anhang C: Standardisiertes Aufwärmprogramm der Testtage,Anhang C: Standardisiertes Aufwärmprogramm der Testtage,,Anhang C: Standardisiertes Aufwärmprogramm der Testtage,50,,1,1,0,0,0,0,0,0,2,0
+Anhang D: Vereins-Sommerprogramme (anonymisierte Auszüge),Anhang D: Vereins-Sommerprogramme (anonymisierte Auszüge),,Anhang D: Vereins-Sommerprogramme (anonymisierte Auszüge),0,,0,0,0,0,0,0,0,0,0,0
+Anhang E: Ethikvotum und Ethikantrag,Anhang E: Ethikvotum und Ethikantrag,,Anhang E: Ethikvotum und Ethikantrag,0,,0,0,0,0,0,0,0,0,0,0
+Anhang F: Einverständniserklärung und Erhebung der Elternhöhen,Anhang F: Einverständniserklärung und Erhebung der Elternhöhen,,Anhang F: Einverständniserklärung und Erhebung der Elternhöhen,0,,0,0,0,0,0,0,0,0,0,0
+Anhang G: Sensitivitäts-Poweranalyse und R-Skripte,Anhang G: Sensitivitäts-Poweranalyse und R-Skripte,,Anhang G: Sensitivitäts-Poweranalyse und R-Skripte,0,,0,0,0,0,0,0,0,0,0,0
+Anhang H: Ergänzende Tabellen,Anhang H: Ergänzende Tabellen,,Anhang H: Ergänzende Tabellen,0,,0,0,0,7,0,0,0,0,0,0

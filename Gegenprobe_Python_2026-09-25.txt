@@ -1,0 +1,222 @@
+====================================================================================================
+GEGENPROBE PYTHON nach Spezifikation_2026-09-24 (Nachtrag 2), Fassung 2026-09-25 Nr. 2
+Skript: Gegenprobe_Python_2026-09-25.py · Lauf: 2026-09-25 10:27:40 UTC
+Python 3.11.15 · numpy 2.4.4 · scipy 1.17.1 · Linux-6.18.44-fc-v37-x86_64-with-glibc2.39
+Eingang: /home/claude/phase6/Blindrechnung_R_2026-09-24
+====================================================================================================
+
+PRÜFSUMMEN DES EINGANGS (SHA-256)
+  Datenstand_2026-09-24/Versuchsdaten.csv       429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba  (Soll stimmt)
+  Datenstand_2026-09-24/Personendaten.csv       acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef  (Soll stimmt)
+  Datenstand_2026-09-24/Fragebogen_A.csv        5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4  (Soll stimmt)
+  Datenstand_2026-09-24/Zuordnung_Fragebogen.csv f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa  (Soll stimmt)
+  Datenstand_2026-09-24/Listenplatz_IG.csv      2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8  (Soll stimmt)
+  Datenstand_2026-09-24/Datenwoerterbuch.md     07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6  (Soll stimmt)
+  Spezifikation_2026-09-24_Kennungen.csv        90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe
+  Spezifikation_2026-09-24_Konstanten.csv       6eec0094230e13ca52896f8e0828a55fafffcc9fa52f9c7620368f1bddad4329
+  Spezifikation_2026-09-24_Koeffizienten_KR.csv 1eb1ffabf2b5e8949c752ca243254fcf93b77b4c368551fb2d6f5744abcd0c5f
+  Spezifikation_2026-09-24_Vokabular.csv        7afaa01d82dc9f5ca10534a09f916dca5475842caa32e71aad866ba43612860f
+  Spezifikation_2026-09-24_Fragebogen.csv       04318c066939248c5feca5077c65a703508a1137738310fdfa68b3a329003f04
+  Spezifikation_2026-09-24_Referenzdaten.csv    5fcd4f50130cffe0271074af537d2430346e76191282ebe67dfac2e517c1bb88
+  Spezifikation_2026-09-24_Referenzdaten_Daten.csv a6003700cf923646cf9341c866637fe227995543ce9096b458a5c4a45f662ac7
+
+REFERENZTESTS R01 bis R13 (Teil G.2), Nachtrag Toleranz R08 vom 25.09.2026 angewandt
+Test Größe                              Soll                     Ist                      Abw.        Toleranz  bestanden
+R01  Mittel                             10000002                 10000002                 0           exakt (1e ja
+R01  SD mit Nenner n − 1                1                        1                        0           exakt (1e ja
+R02  F                                  1.18046237440255         1.18046237440245         -1.03e-13   mindesten ja
+R02  Residuen-SD                        0.104076068334656        0.10407606833466         4.02e-15    mindesten ja
+R02  R²                                 0.190999039051129        0.190999039051116        -1.29e-14   mindesten ja
+R02  df zwischen                        4                        4                        0           exakt     ja
+R02  df innerhalb                       20                       20                       0           exakt     ja
+R02  SS zwischen                        0.0511462616             0.0511462615999995       -4.79e-16   mindesten ja
+R02  SS innerhalb                       0.21663656               0.216636560000016        1.65e-14    mindesten ja
+R02  MS zwischen                        0.0127865654             0.0127865653999999       -1.2e-16    mindesten ja
+R02  MS innerhalb                       0.010831828              0.0108318280000008       8.24e-16    mindesten ja
+R03  F                                  15.946733567793          15.9467335666769         -1.12e-09   mindesten ja
+R03  Residuen-SD                        1.5104831444641e-05      1.51048314447351e-05     9.41e-17    mindesten ja
+R03  R²                                 0.257426544538321        0.257426544524943        -1.34e-11   mindesten ja
+R03  df zwischen                        1                        1                        0           exakt     ja
+R03  df innerhalb                       46                       46                       0           exakt     ja
+R03  SS zwischen                        3.638341875e-09          3.63834187479071e-09     -2.09e-19   mindesten ja
+R03  SS innerhalb                       1.04951729166667e-08     1.04951729167975e-08     1.31e-19    mindesten ja
+R03  MS zwischen                        3.638341875e-09          3.63834187479071e-09     -2.09e-19   mindesten ja
+R03  MS innerhalb                       2.28155932971014e-10     2.28155932973858e-10     2.84e-21    mindesten ja
+R04  B0                                 -0.262323073774029       -0.262323073773789       2.4e-13     mindesten ja
+R04  SE B0                              0.232818234301152        0.232818234301155        2.78e-15    mindesten ja
+R04  B1                                 1.00211681802045         1.00211681802045         3.77e-15    mindesten ja
+R04  SE B1                              0.000429796848199937     0.000429796848199941     4.07e-18    mindesten ja
+R04  Residuen-SD                        0.884796396144373        0.884796396144381        8.33e-15    mindesten ja
+R04  R²                                 0.999993745883712        0.999993745883712        -3.33e-16   mindesten ja
+R05  B0                                 -3482258.63459582        -3482258.63459797        -2.15e-06   mindesten ja
+R05  SE B0                              890420.383607373         890420.383607112         -2.61e-07   mindesten ja
+R05  B1                                 15.0618722713733         15.0618722715642         1.91e-10    mindesten ja
+R05  SE B1                              84.9149257747669         84.9149257747529         -1.4e-11    mindesten ja
+R05  B2                                 -0.035819179292591       -0.0358191792926519      -6.09e-14   mindesten ja
+R05  SE B2                              0.0334910077722432       0.0334910077722322       -1.1e-14    mindesten ja
+R05  B3                                 -2.02022980381683        -2.02022980381747        -6.37e-13   mindesten ja
+R05  SE B3                              0.488399681651699        0.488399681651481        -2.18e-13   mindesten ja
+R05  B4                                 -1.03322686717359        -1.03322686717366        -6.91e-14   mindesten ja
+R05  SE B4                              0.214274163161675        0.214274163161588        -8.75e-14   mindesten ja
+R05  B5                                 -0.0511041056535807      -0.0511041056536569      -7.62e-14   mindesten ja
+R05  SE B5                              0.22607320006937         0.226073200069274        -9.59e-14   mindesten ja
+R05  B6                                 1829.15146461355         1829.15146461466         1.11e-09    mindesten ja
+R05  SE B6                              455.478499142212         455.478499142081         -1.31e-10   mindesten ja
+R05  Residuen-SD                        304.854073561965         304.854073561885         -8.01e-11   mindesten ja
+R05  R²                                 0.995479004577296        0.995479004577298        2e-15       mindesten ja
+R06  t_df(0.975)                        2.228                    2.22813885198627         0.000139    0.0005    ja
+R06  t_df(0.975)                        2.086                    2.08596344726586         -3.66e-05   0.0005    ja
+R06  t_df(0.975)                        2.064                    2.06389856162802         -0.000101   0.0005    ja
+R06  t_df(0.975)                        2.042                    2.04227245630124         0.000272    0.0005    ja
+R07  χ²_df(0.025)                       3.247                    3.24697278023684         -2.72e-05   0.0005    ja
+R07  χ²_df(0.975)                       20.483                   20.4831773508074         0.000177    0.0005    ja
+R07  χ²_df(0.025)                       9.591                    9.59077739226487         -0.000223   0.0005    ja
+R07  χ²_df(0.975)                       34.17                    34.1696069028383         -0.000393   0.0005    ja
+R07  χ²_df(0.025)                       16.791                   16.7907722655666         -0.000228   0.0005    ja
+R07  χ²_df(0.975)                       46.979                   46.9792422436712         0.000242    0.0005    ja
+R08  Teststatistik W                    1.70591                  1.70591769300089         7.69e-06    1e-05 (Na ja
+R08  df1                                9                        9                        0           exakt     ja
+R08  df2                                90                       90                       0           exakt     ja
+R08  F_9,90(0.95)                       1.9855                   1.9855949637305          9.5e-05     0.0001 (N ja
+R09  n                                  195                      195                      0           exakt     ja
+R09  W                                  0.99827                  0.998272156215956        2.16e-06    0.000005  ja
+R09  p                                  0.99923                  0.999226870393941        -3.13e-06   0.000005  ja
+R10  PAS in Zoll                        57.2                     57.167862                -0.0321     0.05      ja
+R11  M Movie 1                          8.7                      8.7                      0           0.005     ja
+R11  M Movie 2                          7.7                      7.7                      0           0.005     ja
+R11  SD Movie 1                         0.82                     0.823272602348565        0.00327     0.005     ja
+R11  SD Movie 2                         0.95                     0.948683298050514        -0.00132    0.005     ja
+R11  d_s                                1.13                     1.1258799375612          -0.00412    0.005     ja
+R11  g_s                                1.08                     1.07830754583326         -0.00169    0.005     ja
+R11  t                                  2.52                     2.51754407489007         -0.00246    0.005     ja
+R11  p                                  0.022                    0.0215083336351396       -0.000492   0.0005    ja
+R11  KI der Differenz, untere Grenze    0.17                     0.165487483935001        -0.00451    0.005     ja
+R11  KI der Differenz, obere Grenze     1.83                     1.834512516065           0.00451     0.005     ja
+R12  λ                                  22.83                    22.83                    7.11e-15    0.0000005 ja
+R12  F_crit                             1.942507                 1.94250745151734         4.52e-07    0.0000005 ja
+R12  df2                                2253                     2253                     0           exakt     ja
+R12  Power                              0.950078                 0.950077974139265        -2.59e-08   0.0000005 ja
+R12  kleinstes N mit Power ≥ 0.95       2283                     2283                     0           exakt     ja
+R12  Power × 100                        70                       69.3404196615382         -0.66       1.5       ja
+R12  n je Gruppe                        64                       64                       0           1         ja
+R12  n je Gruppe                        64                       64                       0           1         ja
+R12  n je Gruppe                        17                       17                       0           1         ja
+R13  T                                  0.3903                   0.390304                 4e-06       0.00005   ja
+R13  df                                 99                       99                       0           exakt     ja
+R13  χ²_99(0.025)                       73.361                   73.3610801912837         8.02e-05    0.0005    ja
+R13  χ²_99(0.975)                       128.422                  128.42198864384          -1.14e-05   0.0005    ja
+R03  Residuen-SD über S15 sd_pool       1.5104831444641e-05      1.51048314447351e-05     9.41e-17    9 Stellen ja
+R03  F über S15 t²                      15.946733567793          15.9467335677615         -3.15e-11   9 Stellen ja
+Referenztests: 85 von 85 Sollwerten bestanden (83 der Anlage und 2 Zusatzprüfungen über den S15-Rechenweg)
+
+GRENZFÄLLE (Phase 4.2), Sollwerte von Hand
+  Quantil Typ 7, Median von 1 2 3 4                                      ist 2.5                    soll 2.5                    ja
+  Quantil Typ 7, p = 0,025 von 1..5 = 1 + 0,1·1                          ist 1.1                    soll 1.1                    ja
+  Quantil Typ 7, p = 1 gibt Maximum                                      ist 3.0                    soll 3.0                    ja
+  SD bei n = 1 fehlt                                                     ist None                   soll None                   ja
+  SD von 2 4 4 4 5 5 7 9 (Nenner n − 1) = √(32/7)                        ist 2.138089935299395      soll 2.138089935299395      ja
+  gepoolte SD gleicher SD bleibt SD                                      ist 1.4142135623730951     soll 1.4142135623730951     ja
+  Auslöseprüfung: 5 m 1,0 s, 10 m 1,4 s (12,5 m/s) gestört               ist True                   soll True                   ja
+  Auslöseprüfung: 5 m 1,0 s, 30 m 3,5 s (10,0 m/s, nicht größer) ungestört ist False                  soll False                  ja
+  Auslöseprüfung: Δt = 0 gestört                                         ist True                   soll True                   ja
+  Auslöseprüfung: nur 30 m 2,9 s (10,34 m/s ab 0) gestört                ist True                   soll True                   ja
+  Auslöseprüfung: keine gültige Teilzeit ungestört                       ist False                  soll False                  ja
+  Bestwert Zeit = Minimum                                                ist 1.1                    soll 1.1                    ja
+  Bestwert Sprung = Maximum                                              ist 205                    soll 205                    ja
+  Interpolation Alter 14,25: w = 0,5                                     ist (14.0, 14.5, 0.5)      soll (14.0, 14.5, 0.5)      ja
+  Interpolation Alter 17,5: Zeile 17,5 allein (w = 0)                    ist (17.5, 18.0, 0.0)      soll (17.5, 18.0, 0.0)      ja
+  Interpolation Alter 4,0: Zeile 4,0 allein                              ist (4.0, 4.5, 0.0)        soll (4.0, 4.5, 0.0)        ja
+  Programmwoche 20.07. 00:00 = W1                                        ist 1                      soll 1                      ja
+  Programmwoche 26.07. 23:59:59 = W1                                     ist 1                      soll 1                      ja
+  Programmwoche 27.07. 00:00 = W2                                        ist 2                      soll 2                      ja
+  Programmwoche 30.08. 23:59:59 = W6                                     ist 6                      soll 6                      ja
+  Programmwoche 31.08. 00:00 außerhalb (None)                            ist None                   soll None                   ja
+  Paare: A 10:00/10:05 identisch (Grenze 300 s eingeschlossen) = Dublette ist 1                      soll 1                      ja
+  Paare: A 10:05/10:09 abweichend = Sammelmeldung, 10:00/10:09 > 5 min kein Paar, B anderer Code ist 1                      soll 1                      ja
+  WOCAP: Wochen mit 3, 1, 0 Meldungen ganz → 2 + 1 = 3                   ist 3                      soll 3                      ja
+  Fallzahlregel: 8 und 8 inferenzfähig                                   ist 1                      soll 1                      ja
+  Fallzahlregel: 7 und 12 nicht inferenzfähig                            ist 0                      soll 0                      ja
+  Rangdefekt (Spalte konstant = Achsenabschnitt) → None                  ist None                   soll None                   ja
+  Kleinste Quadrate exakt: y = 1 + 2x, b1                                ist 2.0                    soll 2.0                    ja
+  Kleinste Quadrate exakt: σ̂ = 0                                        ist 0.0                    soll 0.0                    ja
+  J bei df = 18: 1 − 3/71                                                ist 0.9577464788732395     soll 0.9577464788732395     ja
+  TE gepoolt: Spieler (1,3) und (2,2,5): SS 2 + 6 = 8, df 1 + 2 = 3      ist 1.632993161855452      soll 1.632993161855452      ja
+  TE-Menge zählt nur k ≥ 2 (zwei von drei Spielern)                      ist 2                      soll 2                      ja
+  TE df = Σ(k − 1) = 1 + 2                                               ist 3                      soll 3                      ja
+  TE leer → None                                                         ist None                   soll None                   ja
+  Überlappung: IG 1..5, KG 3..9 → [3, 5], IG 3, KG 2                     ist (3, 5, 3, 2)           soll (3, 5, 3, 2)           ja
+  Überlappung leer: IG 1..2, KG 3..4 → 0, 0                              ist (3, 2, 0, 0)           soll (3, 2, 0, 0)           ja
+  Brown-Forsythe: Gruppen (−1, 0, 1) und (−1, 0, 1), gleiche |z| → F = 0 ist 0.0                    soll 0.0                    ja
+  Brown-Forsythe von Hand: F = 49/40                                     ist 1.225                  soll 1.225                  ja
+  Brown-Forsythe von Hand: df1 = 1, df2 = 4                              ist (1, 4)                 soll (1, 4)                 ja
+Grenzfälle: 39 von 39 bestanden
+
+S01 EINLESEN UND STRUKTURPRÜFUNG
+  Spieler 31 (IG 18, KG 13), Versuchszeilen 1116, Meldungen 111, Strukturprüfung ohne Verstoß
+
+S02 GÜLTIGKEIT DER VERSUCHE
+  auslösegestörte Läufe prä 0, post 0
+
+S03 AUSFALLKATEGORIEN
+  ungültige Zeilen je Kategorie: {'TECH': 113, 'FEHL': 42, 'ZEIT': 170, 'FALSCH': 27, 'NANG': 72}
+
+S04 AGGREGATION JE SPIELER
+  Bestwerte prä vorhanden je Zielgröße: {'Z05': 26, 'Z10': 31, 'Z30': 31, 'SBJ': 31, 'CL': 29, 'CR': 29, 'CM': 27}
+
+S05 REIFESTATUS %PAH
+  %PAH vorhanden: IG 18, KG 12
+
+S06 FRAGEBOGEN A
+  Meldungen 111, korrigiert 7, Dublettenpaare 1, Sammelmeldungspaare 7
+
+S07 ADHÄRENZ, BELASTUNG, UNERWÜNSCHTE EREIGNISSE
+  Summe GANZ 92, Rate 0.4259, Spieler mit Meldung 15, Meldungen mit H007 = 1: 12
+
+S08 ANALYSESETS UND TEILNEHMERFLUSS
+  ITT-Sets (IG/KG): {'Z05': (16, 7), 'Z10': (7, 10), 'Z30': (16, 10), 'SBJ': (16, 10), 'CL': (15, 10), 'CR': (14, 10), 'CM': (13, 10)}
+  INF: {('Z30', 'ITT'): 1, ('Z30', 'FAMS'): 1, ('Z30', 'PP5'): 1, ('Z30', 'PP6'): 1, ('Z30', 'PP7'): 1, ('CM', 'ITT'): 1, ('CM', 'FAMS'): 1, ('CM', 'PP5'): 1, ('CM', 'PP6'): 0, ('CM', 'PP7'): 0, ('SBJ', 'ITT'): 1, ('SBJ', 'FAMS'): 1, ('SBJ', 'PP5'): 1, ('SBJ', 'PP6'): 1, ('SBJ', 'PP7'): 1} · ANA IG 16, KG 10
+
+S09 VERSUCHSZAHLEN
+  Bezugsmenge prä 31, post 27
+
+S10 MESSGÜTE
+  SESOI prä: {'Z05': 0.01584, 'Z10': 0.02146, 'Z30': 0.06265, 'SBJ': 3.31904, 'CL': 0.0228, 'CR': 0.02333, 'CM': 0.02008}
+
+S11 BESTWERT-BIAS
+
+S12 DESKRIPTION
+
+S13 HAUPTANALYSE (ANCOVA im ITT-Set)
+  Z30: n 16/10, df 22, b1 (gerechnet, nicht im Chat zu nennen), SIG 0
+  CM: n 13/10, df 19, b1 (gerechnet, nicht im Chat zu nennen), SIG 0
+  SBJ: n 16/10, df 22, b1 (gerechnet, nicht im Chat zu nennen), SIG 0
+
+S14 VORAUSSETZUNGEN
+  Voraussetzungsprüfungen gerechnet für ['Z30', 'CM', 'SBJ'] · Grafiken: ja
+
+S15 EFFEKTSTÄRKE UND UNADJUSTIERTE DIFFERENZ
+
+S16 PER-PROTOKOLL UND ANTRAGSKRITERIUM
+  AK9-Sets: {'Z30': 3, 'CM': 3, 'SBJ': 3}
+
+S17 SENSITIVITÄTSANALYSEN
+
+S18 POWERANALYSE (Standardweg)
+  gerechnet für Z10, Z30, CM, SBJ
+
+S19 BOOTSTRAP-KONFIDENZINTERVALL
+  Z30: 10000 gültige Ziehungen, 0 verworfen
+  CM: 10000 gültige Ziehungen, 0 verworfen
+  SBJ: 10000 gültige Ziehungen, 0 verworfen
+
+ERGEBNISDATEI NACH G.1
+  Kennungen der Anlage (Muster): 1535, ausgeschrieben: 3559, davon Spielerkennungen: 2096
+  Zeilen mit Wert: 3425, fehlend mit Grund: 134
+    Grund Eingang fehlt: 22
+    Grund Fallzahlregel: 14
+    Grund nicht erhebbar: 3
+    Grund zu wenige Werte: 95
+  Datei: /home/claude/phase6/ausgabe_python_f2/Ergebnisse_Python_2026-09-25.csv  SHA-256 2d4ce431b64bc209fa71a5f4615dbf828dce4b1eda7967952f75cfb26ec35099
+  Skript: /home/claude/phase6/Bachelorarbeit/Claude/03_Skripte/Gegenprobe_Python_2026-09-25.py  SHA-256 2959ab0c30087bd0a19bfdf4df96ef76877c964cd2473ed42e1e2fb65f2bc189
+
+Lauf beendet ohne Abbruch: 2026-09-25 10:27:45 UTC

@@ -1,0 +1,34 @@
+Datenprüfung Workbook gegen den eingefrorenen Datenstand 2026-09-24
+Skriptfassung 2026-10-01, erste Fassung · Lauf 2026-10-01 16:01:15
+Basisordner: /mnt/user-data/uploads/Bachelorarbeit
+Python 3.11.15 · openpyxl 3.1.5
+
+Eingänge (SHA-256, Größe, Dateizeit der gelesenen Datei in UTC, bei gestagten Kopien die Zeit der Kopie):
+  Statistik/Studiendaten_U15_gesamt.xlsx  86087d35390559ae331794d13020fce7d1a799a67c5b47879da06b39fefd1ac7  125848 B  2026-10-01 12:59
+  SoSci_Fragebogen/data_test546007_2026-08-31_11-37.json  7faf00a66b1bfcdfe78e100c8259b81b426bd797c006d10d756f243c1b5b40ab  50146 B  2026-10-01 13:00
+  SoSci_Fragebogen/Fragebogen Datensatz.txt  8e827b4eee9e637a783df819f4beba737b4f842fcfe0c2e27e86f4f8c264465c  36692 B  2026-10-01 13:00
+  Claude/02_Befunde/Spezifikation_2026-09-24_Vokabular.csv  7afaa01d82dc9f5ca10534a09f916dca5475842caa32e71aad866ba43612860f  748 B  2026-10-01 13:00
+  Claude/02_Befunde/Spezifikation_2026-09-24_Fragebogen.csv  04318c066939248c5feca5077c65a703508a1137738310fdfa68b3a329003f04  2887 B  2026-10-01 13:00
+  Claude/03_Skripte/Datensicherung_Struktur_2026-09-24.py  486736ec1f750065a7034bb394acdd1cedad2076d42c30b00ec1463a4aabdd27  26719 B  2026-10-01 13:00
+  Claude/03_Skripte/Datensicherung_Export_2026-09-24.py  4566b933947f3a2397d58fe7f357c0b87d6d498a6e9378959d69d31644e9b8f5  30145 B  2026-10-01 13:00
+Workbook-Prüfsumme gegen den Stand beim Einfrieren (d7c4ae29…, 110697 B): verschieden, die Datei wurde seither gespeichert. Entscheidend ist der Inhaltsvergleich unten.
+
+Datenstand_2026-09-24, 6 Dateien der Liste gegen Pruefsummen.txt: bestanden
+
+Lauf Datensicherung_Struktur_2026-09-24: Status 0
+Lauf Datensicherung_Export_2026-09-24: Status 0
+  Struktur: Verstöße, an denen die Spezifikation abbricht: 0
+  Struktur: Abbruchprobe bestanden: ja
+  Export: Gegenlesen JSON gegen TXT, elf Spalten (STARTED auf Minutenebene): 0 Abweichungen
+  Export: Rückleseprobe bestanden: ja
+  Export: Abbruchprobe bestanden: ja
+
+Vergleich der Analysedateien (neu aus dem Workbook gegen Datenstand_2026-09-24):
+  Versuchsdaten.csv          bytegleich  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba
+  Personendaten.csv          bytegleich  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef
+  Fragebogen_A.csv           bytegleich  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4
+  Zuordnung_Fragebogen.csv   bytegleich  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa
+  Listenplatz_IG.csv         bytegleich  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8
+  Datenwoerterbuch.md        gleich bis auf das Datum des Datenstands
+
+Urteil: Das Workbook ergibt genau den eingefrorenen Datenstand. Kein neuer Datenstand nötig.

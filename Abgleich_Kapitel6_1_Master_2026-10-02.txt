@@ -1,0 +1,21 @@
+Abgleich_Kapitel6_1_Master_2026-10-02.py
+Master: Master_nach_Einbau_1919.docx MD5 2fda214483ffe46d652cb7b7a8882df9
+Referenz: /mnt/user-data/outputs/einbau61_191845/Bachelorarbeit_Gerüst_v1_AKTUELL.docx MD5 2fda214483ffe46d652cb7b7a8882df9
+Wortlaut: Textvorschlag_6.1_2026-10-02_F2.json 6 Absätze ohne Modul, 0 Modul-Einträge nicht erwartet
+1 comments.xml im Master: nein
+2 Absätze gesamt: Master 188, Referenz 188 · ohne Verzeichnisse und Felder: Master 151, Referenz 151
+  leere Absätze außerhalb der Verzeichnisse: Master 16, Referenz 16
+  nicht leere Absätze: 135, Formatvorlage und Text gleich der Referenz
+3 Abschnitt 6.1: 6 nicht leere Absätze, 0 leere zwischen den Überschriften
+  A1: zeichengleich, 99 Wörter (JSON 99), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A2: zeichengleich, 116 Wörter (JSON 116), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A3: zeichengleich, 131 Wörter (JSON 131), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A4: zeichengleich, 133 Wörter (JSON 133), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A5: zeichengleich, 153 Wörter (JSON 153), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A6: zeichengleich, 68 Wörter (JSON 68), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  Wörter 6.1 im Master: 700 (JSON 700, Budget 700)
+4 Überschriften 6 bis 7: Positionen [135, 136, 143, 144, 145]
+  6.2: 0 nicht leere Absätze · 6.3: 0 nicht leere Absätze (beide erwartet 0 bis Task 12b)
+5 Sprachprüfungen: Semikola außerhalb von Zitierklammern 0 · nummerierte Abschnittsverweise 0 · Sätze über 32 Wörter 0
+
+Ergebnis: ohne Befund

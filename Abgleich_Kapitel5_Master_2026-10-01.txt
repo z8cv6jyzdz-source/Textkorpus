@@ -1,0 +1,21 @@
+Abgleich_Kapitel5_Master_2026-10-01.py
+Master: /mnt/user-data/uploads/Bachelorarbeit/Schreiben/Bachelorarbeit_Gerüst_v1_AKTUELL.docx MD5 53cc8f368769ee3ed3abf57197c740fb
+Referenz: /home/claude/task11/einbau/Master_neu.docx MD5 53cc8f368769ee3ed3abf57197c740fb
+1 comments.xml im Master: nein
+2 Absätze gesamt: Master 194, Referenz 194 · ohne Verzeichnisse und Felder: Master 146, Referenz 146
+  Verzeichnis- und Feldabsätze (nicht verglichen, F9): Master 48, Referenz 48
+  leere Absätze außerhalb der Verzeichnisse: Master 16, Referenz 16
+  nicht leere Absätze: 130, Formatvorlage und Text gleich der Referenz
+3 Kapitel 5: 6 nicht leere Absätze, 0 leere zwischen den Überschriften
+  A1: zeichengleich, 49 Wörter, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A2: zeichengleich, 80 Wörter, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A3: zeichengleich, 66 Wörter, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A4: zeichengleich, 41 Wörter, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A5: zeichengleich, 146 Wörter, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A6: zeichengleich, 68 Wörter, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  Wörter Kapitel 5 im Master: 450 (Textvorschlag 450)
+4 entfernte Überschriften noch im Master: 0
+  Inhaltsverzeichnis: 45 Einträge, davon 12 mit entfernten Überschriften (F9 noch nicht ausgeführt)
+
+Ergebnis: 1 Befunde
+  - Inhaltsverzeichnis führt noch 12 entfernte Überschriften (F9 fehlt)

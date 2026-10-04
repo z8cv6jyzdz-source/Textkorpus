@@ -1,0 +1,88 @@
+Datensicherung, Schritt 1.1 Plausibilitätsprüfung
+Skriptfassung 2026-09-24, Fassung 2 · Lauf 2026-09-24 17:54:00
+Schwellen vorgeschlagen am 24.09.2026 (Variante B), Freigabe durch den Verfasser per Klick am 24.09.2026
+Basisordner: /mnt/user-data/uploads/Bachelorarbeit
+Eingang: Statistik/Studiendaten_U15_gesamt.xlsx  SHA-256 a3f665f83a97fef99e83b1e75c09cef2887f4de279c93e5467ebb536d80da6f7  geändert 2026-09-24 17:15:52
+
+P1 Physiologische Grenzen: Sprint_5m (0.7, 1.8), Sprint_10m (1.4, 3.0), Sprint_30m (3.5, 7.0), COD_505 (1.8, 4.0), Standweitsprung (100, 300)
+P2 Teilzeitenfolge 5 m < 10 m < 30 m je Lauf · P3 Abschnitte: Δt <= 0 oder v > 10.0 m/s (S02), Abschnittsgeschwindigkeit nicht steigend
+P4 Spannweite der Versuche eines Spielers: (Max - Min)/Min > 15 % Zeiten, > 20 % Standweitsprung
+P5 Ausreißer über alle Spieler: |x - Median| > 3.0 x 1,4826 x MAD je Test, Seite und Zeitpunkt
+   COD_505 L post: n 48, Median 2.51, 1,4826·MAD 0.0741, Grenze ±0.2224
+   COD_505 L prä: n 55, Median 2.53, 1,4826·MAD 0.1186, Grenze ±0.3558
+   COD_505 R post: n 40, Median 2.5700000000000003, 1,4826·MAD 0.1112, Grenze ±0.3336
+   COD_505 R prä: n 59, Median 2.54, 1,4826·MAD 0.0890, Grenze ±0.2669
+   Sprint_10m – post: n 38, Median 1.935, 1,4826·MAD 0.1038, Grenze ±0.3113
+   Sprint_10m – prä: n 67, Median 1.9, 1,4826·MAD 0.1186, Grenze ±0.3558
+   Sprint_30m – post: n 65, Median 4.72, 1,4826·MAD 0.2817, Grenze ±0.8451
+   Sprint_30m – prä: n 78, Median 4.6850000000000005, 1,4826·MAD 0.3410, Grenze ±1.0230
+   Sprint_5m – post: n 64, Median 1.1150000000000002, 1,4826·MAD 0.0667, Grenze ±0.2002
+   Sprint_5m – prä: n 53, Median 1.09, 1,4826·MAD 0.0890, Grenze ±0.2669
+   Standweitsprung – post: n 53, Median 229, 1,4826·MAD 14.8260, Grenze ±44.4780
+   Standweitsprung – prä: n 72, Median 231.5, 1,4826·MAD 17.7912, Grenze ±53.3736
+P6 Prä-Post-Änderung des Bestwerts: |Post - Prä|/Prä > 10 % Zeiten, > 15 % Standweitsprung
+P7 Alter und Anthropometrie: Alter_prae (12.0, 16.0), Groesse_prae (140, 200), Gewicht_prae (35, 95), BMI (14.0, 30.0), Groesse_Mutter (145, 190), Groesse_Vater (155, 205)
+P8 Muster: Nachkommastellen, identische Versuchssätze, drei identische Versuche, Wert trotz Systemausfall
+
+==============================================================================
+Markierte Werte: 56 Markierungen
+je Regel: P3 3, P4 7, P5 9, P6 12, P7 2, P8 23
+verschiedene Zellen: 52, Spieler betroffen: 17
+==============================================================================
+P3  VS-06  post Sprint_10m       –  V1  1.54     02_Rohdaten!G977           Abschnitt bis 10 m: Δt 0.420 s, v 11.90 m/s (Lauf nach S02 auslösegestört) (ganzer Lauf markiert)
+P3  VS-06  post Sprint_30m       –  V1  4.5      02_Rohdaten!G980           Abschnitt bis 10 m: Δt 0.420 s, v 11.90 m/s (Lauf nach S02 auslösegestört) (ganzer Lauf markiert)
+P3  VS-06  post Sprint_5m        –  V1  1.12     02_Rohdaten!G974           Abschnitt bis 10 m: Δt 0.420 s, v 11.90 m/s (Lauf nach S02 auslösegestört) (ganzer Lauf markiert)
+P4  HL-02  prä  COD_505          L  V1  2.58     02_Rohdaten!G230           Spannweite 15.2 % (Werte 2.58, 2.27, 2.24), am weitesten vom Median: Versuch 1
+P4  HL-02  prä  COD_505          L  V2  2.27     02_Rohdaten!G231           Spannweite 15.2 % (Werte 2.58, 2.27, 2.24), am weitesten vom Median: Versuch 1
+P4  HL-02  prä  COD_505          L  V3  2.24     02_Rohdaten!G232           Spannweite 15.2 % (Werte 2.58, 2.27, 2.24), am weitesten vom Median: Versuch 1
+P4  VS-06  post Sprint_10m       –  V1  1.54     02_Rohdaten!G977           Spannweite 25.3 % (Werte 1.54, 1.93), am weitesten vom Median: Versuch 2
+P4  VS-06  post Sprint_10m       –  V2  1.93     02_Rohdaten!G978           Spannweite 25.3 % (Werte 1.54, 1.93), am weitesten vom Median: Versuch 2
+P4  VS-17  post Sprint_5m        –  V1  1.35     02_Rohdaten!G1082          Spannweite 19.5 % (Werte 1.35, 1.13), am weitesten vom Median: Versuch 1
+P4  VS-17  post Sprint_5m        –  V2  1.13     02_Rohdaten!G1083          Spannweite 19.5 % (Werte 1.35, 1.13), am weitesten vom Median: Versuch 1
+P5  HL-02  prä  COD_505          R  V2  2.15     02_Rohdaten!G234           Abweichung vom Median 2.54 um -0.390 (Grenze 0.267)
+P5  HL-02  prä  COD_505          R  V3  2.25     02_Rohdaten!G235           Abweichung vom Median 2.54 um -0.290 (Grenze 0.267)
+P5  VS-03  prä  COD_505          R  V2  2.85     02_Rohdaten!G378           Abweichung vom Median 2.54 um 0.310 (Grenze 0.267)
+P5  VS-03  prä  COD_505          R  V3  2.83     02_Rohdaten!G379           Abweichung vom Median 2.54 um 0.290 (Grenze 0.267)
+P5  VS-06  post COD_505          L  V1  2.24     02_Rohdaten!G986           Abweichung vom Median 2.51 um -0.270 (Grenze 0.222)
+P5  VS-06  post Sprint_10m       –  V1  1.54     02_Rohdaten!G977           Abweichung vom Median 1.935 um -0.395 (Grenze 0.311)
+P5  VS-08  post COD_505          L  V1  2.75     02_Rohdaten!G1022          Abweichung vom Median 2.51 um 0.240 (Grenze 0.222)
+P5  VS-08  post COD_505          L  V2  2.77     02_Rohdaten!G1023          Abweichung vom Median 2.51 um 0.260 (Grenze 0.222)
+P5  VS-17  post Sprint_5m        –  V1  1.35     02_Rohdaten!G1082          Abweichung vom Median 1.1150000000000002 um 0.235 (Grenze 0.200)
+P6  HL-02  post Sprint_5m        –  V1  1.01     02_Rohdaten!G776           Bestwert prä 0.87, post 1.01, Änderung +16.1 % (beide Bestwerte markiert)
+P6  HL-02  prä  Sprint_5m        –  V2  0.87     02_Rohdaten!G219           Bestwert prä 0.87, post 1.01, Änderung +16.1 % (beide Bestwerte markiert)
+P6  HL-05  post Sprint_5m        –  V3  1.07     02_Rohdaten!G814           Bestwert prä 0.97, post 1.07, Änderung +10.3 % (beide Bestwerte markiert)
+P6  HL-05  prä  Sprint_5m        –  V3  0.97     02_Rohdaten!G256           Bestwert prä 0.97, post 1.07, Änderung +10.3 % (beide Bestwerte markiert)
+P6  HL-08  post Sprint_5m        –  V1  1.07     02_Rohdaten!G866           Bestwert prä 0.93, post 1.07, Änderung +15.1 % (beide Bestwerte markiert)
+P6  HL-08  prä  Sprint_5m        –  V3  0.93     02_Rohdaten!G310           Bestwert prä 0.93, post 1.07, Änderung +15.1 % (beide Bestwerte markiert)
+P6  VS-01  post Sprint_5m        –  V2  1.21     02_Rohdaten!G885           Bestwert prä 1.09, post 1.21, Änderung +11.0 % (beide Bestwerte markiert)
+P6  VS-01  prä  Sprint_5m        –  V3  1.09     02_Rohdaten!G328           Bestwert prä 1.09, post 1.21, Änderung +11.0 % (beide Bestwerte markiert)
+P6  VS-02  post Sprint_5m        –  V3  1.24     02_Rohdaten!G904           Bestwert prä 1.12, post 1.24, Änderung +10.7 % (beide Bestwerte markiert)
+P6  VS-02  prä  Sprint_5m        –  V3  1.12     02_Rohdaten!G346           Bestwert prä 1.12, post 1.24, Änderung +10.7 % (beide Bestwerte markiert)
+P6  VS-06  post Sprint_10m       –  V1  1.54     02_Rohdaten!G977           Bestwert prä 1.78, post 1.54, Änderung -13.5 % (beide Bestwerte markiert)
+P6  VS-06  prä  Sprint_10m       –  V3  1.78     02_Rohdaten!G421           Bestwert prä 1.78, post 1.54, Änderung -13.5 % (beide Bestwerte markiert)
+P7  VS-18  prä  Gewicht_prä_kg   –  V   ?        01_Personen!J31            Gewicht_prä_kg ist Text: '?'
+P7  VS-18  prä  Größe_prä_cm     –  V   ?        01_Personen!I31            Größe_prä_cm ist Text: '?'
+P8  BW-10  prä  COD_505          R  V1  2.6      02_Rohdaten!G161           identischer Versuchssatz bei BW-10, BW-21 (Werte 2.52, 2.6)
+P8  BW-10  prä  COD_505          R  V2  2.52     02_Rohdaten!G162           identischer Versuchssatz bei BW-10, BW-21 (Werte 2.52, 2.6)
+P8  BW-11  prä  Sprint_10m       –  V1  2.07     02_Rohdaten!G167           identischer Versuchssatz bei BW-11, VS-07 (Werte 2.06, 2.07)
+P8  BW-11  prä  Sprint_10m       –  V2  2.06     02_Rohdaten!G168           identischer Versuchssatz bei BW-11, VS-07 (Werte 2.06, 2.07)
+P8  BW-21  prä  COD_505          R  V1  2.6      02_Rohdaten!G197           identischer Versuchssatz bei BW-10, BW-21 (Werte 2.52, 2.6)
+P8  BW-21  prä  COD_505          R  V2  2.52     02_Rohdaten!G198           identischer Versuchssatz bei BW-10, BW-21 (Werte 2.52, 2.6)
+P8  HL-06  post Sprint_10m       –  V1  1.88     02_Rohdaten!G833           drei identische Versuche
+P8  HL-06  post Sprint_10m       –  V2  1.88     02_Rohdaten!G834           drei identische Versuche
+P8  HL-06  post Sprint_10m       –  V3  1.88     02_Rohdaten!G835           drei identische Versuche
+P8  HL-06  post Standweitsprung  –  V1  231      02_Rohdaten!G839           identischer Versuchssatz bei HL-06, HL-07 (Werte 231, 243)
+P8  HL-06  post Standweitsprung  –  V2  243      02_Rohdaten!G840           identischer Versuchssatz bei HL-06, HL-07 (Werte 231, 243)
+P8  HL-07  post Standweitsprung  –  V1  231      02_Rohdaten!G857           identischer Versuchssatz bei HL-06, HL-07 (Werte 231, 243)
+P8  HL-07  post Standweitsprung  –  V2  243      02_Rohdaten!G858           identischer Versuchssatz bei HL-06, HL-07 (Werte 231, 243)
+P8  VS-04  post COD_505          L  V1  2.52     02_Rohdaten!G950           identischer Versuchssatz bei VS-04, VS-18 (Werte 2.52, 2.52)
+P8  VS-04  post COD_505          L  V2  2.52     02_Rohdaten!G951           identischer Versuchssatz bei VS-04, VS-18 (Werte 2.52, 2.52)
+P8  VS-04  prä  Sprint_10m       –  V1  2.05     02_Rohdaten!G383           identischer Versuchssatz bei VS-04, VS-18 (Werte 2, 2.05)
+P8  VS-04  prä  Sprint_10m       –  V3  2        02_Rohdaten!G385           identischer Versuchssatz bei VS-04, VS-18 (Werte 2, 2.05)
+P8  VS-07  prä  Sprint_10m       –  V1  2.06     02_Rohdaten!G437           identischer Versuchssatz bei BW-11, VS-07 (Werte 2.06, 2.07)
+P8  VS-07  prä  Sprint_10m       –  V2  2.07     02_Rohdaten!G438           identischer Versuchssatz bei BW-11, VS-07 (Werte 2.06, 2.07)
+P8  VS-18  post COD_505          L  V1  2.52     02_Rohdaten!G1112          identischer Versuchssatz bei VS-04, VS-18 (Werte 2.52, 2.52)
+P8  VS-18  post COD_505          L  V2  2.52     02_Rohdaten!G1113          identischer Versuchssatz bei VS-04, VS-18 (Werte 2.52, 2.52)
+P8  VS-18  prä  Sprint_10m       –  V2  2.05     02_Rohdaten!G546           identischer Versuchssatz bei VS-04, VS-18 (Werte 2, 2.05)
+P8  VS-18  prä  Sprint_10m       –  V3  2        02_Rohdaten!G547           identischer Versuchssatz bei VS-04, VS-18 (Werte 2, 2.05)
+Arbeitsliste geschrieben: /home/claude/phase1/04_Uebergaben/Belegpruefung_2026-09-24.xlsx (Blatt Markierte_Werte, 52 Zeilen, eine je Zelle)

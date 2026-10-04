@@ -1,0 +1,136 @@
+====================================================================================================
+B5 DESKRIPTIVE STATISTIK — Stichprobe, Baseline (ohne Signifikanztests, § 4), Prä→Post innerhalb der IG
+Skript: Auswertung_B5_Deskriptiv_2026-09-12.py · Lauf: 2026-09-15 20:23 · Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx
+====================================================================================================
+
+1  STICHPROBENCHARAKTERISTIKA (01_Personen)
+Merkmal         Gruppe     n        M      SD     Min     Max
+Alter (J.)      IG        18    15.06    0.27   14.57   15.49
+Alter (J.)        A        7    15.15    0.29   14.57   15.48
+Alter (J.)        B       11    15.00    0.25   14.60   15.49
+Alter (J.)      KG        13    14.01    0.30   13.71   14.49
+Größe (cm)      IG        18   173.44   10.19  148.00  195.00
+Größe (cm)        A        7   179.00    7.70  170.00  195.00
+Größe (cm)        B       11   169.91   10.28  148.00  189.00
+Größe (cm)      KG        12   168.00    6.25  158.00  183.00
+Gewicht (kg)    IG        18    60.01   10.12   44.00   85.10
+Gewicht (kg)      A        7    67.47    8.38   61.10   85.10
+Gewicht (kg)      B       11    55.25    8.26   44.00   66.90
+Gewicht (kg)    KG        12    52.82    6.93   43.60   65.00
+%PAH            IG        18    94.31    2.90   86.65   98.19
+%PAH              A        7    96.37    1.31   94.39   98.19
+%PAH              B       11    93.00    2.89   86.65   97.17
+%PAH            KG        12    89.98    2.79   85.92   95.02
+  Geburtsjahrgänge: {'IG': {2011: 18}, 'KG': {2012: 13}}
+  Reifeband (deskriptiv, § 2): {'IG': {'90–95': 9, '>95': 8, '<90': 1}, 'KG': {'90–95': 5, '<90': 6, '>95': 1, 'None': 1}}
+  %PAH-Überlappungsbereich 86.65–95.02: IG 10/18 · KG 11/12 Spieler im Bereich; d = +1.52
+  Alter: IG 14.57–15.49 · KG 13.71–14.49 → überlappt nicht (als Kovariate ungeeignet, § 3)
+  Fassung 9 § 3: %PAH IG (n = 17) 94,30 ± 2,99 · KG (n = 11) 89,73 ± 2,79 · Überlappung 86,65–95,02 (9 IG, 10 KG) — IG-Zahlen überholt (HL-08 jetzt vorhanden).
+
+2  BASELINE — BESTWERT (Hauptaggregation). d = (M_IG − M_KG) / gepoolte SD; negativ bei Zeiten = IG schneller. KEINE Signifikanztests (§ 4).
+  Bezugsmenge: alle Spieler mit Prä-Wert (Baseline-Tabelle 5.1)
+Zielgröße  n IG     M IG   SD IG n KG     M KG   SD KG    Diff      d        gem. Bereich IG im Ber. KG im Ber.
+5m           18    1.051   0.079    8    1.136   0.040  -0.085  -1.22         1.090–1.180       6/18        7/8
+10m          18    1.848   0.098   13    1.966   0.080  -0.118  -1.29         1.780–2.060      15/18      12/13
+30m          18    4.526   0.235   13    4.932   0.251  -0.407  -1.68         4.450–5.000      13/18       8/13
+505L         17    2.466   0.108   12    2.543   0.112  -0.077  -0.70         2.350–2.700      16/17      11/12
+505R         17    2.477   0.111   12    2.497   0.129  -0.020  -0.17         2.290–2.670      16/17      11/12
+505M         16    2.467   0.093   11    2.525   0.105  -0.058  -0.60         2.320–2.610      15/16       9/11
+SBJ          18    237.4    12.8   13    224.5    18.7    13.0   0.84         207.0–255.0      18/18       9/13
+  Bezugsmenge: ANCOVA-Set: prä + %PAH; IG zusätzlich mit Post-Wert (Q-Rechnung der Fallzahlbegründung)
+Zielgröße  n IG     M IG   SD IG n KG     M KG   SD KG    Diff      d        gem. Bereich IG im Ber. KG im Ber.
+5m           16    1.046   0.081    8    1.136   0.040  -0.090  -1.27         1.090–1.180       5/16        7/8
+10m           7    1.770   0.076   12    1.963   0.083  -0.193  -2.40         1.780–1.870        4/7       2/12
+30m          16    4.511   0.209   12    4.921   0.259  -0.410  -1.77         4.450–4.890      12/16       4/12
+505L         15    2.455   0.095   11    2.537   0.115  -0.083  -0.80         2.350–2.690      14/15      10/11
+505R         14    2.471   0.122   12    2.497   0.129  -0.025  -0.20         2.290–2.670      13/14      11/12
+505M         13    2.456   0.094   11    2.525   0.105  -0.069  -0.70         2.320–2.575      12/13       7/11
+SBJ          16    237.8    12.9   12    225.8    18.9    12.0   0.76         207.0–255.0      16/16       8/12
+  Fassung 9 § 3 (alle Fälle mit Bestwert): 5 m 1,05±0,08 vs 1,14±0,04 d −1,22 · 10 m 1,85±0,10 vs 1,97±0,08 d −1,29 · 30 m 4,53±0,23 vs 4,93±0,25 d −1,68 ·
+     SBJ 237±13 vs 224±19 d 0,84 · 505 L 2,47±0,11 vs 2,54±0,11 d −0,70 · 505 R 2,48±0,11 vs 2,50±0,13 d −0,17. Q-Rechnung: −1,070 / −1,169 / −1,512 / +0,603 / −0,471 / −0,062.
+  Überlappung § 3 (IG-Spieler im gemeinsamen Bereich): 5 m 6/17 · 10 m 14/17 · 30 m 12/17 · SBJ 17/17 · 505 L 13/16 · 505 R 15/16 (auf n = 17 gerechnet).
+
+3  BASELINE — MITTELWERT DER VERSUCHE (Sensitivitätsaggregation § 11.8)
+  Bezugsmenge: alle Spieler mit Prä-Wert (Baseline-Tabelle 5.1)
+Zielgröße  n IG     M IG   SD IG n KG     M KG   SD KG    Diff      d        gem. Bereich IG im Ber. KG im Ber.
+5m           18    1.078   0.069    8    1.157   0.040  -0.079  -1.27         1.090–1.195       7/18        7/8
+10m          18    1.870   0.089   13    1.986   0.083  -0.116  -1.33         1.815–2.065      14/18      12/13
+30m          18    4.560   0.230   13    4.981   0.243  -0.421  -1.79         4.477–5.030      12/18       8/13
+505L         17    2.500   0.096   12    2.591   0.102  -0.090  -0.92         2.425–2.710      13/17      10/12
+505R         17    2.523   0.104   12    2.547   0.126  -0.023  -0.21         2.405–2.695      16/17      11/12
+505M         16    2.507   0.083   11    2.574   0.104  -0.067  -0.73         2.415–2.635      15/16       7/11
+SBJ          18    233.2    12.9   13    221.2    19.1    12.0   0.76         201.5–250.0      17/18      11/13
+  Bezugsmenge: ANCOVA-Set: prä + %PAH; IG zusätzlich mit Post-Wert (Q-Rechnung der Fallzahlbegründung)
+Zielgröße  n IG     M IG   SD IG n KG     M KG   SD KG    Diff      d        gem. Bereich IG im Ber. KG im Ber.
+5m           16    1.076   0.072    8    1.157   0.040  -0.082  -1.29         1.090–1.195       6/16        7/8
+10m           7    1.800   0.063   12    1.982   0.086  -0.182  -2.32         1.815–1.870        4/7       2/12
+30m          16    4.547   0.201   12    4.968   0.249  -0.422  -1.89         4.477–4.895      11/16       3/12
+505L         15    2.488   0.084   11    2.589   0.107  -0.100  -1.07         2.425–2.690      11/15       9/11
+505R         14    2.520   0.115   12    2.547   0.126  -0.026  -0.22         2.405–2.695      13/14      11/12
+505M         13    2.497   0.085   11    2.574   0.104  -0.077  -0.82         2.415–2.607      12/13       7/11
+SBJ          16    233.1    13.0   12    222.6    19.3    10.6   0.66         201.5–250.0      15/16      10/12
+
+4  PRÄ → POST INNERHALB DER IG — deskriptiv, gepaart; KEIN Gruppenvergleich (KG-Post steht aus)
+  Δ = post − prä je Spieler; Vorzeichen: Zeiten negativ = schneller, Standweitsprung positiv = weiter. 95-%-KI des Mittels der Δ (t-Verteilung).
+
+  Aggregation: Bestwert
+Zielgröße Menge   n    M prä  SD prä   M post SD post      M Δ    SD Δ            95%-KI Δ Δ/SD_prä verb./gleich/schl.
+5m        A       7    0.983   0.065    1.063   0.031    0.080   0.059     0.026 bis 0.134     1.23              1/0/6
+5m        B       9    1.096   0.054    1.088   0.047   -0.008   0.039    -0.037 bis 0.022    -0.14              4/2/3
+5m        IG     16    1.046   0.081    1.077   0.042    0.031   0.065    -0.004 bis 0.065     0.38              5/2/9
+10m       A       7    1.770   0.076    1.867   0.070    0.097   0.018     0.081 bis 0.114     1.28              0/0/7
+10m       B       0   —
+10m       IG      7    1.770   0.076    1.867   0.070    0.097   0.018     0.081 bis 0.114     1.28              0/0/7
+30m       A       7    4.384   0.201    4.496   0.212    0.111   0.104     0.015 bis 0.208     0.56              1/0/6
+30m       B       9    4.609   0.163    4.621   0.149    0.012   0.049    -0.025 bis 0.050     0.07              3/1/5
+30m       IG     16    4.511   0.209    4.566   0.184    0.056   0.091     0.007 bis 0.104     0.27             4/1/11
+505L      A       6    2.413   0.090    2.447   0.095    0.033   0.089    -0.060 bis 0.127     0.37              1/0/5
+505L      B       9    2.482   0.092    2.460   0.073   -0.022   0.083    -0.086 bis 0.041    -0.24              4/0/5
+505L      IG     15    2.455   0.095    2.455   0.080   -0.000   0.087    -0.048 bis 0.048    -0.00             5/0/10
+505R      A       7    2.406   0.121    2.423   0.115    0.017   0.105    -0.080 bis 0.114     0.14              3/0/4
+505R      B       7    2.537   0.087    2.543   0.082    0.006   0.049    -0.040 bis 0.051     0.07              3/0/4
+505R      IG     14    2.471   0.122    2.483   0.115    0.011   0.079    -0.034 bis 0.057     0.09              6/0/8
+505M      A       6    2.408   0.108    2.444   0.092    0.036   0.083    -0.051 bis 0.123     0.33              2/0/4
+505M      B       7    2.496   0.062    2.495   0.067   -0.001   0.050    -0.047 bis 0.044    -0.02              3/0/4
+505M      IG     13    2.456   0.094    2.472   0.081    0.016   0.067    -0.025 bis 0.056     0.17              5/0/8
+SBJ       A       7    244.3     8.1    237.4     9.9     -6.9     7.1      -13.4 bis -0.3    -0.84              1/2/4
+SBJ       B       9    232.7    14.0    230.1    16.3     -2.6     5.3        -6.7 bis 1.6    -0.18              2/0/7
+SBJ       IG     16    237.8    12.9    233.3    13.9     -4.4     6.4       -7.8 bis -1.1    -0.34             3/2/11
+
+  Aggregation: Mittelwert der Versuche
+Zielgröße Menge   n    M prä  SD prä   M post SD post      M Δ    SD Δ            95%-KI Δ Δ/SD_prä verb./gleich/schl.
+5m        A       7    1.020   0.052    1.093   0.045    0.073   0.051     0.026 bis 0.121     1.41              1/0/6
+5m        B       9    1.119   0.053    1.101   0.045   -0.018   0.038    -0.046 bis 0.011    -0.33              7/0/2
+5m        IG     16    1.076   0.072    1.098   0.043    0.022   0.063    -0.011 bis 0.056     0.31              8/0/8
+10m       A       7    1.800   0.063    1.889   0.069    0.089   0.025     0.066 bis 0.112     1.42              0/0/7
+10m       B       0   —
+10m       IG      7    1.800   0.063    1.889   0.069    0.089   0.025     0.066 bis 0.112     1.42              0/0/7
+30m       A       7    4.421   0.193    4.576   0.169    0.155   0.128     0.037 bis 0.273     0.80              1/0/6
+30m       B       9    4.644   0.154    4.641   0.144   -0.003   0.064    -0.052 bis 0.047    -0.02              6/0/3
+30m       IG     16    4.547   0.201    4.613   0.154    0.066   0.124     0.000 bis 0.132     0.33              7/0/9
+505L      A       6    2.448   0.056    2.476   0.088    0.027   0.077    -0.053 bis 0.108     0.49              3/0/3
+505L      B       9    2.515   0.092    2.482   0.061   -0.033   0.087    -0.100 bis 0.034    -0.36              6/0/3
+505L      IG     15    2.488   0.084    2.479   0.070   -0.009   0.086    -0.057 bis 0.039    -0.11              9/0/6
+505R      A       7    2.474   0.125    2.454   0.136   -0.020   0.113    -0.124 bis 0.084    -0.16              3/0/4
+505R      B       7    2.567   0.089    2.569   0.083    0.002   0.064    -0.057 bis 0.061     0.02              5/0/2
+505R      IG     14    2.520   0.115    2.511   0.124   -0.009   0.089    -0.060 bis 0.042    -0.08              8/0/6
+505M      A       6    2.461   0.092    2.477   0.101    0.016   0.052    -0.039 bis 0.071     0.18              2/0/4
+505M      B       7    2.529   0.070    2.521   0.063   -0.007   0.062    -0.064 bis 0.050    -0.10              4/0/3
+505M      IG     13    2.497   0.085    2.501   0.082    0.004   0.056    -0.030 bis 0.038     0.04              6/0/7
+SBJ       A       7    238.8     8.9    234.1     8.0     -4.7     7.1       -11.3 bis 1.9    -0.53              1/0/6
+SBJ       B       9    228.7    14.4    226.4    14.2     -2.4     5.4        -6.5 bis 1.8    -0.16              3/0/6
+SBJ       IG     16    233.1    13.0    229.8    12.2     -3.4     6.1       -6.6 bis -0.1    -0.26             4/0/12
+  Datendurchsicht Tab. 2 (Bestwert): A 5 m +0,080 · 10 m +0,097 · 30 m +0,111 · SBJ −6,86 · 505 L +0,033 (n 6) · 505 R +0,017; B 5 m −0,008 · 30 m +0,012 · SBJ −2,56 · 505 L −0,022 · 505 R +0,006 (n 7).
+  ⚠ Diese Zahlen sind keine Interventionseffekte (kein Vergleich, Belastungslage der Post-Termine ungleich, Datendurchsicht § 3).
+
+5  FEHLENDE %PAH-FÄLLE (VS-11, VS-18) — Wirkung auf den Baseline-Unterschied (§ 12 Nr. 18)
+Zielgröße  KG-Rang VS-11 KG-Rang VS-18 d mit beiden d ohne beide     Δd
+5m                   7/8 — (kein Wert)       -1.221       -1.118 +0.103
+10m                 6/13         10/13       -1.294       -1.215 +0.078
+30m                10/13         11/13       -1.682       -1.551 +0.132
+505L               12/12          9/12       -0.704       -0.479 +0.225
+505R               11/12 — (kein Wert)       -0.166       -0.056 +0.109
+505M               11/11 — (kein Wert)       -0.597       -0.445 +0.152
+SBJ                12/13         10/13        0.836        0.640 -0.196
+  Rang 1 = bester Wert der KG. § 12 Nr. 18 [EXTRAPOLATION]: „bei allen sechs Zielgrößen schrumpft der Baseline-Unterschied ohne diese Fälle“ — hier geprüft.
+  Der Ausfall ist nicht neutral, wenn beide zur schwächeren KG-Hälfte gehören: Der Vergleich ohne sie stellt der IG eine leistungsstärkere KG gegenüber (konservativ für die IG).

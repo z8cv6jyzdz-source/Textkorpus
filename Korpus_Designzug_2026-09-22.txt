@@ -1,0 +1,16 @@
+Lloyd 2016 (JSCR)            Sätze  5  Wörter  122
+Hammami 2016 (JSCR)          Sätze  5  Wörter  180
+Beato 2018 (JSCR)            Sätze  5  Wörter   87
+Negra 2019 (IJSPP)           Sätze  4  Wörter   98
+Negra 2020 (JSHS)            Sätze  4  Wörter   63
+Aloui 2022 (Front Physiol)   Sätze  4  Wörter  100
+Liu 2024 (JSSM)              Sätze  9  Wörter  194
+Moran 2024 (PLOS ONE)        Sätze  4  Wörter   86
+Sammoud 2024 (BMC)           Sätze  7  Wörter  176
+Bouafif 2026 (PLOS ONE)      Sätze  5  Wörter  132
+Padrón-Cabo 2025 (JSCR)      Sätze  4  Wörter   95
+Hilska 2021 (OJSM)           Sätze  8  Wörter  180
+Asimakidis 2022 (IJERPH)     Sätze  4  Wörter  123
+
+n = 13 · Mittel 126 · Median 122 · Min 63 · Max 194 · SD 43
+Kernkorpus R1 (10 Interventionsstudien): Mittel 124 · Median 111 · Min 63 · Max 194

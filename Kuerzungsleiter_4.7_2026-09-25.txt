@@ -1,0 +1,17 @@
+Fassung A: 839 Wörter
+K1: −18 · Analyseeinheit (F14 § 4, TREND-Satz) nach 6.2 G2
+K2: −8 · Sprachregelung, trägt 6.1 Eröffnung
+K3: −28 · Box-6-Klassen (4.7.3 P/E), stehen in Abb. 1
+K4: −8 · CONSORT 16 Regel, Nenner in Tab. 3
+K5: −19 · R14 nach 4.3 (Methode des Reifestatus), Vormerkung
+K6: −10 · R12 Handprobe, in K12 als Halbsatz erhalten
+K7: −14 · Bootstrap-Einzelheiten nach Anhang G
+K8: −12 · MDES-Definition, steht in 6.2 G1 und Anhang G
+K9: −10 · Konfundierung der Familiarisierung nach 6.3 G7
+K10: −9 · Tab. H5 in 5.1 einführen (Adhärenz), Vormerkung
+K11: −10 · Berichtsangaben der Poweranalyse (4.7.8) nach Anhang G
+K12: −61 · Daten- und Rechenprüfung ausgelagert: R9, R11, R13 und R14 nach Anhang G, Tab. H6 und 4.3
+K13: −22 · Vorab-Prüfung (K-07.2) und Familiarisierung Variante a (K-08.11) in die Anmerkung zu Tab. H4
+K14: −18 · Power bei Vorab-Erwartungen (K-09), Methode für 6.2 G1
+Empfehlung (A ohne K5, K7, K8, K10, K12, K13): 721
+Kurz (A ohne K1 bis K14, K6 in K12 enthalten): 621

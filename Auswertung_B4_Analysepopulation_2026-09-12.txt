@@ -1,0 +1,110 @@
+====================================================================================================
+B4 ANALYSEPOPULATION, NENNER, TEILNEHMERFLUSS
+Skript: Auswertung_B4_Analysepopulation_2026-09-12.py · Lauf: 2026-09-15 20:23 · Workbook: /mnt/user-data/uploads/Bachelorarbeit/Statistik/Studiendaten_U15_gesamt.xlsx
+====================================================================================================
+
+1  TEILNEHMERFLUSS (Teilnehmerebene)
+Codes in 01_Personen und 02_Rohdaten identisch: 31
+  IG: zugeteilt 18 (A 7, B 11) · prä mit ≥ 1 gültigem Wert 18 · post mit ≥ 1 gültigem Wert 16
+     Status „ausgewertet“: 16
+     Status „Post-Testung nicht angetreten – bei der Testeinheit nicht anwesend; kein Post-Wert, nicht auswertbar“: 2  → BW-07, BW-21
+  KG: zugeteilt 13 (C 13) · prä mit ≥ 1 gültigem Wert 13 · post mit ≥ 1 gültigem Wert 11
+     Status „Post-Testung ausstehend (Termin 15.09.2026)“: 13
+  Vor der Zuteilung ausgeschiedene Spieler (VS-09 entfernt; VS-12–VS-15 laut 00_Hinweise ohne Rohdaten) stehen NICHT im Workbook —
+  Zahl und Gründe für das Flussdiagramm (CONSORT Item 13a: „assessed / excluded“) sind vom Verfasser nachzuliefern. ⟨offen⟩
+  Sprachregel (Datendurchsicht § 1, CONSORT Box 6): BW-07, BW-21 = „zur Post-Testung nicht angetreten“ — kein Ausschluss, keine Fortschreibung (§ 11.7).
+
+2  KOVARIATE %PAH
+  IG: %PAH vorhanden 18 von 18
+  KG: %PAH vorhanden 12 von 13; fehlt: VS-18 (Größe/Gewicht „?“ · Alter außerhalb Koeffizientenbereich (§ 3))
+  Fassung 9 § 3: „%PAH 28/31, fehlend HL-08, VS-11, VS-18“ → überholt: HL-08 liegt vor (Elterngrößen nachgereicht), N mit %PAH = 29 (IG 18 / KG 11).
+
+3  NENNER JE GRUPPE UND ZIELGRÖSSE (CONSORT Item 16)
+Spalten: prä = Bestwert prä · post = Bestwert post · gepaart = prä und post · ANCOVA = gepaart und %PAH (Analyseset Hauptanalyse)
+KG-Post steht aus (15.09.2026): KG-Spalten post/gepaart/ANCOVA zeigen die maximal erreichbare Zahl (prä und %PAH vorhanden) in Klammern.
+Zielgröße   IG prä IG post IG gep.  IG ANC  KG prä KG post  KG gep.   KG ANC
+5m              18      16      16      16       8     (8)      (8)      (8)
+10m             18       7       7       7      13    (13)     (13)     (12)
+30m             18      16      16      16      13    (13)     (13)     (12)
+505L            17      16      15      15      12    (12)     (12)     (11)
+505R            17      15      14      14      12    (12)     (12)     (12)
+505M            16      15      13      13      11    (11)     (11)     (11)
+SBJ             18      16      16      16      13    (13)     (13)     (12)
+  Datendurchsicht Tab. 5 (11.09.): IG 16 / 7 / 16 / 16 / 15 / 14 · KG (max.) 7 / 11 / 11 / 10 / 11 / 11 — Reihenfolge 5m, 10m, 30m, SBJ, 505L, 505R
+  Fassung 9 § 3 rechnete mit IG 17 (%PAH fehlte bei HL-08) — überholt.
+
+  Fehlende IG-Fälle je Zielgröße (gepaart) — Codes und Grund:
+   5m   : BW-07 (nicht angetreten), BW-21 (nicht angetreten)
+   10m  : BW-01 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-02 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-04 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-05 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-06 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-07 (nicht angetreten), BW-08 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-09 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-10 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-11 (kein gültiger Post-Wert: System falsch aufgenommen×3), BW-21 (nicht angetreten)
+   30m  : BW-07 (nicht angetreten), BW-21 (nicht angetreten)
+   505L : BW-07 (nicht angetreten), BW-21 (nicht angetreten), HL-07 (kein gültiger Prä-Wert)
+   505R : BW-05 (kein gültiger Post-Wert: Fehlversuch×2; Nur 2 Versuche aus Zeitmangel×1), BW-07 (nicht angetreten), BW-11 (kein gültiger Prä-Wert), BW-21 (nicht angetreten)
+   505M : BW-05 (kein gültiger Post-Wert: ), BW-07 (nicht angetreten), BW-11 (kein gültiger Prä-Wert), BW-21 (nicht angetreten), HL-07 (kein gültiger Prä-Wert)
+   SBJ  : BW-07 (nicht angetreten), BW-21 (nicht angetreten)
+
+4  VIER AUSSCHLUSSKLASSEN NACH CONSORT BOX 6 (§ 11.7) — getrennt behandeln
+  a) Nichteinhaltung (nur für die Per-Protokoll-Rechnung relevant; ITT behält alle): HL-04 alt = ? · BW-01 (keine Meldung) und alle unter der Mindestdosis — Fallliste in B0/B9.
+     ⚠ Codeschema: „HL-04“ in § 11.7 ist ein Code des Fragebogens (altes Schema). Im Workbook existiert HL-04 nicht (Codes HL-01, -02, -03, -05, -06, -07, -08).
+     Die Zuordnung Fragebogen ↔ Workbook läuft über die Konkordanz alt→neu (B0-Mindestdosis, Rechnung a). Vor jeder Per-Protokoll-Rechnung zu klären.
+  b) Instrumentenfehler: BW-11 neu / BW-21 alt stand in der Auswahlliste des Fragebogens nicht zur Verfügung → bleibt in JEDER Analyse (kein Ausschluss).
+  c) Fehlende Kovariate: VS-11 (kein Geburtsdatum), VS-18 (Alter außerhalb des Khamis-Roche-Koeffizientenbereichs; Größe/Gewicht „?“) → fehlen im ANCOVA-Set;
+     Verzerrungsrisiko benennen (§ 12 Nr. 18: beide gehören in der KG zur schwächeren Hälfte) — Prüfung in B5.
+  d) Versuchsausschluss (unterhalb der Teilnehmerebene, B1): kein Teilnehmerausschluss; Nenner je Zielgröße fallen auseinander (Tabelle oben).
+  Nicht angetreten (BW-07, BW-21): keine der vier Klassen — Ausfall bei der Nacherhebung, im Flussdiagramm gesondert.
+
+5  FALLZAHLUNTERGRENZE § 11.9 (n ≥ 8 je Gruppe für Inferenzstatistik) — Regel vorab, nicht Datenlage
+   5m   : IG 16 · KG max.  8 → inferenzstatistisch (ANCOVA) möglich
+   10m  : IG  7 · KG max. 12 → NUR DESKRIPTIV (n < 8 in IG)
+   30m  : IG 16 · KG max. 12 → inferenzstatistisch (ANCOVA) möglich
+   505L : IG 15 · KG max. 11 → inferenzstatistisch (ANCOVA) möglich
+   505R : IG 14 · KG max. 12 → inferenzstatistisch (ANCOVA) möglich
+   505M : IG 13 · KG max. 11 → inferenzstatistisch (ANCOVA) möglich
+   SBJ  : IG 16 · KG max. 12 → inferenzstatistisch (ANCOVA) möglich
+   COD-Defizit (505 − 10 m, § 11.2): benötigt 10-m-Post → IG n = 7 → nur deskriptiv / entfällt (Datendurchsicht § 2).
+   Die KG-Zahlen sind Obergrenzen; nach dem 15.09. neu prüfen. Konfirmatorisch (Auswertungsplan 12.09.): 30 m, 505M, SBJ; 505 L/R nur deskriptiv.
+   Der Ethikantrag sieht keine primäre Zielgröße vor (H1: „mindestens einer der erhobenen Parameter“); nach § 11.1 hat allein der SBJ ausreichende Sensitivität → 6.1.
+
+6  ATTRITION UND TESTEX-KRITERIUM „Outcome bei ≥ 85 % der Teilnehmer“
+  IG: Teilnehmerebene post 16/18 = 88.9 %
+     5m    gepaart 16/18 =  88.9 % → ≥ 85 %
+     10m   gepaart  7/18 =  38.9 % → < 85 % (TESTEX-Punkt nicht erfüllt)
+     30m   gepaart 16/18 =  88.9 % → ≥ 85 %
+     505L  gepaart 15/18 =  83.3 % → < 85 % (TESTEX-Punkt nicht erfüllt)
+     505R  gepaart 14/18 =  77.8 % → < 85 % (TESTEX-Punkt nicht erfüllt)
+     505M  gepaart 13/18 =  72.2 % → < 85 % (TESTEX-Punkt nicht erfüllt)
+     SBJ   gepaart 16/18 =  88.9 % → ≥ 85 %
+  KG: Teilnehmerebene post 11/13 = 84.6 % (ausstehend)
+     5m    prä  8/13 =  61.5 % (prä-Verfügbarkeit)
+     10m   prä 13/13 = 100.0 % (prä-Verfügbarkeit)
+     30m   prä 13/13 = 100.0 % (prä-Verfügbarkeit)
+     505L  prä 12/13 =  92.3 % (prä-Verfügbarkeit)
+     505R  prä 12/13 =  92.3 % (prä-Verfügbarkeit)
+     505M  prä 11/13 =  84.6 % (prä-Verfügbarkeit)
+     SBJ   prä 13/13 = 100.0 % (prä-Verfügbarkeit)
+  ⚠ § 12 Nr. 8 „15-%-Schwelle überschritten“: auf Teilnehmerebene IG 16/18 = 88,9 % (nicht überschritten); je Zielgröße überschritten bei 10 m (7/18), 505 R (14/18), 505 L (15/18).
+     Die Aussage ist je Zielgröße zu formulieren, nicht pauschal.
+
+7  SPALTEN FAMILIARISIERUNG UND STATUS (01_Personen)
+  Familiarisierung: {'1': 10, '2': 20, 'None': 1} → leer bei VS-11
+  Stand 12.09. (Verfasser, Anwesenheitslisten): Zahl der absolvierten Familiarisierungstermine je Spieler; Verein A durchgängig 1 (nur ein Termin verfügbar), B 8 × 2 / 3 × 1, C 12 × 2.
+  F2-Machbarkeit (§ 11.5 Nr. 1): Variante a = Ausschluss der Spieler mit einer Familiarisierung; Variante b = Familiarisierung (1/2) als zusätzliche Kovariate (in B7, Block F).
+     5m   : IG-ANCOVA-Set 16 → ohne Spieler mit Familiarisierung = 1:  7 (n < 8 → Variante a nur deskriptiv)
+     10m  : IG-ANCOVA-Set  7 → ohne Spieler mit Familiarisierung = 1:  0 (n < 8 → Variante a nur deskriptiv)
+     30m  : IG-ANCOVA-Set 16 → ohne Spieler mit Familiarisierung = 1:  7 (n < 8 → Variante a nur deskriptiv)
+     505L : IG-ANCOVA-Set 15 → ohne Spieler mit Familiarisierung = 1:  7 (n < 8 → Variante a nur deskriptiv)
+     505R : IG-ANCOVA-Set 14 → ohne Spieler mit Familiarisierung = 1:  5 (n < 8 → Variante a nur deskriptiv)
+     505M : IG-ANCOVA-Set 13 → ohne Spieler mit Familiarisierung = 1:  5 (n < 8 → Variante a nur deskriptiv)
+     SBJ  : IG-ANCOVA-Set 16 → ohne Spieler mit Familiarisierung = 1:  7 (n < 8 → Variante a nur deskriptiv)
+  Die Familiarisierungsdosis ist in der IG mit Verein A konfundiert (alle A = 1); Variante b schätzt deshalb einen Vereins-/Familiarisierungseffekt gemeinsam — nur als Sensitivität, ausdrücklich so benannt.
+  Status: {'ausgewertet': 16, 'Post-Testung nicht angetreten – bei der ': 2, 'Post-Testung ausstehend (Termin 15.09.20': 13}
+  → Datendurchsicht § 5.4 („Status weiterhin 0 von 31“) ist überholt: Spalte am 11.09. gefüllt.
+
+8  AUSFALLANALYSE (D4): Prä-Bestwerte der zur Post-Testung nicht angetretenen IG-Spieler gegen die verbliebenen IG-Spieler
+  Deskriptiv (n = 2): Wert, Rang in der IG (1 = bester), Differenz zum Mittel der Verbliebenen in Einheiten der IG-SD.
+   5m    verbliebene IG n = 16: M 1.046 SD 0.081 · BW-07 1.05 (Rang 10/18, +0.05 SD) · BW-21 1.13 (Rang 16/18, +1.03 SD)
+   10m   verbliebene IG n = 16: M 1.844 SD 0.098 · BW-07 1.79 (Rang 4/18, -0.55 SD) · BW-21 1.97 (Rang 17/18, +1.28 SD)
+   30m   verbliebene IG n = 16: M 4.511 SD 0.209 · BW-07 4.29 (Rang 4/18, -1.06 SD) · BW-21 5 (Rang 18/18, +2.34 SD)
+   505L  verbliebene IG n = 15: M 2.455 SD 0.095 · BW-07 2.41 (Rang 4/17, -0.47 SD) · BW-21 2.7 (Rang 17/17, +2.59 SD)
+   505R  verbliebene IG n = 15: M 2.473 SD 0.117 · BW-07 2.5 (Rang 12/17, +0.23 SD) · BW-21 2.52 (Rang 14/17, +0.40 SD)
+   SBJ   verbliebene IG n = 16: M 237.750 SD 12.918 · BW-07 247 (Rang 5/18, +0.72 SD) · BW-21 223 (Rang 15/18, -1.14 SD)
+  KG: Ausfallanalyse erst nach dem 15.09. möglich.

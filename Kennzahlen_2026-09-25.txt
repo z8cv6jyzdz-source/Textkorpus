@@ -1,0 +1,5 @@
+Kennzahlen_2026-09-25.py, Laufprotokoll
+Datum: 2026-09-25 15:10:02
+Eingang: /mnt/user-data/uploads/Blindrechnung_R_2026-09-24/Abgabe_R_2026-09-25/Ergebnisse_R_2026-09-25.csv (SHA-256 3194a805dc3e2c4bf0142ecab5f091d9e201449f3f2811b78073b406c74392a8)
+Kennungslisten: /mnt/user-data/uploads/Bachelorarbeit/Claude/02_Befunde/Spezifikation_2026-09-24_Kennungen.csv, /mnt/user-data/uploads/Bachelorarbeit/Claude/02_Befunde/Auswertungs_und_Berichtsumfang_2026-09-24_Kennungen.csv
+geschrieben: Kennzahlen_2026-09-25.md und Kennzahlen_2026-09-25_Werte.csv · Kennungen verwendet: 1843 von 3559 · Zeilen der Anlage: 216 · T-Kennungen ohne Zeile: 0

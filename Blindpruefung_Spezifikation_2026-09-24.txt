@@ -1,0 +1,119 @@
+BLINDPRÜFUNG DER SPEZIFIKATION (Auswertungsverfahren 2.2), maschinell
+Fassung 25.09.2026, dritter Lauf · Spezifikation Stand Nachtrag 3 (F.8)
+
+EINGANG (SHA-256)
+  1f44f4b28b8c6ee67aabcaf6a133d04966fd2bf5aa39207389bde7cb8889dbc1  Claude/03_Skripte/Auswertung_B0_Mindestdosis_2026-09-12.txt
+  e3ec5d5c883e8e18a6ae985db52b058c112513c5dff524a55ecdd1f9326eaab1  Claude/03_Skripte/Auswertung_B1_Rohdaten_2026-09-12.txt
+  eb50d88f27350da9c3f860fb590ac4ffe508bf89f136629a40eb8c8d0cf0b08d  Claude/03_Skripte/Auswertung_B2_Aggregation_2026-09-12.txt
+  26a5722eec4c20aba7b58fc95e39d98245d9449b0e793731822ee3983316d159  Claude/03_Skripte/Auswertung_B3_Messguete_2026-09-12.txt
+  53ae4adf8fafaa991973e6abf15f3a123d3d5a8810d4b7729f7c2fe11b9d0b7b  Claude/03_Skripte/Auswertung_B4_Analysepopulation_2026-09-12.txt
+  9574cf917dc3d7ad7ed378a04f31b3a795a54758d947232827f2110fb55d6798  Claude/03_Skripte/Auswertung_B5_Deskriptiv_2026-09-12.txt
+  acfc90b15829b90f6d80b7a4dbbcd9b4cc3a3ab288f4578c8b4c8f467340993f  Claude/03_Skripte/Auswertung_B6_Voraussetzungen_2026-09-12.txt
+  56851b550ae5481212380a72165762412ebc2684de9b236fbe0a0a23f85e0c28  Claude/03_Skripte/Auswertung_B7_ANCOVA_2026-09-12.txt
+  d8ab484c8eda1dd7cfcdce73651729cad424b1de15ceba99af8c4c7a877c4484  Claude/03_Skripte/Auswertung_B8_Sensitivitaet_2026-09-12.txt
+  b4c47f1ee7fe344ebc9b85afb16b3b18d6ae1a5904e27e96948ac8aecd055a43  Claude/03_Skripte/Auswertung_B9_ITT_PerProtokoll_2026-09-12.txt
+  de24455a49196066a3d73a3b8d220f3a1024ce07a59f5a977ef3189862f5bf25  Claude/03_Skripte/Auswertung_F1_Fragebogen_2026-09-12.txt
+  ccc026e31208390b7a2611d816420f0baa6246e3d0e3cdfee2b87cf127b4f6a7  Claude/02_Befunde/Analyseprotokoll_2026-09-15.md
+  473c584c72f51ba99152aa91aa141402a46847295aae50f29eb032fcc6110db8  Claude/02_Befunde/Analyseprotokoll_2026-09-12.md
+  6735b464fb715c0e7b9dabf99959a3ecea5d1b3218ced9a845b9af59ae05a8e8  Claude/02_Befunde/Kennzahlen_2026-09-15.md
+  3a6cc286e1a5ccc687474b39f781e6f007812f081bc30abaf5f1ffedbf86b258  Claude/02_Befunde/Kennzahlen_2026-09-22.md
+  5f5c49831fa6ffd9e04cdc8c62788ebe710326444048524d77e6a73ae81052fd  Claude/00_Steuerung/Projektanweisungen_Fassung12.md
+  85c0ca739cafa9c84eb563ab07329c2048e355c23f95e06291bee1dbf7f3929d  Auswertung/ancova_ergebnisse.csv
+  26604577200f43e4989860caa6e6e3c57207ccb58a3b5476b86e29225e1dfa2a  Textkopie/Projektanweisungen_Fassung13.md
+  53fab1b1d69e79c45eee035798456fcdb232726ef20d64384aa74ff6d1dcb8bd  Textkopie/Projektanweisungen_Fassung14.md
+  79ee068f3968850056b0cce523033d47debd8788ef25c488ea23affb455d4506  Textkopie/Voraussetzungspruefungen_Literaturbefund_2026-09-24.md
+  8a5d2234ff47bbffcba21cba8ce8e839fc8fc99306c00d6a05487ade31565851  Textkopie/SPSS_Auswertung_Vorgehen_2026-09-24.txt
+  c045f445b0c14891b31ff9bc0f100caa19d773102966c1891881e6d453aaf4ed  Textkopie/Auswertungs_und_Berichtsumfang_2026-09-24.md
+  3194a805dc3e2c4bf0142ecab5f091d9e201449f3f2811b78073b406c74392a8  Textkopie/Ergebnisse_R_2026-09-25.csv
+  2d4ce431b64bc209fa71a5f4615dbf828dce4b1eda7967952f75cfb26ec35099  Textkopie/Ergebnisse_Python_2026-09-25.csv
+  80eb63ff634dd60faaf600a6d59335d222715bfadaaed87e358a250d5c11c822  Textkopie/Gegenprobe_Python_2026-09-25.txt
+  883ec71735396f62d66a526e507e1811d6afeb88104665f73d0a7b3972b22ee6  Textkopie/Plausibilitaet_2026-09-25.txt
+  8d1414b0fa6382d0aff2b1629c606a35b18b318e176887534742931d99871ea5  Textkopie/Abgleichprotokoll_2026-09-25.md
+  9e2efcb46897d0af9b2af09ebf51bbbd0f0657cf2056a6b502c6407d43bc71fb  Textkopie/Durchsichtsprotokoll_2026-09-25.md
+  1ede6c3e08162098872efc5a5965df48a40995a0c1ad925d524ffaccc997674e  Textkopie/Plausibilitaetsprotokoll_2026-09-25.md
+  189db7880e4281b18705633f619066c2e746f9e6c847139669ee8c90cb839254  Textkopie/Auswertungsplan_2026-09-12.md
+  03f66138e85149fd1d423bb937f3cb71c0861ba40eba0873f29709a376527115  Textkopie/Handprobe_Pruefung_2026-09-25.txt
+  86087d35390559ae331794d13020fce7d1a799a67c5b47879da06b39fefd1ac7  Statistik/Studiendaten_U15_gesamt.xlsx
+  f61a94b59a540b3f9c13bb6bd055b7a75fa24bf1794c5fe1b106ae77537d014e  02_Befunde/Spezifikation_2026-09-24.md
+  e7682e07d6f8a426b43f905b947e3ed36a23960a644ef65349276e2ff5bf2e3b  02_Befunde/alt_Spezifikation_2026-09-24.md
+  d65b16fec7c0112376d97f7abc9015a4190e91cdddfbae377591d433f2166d9e  02_Befunde/Spezifikation_2026-09-24_Zahlenliste.csv
+  6eec0094230e13ca52896f8e0828a55fafffcc9fa52f9c7620368f1bddad4329  Claude/02_Befunde/Spezifikation_2026-09-24_Konstanten.csv
+  1eb1ffabf2b5e8949c752ca243254fcf93b77b4c368551fb2d6f5744abcd0c5f  Claude/02_Befunde/Spezifikation_2026-09-24_Koeffizienten_KR.csv
+  5fcd4f50130cffe0271074af537d2430346e76191282ebe67dfac2e517c1bb88  Claude/02_Befunde/Spezifikation_2026-09-24_Referenzdaten.csv
+  a6003700cf923646cf9341c866637fe227995543ce9096b458a5c4a45f662ac7  Claude/02_Befunde/Spezifikation_2026-09-24_Referenzdaten_Daten.csv
+  04318c066939248c5feca5077c65a703508a1137738310fdfa68b3a329003f04  Claude/02_Befunde/Spezifikation_2026-09-24_Fragebogen.csv
+  7afaa01d82dc9f5ca10534a09f916dca5475842caa32e71aad866ba43612860f  Claude/02_Befunde/Spezifikation_2026-09-24_Vokabular.csv
+  90bb105ffb13417882c8bcd59cd80b5f021ce6e430f25435f9760f1ab8c78dfe  02_Befunde/Spezifikation_2026-09-24_Kennungen.csv
+
+Studienzahlen (kanonisch): 3953
+Zahlenvorkommen in der Spezifikation (Zahlenliste): 1208
+Zeilen der Spezifikation: 673, davon neu oder geändert gegenüber Nachtrag 2: 16
+Treffer gesamt: 3358
+  Anlage Kennungen: 2240
+  Anlage Referenzdaten_Daten: 632
+  Spezifikation: 212
+  Anlage Referenzdaten: 148
+  Anlage Konstanten: 96
+  Anlage Fragebogen: 19
+  Anlage Koeffizienten_KR: 11
+
+DIREKTSCAN
+  Zeilen, deren Zahlen nicht mit der Zahlenliste übereinstimmen: 0
+  Unterscheidungskräftige Zahlen im Text außerhalb der Zahlenliste:
+  4 · 24 · …_Verfahren\Auswertungsverfahren_2026-09-24` (Phase 2, Schritte 2.1 bis 2…
+  89 · 14 · …tenlabel (HL-01 bis HL-08, BW-01 bis BW-14) → Analysecode sowie für jede…
+  117 · 256 · …1. SHA-256-Prüfsummen aller Eingangsdate…
+  186 · 14 · …L-01 bis HL-08, 9 bis 22 → BW-01 bis BW-14.…
+  538 · 25 · …02_Befunde\Durchsichtsprotokoll_2026-09-25`, Teil C), Entscheidung des V…
+  611 · 14 · …bis H010, HL-01 bis HL-08, BW-01 bis BW-14 und weitere Größenkürzel | Ke…
+  660 · 200030010 · … 1–15. https://doi.org/10.2165/00007256-200030010-00001 · Verwendet: S. 2 bis 3…
+  668 · 811 · …://www.nist.gov/pml/special-publication-811…
+
+TREFFER IM SPEZIFIKATIONSTEXT, Zeilen unverändert: 212 Vorkommen, nach Art (Zahlenliste, Teil H)
+  Fundstelle: 98 Vorkommen, Zahlen: 13, 15, 18, 19, 22, 25, 26, 29, 30, 44, 55, 94, 95, 109, 115, 181, 276, 340, 356, 384, 504, 505, 507, 547, 745, 756, 11.1, 11.2, 11.3, 11.4, 11.5, 11.7, 11.8, 11.9, 33267, 10.1080, 10.1136, 10.1519, 10.1525, 10.1542, 10.2165, 10.2307, 10.3389, 2986146, 00007256, 17461391.2018
+  Wiederholung in Teil H: 36 Vorkommen, Zahlen: 14, 20, 22, 25, 30, 59, 60, 70, 75, 95, 100, 140, 158, 165, 190, 206, 505, 11.1, 11.2, 11.3, 11.4, 11.5, 11.7, 11.8, 11.9, 14,5, 17,5, 2,54, 365,25, 20260924, 0,45359237
+  Regel: 26 Vorkommen, Zahlen: 20, 59, 70, 75, 140, 158, 165, 190, 206, 1,96, 365,25, 20260924
+  Name: 22 Vorkommen, Zahlen: 30, 505
+  Quellwert: 10 Vorkommen, Zahlen: 14, 14,5, 17,5, 2,54, 0,45359237
+  Formelkonstante: 9 Vorkommen, Zahlen: 60, 95, 100
+  Gliederung: 7 Vorkommen, Zahlen: 13, 14, 22
+  Anzahl: 2 Vorkommen, Zahlen: 1.535
+  Code: 2 Vorkommen, Zahlen: 22
+
+TREFFER IM SPEZIFIKATIONSTEXT, Zeilen neu oder geändert: 0 Vorkommen, nach Art (Zahlenliste, Teil H)
+
+TREFFER IN NEUEN ODER GEÄNDERTEN ZEILEN, einzeln (Zeile · Zahl · Art · Umgebung im Spezifikationstext)
+
+TREFFER IN DEN ANLAGEN NACH SPALTE
+  Konstanten: status 34, wert 31, quelle 19, fundstelle 6, bedeutung 6
+  Koeffizienten_KR: alter_jahre 11
+  Referenzdaten: sollwert 52, eingang 40, fundstelle 30, groesse 13, url 11, hinweis 2
+  Referenzdaten_Daten: beobachtung 544, wert 88
+  Fragebogen: code 17, bedeutung 2
+  Vokabular: keine
+  Kennungen: status 1402, beschreibung 838
+
+ANLAGE KENNUNGEN, Treffer nach Zahl und Spalte (Zahl · Spalte · Zahl der Zeilen · Beispiel)
+  30 · beschreibung · 317 · S02.NGUELT.Z30.PRE.ALL.X | S02 | NGUELT | Z30 | PRE | ALL | X | 1 | Zahl gültiger Versuche, Sprint 3
+  95 · beschreibung · 28 · S10.TELO.Z05.PRE.ALL.X | S10 | TELO | Z05 | PRE | ALL | X | s | untere 95-%-KI-Grenze TE, Sprint 5 m
+  505 · beschreibung · 493 · S02.NGUELT.CL.PRE.ALL.X | S02 | NGUELT | CL | PRE | ALL | X | 1 | Zahl gültiger Versuche, 505 links 
+  12.09 · status · 1402 · S01.N.X.X.ALL.X | S01 | N | X | X | ALL | X | 1 | Zahl der Spieler in den Personendaten, Menge ALL |
+
+STICHWORTSUCHE IM TEXT (Zeile · Stichwort · Zeilenstatus · Umgebung)
+  58 · 15.09 · unverändert · …| nachträglich | nach dem Sperrdatum 15.09.2026 festgelegt (Verfasser 24.09.2026) oder bei der Ausarbeitung präz…
+  93 · signifikant · unverändert · …g in Zwischen- und Endwerten. Ausgabe ungerundet mit mindestens zwölf signifikanten Stellen.…
+  332 · verworfen · unverändert · …sythe, Gruppe × Prä, Gruppe × %PAH, Linearität, Überlappung“) · Folge verworfener Prüfungen, Prüfgrößen und Modelle nachträglich (O7, K18 bis K21) · …
+  342 · verworfen · unverändert · …**Entscheidungsregel** (O7): Eine verworfene Prüfung (p < 0,05) ändert das Verfahren nicht. Sie wird mit Prüfgröß…
+  342 · verworfen · unverändert · …(1 bei p < 0,05). Im Bericht gilt die Formulierung „geprüft und nicht verworfen“, nicht „erfüllt“ (PA § 11.9).…
+  413 · verworfen · unverändert · …at die Designmatrix einer Ziehung nicht vollen Rang, wird die Ziehung verworfen und gezählt, nicht ersetzt.…
+  426 · SPSS · unverändert · …6 selbst gegeben, ohne unabhängige Methodenprüfung. Der Antrag nennt „SPSS und/oder R“ (Antrag § 1), der Wechsel ist antragskonform und steht im…
+  426 · SPSS · unverändert · …m Register des Auswertungsplans. Folge: Das partielle η², das nur als SPSS-Nebenausgabe vorgesehen war (PA § 11.2), entfällt (K24).…
+  513 · Berichtsumfang · unverändert · …Grundlage: Entscheidung des Verfassers vom 24.09.2026 zum Berichtsumfang. Der Nachtrag beschränkt die Ausgabe auf die Größen, die berichtet we…
+  545 · Python · neu oder geändert · …| N5.4 | Die Gegenprobe darf den Dateinamen der Grafiken den Zusatz `_Python` anhängen | G.1 Nr. 6 | Die Dateinamen waren nur für eine Implementie…
+  555 · signifikant · unverändert · …3. Werte ungerundet mit mindestens zwölf signifikanten Stellen, in fester oder wissenschaftlicher Schreibweise. Merkmale a…
+  558 · Python · neu oder geändert · … PDF, ohne Kennung. Die Gegenprobe darf ihren Dateinamen den Zusatz `_Python` anhängen (Nachtrag 3, N5.4).…
+  593 · signifikant · unverändert · …nztests mit NIST-Zertifikatswerten | Übereinstimmung auf mindestens 9 signifikante Stellen |…
+  605 · 15.09 · unverändert · … Streuung, keinen Messgüte-, p- oder Effektwert und kein Ergebnis vom 15.09.2026. Bei der Prüfung entfernt wurden die beiden Grenzen der R²-Spann…
+  614 · 15.09 · unverändert · …elle · 12.09.2026 Auswertungsplan und FA · 13.09.2026 PA Fassung 12 · 15.09.2026 Sperrdatum · 24.09.2026 Festlegungen und Spezifikation · 01.06.2…
+
+Urteil je Treffer: siehe Vermerk 02_Befunde/Blindpruefung_Spezifikation_2026-09-24, Teil C (Nachtrag 3).

@@ -1,0 +1,47 @@
+Korpusmessung Interventions-Zug — zehn Interventionsstudien des Vergleichskorpus (Stand 23.09.2026)
+Spalten: I = Interventionsbeschreibung (unser 4.5.1) · K = Kontroll-/Begleitbedingung (unser 4.5.2) · M = Belastungsmonitoring im Interventionsabsatz (unser 4.6) · Belege = Klammer-/Nummernbelege in I
+
+Studie                       Sätze I  Wörter I  Wörter K  Wörter M  Programmtabelle
+Lloyd 2016 (JSCR)                  7       205        37         0  Table 2 (Programm je Woche)
+Hammami 2016 (JSCR)               11       186       183         0  Table 2 (Programm je Woche)
+Beato 2018 (JSCR)                 10       264        28        24  keine Programmtabelle (Dosis im Text)
+Negra 2019 (IJSPP)                20       317         0         0  Table 2 (Programm je Woche)
+Negra 2020 (JSHS)                 12       225        24         0  keine Programmtabelle (Dosis im Text)
+Aloui 2022 (Front Physiol)         8       162        95         0  Table 2 (Programm je Woche) + Figure 1 (Übungen)
+Liu 2024 (JSSM)                    9       191        21         0  Table 2 (Programm je Woche)
+Moran 2024 (PLOS ONE)             10       231        91         0  Table 1 (Programm je Woche)
+Sammoud 2024 (BMC)                13       305        88         0  Table 2 (Programm je Woche)
+Bouafif 2026 (PLOS ONE)           14       423        74        93  Table 2 (Progression je Woche) + Table 3 (Einheitenaufbau)
+
+I: Median 228 · Mittel 251 · Min 162 · Max 423 · SD 79
+K: Median 56 · Mittel 64 · Min 0 · Max 183
+Programmtabelle vorhanden: 8 von 10
+
+Belege im Interventions-Zug (von Hand gezählt; Wörter je Beleg):
+  Lloyd 2016 (JSCR)            Belege 1 · Wörter 205 · Wörter je Beleg 205
+  Hammami 2016 (JSCR)          Belege 2 · Wörter 186 · Wörter je Beleg 93
+  Beato 2018 (JSCR)            Belege 1 · Wörter 264 · Wörter je Beleg 264
+  Negra 2019 (IJSPP)           Belege 3 · Wörter 317 · Wörter je Beleg 106
+  Negra 2020 (JSHS)            Belege 2 · Wörter 225 · Wörter je Beleg 112
+  Aloui 2022 (Front Physiol)   Belege 3 · Wörter 162 · Wörter je Beleg 54
+  Liu 2024 (JSSM)              Belege 0 · Wörter 191 · Wörter je Beleg nan
+  Moran 2024 (PLOS ONE)        Belege 2 · Wörter 231 · Wörter je Beleg 116
+  Sammoud 2024 (BMC)           Belege 2 · Wörter 305 · Wörter je Beleg 152
+  Bouafif 2026 (PLOS ONE)      Belege 5 · Wörter 423 · Wörter je Beleg 85
+  Median Belege je Studie: 2 · Spanne 0–5 · Wörter je Beleg (Studien mit Beleg): Median 112
+
+Züge im Interventions-Zug (von Hand am Wortlaut geprüft; x = im Fließtext vorhanden):
+  Zug                                 Lloyd   Hammam  Beato   Negra   Negra   Aloui   Liu     Moran   Sammou  Bouafi  Summe
+  Zeitraum/Frequenz/Dauer             x       x       x       x       x       x       x       x       x       x       10/10
+  Abstand zwischen Einheiten          x       -       -       x       x       -       x       x       x       -       6/10
+  Erwärmung der Einheit               -       x       x       x       -       -       x       x       x       x       7/10
+  Übungen benannt                     x       x       x       x       x       x       -       -       x       x       8/10
+  Kontakte/Volumen je Einheit         x       x       x       x       x       x       -       x       x       x       9/10
+  Sätze × Wiederholungen              -       x       x       x       -       x       -       -       -       x       5/10
+  Satzpause                           x       x       -       x       x       x       -       x       x       x       8/10
+  Intensitätsinstruktion              -       x       -       x       x       -       x       x       x       x       7/10
+  Betreuung/Auslieferung              x       x       -       x       x       x       x       x       -       x       8/10
+  Ort/Untergrund                      -       x       -       -       x       -       x       -       -       -       3/10
+  Programmvorlage/Norm belegt         x       x       -       x       x       x       -       x       x       x       8/10
+  Regression/Individualisierung       x       -       -       -       -       -       -       -       -       -       1/10
+  Modifikationen/Abweichungen genannt -       -       -       -       -       -       -       -       -       -       0/10

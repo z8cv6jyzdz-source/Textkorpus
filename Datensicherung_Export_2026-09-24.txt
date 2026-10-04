@@ -1,0 +1,36 @@
+Datensicherung, Schritt 1.5 Datenstand einfrieren
+Skriptfassung 2026-09-24, Fassung 1 · Lauf 2026-09-24 19:00:25 · Datenstand 2026-09-24
+Basisordner: /home/claude/phase1/basis
+Eingang mit SHA-256:
+  Statistik/Studiendaten_U15_gesamt.xlsx  d7c4ae29533429c0c8ed4acfbb9fbca3ef7e0ed092e3063532df2835c3e98642  110697 B
+  SoSci_Fragebogen/data_test546007_2026-08-31_11-37.json  7faf00a66b1bfcdfe78e100c8259b81b426bd797c006d10d756f243c1b5b40ab  50146 B
+  SoSci_Fragebogen/Fragebogen Datensatz.txt  8e827b4eee9e637a783df819f4beba737b4f842fcfe0c2e27e86f4f8c264465c  36692 B
+  Claude/02_Befunde/Spezifikation_2026-09-24_Vokabular.csv  7afaa01d82dc9f5ca10534a09f916dca5475842caa32e71aad866ba43612860f  748 B
+  Claude/02_Befunde/Spezifikation_2026-09-24_Fragebogen.csv  04318c066939248c5feca5077c65a703508a1137738310fdfa68b3a329003f04  2887 B
+
+Gegenlesen JSON gegen TXT, elf Spalten (STARTED auf Minutenebene): 0 Abweichungen
+Geschrieben: /home/claude/phase1/basis/Statistik/Datenstand_2026-09-24
+  Versuchsdaten.csv            45092 B  BOM nein  CRLF nein
+  Personendaten.csv             2012 B  BOM nein  CRLF nein
+  Fragebogen_A.csv              4762 B  BOM nein  CRLF nein
+  Zuordnung_Fragebogen.csv       263 B  BOM nein  CRLF nein
+  Listenplatz_IG.csv             218 B  BOM nein  CRLF nein
+  Datenwoerterbuch.md geschrieben (9321 B)
+
+Probe 1, Rückleseprobe:
+  Abweichungen: 0
+  Rückleseprobe bestanden: ja
+
+Probe 2, Abbruchprobe (0.5 Nr. 10, S01 Regeln 2 bis 4, S03 mit K5, S06 Regeln 3 und 7):
+  Verstöße: 0
+  Abbruchprobe bestanden: ja
+
+Pruefsummen.txt:
+  07394867ffcdf9697618ccd295ccce6ac70a2e3aceff1329ab16052125b08fb6  Datenwoerterbuch.md
+  5c2a32084b3470453ad001615498f272ac59effd32601012643908ce92af57a4  Fragebogen_A.csv
+  2c999317806e4f01e180fa968c5a44bda0e731acd3425636496193feecedcca8  Listenplatz_IG.csv
+  acf1f52b915734cec540c93229d648547b490263d4709be041047e20d8c28aef  Personendaten.csv
+  429b0f045fb22d2f78905b8ced97ed5f4bf91685cabe15578a6490ba642946ba  Versuchsdaten.csv
+  f98eee51d9ad1b3de62ffab89cb2df7e75a2554ca0be85349eba0b0605c653fa  Zuordnung_Fragebogen.csv
+
+Datenstand eingefroren: /home/claude/phase1/basis/Statistik/Datenstand_2026-09-24. Danach wird nichts mehr verändert.
