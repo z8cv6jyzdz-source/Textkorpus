@@ -1,0 +1,32 @@
+Steuerung_Rev117_2026-09-29 — Protokoll der Rückschreibung (Task „Einleitung Quellenraster“, Sitzung 28.09.2026 20:55 bis 23:10 Sitzungsuhr, Rückschreibung 29.09.2026, 06:22 bis 06:30 Sitzungsuhr)
+
+Skript: Steuerung_Rev117_2026-09-29.py (Erzeuger der vier Dateien aus dem jeweils frisch gestagten Ordnerstand, jede Ersetzung genau einmal, Abbruch bei nicht eindeutiger Fundstelle; die Teile der Übergabe aus dem Sitzungsspeicher vom 28.09.).
+
+Ausgangslage
+- 28.09., 23:00 Sitzungsuhr: Rechner nicht erreichbar (Bridge getrennt, zwei Commit-Versuche abgelehnt). Übergabe im Chat als Datei und als Projektkopie geliefert, vier Dateien im Container bereitgelegt (rb_01 bis rb_04, als Rev. 116 angelegt).
+- 29.09., 06:14: Rechner erreichbar. Neu gestagt: Sitzungsnotizen MD5 93632bf37c94b9521595a7113d3f2111 (624.549 Byte), Maßnahmenliste 5e6ecb0deb0dfe218d71f5c43611bc73 (200.484 Byte), Plan 2efde8e9374692d2fe7a8320207e01d4 (71.834 Byte, unverändert seit Rev. 115). Sitzungsnotizen und Maßnahmenliste trugen inzwischen die Rev. 116 der Parallelsitzung (Task Kapitelstruktur, 22:10 Sitzungsuhr). Die vorbereiteten rb_02 und rb_03 wurden verworfen, der eigene Block wurde als Rev. 117 auf den Stand der Rev. 116 gesetzt.
+- 29.09., 06:23 (zweites Stagen vor dem Commit): Sitzungsnotizen MD5 4c2dc836e0e6e0adb87d92c65acb15ce (624.536 Byte, mtime 06:19:32 Sitzungsuhr), Maßnahmenliste 17add3f3d73f985a15e4a3137c1dfa7f (200.373 Byte, mtime 06:19:31). Die Parallelsitzung hatte um 06:20 G37 (i) als erledigt fortgeschrieben. Skript auf diese Basis umgestellt (Punkt 4 der offenen Verfasserpunkte entfällt, G37-Anker angepasst).
+
+Ausgaben (ein eigener Ausgabepfad je Datei)
+- rb_05/Uebergabe_Einleitung_Quellenraster_2026-09-28.md   160.100 Byte  MD5 b35a69e24f7c4b0e23742c66ed4d419b  (22.882 Wörter nach wc -w)
+- rb_06/Cowork_Sitzungsnotizen.md                          634.354 Byte  MD5 ba6d73de08e009e54a1e1696562b6829
+- rb_07/Massnahmenliste_Datenverarbeitung.md               205.886 Byte  MD5 99c65dac2c8a65eef1096f563e5392e9
+- rb_08/Plan_Weitere_Schritte_2026-09-25.md                 74.596 Byte  MD5 a28e9f386794a6e1509f004fd523dc13
+
+Commit 29.09., 06:26 Sitzungsuhr (device_commit_files, Sitzungsnotizen, Maßnahmenliste und Plan mit mtime-Schutz auf den gestagten Stand): alle vier „written“, keine Ablehnung.
+
+Prüfung nach kurzer Wartezeit: alle vier Dateien neu gestagt und per MD5 gegen die Ausgabe verglichen.
+- OK Uebergabe_Einleitung_Quellenraster_2026-09-28.md  Gerät 160.100 Byte  MD5 b35a69e24f7c4b0e23742c66ed4d419b
+- OK Cowork_Sitzungsnotizen.md                         Gerät 634.354 Byte  MD5 ba6d73de08e009e54a1e1696562b6829
+- OK Massnahmenliste_Datenverarbeitung.md              Gerät 205.886 Byte  MD5 99c65dac2c8a65eef1096f563e5392e9
+- OK Plan_Weitere_Schritte_2026-09-25.md               Gerät  74.596 Byte  MD5 a28e9f386794a6e1509f004fd523dc13
+
+Änderungen je Datei
+- Übergabe Quellenraster: Kopf (Rückschreibung 29.09., Rev. 117), Grundlage und § 5 auf Gliederung v6 § 3.2 (Zug-Tabelle unverändert aus v5), Auftrag Nr. 6 mit Hinweis v5/v6, § 0 Startsatz und § 1.3 Ablösung mit Rev. 117 und G35 (k)/G37, § 8 neuer Absatz „Rückschreibung und Parallelstand (29.09.)“. Inhalt von § 2 bis § 7 unverändert gegenüber der Fassung vom 28.09. (rb_01, MD5 ef5780abcac856f77ebca1bb39875c68).
+- Sitzungsnotizen: Stand-Zeile auf Rev. 117, Block Rev. 117 vor dem Block Rev. 116 der Parallelsitzung eingefügt.
+- Maßnahmenliste: Stand-Zeile, G34 (b), G35 (a), (i), (k), (l), G37 Vermerk (Reihenfolge, Gliederung v6 § 0 Nr. 4 und M24, Fassung 18 § 6.5), H12 neu, I20 neu, Zusammenfassung Zeile 7 neu, Summe-Zeile mit Vermerk.
+- Plan: Nachtrag Rev. 117 im Kopf, Vermerke in § 0, Block C und § 8 (Startsatz Task „Einleitung neu“), keine neue Revision des Plans.
+
+Projektkopien (claude/): Uebergabe_Einleitung_Quellenraster_2026-09-28.md, Cowork_Sitzungsnotizen.md, Massnahmenliste_Datenverarbeitung.md, Plan_Weitere_Schritte_2026-09-25.md, jeweils aus den Ausgaben oben.
+
+Master unverändert (Schreiben\Bachelorarbeit_Gerüst_v1_AKTUELL.docx, 48.791 Byte, MD5 e35315d68ecca83176bcdc2c6ca557c0, Stand 28.09.).

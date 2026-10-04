@@ -1,0 +1,30 @@
+Programmkennzahlen 4.5.1 — aus Trainingsdokumentation_Block1-3.docx (Teil B), Stand 23.09.2026
+
+Woche  Übungen Kontakte/Einheit Soll (Dok.) davon schnell  langsam  Lande unilateral
+1            6               52          52             0       40     12          0
+2            6               66          66             0       54     12          0
+3            5               80          80            38       36      6          0
+4            5               96          96            48       42      6          0
+5            6              106         106            64       42      0          6
+6            6              120         120            70       50      0          8
+
+P-01 Bodenkontakte je Einheit W1→W6: 52 → 66 → 80 → 96 → 106 → 120 (Wochensummen der Dokumentation reproduziert)
+P-02 Bodenkontakte je Programmwoche (2 identische Einheiten): 104 · 132 · 160 · 192 · 212 · 240; Summe über 12 Einheiten = 1040 (Summe der 6 Wocheneinheiten = 520)
+P-03 Übungen gesamt: 10 verschiedene (Bodyweight Squats, Einbeiniger Standsprung, In-line Lunges, On-the-spot Jumps, Pogo Hops, Standing Horizontal Jump, Standing Vertical Jump, Stick-Landing, Vorwärts Ankle Hops, Zickzack-Sprünge); je Einheit 5–6
+P-04 Sätze × Wiederholungen: Sätze 1–3, Wiederholungen 3–10 (Stufe-1-Übungen ohne Kontakte: Squats 2×8/1×8, Lunges 2×6/1×6 je Bein)
+P-05 DVZ-Typ (Kontakte je Programm, Basis 520 = eine Einheit je Woche summiert; ×2 = 12 Einheiten): schnell 220 (42.3 %) · langsam 264 (50.8 %) · Landeschulung 36 (6.9 %)
+P-06 Richtung: vertikal 298 (57.3 %) · horizontal 190 (36.5 %) · multidirektional 32 (6.2 %)
+P-07 Unilateral: 14 Kontakte (2.7 %), nur W5/W6 (Einbeiniger Standsprung, Stufe 2, 1×3 bzw. 1×4 je Bein)
+P-08 Stufen nach Lloyd et al. (2011): Stufe 1 nur W1–W2 (Squats, Lunges) · Stufe 2 W1–W6 · Stufe 3 ab W3 (Pogo Hops, Ankle Hops; Zickzack ab W5) · Stufen 4–6 nicht verwendet
+P-09 Pausen (Dokumentation Teil B: 90 s zwischen Sätzen aller Übungen; Produktionsleitfaden § 2: 45 s zwischen den Stufe-1-Sätzen; Videografik: 120 s zwischen Übungen) — ⚠ 45 s steht NICHT in der Trainingsdokumentation, nur im Produktionsleitfaden; am Video prüfen
+P-10 Sitzungsdauer (Soll = Videodauer; Fragebogenauswertung § 5, Verfasser 12.09.):
+      W1: Wochenvideo 28:16 + Erwärmungsvideo 8:53 = 37:09 min
+      W2: Wochenvideo 28:02 + Erwärmungsvideo 8:53 = 36:55 min
+      W3: Wochenvideo 24:17 + Erwärmungsvideo 8:53 = 33:10 min
+      W4: Wochenvideo 25:55 + Erwärmungsvideo 8:53 = 34:48 min
+      W5: Wochenvideo 31:03 + Erwärmungsvideo 8:53 = 39:56 min
+      W6: Wochenvideo 31:14 + Erwärmungsvideo 8:53 = 40:07 min
+      Spanne Sitzung 33:10–40:07 min (Wochenvideo 24:17–31:14); Antrag 30–40 min (W6 um 7 s darüber)
+P-11 Frequenz/Dauer: 6 Wochen, 2 Einheiten je Woche = 12 Einheiten, 20.07.–30.08.2026 (Programmwochen Mo–So), Vorgabe ≥ 48 h Abstand (Infoblatt: „Mindestens 2 Tage Pause“)
+P-12 Antrag (16.06.2026, Abschnitt 2): 2 Einheiten/Woche à 30–40 min über 6 Wochen; Bausteine Koordination/Technik, Plyometrie, Kraft (Eigengewicht); W1–2 Technik/niedrig, W3–4 „Kraftblock“, W5–6 reaktiv mit zunehmend einbeinigen Übungen; Kontakte „etwa 60 bis 80“ → „etwa 100 bis 120“ je Einheit; RAMP-Erwärmung; Progression nach Lloyd & Oliver (2012)
+      Abgleich Programm wie geliefert: Startvolumen 52 (< 60–80) · Endvolumen 120 (im Rahmen) · kein Kraftblock W3–4 (Kraftübungen mit Eigengewicht nur W1–2, Stufe 1) · unilateral nur 14 Kontakte in W5–6 · Dauer 33:10–40:07 (im Rahmen, W6 +7 s) · Erwärmung als eigenes Video 8:53 (Antrag: RAMP, Dauer nicht festgelegt)

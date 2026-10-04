@@ -1,0 +1,4 @@
+Spezifikation Stand Nachtrag 2 SHA-256 e7682e07d6f8a426 → Stand Nachtrag 3 SHA-256 f61a94b59a540b3f
+Textänderungen: 10 Stellen · Zeilen: 661 → 674, davon neu oder geändert: 16
+Zahlenliste: 1174 → 1208 Vorkommen (1153 aus unveränderten Zeilen übernommen, 55 neu eingeordnet)
+Semikolons im neuen Text außerhalb von Codeblöcken: 0

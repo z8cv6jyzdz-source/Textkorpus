@@ -1,0 +1,16 @@
+Steuerung Rev. 134, Lauf 20:50 Sitzungsuhr
+ok Plan Nachtrag 30.09.
+ok Plan § 0 Vermerk
+ok Plan § 8 Startsätze ab 30.09.
+ok Plan § 8 alter Startsatz 11 (Zeile 334)
+ok Plan § 8 alter Startsatz 12 (Zeile 335)
+ok Plan § 8 alter Startsatz 13 (Zeile 336)
+geschrieben /mnt/user-data/outputs/rev134_1/Plan_Weitere_Schritte_2026-09-25.md: 81300 Byte, MD5 067b9430ba78c234f88177a45ec4506a
+ok Maßnahmenliste Stand
+ok Maßnahmenliste G35 (Zeile 197)
+ok Maßnahmenliste G37 (Zeile 199)
+ok Maßnahmenliste Zuordnungstabelle
+geschrieben /mnt/user-data/outputs/rev134_1/Massnahmenliste_Datenverarbeitung.md: 210187 Byte, MD5 df77f62de743fddb7c9c11109f6bf950
+ok Notizen Stand-Zeile
+ok Notizen Block Rev. 134
+geschrieben /mnt/user-data/outputs/rev134_1/Cowork_Sitzungsnotizen.md: 715745 Byte, MD5 0a24966a8f7498739141d3537fdae1d1

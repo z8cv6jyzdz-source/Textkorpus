@@ -1,0 +1,24 @@
+Steuerung_Rev116_2026-09-28.py — Teil 0 Rev. 116, Maßnahmenliste und README (Task Kapitelstruktur 28.09.)
+Uhrzeit Sitzungsuhr 22:10 (MESZ 23:10) · Überschriften v5 22, v6 13 (5 + 8), Wörter je Überschrift v6 488 · Korpus Methodik Median 5 (3 bis 11), Wörter je Überschrift Median 307 (169 bis 545)
+Kästchen offen nach Rev. 116: 38 Hauptpunkte, 9 Unterpunkte
+
+ersetzt: Teil 0 Block Rev. 116
+ersetzt: Teil 0 Stand
+ersetzt: ML Stand
+ersetzt: ML A8
+ersetzt: ML G31 a
+ersetzt: ML G35 d
+ersetzt: ML G37
+ersetzt: ML Zeile 11
+ersetzt: ML Zeile 12
+ersetzt: ML Zeile 18
+ersetzt: ML Zeile Kapitelstruktur
+ersetzt: ML Summe
+ersetzt: README Zeile 01_Verfahren
+ersetzt: README Was wo gilt
+ersetzt: README Zeile 02_Befunde
+geschrieben 00_Steuerung/Cowork_Sitzungsnotizen.md: 624486 Byte
+geschrieben 00_Steuerung/Massnahmenliste_Datenverarbeitung.md: 200269 Byte
+geschrieben README_Ordnerstruktur.md: 14194 Byte
+Rückschreibung 28.09., 22:12 Sitzungsuhr: alle Dateien per MD5 gegen die Ausgabe geprüft und gleich, Ausnahme `01_Verfahren\Gliederung_2026-09-28.docx`: in Word geöffnet, Commit zweimal abgelehnt, im Ordner liegt die v5-.docx (25.658 Byte), die v6-.docx (28.352 Byte) wurde in den Chat gestellt, G37 (i): neu schreiben mit Werkzeug_Hausstil über die .md.
+Nachtrag 29.09., 06:20 Sitzungsuhr: Word geschlossen (Verfasser), `01_Verfahren\Gliederung_2026-09-28.docx` als v6 geschrieben (28.351 Byte, MD5 6b4b7c86…), neu gestagt und gleich. G37 (i) erledigt.

@@ -1,0 +1,26 @@
+Steuerung_Rev137_2026-09-30.py, Modus verfasser, Datum 01.10.2026, Uhrzeit 07:41
+gelesen 04_Uebergaben/Plan_Weitere_Schritte_2026-09-25.md: 81300 Byte, MD5 067b9430ba78c234f88177a45ec4506a
+ok Plan Nachtrag Rev. 137
+ok Plan Startsatz 12a Schritt 0
+ok Plan Startsatz 12a
+ok Plan Startsatz 12b
+ok Plan Startsatz Einleitung Schlussfassung
+ok Plan Startsatz 13b
+geschrieben /mnt/user-data/outputs/t11_rueck_074119/steuer/Plan_Weitere_Schritte_2026-09-25.md: 82833 Byte, MD5 947bfb9ddbd0f0de31629a6aef5816be
+gelesen 00_Steuerung/Massnahmenliste_Datenverarbeitung.md: 212682 Byte, MD5 08939fb74a5f541b700c8eca8aeb8c45
+ok Maßnahmenliste Stand
+ok B5 (Zeile 29)
+ok G28g (Zeile 168)
+ok G29 (Zeile 192)
+ok G32 (Zeile 194)
+ok G35 (Zeile 197)
+ok G37 (Zeile 199)
+ok Taskzeile 11 (Zeile 338)
+ok Taskzeile 12 (Zeile 339)
+ok Taskzeile 13 (Zeile 340)
+ok Taskzeile 18 (Zeile 345)
+geschrieben /mnt/user-data/outputs/t11_rueck_074119/steuer/Massnahmenliste_Datenverarbeitung.md: 216054 Byte, MD5 8067be47b9e5b72a00398530fe8a9f3c
+gelesen 00_Steuerung/Cowork_Sitzungsnotizen.md: 723634 Byte, MD5 376854714a59f9d943fcadbe3c3ea325
+ok Notizen Stand
+ok Notizen Block Rev. 137
+geschrieben /mnt/user-data/outputs/t11_rueck_074119/steuer/Cowork_Sitzungsnotizen.md: 732117 Byte, MD5 aeae2c451290d578b8f5fcb79997f249

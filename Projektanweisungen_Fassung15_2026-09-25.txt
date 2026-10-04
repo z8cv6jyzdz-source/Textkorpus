@@ -1,0 +1,67 @@
+Fassung 14 gelesen: ./00_Steuerung/Projektanweisungen_Fassung14.md SHA-256 53fab1b1d69e79c45eee035798456fcdb232726ef20d64384aa74ff6d1dcb8bd
+Fassung 15 geschrieben: ./00_Steuerung/Projektanweisungen_Fassung15.md SHA-256 67313f5dc27b567c224f77824b03b764ccbf2f3bae4e312c5c74ff6cc4f46258, 117394 Byte
+Kopf ersetzt, dazu 63 Ersetzungen, je genau einmal:
+  § 1.2 Verfahren
+  § 1.2 Nr. 3
+  § 1.2 Nr. 6
+  § 1.2 Nr. 9
+  § 1.2 Zahlenregel
+  § 1.3 Kennzahlen
+  § 1.3 Zeilen der Auswertung
+  § 1.3 B0 bis B9
+  § 1.3 Weitere Ablage und Nachträge
+  § 1.3 Veraltet
+  § 1.3 Hinweise
+  § 1.3 Zuordnung nach Klick
+  § 1.4 06_Abbildungen
+  § 1.5 Freigaben
+  § 2 Gesamt
+  § 2 Familiarisierung
+  § 2 Reifestatus
+  § 2 Datenhaltung
+  § 3 Überschrift
+  § 3 Kopf
+  § 3 keine Zahlen
+  § 3 Bezugsmengen-Regel Quelle
+  § 3 K-02
+  § 3 Workbook-Punkte
+  § 3 blockiert
+  § 3.1 Kennung
+  § 3.1 ohne Zahl
+  § 3.2 ohne Zahlen
+  § 5.1 Errata
+  § 5.2 Stand am Master
+  § 5.2 Unterbudgets Kopf
+  § 5.2 Was das bedeutet
+  § 5.2 Kapitel 4
+  § 5.2 Kapitel 2
+  § 5.2 Reihenfolge
+  § 5.3 Tab. 2
+  § 5.3 Objektzuordnung
+  § 6.5 Erratum
+  § 8 einpflegen
+  § 11.2a
+  § 11.3 Werte
+  § 11.4 Software
+  § 11.10 Gegenprobe
+  § 11.10 Danach
+  § 11.10 Stand
+  § 11.10 ancova
+  § 12 G1
+  § 13 Nr. 10 bis 14
+  § 13 Erledigt
+  § 14 KI-Nutzung
+  § 15 R Core Team
+  § 1.3 Spezifikation Nachtrag 3
+  § 11.10 Nachtrag 3
+  § 1.3 Kennzahlen 15.09.
+  § 3 Analysepopulation
+  § 3.2 Zuordnungstabelle
+  § 11.1 MDES
+  § 11.5 Varianten
+  § 11.7 Schwellen
+  § 11.7 Verdünnung
+  § 11.8 Mittelwert
+  § 11.9 Verweis
+  § 12 G3
+Messwerte: Kapitel 2 4920, Kapitel 4 bis 4.6 3006, mit 4.7 3727, gesamt 8647, Kürzung 3147 (36,4 %), leere Abschnitte 1, 2.5, 3, 5.1, 5.2, 6.1, 6.2, 6.3, 7 mit 3500

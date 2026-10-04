@@ -1,0 +1,33 @@
+Pruefung_Standardweg_2026-09-26.py, Laufprotokoll
+Eingang Kennzahlen_2026-09-25_Werte.csv, SHA-256 210803ce0a62bd00bf5beb096e9b40c42ce3bf90ca10f84407baa17cd5fa3504
+
+Quote = SE der adjustierten Differenz (Hauptanalyse) / SE nach Standardweg
+Quote < 1: Konfidenzintervall der Hauptanalyse schmaler als vom Standardweg unterstellt, Standardweg konservativ
+
+Sprint 30 m: n 16/10, df 22 (N - 4 = 22), R2 0.777, SE b1 0.0746283
+  Kontrolle Standardweg: MDES nachgerechnet 1.1818, Ergebnisdatei 1.1818, Faktor Wurzel(N/(n_IG n_KG)) 0.4031
+  Kontrolle Nenner von g: gepoolte Prä-SD 0.233696, g nachgerechnet -0.1844, Ergebnisdatei -0.1844
+  Quote mit gepoolte Post-SD Analyseset (maßgeblich, S18 Regel 2: Innergruppen-SD ohne Minderung durch Kovariaten) (0.204693): 0.904
+  Quote mit gepoolte Prä-SD Analyseset (Nenner von g) (0.233696): 0.792
+  Quote mit Prä-SD aller Eingangsgetesteten (Grundlage des SESOI) (0.313259): 0.591
+  Zerlegung mit der Post-SD: Gewinn durch die Kovariaten (Residuen-SD 0.129774 / Post-SD) 0.634, Verlust durch das Ungleichgewicht (SE b1 / (Residuen-SD mal Faktor)) 1.427, netto 0.904
+
+505-Seitenmittel: n 13/10, df 19 (N - 4 = 19), R2 0.633, SE b1 0.0350513
+  Kontrolle Standardweg: MDES nachgerechnet 1.2423, Ergebnisdatei 1.2423, Faktor Wurzel(N/(n_IG n_KG)) 0.4206
+  Kontrolle Nenner von g: gepoolte Prä-SD 0.101785, g nachgerechnet -0.1143, Ergebnisdatei -0.1143
+  Quote mit gepoolte Post-SD Analyseset (maßgeblich, S18 Regel 2: Innergruppen-SD ohne Minderung durch Kovariaten) (0.0983989): 0.847
+  Quote mit gepoolte Prä-SD Analyseset (Nenner von g) (0.101785): 0.819
+  Quote mit Prä-SD aller Eingangsgetesteten (Grundlage des SESOI) (0.100412): 0.830
+  Zerlegung mit der Post-SD: Gewinn durch die Kovariaten (Residuen-SD 0.0657505 / Post-SD) 0.668, Verlust durch das Ungleichgewicht (SE b1 / (Residuen-SD mal Faktor)) 1.267, netto 0.847
+
+Standweitsprung: n 16/10, df 22 (N - 4 = 22), R2 0.764, SE b1 4.16823
+  Kontrolle Standardweg: MDES nachgerechnet 1.1818, Ergebnisdatei 1.1818, Faktor Wurzel(N/(n_IG n_KG)) 0.4031
+  Kontrolle Nenner von g: gepoolte Prä-SD 16.3036, g nachgerechnet -0.0041, Ergebnisdatei -0.0041
+  Quote mit gepoolte Post-SD Analyseset (maßgeblich, S18 Regel 2: Innergruppen-SD ohne Minderung durch Kovariaten) (15.1672): 0.682
+  Quote mit gepoolte Prä-SD Analyseset (Nenner von g) (16.3036): 0.634
+  Quote mit Prä-SD aller Eingangsgetesteten (Grundlage des SESOI) (16.5952): 0.623
+  Zerlegung mit der Post-SD: Gewinn durch die Kovariaten (Residuen-SD 8.12998 / Post-SD) 0.536, Verlust durch das Ungleichgewicht (SE b1 / (Residuen-SD mal Faktor)) 1.272, netto 0.682
+
+Spanne der Quoten 0.591 bis 0.904, Urteil: Standardweg netto konservativ in allen drei Zielgrößen und mit allen drei Bezugs-SD
+Die Quoten beruhen auf Schätzungen aus 23 bis 26 Spielern. Sie stützen die Richtung, sie beweisen sie nicht.
+Prüfrechnung, keine Zahl für das Manuskript (F16 § 1.2). Aus den Quoten wird keine tatsächliche Power und keine tatsächliche MDES abgeleitet (CONSORT Item 7a).

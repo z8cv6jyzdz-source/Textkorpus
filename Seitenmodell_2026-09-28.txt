@@ -1,0 +1,49 @@
+Seitenmodell_2026-09-28.py, Lauf 28.09.2026 19:28 (Uhr des Rechners)
+Master: Bachelorarbeit_Gerüst_v1_AKTUELL.docx 48791 Byte, MD5 e35315d68ecca83176bcdc2c6ca557c0
+
+Satzspiegel aus dem Master: Seitenhöhe 841,9 pt, Rand oben 70,9 pt, unten 70,9 pt, Textbreite 14,5 cm
+Gerendert mit LibreOffice: 37 Seiten
+Einleitung beginnt auf Seite 9, Literaturverzeichnis auf Seite 35 (LibreOffice-Zählung ab Titelblatt)
+Vorspann (Titelblatt bis Verzeichnisse): 8 Seiten, zählt nach K1 nicht zu den 33 Seiten
+
+(a) Dichte am Master (Messung am LibreOffice-Render, Absatztext nach der Zählregel des Messskripts):
+    2 Theoretischer Hintergrund und Forschungsstand       4920 Wörter auf Seite 10 bis 23 = 13,69 Seiten bis zur letzten Textzeile -> 359 Wörter je Seite, Rest der letzten Seite 0,31
+    4 Methodik                                            2416 Wörter auf Seite 24 bis 31 = 7,32 Seiten bis zur letzten Textzeile -> 330 Wörter je Seite, Rest der letzten Seite 0,68
+    zusammen 7336 Wörter auf 21,01 Seiten -> 349 Wörter je Seite (nur zum Vergleich)
+    Parameter des Modells nach Kapiteltyp: Einleitung wie der Altbestand Kapitel 2 (Fließtext mit Belegen, wenige Überschriften) 359 Wörter je Seite · Methodik bis Fazit wie Kapitel 4 (mehr Unterüberschriften) 330 Wörter je Seite
+    Vergleich: F16 § 1.1 führte 327 Wörter je Seite einschließlich Umbrüchen und drei Objekten (Messung 13.09.). Die neue Dichte ist ohne Objekte und ohne Kapitelende gemessen, beides steht unten als eigene Zeile.
+    Rest der letzten Seite je Kapitelende (gemessen): 0,31, 0,68. Im Modell gilt der Erwartungswert 0,5 Seiten je Kapitelende (Annahme, gleichverteilter Rest).
+
+    Plausibilität 0,4 Seiten je Objekt (F17 § 5.3): Abb. 1 (Seitenverhältnis 0,75) auf 14,5 cm Textbreite 10,9 cm hoch = 0,44 des Satzspiegels, Abb. 2 (0,406) 5,9 cm = 0,24, jeweils ohne Beschriftung. Tabellen: keine Messung (Objektvorlage im Querformat), Annahme bleibt.
+
+(c) Zahl der Einträge des Literaturverzeichnisses (Schätzung, keine Messung):
+    Belege in Kapitel 4 des Masters: 26 verschiedene Autor-Jahr-Belege, Sekundärquellen ohne Eintrag: Draper & Lancaster 1985
+      Altmann et al. 2015 · Clarke et al. 2020 · Cohen 1988 · Dugdale et al. 2019 · Dugdale et al. 2020 · Foster et al. 2001 · Fröhlich et al. 2020 · Haddad et al. 2017 · Hoffmann et al. 2014 · Hopkins 2000 · Jeffreys 2007 · Khamis & Roche 1994 · Lakens 2022 · Lloyd et al. 2011 · McKay et al. 2022 · Microgate 2016 · Moher et al. 2010 · Negra et al. 2019 · Nimphius et al. 2016 · Norton 2018 · Padrón-Cabo et al. 2025 · R Core Team 2024 · Sammoud et al. 2024 · Schulz et al. 2010 · Thomas et al. 2020 · Vickers & Altman 2001
+    Belege im Wortlaut des Textvorschlags Einleitung (§ 1): 24
+      Asimakidis et al. 2022 · Bianco et al. 2015 · Dambel et al. 2025 · Dos'Santos et al. 2018 · Hicks et al. 2020 · Liu et al. 2024 · Lloyd et al. 2011 · Lloyd et al. 2016 · Markovic & Mikulic 2010 · McBurnie, Harper, et al. 2022 · McBurnie, Parr, et al. 2022 · Moran et al. 2017 · Mujika & Padilla 2000 · Oliver et al. 2024 · Olivier et al. 2026 · Radnor et al. 2018 · Ramirez-Campillo et al. 2020 · Ramirez-Campillo et al. 2023 · Rössler et al. 2014 · Sheppard & Young 2006 · Silva et al. 2016 · Tomkinson et al. 2021 · Turner & Stewart 2014 · Zheng et al. 2025
+    Vorab-Erwartungen für Kapitel 6 (F17 § 6.5): 3, davon neu gegenüber den beiden Mengen: 0
+    Basis ohne Doppelzählung: 49 Einträge
+    Obere Variante mit den für Kapitel 6 vorgemerkten weiteren Quellen (G33 d, f, G34 c, F17 § 12, H9, K18): 60 Einträge (+11)
+
+(b) Probe Literaturverzeichnis (Messung am LibreOffice-Render):
+    20 vollständige Einträge aus T1 (APA 7 mit DOI, alphabetisch die ersten 20), mittlere Länge 293 Zeichen, Formatvorlage Standard des Masters (Arial 11, Zeilenabstand 1,5, Blocksatz), hängender Einzug 1,25 cm, Überschrift „Literaturverzeichnis“ in Überschrift 1
+    belegt 2,42 Seiten -> 8,3 Einträge je Seite einschließlich Überschrift
+    Hinweis: Der SMK-Leitfaden regelt für das Literaturverzeichnis nur den hängenden Absatz (1 bis 1,5 cm, Abschn. 4.6). Der Zeilenabstand 1,5 gilt für den Fließtext (Abschn. 4.4.2). Ein engerer Satz des Verzeichnisses ist dort nicht vorgesehen und wird hier nicht angenommen.
+
+(d) Seitenrechnung — Modellrechnung, keine Messung (Zählweise nach K1: ohne Vorspann und Anhang):
+    6.350 Wörter Absatztext: Einleitung 1.500 bei 359, Methodik bis Fazit 4.850 bei 330 Wörtern je Seite   18,9  [Modellrechnung, Dichten gemessen (a)]
+    fünf Objekte im Textteil zu je 0,4 Seiten                                                 2,0  [Modellrechnung, Annahme F17 § 5.3]
+    fünf Kapitelenden zu je 0,5 Seiten (Umbruch vor jeder Hauptüberschrift)                   2,5  [Modellrechnung, Erwartungswert, gemessen 0,31, 0,68]
+    Textteil (Einleitung bis Fazit)                                                          23,4  [Modellrechnung]
+    Literaturverzeichnis, 49 Einträge bei 8,3 je Seite, dazu 0,5 für die letzte Seite         6,4  [Modellrechnung, Einträge geschätzt (c), je Seite gemessen (b)]
+    Einleitung bis Ende des Literaturverzeichnisses (Zählweise K1)                           29,8  [Modellrechnung]
+    obere Variante mit 60 Einträgen                                                          31,1  [Modellrechnung]
+    Schwelle der Tauschregel (K3, Verfasser 28.09.)                                            32
+    Grenze des Verfassers (28.09., 15:14 Sitzungsuhr), mit Literaturverzeichnis                33
+    Grenze des Betreuers (mündlich), Textseiten                                                37
+    Vorspann nach K1 nicht gezählt, gerendert heute 8 Seiten (nur zur Information).
+    Puffer bis 33: 3,2 Seiten (Basis), 1,9 Seiten (obere Variante).
+    Rahmen der Prüfungsordnung § 15 (1): „30 bis 50 Textseiten nicht überschreiten“, Obergrenze. Der Textteil liegt mit 23,4 Seiten darunter, bewusst (K2: R6 entfällt).
+
+Weitere Rechnungen: Word zählt nach F16 § 1.1 rund 21 % mehr, bei 6.350 also etwa 7.684 Wörter (Faktor aus F16, nicht neu gemessen). Faktor zum Korpusmittel 6.350 / 4.127 = 1,54.
+Kontrolle: Word-Messung am fertigen Dokument nach Kapitel 5 und 6 und nach dem Literaturverzeichnis (Task 15).

@@ -1,0 +1,220 @@
+PLAUSIBILITÄTSPRÜFUNG Phase 6.4 · berichtete Rechnung Ergebnisse_R_2026-09-25.csv · 2026-09-25 10:37 UTC
+Kennungen: 3559 · Spieler: 31 (IG 18 , KG 13 )
+
+1 NENNER GEGEN TEILNEHMERFLUSS
+  ja    S01 N ALL = IG + KG = VA + VB + VC
+  ja    S01 NZEIL = 36 Zeilen je Spieler (18 Zellen × 2 Zeitpunkte)
+  ja    S08 FLZUG IG = S01 N, FLAUSG + FLNANG = FLZUG, FLPRE = FLZUG
+  ja    S08 FLZUG KG = S01 N, FLAUSG + FLNANG = FLZUG, FLPRE = FLZUG
+  ja    S08 FLZUG VA = S01 N, FLAUSG + FLNANG = FLZUG, FLPRE = FLZUG
+  ja    S08 FLZUG VB = S01 N, FLAUSG + FLNANG = FLZUG, FLPRE = FLZUG
+  ja    S08 FLZUG VC = S01 N, FLAUSG + FLNANG = FLZUG, FLPRE = FLZUG
+  ja    S08 FLNANG IG + KG = 4 (BW-07, BW-21, VS-07, VS-16), B6NA identisch
+  ja    S05 NPAH IG + KG = 30 (VS-18 ohne %PAH), FLOPAH = B6FK, FLOPAH KG = 1
+  ja    S08 Z05: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 Z05: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S08 Z10: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 Z10: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S08 Z30: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 Z30: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S08 SBJ: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 SBJ: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S08 CL: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 CL: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S08 CR: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 CR: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S08 CM: FLITT = N ITT, Summe MITGL ITT = n_IG + n_KG, ITT ≤ FLAUSG, S12 N ITT = S08 N
+  ja    S08 CM: ANT ALL = (Spieler mit BEST prä und post) / N, FLOPRE + FLITT ≤ N
+  ja    S13 Z30: NIG/NKG = S08 ITT, DF = N − 4, S15 DFG = UDDF = N − 2, S18 NTOT = N, DF2 = N − 4
+  ja    S08 Z30: PP5 ≥ PP6 ≥ PP7 ≥ AK9 (IG), alle ≤ ITT IG, NKG der PP-Modelle = ITT KG
+  ja    S08 Z30: INF = 1 genau dann, wenn n_IG ≥ 8 und n_KG ≥ 8 (ITT, PP5, PP6, PP7, FAMS)
+  ja    S16 Z30: Zahl der AK9-Einzelwerte = S08 N AK9IG
+  ja    S13 CM: NIG/NKG = S08 ITT, DF = N − 4, S15 DFG = UDDF = N − 2, S18 NTOT = N, DF2 = N − 4
+  ja    S08 CM: PP5 ≥ PP6 ≥ PP7 ≥ AK9 (IG), alle ≤ ITT IG, NKG der PP-Modelle = ITT KG
+  ja    S08 CM: INF = 1 genau dann, wenn n_IG ≥ 8 und n_KG ≥ 8 (ITT, PP5, PP6, PP7, FAMS)
+  ja    S16 CM: Zahl der AK9-Einzelwerte = S08 N AK9IG
+  ja    S13 SBJ: NIG/NKG = S08 ITT, DF = N − 4, S15 DFG = UDDF = N − 2, S18 NTOT = N, DF2 = N − 4
+  ja    S08 SBJ: PP5 ≥ PP6 ≥ PP7 ≥ AK9 (IG), alle ≤ ITT IG, NKG der PP-Modelle = ITT KG
+  ja    S08 SBJ: INF = 1 genau dann, wenn n_IG ≥ 8 und n_KG ≥ 8 (ITT, PP5, PP6, PP7, FAMS)
+  ja    S16 SBJ: Zahl der AK9-Einzelwerte = S08 N AK9IG
+  ja    S12 ANA: N AGE ANAIG/ANAKG = Spieler in mindestens einem ITT-Set (16, 10), N PAH = N AGE
+  ja    S12 NFAM1 + NFAM2 + NFAMNA = N je Gruppe
+  ja    S06 NMELD ALL = S01 NMELD = Summe NSTAT = Summe NMELD je IG-Spieler
+  ja    S07 SUMME GANZ = NSTAT GANZ, SUMME GT = GANZ + TEILW, NZUG = N IG, RATE = SUMME/(12·NZUG)
+  ja    S07 V00..V12 summieren zu NZUG, GE01 = NZUG − V00, GE12 = V12, GE-Reihe monoton fallend
+  ja    S07 Einzelwerte: Summe ADH GANZ (ohne nicht erhebbar) = SUMME GANZ, WOCAP ≤ GANZ, DIST ≤ GANZ je Spieler, 3 × nicht erhebbar
+  ja    S07 N CR10 = N LOAD = SUMME GANZ, Wochensummen = Gesamt, UE ≤ NMELD, UESP ≤ NMELDSP
+  ja    S07 ANTW: Summe der Wochenanteile · 2 · NZUG = SUMME GANZ
+  ja    S08 Box 6: B6IF = 1 (BW-21), B6NE ≤ NZUG − B6IF, B6NEKM ≤ B6NE, NMELDSP + B6NEKM + B6IF = NZUG
+  ja    S02/S03 Z05 PRE: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 Z05 POST: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 Z10 PRE: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 Z10 POST: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 Z30 PRE: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 Z30 POST: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 SBJ PRE: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 SBJ POST: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 CL PRE: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 CL POST: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 CR PRE: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S02/S03 CR POST: gültig + ungültig = 93 Zeilen (31 × 3), NGUELT = Summe K
+  ja    S03 NANG post = 12 Zeilen je Zielgröße (4 Spieler × 3), S02 NAUSL = 0
+  ja    S10 NTE ≤ NSB, DFTE ≥ NTE, S11 N ≤ NTE (prä, alle Zielgrößen)
+  ja    S10 Vereinswerte: NTE VA + VB + VC = NTE ALL, DFTE VA + VB + VC = DFTE ALL (Z30 prä)
+  ja    S09 KMEAN zwischen 0 und 3
+
+2 VORZEICHEN UND INNERE KONSISTENZ
+  ja    S13 Z30: T = B1/SEB1, P = 2·(1 − T_df(|t|)), KI = B1 ± t·SE, KIU < B1 < KIO
+  ja    S13 Z30: AMIG − AMKG = B1, SEAM > 0, AM-Intervalle enthalten AM
+  ja    S13 Z30: PREM und PAHM = Mittel der S04/S05-Werte im ITT-Set
+  ja    S13 Z30: SIG = 1 genau dann, wenn p < 0,05 und günstige Richtung
+  ja    S15 Z30: UD = MPOSTIG − MPOSTKG, UDSE = SDPOST·√(1/n1 + 1/n2), UDT = UD/UDSE, UDP aus t
+  ja    S15 Z30: MPOSTIG/MPOSTKG = S12 M POST ITT, SDPOST = gepoolte S12 SD POST
+  ja    S15 Z30: J = 1 − 3/(4·df_g − 1), G = B1/SDPRE·J, GKIU/GKIO aus KIU/KIO, |G| < 1
+  ja    S12 Z30: D ITT hat das Vorzeichen von M IG − M KG (prä, ITT)
+  ja    S14 Z30: SWVERW = (SWP < 0,05), BFVERW = (BFP < 0,05), VERW SLPRE/SLPAH aus PINT, BFDF1 = 1, BFDF2 = N − 2, DFINT = N − 5, DFCINT = n_BPAH − 4
+  ja    S14 Z30: SDRQ = SDRKG/SDRIG, TINT = BINT/SEINT, PINT aus t (SLPRE)
+  ja    S14 Z30: Überlappung: OVPREIG ≤ n_IG, OVPREKG ≤ n_KG, OVPRL ≤ OVPRU, OVPAL ≤ OVPAU, %PAH-Bereich innerhalb 80 bis 100
+  ja    S19 Z30: BKIU < B1 < BKIO, Breite Bootstrap-KI zwischen 0,6 und 1,4 der t-Breite, BNGUELT + BNVERW = 10 000
+  ja    S18 Z30: MDESR = MDES/0,2, FCRIT = F_1,df2(0,95), POW(D093) > POW(D037), MDES zwischen 0,5 und 2
+  ja    S13 CM: T = B1/SEB1, P = 2·(1 − T_df(|t|)), KI = B1 ± t·SE, KIU < B1 < KIO
+  ja    S13 CM: AMIG − AMKG = B1, SEAM > 0, AM-Intervalle enthalten AM
+  ja    S13 CM: PREM und PAHM = Mittel der S04/S05-Werte im ITT-Set
+  ja    S13 CM: SIG = 1 genau dann, wenn p < 0,05 und günstige Richtung
+  ja    S15 CM: UD = MPOSTIG − MPOSTKG, UDSE = SDPOST·√(1/n1 + 1/n2), UDT = UD/UDSE, UDP aus t
+  ja    S15 CM: MPOSTIG/MPOSTKG = S12 M POST ITT, SDPOST = gepoolte S12 SD POST
+  ja    S15 CM: J = 1 − 3/(4·df_g − 1), G = B1/SDPRE·J, GKIU/GKIO aus KIU/KIO, |G| < 1
+  ja    S12 CM: D ITT hat das Vorzeichen von M IG − M KG (prä, ITT)
+  ja    S14 CM: SWVERW = (SWP < 0,05), BFVERW = (BFP < 0,05), VERW SLPRE/SLPAH aus PINT, BFDF1 = 1, BFDF2 = N − 2, DFINT = N − 5, DFCINT = n_BPAH − 4
+  ja    S14 CM: SDRQ = SDRKG/SDRIG, TINT = BINT/SEINT, PINT aus t (SLPRE)
+  ja    S14 CM: Überlappung: OVPREIG ≤ n_IG, OVPREKG ≤ n_KG, OVPRL ≤ OVPRU, OVPAL ≤ OVPAU, %PAH-Bereich innerhalb 80 bis 100
+  ja    S19 CM: BKIU < B1 < BKIO, Breite Bootstrap-KI zwischen 0,6 und 1,4 der t-Breite, BNGUELT + BNVERW = 10 000
+  ja    S18 CM: MDESR = MDES/0,2, FCRIT = F_1,df2(0,95), POW(D093) > POW(D037), MDES zwischen 0,5 und 2
+  ja    S13 SBJ: T = B1/SEB1, P = 2·(1 − T_df(|t|)), KI = B1 ± t·SE, KIU < B1 < KIO
+  ja    S13 SBJ: AMIG − AMKG = B1, SEAM > 0, AM-Intervalle enthalten AM
+  ja    S13 SBJ: PREM und PAHM = Mittel der S04/S05-Werte im ITT-Set
+  ja    S13 SBJ: SIG = 1 genau dann, wenn p < 0,05 und günstige Richtung
+  ja    S15 SBJ: UD = MPOSTIG − MPOSTKG, UDSE = SDPOST·√(1/n1 + 1/n2), UDT = UD/UDSE, UDP aus t
+  ja    S15 SBJ: MPOSTIG/MPOSTKG = S12 M POST ITT, SDPOST = gepoolte S12 SD POST
+  ja    S15 SBJ: J = 1 − 3/(4·df_g − 1), G = B1/SDPRE·J, GKIU/GKIO aus KIU/KIO, |G| < 1
+  ja    S12 SBJ: D ITT hat das Vorzeichen von M IG − M KG (prä, ITT)
+  ja    S14 SBJ: SWVERW = (SWP < 0,05), BFVERW = (BFP < 0,05), VERW SLPRE/SLPAH aus PINT, BFDF1 = 1, BFDF2 = N − 2, DFINT = N − 5, DFCINT = n_BPAH − 4
+  ja    S14 SBJ: SDRQ = SDRKG/SDRIG, TINT = BINT/SEINT, PINT aus t (SLPRE)
+  ja    S14 SBJ: Überlappung: OVPREIG ≤ n_IG, OVPREKG ≤ n_KG, OVPRL ≤ OVPRU, OVPAL ≤ OVPAU, %PAH-Bereich innerhalb 80 bis 100
+  ja    S19 SBJ: BKIU < B1 < BKIO, Breite Bootstrap-KI zwischen 0,6 und 1,4 der t-Breite, BNGUELT + BNVERW = 10 000
+  ja    S18 SBJ: MDESR = MDES/0,2, FCRIT = F_1,df2(0,95), POW(D093) > POW(D037), MDES zwischen 0,5 und 2
+  ja    S13 H0REJ = max(SIG), NTEST = 3
+  ja    S18 Z10: POW(D011) > POW(D006), beide unter 0,10 (unterpowert bei kleinen Effekten)
+  ja    S10 Z05: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S10 Z10: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S10 Z30: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S10 SBJ: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S10 CL: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S10 CR: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S10 CM: SESOI = 0,2·SB, RTS = TE/SESOI, FLEINZ = (TE > SESOI) = 1, TELO < TE < TEHI, TE < SB
+  ja    S11 Z05 prä: Bias in günstiger Richtung (Zeiten ≤ 0, Sprung ≥ 0), DSESOI = DMEAN/SESOI
+  ja    S11 Z10 prä: Bias in günstiger Richtung (Zeiten ≤ 0, Sprung ≥ 0), DSESOI = DMEAN/SESOI
+  ja    S11 Z30 prä: Bias in günstiger Richtung (Zeiten ≤ 0, Sprung ≥ 0), DSESOI = DMEAN/SESOI
+  ja    S11 SBJ prä: Bias in günstiger Richtung (Zeiten ≤ 0, Sprung ≥ 0), DSESOI = DMEAN/SESOI
+  ja    S11 CL prä: Bias in günstiger Richtung (Zeiten ≤ 0, Sprung ≥ 0), DSESOI = DMEAN/SESOI
+  ja    S11 CR prä: Bias in günstiger Richtung (Zeiten ≤ 0, Sprung ≥ 0), DSESOI = DMEAN/SESOI
+  ja    S04: CM = (CL + CR)/2 bei allen Spielern mit beiden Seiten, sonst Grund „Eingang fehlt“
+  ja    S04: BEST ≤ MEAN bei Zeiten, BEST ≥ MEAN beim Sprung (alle Spieler, prä und post)
+  ja    S05: %PAH aller Spieler zwischen 80 und 100, PAS zwischen 60 und 80 Zoll, MP zwischen 60 und 75 Zoll
+
+3 GRÖSSENORDNUNG
+  ja    S04 BEST Sprint 5 m (s): 53 Werte zwischen 0.8 und 1.5
+  ja    S04 BEST Sprint 10 m (s): 49 Werte zwischen 1.5 und 2.5
+  ja    S04 BEST Sprint 30 m (s): 58 Werte zwischen 3.8 und 6
+  ja    S04 BEST 505 links, rechts, Mittel (s): 164 Werte zwischen 2 und 3.5
+  ja    S04 BEST Standweitsprung (cm): 58 Werte zwischen 150 und 290
+  ja    S12 Alter ANA (Jahre): 2 Werte zwischen 13.5 und 15.5
+  ja    S12 Körperhöhe ANA (cm): 2 Werte zwischen 155 und 190
+  ja    S12 Körpermasse ANA (kg): 2 Werte zwischen 40 und 80
+  ja    S10 CV prä (%): 7 Werte zwischen 0.5 und 10
+  ja    S07 CR-10 Mittel: 1 Werte zwischen 2 und 8
+  ja    S07 sRPE-Load Mittel (AU): 1 Werte zwischen 60 und 320
+  ja    S13 |B1| relativ zu SDPRE unter 0,5 (Z30, CM, SBJ): 0 Werte zwischen 0 und 1
+  ja    S13 |B1|/SDPRE < 0,5 bei allen drei Zielgrößen (kleine adjustierte Differenzen)
+  ja    S13 R² zwischen 0,4 und 0,95 (Prä-Wert als starker Prädiktor)
+  ja    S12 Ausgangsunterschiede: IG schneller und weiter als KG (d < 0 bei Zeiten, d > 0 beim Sprung, Menge BASE)
+
+4 VERGLEICH MIT DER ERSTEN RECHNUNG (Analyseprotokoll 15.09.2026, Kennzahlen 22.09.2026, gerundete Abschriften)
+  Erwartung: konfirmatorische Zielgrößen unverändert (Phase 1 änderte nur 10 m post VS-06, Familiarisierung VS-11, Bemerkungstexte).
+  Hedges-g mit anderem J (15.09.: df = n − 4, jetzt df = n − 2), daher nur die Richtung verglichen. Steigungsmodelle dort als F, hier als t (F = t²).
+  ja    Summe der gültigen Prä-Versuche über alle Zielgrößen = 384 (K-04.2)
+  ja    Ausfälle prä: TECH 94, ZEIT 64, FEHL 16 (K-04.4 bis K-04.6)
+  ja    Adhärenz: SUMME GANZ 92, Rate 92/216, Median 6, GE04..GE09 = 12, 11, 10, 8, 5, 3, V12 = 1, NMELDSP 15, UE 12 bei 9 Spielern (FA 12.09., F14 § 3.2, § 11.7)
+  ja    S06: 111 Meldungen, 7 korrigiert, 92 ganz, 6 teilweise, 13 gar nicht (FA 12.09.)
+  ja    Fallzahlen je ITT-Set wie K-07 (16/7, 7/10, 16/10, 15/10, 14/10, 16/10, 13/10)
+  ja    Familiarisierung: IG 10 × 1, 8 × 2; KG 0 × 1, 13 × 2 (VS-11 in Phase 1 nachgetragen, K-01.12/13 nannte 12 und eine fehlende Angabe)
+  NEIN  Gerundete Werte der ersten Rechnung: 52 von 100 innerhalb der Rundungstoleranz
+      Abweichung S13.B1.Z30.X.ITT.HAUPT: 15.09./22.09. -0.046, jetzt -0.0445062 (AP § 3)
+      Abweichung S13.KIU.Z30.X.ITT.HAUPT: 15.09./22.09. -0.2, jetzt -0.199276 (AP § 3)
+      Abweichung S13.KIO.Z30.X.ITT.HAUPT: 15.09./22.09. 0.107, jetzt 0.110263 (AP § 3)
+      Abweichung S13.P.Z30.X.ITT.HAUPT: 15.09./22.09. 0.536, jetzt 0.557014 (AP § 3)
+      Abweichung S13.B1.CM.X.ITT.HAUPT: 15.09./22.09. -0.014, jetzt -0.0120714 (AP § 3)
+      Abweichung S13.KIU.CM.X.ITT.HAUPT: 15.09./22.09. -0.086, jetzt -0.0854346 (AP § 3)
+      Abweichung S13.KIO.CM.X.ITT.HAUPT: 15.09./22.09. 0.057, jetzt 0.0612918 (AP § 3)
+      Abweichung S13.P.CM.X.ITT.HAUPT: 15.09./22.09. 0.678, jetzt 0.734333 (AP § 3)
+      Abweichung S13.B1.SBJ.X.ITT.HAUPT: 15.09./22.09. 0.2, jetzt -0.0694401 (AP § 3)
+      Abweichung S13.KIU.SBJ.X.ITT.HAUPT: 15.09./22.09. -8.3, jetzt -8.71381 (AP § 3)
+      Abweichung S13.KIO.SBJ.X.ITT.HAUPT: 15.09./22.09. 8.7, jetzt 8.57493 (AP § 3)
+      Abweichung S13.P.SBJ.X.ITT.HAUPT: 15.09./22.09. 0.96, jetzt 0.986859 (AP § 3)
+      Abweichung S17.B1.Z30.X.ITT.MW: 15.09./22.09. -0.065, jetzt -0.0616558 (AP § 4)
+      Abweichung S17.P.Z30.X.ITT.MW: 15.09./22.09. 0.402, jetzt 0.431539 (AP § 4)
+      Abweichung S17.B1.CM.X.ITT.MW: 15.09./22.09. 0.004, jetzt 0.00595821 (AP § 4)
+      Abweichung S17.B1.SBJ.X.ITT.MW: 15.09./22.09. -2.2, jetzt -2.41215 (AP § 4)
+      Abweichung S16.B1.Z30.X.PP6.HAUPT: 15.09./22.09. 0.028, jetzt 0.0328544 (AP § 4)
+      Abweichung S16.P.Z30.X.PP6.HAUPT: 15.09./22.09. 0.794, jetzt 0.769104 (AP § 4)
+      Abweichung S16.B1.SBJ.X.PP6.HAUPT: 15.09./22.09. 0.9, jetzt 0.511413 (AP § 4)
+      Abweichung S17.B1.Z30.X.PP5.HAUPT: 15.09./22.09. -0.0, jetzt 0.00595073 (AP § 4)
+      Abweichung S17.B1.CM.X.PP5.HAUPT: 15.09./22.09. -0.017, jetzt -0.0138194 (AP § 4)
+      Abweichung S17.B1.SBJ.X.PP5.HAUPT: 15.09./22.09. -1.6, jetzt -1.90421 (AP § 4)
+      Abweichung S17.B1.Z30.X.PP7.HAUPT: 15.09./22.09. 0.029, jetzt 0.0334128 (AP § 4)
+      Abweichung S17.B1.SBJ.X.PP7.HAUPT: 15.09./22.09. -0.5, jetzt -0.855457 (AP § 4)
+      Abweichung S17.B1.Z30.X.ITT.AEND: 15.09./22.09. 0.048, jetzt 0.0492628 (AP § 4)
+      Abweichung S17.B1.CM.X.ITT.AEND: 15.09./22.09. -0.012, jetzt -0.00898501 (AP § 4)
+      Abweichung S17.B1.SBJ.X.ITT.AEND: 15.09./22.09. -0.4, jetzt -0.63558 (AP § 4)
+      Abweichung S14.SWP.Z30.X.ITT.HAUPT: 15.09./22.09. 0.035, jetzt 0.0339901 (AP § 5)
+      Abweichung S14.SWW.CM.X.ITT.HAUPT: 15.09./22.09. 0.927, jetzt 0.934385 (AP § 5)
+      Abweichung S14.SWP.CM.X.ITT.HAUPT: 15.09./22.09. 0.096, jetzt 0.136021 (AP § 5)
+      Abweichung S14.SWW.SBJ.X.ITT.HAUPT: 15.09./22.09. 0.967, jetzt 0.968295 (AP § 5)
+      Abweichung S14.SWP.SBJ.X.ITT.HAUPT: 15.09./22.09. 0.553, jetzt 0.579638 (AP § 5)
+      Abweichung S14.BFF.Z30.X.ITT.HAUPT: 15.09./22.09. 2.3, jetzt 2.23888 (AP § 5)
+      Abweichung S14.BFP.Z30.X.ITT.HAUPT: 15.09./22.09. 0.142, jetzt 0.147614 (AP § 5)
+      Abweichung S14.BFF.SBJ.X.ITT.HAUPT: 15.09./22.09. 0.78, jetzt 0.765521 (AP § 5)
+      Abweichung S14.BFP.SBJ.X.ITT.HAUPT: 15.09./22.09. 0.385, jetzt 0.390279 (AP § 5)
+      Abweichung S14.PINT.Z30.X.ITT.SLPRE: 15.09./22.09. 0.395, jetzt 0.397508 (AP § 5)
+      Abweichung S14.PINT.Z30.X.ITT.SLPAH: 15.09./22.09. 0.18, jetzt 0.164695 (AP § 5)
+      Abweichung S14.PINT.CM.X.ITT.SLPRE: 15.09./22.09. 0.407, jetzt 0.379729 (AP § 5)
+      Abweichung S14.PINT.CM.X.ITT.SLPAH: 15.09./22.09. 0.889, jetzt 0.922423 (AP § 5)
+      Abweichung S14.PINT.SBJ.X.ITT.SLPRE: 15.09./22.09. 0.199, jetzt 0.198392 (AP § 5)
+      Abweichung S14.PINT.SBJ.X.ITT.SLPAH: 15.09./22.09. 0.408, jetzt 0.435371 (AP § 5)
+      Abweichung S10.TE.CM.PRE.ALL.X: 15.09./22.09. 0.058, jetzt 0.0548519 (K-05)
+      Abweichung S10.RTS.CM.PRE.ALL.X: 15.09./22.09. 2.88, jetzt 2.73134 (K-05)
+      Abweichung S12.M.PAH.PRE.ANAIG.X: 15.09./22.09. 94.65, jetzt 94.7402 (K-02b)
+      Abweichung S12.SD.PAH.PRE.ANAIG.X: 15.09./22.09. 2.9, jetzt 2.76653 (K-02b)
+      Abweichung S12.M.PAH.PRE.ANAKG.X: 15.09./22.09. 90.41, jetzt 90.4951 (K-02b)
+      Abweichung S12.SD.PAH.PRE.ANAKG.X: 15.09./22.09. 2.85, jetzt 2.72557 (K-02b)
+  NEIN  S15 g: Richtung wie 15.09. (Z30 negativ, CM negativ, SBJ positiv), Betrag unter 0,2
+  ja    Schlusslogik: alle drei Zielgrößen Fall C1 (KI schließt −SESOI, 0 und +SESOI ein), H0 nicht abgelehnt
+  ja    TE post Verein A 30 m größer als TE prä Verein A (Belastungsfrage F14 § 11.3)
+
+5 URSACHE DER ABWEICHUNGEN ZUR ERSTEN RECHNUNG: REGEL FÜR %PAH
+  Die erste Rechnung (15.09.) und das Kennzahlenblatt (22.09.) übernahmen %PAH aus der Workbook-Spalte PAH_Prozent. Deren Formel
+  (01_Personen, Spalte PAH_cm) wählt die Koeffizientenzeile der NÄCHSTEN Halbjahresstufe (ROUND(Alter·2,0)/2), rechnet Pfund mit 2,20462
+  und rundet PAH_cm auf 0,1 cm. Die Spezifikation S05 interpoliert linear zwischen den Halbjahreszeilen (O2, nachträglich 24.09.),
+  rechnet mit 0,45359237 kg je Pfund (K3) und rundet nicht (0.5 Nr. 1). Nachrechnung mit der Workbook-Formel aus dem Datenstand:
+  Differenz Workbook-Formel minus Spezifikation je Spieler (Prozentpunkte): min -0.629, max 0.554, mittlerer Betrag 0.293, n = 30
+  ja    ANA IG: Workbook-Formel reproduziert K-02b (M 94.65, SD 2.90)
+  ja    ANA KG: Workbook-Formel reproduziert K-02b (M 90.41, SD 2.85)
+  ja    Z30: ANCOVA mit Workbook-%PAH reproduziert 15.09. (b1 -0.046, p 0.536), Spezifikation ergibt -0.04451, p 0.557
+  ja    CM: ANCOVA mit Workbook-%PAH reproduziert 15.09. (b1 -0.014, p 0.678), Spezifikation ergibt -0.01207, p 0.734
+  ja    SBJ: ANCOVA mit Workbook-%PAH reproduziert 15.09. (b1 0.2, p 0.96), Spezifikation ergibt -0.06944, p 0.987
+  Folgerung: Die Abweichungen in Abschnitt 4 sind vollständig durch die nachträglichen Festlegungen O2, K3 und 0.5 Nr. 1 erklärt.
+  Sie gehören mit altem und neuem Wert in das Register (Auswertungsverfahren 2.3). Die Schlusslogik ändert sich nicht (Fall C1, H0 nicht abgelehnt).
+
+ERGEBNIS: 145 Prüfungen bestanden, 2 nicht bestanden
+Die nicht bestandenen Prüfungen in Abschnitt 4 (gerundete Werte der ersten Rechnung, Richtung von g beim Standweitsprung) sind in Abschnitt 5 erklärt.
+Erzeugt: 2026-09-25 10:37:33 UTC

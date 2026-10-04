@@ -1,0 +1,42 @@
+Bereinigung der Maßnahmenliste am 25.09.2026 (Rev. 97)
+Geschlossen: 32 Hauptpunkte, 6 Teilpunkte
+Danach offen: 33 Hauptpunkte, 40 Teilpunkte. Erledigt gesamt: 112 Hauptpunkte, 36 Teilpunkte
+
+A2 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Verfasserentscheidung nach F14 § 13, keine primäre Zielgröße (Antrag)
+A3 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Verfasserentscheidung nach F14 § 13, Hedges' g nach O3
+A4 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Verfasserentscheidung nach F14 § 13, ITT und Per-Protokoll nach § 11.7
+A5 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): in F14 § 10 (ITT-Sprachregelung) und § 11.7 aufgenommen
+A6 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Post-Termine vorbei (10.09., 14.09.), Versuchszahlen in K-11
+A7 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Post-Termine vorbei, Versuchszahlen in K-11
+C10 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Rückfragen beantwortet, mündliche Auskünfte bleiben Vermerk
+C11 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Adhärenz kommt aus S07 der Blindrechnung, das Workbook ist eingefroren
+D5 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Voraussetzungsprüfungen in S14 der Blindrechnung (K-07), Regel O7
+E1 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Hauptanalyse S13 der Blindrechnung (K-06)
+E2 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Ausgaben nach Spezifikation S13 und S15, Tab. 3 und Tab. H4 (K-06)
+E3 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): 505 als Seitenmittel nach Antrag, keine getrennten Modelle (F14 § 11.2)
+F1 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): COD-Defizit entfällt (F14 § 2, § 11.2)
+F2 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Familiarisierung als dritte Kovariate in S17 (K-08), Variante a nur beschreibend
+F5 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Per-Protokoll-Vergleich S16 der Blindrechnung (K-08)
+F6 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Mittelwert-Variante in S17 der Blindrechnung (K-08)
+G4 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Plausibilitätsprotokoll 25.09. (Auswertungsverfahren 6.4, Nenner gegen Teilnehmerfluss)
+H2 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Lord (1967) gestrichen (F14 § 6.5, § 15)
+I11 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Zahlen in überholten Fassungen, maßgeblich ist das Kennzahlenblatt 25.09. (Zahlenregel), F14 § 3 führt keine Zahlen
+I16 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Sitzungsnotizen und Statistik-Lehrgang sind keine Zahlenquelle (Zahlenregel), Kennzahlenblatt 25.09. maßgeblich
+I17 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Statistik-Lehrgang ist keine Zahlenquelle, Bestwert-Bias gemessen in K-11 und Tab. H1d
+K4 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): die Darstellungspipeline ist überholt (Umfangsdokument § 4), Objekte per R-Skript
+K21 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): alle Messgütewerte kommen aus der Blindrechnung (K-05), keine Fassung führt Zahlen
+J3 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): F14 § 6.4 (Betreuung kein Distanzmaß) und § 12 G4 (Altmann 0,04 s)
+J4 → zusammengelegt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“) mit H6 (Clemente et al., 2022)
+J5 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): keine Betreuervorlage seit dem 24.09. (F14 § 13)
+K9 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): keine Betreuervorlage seit dem 24.09. (F14 § 13)
+K17 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): keine Betreuervorlage seit dem 24.09. (F14 § 13)
+K7 → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Objekte entstehen per R-Skript aus der Ergebnisdatei (L19), die Pipeline ist überholt
+K8 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Termin vorbei, Versuchszahl in K-11
+K10 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Hauptordner enthält nur README und Skript (Ordnerliste 25.09.)
+K12 → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): 4.1 nennt keine Termine mehr, Clusterebene in K-01.24 und Abb. 1
+G16d → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Klick 5 der Gliederung v4, Unterbudgets in F14 § 5.2 und Plan § 5
+G17a → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): 4.2 steht im Master (Rev. 12/13, 208 Wörter)
+G26a → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): ITT-Wortlaut in 4.7 (Rev. 95)
+G26k → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Klick 5 der Gliederung v4
+G28a → erledigt 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): Programmkennzahlen_2026-09-23 liegen vor und sind Zahlenquelle (F14 § 1.2)
+G27e → gegenstandslos 25.09. (Rev. 97, Plan § 6, Verfasser „Bitte aktualisieren“): TREND wird im Manuskript nicht genannt (Verfasser 23.09., F14 § 4)

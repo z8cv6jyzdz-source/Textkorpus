@@ -1,0 +1,107 @@
+Steuerung_Rev115_2026-09-28.py — Teil 0 Rev. 115 und Maßnahmenliste (Task Steuerdokumente 28.09.)
+Uhrzeit Sitzungsuhr 20:04 (MESZ 21:04) · Seitenmodell 29,8 / 31,1 / Textteil 23,4 · Messskript 29,4 · Kapitel 4 2.416 · 4.7 463 · Textvorschlag 1.321
+Projektkopien gelöscht (K4): 24 · behalten ohne Original: 5
+Kästchen offen nach Rev. 115: 38 Hauptpunkte, 9 Unterpunkte
+
+ersetzt: SN Stand
+ersetzt: SN Rev. 115
+ersetzt: ML Stand
+ersetzt: ML A8
+ersetzt: ML G25d
+ersetzt: ML G26g
+ersetzt: ML G29
+ersetzt: ML G30
+ersetzt: ML G31
+ersetzt: ML G32 h
+ersetzt: ML G32
+ersetzt: ML G33
+ersetzt: ML G34
+ersetzt: ML G35
+ersetzt: ML G36
+ersetzt: ML H6
+ersetzt: ML H9
+ersetzt: ML H10
+ergänzt: ML I19
+ersetzt: ML L9
+ergänzt: ML L12
+ersetzt: ML L14
+ersetzt: ML Zusammenfassung Kopf
+ersetzt: ML Zeile 1
+Zeile ersetzt: ML Zeile 1b
+ersetzt: ML Zeile 7 neu
+ersetzt: ML Zeile 7 neu H10
+Zeile ersetzt: ML Zeile 11
+ersetzt: ML Zeile 12
+ersetzt: ML Zeile 15
+Zeile ersetzt: ML Zeile 16
+Zeile ersetzt: ML Zeile 18
+ersetzt: ML Summe
+geschrieben Cowork_Sitzungsnotizen.md: 618446 Byte
+geschrieben Massnahmenliste_Datenverarbeitung.md: 196688 Byte
+
+Rückschreibung (Sitzungsuhr 20:12, entspricht 21:12 MESZ)
+Verfahren: je Commit eigener Ausgabepfad unter outputs (R115_A Archiv, R115_B Dokumente und Skripte, R115_C dieses Protokoll), kurze Wartezeit, Commit mit expectedMtimeMs für ersetzte Dateien, danach neu gestagt und per MD5 mit der Arbeitsfassung verglichen.
+Gerätestand vor dem Commit neu gelistet: Mtimes aller ersetzten Dateien gleich den Werten beim Stagen zu Beginn des Tasks, keine Parallelarbeit.
+Commit A (Archiv zuerst, Vorstände gesichert): 23 geschrieben, 0 abgewiesen, MD5 23 von 23 gleich. Vorher geprüft: jede Archivkopie byte-gleich mit ihrem Original.
+Commit B: 33 geschrieben, 0 abgewiesen, davon 13 ersetzt mit Mtime-Wächter und 20 neu, MD5 33 von 33 gleich.
+Master unverändert: Schreiben\Bachelorarbeit_Gerüst_v1_AKTUELL.docx, 48.791 Byte, MD5 e35315d68ecca83176bcdc2c6ca557c0, ohne word/comments.xml (neu gestagt nach Commit B).
+Nicht zurückgeschrieben: 8 unveränderte Lesekopien in 03_Skripte (Endabgleich_Manuskript_2026-09-25.py, Plan_Rev4_2026-09-25.py, Projektanweisungen_Fassung15_2026-09-25.py, Projektanweisungen_Fassung16_2026-09-25.py, Projektanweisungen_Vergleich_2026-09-25.py, Steuerdokumente_README_Archiv_2026-09-25.py, Steuerung_Rev108_2026-09-26.py, Werkzeug_Hausstil_2026-09-25.py) und der Arbeitsordner archiv.
+Dieses Protokoll geht als letzte Datei zurück (Commit C) und wird ebenso geprüft. Sein eigener MD5 kann hier nicht stehen.
+
+Datei	Byte	MD5	Vergleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Berichtsraster_2026-09-23.docx	76863	38941d6c819914c4606d68006b882a34	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Berichtsraster_2026-09-23.md	96917	612b8fbd63206d607ae721dd5e6f8c8c	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Berichtsraster_2026-09-23.pdf	750484	5760a927f076951f010540bbfe9e086b	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Gliederung_2026-09-23.docx	51458	b84611a594b888d21092724a5276a640	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Gliederung_2026-09-23.md	62819	006fa8e9920fa04f50b2be635698f231	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Gliederung_2026-09-23.pdf	492598	db9ec8c5d8bcefdff10a2a1e6da9582a	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Manuskriptstand_2026-09-25.csv	3511	27196d831f22cf7ed58ab15b556219d6	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Manuskriptstand_2026-09-25.py	7354	bd365c62e0589e300d840e840d7b3eac	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Manuskriptstand_2026-09-25.txt	7211	2b7f1453330525f7e8df605eea0b1324	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Ordner_aufraeumen.ps1	13136	12386e6b686c1efce98833287f38ae34	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Plan_Weitere_Schritte_2026-09-25.md	62245	cef0b48938a77f529e05831d64418df8	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\Projektanweisungen_Fassung16.md	123187	31774ca1c0e744c5fb0bf207cfa4fc3a	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Steuerdokumente\README_Ordnerstruktur.md	11821	86e041a588e2205f7ab568278d74aa89	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Textvorschlag_2.4_2026-09-26.md	29553	f262ed9c619f964c2023ffd8dd20d6fc	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Textvorschlag_2.4_2026-09-27.md	35783	940d32f7c49df211ecb52cdbb8aa1413	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Textvorschlag_2.4_2026-09-27_Fassung5.md	26187	5f0cb5f44afd2e872150f912c411e798	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Textvorschlag_4.7_2026-09-25.md	35353	e7f07e601b4fd56f089a30f22412ebcb	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Uebergabe_2.4_Fassung6_2026-09-28.md	11810	72db5cdb097017ca885ece946f72b3a9	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Uebergabe_Einleitung_2026-09-28.md	16476	d03e05360516918c0bc5602cf62dc0c4	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Uebergabe_Kapitel2_2026-09-26.md	13238	943c14796ddd5ae56f002f168bb035f5	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Uebergabe_Steuerdokumente_2026-09-25.md	17987	bf4427dae31e345ea6d259a750104a45	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Uebergabe_Steuerdokumente_2026-09-28.md	65434	c2d5fbce160367289e24b642d3d12c0e	gleich
+Claude\_Archiv\_ersetzt_2026-09-28_Uebergaben\Uebergabe_Textrevision_2026-09-12.md	46537	d8774eceb2884c7cac4bbad34b6dbdd6	gleich
+Claude\00_Steuerung\Cowork_Sitzungsnotizen.md	618446	0c525ff5952fa72bcff062f5c80f350a	gleich
+Claude\00_Steuerung\Massnahmenliste_Datenverarbeitung.md	196688	2d6cb2ef04b847e551ac9bbe5a045f6f	gleich
+Claude\00_Steuerung\Projektanweisungen_Fassung17.md	150926	0bd441fc265f08a6280d2ad582008f60	gleich
+Claude\01_Verfahren\Gliederung_2026-09-28.docx	25658	802b03b613f5b8437cb9860308bf9bcf	gleich
+Claude\01_Verfahren\Gliederung_2026-09-28.md	28198	3f2248f6fabc78a45ba5cc18820daf18	gleich
+Claude\01_Verfahren\Gliederung_2026-09-28.pdf	272838	0ca2fc1d6ae3f275841a64740c7a0009	gleich
+Claude\02_Befunde\Berichtsraster_2026-09-23.docx	66502	f8113266a27861bfb35efff27eec2d66	gleich
+Claude\02_Befunde\Berichtsraster_2026-09-23.md	106370	527009f05fb25ea0b64abac4aa49bf55	gleich
+Claude\02_Befunde\Berichtsraster_2026-09-23.pdf	904257	7b082b996b2f763bcdc68fceb5f5e57b	gleich
+Claude\03_Skripte\Berichtsraster_Rev3_2026-09-28.py	40497	e8dbc6d259b761d1897a306c49d30cf7	gleich
+Claude\03_Skripte\Gliederung_v5_2026-09-28.py	37247	2a30a665f975c3596f1bc51647e26bd1	gleich
+Claude\03_Skripte\Manuskriptstand_2026-09-25.csv	4110	576d6b7cfe3fe292c1917ea3c1af7cdc	gleich
+Claude\03_Skripte\Manuskriptstand_2026-09-25.py	15239	2574fb087d1e19d5e56d2029d4ad8903	gleich
+Claude\03_Skripte\Manuskriptstand_2026-09-25.txt	8697	0231aee032e3b8b177b8cb74354aebc0	gleich
+Claude\03_Skripte\Plan_Rev5_2026-09-28.py	39999	fe58b3c3e0af04ca00bb756554aaad21	gleich
+Claude\03_Skripte\Projektanweisungen_Fassung17_2026-09-28.py	84537	867c125506f11b652f255e40db2de00b	gleich
+Claude\03_Skripte\Projektanweisungen_Vergleich_F16_F17_2026-09-28.py	34650	2c60bf867cfff94c6e976633e2ae55c0	gleich
+Claude\03_Skripte\Projektanweisungen_Vergleich_F16_F17_2026-09-28.txt	46339	dd51365f96e9a256877da9d56f69e9b2	gleich
+Claude\03_Skripte\Projektanweisungen_Vergleich_F16_F17_2026-09-28_Ordnerliste.txt	25757	c1ab9e4068c1bf9eba0740c44cc7e9fa	gleich
+Claude\03_Skripte\Seitenmodell_2026-09-28.csv	1397	2c93131144a639250d98d2062a9145a7	gleich
+Claude\03_Skripte\Seitenmodell_2026-09-28.py	24211	d84d8e8d488225319ab565ff9b66ae3b	gleich
+Claude\03_Skripte\Seitenmodell_2026-09-28.txt	6315	08fc3e94d576e02801dda6027bbe9898	gleich
+Claude\03_Skripte\Steuerdokumente_Pruefung_2026-09-28.py	33361	0e6f48caaf216d86bebb0dfc87cfb493	gleich
+Claude\03_Skripte\Steuerdokumente_Pruefung_2026-09-28.txt	4751	d7f6cf4ba11b2baa2fca4b31fff0f196	gleich
+Claude\03_Skripte\Steuerdokumente_README_Archiv_2026-09-28.py	29975	43ef18d8b37d6494aa12cbf5d77b2e98	gleich
+Claude\03_Skripte\Steuerdokumente_README_Archiv_2026-09-28.txt	4207	c4f4ea38a0d884e544e74bc928fbd1bd	gleich
+Claude\03_Skripte\Steuerung_Rev115_2026-09-28.py	25751	b12b7e97a09d6c4321379c0e169779ad	gleich
+Claude\03_Skripte\T4_Nachtrag_dV2009_2026-09-28.py	2898	ed1a0c7c23dbe6966f5e22751d758965	gleich
+Claude\04_Uebergaben\Plan_Weitere_Schritte_2026-09-25.md	71834	2efde8e9374692d2fe7a8320207e01d4	gleich
+Claude\04_Uebergaben\Uebergabe_Einleitung_2026-09-28.md	18803	51f60c67835aee4074cec9aa16c7f54a	gleich
+Claude\Ordner_aufraeumen.ps1	14398	8782a783a18e6c0f10a1cad6260fcaa7	gleich
+Claude\README_Ordnerstruktur.md	13883	93c422908cf132d78495f6bdaae313c3	gleich
+Schreiben\ev3_daten\T4_zitierfallen.csv	65672	1bf90f1da185639cd4c0b1db0487dee9	gleich

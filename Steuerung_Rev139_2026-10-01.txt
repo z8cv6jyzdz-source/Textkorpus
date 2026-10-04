@@ -1,0 +1,3 @@
+Cowork_Sitzungsnotizen.md: 742407 Byte, MD5 51d1065845d82c82194f8e883bfd0ab1 (vorher b5f5124145e56a5f8eda2aeb8fb6661c)
+Massnahmenliste_Datenverarbeitung.md: 217800 Byte, MD5 feeb9b4b68210463d9aa98cf9bc3f4e7 (vorher 8067be47b9e5b72a00398530fe8a9f3c)
+Uhrzeit (Sitzungsuhr): 08:34

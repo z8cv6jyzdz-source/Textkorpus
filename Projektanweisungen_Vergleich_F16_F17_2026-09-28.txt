@@ -1,0 +1,357 @@
+Projektanweisungen_Vergleich_F16_F17_2026-09-28.py, Lauf am 28.09.2026
+
+VERGLEICH Fassung 16 gegen Fassung 17 (absatzweise je Paragraf)
+
+§ Kopf: 16 Absatz/Absätze ersetzt oder entfernt, 12 neu oder geändert
+   + Fassung 17, Stand 28.09.2026 (ersetzt Fassung 16 vom 25.09.2026, eingesetzt am 25.09.)
+   + **Wirksam wird diese Fassung erst, wenn der Verfasser sie in die Projekteinstellungen einsetzt (Maßnahme A8).** Bis dahin gilt dort Fassung 16. Sicherung: `Claude\00_Steu …
+   + Neu in Fassung 17 — Stand nach Task 6, dem Neuzuschnitt vom 28.09. und dem Textvorschlag Einleitung (Teil 0 Rev. 107 bis 115):
+   + **(A) Einleitung statt Kapitel 1 bis 3.** Kapitel 1, 2 und 3 werden eine Einleitung ohne Unterabschnitte mit höchstens 1.500 Wörtern (Verfasser 28.09., 14:38, Klick 14:57 …
+   + **(B) Umfang: 6.350 Wörter und höchstens 33 Seiten einschließlich Literaturverzeichnis.** Die Wortgrenze sinkt mit der Einleitung von 9.000 auf 6.350 (§ 5.2). Die Seiteng …
+   + **(C) Kapitel 4 ist textlich fertig.** 4.1 291 · 4.2 208 · 4.3 340 · 4.4 392 · 4.5.1 418 · 4.5.2 150 · 4.6 154 · 4.7 463, zusammen 1.953 gegen 2.000 und mit 4.7 2.416 geg …
+   + **(D) Relevanz und Prävention.** Leistung bleibt der Zweck nach Antrag. Die Relevanz für den leistungsorientierten Breitensport tragen Machbarkeit, das Zeitfenster der So …
+   + **(E) Entscheidungen seit dem 26.09.** (§ 13 Nr. 23 bis 41): 4.7 aus Task 6 mit Bootstrap als streichbarem Modul, Schlussabsatz nur mit Verfahren und Pflichtangaben, Anha …
+   + **(F) Rückschreibung mit Prüfung.** Am 28.09. meldeten Commits zweimal „written“ und hatten den vorherigen Stand geschrieben. Jede Rückschreibung geht aus einem eigenen,  …
+   + ⚠ Korrigiert gegenüber Fassung 16 (Befunde vom 28.09.): § 6.6 und § 12 G8 stützten „Leistungsniveau“ auf p = 0,102 bei de Villarreal et al. (2009). Der Wert gehört zu „Fi …
+   + Weiter gültig:
+- Die Auswertung ist abgeschlossen. Zahlenquelle ist allein `02_Befunde\Kennzahlen_2026-09-25.md` (Rev. 2, § 1.2, § 3, § 11.10).
+- Im Manuskript stehen kei …
+   + Hinweis zur Nummerierung: Die Abschnittsnummern 4.1 bis 7 sind bis Task 18 Arbeitsnummern, auch in Angaben wie „Kapitel 5 und 6“. „Kapitel 1 bis 5“ zählt die fünf Kapitel …
+[Überschrift geändert] Umfang (neu gefasst 15.09.2026)  →  Umfang (neu gefasst 28.09.2026)
+§ Umfang (neu gefasst 28.09.2026): 9 Absatz/Absätze ersetzt oder entfernt, 9 neu oder geändert
+   + **Hartgrenze: 6.350 Wörter Absatztext der Kapitel 1 bis 5 (Arbeitsnummern 1 und 4 bis 7).** Gezählt wird ohne Vorspann, Überschriften, Tabelleninhalte, Beschriftungen, Li …
+   + **Seitengrenze: höchstens 33 Seiten einschließlich Literaturverzeichnis** (Verfasser 28.09., 15:14: „Literaturverzeichnis inkludiert. Also ist die Seitengrenze nicht rein …
+   + | Ebene | Grenze | Grundlage |
+|---|---|---|
+| Verfasser | höchstens 33 Seiten, Einleitung bis Ende des Literaturverzeichnisses | Verfasser 28.09., 15:14, Zählweise nach  …
+   + Von den Obergrenzen gilt die strengste, die des Verfassers. Regel R6 entfällt (Klick K2, 28.09.). Eine sanktionierte Untergrenze nennt die Prüfungsordnung nicht, mit „sol …
+   + **Herleitung.** Der Vergleichskorpus aus elf publizierten Interventionsstudien umfasst im Absatztext von der Einleitung bis zum Fazit im Mittel 4.127 Wörter (Median 3.995 …
+   + **Seitenrechnung — Modellrechnung, keine Messung.** Quelle ist `03_Skripte\Seitenmodell_2026-09-28` (.py, .txt, .csv): Dichte am Master vom 26.09. mit LibreOffice gerende …
+   + | Posten | Seiten | Art |
+|---|---:|---|
+| Einleitung 1.500 Wörter bei 359 Wörtern je Seite, Methodik bis Fazit 4.850 bei 330 | 18,9 | Modellrechnung, Dichten gemessen |
+ …
+   + Die Tabelle ist die Budgetprognose, alle Abschnitte mit vollem Budget. Das Messskript schreibt die Rechnung mit den gemessenen Wörtern und Belegen fort (Block „Seitenschä …
+   + **Kein Auffüllen.** Regel R6 (unter 30 Seiten Anhangsobjekte in den Textteil holen) entfällt (Klick K2, 28.09.). Es bleibt die allgemeine Regel: Fließtext wird nie aufgef …
+§ 1.2 Arbeitsablauf: 2 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + 1. `Claude\02_Befunde\Berichtsraster_2026-09-23` (Rev. 3) — Einstieg je Abschnitt, für die Einleitung der Kopfblock „Einleitung“: Kopfblock mit Budget, Bauplan-Zug, Quell …
+   + Für den Rest von Task 7 neu (Abgleich nach der Übertragung, Übergabe Einleitung § 8 Nr. 6) kommen vor allem anderen `Claude\04_Uebergaben\Textvorschlag_Einleitung_2026-09 …
+   + **Commit-Hinweis:** Manuskript-Master in OneDrive. Beim Zurückschreiben darf die Datei nicht in Word geöffnet sein. Nach jedem Commit Zielnamen und Größe prüfen. Eine Man …
+   + **Uhrzeiten:** Die Uhrzeiten in Teil 0 und in den Steuerdokumenten folgen der Sitzungsuhr (UTC+1). Bis Rev. 112 sind sie mit „MESZ“ beschriftet, in MESZ liegen sie eine S …
+§ 1.3 Dokumentenkarte: 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + | Datei | Rolle |
+|---|---|
+| `Claude\02_Befunde\Berichtsraster_2026-09-23` (Rev. 3) | **Einstieg je Abschnitt (Ebene Inhalt).** Berichtspflichten je Abschnitt mit Etiket …
+   + **Nachtragsvermerke** (Maßnahmen I19 und G32 j, jeweils mit der nächsten Revision des Dokuments, keine eigene Fassung): Auswertungsverfahren — 7.3: die Kennung steht nich …
+   + **Überholte Teile anderer Dokumente** (G26i, Vermerk hier und im README, nicht in den Dokumenten selbst): `CONSORT_Auswertung_und_Umsetzung_2026-09-09` § 4 (Vorschlagslis …
+   + **Veraltet, nicht verwenden:** alles in `Claude\_Archiv` · Analyseprotokoll_2026-09-11 und _2026-09-12 · Auswertungsplan_2026-09-11 · Skripte mit Datum 2026-09-11 · Stati …
+§ 1.5 Leitregel: Antrag vor Optimierung: 2 Absatz/Absätze ersetzt oder entfernt, 2 neu oder geändert
+   + **Auf den Antrag zurückgeführt (keine Abweichung):** 505 als Mittelwert beider Beinseiten · Hedges' g · Hypothesen nah am Antragswortlaut, H0 und H1 einander ergänzend (G …
+   + **Freigaben:** F0, 0.2, 0.3 und F1 hat der Verfasser am 24.09. selbst gegeben, F2 und F3 am 25.09. Eine unabhängige Methodenprüfung fand nicht statt. Sie ist genau einmal …
+§ 2. STUDIENSTECKBRIEF: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + | Merkmal | Ausprägung |
+|---|---|
+| Design | Quasi-experimentelle, kontrollierte Prä-Post-Feldstudie mit Wartelisten-KG, pragmatische Zuteilung auf Vereinsebene (drei Cl …
+§ 4. VERBINDLICHE BERICHTSSTANDARDS: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **CONSORT 2010, nicht CONSORT 2025 (Hopewell et al., 2025), und kein TREND.** Berichtet wird „in Anlehnung an“ CONSORT 2010, weil Fröhlich et al. (2020) und alle Planungs …
+[Überschrift geändert] 5.1 Gliederung (v4, Klickantworten 23.09.2026)  →  5.1 Gliederung (v5, 28.09.2026)
+§ 5.1 Gliederung (v5, 28.09.2026): 5 Absatz/Absätze ersetzt oder entfernt, 7 neu oder geändert
+   + Die Gliederung v5 (`01_Verfahren\Gliederung_2026-09-28`) gilt als revidierbare Arbeitsfestlegung. Sie ersetzt v4 nach dem Neuzuschnitt vom 28.09. (Verfasser 14:38, Klick  …
+   + 1. **Einleitung** — ohne Unterabschnitte, höchstens 1.500 Wörter, Trichter in acht Zügen (§ 5a), endet mit den Hypothesen nah am Wortlaut des Ethikantrags (H0/H1 „in mind …
+   + **Nachspann:** Literaturverzeichnis · Anhang A Fragebogen A · B Übungs- und Videoübersicht · C Aufwärmprogramm der Testtage · D Vereins-Sommerprogramme · E Ethikvotum und …
+   + **Arbeits- und Endnummern.** Bis Task 18 behalten Methodik bis Fazit im Master und in allen Steuerdokumenten, Skripten und Textvorschlägen ihre Arbeitsnummern. Die Umnumm …
+   + | Arbeitsnummer | Endnummer |
+|---|---|
+| 1 Einleitung | 1 |
+| 4, 4.1 bis 4.7 (mit 4.4.1 bis 4.4.3, 4.5.1, 4.5.2) | 2, 2.1 bis 2.7 (mit 2.4.1 bis 2.4.3, 2.5.1, 2.5.2) |
+| …
+   + **Reihenfolgetreue:** Sprint → Richtungswechsel → Sprung in den Hypothesen, den Ergebnissen und der Diskussion identisch.
+   + Die Errata E1 bis E5 zur Gliederung v4 (Prüfprotokoll `05_Protokolle\Pruefprotokoll_Gliederung_2026-09-23` § 2) stehen in der Gliederung v5, Abschnitt Herkunft.
+[Überschrift geändert] 5.2 Wortbudget (verbindlich seit 15.09.2026)  →  5.2 Wortbudget (verbindlich, neu gefasst 28.09.2026)
+§ 5.2 Wortbudget (verbindlich, neu gefasst 28.09.2026): 6 Absatz/Absätze ersetzt oder entfernt, 3 neu oder geändert
+   + | Kapitel (Arbeitsnummer) | Korpus Ø | Budget | Grund |
+|---|---:|---:|---|
+| 1 Einleitung (1) | 628 | **1.500** | trägt Theorie, Forschungsstand und Hypothesen (Verfasse …
+   + **Unterbudgets (Vorgabe):** 4.1 300 · 4.2 215 · 4.3 340 · 4.4 420 · 4.5.1 420 · 4.5.2 150 · 4.6 155 (Summe 4.1 bis 4.6 = 2.000) · 4.7 550 · 5.1 230 · 5.2 220 · 6.1 700 ·  …
+   + **Stand am Master (Messung 28.09., `03_Skripte\Manuskriptstand_2026-09-25.txt`, Skript Fassung 3):** 4.1 291 · 4.2 208 · 4.3 340 · 4.4 mit 4.4.1 bis 4.4.3 392 · 4.5.1 418 …
+[Überschrift geändert] Was das bedeutet — die Kürzung ist der eigentliche Auftrag  →  Was das bedeutet
+§ Was das bedeutet: 4 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + Kapitel 4 ist textlich fertig. Kapitel 2 (2.1 bis 2.4) wird nicht mehr gekürzt, sondern durch die Einleitung ersetzt, deren Textvorschlag vorliegt. Zu schreiben sind noch …
+§ 5.3 Objektpolitik (neu gefasst F14, Umfangsdokument § 3): 3 Absatz/Absätze ersetzt oder entfernt, 3 neu oder geändert
+   + **Im Textteil stehen fünf Objekte** (Verfasser 24.09.). Eingesetzt werden sie in Task 18, wenn der Text steht (Verfasser 25.09., 22:25). Bis dahin stehen sie nicht im Mas …
+   + **Tauschregel (neu gefasst 28.09.):** Ein Objekt kostet im Layout nach Annahme rund 0,4 Seiten, also rund 130 Wörter Fließtext (Seitenmodell: Abb. 1 0,44, Abb. 2 0,24 des …
+   + **Objektzuordnung:** Kennwerte der Stichprobe (Alter, Körperhöhe, Körpermasse, %PAH der Analysepopulation) → 4.2 im Text · Messgüte (Tab. 1, ohne MDC) → 4.4 · Versuchszah …
+§ 5a. BAUPLAN JE KAPITEL (neu F13, verbindlich): 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + Grundlage: `Bauplan_Vergleichskorpus_2026-09-15`, gemessen an elf vollständig gelesenen Referenzstudien. Der Bauplan ist zu **skalieren, nicht zu kopieren** – die eigene  …
+[neu] Einleitung — Trichter in acht Zügen
+§ Einleitung — Trichter in acht Zügen: 0 Absatz/Absätze ersetzt oder entfernt, 3 neu oder geändert
+   + Bauplan nach `04_Uebergaben\Uebergabe_Einleitung_2026-09-28.md` § 3, umgesetzt im Textvorschlag Einleitung (Zug-Tabelle § 2 dort, jede Abweichung mit Grund). Die Satzkern …
+   + 1. **Relevanz** — generalisierende Präsensaussage über Sportart und Zielgrößen, Beleg am Satzende. Nie Quelle als Subjekt, nie Selbstbezug. Die Machbarkeit steht im Textv …
+   + Aus dem Korpus bleibt: Eröffnung als generalisierende Präsensaussage, Schluss mit den Hypothesen (8 von 11 Studien), nie mit einem Literaturverweis. Der Zweck ist der Ank …
+§ Kapitel 4 — Methodik: feste Abschnittsfolge, feste Testkette: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **Statistikabsatz (4.7):** Korpusfolge Darstellungskonvention → Verteilungsprüfung → Hauptverfahren → Post-hoc → Effektstärke mit Schwellen → Reliabilität → α → Software  …
+§ Kapitel 5 — Ergebnisse: drei harte Regeln: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + 1. **Es wird nicht zitiert.** Null Belege in 11 von 11 Studien.
+2. **Es wird nicht gedeutet.** Kein „weil", kein Literaturvergleich, kein Resümee.
+3. **Zahlen stehen in d …
+§ Kapitel 6 — Diskussion: Eröffnungszug und Zielgrößenmuster: 2 Absatz/Absätze ersetzt oder entfernt, 2 neu oder geändert
+   + **Erster Absatz, in 11 von 11 Studien identisch:** Zweck wiederholen (Ankersatz aus der Einleitung) → Hauptbefund → Gegenbefund. **Ohne Literaturverweis, ohne Zahl.**
+   + ⚠ 6.3 Stärken und Limitationen mit eigener Überschrift liegt über dem Korpusstandard (nur 1 von 11 hat sie) – gedeckt durch CONSORT und die Gliederung v5, nicht durch den …
+§ 6.2 Aktualität nach Quellenfunktion: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + Eine Quelle vor 2020 wird beim ersten Auftreten in einem Halbsatz begründet, wenn sie Wirksamkeitsevidenz trägt, etwa „eine ältere Metaanalyse“ (Klick 28.09., 17:54, umge …
+§ 6.4 Forschungsstand-Verfahren (verbindlich): 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **Rollentrennung:** Einleitung: Zielgrößen und Diagnostik ohne eigenen Testaufbau · Übergangsperiode als Kontext · Mechanismus ohne Effektstärken · Reifung als Moderator  …
+§ 6.5 Geltende Entscheidungen zur Literatur: 8 Absatz/Absätze ersetzt oder entfernt, 11 neu oder geändert
+   + **Nicht aufnehmen:** Sylvester 2024 · Stølen 2005 · Rahman 2021 · VBG-Report 2024 · Altbestand · Negra 2019 ES 2,83 (Baseline-SD 0,0 s) · „1200–1400 Richtungswechsel pro  …
+   + Mirwald et al. (2002) entfällt mit der Reifemethode aus der Einleitung und fällt vorerst aus dem Literaturverzeichnis, die Methodenwahl ist für 6.2 vorgemerkt, 4.3 nennt  …
+   + **Sekundärzitat im Manuskript – EINES:** Draper & Lancaster (1985), dauerhaft (Fernleihe offen). Cohen (1988) liegt vor und wird für die 0,2-Regel primär zitiert (S. 25). …
+   + **Zug 3 der Einleitung (E5), im Textvorschlag verwendet:** Silva et al. (2016) · Mujika & Padilla (2000), Volltext im Ordner, nicht mehr „zitiert nach Silva“ · Dambel et  …
+   + **Quellenpool Zug 2 der Einleitung** nach der Vorarbeit Zielgrößen (`02_Befunde\Vorarbeit_2.4_Zielgroessen_2026-09-27`): Übersichtsarbeiten, Primärstudien nur für 4.4 und …
+   + **Relevanz und Prävention (Befund Relevanz Rev. 2, Klick 14:36):** Olivier et al. (2026) ist Kernquelle, mit Quellenart und Population im Satz, ohne Zahl · Rössler et al. …
+   + **Belege zu den Zielgrößen (Klicks 28.09. zu 2.4 Fassung 6):** Hicks et al. (2020) mit dem Jahr 2020, Version of Record SCJ 42(2), 45–62. Das PDF im Ordner ist die Ahead- …
+   + **Zitierjahre nach der Version of Record (Crossref 28.09., Textvorschlag Einleitung § 6 Nr. 1 und 2):** Radnor et al. (2018), Sports Med 48(1), 57–71, das PDF ist die Onl …
+   + **Korpuslücke – zwei Ebenen, in 6.2/6.3 zu benennen:** *Setting:* Keine erfasste Interventionsstudie war unbeaufsichtigt, videobasiert oder gerätefrei. Liu et al. (2024)  …
+   + **Beschaffungsposten:** ⭐ Al Haddad, Simpson & Buchheit (2015) · Altmann et al. (2019), frei als PMC6693781 (H10, entbehrlich, falls 6.2 die Güteaussagen nicht braucht) · …
+   + **Quellenbefunde aus der Spezifikation (L14):** Moran et al.: 2017 nach der Version of Record (JSCR 31(2), 552–565, doi 10.1519/JSC.0000000000001444), L14 (c) erledigt 28 …
+§ 6.6 Befund: Es existiert keine belegte Mindestdosis: 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + Systematische Prüfung von 16 Volltexten am 09.09.2026. Die verbreitete Vier-Wochen-Grenze ist in jeder Quelle ein **Einschlusskriterium, kein Wirksamkeitsbefund**: Oliver …
+   + **Zwei Quellen dürfen nicht als Beleg für eine Mindestdosis zitiert werden:** Ramirez-Campillo et al. (2023) – das Abstract nennt eine Mindestdosis, der eigene Ergebniste …
+   + **Was belegt ist:** Kurze Programme wirken. Moran et al. (2017): < 7,5 Wochen ES 0,38 [0,19–0,56], I² = 0 %. RC (2020) für ≤ 7 Wochen: CMJ 0,71 · Squat Jump 0,74 · 20 m 0 …
+   + **Fitnessniveau ist kein nachweisbarer Moderator (vertikale Sprunghöhe):** de Villarreal et al. (2009, Tab. 2, S. 501) fanden für „Fitness“ F(3,121) = 1,97, p = 0,102. Da …
+§ 7.1 Volltextpflicht: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **Offene Posten** (Maßnahmenliste Gruppe H und K18): H4 Melchiorri et al. (2023) · H5 Ruf et al. (2024) und Clemente et al. (2021) · H6 Clemente et al. (2022), frei über  …
+§ 7.2 Verifikationspflicht: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + Autor, Jahr, Titel, Zeitschrift und Aussagen am Volltext prüfen, niemals aus Dateinamen oder Abstracts ableiten. Die Zitierfallen stehen in `Schreiben\ev3_daten\T4_zitier …
+§ 8. ZITIERSTIL APA 7 (dvs-konform): 3 Absatz/Absätze ersetzt oder entfernt, 3 neu oder geändert
+   + ⚠ **Geprüft und entschieden am 13.09.2026 – numerische Zitation wird NICHT verwendet.** Die Frage ist erledigt und nicht erneut aufzuwerfen. Befundlage: dvs 2020 hält die …
+   + ⚠ **Davon zu unterscheiden und offen: Belege in Fußnoten.** Am 13.09. an den Betreuer weitergeleitet (§ 13). Die Zitierform bliebe Autor-Jahr, sie stünde nur in der Fußno …
+   + **Noch einzupflegen:** R Core Team (2024) aus `citation()` (`03_Skripte\R_citation_2026-09-25.txt`) · Hedges (1981) nur nach Beschaffung (H9) · Havanecz et al. (2026) · M …
+§ 9. FORMALE GESTALTUNG (dvs 2020 + DSHS-Leitfäden): 2 Absatz/Absätze ersetzt oder entfernt, 3 neu oder geändert
+   + **Umfangsrahmen, vier Ebenen** (§ 1.1): Verfasser höchstens 33 Seiten einschließlich Literaturverzeichnis, gezählt von der Einleitung bis zum Ende des Literaturverzeichni …
+   + **Aufbau und Paginierung:** Titelblatt → Eidesstattliche Erklärung → Zusammenfassung → Abstract → Inhaltsverzeichnis → Abkürzungsverzeichnis → Abbildungs-/Tabellenverzeic …
+   + **Literaturverzeichnis:** nach dem Text, vor dem Anhang, hängender Absatz 1 bis 1,5 cm (SMK-Leitfaden Abschn. 4.6). Den Zeilenabstand des Verzeichnisses regelt der Leitfa …
+§ 10. WISSENSCHAFTLICHER SPRACHSTIL: 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + **Keine Abschnittsverweise im Fließtext** (Verfasserfestlegung 22.09.2026, Stilprofil Teil 4): keine nummerierten Verweise auf andere Teile der Arbeit („Abschn. 4.7", „Ab …
+   + **Charakteristische Konstruktionen (geändert 22.09.2026):** Befund und Berichtskonsequenz in zwei Sätzen, ohne Abschnittsverweis („Bei der Abschlusstestung von Verein B f …
+   + **ITT-Sprachregelung:** Das Ergebnis der Hauptanalyse heißt nie „Wirkung des Programms“, sondern „Wirkung des Programmangebots“. 4.7 beschreibt die Analysepopulation, sta …
+   + **Kapitelspezifisch:** Einleitung – vom Allgemeinen zum Besonderen, Überleitungen zwischen den Zügen, Schluss mit den Hypothesen. Methodik – präzise, keine Diskussion, ke …
+§ 11.1 Fallzahlbegründung: Sensitivitäts- statt A-priori-Poweranalyse: 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + Die Stichprobe war durch die verfügbaren Spieler und die Zeit an den Testtagen begrenzt (Verfasser 26.09., Textvorschlag 4.7, Nr. 37). Die A-priori-Rechnung des Antrags ( …
+   + **Berichtspflicht:** Testfamilie, Numerator df, Gruppenzahl, Kovariatenzahl, n je Gruppe, α, Power, Software mit Version. 4.7 nennt α, Power und Software und verweist ohn …
+   + **Rechenweg (O9, Verfasser 24.09., nachträglich):** Standardweg nach Spezifikation S18: df2 = N − 4, λ = d²·n_IG·n_KG/N, MDES bei Power 0,80, ohne R²max, ohne Faktor SE u …
+   + ⚠ **Planungsrechnung des Antrags (L14 a):** „f = 0,25 → n = 34“ passt nicht zum Zwei-Gruppen-F-Test (Cohen, 1988, Tab. 8.4.4: 64 je Gruppe), wohl aber zur Wechselwirkung  …
+§ 11.2 ANCOVA: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **Kovariaten-Begründung:** prognostisch und vorab festgelegt, ausdrücklich nicht abhängig davon, ob der Baseline-Unterschied signifikant ist (Item 12b). %PAH als externe  …
+§ 11.2b Schlusslogik (neu F14, Umfangsdokument § 5): 3 Absatz/Absätze ersetzt oder entfernt, 3 neu oder geändert
+   + **Entscheidung nach dem Antrag.** H0 gilt als verworfen, wenn mindestens eine konfirmatorische Zielgröße einen Vorteil der Interventionsgruppe mit p < 0,05 (zweiseitig) z …
+   + **Wenn-dann-Regeln R1 bis R7** (§ 5.3 dort): R1 Eine Variante, die den Fall oder die H0-Entscheidung ändert, steht mit Zahl in 5.2 · R2 Verworfene Voraussetzung mit Prüfg …
+   + **Ausgeschlossene Schlüsse (§ 5.4 dort, fünfzehn):** „kein Effekt“, „wirkungslos“, „gleich wirksam“ · „die IG verbesserte sich stärker“ nach Rohwerten · Wirkung „des Trai …
+§ 11.4 Allgemeine Regeln: 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + α = 0,05 zweiseitig · H0/HA nah am Wortlaut des Antrags, einander ergänzend (G32 e), auf die Grundgesamtheit bezogen · Punkt- und Streuungsmaße · Effektstärken immer mit  …
+§ 11.5 Sensitivitätsanalysen (vorab festgelegt): 1 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **Sparsam berichten:** je ein Satz in 4.7 für die Sensitivitätsanalysen und das Bootstrap-Intervall (Absatz 5, Tab. H4 dort zuerst verwiesen), das Bootstrap-Intervall als …
+§ 11.7 ITT und Per-Protokoll schätzen zwei verschiedene Größen: 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + Das ist die einzige erzwungene Analyseabweichung vom Ethikantrag: Der Antrag sah den Ausschluss bei Adhärenz < 75 % aus der Hauptanalyse vor. Die Teilmenge ist mit n = 3  …
+   + **Mindestdosis ≥ 6/12:** Festlegung des Verfassers vom 11.09.2026, nach Sichtung der IG-Post-Werte, vor Kenntnis der KG-Werte (Kurzform für „vor der Abschlusstestung der  …
+   + **Verdünnungslogik für 6.1:** Bei der Umsetzungsrate nach K-10.5 (weniger als die Hälfte der Einheiten vollständig absolviert) ist die ITT-Schätzung eine massiv verdünnte …
+   + **Zwei bindende Festlegungen:** Keine Fortschreibung von Prä-Werten (LOCF). Alle Schwellen standen vor Kenntnis der KG-Werte fest (vor der Abschlusstestung der KG, B8). D …
+§ 11.9 Fallzahluntergrenze für Teilanalysen: 2 Absatz/Absätze ersetzt oder entfernt, 2 neu oder geändert
+   + **Unterhalb von acht Spielern je Gruppe keine Inferenzstatistik**, sondern deskriptiver Bericht mit n, M und SD, ohne p-Wert und ohne Effektstärke (R5). Einzelwerte nur b …
+   + **Ein nicht signifikanter Voraussetzungstest ist bei kleinen n kein Nachweis.** Verbindliche Formulierung in 5.2: „geprüft und nicht verworfen“, 4.7 kündigt sie nicht an. …
+§ 12. BEKANNTE LIMITATIONEN — ACHT GRUPPEN: 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + **G1 Statistische Auflösung.** Sprint unterpowert – Power bei der dosisnächsten Vorab-Erwartung (Lloyd et al., 2016, d = 0,06, Veränderung innerhalb der Gruppe, und Ramir …
+   + **G7 Design- und Protokollabweichungen.** Gestaffelte Post-Testung mit gruppenungleichen Intervallen (B 7,0 · C 9,0 · A 10,0 Wochen), Bias-Richtung uneindeutig, kein stat …
+   + **G8 Übertragbarkeit.** Niveaudiskrepanz Stichprobe (Tier 2 nach 4.2) gegen Vergleichsevidenz (Oliver et al., 2024: nur Spieler ab Tier 3, regionale Ligen eingeschlossen, …
+   + ⚠ **Verworfene Voraussetzungsprüfungen** gehören mit Zahl in 5.2 und mit Einordnung in G1 (R2). Die Robustheitsaussage aus dem Analyseprotokoll vom 15.09. wird nicht über …
+§ 13. VERFASSERENTSCHEIDUNGEN STATT BETREUERRÜCKFRAGE (neu gefasst F14): 4 Absatz/Absätze ersetzt oder entfernt, 4 neu oder geändert
+   + **Seit dem 24.09.2026 (Rev. 82):** Keine Rücksprache mit dem Betreuer zu Verfahren und Auswertung. Die Punkte der früheren Betreuer-Mail sind Verfasserentscheidungen mit  …
+   + 1. **Rechenumgebung (F0):** R, berichtet von einer blinden zweiten Instanz, Python als Gegenprobe (24.09.).
+2. **Verfahren und Prüfer (0.2):** F1 durch den Verfasser, ohn …
+   + **Offen beim Betreuer:** Belege in Fußnoten (weitergeleitet am 13.09.). Die Zitierform bliebe Autor-Jahr, nur die Platzierung änderte sich. Der SMK-Leitfaden schließt Fuß …
+   + **Erledigt:** Umfangsvorgabe (höchstens 37 Textseiten, Hartgrenze damals 9.000 Wörter, seit 28.09. 6.350 und 33 Seiten, § 13 Nr. 28 bis 32) · numerische Zitation (Autor-J …
+§ 14. PLAGIAT UND KI-NUTZUNG: 0 Absatz/Absätze ersetzt oder entfernt, 1 neu oder geändert
+   + **Anhang G und Deklaration (Verfasser 26.09., Textvorschlag 4.7, Nr. 57):** Jedes Skript in Anhang G wird als KI-erzeugt gekennzeichnet, etwa „KI-generierter Code, Claude …
+[entfallen] Umfang (neu gefasst 15.09.2026)
+[entfallen] Was das bedeutet — die Kürzung ist der eigentliche Auftrag
+[entfallen] Kapitel 1 — Einleitung: Trichter aus sechs Zügen
+
+Paragrafen mit Änderungen: 35, unverändert: 20
+Unverändert: 1. · 1.1 · 1.4 · 3. · 3.1 · 3.2 · 5. · Kapitel 7 — Fazit: ein Absatz · Nicht übernehmen (Bauplan § 8) · 6. · 6.1 · 6.3 · 7. · 11. · 11.2a · 11.3 · 11.6 · 11.8 · 11.10 · 15.
+Zeilendiff: 233 Zeilen entfernt, 265 Zeilen hinzugefügt
+
+PRÜFUNG (a) Semikolon außerhalb der Zitiersyntax
+   Ergebnis: bestanden (0 Fundstellen, Semikola gesamt 2)
+
+PRÜFUNG (b) keine Ergebniszahl in § 3 und § 11.2a
+   Ergebnis: bestanden
+
+PRÜFUNG (c) jede Datei der Ordnerliste in § 1.3, unter „Veraltet“ oder auf einem Muster der Werkzeugskripte
+   Ergebnis: bestanden (478 Dateien geprüft, 0 ohne Zuordnung)
+
+PRÜFUNG (d) Wortzahlen in § 5.2 und im Kopf gegen die Ausgabe des Messskripts Fassung 3
+   Ergebnis: bestanden (22 Werte geprüft)
+
+PRÜFUNG (e) Budgetarithmetik
+   Ergebnis: bestanden (Kapitel 1500 + 2550 + 450 + 1600 + 250 = 6350, Kapitel 4 2000 + 550, Kapitel 5 450, Kapitel 6 1600, Kapitel 7 250)
+
+PRÜFUNG (f) interne Paragrafenverweise zeigen auf vorhandene Paragrafen
+   Ergebnis: bestanden (94 interne Verweise geprüft, Paragrafen: 1 1.1 1.2 1.3 1.4 1.5 2 3 3.1 3.2 4 5 5.1 5.2 5.3 5a 6 6.1 6.2 6.3 6.4 6.5 6.6 7 7.1 7.2 8 9 10 11 11.1 11.2 11.2a 11.2b 11.3 11.4 11.5 11.6 11.7 11.8 11.9 11.10 12 13 14 15)
+
+PRÜFUNG (g) Entscheidungen aus § 1 der Übergabe und Klickantworten in § 13 mit Datum
+   Ergebnis: bestanden (22 Einträge, 6 Zusatzsätze)
+
+PRÜFUNG (h) Block „G32 j“: jeder Punkt der Zeile „Steuerdokumente“ aus Textvorschlag 4.7 § 7 hat einen Ort
+    1. F16 § 4 Analyseeinheit-Satz → 6.2 (Nr. 4) → Fassung 17 § 4 [Ort geprüft]
+    2. F16 § 11.1 „In 4.7 als Planungsstand mit Hinweis auf das abweichende Planungsmodell“ → Hin… → Fassung 17 § 11.1 [Ort geprüft]
+    3. F16 § 11.9 Hinweis zur Trennschärfe → 6.2 (Nr. 15) → Fassung 17 § 11.9 [Ort geprüft]
+    4. F16 § 5.2 Stand am Master nach dem Abgleich → Fassung 17 § 5.2 (Messskript Fassung 3, Prüfung d) [Ort geprüft]
+    5. Berichtsraster 4.7.3, 4.7.8, 4.7.11, 4.7.12 mit den Zielorten aus § 3, dazu 6.2.1 um das P… → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+    6. Umfangsdokument § 3.5: Tab. H4 „Satz im Text 5.2“ → Erstverweis in 4.7, Tab. H5 „4.7“ → 5.… → Fassung 17 § 1.3, Nachtragsvermerk Umfangsdokument [Ort geprüft]
+    7. Plan § 1a und Task 6 als erledigt → Plan Rev. 5 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+    8. Berichtsraster 4.1.10 „Adhärenzkriterium angepasst“ → „in der Hauptanalyse nicht angewandt… → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+    9. F16 § 11.7 und § 13 Nr. 4, Auswertungsplan § 5.3, Register des Endabgleichs: „vor Kenntnis… → Fassung 17 § 11.7, § 13 Nr. 4 und Nachtragsvermerk Auswertungsplan [Ort geprüft]
+   10. Umfangsdokument R5 und F16 § 11.9 nach der Entscheidung zu Nr. 23 → offen bis Task 11 (Nr. 23): Fassung 17 § 11.9 und Nachtragsvermerk R5 [Ort geprüft]
+   11. Register R3 um den Befund B11 ergänzen (Richtung am Datensatz gestützt, Skript in `03_Skri… → Fassung 17 § 1.3, Nachtragsvermerk Auswertungsplan [Ort geprüft]
+   12. F16 § 11.1 „Die Stichprobe ist durch die teilnehmenden Vereine vorgegeben“ → begrenzt durc… → Fassung 17 § 11.1 und § 12 G1 [Ort geprüft]
+   13. F16 § 11.2 Kovariaten-Begründung: prognostischer Haupteffekt, das Ungleichgewicht im Reife… → Fassung 17 § 11.2 [Ort geprüft]
+   14. F16 § 11.4 und Auswertungsplan § 5.2 A3 und § 6 Nr. 2: Familienfehler „bis 14 %“ → „höchst… → Fassung 17 § 11.4, § 12 G1 und Nachtragsvermerk Auswertungsplan [Ort geprüft]
+   15. Auswertungsplan § 6 Nr. 3 „über Studien vergleichbar“ einschränken (Nr. 44) → Fassung 17 § 1.3, Nachtragsvermerk Auswertungsplan [Ort geprüft]
+   16. Berichtsraster 4.7.5, 4.7.9 und 4.7.15 mit den Zielorten Tab. 2 und Tab. 3 (Nr. 41, 43, 44… → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+   17. Berichtsraster 4.7.9, 4.7.10, 4.7.14 und 4.7.15 mit den Satzorten aus § 3 (Fassung 8) → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+   18. F16 § 13 neue Verfasserentscheidung: Bootstrap bleibt im Bericht, als streichbares Modul g… → Fassung 17 § 13 Nr. 23 [Ort geprüft]
+   19. Berichtsraster 4.7.12 und 4.7.5 mit den Zielorten aus § 3 (Fassung 10, Grundgerüst nach B1… → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+   20. Berichtsraster 4.7.12: im Text ohne Beleg für Prüfpflicht und Tests (Nr. 56), Originale na… → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+   21. Nr. 57: Berichtsraster 4.7.13 (in 4.7 nur die Datenprüfung, Freigabe ohne unabhängige Meth… → Berichtsraster Rev. 3 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+   22. F16 Nachtragsvermerk „Anhang G ist der Ort der Prüfprotokolle“, § 1.5, § 12 G7, § 13 neue … → Fassung 17 § 1.3, § 1.5, § 12, § 13 Nr. 23, § 14 [Ort geprüft]
+   23. Auswertungsverfahren Grundsatz 3, 8.1 und 8.3 → Fassung 17 § 1.3, Nachtragsvermerk Auswertungsverfahren [Ort geprüft]
+   24. Umfangsdokument, Zeile zu 4.7.13 → Fassung 17 § 1.3, Nachtragsvermerk Umfangsdokument [Ort geprüft]
+   25. Auswertungsplan § 5.10, Berichtsort bei R1, R9, R10, R12 und R13 → Fassung 17 § 1.3, Nachtragsvermerk Auswertungsplan [Ort geprüft]
+   26. Plan § 2.1 Nr. 5 bis 8, Task 16 (a) und (b), Klickfrage 14 gegenstandslos → Plan Rev. 5 (Prüfung in Schritt 4) [Ort in Schritt 4 oder 5]
+   27. Maßnahmenliste L9 → Maßnahmenliste (Schritt 5) [Ort in Schritt 4 oder 5]
+   Ergebnis: bestanden (27 Punkte)
+
+PRÜFUNG (i) Trefferliste „Durchgehend“ (Übergabe § 4): jeder Treffer ersetzt, Arbeitsnummer oder historisch
+   Z   7 (?<![\d,.])37(?![\d,.])    Nummer in § 13  (…v. 114, § 5a, § 13 Nr. 34 bis 37). Textvorschlag 2.4 Fassung 6 wird nicht übertragen (§ 13 Nr. 28).…)
+   Z   9 9\.000                     historisch gekennzeichnet  (… sinkt mit der Einleitung von 9.000 auf 6.350 (§ 5.2). Die Seitengrenze des Verfassers (28.09., 15:14) zählt v…)
+   Z   9 \bR6\b                     neue Regel: R6 entfällt  (… und Anhang (Klick K1). Regel R6 entfällt (K2). Ein Objekt über die fünf festen hinaus kostet Wörter, sobald d…)
+   Z  15 \bR6\b                     neue Regel: R6 entfällt  (…· Seitengrenze mit Zählweise, R6 und Tauschregel · Ankersatz in 6.1 und in der Zusammenfassung, 4.1 bleibt ohn…)
+   Z  15 Prüfprotokoll              neue Regel oder Dateibezug  (…Pflichtangaben, Anhang G ohne Prüfprotokolle, Festlegungsdaten für Tab. H6 vorgemerkt · direkter Einbau in Sch…)
+   Z  19 Antragswortlaut            neue Regel: nah am Antragswortlaut  (… die Hypothesen werden nah am Antragswortlaut formuliert, H0 und H1 einander ergänzend (G32 e) · § 2 „Vergleic…)
+   Z  19 Prüfprotokoll              neue Regel oder Dateibezug  (…3 führte Anhang G als Ort der Prüfprotokolle, seit dem 26.09. gilt Anhang G ohne Prüfprotokolle · der Ankersat…)
+   Z  19 Prüfprotokoll              neue Regel oder Dateibezug  (…dem 26.09. gilt Anhang G ohne Prüfprotokolle · der Ankersatz sollte in 4.1 wiederkehren, 4.1 hat keinen Zwecks…)
+   Z  19 in 4\.7                    geprüft gegen 4.7 im Master  (…ethodenprüfung stand dreimal „in 4.7“, sie ist genau einmal für 6.3 vorgemerkt · § 1.3 führte Anhang G als Ort…)
+   Z  58 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…ündlich |…)
+   Z  62 \bR6\b                     neue Regel: R6 entfällt  (…die des Verfassers. Regel R6 entfällt (Klick K2, 28.09.). Eine sanktionierte Untergrenze nennt die Prüfungsord…)
+   Z  79 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…tlegung |…)
+   Z  83 \bR6\b                     neue Regel: R6 entfällt  (…eiten Anhangsobjekte in den Textteil holen) entfällt (Klick K2, 28.09.). Es bl…)
+   Z 145 Task 14                    als entfallen gekennzeichnet  (…leich offen), danach Task 11, Task 14 entfällt |…)
+   Z 149 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…4_2026-09-28_Fassung6.md` | Zielgrößenteil, nicht übertragen (§ 13 Nr. 28). Material für Zu…)
+   Z 151 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…roessen_2026-09-27` (.md, .docx, .pdf) mit `Literaturraster_2.4_2026-09-27.csv` | Li…)
+   Z 151 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…x, .pdf) mit `Literaturraster_2.4_2026-09-27.csv` | Literaturanalyse zu Zielgrößen und Diagnostik mit den Einl…)
+   Z 176 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…` | Kommentare zum Altbestand Kapitel 2 (für Task 7 neu nur bei Bedarf), Suchprotokoll, Titelscreening, Prüfpr…)
+   Z 176 Prüfprotokoll              neue Regel oder Dateibezug  (…uchprotokoll, Titelscreening, Prüfprotokoll der Gliederung v4 mit den Errata (Gliederung v5, Herkunft) |…)
+   Z 182 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…ser Fassung · Bauplan § 7.1 — Kapitel 2 und 3 entfallen, die Einleitung trägt Theorie und Forschungsstand wie …)
+   Z 182 \bR6\b                     neue Regel: R6 entfällt  (…Nr. 23 in Task 11 · § 3.6 und R6: Seitenprognose nach § 1.1, R6 entfällt · Auswertungsplan — § 5.2 A3 und § 6 …)
+   Z 182 \bR6\b                     neue Regel: R6 entfällt  (…6: Seitenprognose nach § 1.1, R6 entfällt · Auswertungsplan — § 5.2 A3 und § 6 Nr. 2: Familienfehler „höchsten…)
+   Z 182 Prüfprotokoll              neue Regel oder Dateibezug  (…rüfung ist 6.3, Anhang G ohne Prüfprotokolle (Wortlaut vorher prüfen) · Umfangsdokument — § 3.2: Tab. 2 ohne d…)
+   Z 182 Prüfprotokoll              neue Regel oder Dateibezug  (…13 — Anhang G ist der Ort der Prüfprotokolle“, überholt durch die Entscheidung vom 26.09. (Anhang G ohne Prüfp…)
+   Z 182 Prüfprotokoll              neue Regel oder Dateibezug  (…ung vom 26.09. (Anhang G ohne Prüfprotokolle, § 13 Nr. 23).…)
+   Z 182 vor Kenntnis der KG-Werte  als Kurzform gekennzeichnet (B8)  (…d Register des Endabgleichs: „vor Kenntnis der KG-Werte“ als Kurzform für „vor der Abschlusstestung der KG“ ke…)
+   Z 182 in 4\.7                    geprüft gegen 4.7 im Master  (… 3.5: Tab. H4 mit Erstverweis in 4.7, Tab. H5 in 5.1 statt 4.7 · Zeile zu 4.7.13: in 4.7 nur die Datenprüfung …)
+   Z 182 in 4\.7                    geprüft gegen 4.7 im Master  (… statt 4.7 · Zeile zu 4.7.13: in 4.7 nur die Datenprüfung (Textvorschlag 4.7, Nr. 57) · R5 nach der Entscheidu…)
+   Z 186 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…-09-12.md` (Kapitel 4 fertig, Kapitel 2 entfällt) · Befund Relevanz Rev. 1 (`_Archiv\_ersetzt_2026-09-28_Relev…)
+   Z 186 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…gabe Einleitung) · `Uebergabe_2.4_Fassung6_2026-09-28.md` (gegenstandslos) · `Textvorschlag_2.4_2026-09-26.md`…)
+   Z 186 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…enstandslos) · `Textvorschlag_2.4_2026-09-26.md`, `Textvorschlag_2.4_2026-09-27.md` und `Textvorschlag_2.4_202…)
+   Z 186 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…026-09-26.md`, `Textvorschlag_2.4_2026-09-27.md` und `Textvorschlag_2.4_2026-09-27_Fassung5.md` (überholt) · `…)
+   Z 186 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…-09-27.md` und `Textvorschlag_2.4_2026-09-27_Fassung5.md` (überholt) · `Uebergabe_Steuerdokumente_2026-09-25.m…)
+   Z 211 Antragswortlaut            neue Regel: nah am Antragswortlaut  (…Hedges' g · Hypothesen nah am Antragswortlaut, H0 und H1 einander ergänzend (G32 e), keine primäre Zielgröße ·…)
+   Z 334 Prüfprotokoll              neue Regel oder Dateibezug  (…eranalyse und R-Skripte, ohne Prüfprotokolle · H Ergänzende Tabellen H1 bis H6 und Abb. H7. Kein Rohdatenanhan…)
+   Z 348 Prüfprotokoll              neue Regel oder Dateibezug  (…Prüfprotokoll `05_Protokolle\Pruefprotokoll_Gliederung_2026-09-23` § 2) stehen in der Gliederung v5, Ab…)
+   Z 363 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…· Einleitung noch Altbestand: Kapitel 2 und 3 stehen mit 4.920 Wörtern im Master, dort liegen alle 61 Semikola…)
+   Z 367 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (… (2.1 bis 2.4) wird nicht mehr gekürzt, sondern durch die Einleitung ersetzt, deren Textvo…)
+   Z 367 (?<![\d.§ ])(?<!§ )2\.[1-5 Altbestand, entfällt mit der Einleitung  (… (2.1 bis 2.4) wird nicht mehr gekürzt, sondern durch die Einleitung ersetzt, deren Textvorschl…)
+   Z 397 Prüfprotokoll              neue Regel oder Dateibezug  (…nd R-Skripte → Anhang G, ohne Prüfprotokolle · Teilnehmerfluss (Abb. 1) und Ausgangswerte mit Überlappung (Tab…)
+   Z 418 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…hlag Einleitung § 7, § 13 Nr. 37). Keine eigenen Studienzahlen in der Einleitung.…)
+   Z 535 (?<![\d.§ ])(?<!§ )2\.[1-5 Dateiname  (…größen (`02_Befunde\Vorarbeit_2.4_Zielgroessen_2026-09-27`): Übersichtsarbeiten, Primärstudien nur für 4.4 und…)
+   Z 591 9\.000                     historisch gekennzeichnet  (…eiten (historisch, damals bei 9.000 Wörtern). **Bei Zustimmung sinkt das Wortbudget gleichzeitig um die Wörter…)
+   Z 609 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…che Betreuervorgabe höchstens 37 Textseiten · Prüfungsordnung § 15 (1) „30 bis 50 Textseiten nicht überschreit…)
+   Z 631 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…8.09.: 35, alle im Altbestand Kapitel 2, der mit der Einleitung entfällt. Was bleibt: Objektverweise (Tab., Ab…)
+   Z 639 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…m 14.09. trug 168 Semikola in Kapitel 2 und 4 (historisch). Stand 28.09.: 61, alle im Altbestand Kapitel 2, de…)
+   Z 639 Kapitel 2\b                Altbestand, entfällt mit der Einleitung  (…8.09.: 61, alle im Altbestand Kapitel 2, der mit der Einleitung entfällt (Maßnahmenliste G18).…)
+   Z 671 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…6.09., Textvorschlag 4.7, Nr. 37). Die A-priori-Rechnung des Antrags (f = 0,25 → n = 34, geplant ≈ 45) wird al…)
+   Z 681 in 4\.7                    geprüft gegen 4.7 im Master  (…zt, nicht allgemein bewiesen, in 4.7 „konservativ“). MDES und Power: K-09. Power nur für die im Plan genannten…)
+   Z 709 \bR6\b                     neue Regel: R6 entfällt  (…e nur beim Antragskriterium · R6 entfällt (Klick K2, 28.09., § 1.1) · R7 Objekte stehen unabhängig vom Ergebni…)
+   Z 723 Wortlaut des Antrags       neue Regel: nah am Antragswortlaut  (…aut des Antrags, einander ergänzend (G32 e), auf die Grundgesamtheit bezogen · Punkt- und Streuungsmaße ·…)
+   Z 731 in 4\.7                    geprüft gegen 4.7 im Master  (…7 für die Sensitivitätsanalysen und das Bootstrap-Intervall (Absatz 5, Tab. H4 dort zuerst …)
+   Z 745 vor Kenntnis der KG-Werte  als Kurzform gekennzeichnet (B8)  (… 6). Festlegung 12.09.2026, **vor Kenntnis der KG-Werte** (Kurzform, B8), Verfasserentscheidung ohne Betreuerr…)
+   Z 747 vor Kenntnis der KG-Werte  als Kurzform gekennzeichnet (B8)  (…h Sichtung der IG-Post-Werte, vor Kenntnis der KG-Werte (Kurzform für „vor der Abschlusstestung der KG“, Textv…)
+   Z 761 vor Kenntnis der KG-Werte  als Kurzform gekennzeichnet (B8)  (…LOCF). Alle Schwellen standen vor Kenntnis der KG-Werte fest (vor der Abschlusstestung der KG, B8). Das Datum …)
+   Z 805 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…nannt (Textvorschlag 4.7, Nr. 37). Familienfehler der „mindestens einer“-Hypothese (höchstens 7,5 %, § 11.4) u…)
+   Z 834 vor Kenntnis der KG-Werte  als Kurzform gekennzeichnet (B8)  (…6 von 12 beobachtend (12.09., vor Kenntnis der KG-Werte, Kurzform für „vor der Abschlusstestung der KG“, B8).…)
+   Z 843 Kapitel 2\b                als abgelöst oder historisch gekennzeichnet  (…Schluss (25.09., abends). Für Kapitel 2 abgelöst durch Nr. 28, die Einleitung ersetzt die Kürzung.…)
+   Z 853 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (…ie Zeit an den Testtagen (Nr. 37) · Kovariatenbegründung über den prognostischen Haupteffekt (Nr. 42, 46).…)
+   Z 853 Prüfprotokoll              neue Regel oder Dateibezug  (…g 4.7, Nr. 57), Anhang G ohne Prüfprotokolle · Freigabe ohne unabhängige Methodenprüfung genau einmal in 6.3 ·…)
+   Z 853 in 4\.7                    geprüft gegen 4.7 im Master  (…tand und Spezifikation werden in 4.7 nicht berichtet (die Gegenproben nennt die KI-Deklaration, Textvorschlag …)
+   Z 853 in 4\.7                    geprüft gegen 4.7 im Master  (…für Tab. H6 vorgemerkt, nicht in 4.7 (20:51) · Stichprobe begrenzt durch die verfügbaren Spieler und die Zeit …)
+   Z 861 \bR6\b                     neue Regel: R6 entfällt  (…:** entfällt. Fließtext wird nie aufgefüllt, der Textteil darf u…)
+   Z 863 (?<![\d,.])37(?![\d,.])    Betreuergrenze oder Nummer im Textvorschlag 4.7  (… in Task 7 neu per Klick (Nr. 37), kehrt in 6.1 und in der Zusammenfassung wieder, 4.1 bleibt ohne Zwecksatz.…)
+   Z 877 9\.000                     historisch gekennzeichnet  (…Textseiten, Hartgrenze damals 9.000 Wörter, seit 28.09. 6.350 und 33 Seiten, § 13 Nr. 28 bis 32) · numerische …)
+   Z 877 Kapitel 3\b                als abgelöst oder historisch gekennzeichnet  (… · Kapitelname 3 (historisch, Kapitel 3 geht in der Einleitung auf) und Kapitel-6-Struktur (Gliederung v4) · H…)
+   Z 877 (?<![\d,.])37(?![\d,.])    historisch gekennzeichnet  (…37 Textseiten, Hartgrenze damals 9.000 Wörter, seit 28.09. 6.350 und 33 Seiten, § 13 Nr. 28 …)
+   Z 887 Prüfprotokoll              neue Regel oder Dateibezug  (…erzeugt. Anhang G trägt keine Prüfprotokolle, sie bleiben im Projekt und werden auf Anfrage vorgelegt. Mindest…)
+   Treffer je Muster: (?<![\d,.])37(?![\d,.]) 10 · 9\.000 3 · \bR6\b 8 · Prüfprotokoll 12 · Antragswortlaut 2 · in 4\.7 7 · Task 14 1 · (?<![\d.§ ])(?<!§ )2\.[1-5](?![\d]) 9 · Kapitel 2\b 9 · vor Kenntnis der KG-Werte 5 · Wortlaut des Antrags 1 · Kapitel 3\b 1
+   Ohne Treffer: Teil A · Teil B · Kapitel 1 bis 7 · Tasks 7 bis 10 · 30,3 · 36 Seiten · mehr Kapitel · F14 § · F16 §
+   Ergebnis: bestanden (68 Treffer, alle eingeordnet)
+
+PRÜFUNG (j) Seitenrechnung per Skript, jede Zeile als Modellrechnung oder Festlegung gekennzeichnet
+   Ergebnis: bestanden (10 Tabellenzeilen, Prognose 29,8 und 31,1 Seiten aus `Seitenmodell_2026-09-28.csv`)
+
+PRÜFUNG (k) Befunde der Zweitprüfung von Fassung 17, Punkte aus Rev. 114, Befunde der übergreifenden Zweitprüfung zu Fassung 17 (Z2) und Klicks 19:25: Soll-Text vorhanden, Alt-Text entfernt
+   B1 International 1,22              Fassung 17 [umgesetzt]
+   B2 Fitnessniveau                   Fassung 17 [umgesetzt]
+   B3 Berichtspflicht Poweranalyse    Fassung 17 [umgesetzt]
+   B4 Oliver Ersatzkriterium          Fassung 17 [umgesetzt]
+   B5 vorgemerkt statt steht          Fassung 17 [umgesetzt]
+   B6 keine Objektplatzhalter         Fassung 17 [umgesetzt]
+   B7 Zeilenabstand und Muster        Fassung 17 [umgesetzt]
+   B8 vertikale Sprunghöhe            Fassung 17 [umgesetzt]
+   B9 Spielklasse                     Fassung 17 [umgesetzt]
+   B10 konservativ                    Fassung 17 [umgesetzt]
+   B11 Statistikabsatz                Fassung 17 [umgesetzt]
+   B12 Vor-2020-Halbsatz              Fassung 17 [umgesetzt]
+   B13 Asimakidis in T1               Fassung 17 [umgesetzt]
+   B14 Hoffmann                       Fassung 17 [umgesetzt]
+   B15 Negra 2020                     Fassung 17 [umgesetzt]
+   B16 4.1 ohne Zwecksatz             Fassung 17 [umgesetzt]
+   B17 steuernde Prognose             Fassung 17 [umgesetzt]
+   B18 Untergrenze                    Fassung 17 [umgesetzt]
+   B19 Objekt als Annahme             Fassung 17 [umgesetzt]
+   B20 Arbeitsnummern                 Fassung 17 [umgesetzt]
+   B21 Beispielsatz                   Fassung 17 [umgesetzt]
+   B22 Pausenregel                    Fassung 17 [umgesetzt]
+   B23 Beleg Methodenprüfung          Fassung 17 [umgesetzt]
+   B24 ausgeschlossene Schlüsse       Fassung 17 [umgesetzt]
+   B25 ITT-Zitat                      Fassung 17 [umgesetzt]
+   B26 H0-Regel                       Fassung 17 [umgesetzt]
+   B27 Familienfehler und Trennschärfe Fassung 17 [umgesetzt]
+   B28 KI-Deklaration                 Fassung 17 [umgesetzt]
+   B29 Übergabe Einleitung            Schritt 4 oder 5 (nicht Fassung 17) [zugeordnet]
+   B30 Maßnahmenliste                 Schritt 4 oder 5 (nicht Fassung 17) [zugeordnet]
+   B31 T4 zurückschreiben, Hicks2020  T4-Rückschreibung in Schritt 5 [umgesetzt]
+   B32 Raster, Gliederung, Plan       Schritt 4 oder 5 (nicht Fassung 17) [zugeordnet]
+   B33 Nr. 13 und Kapitelname 3       Fassung 17 [umgesetzt]
+   R114 Liu 2024 Tier 2               Fassung 17 [umgesetzt]
+   R114 Mirwald und Reifemethode      Fassung 17 [umgesetzt]
+   R114 Clemente 2022                 Fassung 17 [umgesetzt]
+   R114 Moran 2017                    Fassung 17 [umgesetzt]
+   R114 Klickfrage 10                 Fassung 17 [umgesetzt]
+   Z2-4 Objekte und G31               Fassung 17 [umgesetzt]
+   Z2-5 Mindestdosis-Verbot           Fassung 17 [umgesetzt]
+   Z2-27 Prompt dieses Tasks          Fassung 17 [umgesetzt]
+   Z2-36 Ramirez-Campillo 2020        Fassung 17 [umgesetzt]
+   Z2-40 Textstufen 4.7               Fassung 17 [umgesetzt]
+   Klick 19:25 Erratum                Fassung 17 [umgesetzt]
+   Klick 19:25 Verdünnungslogik       Fassung 17 [umgesetzt]
+   Ergebnis: bestanden (45 Einträge)
+
+GESAMT: alle elf Prüfungen bestanden

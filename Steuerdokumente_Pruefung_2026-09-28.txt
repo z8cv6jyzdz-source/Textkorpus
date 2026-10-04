@@ -1,0 +1,49 @@
+Steuerdokumente_Pruefung_2026-09-28.py — Prüfung der Folgeänderungen (Task Steuerdokumente 28.09., Schritt 4)
+Vorstand: /mnt/user-data/uploads/Bachelorarbeit/Claude · Neu: /home/claude/work
+
+PRÜFUNG (a) Semikolon an neuen oder geänderten Stellen (Vergleich mit dem Vorstand, Zitiersyntax ausgenommen)
+   Gliederung v5           130 geänderte Zeilen,  19101 neue Zeichen, Semikola dort außerhalb der Zitiersyntax: 0, im ganzen Dokument 0 (Altbestand)
+   Berichtsraster Rev. 3   115 geänderte Zeilen,  16213 neue Zeichen, Semikola dort außerhalb der Zitiersyntax: 0, im ganzen Dokument 162 (Altbestand)
+   Plan Rev. 5              71 geänderte Zeilen,  15122 neue Zeichen, Semikola dort außerhalb der Zitiersyntax: 0, im ganzen Dokument 0 (Altbestand)
+   Übergabe Einleitung      23 geänderte Zeilen,   2999 neue Zeichen, Semikola dort außerhalb der Zitiersyntax: 0, im ganzen Dokument 0 (Altbestand)
+   README                   16 geänderte Zeilen,   2907 neue Zeichen, Semikola dort außerhalb der Zitiersyntax: 0, im ganzen Dokument 0 (Altbestand)
+   Ergebnis: bestanden
+
+Werte: Unterbudgets Fassung 17 4.1 300 · 4.2 215 · 4.3 340 · 4.4 420 · 4.5.1 420 · 4.5.2 150 · 4.6 155 · 4.7 550 · 5.1 230 · 5.2 220 · 6.1 700 · 6.2 400 · 6.3 500 · 7 250 · Kapitel 4 gemessen 2416 · Altbestand 4920 · Absatztext 7336 · Textvorschlag Einleitung 1321
+
+PRÜFUNG (e) Budgetarithmetik über das ganze Dokument
+   Gliederung v5: § 3.1 Budgets gegen Fassung 17 § 5.2 und Ist gegen das Messskript, § 3.4 Kapitelbudgets und Unterbudgets geprüft
+   Berichtsraster Rev. 3: 13 Kopfblöcke gegen Fassung 17 § 5.2, 6.1 bis 6.3 im Kopfblock Kapitel 6, § 7 Nr. 1
+   Plan Rev. 5 § 5: 8 Zeilen gegen Messskript, Textvorschlag und Budgets (Summen 6216 und 6037 gegen 6350)
+   Ergebnis: bestanden
+
+PRÜFUNG (f) interne Paragrafenverweise zeigen auf vorhandene Paragrafen
+   Gliederung v5            7 interne Verweise geprüft, Paragrafen: 0 1 2 3 3.1 3.2 3.3 3.4 3.5 4 5 6 7
+   Berichtsraster Rev. 3   65 interne Verweise geprüft, Paragrafen: 0 1 1.1 1.2 1.3 1.4 2 2.1 2.2 2.3 2.4 3 3.0 3.1 3.4 3.5 3.6 3.7 3.8 3.9 3.10 3.11 3.12 3.13 3.14 3.15 3.16 4 5 6 7 8 9 10 11
+   Plan Rev. 5             53 interne Verweise geprüft, Paragrafen: 0 1 1a 2 2.1 2.2 2.3 3 4 5 6 7 7.1 7.2 7.3 8 9
+   Übergabe Einleitung     11 interne Verweise geprüft, Paragrafen: 0 1 2 3 4 5 6 7 8
+   Ergebnis: bestanden
+
+PRÜFUNG (i) Trefferliste des Plans: jeder Treffer ersetzt, historisch, erledigt oder entfallen
+   Treffer je Muster: F14 § 16 · Gliederung v4 7 · (?<![\d.§ ])(?<!§ )2\.[1-5](?![\d]) 6 · 9\.000 7 · Tasks 7 bis 10 5 · Task 14 7 · \bR6\b 5 · Klickfrage 10 4 · Kapitel 2\b 19 · Kapitel 1 bis 7 6 · in 4\.7 9 · Prüfprotokoll 5 · Teil A 1 · Teil B 1 · 30,3 1 · Berichtsraster Rev\. 2 2
+   Ohne Treffer: Kapitel 3\b · 36 Seiten · (?<![\d,.])37(?![\d,.]) · Wortlaut des Antrags · Antragswortlaut · mehr Kapitel · vor Kenntnis der KG-Werte · F16 § · Klickfrage 11
+   Einordnung: historischer Block (datierter Stand oder Revisionsvermerk) 56 · als entfallen gekennzeichnet 13 · neue Regel: R6 entfällt (K2) 5 · geprüft gegen 4.7 im Master 5 · Altbestand, entfällt mit der Einleitung 4 · neue Regel oder Dateibezug 4 · als ersetzt gekennzeichnet 4 · als erledigt gekennzeichnet (Task 7 neu, Rev. 114) 3 · Verfahrensregel, in Fassung 17 § 1.2 unverändert, historischer Teil (§ 2) oder allgemeine Regel 2 · als historisch gekennzeichnet 2 · § 2 ist historisch (erledigt 26.09.) 1 · Zitat aus Gliederung v4, § 2 ist historisch 1 · Regel zu den F14-Verweisen (Rev.-5-Vermerk, § 9) 1
+   Ergebnis: bestanden (101 Treffer, alle eingeordnet)
+
+PRÜFUNG (g) Probe: Messskript Fassung 3 misst die Einleitung nach der Übertragung ohne Anpassung
+   Probe-Master: 9 Absätze unter „1 Einleitung“, Überschriften 2 bis 3 entfernt. Messskript: Einleitung 1321 Wörter (Textvorschlag 1321), Semikola 0, Abschnittsverweise 0, Zeilen 2.x und 3 in der Ausgabe: 0, Seitenprognose 28,9 Seiten
+   Ergebnis: bestanden
+
+PRÜFUNG (h) Aufräumskript, Archivkopien und README
+   Aufräumskript: 13 neue Papierkorbeinträge, Fassung 16 in der Liste: ja · Archivkopien: 23 Dateien in _ersetzt_2026-09-28_Steuerdokumente, _ersetzt_2026-09-28_Uebergaben
+   Ergebnis: bestanden
+
+PRÜFUNG (k) Übergabe Einleitung: Verweise und Seitenzahlen
+   „F16 §“: 2 Stellen, alle historisch in § 2
+   Ergebnis: bestanden
+
+PRÜFUNG (l) Erratum, Tab. H6, Verdünnungslogik, Objekte bis Task 18, „vorgemerkt für“
+   Erratum-Zeilen in F17, Gliederung v5, Raster, Plan, Übergabe Einleitung und README geprüft · 14 Pflichtstellen · Negativliste Plan · 6.2-Zeilen des Rasters
+   Ergebnis: bestanden
+
+GESAMT: alle Prüfungen bestanden

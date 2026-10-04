@@ -1,0 +1,60 @@
+Probelauf Einbau 6.1 (02.10.2026, 16:40 Sitzungsuhr) — Kopie des Masters (MD5 caa5dee2c777ed6474c1d8235433412d, 42.318 Byte), Master im Ordner unverändert, kein Einbau (Freigabe offen, Task „Boumparis“ vor der Freigabe)
+
+== 1 Master_6_1_2026-10-02.py auf der Kopie ==
+Master_6_1_2026-10-02.py — Einbau 6.1
+Eingang: Master_ein.docx, MD5 caa5dee2c777ed6474c1d8235433412d, 182 Absätze
+Wortlaut: Textvorschlag_6.1_2026-10-02.json, 6 Absätze eingebaut (A1, A2, A3, A4, A5, A6), 700 Wörter (Budget 700)
+Nicht eingebaut (Modul, offen): A2-M (29 Wörter)
+Einfügestelle: nach „6.1 Einordnung der Ergebnisse“, vor „6.2 Methodendiskussion“, Überschriften 6.1 bis 6.3 und 7 unverändert
+Ausgabe: Master_6_1_probe.docx, MD5 0ab48455d7d6b328d368e8711d6750c9, 188 Absätze (vorher 182)
+
+== 2 Abgleich_Kapitel6_1_Master_2026-10-02.py (Probe gegen Probe und JSON) ==
+Abgleich_Kapitel6_1_Master_2026-10-02.py
+Master: Master_6_1_probe.docx MD5 0ab48455d7d6b328d368e8711d6750c9
+Referenz: Master_6_1_probe.docx MD5 0ab48455d7d6b328d368e8711d6750c9
+Wortlaut: Textvorschlag_6.1_2026-10-02.json 6 Absätze ohne Modul, 1 Modul-Einträge nicht erwartet
+1 comments.xml im Master: nein
+2 Absätze gesamt: Master 188, Referenz 188 · ohne Verzeichnisse und Felder: Master 151, Referenz 151
+  leere Absätze außerhalb der Verzeichnisse: Master 16, Referenz 16
+  nicht leere Absätze: 135, Formatvorlage und Text gleich der Referenz
+3 Abschnitt 6.1: 6 nicht leere Absätze, 0 leere zwischen den Überschriften
+  A1: zeichengleich, 99 Wörter (JSON 99), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A2: zeichengleich, 86 Wörter (JSON 86), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A3: zeichengleich, 161 Wörter (JSON 161), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A4: zeichengleich, 133 Wörter (JSON 133), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A5: zeichengleich, 153 Wörter (JSON 153), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  A6: zeichengleich, 68 Wörter (JSON 68), Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine
+  Wörter 6.1 im Master: 700 (JSON 700, Budget 700)
+4 Überschriften 6 bis 7: Positionen [135, 136, 143, 144, 145]
+  6.2: 0 nicht leere Absätze · 6.3: 0 nicht leere Absätze (beide erwartet 0 bis Task 12b)
+5 Sprachprüfungen: Semikola außerhalb von Zitierklammern 0 · nummerierte Abschnittsverweise 0 · Sätze über 32 Wörter 0
+
+Ergebnis: ohne Befund
+
+== 3 Abgleich Probe gegen Original (nur die sechs Absätze von 6.1 neu) ==
+1 comments.xml im Master: nein
+2 Absätze gesamt: Master 188, Referenz 182 · ohne Verzeichnisse und Felder: Master 151, Referenz 145
+  leere Absätze außerhalb der Verzeichnisse: Master 16, Referenz 16
+  Abweichungen der nicht leeren Absätze (- Referenz, + Master):
+    nur im Master: ' | Ziel der Studie war es zu prüfen, ob ein sechswöchiges videobasiertes, gerätefreies plyometrisches Heimtrainingsprogramm in der Sommerpause die Sprint-, Rich'
+    nur im Master: ' | Die Hauptanalyse schätzt die Wirkung des Programmangebots, nicht die des Trainings. Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotenen E'
+    nur im Master: ' | Hohe Laufgeschwindigkeit, die die 30-m-Zeit mit erfasst, verlangt große Kräfte in kurzen Bodenkontakten (Oliver et al., 2024). Beschreibend lagen die mittler'
+    nur im Master: ' | Der 505-Test prüft Entschleunigen und erneutes Beschleunigen, Bausteine der im Wettkampf häufigen Richtungswechsel. Beschreibend blieb das 505-Seitenmittel i'
+    nur im Master: ' | Der Standweitsprung steht den Programmübungen am nächsten, er gehörte selbst dazu. Beschreibend sanken die mittleren Weiten beider Gruppen, was mit der Somme'
+
+== 4 validate.py (docx-Skill) gegen das Original ==
+
+Paragraphs: 182 → 188 (+6)
+All validations PASSED!
+
+== 5 Messskript Fassung 4 an der Probe (Auszug) ==
+  6.1   4.1   Einordnung der Ergebnisse                         700 gegen   700  (+0)
+  6.1           700 gegen   700  (+0)
+Kapitel 6 (6.1, 6.2 mit 6.3): 700 gegen 1600 (-900)
+Absatztext Kapitel 1 bis 7 (Arbeitsnummern): 4496 gegen 6350 (-1854)
+Semikola außerhalb von Zitierklammern, Kapitel 1 bis 7: 0
+Nummerierte Abschnittsverweise, Kapitel 1 bis 7: 0
+  Verschiedene Autor-Jahr-Belege im Master: 47 in Kapitel 1 bis 7, 47 ohne Altbestand, Sekundärquellen ohne Eintrag: Draper & Lancaster 1985
+  Prognose Einleitung bis Ende Literaturverzeichnis: 27,8 Seiten gegen die Grenze 33 (Schwelle der Tauschregel 32)
+
+== 6 LibreOffice-Rendering der Probe: 28 Seiten, 6.1 beginnt auf Seite 22 der PDF (Seitenzahl 14 im Textteil), Formatvorlage Standard, Blocksatz, keine Direktformatierung (Sichtprüfung Seite 22 und 23) ==

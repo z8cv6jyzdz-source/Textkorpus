@@ -1,0 +1,20 @@
+parameter;wert;einheit;art;quelle
+dichte_einleitung;359.2626;Wörter je Seite;gemessen am Altbestand Kapitel 2 (LibreOffice-Render);Seitenmodell (a)
+dichte_kapitel_4_bis_7;330.2454;Wörter je Seite;gemessen an Kapitel 4 (LibreOffice-Render);Seitenmodell (a)
+dichte_gesamt_vergleich;349.1589;Wörter je Seite;gemessen, nur zum Vergleich;Seitenmodell (a)
+seiten_je_objekt;0.4;Seiten;Annahme;F17 § 5.3
+objekte_textteil;5;Objekte;Festlegung;F17 § 5.3
+seiten_je_kapitelende;0.5;Seiten;Annahme (Erwartungswert);Seitenmodell (a)
+kapitelenden_textteil;5;Kapitel;Festlegung;Gliederung v5
+eintraege_je_seite;8.2507;Einträge je Seite;gemessen (Probe, LibreOffice-Render);Seitenmodell (b)
+eintraege_basis;49;Einträge;geschätzt;Seitenmodell (c)
+eintraege_obere_variante;60;Einträge;geschätzt;Seitenmodell (c)
+vorspann_seiten;8;Seiten;gemessen, zählt nach K1 nicht;Seitenmodell (d)
+schwelle_tauschregel;32;Seiten;Festlegung;Klick K3, 28.09.
+grenze_verfasser;33;Seiten;Festlegung;Verfasser 28.09., 15:14
+grenze_betreuer;37;Seiten;Festlegung;Betreuer, mündlich
+woerter_budget;6350;Wörter;Festlegung;F17 § 5.2
+word_faktor;1.21;Faktor;aus F16 § 1.1, nicht neu gemessen;F16 § 1.1
+prognose_textteil;23.3613;Seiten;Modellrechnung;Seitenmodell (d)
+prognose_gesamt_basis;29.8002;Seiten;Modellrechnung;Seitenmodell (d)
+prognose_gesamt_obere;31.1334;Seiten;Modellrechnung;Seitenmodell (d)

@@ -1,0 +1,17 @@
+Master_6_1_2026-10-02.py — Einbau 6.1 in den Master (Task 12a, 02.10.2026, 19:18 bis 19:19 Sitzungsuhr)
+Freigabe: Klick des Verfassers 02.10.2026 (alle sechs Absätze A1 bis A6, Fassung 2 nach Nachtrag K2, Variante A) · Anweisung: Einbau nach Ablage der PDF der Version of Record von Boumparis et al. (2026) in „Ideen und Studien“ (abgelegt 02.10., 503.950 Byte, MD5 7b0c5660e07874d998c2ec20819b3dad, Titel, 116 Studien und DOI 10.2196/84822 am Text geprüft)
+Wortlaut: Textvorschlag_6.1_2026-10-02.json (Fassung 2, MD5 627f6b1504fcdc3ac7ccc5789b06ed41), Erzeuger Textvorschlag_6.1_2026-10-02.py (MD5 c7ee7f7955088996db797830fa4af013)
+Eingang: Master frisch gestagt, MD5 caa5dee2c777ed6474c1d8235433412d, 42.318 Byte, 182 Absätze, keine comments.xml
+
+Master_6_1_2026-10-02.py — Einbau 6.1
+Eingang: Master_ein_1917.docx, MD5 caa5dee2c777ed6474c1d8235433412d, 182 Absätze
+Wortlaut: Textvorschlag_6.1_2026-10-02_F2.json, 6 Absätze eingebaut (A1, A2, A3, A4, A5, A6), 700 Wörter (Budget 700)
+Nicht eingebaut (Modul, offen): keines
+Einfügestelle: nach „6.1 Einordnung der Ergebnisse“, vor „6.2 Methodendiskussion“, Überschriften 6.1 bis 6.3 und 7 unverändert
+Ausgabe: /mnt/user-data/outputs/einbau61_191845/Bachelorarbeit_Gerüst_v1_AKTUELL.docx, MD5 2fda214483ffe46d652cb7b7a8882df9, 188 Absätze (vorher 182)
+
+Prüfungen vor der Rückschreibung: validate.py des docx-Skills bestanden (182 → 188 Absätze) · Abgleich_Kapitel6_1_Master_2026-10-02.py Ausgabe gegen Original: nur die sechs neuen Absätze weichen ab (erwartet)
+Rückschreibung: aus dem frischen Ausgabepfad /mnt/user-data/outputs/einbau61_191845, Commit mit mtime-Prüfung (Word geschlossen), Wartezeit 10 s, neu gestagt: 40.331 Byte, MD5 2fda214483ffe46d652cb7b7a8882df9 = Ausgabe
+Abgleich nach der Rückschreibung: Abgleich_Kapitel6_1_Master_2026-10-02.py Master gegen Ausgabe und JSON: ohne Befund (Protokoll Abgleich_Kapitel6_1_Master_2026-10-02.txt)
+Messskript Fassung 4 am Master: 6.1 700 gegen 700, Absatztext Kapitel 1 bis 7 4.496 gegen 6.350, 0 Semikola außerhalb von Zitierklammern, 0 Abschnittsverweise, Prognose 27,8 Seiten (Modellrechnung)
+Endabgleich Fassung 3: Endabgleich_2026-10-02_Kapitel6_1\ (383 Zahlen, 26 in 6.1: 16 Zitatjahre, 7 Testnamen und Messstrecken, drei Klassifikationsartefakte „15“ in U15 und „15 bis 40 m“ sowie „90“ im 90. Perzentil, keine Ergebniszahl), Satzprüfungen 23, Abweichungen 2 wie im Lauf vom 02.10. für Kapitel 5 (Tab. 1 bis Task 18 nicht im Master, P-09 Stufe-1-Pause), Vorschläge 0. Zahlenliste 03_Skripte\Endabgleich_Manuskript_2026-09-25_Zahlen.csv bis Task 18 unverändert
