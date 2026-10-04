@@ -1,0 +1,79 @@
+UMGEBUNGSDATEI der Auswertung (Auswertungsverfahren 2026-09-24, Schritt 0.4, Maßnahme L4)
+Bachelorarbeit U15-Plyometrie · Stand 2026-09-25 (Phase 6)
+
+Zwei Rechenumgebungen sind zu dokumentieren: die berichtete Rechnung in R (blinde zweite Instanz)
+und die Gegenprobe in Python (erste Instanz). Beide liefen am 2026-09-25 in je einem eigenen
+Linux-Container. Die R-Umgebung ist in der Abgabe der zweiten Instanz selbst dokumentiert und wird
+hier nur referenziert. Kein Rechenschritt lief auf dem Rechner des Verfassers.
+
+----------------------------------------------------------------------------------------------------
+1  BERICHTETE RECHNUNG (R, blinde zweite Instanz)
+----------------------------------------------------------------------------------------------------
+Quelle:     Blindrechnung_R_2026-09-24\Abgabe_R_2026-09-25\Umgebung_2026-09-25.txt
+            SHA-256 6ca2d67ae8ee6dcc5f261976584be6fa3ac7ab6df1f12d6c947b1ad98cba21ba
+Kurzfassung (aus dieser Datei, Datum dort 2026-09-25 09:19:02 UTC):
+  Betriebssystem  Ubuntu 24.04.4 LTS (Container, x86_64), Paketquellen des Systems (apt)
+  Installation    apt-get update
+                  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends r-base-core
+  R               R version 4.3.3 (2024-02-29) "Angel Food Cake", Paket r-base-core 4.3.3-2build2
+  Zusatzpakete    keine (nur base, stats, utils, graphics, grDevices)
+  BLAS/LAPACK     libblas3 3.12.0-3build1.1, liblapack3 3.12.0-3build1.1, libc6 2.39-0ubuntu8.7
+  Aufruf          Rscript Gesamtlauf_2026-09-25.R im Ordner Abgabe_R_2026-09-25, LC_ALL=C.UTF-8, TZ=UTC
+  Zufallszahlen   Mersenne-Twister, Inversion, Rejection, set.seed(20260924) je Zielgröße in S19
+  Grafiken        png() über Cairo
+Zitierform für 4.7 und das Literaturverzeichnis: aus citation() der zweiten Instanz übernehmen
+(F14 § 15), Laufprotokoll: Laufprotokoll_2026-09-25.txt
+(SHA-256 f25d57b30724b31b7209180abe05d26b86b77f1d54e8b6eb6c65976276abf08e).
+
+----------------------------------------------------------------------------------------------------
+2  GEGENPROBE (Python, erste Instanz) und ABGLEICH (Phase 6.1)
+----------------------------------------------------------------------------------------------------
+Betriebssystem    Ubuntu 24.04.4 LTS (Container, x86_64), Kernel Linux 6.18
+Python            3.11.15
+  numpy           2.4.4   (BLAS/LAPACK: scipy-openblas 0.3.31, mitgeliefert im Rad, nicht das System-BLAS)
+  scipy           1.17.1  (BLAS/LAPACK: OpenBLAS 0.3.30, mitgeliefert im Rad)
+  matplotlib      3.10.9  (nur S14-Diagramme, Backend Agg)
+  openpyxl        3.1.5   (nur Handprobenblatt, nicht Teil der Rechnung)
+Installation      Pakete waren im Container vorinstalliert (pip). Nachinstallation nicht nötig.
+                  Reproduktion: python3 -m pip install numpy==2.4.4 scipy==1.17.1 matplotlib==3.10.9
+Aufruf            python3 Gegenprobe_Python_2026-09-25.py <Blindordner> <Ausgabeordner>
+                  Lauf der Fassung 2: 2026-09-25 10:27:40 UTC (Gegenprobe_Python_2026-09-25.txt)
+Zufallszahlen     numpy.random.default_rng(20260924) je Zielgröße in S19 (eigener Generator PCG64,
+                  nicht mit R vergleichbar, deshalb Klasse ZUFALL nach Spezifikation G.3)
+Unabhängige Rechenwege gegenüber R (Spezifikation 3.3): Kleinste Quadrate über QR (numpy.linalg.qr),
+                  Shapiro-Wilk über scipy.stats.shapiro (Algorithmus AS R94), nichtzentrale F-Verteilung
+                  über scipy.stats.ncf, Nullstelle der MDES über scipy.optimize.brentq, Quantile Typ 7
+                  in eigener Funktion, Mittelwerte und Streuungen verschoben mit math.fsum.
+
+R für den Abgleich (nur das neutrale Skript Abgleich_2026-09-25.R der zweiten Instanz, keine Rechnung):
+  Installation    apt-get update
+                  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends r-base-core
+  R               R version 4.3.3 (2024-02-29), Paket r-base-core 4.3.3-2build2 (gleicher Stand wie
+                  bei der zweiten Instanz), libblas3 3.12.0-3build1.1, liblapack3 3.12.0-3build1.1
+  Aufruf          Rscript Abgleich_2026-09-25.R <Ergebnisse_Python_2026-09-25.csv>
+                  <Ergebnisse_R_2026-09-25.csv> Abgleich_2026-09-25
+                  Lauf 2026-09-25 10:27:54 UTC. Das Protokoll des Skripts nennt 11:27:54, das ist die
+                  Ortszeit des Containers (Europe/London, Sommerzeit), R lief dort ohne TZ=UTC.
+
+Werkzeuge für Protokolle (keine Rechnung): pandoc 3.1.3, python-docx, LibreOffice 24.2.7.2
+(Werkzeug_Hausstil_2026-09-25.py).
+
+----------------------------------------------------------------------------------------------------
+3  PRÜFSUMMEN (SHA-256) der Dateien dieser Phase
+----------------------------------------------------------------------------------------------------
+Ergebnisse_R_2026-09-25.csv           3194a805dc3e2c4bf0142ecab5f091d9e201449f3f2811b78073b406c74392a8
+Abgleich_2026-09-25.R                 eaa40e7f05ce7b1f7870f00144c7f112af16d1dfa4a69ea1c4f8b8a4beb63858
+Gegenprobe_Python_2026-09-25.py (F2)  2959ab0c30087bd0a19bfdf4df96ef76877c964cd2473ed42e1e2fb65f2bc189
+Gegenprobe_Python_2026-09-25.py (F1)  943a4553fd7dfea4a3ce902a27d9e0f3754c308676d7bceed3e1eb5306e841ea  (_Archiv)
+Ergebnisse_Python_2026-09-25.csv      2d4ce431b64bc209fa71a5f4615dbf828dce4b1eda7967952f75cfb26ec35099  (F1 und F2 byteidentisch)
+Gegenprobe_Python_2026-09-25.txt      80eb63ff634dd60faaf600a6d59335d222715bfadaaed87e358a250d5c11c822
+Abgleich_2026-09-25.csv               a49a9e8cb2fa213a50425c7d8f8ae7c7bea21bee52a23df08f0d60e08bda51ea
+Abgleich_2026-09-25_Protokoll.txt     76452204c5500987c8599feb1ddea13b36b467cf3ad3cfc9a13ac537d9e16c70
+Plausibilitaet_2026-09-25.py          ed686b55264f8ad1783971fc23c2d0871ce77337db70628371b421b98139166e
+Plausibilitaet_2026-09-25.txt         883ec71735396f62d66a526e507e1811d6afeb88104665f73d0a7b3972b22ee6
+Handprobe_2026-09-25.py               35ef6a2c2d016cf25955526347921467a44f4f556e40471e427c1a5c4afcb203
+Handprobe_2026-09-25.xlsx             76346cd450e6c725c01d9990b6e66b33011bd9a8025d68812e7f1e49706a30cc
+
+Hinweis zu PNG-Dateien: Beim Übertragen auf den Rechner des Verfassers erhalten PNG-Dateien einen
+zusätzlichen Herkunftsblock (Chunk caBX, 5 770 Byte), der die Prüfsumme ändert. Für PNG-Dateien gilt
+deshalb die Prüfsumme des Bildinhalts ohne diesen Block (Abgleichprotokoll_2026-09-25 § 2).

@@ -1,0 +1,753 @@
+# -*- coding: utf-8 -*-
+"""Erzeugt das Dokument Textvorschlag_6.1_2026-10-02.md aus dem Wortlaut und der Messung des Skripts
+Textvorschlag_6.1_2026-10-02.py (Task 12a). Ohne Semikolon im Skript (chr(59)).
+Fassung 3 (03.10.2026): nachgeführt nach § 8 des Nachtrags Argumentationsstruktur (Fassung 3, freigegeben 03.10.2026 gegen
+15:52 Sitzungsuhr): Kopf und § 0 bis § 7, § 8 Nr. 5, § 9.1 Nr. 10, § 9.3, § 9.4, § 9.5 Nr. 5, § 10 (Vermerk) und § 11.4.
+Satznummern nach dem Stand der Fassung 3 (A3 S1 bis S6, A4 S1 bis S9), historische Angaben mit „alt“. Dazu „Bauplan 11/11“
+nach Befund § 13 Nr. 1 berichtigt (§ 0, § 2, § 4, § 7), zwei Satznummern in A2 seit Variante A berichtigt (§ 3) und „U19“
+in § 0 durch „U15“ ersetzt. § 11.4 meldete den Einbau als angewiesen, bis das Ergebnis vorlag (EINBAU_ERGEBNIS = None, erste
+Rückschreibung 03.10., 16:29), seit 16:34 trägt EINBAU_ERGEBNIS das Ergebnis des Einbaus (Kopf, § 0, In Kürze, § 11.4).
+Fassung 2 (02.10., abends): nach dem Nachtrag K2 (Variante A, Klick des Verfassers): A2 mit dem Vergleichssatz zu
+Boumparis et al. (2026), A3 ohne den Satz zu Liu et al. (2024), kein Modul A2-M mehr. Nachgeführt nach Nachtrag § 8.1 Nr. 2 bis 4
+(§ 0, § 1 bis § 9, § 10 Vermerke, § 11.2), Berichtigungen Klusemann 77 % (alle 13) und Budget der Einleitung 1.200.
+Aufruf: python3 tv61_md.py <Ausgabedatei.md>
+"""
+import importlib.util
+import os
+import statistics
+import sys
+
+HIER = os.path.dirname(os.path.abspath(__file__))
+spec = importlib.util.spec_from_file_location('tv', os.path.join(HIER, 'Textvorschlag_6.1_2026-10-02.py'))
+tv = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(tv)
+SEMI = chr(59)
+
+A = tv.ABSAETZE
+S = {k: tv.saetze(A[k]) for k in tv.REIHENFOLGE}
+W = {k: len(A[k].split()) for k in tv.REIHENFOLGE}
+kern = sum(W.values())
+alle_s = [len(s.split()) for k in tv.REIHENFOLGE for s in S[k]]
+alle = ' '.join(A[k] for k in tv.REIHENFOLGE)
+bk = tv.belegklammern(alle)
+LIU_S8 = 30  # Wörter des mit Variante A entfallenen Satzes A3 S8 (Liu et al., 2024), Nachtrag K2 § 0
+RC2020_S5 = 14  # Wörter des mit dem Nachtrag Argumentationsstruktur entfallenen Satzes A3 S5 alt (Stufe 3), Nachtrag § 2 Nr. 1
+LLOYD_S6_ALT = 24  # Wörter von A5 S6 vor dem Nachtrag (Stufe 5 der Kürzungsleiter in Fassung 2)
+# Ergebnis des Einbaus des Nachtrags in den Master (§ 11.4). None: Einbau angewiesen, Ergebnis folgt.
+EINBAU_ERGEBNIS = {
+    'kurz': ('Der Einbau per Skript ist am 03.10. um 16:32 Sitzungsuhr erfolgt (§ 11.4): Master von MD5 `2fda2144…` auf `6c1db455…`, '
+             '188 Absätze, A3 bis A5 ersetzt, Abgleich ohne Befund, Messskript und Endabgleich ohne neuen Befund.'),
+    'prognose': ('27,8 Seiten am Master nach dem Einbau des Nachtrags (§ 11.4, gleich dem Probelauf, Nachtrag § 6.4a, und dem Stand nach dem '
+                 'Einbau vom 02.10., § 11.3), Absatztext 4.496 gegen 6.350'),
+    'text': ('**11.4 Einbau des Nachtrags Argumentationsstruktur (03.10.2026, 16:31 bis 16:34 Sitzungsuhr).** Voraussetzungen erfüllt: '
+             'Klickfreigabe von A3, A4 und A5 (§ 8 Nr. 5), Nachführung dieses Textvorschlags (Fassung 3, '
+             '`03_Skripte\\Diskussion_Anwendung_2026-10-03\\S4_Nachfuehrung_TV61.txt` ohne Befund, JSON der Fassung 3 MD5 `30913b21…`), '
+             'Word geschlossen, Master frisch gestagt und gegen den Referenzstand geprüft (`2fda2144…`, 40.331 Byte, 188 Absätze, keine '
+             'comments.xml, Dateizeit seit dem Einbau vom 02.10. unverändert). `03_Skripte\\Diskussion_Anwendung_2026-10-03\\S4_Einbau_6_1_2026-10-03.py` '
+             'aus dem frischen Ausgabepfad: A3, A4 und A5 ersetzt (Absätze 3 bis 5 nach der Überschrift „6.1 Einordnung der Ergebnisse“), '
+             'alter Wortlaut zeichengleich mit der JSON der Fassung 2 (`_Archiv\\_ersetzt_2026-10-03_Nachtrag_6_1\\`), A1 bis A6 der JSON der '
+             'Fassung 3 zeichengleich mit `S3_Nachtrag.json`, übrige Absätze zeichengleich, 188 → 188 Absätze, Ausgabe 40.337 Byte, MD5 '
+             '`6c1db455…`, bytegleich mit der Probekopie des Probelaufs (Nachtrag § 6.4a), `validate.py` des docx-Skills bestanden, der '
+             'Abgleich der Ausgabe gegen das Original zeigt nur A3 bis A5. Rückschreibung mit mtime-Prüfung (Word geschlossen), 10 s '
+             'Wartezeit, neu gestagt: MD5 `6c1db455…` gleich der Ausgabe. `Abgleich_Kapitel6_1_Master_2026-10-02.py` Master gegen Ausgabe '
+             'und JSON der Fassung 3: ohne Befund (A1 bis A6 zeichengleich, 99 · 116 · 116 · 142 · 159 · 68 = 700 Wörter, Formatvorlage '
+             'Standard, keine Direktformatierung, Überschriften 6 bis 7 an den Positionen 135, 136, 143, 144, 145, 6.2 und 6.3 leer, '
+             '0 Semikola außerhalb von Zitierklammern, 0 Abschnittsverweise, kein Satz über 32), Protokoll '
+             '`03_Skripte\\Diskussion_Anwendung_2026-10-03\\S4_Abgleich_Kapitel6_1_Master.txt`, Einbauprotokoll `S4_Einbau_6_1_Protokoll.txt` '
+             'im selben Ordner. Messskript Fassung 4 am Master: 6.1 700 gegen 700, Kapitel 6 700 gegen 1.600, Absatztext Kapitel 1 bis 7 '
+             '4.496 gegen 6.350, 0 Semikola, 0 Abschnittsverweise, 7 Platzhalter (Anhang H), 47 verschiedene Autor-Jahr-Belege, Prognose '
+             '27,8 Seiten (Modellrechnung), Ausgabe bytegleich mit `03_Skripte\\Manuskriptstand_2026-09-25.txt` und `.csv` vom 02.10. '
+             'Endabgleich Fassung 3 (`03_Skripte\\Endabgleich_2026-10-03_Kapitel6_1_Nachtrag\\`, drei Dateien): 382 Zahlen (02.10.: 383), '
+             'davon 25 in 6.1: 15 Zitatjahre (das Zitatjahr 2020 entfällt mit Ramirez-Campillo et al., 2020), 7 Testnamen und Messstrecken '
+             'und die drei Klassifikationsartefakte wie am 02.10., keine Ergebniszahl und keine Zahl aus dem Kennzahlenblatt im Text. '
+             'Satzprüfungen 23, Abweichungen 2 wie am 02.10. (Tab. 1 bis Task 18 nicht im Master, P-09 Stufe-1-Pause), Vorschläge 0. '
+             'Die Zahlenliste `03_Skripte\\Endabgleich_Manuskript_2026-09-25_Zahlen.csv` bleibt bis Task 18 unverändert. 6.1 steht damit '
+             'auf dem Stand der Fassung 3 im Master. Projektkopie dieses Dokuments in `claude/`, Teil 0 Rev. 163.'),
+}
+
+
+def quellen(text):
+    q = set()
+    for k in tv.belegklammern(text):
+        for teil in k.strip('()').split(SEMI):
+            q.add(teil.strip())
+    return q
+
+
+ZAHLWORT = {7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn', 11: 'elf', 12: 'zwölf', 13: 'dreizehn'}
+q_alle = quellen(alle)
+
+
+def anfang(k, i, n=6):
+    return ' '.join(S[k][i - 1].split()[:n]) + ' …'
+
+
+# Rasterzuordnung je Satz: (Absatz, Satz) -> Rasterzeile mit Etikett und Anspruch
+RASTER = {
+    ('A1', 1): '6.1.1 (P/K, CONSORT 22, Bauplan § 2.4 als Projektregel, Korpus nach Befund § 13 Nr. 1 nicht 11 von 11): Ankersatz der Einleitung, nahezu wörtlich, ohne „deshalb“ (Klick K6, Rev. 128)',
+    ('A1', 2): '6.1.1 (P): Hauptbefund in der Sprache von Kapitel 5 (kein Gruppenunterschied nachweisbar, H0 nicht verworfen, K-06.1 bis K-06.4), ohne Zahl',
+    ('A1', 3): '6.1.1 (P): Gegenbefund, Teil 1 (unadjustierte Post-Differenzen zugunsten der IG, K-06), ohne Zahl',
+    ('A1', 4): '6.1.1 (P): Gegenbefund, Teil 2 (Abstand unadjustiert zu adjustiert trägt die Einordnung, F17 § 11.2a, Umfangsdokument § 5.2 Nr. 2), ANCOVA-Sprachregelung F17 § 10, Zerlegung für 6.2 vorgemerkt (§ 9.1 Nr. 8)',
+    ('A1', 5): '6.1.1 (P): Fall C1 im Wortlaut der Musterformulierung (Umfangsdokument § 5.1), „Programmangebot“ nach ITT-Sprachregelung',
+    ('A1', 6): '6.1.1 (P): Einschränkung nach der Nullbefund-Sprachregelung (F17 § 10), kein „kein Effekt“',
+    ('A2', 1): '6.1.3 (E, F17 § 11.7): ITT-Sprachregelung, Wirkung des Programmangebots',
+    ('A2', 2): '6.1.3 (E): Umsetzungsrate in Worten (K-10.5, K-10.15), Bezugsmenge zugeteilte Spieler (K-10.4), keine Ergebniszahl (Raster „Nicht hier“)',
+    ('A2', 3): '6.1.3 (E): Literaturvergleich der Umsetzung als Kontext (Nachtrag K2, Variante A, Klick 02.10.), Boumparis et al. (2026), Quellenart „systematische Übersicht“ und Population im Satz, ohne Zahl (K3), Distanz 4 bis 5 nach der Regel für Umsetzungsvergleiche (Analysebefund § 6.1), Grund für die Fremdpopulation im Begleitteil (§ 3, § 5)',
+    ('A2', 4): '6.1.3 (E, F17 § 11.7): Verdünnungslogik als Einordnung des Hauptbefunds, an die eigene Umsetzung gebunden („durch die eigene Umsetzung“, Nachtrag K2 Zweitprüfung Nr. 16), Nullbefund-Sprachregelung',
+    ('A2', 5): '6.1.2/6.1.3 (E): Per-Protokoll-Vergleich beobachtend, Schwelle nach 4.6 und 4.7 (als vollständig gemeldet), Einordnung unverändert (K-08.1, Fall C1), Vormerkung Textvorschlag 5 § 9.3 Nr. 3',
+    ('A2', 6): '6.1.3 (E): Vorzeichenwechsel beider verfügbarer Punktschätzer (K-08.1 gegen K-06.1 und K-06.3), 505 ohne Inferenz (K-08.1, Fallzahlregel R4)',
+    ('A3', 1): '6.1.2 (P): Relevanz der Zielgröße (Zug 1), Beleg Oliver et al. (2024, S. 634). Nach der Codierung des Abgleichs eine Anforderung mit Mechanismus (E1+H2+E2), die Relevanz steht nicht als eigener Zug am Blockanfang (P3 nicht bearbeitet, Abweichung mit Grund, Ergebnisdokument § 4)',
+    ('A3', 2): '6.1.2 (P): eigener Befund beschreibend (Zug 2), Prä- und Post-Mittel K-04.3 und K-06.1, ohne Test und ohne „Erhalt“ (Vormerkung Textvorschlag 5 § 9.3 Nr. 4)',
+    ('A3', 3): '6.1.2 (P): eigener Befund (Zug 2), adjustierte Differenz und Intervall in Worten (K-06.1, Fall C1)',
+    ('A3', 4): '6.1.2 (P): Vergleich (Zug 3), Vorstudienbefund, Oliver et al. (2024, Tab. 3, S. 639), Zheng et al. (2025, S. 8), Leistungsniveau als Sammelformel „überwiegend höherer Spielklassen“ (Klick K5, 02.10., Distanzregel F17 § 6.4)',
+    ('A3', 5): '6.1.2 (P): Markierung des Vergleichs (Zug 3): weder Bestätigung noch Widerspruch („schließt solche Effekte aber nicht aus“), das eigene g-Intervall (K-06.1, −0,83 bis +0,46) schließt die Effekte der Metaanalysen ein (Zweitprüfung Nr. 1, Textvorschlag 4.7 Nr. 44). Seit Stufe 3 beziehen sich „dahinter“ und „solche Effekte“ allein auf die Metaanalysen in A3 S4 (Nachtrag Argumentationsstruktur § 2 Nr. 1). Bis Fassung 2 S6',
+    ('A3', 6): '6.1.2 (P): Mechanismus modalisiert (Zug 4), Oliver et al. (2024, S. 634 und 640), auf das eigene Programm bezogen (P-05, P-06, 4.5.1 „Sprintspezifische Inhalte … nicht“), ohne „zudem“ (P6 des Nachtrags). Bis Fassung 2 S7. Entfallen sind der frühere S8 (Zug 5, Liu et al., 2024, Übergangsperiode) mit Variante A (Stufe 1 der Kürzungsleiter, nach 6.2/6.3 G8 vorgemerkt, § 9.1 Nr. 4) und der frühere S5 (Ramirez-Campillo et al., 2020, Programme bis sieben Wochen) mit dem Nachtrag (Stufe 3, die Einleitung trägt die Aussage)',
+    ('A4', 1): '6.1.2 (P): Relevanz (Zug 1), konsistent mit der Einleitung („Entschleunigen und erneutes Beschleunigen fordert der 505-Test“, Richtungswechsel häufig)',
+    ('A4', 2): '6.1.2 (P): eigener Befund beschreibend (Zug 2), K-04.6 und K-06.2, ohne Test',
+    ('A4', 3): '6.1.2 (P): eigener Befund (Zug 2), K-06.2, Fall C1',
+    ('A4', 4): '6.1.2 (P): Vorstudienbefund ohne Wertung (Zug 3), Ramirez-Campillo et al. (2023, S. 8, Tab. 5, S. 10), Population im Satz („überwiegend von Mädchen“: „(1:3)“ zählt nach Fußnote ¥ Studien mit Jungen zu Studien mit Mädchen, Populationsregel F17 § 6.4, Grund der Fremdpopulation nur im Begleitteil wie bei K2, Nachtrag § 3 Nr. 6), Markierung in A4 S6. Bis Fassung 2 als Übereinstimmung nach dem p-Wert markiert',
+    ('A4', 5): '6.1.2 (P): Vorstudienbefund (Zug 3), Markierung in A4 S6, Zheng et al. (2025, S. 9), T4: 505 nicht enthalten. Bis Fassung 2 ohne Markierung',
+    ('A4', 6): '6.1.2 (P): Markierung „vereinbar“ für beide Metaanalysen (Zug 3): ihre Effekte (−0,62 und −0,51, −0,76) liegen im eigenen g-Intervall (K-06.2, −0,81 bis +0,58), P1 des Nachtrags (neu in Fassung 3)',
+    ('A4', 7): '6.1.2 (P): Vergleich als Widerspruch markiert (Zug 3), Oliver et al. (2024, Tab. 3, S. 639: CODS PTG vs CON g 1,01, außerhalb des eigenen Intervalls), Leistungsniveau im Satz (Distanz 2). Bis Fassung 2 S6',
+    ('A4', 8): '6.1.2 (P): Widerspruch (Zug 3), Sammoud et al. (2024, Tab. 3, S. 7: −0,18 s außerhalb des eigenen Intervalls −0,085 bis +0,061), Population und Dosis im Satz, T4: Reife unadjustiert. Bis Fassung 2 S7',
+    ('A4', 9): '6.1.2 (P): Mechanismus Übungsauswahl entkräftet (Sammoud et al., 2024, Tab. 2, S. 5: Programm ohne Wende, P-06 multidirektional 6,2 %) und die eigene Umsetzung als modales Erklärungsangebot des Abstands (Zug 4, „könnte“), ohne Dosis-Wirkung und ohne Bezug auf den Per-Protokoll-Vergleich (F17 § 11.2b), P2 mit P5 des Nachtrags (§ 3 Nr. 2, Zweitprüfung des Nachtrags Nr. 4 und 8). Bis Fassung 2 S8 ohne Modalverb und ohne Angebot',
+    ('A5', 1): '6.1.2 (P): Relevanz (Zug 1), P-03 (Standing Horizontal Jump als Programmübung), 4.4.3. Nach der Codierung des Abgleichs ein Merkmal der eigenen Studie (M1), die Relevanz steht nicht als eigener Zug am Blockanfang (P3 nicht bearbeitet, Abweichung mit Grund, Ergebnisdokument § 4)',
+    ('A5', 2): '6.1.2 (P): eigener Befund beschreibend (Zug 2), K-04.7 und K-06.3, ohne Test und ohne „Erhalt“, Bezug zur Sommerpause modalisiert (Vormerkung Textvorschlag 5 § 9.3 Nr. 4, Einleitung trägt die Detraining-Evidenz)',
+    ('A5', 3): '6.1.2 (P): eigener Befund (Zug 2), K-06.3, Fall C1',
+    ('A5', 4): '6.1.2 (P): Vergleich als Widerspruch markiert (Zug 3), Oliver et al. (2024, Tab. 3, S. 639: 0,79) und Zheng et al. (2025, S. 6: 0,84) liegen außerhalb des eigenen g-Intervalls (K-06.3, −0,52 bis +0,51), Leistungsniveau als Sammelformel (Klick K5)',
+    ('A5', 5): '6.1.2 (P): Widerspruch (Zug 3), Sammoud et al. (2024, Tab. 3, S. 7: +13,1 cm außerhalb von −8,7 bis +8,6 cm), Dosis in A4 S8 genannt (bis Fassung 2 A4 S7)',
+    ('A5', 6): '6.1.2 (P): Vergleich als „vereinbar“ markiert (Zug 3), Lloyd et al. (2016, Tab. 4, S. 1243), Lage näherungsweise im eigenen Intervall (Modellrechnung g ≈ +0,07 gegen K-06.3, Nachtrag § 3 Nr. 4), Vor-2020-Halbsatz (einziges Auftreten), verwandtes Maß im Satz (Sprunghöhe), P1 des Nachtrags. Bis Fassung 2 mit „Dagegen“ und ohne Wertung im Satz',
+    ('A5', 7): '6.1.2 (P): Zeitverlauf als offener Vorbehalt (Zug 5), Negra et al. (2020, Tab. 2, S. 623), innerhalb der Gruppe (T4), keine Mindestdosis-Aussage (F17 § 6.6, Zweitprüfung Nr. 5)',
+    ('A5', 8): '6.1.2 (P): Normwerteinordnung mit Vorbehalt (Zug 5, Objektzuordnung F17 § 5.3), Thomas et al. (2020, Tab. 2, S. 242), K-04.7 gegen P90, „im Mittel“ (Zweitprüfung Nr. 6)',
+    ('A6', 1): '6.1.4 (P, CONSORT 22): Beanspruchung in Worten (K-10.13), Load-Sprachregelung beachtet (kein Load im Text)',
+    ('A6', 2): '6.1.4 (P): Schmerzmeldungen nach Spielern und Status (K-10.12, K-10.9), ohne Lokalisation und ohne Kausalzuschreibung (Vormerkung Textvorschlag 5 § 9.3 Nr. 6)',
+    ('A6', 3): '6.1.4 (P): Abbrüche eingeordnet (K-10.12: je zwei Meldungen zu teilweise und nicht durchgeführten Einheiten, kein Grund belegt)',
+    ('A6', 4): '6.1.4 (P): kein Zusammenhang ableitbar, Kontrollgruppe ohne Vergleichsdaten (Umfangsdokument § 5.2 Nr. 7), ohne wörtliche Doppelung mit Kapitel 5',
+    ('A6', 5): '6.1.4 (P): Abwägung von Nutzen und Schaden als unvollständig benannt',
+}
+
+out = []
+w = out.append
+
+w('# Textvorschlag 6.1 Einordnung der Ergebnisse — Task 12a — 02.10.2026')
+w('')
+w('Erstellt 02.10.2026 (Sitzungsuhr). **Fassung 3 vom 03.10.2026:** nachgeführt nach § 8 des Nachtrags Argumentationsstruktur '
+  '(`04_Uebergaben\\Textvorschlag_6.1_Nachtrag_Argumentationsstruktur_2026-10-03.md`, Fassung 3, Task „Diskussion: Anwendung der '
+  'Argumentationsstruktur“, Teil 0 Rev. 159 bis 162). A3, A4 und A5 tragen den Wortlaut des Nachtrags, den der Verfasser am 03.10.2026 gegen 15:52 '
+  'Sitzungsuhr per Klick wie empfohlen freigegeben hat (P1, P2 mit P5, P6, finanziert mit Stufe 3 der Kürzungsleiter), A1, A2 und A6 sind unverändert. '
+  'Den Einbau per Skript hat der Verfasser mit der Freigabe angewiesen, nach dieser Nachführung (%s). Satznummern nach dem Stand der Fassung 3 '
+  '(A3 S1 bis S6, A4 S1 bis S9, A5 unverändert nummeriert), Angaben aus der Zeit vor dem Nachtrag mit „alt“ oder „bis Fassung 2“, § 8 Nr. 1 bis 4 und '
+  '§ 10 mit den Nummern ihrer Zeit. **Stand der Fassung 2 (02.10.):** nach der unabhängigen Zweitprüfung (§ 10), den Klicks K1 bis K7 vom 02.10. (§ 8) und dem Nachtrag K2 '
+  '(`04_Uebergaben\\Textvorschlag_6.1_Nachtrag_K2_2026-10-02.md`, Task „Boumparis“, Teil 0 Rev. 151): Der Verfasser hat am 02.10. nach 17:54 Sitzungsuhr '
+  'per Klick **Variante A** gewählt, A2 trägt seit der Fassung vom Abend des 02.10. den Vergleichssatz zu Boumparis et al. (2026), A3 steht ohne den Satz zu '
+  'Liu et al. (2024) (Stufe 1 der Kürzungsleiter), das Modul A2-M gibt es nicht mehr. **Freigabe und Einbau sind erfolgt:** Der Verfasser hat am 02.10. '
+  '(nach 19:10 Sitzungsuhr) alle sechs Absätze per Klick freigegeben und die PDF der Version of Record von Boumparis et al. (2026) in `Ideen und Studien` '
+  'abgelegt (Bedingung vom 18:38), der Einbau per Skript lief um 19:18 Sitzungsuhr, Master MD5 `2fda2144…`, Abgleich ohne Befund (§ 11.3) (Task 12a nach Plan § 3 '
+  'und Nachtrag 30.09./01.10., Startsatz Plan § 8, Teil 0 Rev. 146, Prompt Task 12a `claude/Prompt_Task12a_6.1_2026-10-02.md`) · '
+  '**Grundlage:** Berichtsraster Rev. 3 § 3.14 (6.1.1 bis 6.1.4) · Bauplan § 2.4 und § 8 · Gliederung v6 § 3.1 (6.1 = Endnummer 4.1, '
+  'Budget 700) · F17 § 5a, § 6.2, § 6.4 bis § 6.6, § 10, § 11.2, § 11.2b, § 11.7, § 12 · Umfangsdokument § 5 · Kennzahlenblatt 25.09. Rev. 2 '
+  '(K-02, K-04, K-06, K-08, K-10, K-11) · Programmkennzahlen P-03, P-05, P-06, P-11 · Einleitung und Kapitel 5 im Master vom 02.10. (42.318 Byte, '
+  'MD5 `caa5dee2…`, Text zeichengleich mit dem Referenzstand Rev. 146) · Textvorschlag 5 § 9.3 · Textvorschlag 4.7 § 7 · Vormerkungen der '
+  'Einleitungs-Textvorschläge · Recherche-Befunde 30.09. und 01.10. · Analysebefund `02_Befunde\\Analyse_Boumparis_2026_2026-10-02` und Nachtrag K2 · '
+  'T1 (76 Steckbriefe) und T4 (170 Zitierfallen, Stand 02.10. nach dem Nachtrag des Tasks „Boumparis“, 171 seit dem Nachtrag Argumentationsstruktur vom 03.10.) · '
+  'Befund `02_Befunde\\Argumentationsstruktur_Diskussion_RCT_2026-10-02` (§ 13 Nr. 1) und Ergebnisdokument '
+  '`02_Befunde\\Abgleich_Diskussion_6.1_Argumentationsstruktur_2026-10-03` (Fassung 7) für die Nachführung · Stilprofil · Skill '
+  '`kapiteltext-bachelorarbeit` · **Verfahren:** Wortlaut, Messung und Prüfungen per Skript `03_Skripte\\Textvorschlag_6.1_2026-10-02.py` (Fassung 3, '
+  'A3 bis A5 zeichengleich aus `03_Skripte\\Diskussion_Anwendung_2026-10-03\\S3_Nachtrag.json`, Fassung 2 mit Variante A zeichengleich aus '
+  '`03_Skripte\\Textvorschlag_6.1_Nachtrag_K2_2026-10-02.json`, Ausgabe `.txt` und `.json`), dieses Dokument per '
+  '`03_Skripte\\tv61_md.py` (Fassung 3), Nachführung und Prüfung jeder Zeile von Nachtrag § 8 per '
+  '`03_Skripte\\Diskussion_Anwendung_2026-10-03\\S4_Nachfuehrung_TV61_2026-10-03.py`, T1- und T4-Nachtrag per `03_Skripte\\T1_T4_Nachtrag_2026-10-02.py`, '
+  '`T1_T4_Nachtrag_Boumparis_2026-10-02.py` und `03_Skripte\\Diskussion_Anwendung_2026-10-03\\S3_T1_T4_Nachtrag_2026-10-03.py`. '
+  'Einbau erst nach Klickfreigabe und ausdrücklicher Anweisung (§ 8). Die Absatzkennungen A1 bis A6 sind '
+  'Arbeitskennungen und gehören nicht in den Master.' % ('§ 11.4' if EINBAU_ERGEBNIS is None else 'erfolgt am 03.10.2026, 16:32 Sitzungsuhr, § 11.4'))
+w('')
+w('## 0 Kopf — Messung und Ergebnis in Kürze')
+w('')
+w('| Größe | Wert | Vorgabe |')
+w('|---|---|---|')
+w('| Wörter 6.1 (Leerraum-Token wie Messskript Fassung 4), Fassung 3 nach dem Nachtrag Argumentationsstruktur | **%d** | Budget 700 (F17 § 5.2, Gliederung v6 § 3.1), verbindlich, ohne Reserve. Variante A des Nachtrags K2 kostete +%d Wörter (Vergleichssatz 27, Anschluss S4 +3), finanziert mit Stufe 1 der Kürzungsleiter (A3 S8 alt, Liu et al., 2024, −%d). Der Nachtrag Argumentationsstruktur (P1 +10, P2 mit P5 +5, P6 −1) ist mit Stufe 3 finanziert (A3 S5 alt, Ramirez-Campillo et al., 2020, −%d, § 7) |' % (kern, LIU_S8, LIU_S8, RC2020_S5))
+w('| Absätze (Wörter je Absatz) · Sätze | 6 (%s) · %d | kein Absatz über 250 Wörter (längster A5 mit %d), kein offenes Modul mehr. Fassung 2: 99 · 116 · 131 · 133 · 153 · 68 |' % (' · '.join(str(W[k]) for k in tv.REIHENFOLGE), len(alle_s), max(W.values())))
+w('| Satzlänge Median · längster Satz | %.1f · %d | Median 14 bis 18, kein Satz über 32 (Stilprofil), Obergrenze § 10: 40 |' % (statistics.median(alle_s), max(alle_s)))
+w('| Semikola außerhalb von Zitierklammern · nummerierte Abschnittsverweise | 0 · 0 | 0 · 0 (Stilprofil Teil 3 und 4) |')
+w('| Quellen · Belegklammern · Zitierdichte | %s Quellen (gezählt per Skript, mit Boumparis et al., 2026, ohne Liu et al., 2024, seit dem Nachtrag ohne Ramirez-Campillo et al., 2020, Fassung 2: neun, Kopf bis zur Fassung vom 02.10., 15:31 Sitzungsuhr fälschlich „elf“) · %d Klammern · eine je %d Wörter | Korpus Diskussion eine je 50 bis 90 Wörter (Bauplan § 5, im Median 54,7 nach Befund § 13 Nr. 9), Fassung 2 mit 14 Klammern eine je 50. Höchstens drei Quellen je Klammer eingehalten (Maximum zwei) |' % (ZAHLWORT[len(q_alle)], len(bk), round(kern / len(bk))))
+w('| Eröffnungsabsatz A1 | ohne Beleg, ohne Ziffer, Ankersatz ohne „deshalb“ | Bauplan § 2.4 als Projektregel (im Korpus nicht 11 von 11, Befund § 13 Nr. 1: Zweck 8, Gegenbefund 6, ohne Beleg 9, ohne Zahl 10 von 11 Studien, Hauptbefund 10 von 10 Kernstudien), Raster 6.1.1, Klick K6 |')
+w('| Zahlen im Text | keine eigene Ergebniszahl, keine Effektstärke einer Vorstudie (Klick K3, 02.10.). Ziffern nur als Testnamen und Altersklasse (505, 30-m, 15 bis 40 m, U15) und das 90. Perzentil | Raster 6.1 Kopfblock: „keine neuen, Zahlen nur, wo 6.2 sie herleitet“ |')
+w('| Markierung der Vergleiche gegen das eigene Intervall (seit dem Nachtrag jede nach der Lage, nicht nach dem p-Wert der Vorstudie) | Sprint: weder Bestätigung noch Widerspruch (Effekte der Metaanalysen im eigenen g-Intervall, A3 S5) · Richtungswechsel: vereinbar (Ramirez-Campillo 2023, Zheng 2025, A4 S6), Widerspruch (Oliver 2024, Sammoud 2024) · Sprung: Widerspruch (Oliver 2024, Zheng 2025, Sammoud 2024), vereinbar (Lloyd 2016, Lage näherungsweise nach einer Modellrechnung aus Tab. 4, A5 S6) | Bauplan § 2.4 Zug 3, Raster 6.1.2 (P), Nullbefund-Sprachregelung, Register (Regel), Zweitprüfung Nr. 1 bis 3, Nachtrag P1 und § 4.2 |')
+w('| Sprachregelungen (F17 § 10, § 11.2b) | „Programmangebot“, „kein Gruppenunterschied nachweisbar“, „adjustierte Gruppendifferenz“, „unschlüssig“, kein „Erhalt“, kein „kein Effekt“, kein „randomisiert“, Mechanismen nur mit Modalverb (seit dem Nachtrag auch A4 S9 mit „könnte“) | Prüfskript ohne Befund |')
+w('| Vorstudien je Zielgröße | Sprint: Oliver 2024, Zheng 2025 · Richtungswechsel: Ramirez-Campillo 2023, Zheng 2025, Oliver 2024, Sammoud 2024 · Sprung: Oliver 2024, Zheng 2025, Sammoud 2024, Lloyd 2016, Negra 2020, Thomas 2020 · Umsetzung (Kontext): Boumparis 2026 | Klick K1 „wie im Gerüst“, Abweichungen in § 2 begründet (Moran 2017, Moran 2024, Padrón-Cabo 2025, Asimakidis 2022 nicht im Text, Liu 2024 seit Variante A nach 6.2/6.3 G8, Ramirez-Campillo 2020 seit dem Nachtrag nur in der Einleitung, Stufe 3, ⚑ K1 mit neuem Grund) |')
+w('| Volltextstatus | alle zitierten Quellen liegen im Ordner und wurden am Volltext geprüft (§ 5). Boumparis et al. (2026): zuerst am PMC-Volltext der Version of Record (Analysebefund), seit dem Abend des 02.10. liegt die PDF der Version of Record in `Ideen und Studien` (503.950 Byte, MD5 `7b0c5660…`, 24 Seiten), am PDF geprüft: Titel, 116 Studien, DOI 10.2196/84822, Seitenzahlen der Fundstellen in § 5 nachgetragen (Nachtrag § 8.1 Nr. 5 erledigt, H16 erledigt). Die Fundstellen des Nachtrags Argumentationsstruktur (22) sind per `pdftotext` am PDF geprüft (Nachtrag § 4.3). T1 76 Steckbriefe (Liu2024 `kapitel` und Boumparis2026 `fassung` nach dem Einbau nachgeführt, § 11.3, `RC2023` Feld `population` mit dem Vermerk zum Richtungswechsel, Nachtrag § 4.4), T4 171 Zitierfallen (Nachträge 02.10.: Klusemann 2012, Rogers 2020, Veith 2021, Zheng 2025 „Leistungsniveau nicht berichtet“, Boumparis 2026 · 03.10.: `RC2023` „Studienverhältnis (1:3) beim Richtungswechsel“) | F17 § 7.1, § 7.2 |')
+w('| Zweitprüfung | Textvorschlag: 17 Befunde (2 A, 9 B, 6 C), alle behandelt, 16 übernommen (Nr. 10 nach Klick K5 am 02.10.), 1 in anderer Form (§ 10) · Nachtrag K2: 22 Befunde, dort § 9, drei Berichtigungen an diesem Dokument übernommen (§ 10, Vermerk) · Nachtrag Argumentationsstruktur: 15 Befunde (1 A, 5 B, 9 C), dort § 9, die Berichtigungen an diesem Dokument nach Nachtrag § 8 übernommen (§ 10, Vermerk) | Prompt § 5 Nr. 4, Startprompt der Ausgangsübergabe § 0 |')
+w('| Klicks des Verfassers | 02.10.: K1 Vorstudien wie im Gerüst · K2 Umsetzungsvergleich: **Variante A** des Nachtrags (Boumparis et al., 2026, in A2 S3, Stufe 1 der Kürzungsleiter) · K3 ohne Zahlen der Vorstudien · K4 Gerüst freigegeben · K5 „überwiegend höherer Spielklassen“ in A3 S4 und A5 S4 · K6 **alle sechs Absätze freigegeben** (Klick nach 19:10 Sitzungsuhr, Fassung 2) · K7 Einbau per Skript, **erfolgt 19:18 Sitzungsuhr** (§ 11.3) · 03.10. (Nachtrag Argumentationsstruktur, gegen 15:52 Sitzungsuhr): **A3, A4 und A5 wie empfohlen freigegeben**, Einbau per Skript nach dieser Nachführung angewiesen%s (§ 8 Nr. 5, § 11.4) | § 8 |' % ('' if EINBAU_ERGEBNIS is None else ', **erfolgt 16:32 Sitzungsuhr**'))
+if EINBAU_ERGEBNIS is None:
+    w('| Seitenprognose (Messskript Fassung 4, Modellrechnung) | 27,8 Seiten am Master nach dem Einbau vom 02.10. (§ 11.3, gleich dem Probelauf § 11.1 und Rev. 146) und an der Probekopie mit dem Nachtrag (Nachtrag § 6.4a), Absatztext 4.496 gegen 6.350 | Grenze 33, Schwelle 32 |')
+else:
+    w('| Seitenprognose (Messskript Fassung 4, Modellrechnung) | %s | Grenze 33, Schwelle 32 |' % EINBAU_ERGEBNIS['prognose'])
+w('| Ergebnis des Prüfskripts | ohne Befund (Fassung 3) | — |')
+w('')
+w('**In Kürze.** 6.1 steht in sechs Absätzen: Eröffnung mit Ankersatz, Hauptbefund und Gegenbefund ohne Beleg und Zahl (A1) · '
+  'Programmangebot und Umsetzung mit dem Vergleichssatz zur teilweisen Nutzung digitaler Programme (Boumparis et al., 2026, Kontext), der '
+  'Verdünnungslogik und dem beobachtenden Per-Protokoll-Vergleich (A2) · je Zielgröße ein Absatz nach dem Fünf-Zug-Muster in der Reihenfolge Sprint, Richtungswechsel, '
+  'Sprung (A3 bis A5) · Nutzen und Schaden (A6). Der Verfasser hat am 02.10. das Gerüst freigegeben (K4), die Vorstudien wie im Gerüst gewählt '
+  '(K1) und für 6.1 keine Zahlen der Vorstudien gewünscht (K3): Vorstudien stehen mit Richtung, Nachweisbarkeit, Population und Dosis in '
+  'Worten, die Effektstärken bleiben in der Belegtabelle (§ 5) und sind für 6.2 verfügbar. Jeder Vergleich ist gegen das eigene '
+  'Konfidenzintervall markiert: „Widerspruch“ nur, wo der Effekt der Vorstudie außerhalb des eigenen Intervalls liegt, sonst „weder bestätigt noch '
+  'widerlegt“ (Zweitprüfung Nr. 1). Das Leistungsniveau der Metaanalysen steht nach Klick K5 (02.10.) in A3 S4 und A5 S4 als Sammelformel „überwiegend '
+  'höherer Spielklassen“ (Oliver et al., 2024, nur ab Tier 3, Zheng et al., 2025, ohne Niveauangabe, § 5), bei Oliver allein (A4 S7, bis Fassung 2 S6) „hochtrainierter '
+  'Akademiespieler“. Dafür wurden A3 S6 und S7 alt (neu S5 und S6, „schließt solche Effekte aber nicht aus“) um je ein Wort gekürzt. **Der Literaturvergleich der '
+  'Umsetzung (K2) ist entschieden:** Der Task „Boumparis“ hat die vom Verfasser abgelegte Übersicht Boumparis et al. (2026) analysiert und im Nachtrag K2 '
+  'zwei Varianten und den Verzicht vorgelegt, der Verfasser hat Variante A gewählt (02.10., nach 17:54 Sitzungsuhr). A2 S3 ordnet die eigene Umsetzung gegen die '
+  'teilweise Nutzung digitaler Lebensstilprogramme Jugendlicher ein, als Kontext (Distanz 4 bis 5 nach der Regel für Umsetzungsvergleiche), mit Quellenart '
+  'und Population im Satz und ohne Zahl, A2 S4 bindet die Verdünnung an die eigene Umsetzung („Der Schätzer ist durch die eigene Umsetzung stark verdünnt“). '
+  'Finanziert ist der Satz mit Stufe 1 der Kürzungsleiter: A3 S8 alt (Liu et al., 2024, Übergangsperiode) entfällt und ist nach 6.2/6.3 G8 vorgemerkt, Klusemann '
+  'et al. (2012) geht mit Dosis und Niveau der Videogruppe nach 6.3 G3 (12b). A2 misst %d Wörter, 6.1 steht mit %d Wörtern genau im Budget. '
+  'Nicht im Text, mit Grund in § 2 und § 3: Moran et al. (2017) und die MDES-Einordnung '
+  '(6.2.1), Moran et al. (2024) nach dem Wegfall des Übungsauswahl-Mechanismus, Padrón-Cabo et al. (2025) und Asimakidis et al. (2022) als '
+  'Detraining-Kontext (Einleitung trägt sie, 6.1 hat einen modalisierten Satz zur Sommerpause), Liu et al. (2024) seit Variante A, Ramirez-Campillo et al. (2020) '
+  'seit dem Nachtrag (Einleitung), Begleitbedingungen (6.2.12), Messgüte und '
+  'Attrition je Zielgröße (6.2.4, 6.3 G4, G5). **Freigabe und Einbau (K6, K7):** Der Verfasser hat am 02.10. nach 19:10 Sitzungsuhr alle sechs Absätze per '
+  'Klick freigegeben und die PDF der Version of Record abgelegt. Der Einbau per Skript lief um 19:18 Sitzungsuhr (§ 11.3): Master von MD5 `caa5dee2…` auf '
+  '`2fda2144…`, 182 → 188 Absätze, 6.1 mit 700 Wörtern zeichengleich mit der JSON, Abgleich ohne Befund, Messskript und Endabgleich ohne neuen Befund. '
+  '6.1 steht damit im Master, Kapitel 6 ist bis auf 6.2 und 6.3 (Task 12b) geschrieben. '
+  '**Nachtrag Argumentationsstruktur (Fassung 3, 03.10.):** Der Abgleich von 6.1 mit dem Befund zur Argumentationsstruktur der Diskussionen ergab sieben '
+  'Potenziale, der Verfasser hat P1, P2, P5 und P6 zur Bearbeitung freigegeben und den Wortlaut des Nachtrags je Absatz wie empfohlen. Seitdem folgt jede '
+  'Markierung der Lage im eigenen Intervall, nicht dem p-Wert der Vorstudie: Beim Richtungswechsel sind Ramirez-Campillo et al. (2023, Population im Satz: '
+  '„überwiegend von Mädchen“) und Zheng et al. (2025) „vereinbar“ (A4 S6), beim Sprung Lloyd et al. (2016, Lage näherungsweise nach einer Modellrechnung, A5 S6). '
+  'A4 S9 entkräftet die Übungsauswahl und bietet die eigene Umsetzung modal als Erklärung des Abstands an („könnte“), A3 S6 steht ohne „zudem“. Finanziert '
+  'mit Stufe 3 der Kürzungsleiter: Der Satz zu Ramirez-Campillo et al. (2020, Programme bis sieben Wochen) entfällt, die Einleitung trägt die Aussage. '
+  '6.1 misst weiter %d Wörter, ohne Reserve. %s '
+  'Vormerkungen für 12b, 13a, die Schlussfassung der Einleitung und die Tasks 15 bis 18 in § 9.' % (
+      W['A2'], kern, kern,
+      'Den Einbau per Skript hat der Verfasser angewiesen (§ 11.4).' if EINBAU_ERGEBNIS is None else EINBAU_ERGEBNIS['kurz']))
+w('')
+w('## 1 Wortlaut (zum Einbau, ohne die Kennungen A1 bis A6)')
+w('')
+titel = {'A1': 'Eröffnung', 'A2': 'Programmangebot und Umsetzung (mit dem Vergleichssatz nach Nachtrag K2, Variante A)',
+         'A3': 'Sprint (ohne den früheren S8 zu Liu et al., 2024, Stufe 1, und den früheren S5 zu Ramirez-Campillo et al., 2020, Stufe 3)',
+         'A4': 'Richtungswechsel (nach dem Nachtrag Argumentationsstruktur: Population in S4, Markierung in S6, Erklärungsangebot in S9)',
+         'A5': 'Sprung (nach dem Nachtrag Argumentationsstruktur: Markierung in S6)', 'A6': 'Nutzen und Schaden'}
+for k in tv.REIHENFOLGE:
+    w('**%s — %s (%d Wörter, %d %s)**' % (k, titel[k], W[k], len(S[k]), 'Satz' if len(S[k]) == 1 else 'Sätze'))
+    w('')
+    if k == 'A2':
+        w('⟨S3 ist der Vergleichssatz der Umsetzung nach Nachtrag K2, Variante A (Klick des Verfassers, 02.10.), zeichengleich aus `03_Skripte\\Textvorschlag_6.1_Nachtrag_K2_2026-10-02.json` übernommen. S4 beginnt seit Variante A mit „Der Schätzer ist durch die eigene Umsetzung stark verdünnt“. Zitiert wird die Version of Record (2026), nie der Preprint.⟩')
+        w('')
+    if k == 'A3':
+        w('⟨A3 bis A5 seit Fassung 3 zeichengleich aus `03_Skripte\\Diskussion_Anwendung_2026-10-03\\S3_Nachtrag.json` (Nachtrag Argumentationsstruktur, Fassung 3, freigegeben 03.10.2026 gegen 15:52 Sitzungsuhr). Geändert: A3 ohne S5 alt und ohne „zudem“ in S6 (alt S7), A4 S4 neu gefasst, A4 S6 neu, A4 S9 (alt S8) neu gefasst, A5 S6 neu gefasst. Wortlaut alt und neu im Nachtrag § 1.⟩')
+        w('')
+    w(A[k])
+    w('')
+w('## 2 Zug-Tabelle (Bauplan § 2.4, skaliert auf 700 Wörter)')
+w('')
+w('| Zug (Bauplan § 2.4, F17 § 5a) | Umsetzung in 6.1 | Rasterzeilen | Wörter |')
+w('|---|---|---|---|')
+w('| Eröffnungsabsatz: Zweck wiederholen → Hauptbefund → Gegenbefund, ohne Literaturverweis und ohne Zahl (Projektregel, im Korpus nicht 11 von 11, Befund § 13 Nr. 1: Zweck 8, Gegenbefund 6, ohne Beleg 9, ohne Zahl 10 von 11) | A1: Ankersatz ohne „deshalb“, kein Gruppenunterschied nachweisbar und H0 nicht verworfen, roher Vorsprung gegen adjustierte Differenz, Fall C1 | 6.1.1 | %d |' % W['A1'])
+w('| Einordnung des Hauptbefunds über die Verdünnungslogik (F17 § 11.7, Klick 28.09., 19:25: Ort 6.1, Limitation 6.3 G3, 6.2 ohne eigenen Absatz), darin der Literaturvergleich der Umsetzung (Prompt § 3, Klick K2: Variante A des Nachtrags) | A2: Programmangebot statt Training, Umsetzung in Worten, teilweise Nutzung digitaler Lebensstilprogramme Jugendlicher als Kontext mit Quellenart, Population und Streuung (Boumparis et al., 2026, S3), Schätzer durch die eigene Umsetzung verdünnt, Per-Protokoll beobachtend mit Vorzeichenwechsel. Klusemann et al. (2012) nach 6.3 G3, Rogers et al. (2020) und Veith et al. (2021) gelesen, in T1 und T4, nicht im Text | 6.1.3, 6.1.2 | %d |' % W['A2'])
+w('| Zielgröße Sprint, Fünf-Zug in einem Absatz: Relevanz → eigener Befund qualitativ → Vergleich mit Markierung → Mechanismus modalisiert → Vorbehalt | A3: hohe Laufgeschwindigkeit (Oliver 2024) → Prä-Post beschreibend, adjustierte Differenz nahe null → Metaanalysen (Oliver 2024, Zheng 2025, „überwiegend höherer Spielklassen“ nach K5), eigener Befund dahinter zurück, schließt solche Effekte nicht aus → Transfer eher auf Sprung, Beschleunigung, Richtungswechsel, keine Sprintinhalte (ohne „zudem“, P6) → Zug 5 ohne eigenen Satz: Der Übergangsperioden-Kontext (Liu et al., 2024, 30 m auch mit Training langsamer) ist mit Variante A entfallen (Stufe 1) und nach 6.2/6.3 G8 vorgemerkt, der Vorbehalt steckt in S5 („schließt solche Effekte aber nicht aus“). Ramirez-Campillo 2020 (Programme bis sieben Wochen) ist mit dem Nachtrag entfallen (Stufe 3), die Einleitung trägt die Aussage | 6.1.2 | %d |' % W['A3'])
+w('| Zielgröße Richtungswechsel, Fünf-Zug | A4: 505 prüft Entschleunigen und Beschleunigen → beschreibend unverändert, adjustierte Differenz nahe null → Fremdbefunde Ramirez-Campillo 2023 (überwiegend Mädchen, Population im Satz) und Zheng 2025 (505 nicht enthalten), mit beiden „vereinbar“ (S6), Widerspruch Oliver 2024 und Sammoud 2024 → Mechanismus Übungsauswahl entkräftet (Vergleichsprogramm ohne Wende), die eigene Umsetzung als modales Erklärungsangebot des Abstands (S9, „könnte“) | 6.1.2 | %d |' % W['A4'])
+w('| Zielgröße Sprung, Fünf-Zug | A5: trainingsnächste Zielgröße → Weiten beschreibend gesunken, Sommerpause modalisiert, adjustierte Differenz nahe null → Widerspruch Oliver 2024, Zheng 2025, Sammoud 2024, mit Lloyd 2016 „vereinbar“ (S6, Lage näherungsweise im Intervall, Modellrechnung) → Zeitverlauf offen (Negra 2020) → Normwert Thomas 2020 mit Vorbehalt | 6.1.2 | %d |' % W['A5'])
+w('| Nutzen und Schaden (CONSORT 22) | A6: Beanspruchung in Worten, Schmerzmeldungen nach Spielern und Status ohne Lokalisation und Kausalzuschreibung, Abbrüche nicht belegt, Kontrollgruppe ohne Vergleichsdaten, Abwägung unvollständig | 6.1.4 | %d |' % W['A6'])
+w('| **Summe** | | | **%d** |' % kern)
+w('')
+w('Abweichungen vom Gerüst (02.10., Freigabe K4 „wie vorgelegt“) mit Grund: Die Zielwerte des Gerüsts (105 · 120 · 150 · 135 · 135 · 55) sind '
+  'Richtwerte, verbindlich ist die Summe 700. A2 liegt mit dem Vergleichssatz nach Variante A bei %d (statt 120), A3 ist ohne den Liu-Satz und seit dem '
+  'Nachtrag ohne den Satz zu Ramirez-Campillo et al. (2020) kürzer (%d statt 150), A4, A5 und A6 sind länger (%d statt 135, %d statt 135, %d statt 55), '
+  'weil die Zweitprüfung Oliver et al. (2024) beim Richtungswechsel, die Abbrüche in 6.1.4 und die Markierung der Vergleiche verlangte (§ 10) und der '
+  'Nachtrag Argumentationsstruktur die Markierung nach der Lage (A4 S6, A5 S6), die Population in A4 S4 und das Erklärungsangebot in A4 S9 ergänzt hat '
+  '(P1, P2 mit P5). Moran et al. (2017) steht nicht im Text: Nach K3 bliebe nur die Richtung '
+  '(geringerer Zuwachs um den Wachstumsgipfel, p = 0,09 nach T4 nur Tendenz), und die Metaanalyse ist in 6.2.1 als Literaturerwartung für den MDES '
+  'vorgesehen (F17 § 11.1, § 12 G1). Moran et al. (2024) entfällt mit dem Übungsauswahl-Mechanismus, den die Zweitprüfung an Sammoud et al. (2024) '
+  'entkräftet hat (Nr. 4, bis Fassung 2 hier „widerlegt“, Ergebnisdokument § 3.4, Befund zu Arbeitsdokumenten aus 2d Nr. 1), Vormerkung 6.2.8. '
+  'Padrón-Cabo et al. (2025) und Asimakidis et al. (2022) tragen den Detraining-Kontext in der Einleitung, '
+  '6.1 nennt die Sommerpause einmal modalisiert (A5 S2). Der Übergangsperioden-Kontext über Liu et al. (2024), den die Zweitprüfung (Nr. 9) in A3 S8 '
+  'gebracht hatte, ist mit Variante A des Nachtrags K2 wieder entfallen (Stufe 1 der Kürzungsleiter, die der Textvorschlag für den Vergleichssatz vorgesehen '
+  'hatte) und geht mit Wortlaut und Fundstellen (§ 5) nach 6.2/6.3 G8. Ramirez-Campillo et al. (2020) ist mit Stufe 3 aus 6.1 entfallen (⚑ K1, neuer Grund: '
+  'die Einleitung trägt die Aussage in Absatz 1, Satz 5, der Nachtrag braucht die Wörter) und bleibt für 6.2.1 verfügbar. Der Wochenverlauf der Meldungen (K-10.16) steht in '
+  'Tab. H2, nicht im Text (Zweitprüfung Nr. 7).' % (W['A2'], W['A3'], W['A4'], W['A5'], W['A6']))
+w('')
+w('## 3 Verzichtstabelle — was der Korpus tut oder naheläge und hier nicht geschieht')
+w('')
+w('| Was der Korpus tut oder was naheläge | Grund des Verzichts |')
+w('|---|---|')
+rows3 = [
+    ('Wiederholung der Ergebniszahlen (adjustierte Differenzen, p, g, Umsetzungsrate) in der Diskussion', 'Raster § 3.14 Kopfblock „keine neuen, Zahlen nur, wo 6.2 sie herleitet“ und „Nicht hier: Wiederholung der Ergebniszahlen“. Die Zahlen stehen in Tab. 3, Tab. H2 und Kapitel 5, 6.1 ordnet ein (Klick K3)'),
+    ('Effektstärken der Vorstudien im Text (Oliver g 0,42, 1,01 und 0,79, Zheng SMD 0,84 und −0,76, Sammoud d 1,30, Moran 2017 0,38)', 'Klick K3 (02.10.): „Ohne Zahlen der Vorstudien“. Die Werte stehen in § 5 und tragen dort die Markierung der Vergleiche, sie bleiben für 6.2 verfügbar. Hedges’ g gegen Literatur nur mit Vorbehalt (Textvorschlag 4.7, Nr. 44)'),
+    ('„Widerspruch“ überall, wo eine Vorstudie einen Effekt fand', 'Nullbefund-Sprachregelung (F17 § 10, Umfangsdokument § 5.4 Nr. 1): Ein unschlüssiger Befund widerspricht einem Effekt nur, wenn das eigene Intervall ihn ausschließt. Beim Sprint liegen die Effekte der Metaanalysen im eigenen g-Intervall (A3 S5 „weder … noch“), beim Richtungswechsel die Effekte von Ramirez-Campillo et al. (2023) und Zheng et al. (2025) („vereinbar“, A4 S6, bis Fassung 2 Übereinstimmung nach dem p-Wert und ohne Markierung), beim Sprung der Effekt bei Lloyd et al. (2016) näherungsweise (Modellrechnung, „vereinbar“, A5 S6), bei Oliver (CODS), Sammoud und beim Sprung (Oliver, Zheng, Sammoud) liegen sie außerhalb (Widerspruch). Seit dem Nachtrag folgt jede Markierung der Lage im eigenen Intervall (P1)'),
+    ('Verbale Effektetiketten und Cohen-Klassen (klein, moderat, groß), magnitudenbasierte Inferenz', 'F17 § 5a, Bauplan § 8, Umfangsdokument § 5.4. Vorstudien in Worten (deutlich, nachweisbar, nicht nachweisbar), eigene Befunde über den Fall der Schlusslogik'),
+    ('„kein Effekt“, „wirkungslos“, „gleich wirksam“, „Erhalt“, „Schutz vor Detraining“', 'Nullbefund-Sprachregelung F17 § 10, Umfangsdokument § 5.4 Nr. 1 und 9: „kein Gruppenunterschied nachweisbar“, Fall C1 „unschlüssig“, Intervall in beide Richtungen'),
+    ('Innerhalb-Gruppen-Veränderungen mit Test, Prozentänderungen, Vergleich mit dem typischen Messfehler', 'Umfangsdokument § 5.4 Nr. 2 und § 7 Nr. 1, F17 § 11.2. Prä- und Post-Mittel nur beschreibend („beschreibend“ steht im Satz), ohne Test (Textvorschlag 5 § 9.3 Nr. 4), der Bezug zur Sommerpause nur modalisiert (A5 S2)'),
+    ('„Die IG verbesserte sich stärker“ nach Rohwerten', 'Umfangsdokument § 5.4 Nr. 2. A1 S3 und S4 nennen den rohen Vorsprung und seine Erklärung durch Ausgangswert und Reifestatus (ANCOVA-Sprachregelung)'),
+    ('Kausale Deutung des Per-Protokoll-Vergleichs, Dosis-Wirkung aus der Adhärenz, Responder', 'Umfangsdokument § 5.4 Nr. 4 bis 6, F17 § 11.6. A2 S5 nennt den Vergleich „beobachtend“, S6 den Vorzeichenwechsel, keine Wirkungsaussage (bis Fassung 2 hier „A2 S4“ und „S5“, Zählung vor Variante A). A4 S9 bietet die eigene Umsetzung nur modal als Erklärung des Abstands an, ohne Dosis-Wirkung und ohne Bezug auf den Per-Protokoll-Vergleich (Nachtrag § 3 Nr. 2)'),
+    ('Wirkung „des Trainings“ aus der Hauptanalyse', 'ITT-Sprachregelung F17 § 10, § 11.7: „Wirkung des Programmangebots“ (A1 S5, A2 S1, S4, bis Fassung 2 hier „S3“, Zählung vor Variante A)'),
+    ('Mechanismus im Indikativ', 'Bauplan § 6, F17 § 10: „dürften“, „könnte“ (A3 S6, A4 S9, A5 S2). Oliver et al. (2024) formulieren selbst „may have had greater training transfer“ (S. 634)'),
+    ('Mechanismus Übungsauswahl beim Richtungswechsel (wenige multidirektionale Übungen, keine Wende) als Erklärung', 'Von der Zweitprüfung an Sammoud et al. (2024, Tab. 2) entkräftet (bis Fassung 2 hier „widerlegt“, Ergebnisdokument § 3.4, Befund zu Arbeitsdokumenten aus 2d Nr. 1): Das Vergleichsprogramm kam ebenfalls ohne Wende aus und verbesserte den 505. A4 S9 benennt das und bietet stattdessen die eigene Umsetzung modal an. Moran et al. (2024) als Gegenseite entfällt damit (Vormerkung 6.2.8)'),
+    ('Mindestdosis als Literaturschwelle („sechs Wochen zu kurz“, „ab acht Wochen wirkt es“)', 'F17 § 6.6: keine belegte Mindestdosis, Einleitung: „eine Mindestdauer lässt sich daraus nicht ableiten“. A5 S7 lässt den Zeitverlauf offen und nennt nur den Innerhalb-Gruppen-Befund (T4 Negra2020). Dass kurze Programme bei Ramirez-Campillo et al. (2020) auf Sprunghöhe und Sprint wirkten (Zweitprüfung Nr. 5), steht seit dem Nachtrag nicht mehr in 6.1, die Einleitung trägt die Aussage (Absatz 1, Satz 5)'),
+    ('Per-Quelle-Abwertung „betreut“ bei jeder Vorstudie', 'F17 § 6.4: Betreuung ist Korpuseigenschaft, einmal in 6.2/6.3 zu benennen, nicht je Quelle. Im Text steht „betreut“ nicht mehr, seit das Modul mit Klusemann et al. (2012) nach 6.3 G3 gewandert ist (Variante A). Dort nennt 12b die betreute Gruppe als Vergleichsarm der Umsetzung, nicht als Abwertung'),
+    ('Klusemann et al. (2012) als Umsetzungsvergleich in 6.1 (bisheriges Modul A2-M)', 'Klick K2 (Variante A, Nachtrag K2 § 7): nach 6.3 G3, dort mit Dosis und Niveau der Videogruppe (Nachtrag § 2 Nr. 3, Distanz 2 nach der Regel für Umsetzungsvergleiche). 6.1 trägt nur den Kontext der Übersicht (Boumparis et al., 2026), beide Quellen in 6.1 hätten 60 Wörter gekostet (Nachtrag § 2, Verworfen)'),
+    ('Zahl der Übersicht (Bestandteil-Adhärenz 55,2 %, SD 25,5 Prozentpunkte) oder eine Zielmarke der Umsetzung im Text', 'Klick K3 und Nachtrag K2 § 6: „im Mittel nur gut die Hälfte“, „bei großer Streuung“, Quellenart und Population im Satz, keine Norm, kein „typisch“, keine Dosis-Wirkung. Die Zahlen stehen in § 5 und § 6 (Begleitteil)'),
+    ('Grund für die Fremdpopulation von Boumparis et al. (2026) im Satz (Populationsregel F17 § 6.4: „Grund und abweichende Population stehen im Satz“)', 'Nachtrag K2 § 1: Die Übersicht ist die einzige zur Umsetzung digitaler Programme bei Jugendlichen, für Videoprogramme im Nachwuchssport liegen nur kleine Einzelstudien mit Werten von 12 bis 77 % vor (Befund Rev. 147). Die Population steht im Satz, der Grund nur im Begleitteil, im Budget fehlt das Wort. Die Abweichung vom Regelwortlaut ist mit Klick K2 entschieden (Zweitprüfung des Nachtrags Nr. 7)'),
+    ('Grund für die Fremdpopulation von Ramirez-Campillo et al. (2023) im Satz (Populationsregel F17 § 6.4: „Grund und abweichende Population stehen im Satz“)', 'Nachtrag § 3 Nr. 6, freigegeben mit Klick A4 (03.10.): Die Richtungswechsel-Evidenz der Metaanalyse stammt überwiegend von Mädchen („(1:3)“ zählt nach Fußnote ¥ Studien mit Jungen zu Studien mit Mädchen), A4 S4 nennt die Population. Der Grund steht nur im Begleitteil (§ 6), wie bei Boumparis et al. (2026) mit Klick K2 entschieden: Unter den Metaanalysen in T1 trennt nur diese den Richtungswechsel nach Reifegruppen. Im Budget fehlt das Wort, die Abweichung vom Regelwortlaut ist damit zum zweiten Mal entschieden (Vormerkung Fassung 18 § 6.4, G37)'),
+    ('Leistungsniveau je Metaanalyse einzeln mit Einschlusskriterium im Satz', 'Klick K5 (02.10.): In den gemeinsamen Klammern mit Zheng et al. (2025) (A3 S4, A5 S4) steht die Sammelformel „junger Fußballspieler überwiegend höherer Spielklassen“, bei Oliver et al. (2024) allein (A4 S7, bis Fassung 2 S6) „hochtrainierter Akademiespieler“. Grundlage: Oliver et al. (2024) schlossen nur Spieler ab Tier 3 ein (S. 625), Zheng et al. (2025) berichten kein Leistungsniveau (Tab. 3, S. 6 bis 7, T4-Nachtrag 02.10.), die in T1 erfassten Einzelstudien Zhengs sind regionale bis nationale Auswahlen (Negra 2020, Sammoud 2024, Hammami 2016) und eine LaLiga-Akademie (Padrón-Cabo 2025). „überwiegend“ trägt die Lücke, das Einschlusskriterium und die Tier-Diskrepanz trägt 6.3 G8 (F17 § 12)'),
+    ('„Breitensport profitiert stärker“, „Motivierte machen einen Sprung“, Prävention als Wirkung des Programms, Deckeneffekt als Befund', 'F17 § 11.2b (G34 f). Der Normwert (A5 S8) steht als Tatsache mit „im Mittel“ und Vorbehalt, ohne Deckeneffekt-Schluss. Trainingsstatus als Moderator (de Villarreal 2009, Behm 2017) ist 6.3 G8'),
+    ('Methodendiskussion in 6.1: MDES und KI-Breite gegen SESOI, Familienfehler, Trennschärfe der Voraussetzungsprüfungen, Lord’s Paradox, Zerlegung des Abstands unadjustiert/adjustiert, Überlappung, Analyseeinheit, Reifemethode, Begleitbedingungen in beide Richtungen', 'Raster 6.2.1 bis 6.2.12, Task 12b. Die Sprinteinheiten der Kontrollgruppe und das frühere Mannschaftstraining der IG-Vereine werden in 6.2.12 behandelt, nicht in A3 (§ 9.1)'),
+    ('Messgüte je Zielgröße (TE/SESOI 2,73 beim 505-Seitenmittel), Attrition je Zielgröße (505-Mittel 13 von 16), Versuchsausfälle', 'Raster 6.2.4, 6.2.6, 6.3 G4 und G5 (F17 § 12), Task 12b. Ein Satz dazu in A4 wäre Doppelung'),
+    ('Limitationen und Stärken (acht Gruppen), fehlende unabhängige Methodenprüfung', 'Raster 6.3, Task 12b. Die Verdünnung steht hier als Einordnung (6.1.3), als Limitation in G3'),
+    ('Praktische Implikationen, Handlungsempfehlung, Fallzahlempfehlung', 'Kapitel 7 (Task 13a), Fallzahlempfehlung wird in 6.2 hergeleitet'),
+    ('Wochenverlauf der Meldungen und der Beanspruchung (K-10.16) im Text', 'Tab. H2. Die Wochenmittel stammen von wechselnden Meldern (W6 sieben Meldungen), eine Aussage „stieg nicht an“ wäre ein Quasi-Test (Zweitprüfung Nr. 7)'),
+    ('Detraining-Vergleich der eigenen Prä-Post-Veränderungen mit Padrón-Cabo 2025, Asimakidis 2022 oder Liu 2024', 'Die Einleitung trägt die Detraining-Evidenz mit offener Richtung. 6.1 nennt die Sommerpause einmal modalisiert ohne Beleg (A5 S2). Die designnächste kontrollierte Studie (Liu et al., 2024) stand bis zur Fassung vom Nachmittag in A3 S8 als Kontext und ist mit Variante A nach 6.2/6.3 G8 gewandert (Stufe 1). Ein Vergleich eigener Innerhalb-Gruppen-Veränderungen mit fremden bliebe ohne Test (Umfangsdokument § 5.4 Nr. 2)'),
+    ('Moran et al. (2017) als Reifevergleich', 'T4: Reifeeffekt nur Tendenz (p = 0,09), Altersgruppen statt Reifegruppen. Als Literaturerwartung für den MDES in 6.2.1 vorgesehen (§ 9), in 6.1 ohne Zahl nicht tragend'),
+    ('Lloyd et al. (2016) auch beim Sprint (kurze Strecken)', 'Zweitprüfung Nr. 11: ohne Markierung und einseitig (Oliver 2024 Beschleunigung 0,74, Zheng 2025 10 m signifikant, Lloyds post-PHV-Gruppe verbesserte 20 m). Kurze Strecken wurden hier nur beschrieben (5.2), 6.2 ordnet sie ein. Lloyd bleibt in A5 (Sprunghöhe) mit dem Vor-2020-Halbsatz beim einzigen Auftreten'),
+    ('Aloui et al. (2022) als Vergleich beim Sprint', 'Rev. 136: nur als Vergleich für betreutes kombiniertes Training, Aloui et al. (2021) nicht unabhängig. In 6.1 nicht gebraucht'),
+    ('Hammami 2016, Beato 2018, Bouafif 2026, Negra 2019 als Vergleichsstudien', 'Elite- oder Akademiepopulation ohne Mehrwert gegenüber den Metaanalysen (Distanz ≥ 3), Negra et al. (2019) trägt in 4.5.1 die Kontaktvorlage, nicht die Diskussion'),
+    ('Twist 2022, Wilson 2021, Kwapisz Dos Santos 2025, Wang 2025, Sampson 2021, Thein-Nissenbaum 2016, Coutts 2004, Emery 2007', 'Nicht im Ordner (Stand 02.10., 13:40 Sitzungsuhr), F17 § 7.1. Twist et al. (2022) sind Rugby-Union-Spieler, für 6.1 entbehrlich (DOI-Zwischenschritt 02.10.)'),
+    ('Narrative Zitation mit Namen als Satzsubjekt', 'F17 § 10 (keine Namen im Fließtext), Stilprofil: Belege nachgestellt. Alle Klammern stehen am Satz- oder Teilsatzende'),
+    ('Zwischenüberschriften je Zielgröße, Wortverweise „wie oben beschrieben“, Abschnittsverweise', 'Gliederung v6 (6.1 ohne Unterabschnitte), Stilprofil Teil 4, Verweisverbot 22.09. Keiner im Text'),
+    ('Vor-2020-Halbsatz bei Umsetzungsquellen (Klusemann et al., 2012, in 6.3 G3)', 'F17 § 13 Nr. 39: Halbsatz nur bei Wirksamkeitsevidenz. Klusemann trägt die Umsetzung (Kontext), keine Wirksamkeit, Boumparis et al. (2026) braucht ihn ohnehin nicht. Bei Lloyd et al. (2016) steht er („älteren“), weil die Studie Wirksamkeitsevidenz trägt'),
+    ('„Metaanalyse“ als Quellenart für Boumparis et al. (2026)', 'T4 `Boumparis2026` („Metaanalyse nur für den Studienabbruch“): Die Bestandteil-Adhärenz ist beschreibend gepoolt, im Satz steht „systematische Übersicht“ (Nachtrag K2 § 4 und § 6)'),
+    ('Preprint-Fassung von Boumparis et al. (2025) zitieren', 'F17 § 6.4 (Fassungen kennzeichnen), Nachtrag K2 § 8.1 Nr. 5: zitiert wird die Version of Record (2026, Interact J Med Res 15, e84822). Die PDF der Version of Record lag vor dem Einbau im Ordner (§ 8 Nr. 1, abgelegt 02.10. abends)'),
+    ('Wörtliche Doppelung „Für die Kontrollgruppe wurden solche Angaben nicht erhoben“ aus Kapitel 5', 'Bauplan § 8 (Doppelung). A6 S4 sagt es anders („ohne Vergleichsdaten der Kontrollgruppe“), 6.3 G3 nennt das fehlende KG-Monitoring als Limitation'),
+]
+for a, b in rows3:
+    w('| %s | %s |' % (a, b))
+w('')
+w('## 4 Rasterzuordnung je Satz (Berichtsraster Rev. 3 § 3.14, Zeilen 6.1.1 bis 6.1.4)')
+w('')
+w('| Absatz, Satz | Anfang des Satzes | Rasterzeile (Etikett, Anspruch), Kennungen |')
+w('|---|---|---|')
+for k in tv.REIHENFOLGE:
+    for i in range(1, len(S[k]) + 1):
+        w('| %s S%d | %s | %s |' % (k, i, anfang(k, i), RASTER[(k, i)]))
+w('')
+w('Alle vier Rasterzeilen sind bedient: 6.1.1 durch A1, 6.1.2 durch A3 bis A5 (und A2 S5), 6.1.3 durch A2, 6.1.4 durch A6 einschließlich der Abbrüche '
+  '(A6 S3). Die K-Komponente von 6.1.1 (Bauplan-Eröffnung, Projektregel, Häufigkeit im Korpus nach Befund § 13 Nr. 1) ist mit der P-Komponente (CONSORT 22) '
+  'im selben Absatz erfüllt. Bei 6.1.2 (P) mit einer Abweichung: Die Relevanz der Zielgröße steht nur in A4 am Blockanfang, in A3 und A5 nicht (P3 nicht '
+  'bearbeitet, Abweichung mit Grund im Ergebnisdokument § 4: kein Primärbeleg mit Spielbezug im Ordner, die Korpusbasis der Regel ist überzeichnet, '
+  'Vormerkung an Berichtsraster Rev. 4 und Fassung 18 § 5a, G37). Markierung der Vergleiche, Modalverb in der Deutung und Population der Vorstudie im Satz '
+  'sind mit dem Nachtrag geschlossen (Nachtrag § 6.4, bis Fassung 2 offen: Markierung in A4 S5 und A5 S6, Modalverb in A4 S8 alt).')
+w('')
+w('## 5 Belegtabelle — jede Aussage über eine Quelle am Volltext geprüft (02.10.2026, Zweitprüfung bestätigt alle Fundstellen, Zeile Boumparis nach Nachtrag K2 § 4, Zeilen Ramirez-Campillo 2023, Zheng 2025, Lloyd 2016 und Sammoud 2024 nach dem Nachtrag Argumentationsstruktur § 4.1, 03.10.2026)')
+w('')
+w('Alle PDFs liegen in `Ideen und Studien`, Textauszug per `pdftotext -layout`, Seitenangaben nach der gedruckten Paginierung, bei Manuskript- '
+  'und Online-First-Fassungen nach dem PDF (gekennzeichnet). Boumparis et al. (2026): zuerst am PMC-Volltext der Version of Record (PMC13626193) geprüft, '
+  'Fundstellen nach Abschnitt und Absatz (Nachtrag K2 § 4), seit dem Abend des 02.10. mit den Seitenzahlen der PDF der Version of Record (24 Seiten, '
+  'Interact J Med Res 2026, 15, e84822, Nachtrag K2 § 8.1 Nr. 5 erledigt). T4-Hinweis = beachtete Zitierfalle. Distanz nach F17 § 6.4 (Population · Dosis · Zielgröße), für Umsetzungsvergleiche '
+  'nach der Regel des Analysebefunds § 6.1 (Population · Programmform · Umsetzungsmaß, Rev. 151). '
+  'Die Spalte „Lage zum eigenen Intervall“ trägt die Markierung der Vergleiche: eigene g-Intervalle K-06.1 −0,83 bis +0,46 (30 m), K-06.2 −0,81 bis +0,58 '
+  '(505), K-06.3 −0,52 bis +0,51 (SBJ), Polung nach dem Kennzahlenblatt (negativ = IG schneller bzw. kürzer, beim Standweitsprung positiv = IG weiter). '
+  'Zeiteffekte der Vorstudien mit negativem Vorzeichen bedeuten Verbesserung.')
+w('')
+w('| Quelle (T1-Kennung) | Aussage im Text | Wortlaut der Quelle | Fundstelle | T4-Hinweis, Distanz, Lage zum eigenen Intervall |')
+w('|---|---|---|---|---|')
+rows5 = [
+    ('Oliver et al. (2024), `Oliver2024`, Sports Med 54, 623–643, Verlagsfassung',
+     'A3 S1: hohe Laufgeschwindigkeit verlangt große Kräfte in kurzen Bodenkontakten',
+     '„In boys aged 11–16 years, maximal sprint speed has been shown to be determined by relative stiffness, requiring high levels of force to be generated during very brief ground contact periods (~ 140 ms)“',
+     'S. 634 (Diskussion, dort mit Verweis auf [99])',
+     'Aussage einer Übersichtsarbeit, die Einleitung belegt dieselbe Mechanik mit Hicks et al. (2020). Keine Zahl übernommen'),
+    ('Oliver et al. (2024)',
+     'A3 S4: plyometrisches Training für die Sprintleistung über 15 bis 40 m wirksam · A4 S7 (bis Fassung 2 S6): Richtungswechselleistung hochtrainierter Akademiespieler deutlich verbessert · A5 S4: horizontale Sprungleistung verbessert',
+     'Tab. 3: „Speed (15–40 m) PTG vs CON … < 0.001 … 0.42 (0.20–0.64) Small“ · „Change of direction speed PTG vs CON … < 0.01 … 1.01 (0.57–1.46) Moderate“ · „Horizontal power PTG vs CON … < 0.001 … 0.79 (0.49–1.09) Moderate“ · Population „high-level, highly trained male youth soccer players“ (Titel, S. 625: ab Tier 3)',
+     'Tab. 3, S. 639',
+     'T4: nur Tab. 3, S. 639 zitieren, nie das Abstract. Lage: Speed 0,42 (eigene Polung −0,42) liegt im Intervall K-06.1 → A3 „weder … noch“ · CODS 1,01 (−1,01) liegt außerhalb K-06.2 → A4 Widerspruch (beide Intervalle überlappen, Abstand zur unteren Grenze −0,81 gering, Vormerkung 6.2, § 9.1 Nr. 10) · Horizontal power 0,79 außerhalb K-06.3 → A5 Widerspruch. Distanz Population 1 (ab Tier 3), Dosis 1, Zielgröße 0 → 2, Niveau in A4 S7 im Satz („hochtrainierter Akademiespieler“), in A3 S4 und A5 S4 als Sammelformel „überwiegend höherer Spielklassen“ (Klick K5, 02.10.)'),
+    ('Oliver et al. (2024)',
+     'A3 S6 (bis Fassung 2 S7, seit dem Nachtrag ohne „zudem“): Programme mit vertikalen Sprüngen und langen Bodenkontakten dürften eher Sprung, Beschleunigung und Richtungswechsel ansprechen',
+     '„plyometric training often included exercises that were vertical or lateral in direction, … and exercises that would likely involve use of a slow-stretch shortening cycle (e.g. ground contact time > 250 ms) … Consequently, the mechanical and neuromuscular demands imposed by the plyometric training may have had greater training transfer to acceleration and CODS, rather than maximal sprint speed“ · „the included training programmes more closely reflected and overloaded the mechanical and neuromuscular demands of jumping, bounding, accelerating and decelerating, but were less specific to the horizontal force demands of maximal sprint speed“',
+     'S. 634 und S. 640',
+     'Mechanismus im Text modalisiert („dürften“), wie bei den Autoren („may have had“). Bei Oliver erklärt er den kleineren Speed-Effekt neben größeren Beschleunigungs- und COD-Effekten (Zweitprüfung Nr. 15), deshalb im Text als „am wenigsten zu erwarten“, nicht als Erklärung eines fehlenden Effekts'),
+    ('Zheng et al. (2025), `Zheng2025`, PLOS One 20(4), e0319548, Verlagsfassung',
+     'A3 S4: Sprintleistung verbessert · A4 S5: Richtungswechsel insgesamt verbessert, in den Einzeltests nur im Illinois-Test, 505 nicht enthalten · A4 S6: Markierung „vereinbar“ · A5 S4: horizontale Sprungleistung verbessert',
+     '„30-meter sprint (SMD = -0.50, 95%CI: [-0.85, -0.15], p = 0.005)“ · „plyometric training significantly improved COD ability … (SMD = -0.76, 95%CI: [-1.04, -0.47], p < 0.001) … significant positive impact on the Illinois agility test (SMD = -0.71 …) However, no significant improvements were observed for the zig-zag run (SMD = -0.38 … p = 0.267) or the T-test (SMD = -1.47 … p = 0.127)“ · „SLJ (SMD = 0.84, 95%CI: [0.54, 1.14], p < 0.001)“',
+     'S. 8 (Sprint), S. 9 (COD, drei Tests Illinois, Zig-Zag, T-Test), S. 6 (Sprung)',
+     'T4: Teilanalysen zählen Zielgrößen-Arme, nicht Studien · T4: Der 505 ist nicht enthalten (im Text genannt) · Einschluss 10 bis 18,99 Jahre, männlich und weiblich, Niveau nicht eingeschränkt (Tab. 1, S. 4), Leistungsniveau der 20 Studien nicht berichtet (Tab. 3, S. 6 bis 7, T4-Nachtrag 02.10.). „überwiegend höherer Spielklassen“ (A3 S4, A5 S4, Klick K5) stützt sich auf Oliver et al. (2024) und die in T1 erfassten Einzelstudien Zhengs, nicht auf eine Angabe von Zheng et al. Lage: 30 m −0,50 im Intervall K-06.1 → „weder … noch“ · COD −0,76 [−1,04 bis −0,47] im Intervall K-06.2, Intervalle überlappen → A4 S6 „vereinbar“ (bis Fassung 2 ohne Markierung, Abstand zur unteren Grenze −0,81 nur 0,05, Vormerkung 6.2, § 9.1 Nr. 10) · SLJ 0,84 außerhalb K-06.3 → Widerspruch. Distanz Population 1, Dosis 1, Zielgröße 0 bzw. 1 → 2 bis 3, Abweichung („in den Einzeltests“, Tests benannt) im Satz'),
+    ('Ramirez-Campillo et al. (2020), `RC2020`, Sports Med 50(12), 2125–2143, im Ordner das akzeptierte Manuskript — **seit dem Nachtrag nicht mehr in 6.1** (Stufe 3), zitiert in der Einleitung (Absatz 1, Satz 3 und Satz 5), Literaturverzeichnis unverändert',
+     'A3 S5 alt (entfallen mit Stufe 3, Nachtrag § 2 Nr. 1): schon Programme bis sieben Wochen wirksam für die Sprintleistung über längere Strecken. Zeile bleibt als Fundstellenbeleg für 6.2.1',
+     '„Regarding interventions with a duration of ≤7 weeks, also comprising ≤14 total PJT sessions (9 study groups' + SEMI + ' ES = 0.68 [95%CI = 1.05 to 0.31], p < 0.001 …) and those with >7 weeks … both induced a similar (between-group p = 0.667) significant improvement on 30-m linear sprint performance“ (20 m ≤ 7 Wochen ES = 0,50) · Haupttext: 30 m „ES = 0.64 [95%CI = 0.89 to 0.39], p < 0.001“ · 10 m ≤ 7 Wochen „ES = 0.11 … p = 0.677“',
+     'Appendix S1 (PDF S. 43–44) und Manuskript S. 9 und 10. Seitenangaben nach dem PDF (Manuskriptfassung, F17 § 6.5)',
+     'T4: Ergebnisteil, nicht Abstract. Vorzeichen der KI-Angabe im Manuskript vertauscht, hier ohne Zahl. Lage: 30 m ≤ 7 Wochen 0,68 (−0,68) im Intervall K-06.1 → „weder … noch“. Distanz Population 1, Dosis 0, Zielgröße 0 → 1, tragend. Die Einleitung nennt dieselbe Aussage und den 10-m-Gegenbefund und ist seit dem Nachtrag die einzige Stelle der Dosisaussage, die Schlussfassung der Einleitung muss den Satz halten (§ 9.3 Nr. 3). Für 6.2.1 als Literaturerwartung verfügbar (§ 9.1 Nr. 1)'),
+    ('Liu et al. (2024), `Liu2024`, J Sports Sci Med 23, 219–227, Verlagsfassung — **nicht im Text** (Variante A, Stufe 1), nach 6.2/6.3 G8 (Nachtrag K2 § 8.1 Nr. 2)',
+     'früherer A3 S8 (bis zur Fassung vom Nachmittag des 02.10.), entfällt mit Variante A: in der einzigen kontrollierten Studie zur Übergangsperiode mit plyometrischem Arm wurden regionale U19-Spieler auch mit sechs Einheiten in drei Wochen im 30-m-Sprint langsamer, ohne Training stärker. Zeile bleibt als Fundstellenbeleg für 12b',
+     'Tab. 3: „30-m sprint (s) … PJT pre 4.14±0.03 PJT post 4.15±0.02 … Control pre 4.14±0.03 Control post 4.20±0.02“ · „Considering the within group differences, HIIT significantly declined from pre to post (mean difference: 0.023s' + SEMI + ' p<0.001), as well as PJT (mean difference: 0.014s' + SEMI + ' p=0.002), PJT+HIIT (… 0.019s' + SEMI + ' p<0.001) and control group (mean difference: 0.054s' + SEMI + ' p<0.001)“ · „All participants were members of regional-level under-19 teams, indicating a trained/developmental competitive level“ · „two sessions per week for three consecutive weeks, totaling six“',
+     'Tab. 3 und Ergebnistext S. 223 · Population S. 220 · Dosis S. 220 · Betreuung S. 221',
+     'T4: N 58 gegen 60, Eligibility ≥ 90 % faktisch Per-Protokoll, d nie berichtet, Tab.-3-Kopierfehler beim YYIRT (hier nicht verwendet). „einzige kontrollierte Studie zur Übergangsperiode mit plyometrischem Arm“ ist die Korpusaussage nach F17 § 6.5 und der Recherche vom 08.09. Distanz nach dieser Tabelle Population 1 (U19, 17,6 J., Tier 2), Dosis 1 (drei Wochen, sechs Einheiten, betreut), Zielgröße 0 (30 m) → 2 bis 3. T1 `Liu2024` führt 2 · 1 · 2, vor 12b anzugleichen (Nachtrag K2 § 8.1 Nr. 3), Feld `kapitel` nach dem Einbau auf 6.2/6.3 G8. Kontext, keine Markierung gegen das eigene Intervall (andere Frage: Verlauf ohne Vergleichsarm ohne Pause)'),
+    ('Lloyd et al. (2016), `Lloyd2016`, JSCR 30(5), 1239–1247, Verlagsfassung',
+     'A5 S6: Sprunghöhe von Schülern nach dem Wachstumsgipfel in einer älteren kontrollierten Studie nach sechs Wochen ohne nachweisbare Veränderung, was mit dem eigenen Befund vereinbar ist (seit dem Nachtrag mit Markierung, ohne „Dagegen“)',
+     'Tab. 4, Zeile „SJ (cm) post-PHV“, PT: Pre 32.3 ± 6.4, Post 32.7 ± 6.3 (ohne † und ohne ‡), „Effect size (Cohen’s d) 0.07“, CON: Pre 34.2 ± 4.6, Post 34.2 ± 4.6 · Fußnoten „†Significantly different from pretest (p < 0.01)“ und „‡Significantly different from pretest (p ≤ 0.05)“ · pre-PHV PT: SJ 24.6 → 28.3†, d 0.77 · Population: „Eighty young male school children (n = 40 pre-PHV and n = 40 post-PHV) from a local secondary school in the United Kingdom“, „(n = 10 × pre-PHV and 10 × post-PHV per group)“ · „6 weeks was selected to match the typical duration of a school …“',
+     'Tab. 4, S. 1243 · S. 1240 (Population, Dauer, n je Gruppe) · S. 1242 (Betreuung durch „credited strength and conditioning coach“)',
+     'T4 (L14 b): d-Werte sind Veränderungen innerhalb der Gruppe, † und ‡ = signifikant gegen Baseline. T4: „randomly assigned“ nur im Abstract → im Text „kontrollierte Studie“. Vor-2020-Halbsatz „älteren“ (Wirksamkeitsevidenz, F17 § 6.2), einziges Auftreten. Lage seit dem Nachtrag näherungsweise geprüft (Nachtrag § 3 Nr. 4, Zweitprüfung des Nachtrags Nr. 2): PT gegen CON nach PHV als Modellrechnung, keine Messung, Differenz der Veränderungen 0,4 cm, gepoolte Prä-SD 5,57 cm, g ≈ +0,07, mit angenommener Steigung 0,8 wie in einer ANCOVA etwa 0,00, beides im eigenen Intervall K-06.3 (−0,00 [−0,52 bis +0,51]) → „vereinbar, Lage näherungsweise innerhalb (Modellrechnung aus Tab. 4)“, bis Fassung 2 „Übereinstimmung in der Richtung“. Vorbehalt: analysiertes n nicht berichtet (geplant 10 je Gruppe und Reifegruppe), kein Konfidenzintervall, Sprunghöhe statt Standweitsprung. Distanz Population 1 (Schüler, Alter nah), Dosis 0, Zielgröße 1 (SJ als verwandtes Maß) → 2, Abweichung im Satz („Schülern“, „Sprunghöhe“). Der 10-m-Befund (d 0,06, ohne †) und die 20-m-Verbesserung (2,7 → 2,6†, d 0,34) der post-PHV-Gruppe bleiben für 6.2 (§ 9.1)'),
+    ('Ramirez-Campillo et al. (2023), `RC2023`, Sports Med Open 9, 23, Verlagsfassung',
+     'A4 S4: Richtungswechselleistung, überwiegend von Mädchen, in keiner Reifegruppe nachweisbar verbessert · A4 S6: Markierung „vereinbar“',
+     '„However, COD speed (ES = 0.51 − 0.62, p = 0.149–0.075) and CMJ height (ES = 0.36 − 0.50, p = 0.088 − 0.061) were not significantly improved in both pre-PHV and post-PHV participants after PJT when compared to controls“ · Tab. 5: „COD speed time (1:3) 0.62 (0.075) 0.51 (0.149) -0.42 (0.012)¶“, Fußnote ¥: „Denotes the number of studies included in meta-analysis conducted in males:females“, Fußnote ¶: „Favouring the pre-PHV group“ · S. 14: „COD speed time (1:3, respectively)“, „three school-based physical education control groups, and one soccer-specific active control group“ · Tab. 6: Change of direction speed time gegen Kontrollen je vier Studien (n = 132 vor, n = 152 nach PHV) „No clear direction of effects“, „Very low“, vor gegen nach PHV (n = 146) „Small effect favouring pre-PHV“, „Low“',
+     'S. 8 · Tab. 5, S. 10 · S. 14 · Tab. 6, S. 12',
+     '„(1:3)“ ist nach Fußnote ¥ das Verhältnis der Studien mit Jungen zu Studien mit Mädchen, nicht der Reifegruppen: Der Richtungswechsel-Befund beruht auf einer Studie mit Jungen und drei mit Mädchen, die Kontrollen waren dreimal Schulsport und einmal Fußball (Zweitprüfung des Nachtrags Nr. 1, bis Fassung 2 hier als „eine pre-PHV- und drei post-PHV-Studiengruppen“ gelesen). T4 `RC2023` gelesen, neuer Eintrag „Studienverhältnis (1:3) beim Richtungswechsel“ (Nachtrag § 4.4). „Metaanalyse“ als Quellenart im Satz, „in keiner Reifegruppe“ und „überwiegend von Mädchen“ tragen die Abweichungen. Distanz Population 2 (weiblich, Sport gemischt, bis Fassung 2 hier 1), Dosis 1 (T1: 0, Angleichung vorgemerkt, § 9.5 Nr. 5), Zielgröße 1 → 4 (nach T1 3): Abweichung im Satz, Funktion Kontext für die Vereinbarkeit, kein tragender Beleg (Nachtrag § 3 Nr. 6). Grund der Fremdpopulation nur im Begleitteil (§ 3, § 6). Lage: −0,62 und −0,51 im eigenen g-Intervall K-06.2 (−0,11 [−0,81 bis +0,58]) → „vereinbar“ (A4 S6), bis Fassung 2 „nicht signifikant → Übereinstimmung“. Die Einleitung nennt denselben Befund ohne Population (Vormerkung § 9.3 Nr. 6)'),
+    ('Sammoud et al. (2024), `Sammoud2024`, BMC Sports Sci Med Rehabil 16, 37, Verlagsfassung',
+     'A4 S8 (bis Fassung 2 S7): achtwöchiges Programm mit nahezu gleichem Kontaktverlauf verbesserte die 505-Zeit präpubertärer Spieler deutlich, Alters- und Reifeunterschied zur Kontrollgruppe nicht adjustiert · A4 S9 (bis Fassung 2 S8): Vergleichsprogramm ohne Wende · A5 S5: steigerte die Weite deutlich',
+     'Tab. 3: „505 CoD (s) … Post PJTG 2.46 … CG 2.64 … Diff (95% CI) -0.18 (-0.29 to -0.06) … ANCOVA p-value (Cohen’s d) < 0.01 (1.30)“ · „SLJ (cm) … 187.6 … 174.5 … 13.09 (4.95 to …) … < 0.01 (1.36)“ · „Significant between groups differences were detected for the chronological age, height, body mass, and maturity offset“ · „an ANCOVA statistical model with baseline measurements entered as covariates“ · „total ground contacts per week gradually increased from 50 during the first week to 120 during the last week“ · Tab. 2: Programm aus CMJ, CMJ akimbo, Ankle Hops vorwärts, Zickzack-Sprüngen (ohne Wende)',
+     'Tab. 3, S. 7 · S. 6 (Ergebnistext) · Tab. 2 und S. 5 (Programm, ANCOVA, Kontakte) · S. 4 (Population) · S. 3 (Betreuung)',
+     'T4: nur Tab. 3, S. 7, Between-group-d (hier „deutlich“) · T4: Kontakte je Einheit, 50 statt 52 → „nahezu gleichem Kontaktverlauf“ wie 4.5.1 · T4: Reife- und Altersunterschied unadjustiert (im Satz). Lage: −0,18 s außerhalb K-06.2 (−0,085 bis +0,061) → Widerspruch · +13,1 cm außerhalb K-06.3 (−8,7 bis +8,6) → Widerspruch. Distanz Population 1, Dosis 1, Zielgröße 0 → 2, Abweichung („achtwöchig“, „präpubertär“) im Satz'),
+    ('Negra et al. (2020), `Negra2020`, J Sport Health Sci 9, 620–627, Verlagsfassung',
+     'A5 S7: bei präpubertären Spielern erst nach acht Wochen gegenüber dem Ausgangswert nachweisbar besser, Zeitverlauf offen',
+     'Tab. 2, Zeile „SLJ (m) PTG 1.61 ± 0.23 (Baseline) 1.63 ± 0.22 (4 weeks) 1.76 ± 0.21** (8 weeks) 1.86 ± 0.27 ***,c (12 weeks)“, „** p < 0.01 … compared with baseline values“, „c a significant difference compared with CG“ (erst nach 12 Wochen) · Diskussion: „significant improvements in SLJ performance were observed starting after 8 weeks“ · Population „(age = 12.8 ± 0.2 years …)“',
+     'Tab. 2, S. 623 · S. 624 (Diskussion) · S. 621 (Population)',
+     'T4: Zeitverlauf nur innerhalb der Gruppen (im Satz „gegenüber dem Ausgangswert“), Messungen nur nach 4, 8 und 12 Wochen, gegen die KG erst nach 12 Wochen signifikant, ANCOVA post hoc gewählt, Abstract fehlerhaft. Deshalb im Text „Wann sich die Weite verbessert, ist offen“, keine Mindestdosis (Zweitprüfung Nr. 5). Distanz Population 1, Dosis 1, Zielgröße 0 → 2, Abweichung im Satz'),
+    ('Thomas et al. (2020), `Thomas2020`, Eur J Transl Myol 30(2), 240–246, Verlagsfassung',
+     'A5 S8: beide Gruppen im Mittel schon bei der Eingangstestung über dem 90. Perzentil gleichaltriger europäischer Schulkinder, erhoben auf hartem Boden',
+     'Tab. 2 (Jungen): Alter 15, Perzentil 90: 197.8 · Alter 14: 205 · Tab. 1: 15 Jahre männlich n = 93, 14 Jahre n = 112 · „The standing broad jump test was performed on a hard surface. The participants stood in a standing position with the heels on the starting line“ · „school-children aged between 6 and 18 years old … recruited from primary and secondary schools“',
+     'Tab. 2, S. 242 · Tab. 1 und Protokoll S. 241',
+     'T4: Text widerspricht Tab. 2, nur Perzentile mit n zitieren, Schulnormen nur mit Vorbehalt (hartem Boden im Satz), Fersen an der Linie wie im eigenen Protokoll. Eigene Ausgangswerte K-04.7: IG 238 ± 13 cm (15,10 J.), KG 226 ± 21 cm (14,08 J.), die Mittel über P90 der 14- und 15-Jährigen (205, 197,8), einzelne KG-Spieler darunter (K-12: 202, 204 cm) → „im Mittel“ (Zweitprüfung Nr. 6). Normwertstudie, Konvergenz nicht anwendbar'),
+    ('Boumparis et al. (2026), `Boumparis2026`, Interact J Med Res 15, e84822, Version of Record (doi 10.2196/84822, PMC13626193). PDF der Version of Record seit dem 02.10. (abends) in `Ideen und Studien` („2026 Boumparis et al., Factors Influencing Adherence …“, 503.950 Byte, MD5 `7b0c5660…`, 24 Seiten), am PDF geprüft: Titel, 116 Studien, DOI. Der Preprint (2025) bleibt im Ordner, nicht zitierfähig',
+     'A2 S3: in digitalen Lebensstilprogrammen für Jugendliche wurde nach einer systematischen Übersicht im Mittel nur gut die Hälfte der Programmbestandteile absolviert, bei großer Streuung',
+     'Bestandteil-Adhärenz 55,2 % (SD 25,5 %, 66 Vergleiche), beschreibend gepoolt · Abstract › Conclusions: „only about half of intervention components on average“ · Domänenwerte mit weit überlappenden Spannen · Population 10 bis 19 J., digitale Hauptkomponente, fünf Lebensstildomänen, nach den Autoren nicht auf andere Domänen übertragbar · systematische Übersicht nach PRISMA 2020, 116 Studien, Metaanalyse nur für den Studienabbruch (gepoolt 16,9 %, 95-%-KI 13,6 bis 20,9, Prognoseintervall 1,7 bis 70,3 %)',
+     'Results › Characteristics of Digital Interventions, Abs. 4, S. 6 (Nutzung 55,2 %, SD 25,5 %, 66 Vergleiche) · Abstract › Conclusions, S. 1 („only about half“) · Discussion › Principal Findings, S. 12 („lower still: 55.2%“) · Discussion › Domain-Specific Adherence Patterns, Abs. 1, S. 14 (Streuung: „wide and overlapping ranges“) · Methods › Eligibility Criteria, Abs. 1 und 3, S. 3, und Discussion › Limitations, S. 14 (Population, „may not be generalizable to … other health domains“) · Introduction, Abs. 6, S. 2, und Methods › Identification of Studies, Abs. 2, S. 3 (Quellenart, PRISMA) · Results › Quantitative Synthesis of Attrition, S. 7 bis 8 (nicht im Text). Seitenzahlen nach der PDF der Version of Record, 02.10. abends',
+     'T4 `Boumparis2026`: „Metaanalyse nur für den Studienabbruch“ (im Satz „systematische Übersicht“) · „Population: keine Sportauswahl“ · „Bezugsmengen“ (66 Vergleiche für die Nutzung, 108 für den Abbruch) · „Verbleib und Nutzung: zwei Maße“ (im Satz nur das Nutzungsmaß) · „Hintergrundsätze sind keine Ergebnisse“. Distanz nach der Regel für Umsetzungsvergleiche: Population 2 (Jugendliche ohne Sportauswahl), Programmform 1, strenger gelesen 2 (digitale Lebensstilprogramme), Umsetzungsmaß 1 (Bestandteil-Adhärenz) → 4 bis 5, nur Kontext: Quellenart und Population im Satz, Präteritum, ohne Zahl (K3), keine Norm, keine Wertung. Grund für die Fremdpopulation im Begleitteil (§ 3). Einordnung nur hier: eigene Umsetzung K-10.5 (42,6 %) unter dem Mittel der Übersicht, innerhalb einer Standardabweichung. Kein Vor-2020-Halbsatz. Zweitprüfung des Nachtrags (22 Befunde) bestätigt Fundstellen und Definitionen'),
+]
+for r in rows5:
+    w('| %s |' % ' | '.join(r))
+w('')
+w('**Gelesen, in T1 und T4, nicht im Text:** Klusemann et al. (2012), *JSCR, 26*(10), 2677–2684, Verlagsfassung (bis zum Nachtrag K2 das Modul A2-M, '
+  'jetzt nach 6.3 G3): „Training logs from the online diary revealed 96% compliance from the supervised group and 77% compliance from the video group. … '
+  'Only 5 subjects from the video group completed all 12 sessions, whereas 2 subjects were excluded from the final analysis for low compliance (<75%)“ '
+  '(S. 2681), 38 Nachwuchsbasketballspieler (17 m 14 ± 1 J., 21 w 15 ± 1 J., S. 2677), sechs Wochen, zwölf Einheiten, Zuteilung durch Minimierung (S. 2678). '
+  'T4 `Klusemann2012`: Abstract überzeichnet den Vertikalsprung, nicht randomisiert („kontrollierte Studie“), magnitudenbasierte Inferenz, **Bezugsmenge der '
+  '77 %: alle 13 der Videogruppe** — die Angabe „77 % nach Ausschluss zweier Spieler“ in der Fassung dieser Tabelle vom Nachmittag war rechnerisch nicht '
+  'haltbar und ist nach Nachtrag K2 § 8.1 Nr. 3 berichtigt, der Ausschluss unter 75 % betrifft nur den Leistungsvergleich. Distanz für den Umsetzungsvergleich '
+  '2 (Population 2, Dosis 0, Zielgröße 0, Befund Rev. 147 § 2.1), Satzkern für 12b mit Dosis und Niveau der Videogruppe in Nachtrag K2 § 2 Nr. 3 · '
+  'Rogers et al. (2020), *Sports, 8*(4), 39: „Athletes from the OL group who completed pre- and '
+  'post-physical testing (n = 8) logged between 0 and 11 sessions out of a possible 32 (mean of 12%)“ (S. 9), 39 Schulsportler (19 m 14,5 ± 0,3 J.), '
+  'Paarbildung nach Ausgangswert (S. 6), 16 Wochen, zwei Einheiten je Woche · Veith et al. (2021), *Sci Med Footb, 5*(4), 339–346 (Online-First-PDF): '
+  '„HG dose exposures were reported as 2.8 (CI 2.7 to 2.9) ×/week, with all exercises performed 87% of the time“ (S. 5 des PDF), 65 Akademiespieler '
+  'U13 bis U16 (13,9 ± 1,2 J.), Heimgruppe n = 33, wöchentlicher Online-Fragebogen (S. 3). Rogers und Veith bleiben Reserve für 6.3 G3 (12b) · '
+  'Moran et al. (2024), *PLoS ONE, 19*(5), e0295786: „There were no apparent directionally-specific adaptive to responses to any of the applied PT '
+  'programmes“ (S. 7), 24 semiprofessionelle Erwachsene (S. 4), ohne Kontrollgruppe (S. 9), T4: Wirksamkeit ohne Kontrollgruppe, „505“ dort die '
+  '5-m-Variante. Vorgemerkt für 6.2.8 (§ 9.1) · Moran et al. (2017), Manuskriptfassung: MID 13 bis 15,99 J. „ES = 0.47 [0.16-0.77]“ (S. 7), Tab. 4 '
+  '„<7.5 weeks 0.38 (0.19-0.56)“, T4: Tendenz (p = 0,09), Altersgruppen. Vorgemerkt für 6.2.1 (§ 9.1) · Padrón-Cabo et al. (2025) und Asimakidis '
+  'et al. (2022): in der Einleitung zitiert (Detraining-Evidenz mit offener Richtung), in 6.1 nicht erneut.')
+w('')
+w('## 6 Zahlen und Kennungen (Begleitteil, nicht im Manuskript)')
+w('')
+w('6.1 nennt keine eigene Ergebniszahl. Jede Aussage über eigene Daten ist trotzdem auf das Kennzahlenblatt (25.09., Rev. 2) oder die '
+  'Programmkennzahlen rückführbar. Die Zahlenliste des Endabgleichs (`03_Skripte\\Endabgleich_Manuskript_2026-09-25_Zahlen.csv`) bleibt bis Task 18 unverändert, '
+  'weil 6.1 keine Ziffernzahl aus dem Kennzahlenblatt trägt.')
+w('')
+w('| Satz | Aussage in Worten | Kennung und Wert | Bezugsmenge |')
+w('|---|---|---|---|')
+rows6 = [
+    ('A1 S2', 'bei keiner Zielgröße ein Gruppenunterschied nachweisbar, H0 nicht verworfen', 'K-06.1 bis K-06.3 (p = 0,557 · 0,734 · 0,987, Fall C1), K-06.4 (H0 nicht verworfen)', 'ITT-Set je Zielgröße (16/10 · 13/10 · 16/10)'),
+    ('A1 S3', 'IG auch nach der Sommerpause in allen konfirmatorischen Zielgrößen vorn', 'K-06.1 bis K-06.3 Post M ± SD: 30 m 4,57 gegen 4,89 s · 505 2,47 gegen 2,53 s · SBJ 233 gegen 223 cm, unadjustierte Differenzen −0,327 s · −0,060 s · +10,1 cm, alle zugunsten der IG', 'ITT-Set je Zielgröße'),
+    ('A1 S4', 'Vorsprung entsprach weitgehend dem, was nach Ausgangswert und Reifestatus zu erwarten war', 'K-06.1 bis K-06.3 adjustierte Differenz b1: −0,045 s · −0,012 s · −0,1 cm (nahe null) gegen unadjustiert −0,327 s · −0,060 s · +10,1 cm · K-06.5 Koeffizienten b2 (Prä) 0,677 · 0,757 · 0,778, b3 (%PAH) −0,005 · 0,001 · 0,32 · Überlappung K-04.3: Prä KG 4 von 10 im gemeinsamen Bereich (Vorbehalt für 6.2, § 9.1 Nr. 8)', 'ITT-Set je Zielgröße'),
+    ('A1 S5, S6', 'Intervalle schließen relevante Vorteile wie Nachteile ein, unschlüssig', 'K-06.1 bis K-06.3 95-%-KI: −0,199 bis +0,110 s · −0,085 bis +0,061 s · −8,7 bis +8,6 cm gegen SESOI 0,063 s · 0,020 s · 3,3 cm → Fall C1 in jeder Zeile', 'ITT-Set je Zielgröße'),
+    ('A2 S2', 'weniger als die Hälfte der angebotenen Einheiten als vollständig gemeldet', 'K-10.5: 92 Einheiten, 42,6 % · K-10.4: Nenner 18 zugeteilte Spieler × 12 Einheiten · K-10.8: Median 6,0', 'zugeteilte IG-Spieler (18)'),
+    ('A2 S2', 'einige keine einzige', 'K-10.15: 4 Spieler mit genau 0 Einheiten „ganz“ (darunter BW-21 ohne Listenplatz, als null gezählt, Textvorschlag 5 § 9.3 Nr. 2)', 'zugeteilte IG-Spieler (18)'),
+    ('A2 S3', 'im Mittel nur gut die Hälfte der Programmbestandteile absolviert, bei großer Streuung (Vergleichssatz, Variante A)', 'Boumparis et al. (2026): Bestandteil-Adhärenz 55,2 %, SD 25,5 Prozentpunkte, 66 Vergleiche, beschreibend, Vorstudie, keine eigene Kennung. Einordnung nur im Begleitteil: K-10.5 (42,6 %) unter dem Mittel der Übersicht, innerhalb einer Standardabweichung (Nachtrag K2 § 5)', 'Vorstudie (66 Vergleiche) gegen zugeteilte IG-Spieler (18)'),
+    ('A2 S5', 'Per-Protokoll-Vergleich (mindestens die Hälfte der Einheiten als vollständig gemeldet) änderte die Einordnung nicht', 'K-08.1 PP6: 30 m +0,033 s [−0,201 bis +0,267], p = 0,769, C1 · SBJ +0,5 cm [−10,9 bis +12,0], p = 0,925, C1 · Schwelle ≥ 6 „ganz“ nach 4.6 und 4.7', 'PP6-Set 9 / 10'),
+    ('A2 S6', 'Punktschätzer nahe null, Vorzeichenwechsel, 505 ohne Inferenz', 'K-08.1 gegen K-06: 30 m +0,033 gegen −0,045 s · SBJ +0,5 gegen −0,1 cm (beide verfügbaren Schätzer wechseln das Vorzeichen) · 505-Seitenmittel PP6 7 / 10 „fehlend (Fallzahlregel)“', 'PP6-Set gegen ITT-Set'),
+    ('A3 S2', '30-m-Zeiten der IG nach der Sommerpause etwas höher als zuvor, KG gleich', 'K-04.3 Prä: IG 4,51 ± 0,21, KG 4,89 ± 0,27 s · K-06.1 Post: IG 4,57 ± 0,18, KG 4,89 ± 0,23 s (beschreibend, ohne Test)', 'ITT-Set 30 m (16 / 10)'),
+    ('A3 S3', 'adjustierte Differenz nahe null, Intervall in beide Richtungen', 'K-06.1: −0,045 s [−0,199 bis +0,110], SESOI 0,063 s, C1', 'ITT-Set 30 m'),
+    ('A3 S5 (bis Fassung 2 S6)', 'eigener Befund blieb hinter den Metaanalysen zurück, schließt solche Effekte aber nicht aus', 'K-06.1 g = −0,18 [−0,83 bis +0,46] gegen Oliver 0,42 und Zheng −0,50 (beide in eigener Polung innerhalb des Intervalls). Der Wert 0,68 von Ramirez-Campillo et al. (2020) entfällt mit A3 S5 alt (Stufe 3), er lag ebenfalls im Intervall', 'ITT-Set 30 m'),
+    ('A3 S6 (bis Fassung 2 S7)', 'Programm ohne Sprintinhalte, Transfer eher auf Sprung, Beschleunigung, Richtungswechsel', 'P-06: vertikal 298 Kontakte (57,3 %), horizontal 36,5 %, multidirektional 6,2 % · P-05: schnell 42,3 %, langsam 50,8 % · 4.5.1: „Sprintspezifische Inhalte enthielt das Programm … nicht“', 'Programm, Basis 520 Kontakte'),
+    ('A4 S2', '505-Seitenmittel in beiden Gruppen nahezu unverändert', 'K-04.6 Prä: IG 2,46 ± 0,09, KG 2,53 ± 0,11 s · K-06.2 Post: IG 2,47 ± 0,08, KG 2,53 ± 0,12 s (beschreibend)', 'ITT-Set 505 (13 / 10)'),
+    ('A4 S3', 'adjustierte Differenz nahe null, Intervall in beide Richtungen', 'K-06.2: −0,012 s [−0,085 bis +0,061], SESOI 0,020 s, C1 · g −0,11 [−0,81 bis +0,58]', 'ITT-Set 505'),
+    ('A4 S4', 'Richtungswechselleistung, überwiegend von Mädchen (Population der Vorstudie)', 'Ramirez-Campillo et al. (2023), Tab. 5: COD speed time (1:3) = eine Studie mit Jungen, drei mit Mädchen (Fußnote ¥), Kontrollen 3 × Schulsport, 1 × Fußball (S. 14), Tab. 6: n = 132 und 152 gegen Kontrollen. Grund der Fremdpopulation: unter den Metaanalysen in T1 die einzige, die den Richtungswechsel nach Reifegruppen trennt (Nachtrag § 3 Nr. 6). Keine eigene Kennung', 'Vorstudie (vier Studien)'),
+    ('A4 S6', 'eigener Befund mit beiden Metaanalysen vereinbar', 'K-06.2 g −0,11 [−0,81 bis +0,58] gegen Ramirez-Campillo et al. (2023) −0,62 und −0,51, Zheng et al. (2025) −0,76 (alle in eigener Polung innerhalb des Intervalls)', 'ITT-Set 505 (13 / 10)'),
+    ('A4 S9 (bis Fassung 2 S8)', 'Übungsauswahl als Erklärung entkräftet, die eigene Umsetzung als Angebot', 'P-06: multidirektional 32 Kontakte (6,2 %, Zickzack-Sprünge ab W5) · P-03: zehn Übungen ohne Wendeübung · Sammoud et al. (2024, Tab. 2): Programm ohne Wende · K-10.5: 92 Einheiten, 42,6 % · K-10.4: 18 zugeteilte Spieler × 12 · K-10.8: Median 6,0 · Vergleich nur im Begleitteil: Sammoud et al. (2024) Adhärenz > 85 % (T1, betreut)', 'Programm, Vorstudie, zugeteilte IG-Spieler (18)'),
+    ('A4 S9 (bis Fassung 2 S8)', 'kein Anhalt für eine Dosis-Wirkung aus den eigenen Daten', 'K-08.1 PP6: 505-Seitenmittel 7 / 10 „fehlend (Fallzahlregel)“, 30 m +0,033 s, SBJ +0,5 cm (Vorzeichenwechsel gegen K-06.1 und K-06.3)', 'PP6-Set'),
+    ('A5 S1', 'Standweitsprung gehörte zu den Programmübungen', 'P-03: „Standing Horizontal Jump“ unter den zehn Übungen · 4.4.3 Standweitsprung als Zielgröße', 'Programm'),
+    ('A5 S2', 'mittlere Weiten beider Gruppen gesunken', 'K-04.7 Prä: IG 238 ± 13, KG 226 ± 21 cm · K-06.3 Post: IG 233 ± 14, KG 223 ± 17 cm (beschreibend, ohne Test, Bezug zur Sommerpause nur „könnte“)', 'ITT-Set SBJ (16 / 10)'),
+    ('A5 S3', 'adjustierte Differenz nahe null, Intervall in beide Richtungen', 'K-06.3: −0,1 cm [−8,7 bis +8,6], SESOI 3,3 cm, C1 · g −0,00 [−0,52 bis +0,51]', 'ITT-Set SBJ'),
+    ('A5 S6', 'eigener Befund mit Lloyd et al. (2016) vereinbar', 'K-06.3 g −0,00 [−0,52 bis +0,51] gegen Lloyd et al. (2016), Tab. 4, S. 1243, SJ post-PHV PT gegen CON, Modellrechnung g ≈ +0,07 (Differenz der Veränderungen 0,4 cm, gepoolte Prä-SD 5,57 cm, J mit df 18), keine Messung', 'ITT-Set SBJ (16 / 10)'),
+    ('A5 S6, S7', 'sechs Wochen · acht Wochen', 'P-11: 6 Wochen, 12 Einheiten · Negra et al. (2020, Tab. 2): 8 Wochen, Vorstudie', 'Programm, Vorstudie'),
+    ('A5 S8', 'beide Gruppen im Mittel über dem 90. Perzentil gleichaltriger Schulkinder', 'K-04.7 (238 und 226 cm) gegen Thomas et al. (2020, Tab. 2): P90 15 J. 197,8 cm, 14 J. 205 cm · K-02 Alter IG 15,10, KG 14,08 J. · K-12: VS-08 202, VS-11 204 cm unter P90 der 14-Jährigen', 'ITT-Set SBJ gegen Normstichprobe'),
+    ('A6 S1', 'als vollständig gemeldete Einheiten leicht bis mäßig anstrengend', 'K-10.13: CR-10 2,9 ± 0,9 (n = 92, Median 3,0, Min 0,0, Max 5,0)', 'Meldungen „ganz“ (92)'),
+    ('A6 S2', 'mehr als die Hälfte der Spieler mit Meldungen nannte mindestens einmal Schmerzen oder Probleme, überwiegend zu vollständig durchgeführten Einheiten', 'K-10.12: 12 Meldungen (8 ganz · 2 teilweise · 2 gar nicht) von 9 Spielern · K-10.9: 15 Spieler mit mindestens einer Meldung · K-10.1: 111 Meldungen gesamt', 'Spieler mit Meldungen (15), Meldungen des Fragebogens A'),
+    ('A6 S3', 'einige betrafen teilweise oder nicht durchgeführte Einheiten, kein Abbruch belegt', 'K-10.12: 2 teilweise · 2 gar nicht' + SEMI + ' der Fragebogen erfasst keinen Grund der Nichtdurchführung (Textvorschlag 5 § 9.3 Nr. 6)', 'Meldungen mit H007 = 1 (12)'),
+    ('A6 S4', 'Kontrollgruppe ohne Vergleichsdaten', 'F17 § 2 (Monitoring): „Für die KG sah der Antrag kein Instrument vor“, 4.6, 5.1', '—'),
+]
+for r in rows6:
+    w('| %s |' % ' | '.join(r))
+w('')
+w('## 7 Kürzungsleiter und Streichpakete')
+w('')
+w('6.1 liegt mit %d Wörtern genau im Budget, ohne Reserve. Stufe 1 ist am 02.10. mit Variante A des Nachtrags K2 verbraucht: Sie hat den Vergleichssatz der Umsetzung '
+  '(27 Wörter) und den Anschluss in A2 S4 (+3) finanziert. Stufe 3 ist am 03.10. mit dem Nachtrag Argumentationsstruktur verbraucht: Sie hat P1 (+10), '
+  'P2 mit P5 (+5) und P6 (−1) finanziert (Nachtrag § 2, Bilanz ±0). Es bleiben Stufe 2 und Stufe 4, Stufe 4 nur mit erneuter Prüfung von A4 S9. '
+  'Stufe 5 entfällt, weil P1 den Satz A5 S6 für die Markierung braucht. Nicht verbrauchte Wörter werden nicht aufgefüllt (F17 § 5.2).' % kern)
+w('')
+w('| Stufe | Streichung | Wörter | Was verloren geht |')
+w('|---|---|---|---|')
+rows7 = [
+    ('1 (verbraucht 02.10., Variante A)', 'A3 S8 alt, Liu et al. (2024) als Kontext der Übergangsperiode', '−%d' % LIU_S8, 'der einzige kontrollierte Vergleich der Übergangsperiode in 6.1, wandert mit Wortlaut und Fundstellen (§ 5) nach 6.2/6.3 G8 (Korpuslücke Setting, § 9.1 Nr. 4)'),
+    ('2', 'A5 S8 Normwerteinordnung Thomas et al. (2020)', '−%d' % len(S['A5'][7].split()), 'die Normwerteinordnung (⚑ Objektzuordnung F17 § 5.3 → 6.1), müsste nach 6.3 G8 wandern'),
+    ('3 (verbraucht 03.10., Nachtrag Argumentationsstruktur)', 'A3 S5 alt, Ramirez-Campillo et al. (2020) bis sieben Wochen', '−%d' % RC2020_S5, 'die Dosisaussage, die Einleitung trägt sie (Absatz 1, Satz 5). Die Schlussfassung der Einleitung muss den Satz halten (§ 9.3 Nr. 3, Nachtrag § 11 Nr. 6)'),
+    ('4', 'A2 S6 Vorzeichenwechsel und 505 ohne Inferenz', '−%d' % len(S['A2'][5].split()), 'die Vormerkung Textvorschlag 5 § 9.3 Nr. 3, der Sammelsatz in 5.2 und Tab. H4 bleiben. A4 S9 verliert damit seine Grenze (505 ohne Inferenz, Vorzeichenwechsel), Stufe 4 nur mit erneuter Prüfung von A4 S9 (Zweitprüfung des Nachtrags Nr. 7)'),
+    ('5 (entfällt seit dem Nachtrag)', 'A5 S6 Lloyd et al. (2016)', '−%d' % len(S['A5'][5].split()), 'P1 braucht den Satz für die Markierung in A5 (bis Fassung 2 mit −%d Wörtern als die einzige Übereinstimmung beim Sprung und die dosisgleiche Vorab-Erwartung, F17 § 6.5)' % LLOYD_S6_ALT),
+]
+for r in rows7:
+    w('| %s |' % ' | '.join(r))
+w('')
+w('Nicht streichbar: A1 (Bauplan-Eröffnung als Projektregel, Raster 6.1.1), die Verdünnungslogik A2 S1, S2 und S4 (Klick 28.09., 19:25), der Vergleichssatz A2 S3 (Klick K2, '
+  'Variante A), je Zielgröße eigener Befund und ein markierter Vergleich in jede Richtung, soweit vorhanden (Raster 6.1.2 P, Gegenbefund-Pflicht F17 § 6.4), '
+  'A4 S6 und A4 S9 (Bestandteile der P-Zeile 6.1.2), die Populationsangabe in A4 S4 (Populationsregel F17 § 6.4), A6 (CONSORT 22).')
+w('')
+w('## 8 Offene Punkte und Klickfragen')
+w('')
+w('1. **Vergleichssatz der Umsetzung (K2, entschieden 02.10. nach 17:54 Sitzungsuhr: Variante A).** Der Task „Boumparis“ (Prompt '
+  '`04_Uebergaben\\Prompt_Boumparis_Einarbeitung_2026-10-02.md`, Teil 0 Rev. 151) hat Boumparis et al. (2026) analysiert '
+  '(`02_Befunde\\Analyse_Boumparis_2026_2026-10-02`) und im Nachtrag `04_Uebergaben\\Textvorschlag_6.1_Nachtrag_K2_2026-10-02.md` zwei Varianten und den '
+  'Verzicht vorgelegt, zweitgeprüft (22 Befunde). Der Verfasser hat Variante A gewählt: Vergleichssatz in A2 nach S2 („Auch in digitalen '
+  'Lebensstilprogrammen für Jugendliche wurde nach einer systematischen Übersicht im Mittel nur gut die Hälfte der Programmbestandteile absolviert, bei '
+  'großer Streuung“), Anschluss S4 „Der Schätzer ist durch die eigene Umsetzung stark verdünnt“, Stufe 1 der Kürzungsleiter (A3 S8, Liu et al., 2024, nach '
+  '6.2/6.3 G8), Klusemann et al. (2012) nach 6.3 G3. Der Wortlaut ist zeichengleich aus der JSON des Nachtrags in `Textvorschlag_6.1_2026-10-02.py` (Fassung 2) '
+  'übernommen, 6.1 misst %d Wörter. Die Kriterien des Prompts § 3 sind erfüllt, mit einer entschiedenen Abweichung: Die Population der Übersicht steht im Satz, '
+  'der Grund für die Fremdpopulation nur im Begleitteil (§ 3). **Ablage erledigt:** Zitiert wird die Version of Record (2026). Die Bedingung des Verfassers '
+  '(02.10., 18:38: PDF der Version of Record vor dem Einbau in `Ideen und Studien`) ist seit dem Abend des 02.10. erfüllt („2026 Boumparis et al., …“, 503.950 Byte, '
+  'MD5 `7b0c5660…`), Titel, 116 Studien und DOI 10.2196/84822 am PDF geprüft, die Seitenzahlen der Fundstellen stehen in § 5, T1 `Boumparis2026` ist nachgeführt '
+  '(§ 11.3). Der Preprint (2025) bleibt im Ordner und wird nicht zitiert.' % kern)
+w('2. **K5 (entschieden 02.10., Klick „Ja“): Leistungsniveau der Metaanalysen im Satz.** Satznummern dieses Punktes nach Fassung 2. Sammelformel „junger Fußballspieler überwiegend höherer '
+  'Spielklassen“ in A3 S4 (als „bei jungen Fußballspielern überwiegend höherer Spielklassen“, +4 Wörter) und A5 S4 (+3 Wörter), bei Oliver et al. (2024) allein '
+  '(A4 S6) weiterhin „hochtrainierter Akademiespieler“. Gegenfinanzierung innerhalb von 6.1 um sieben Wörter: A3 S6 „schließt solche Effekte aber nicht aus“ '
+  'statt „ist mit Effekten dieser Größenordnung aber vereinbar“, A3 S7 ohne „hier“, A3 S8 „sechs Einheiten in drei Wochen“ statt „über drei Wochen auch mit '
+  'sechs Trainingseinheiten“ (dieser Satz ist seit Variante A entfallen). Stand %d Wörter. Beleglage: Oliver et al. (2024) nur ab Tier 3 (S. 625), Zheng et al. (2025) ohne Niveauangabe '
+  '(Tab. 3, S. 6 bis 7), T4-Eintrag Zheng2025 „Leistungsniveau nicht berichtet“ nachgetragen (§ 5). Die abweichende Empfehlung (kein Niveau in den gemeinsamen '
+  'Klammern) ist damit abgelöst.' % kern)
+w('3. **Freigabe des Wortlauts (K6, erteilt 02.10. nach 19:10 Sitzungsuhr).** Der Grund der Zurückstellung vom Nachmittag (neue Quelle, Adhärenz-Task) war mit dem '
+  'Nachtrag K2 und dem Klick für Variante A entfallen. Klickfrage je Absatz (A1, A2 mit dem Vergleichssatz S3 und dem Anschluss S4 nach Variante A, A3 ohne den '
+  'Liu-Satz, A4, A5, A6), Antwort des Verfassers: „Alle sechs Absätze freigeben“. Zur zweiten Klickfrage (Einbau nach Ablage der PDF ohne weitere Rückfrage oder '
+  'erst nach gesonderter Anweisung) antwortete der Verfasser „Pdf ist jetzt im Ordner“, die Anweisung zum Einbau nach § 11.2 lag mit dem Startsatz vom 18:38 vor.')
+w('4. **Einbau (K7, erfolgt 02.10., 19:18 Sitzungsuhr): per Skript durch Claude nach der Freigabe.** `03_Skripte\\Master_6_1_2026-10-02.py`: Einfügen unter „6.1 Einordnung '
+  'der Ergebnisse“, Formatvorlage Standard, Wortlaut aus `Textvorschlag_6.1_2026-10-02.json` (Fassung 2), Word geschlossen, Rückschreibung aus frischem Ausgabepfad, '
+  'neu stagen und MD5-Vergleich, Abgleich gegen den Textvorschlag, Messskript Fassung 4 mit Seitenschätzung, Endabgleich Fassung 3 in eigenem Unterordner '
+  '(`03_Skripte\\Endabgleich_2026-10-02_Kapitel6_1\\`), Zahlenliste bis Task 18 unverändert. Ergebnis in § 11.3.')
+w('5. **Nachtrag Argumentationsstruktur (03.10.2026, entschieden gegen 15:52 Sitzungsuhr).** Der Task „Diskussion: Anwendung der Argumentationsstruktur“ '
+  'hat 6.1 satzweise nach dem Codebuch des Befunds `02_Befunde\\Argumentationsstruktur_Diskussion_RCT_2026-10-02` codiert und gegen dessen Bauregeln, '
+  'Projektregeln und Prüfliste abgeglichen (Ergebnisdokument `02_Befunde\\Abgleich_Diskussion_6.1_Argumentationsstruktur_2026-10-03`, Fassung 7). Von sieben '
+  'Potenzialen hat der Verfasser am 03.10. gegen 13:46 Sitzungsuhr P1 (Markierung nach der Lage), P2 (Erklärungsangebot in A4), P5 (Modalverb in A4) und '
+  'P6 („zudem“ in A3) gewählt, P3 (Relevanz zuerst in A3 und A5) ist als Abweichung mit Grund vermerkt, P4 und P7 sind nicht bearbeitet. Den Wortlaut im '
+  'Nachtrag `04_Uebergaben\\Textvorschlag_6.1_Nachtrag_Argumentationsstruktur_2026-10-03.md` (Fassung 3, zweitgeprüft, 15 Befunde) hat er gegen 15:52 je Absatz '
+  'freigegeben, alle Antworten wie empfohlen: A3 „Freigeben“ mit Stufe 3 (⚑ K1, neuer Grund: die Einleitung trägt die Aussage, der Nachtrag braucht die Wörter) '
+  'und P6 · A4 „Empfehlung freigeben“ mit „überwiegend von Mädchen“ in S4, dem Grund der Fremdpopulation nur im Begleitteil (Abweichung vom Wortlaut der '
+  'Populationsregel, nach K2 das zweite Mal so entschieden) und „Den Abstand könnte …“ in S9, nicht gewählt: „dürfte“ oder Variante „Da …“ und die Fassung ohne '
+  'Ramirez-Campillo et al. (2023) · A5 „Freigeben“ · Einbau „Per Skript einbauen“ nach der Nachführung dieses Textvorschlags, sobald der Rechner erreichbar ist. '
+  'Die Nachführung nach Nachtrag § 8 ist diese Fassung 3, der Einbau steht in § 11.4.')
+w('')
+w('## 9 Vormerkungen')
+w('')
+w('**9.1 Task 12b (6.2 Methodendiskussion, 6.3 Stärken und Limitationen)**')
+w('')
+w('1. 6.2.1: MDES je Zielgröße (K-09) gegen SESOI und gegen die Literaturerwartungen, dort die Effektstärken aus § 5 (Moran et al., 2017, '
+  '< 7,5 Wochen SMD 0,38 [0,19 bis 0,56], Altersgruppe 13 bis 15,99 J. 0,47 [0,16 bis 0,77], T4: Tendenz, Altersgruppen · Ramirez-Campillo et al., 2020, '
+  '30 m ≤ 7 Wochen 0,68 [0,31 bis 1,05], 10 m ≤ 7 Wochen 0,11 n. s. · Lloyd et al., 2016, 10 m d 0,06 und SJ d 0,07 innerhalb der Gruppe, 20 m d 0,34 · '
+  'Oliver et al., 2024, Speed 0,42 [0,20 bis 0,64], Acceleration 0,74 [0,40 bis 1,09], CODS 1,01 [0,57 bis 1,46], Horizontal power 0,79 [0,49 bis 1,09] · '
+  'Zheng et al., 2025, 10 m −0,57, 30 m −0,50, COD −0,76, SLJ 0,84). Power nur für die im Plan genannten Kombinationen (F17 § 11.1). Kurze Strecken (5 '
+  'und 10 m) wurden nur beschrieben, die Vorab-Erwartung dazu (Lloyd 2016, Ramirez-Campillo 2020 gegen Oliver 2024, Zheng 2025) ist in 6.1 nicht mehr '
+  'genannt (Zweitprüfung Nr. 11).')
+w('2. 6.2.4: Messgüte, TE/SESOI 2,73 beim 505-Seitenmittel (K-05.6), nur Innerhalb-Sitzung, SESOI als Konvention. 6.2.6/6.3 G5: Attrition je Zielgröße '
+  '(505-Mittel 13 von 16 IG), gültige Versuche (K-11.3).')
+w('3. 6.2.12: Begleitbedingungen in beide Richtungen (Sprinteinheiten nur im Plan der Kontrollgruppe, früheres Mannschaftstraining der IG-Vereine). In 6.1 '
+  'bewusst nicht genannt, A3 S2 (KG im 30-m-Sprint unverändert) verlangt die Einordnung hier. Der Liu-Satz (ohne Training stärker verschlechtert) steht seit '
+  'Variante A nicht mehr in 6.1 (Nr. 4).')
+w('4. 6.2/6.3 G8: Korpuslücke Setting mit Liu et al. (2024) als einziger kontrollierter Studie der Übergangsperiode mit plyometrischem Arm (F17 § 6.5). Der '
+  'Satz stand bis zur Fassung vom Nachmittag in 6.1 (A3 S8) und ist mit Variante A entfallen (Stufe 1 verbraucht), Wortlaut und Fundstellen in § 5, Zeile Liu. '
+  'Vor 12b: T1 `Liu2024` Distanz 2 · 1 · 2 gegen 1 · 1 · 0 der Belegtabelle angleichen, Feld `kapitel` („2.3, 5.5“) nach dem Einbau auf 6.2/6.3 G8 (Nachtrag K2 '
+  '§ 8.1 Nr. 3). Keine erfasste Interventionsstudie war unbeaufsichtigt, videobasiert oder gerätefrei — einmal '
+  'benennen, nicht je Quelle (F17 § 6.4). Tier-Diskrepanz zur Vergleichsevidenz (Oliver 2024 ab Tier 3, Klick K5).')
+w('5. 6.3 G3: Verdünnung als Limitation (Umsetzung 42,6 %, Median 6,0, vier Spieler ohne vollständige Einheit, Selbstauskunft, Compliance nicht objektiv '
+  'prüfbar, Per-Protokoll als Selbstauswahl, kein KG-Monitoring, Personalunion ohne Verblindung, fehlende unabhängige Methodenprüfung genau einmal). '
+  'Adhärenzreferenz Hilska et al. (2021). Aus dem Nachtrag K2 (§ 2 Nr. 3 und 4, § 3.1): Klusemann et al. (2012) als Kontext der Aufsicht mit Dosis und Niveau '
+  'der Videogruppe (Satzkern 30 Wörter, Distanz 2 nach der Regel für Umsetzungsvergleiche, 77 % für alle 13 der Videogruppe) · Boumparis et al. (2026) '
+  'Satzkern Nr. 4 (Verbleib überschätzt Nutzung, 23 Wörter, gilt mit Variante A). Rogers et al. (2020) und Veith et al. (2021) bleiben Reserve.')
+w('6. 6.3 G6: Gründe nicht durchgeführter Einheiten wurden nicht erfasst (Status „gar nicht“ 13 Meldungen, K-10.3), Schmerzmeldungen ohne Lokalisation, '
+  'Abbrüche nicht protokolliert (A6 S3). Aus dem Nachtrag K2 (§ 2 Nr. 5 und 6, § 3.2): Bericht der Umsetzung entspricht der Empfehlung der Übersicht '
+  '(Satzkern 31 Wörter, Stärke oder G6), objektive Nutzungsdaten und Gründe fehlen (19 + 9 Wörter). 6.3 G8: Normwerte auf Hallenboden, eigene Mittel über P90 '
+  '(Thomas et al., 2020), Trainingsstatus als Moderator (de Villarreal et al., 2009, Tab. 2, Fitness nicht nachweisbar, F17 § 6.6).')
+w('7. 6.2.8: Moran et al. (2024) als Beleg, dass richtungsspezifische Anpassungen nicht gesichert sind (Erwachsene, ohne Kontrollgruppe), falls 6.2 den '
+  'Übungsauswahl-Gedanken aufgreift. In 6.1 entfallen (Zweitprüfung Nr. 4).')
+w('8. 6.2.3/6.2.10: Zerlegung des Abstands zwischen unadjustierter und adjustierter Differenz (Textvorschlag 4.7 § 7, B15: Anteil des Ausgangswerts benennen, '
+  'Deutung mit Modalverb) und die begrenzte Überlappung (K-04.3: KG 4 von 10 im gemeinsamen Prä-Bereich, Abb. 2). A1 S4 ist modellgestützt, 6.2 trägt '
+  'den Vorbehalt (Zweitprüfung Nr. 14).')
+w('9. Negativmuster des Korpus (Umfangsdokument § 7 Nr. 8): Negra et al. (2020, S. 625) lesen fehlende Unterschiede als Gleichwertigkeit, Liu et al. (2024, '
+  'S. 224) nicht signifikante Veränderungen als Erhalt — in 6.2 als Gegenbeispiel nutzbar, in 6.1 nicht verwendet.')
+w('10. Aus dem Nachtrag Argumentationsstruktur (§ 11 Nr. 3): G3 nennt die Verdünnung als Limitation, A4 S9 nutzt die Umsetzung als Erklärungsangebot beim '
+  'Richtungswechsel, G3 wiederholt den Wortlaut nicht und deutet die Umsetzung nicht als Ursache (F17 § 11.2b) · Aufsicht einmal als Korpuseigenschaft '
+  '(F17 § 6.4), dort auch der Vergleich der Umsetzung mit der betreuten Vergleichsstudie, falls 12b ihn braucht (Sammoud et al., 2024, Adhärenz > 85 % nach T1, '
+  'nicht in 6.1) · G8 ohne erneute Normwerte · Ramirez-Campillo et al. (2020) für 6.2.1 weiter verfügbar · 6.2: Die Trennung zwischen „vereinbar“ '
+  '(Zheng et al., 2025, −0,76) und Widerspruch (Oliver et al., 2024, −1,01) hängt an 0,05 Abstand zur unteren Grenze des eigenen Intervalls (−0,81), auch '
+  'das Intervall von Oliver et al. überlappt das eigene: Vorbehalt der g-Skala gegenüber Effektstärken der Literatur (Textvorschlag 4.7 Nr. 44) · '
+  'Lloyd et al. (2016) als Literaturerwartung in 6.2.1 mit der Modellrechnung (g ≈ +0,07), nicht als gemessener Gruppenvergleich.')
+w('')
+w('**9.2 Task 13a (Kapitel 7 Fazit und Ausblick)**')
+w('')
+w('1. Hauptbefund verallgemeinert in der Sprache von A1 (kein Gruppenunterschied nachweisbar, unschlüssig, Befund über das Angebot). Keine neue Zahl, keine Quelle.')
+w('2. Ausblick: Zeitverlauf der Standweitsprungweite offen (A5 S7, Negra et al., 2020, Messungen nach vier, acht und zwölf Wochen), nicht „Programmdauer über '
+  'sechs Wochen“ als Empfehlung (F17 § 6.6, Zweitprüfung Nr. 5), Umsetzung als eigenständiger Erkenntnisaspekt, Präventions-Satzteil ohne Quelle (G34 b), '
+  'Fallzahlempfehlung aus 6.2. Aus dem Nachtrag K2 (§ 2 Nr. 7, § 3.3): Forschungsempfehlung zur Umsetzung und ihrer Berichterstattung (Anteil absolvierter '
+  'Einheiten und Anteil der Spieler mit vollständigem Programm, objektive Nutzungsdaten, Gründe ausgelassener Einheiten, Merkmale der Vermittlung experimentell '
+  'prüfen), ohne Quelle und ohne Zahl, ohne Ursachen der eigenen Umsetzung.')
+w('')
+w('**9.3 Schlussfassung der Einleitung**')
+w('')
+w('1. Vorstudien, die 6.1 als Vergleich nennt und die die Einleitung noch nicht einführt: Lloyd et al. (2016), Sammoud et al. (2024), Negra et al. (2020), '
+  'Thomas et al. (2020, in 4.4.3 eingeführt), dazu Boumparis et al. (2026) als Kontext der Umsetzung (A2 S3). Liu et al. (2024) ist seit Variante A keine '
+  'Vorstudie von 6.1 mehr und kommt nur über 12b (6.2/6.3 G8) in die Arbeit. Die Einleitung nennt bereits Oliver et al. (2024), Ramirez-Campillo et al. (2020, 2023), '
+  'Zheng et al. (2025), Padrón-Cabo et al. (2025), Asimakidis et al. (2022). Ramirez-Campillo et al. (2020) zitiert 6.1 seit dem Nachtrag Argumentationsstruktur '
+  'nicht mehr (Stufe 3), die Quelle bleibt über die Einleitung im Literaturverzeichnis. Ob der Forschungsstand der Einleitung Lloyd 2016 und Sammoud 2024 als '
+  'populationsnächste Primärstudien einführen soll, ist in der Schlussfassung zu entscheiden (Zug 6 qualitativ mit Gegenbefund, Obergrenze 1.200 nach Plan '
+  'Nachtrag 30.09., derzeit 930. Die Angabe „Budget 1.500“ in der Fassung vom Nachmittag war überholt, berichtigt nach Nachtrag K2 § 8.1 Nr. 3).')
+w('2. Ankersatz: Einleitung mit „deshalb“, 6.1 ohne (Rev. 128), Zusammenfassung nahezu wörtlich (Klick K6).')
+w('3. Der 10-m-Gegenbefund der Einleitung (Ramirez-Campillo et al., 2020) wird in 6.1 nicht wiederholt (Textvorschlag 5 § 9.2 Nr. 3 erledigt). Seit dem Nachtrag '
+  'Argumentationsstruktur ist die Einleitung die einzige Stelle der Dosisaussage dieser Metaanalyse, auch für 20 und 30 m und die Sprunghöhe, nicht nur für 10 m '
+  '(Zweitprüfung des Nachtrags Nr. 5). Die Schlussfassung muss deshalb den Satz zu Programmen bis sieben Wochen (Einleitung, Absatz 1, Satz 5) halten: Fällt er, '
+  'steht die Aussage, dass auch kurze Programme wirkten, nirgends mehr im Text (Nachtrag § 11 Nr. 6 a, G35).')
+w('4. Oliver et al. (2024) wird in der Einleitung für alle drei Leistungen zitiert, 6.1 markiert den Vergleich je Zielgröße verschieden (Sprint vereinbar, '
+  'Richtungswechsel und Sprung Widerspruch). Die Einleitung muss das nicht vorwegnehmen.')
+w('5. Gegenbefund zur Umsetzbarkeit in Absatz 3 der Einleitung, per Klick gewählt (Nachtrag K2 § 7 Nr. 2, 17 Wörter nach „… ohne Trainingszeiten und Trainer '
+  'des Vereins zu beanspruchen.“: „Jugendliche nutzten digitale Lebensstilprogramme nach einer systematischen Übersicht allerdings im Mittel nur teilweise '
+  '(Boumparis et al., 2026).“). Nicht jetzt eingebaut, Vormerkung für die Schlussfassung (Maßnahmenliste G35), bereitet A2 S3 vor.')
+w('6. Im Satz zu Ramirez-Campillo et al. (2023) (Einleitung, Absatz 5, Satz 5, „den Richtungswechsel dagegen in keiner Reifegruppe nachweisbar“) die '
+  'Population der Richtungswechsel-Evidenz nennen wie in A4 S4 („überwiegend von Mädchen“, Nachtrag § 11 Nr. 6 b, Zweitprüfung des Nachtrags Nr. 1, G35).')
+w('')
+w('**9.4 Task 15 (Literaturverzeichnis), Task 16, Task 18**')
+w('')
+w('1. Neu ins Literaturverzeichnis mit 6.1: Lloyd, Radnor, De Ste Croix, Cronin & Oliver (2016), JSCR 30(5), 1239–1247 (T4: zwei „Lloyd et al. (2016)“ möglich) · '
+  'Sammoud et al. (2024), BMC Sports Sci Med Rehabil 16, 37 · Negra et al. (2020), J Sport Health Sci 9(6), 620–627 (Heft nach PubMed) · '
+  'Ramirez-Campillo et al. (2023), Sports Med Open 9, 23 · Thomas et al. (2020), Eur J Transl Myol 30(2), 240–246, DOI nachtragen (T1) · '
+  '**Boumparis et al. (2026) nach der Version of Record** (Nachtrag K2 § 8.5, zwölf Autorinnen und Autoren, alle ausschreiben, APA 7 bis 20): Boumparis, N., '
+  'Studhalter, O., de Riedmatten, P., Yücel, I. D., Koutra, K., Champion, K., Molina-Barceló, A., de Pablo-Pardo, T., Kondylakis, H., Schaub, M. P., '
+  'Triantafyllidis, A., & Haug, S. (2026). Factors influencing adherence to digital lifestyle interventions for adolescents: Systematic review and meta-analysis '
+  'of attrition. *Interactive Journal of Medical Research, 15*, e84822. https://doi.org/10.2196/84822 (falls die PDF bis dahin fehlt: H16). '
+  'Liu et al. (2024), J Sports Sci Med 23, 219–227, kommt mit Variante A nur über 12b (6.2/6.3 G8) ins Verzeichnis. Klusemann et al. (2012), JSCR 26(10), '
+  '2677–2684, DOI 10.1519/JSC.0b013e318241b021 (PubMed, PMID 22105056), nur, wenn 12b ihn in G3 zitiert. Moran et al. (2024) entfällt für 6.1, bleibt Korpusstudie. '
+  'Ramirez-Campillo et al. (2020), Sports Med 50(12), 2125–2143, wird in 6.1 seit dem Nachtrag Argumentationsstruktur nicht mehr zitiert und bleibt über die '
+  'Einleitung im Verzeichnis (unverändert).')
+w('2. Task 16 (KI-Deklaration, Anhang G): Textentwurf 6.1 in Claude, Sitzung Rev. 149, 150 und 152, Skripte `Textvorschlag_6.1_2026-10-02.py`, `tv61_md.py`, '
+  '`T1_T4_Nachtrag_2026-10-02.py`, `Master_6_1_2026-10-02.py`, `Abgleich_Kapitel6_1_Master_2026-10-02.py` als KI-erzeugt, unabhängige Zweitprüfung durch einen '
+  'Subagenten (§ 10). Der Nachtrag K2 (Task „Boumparis“, Rev. 151) ist in Nachtrag § 8.6 für Task 16 vorgemerkt. Der Nachtrag Argumentationsstruktur '
+  '(Rev. 159 bis 162 und der Rev.-Block der Nachführung und des Einbaus) mit den Skripten im Arbeitsordner `03_Skripte\\Diskussion_Anwendung_2026-10-03\\` '
+  '(`LIESMICH.md`), darunter `S3_Nachtrag_6_1_2026-10-03.py`, `S3_Nachtrag_Probelauf_2026-10-03.py`, `S3_T1_T4_Nachtrag_2026-10-03.py`, '
+  '`S4_Nachfuehrung_TV61_2026-10-03.py` und `S4_Einbau_6_1_2026-10-03.py`, als KI-erzeugt, Zweitprüfung durch einen Subagenten (Nachtrag § 9).')
+w('3. Task 18: leeres Feld im Titelabsatz des Masters per Skript entfernen (Befund 02.10., Abgleich Kapitel 5), Umnummerierung 6.1 → 4.1.')
+w('')
+w('**9.5 Steuerdokumente**')
+w('')
+w('1. Teil 0: Rev. 149 (Textvorschlag, Klicks K1 bis K7, Zweitprüfung), Rev. 150 (Einbau- und Abgleichskript, Probelauf), Rev. 151 (Task „Boumparis“: Nachtrag K2, '
+  'Variante A per Klick, T1 76, T4 170), Rev. 152 (dieser Stand: Variante A übernommen, Textvorschlag nachgeführt, Freigabe angefragt). Rev. 147 und 148 sind von '
+  'den parallelen Tasks Recherche Umsetzungsrate und Boumparis belegt.')
+w('2. Maßnahmenliste: Taskzeile 12 (12a Wortlaut nach Variante A, Freigabe angefragt, Einbau nach Freigabe und Ablage der PDF), H13 bis H15 Stand (Rogers 2020 und '
+  'Veith 2021 abgelegt, übrige offen), H16 Version of Record Boumparis (Nachtrag), G35 Vormerkung Einleitung (Nr. 9.3, mit dem Gegenbefund in Absatz 3), G32 c / G29 f Stand.')
+w('3. Plan Rev. 5: Der Nachtrag 02.10. (Rev. 148) führt den Task „Boumparis“ zwischen Textvorschlag und Freigabe von 12a, der Nachtrag 02.10. abends (Rev. 151) '
+  'den Stand nach Variante A. Die Reihenfolge bleibt (12b nach Freigabe und Einbau von 12a). Kein weiterer Nachtrag durch diesen Task.')
+w('4. Berichtsraster § 3.14: Ist-Spalte 6.1.1 bis 6.1.4 nach dem Einbau auf ✓ (Rev. 4, mit Task 12b). F17 Fassung 18: § 6.5 „Stärkste Vorab-Erwartungen“ um die '
+  'Markierungsregel ergänzen (Widerspruch nur außerhalb des eigenen Intervalls) · § 6.4 um die Regel für Umsetzungsvergleiche (Analysebefund § 6.1, Nachtrag K2 § 8.7, '
+  'Distanzfelder in T1 bleiben die Wirksamkeitsdistanz) · § 6.5 Boumparis et al. (2026) als Kontextquelle der Umsetzung, Klusemann et al. (2012) für die Aufsicht.')
+w('5. Aus dem Nachtrag Argumentationsstruktur (§ 11 Nr. 2 und 4, G37): T1-Distanzfelder gegen § 5 angleichen, ohne Folge für den Text: `RC2023` Dosis 0 gegen 1 '
+  'und für den Richtungswechsel Population 2 (Vermerk im Feld `population`), `Sammoud2024` Dosis 0 gegen 1, `Zheng2025` Population 0 gegen 1 · Abweichung P3 an '
+  'Berichtsraster Rev. 4 (Zeile 6.1.2) und Fassung 18 § 5a · Fassung 18 § 6.4: Grund der Fremdpopulation nur im Begleitteil als Regel aufnehmen (zweimal '
+  'entschieden, K2 und Klickfrage A4) · Raster Rev. 4 und F17 § 5a: „Bauplan (11/11)“ durch die Häufigkeiten aus Befund § 13 Nr. 1 ersetzen (hier seit Fassung 3 '
+  'berichtigt) · Ergebnisdokument § 3.2, § 3.4 und § 4 werden nicht neu erzeugt, die Berichtigungen stehen im Nachtrag (§ 3 Nr. 2, 4 und 6).')
+w('')
+w('## 10 Zweitprüfung (unabhängiger Subagent, 02.10.2026)')
+w('')
+w('Prüfgrundlagen: Kennzahlenblatt Rev. 2, Programmkennzahlen, F17, Umfangsdokument § 5.1 und § 5.4, Bauplan, Berichtsraster § 3.14, Stilprofil, T4 nach Nachtrag, '
+  'zehn Volltexte, Master-Text (Einleitung, Kapitel 4 und 5), Textvorschlag 5 § 9.3. Eigene Wortzählung des Prüfers stimmte mit dem Messskript überein. '
+  'Alle Fundstellen der Belegtabelle wurden am Volltext bestätigt, Zahlen über eigene Daten durchgehend gedeckt. 17 Befunde (Satznummern dieser Tabelle '
+  'nach dem Stand ihrer Zeit, vor Variante A und vor dem Nachtrag Argumentationsstruktur):')
+w('')
+w('| Nr. | Schwere | Fundstelle | Befund (Kurzform) | Einarbeitung |')
+w('|---|---|---|---|---|')
+rows10 = [
+    ('1', 'A', 'A3 S4', '„widerspricht“ bei Fall C1: Die Effekte der Metaanalysen (Oliver 0,42, Zheng −0,50, Ramirez-Campillo 0,68) liegen im eigenen g-Intervall (−0,83 bis +0,46)', 'übernommen: Vergleich neutral formuliert, A3 S6 „blieb dahinter zurück, schließt solche Effekte aber nicht aus“ (seit K5 um ein Wort gekürzt), Markierungsregel in § 5 und § 0'),
+    ('2', 'A', 'A4', 'Oliver et al. (2024) fehlt beim Richtungswechsel, CODS g 1,01 liegt außerhalb des eigenen Intervalls (Widerspruch), Gegenbefund-Pflicht F17 § 6.4', 'übernommen: A4 S6 neu mit „hochtrainierter Akademiespieler“ (Leistungsniveau im Satz)'),
+    ('3', 'B', 'A4 S5', 'Zheng-Satz ohne Bezugswort und zweideutig („nicht den 505-Test“), Markierung fehlt', 'übernommen: „Eine weitere fand sie insgesamt verbessert, in den Einzeltests nur im Illinois-Test, den 505-Test enthielt sie nicht“, ohne Markierung, weil −0,76 im eigenen Intervall liegt (§ 4)'),
+    ('4', 'B', 'A4 S7', 'Mechanismus Übungsauswahl von Sammoud et al. (2024, Tab. 2, Programm ohne Wende) entkräftet, „wenige“ = eine Übung', 'übernommen: Mechanismus als Erklärung verworfen (A4 S8 „erklärt den Unterschied kaum, auch das Vergleichsprogramm kam ohne Wende aus“), Moran et al. (2024) entfällt (§ 9.1 Nr. 7)'),
+    ('5', 'B', 'A5 S7', '„sechs Wochen könnten zu kurz sein“ gegen F17 § 6.6 und Einleitung, Negra nur innerhalb der Gruppe, keine Messung bei sechs Wochen, Gegenbefunde RC 2020 und Lloyd pre-PHV', 'übernommen: „Wann sich die Weite verbessert, ist offen“, Vormerkung 9.2 Nr. 2 angepasst'),
+    ('6', 'B', 'A5 S8', '„über dem 90. Perzentil“ gilt nur für die Mittel (K-12: zwei KG-Spieler darunter), Satz ohne Funktion', 'übernommen: „im Mittel“, Funktion als Normwerteinordnung (F17 § 5.3) in § 4 benannt, Stufe 2 der Kürzungsleiter'),
+    ('7', 'B', 'A6 S1', 'Wochenverlauf der Beanspruchung als Quasi-Test auf wechselnden Meldern, § 2 selbst gegen den Wochenverlauf im Text', 'übernommen: Halbsatz gestrichen'),
+    ('8', 'B', 'A6 S2', '„Einzelne Meldungen eines Teils der Spieler“ untertreibt (9 von 15 Spielern mit Meldungen), Abbrüche fehlen (Raster 6.1.4)', 'übernommen: „Mehr als die Hälfte der Spieler mit Meldungen … überwiegend zu vollständig durchgeführten Einheiten“, A6 S3 Abbrüche'),
+    ('9', 'B', 'A3/A5', 'Liu et al. (2024) und der modalisierte Sommerpause-Bezug (Textvorschlag 5 § 9.3 Nr. 4) fehlen ohne Klick, Begründung „Test ohne Test“ überzieht', 'übernommen: A3 S8 Liu als Kontext (Stufe 1 der Kürzungsleiter), A5 S2 „was mit der Sommerpause zusammenhängen könnte“, Padrón-Cabo und Asimakidis bleiben in der Einleitung (§ 2). Vermerk 02.10. abends: A3 S8 ist mit Variante A des Nachtrags K2 wieder entfallen (Stufe 1 verbraucht, Klick des Verfassers), Liu nach 6.2/6.3 G8 (§ 9.1 Nr. 4), A5 S2 bleibt'),
+    ('10', 'B', 'A3 S4, A5 S4', 'Distanzregel § 6.4: Leistungsniveau der Metaanalysen als Abweichung nicht im Satz', 'übernommen nach Klick K5 (02.10., „Ja“): Sammelformel „überwiegend höherer Spielklassen“ in A3 S4 und A5 S4, bei Oliver allein (A4 S6) „hochtrainierter Akademiespieler“. Zheng et al. (2025) berichten kein Leistungsniveau (Tab. 3), „überwiegend“ stützt sich auf Oliver et al. (2024, ab Tier 3) und die in T1 erfassten Einzelstudien Zhengs, T4-Eintrag Zheng2025 nachgetragen. 6.3 G8 trägt die Tier-Diskrepanz'),
+    ('11', 'B', 'A3 S8 alt', 'Lloyd beim Sprint ohne Markierung und einseitig (Oliver Beschleunigung 0,74, Zheng 10 m signifikant, Lloyd 20 m verbessert)', 'übernommen: Satz gestrichen, Lloyd nur in A5, Vorab-Erwartung zu kurzen Strecken nach 6.2 (§ 9.1 Nr. 1)'),
+    ('12', 'C', 'A2 S4/S5', 'Schwelle nach 4.6 benennen, „teils“ unpräzise (beide Schätzer wechselten)', 'übernommen: „als vollständig gemeldet“, „teils“ gestrichen'),
+    ('13', 'C', 'A4 S1', '„Wenden“ als Baustein häufiger Richtungswechsel (Einleitung: 45 bis 135°)', 'übernommen: „prüft Entschleunigen und erneutes Beschleunigen“'),
+    ('14', 'C', 'A1 S4', 'ANCOVA-Logik korrekt, aber modellgestützt bei begrenzter Überlappung, B15 (Zerlegung) nicht weitergeführt', 'übernommen als Vormerkung 9.1 Nr. 8'),
+    ('15', 'C', 'A3 S6/S7', 'Olivers Mechanismus erklärt einen kleineren, nicht einen fehlenden Effekt, „deshalb“ stützt sich nur auf „vertikal“, derselbe Mechanismus sagt Sprung- und COD-Effekte voraus', 'übernommen: A3 S7 „am wenigsten zu erwarten“ statt Erklärung des Nullbefunds, „Sprintinhalte fehlten“ als Tatsache'),
+    ('16', 'C', 'A2-M (alt)', '„Auch“ unterstellt einen eigenen Vergleich betreut gegen Video, Kontrast (77 % gegen unter der Hälfte) fehlt, Stellung nach S2 besser', 'übernommen: Modul neu formuliert („gut drei Viertel der Einheiten, weniger als die betreute Gruppe“), Stellung nach A2 S2. Vermerk 02.10. abends: Das Modul ist mit Variante A durch den Vergleichssatz zu Boumparis et al. (2026) in A2 S3 ersetzt (Klick K2), Klusemann et al. (2012) nach 6.3 G3'),
+    ('17', 'C', 'Begleitteil', 'Quellenzahl im Kopf, Zheng-Alter 10 bis 18,99 J., „älteren“ zweimal, „gemeldeten Einheiten“ ohne „vollständig“, Doppelung „kein Instrument“, Gliederung v6 gegen F17 v5', 'übernommen: Kopf korrigiert (die Quellenzahl dort blieb mit „elf“ falsch und steht seit der Fassung 16:05 Sitzungsuhr per Skript gezählt: neun, zehn mit Modul), Belegtabelle Zheng korrigiert, „älteren“ nur noch in A5, A6 S1 „als vollständig gemeldeten“, A6 S4 ohne Doppelung. Gliederung v6 ist der aktuelle Stand (Rev. 1xx), F17 nennt v5 (Fortschreibung mit der nächsten Fassung)'),
+]
+for r in rows10:
+    w('| %s |' % ' | '.join(r))
+w('')
+w('Ohne Befund nach der Zweitprüfung: Ankersatz zeichengleich ohne „deshalb“, A1 ohne Beleg und Ergebniszahl, Reihenfolge der Zielgrößen, Sprachregelungen, '
+  'Modalverben, keine Verbotswörter, Betreuung nicht je Quelle abgewertet, Verdünnung nach § 11.7, alle beschreibenden Aussagen gedeckt, Fall C1 in allen drei '
+  'Zeilen, sieben Vormerkungen aus Textvorschlag 5 § 9.3 umgesetzt (Nr. 4 jetzt mit dem modalisierten Sommerpause-Bezug).')
+w('')
+w('**Zweitprüfung des Nachtrags K2 (Task „Boumparis“, 02.10., 22 Befunde, Nachtrag § 9):** Die Varianten A und B wurden dort unabhängig geprüft, der Wortlaut '
+  'von Variante A ist der geprüfte Stand (Nr. 4, 9, 16 des Nachtrags). Außerhalb des Prüfauftrags gemeldet und in dieser Fassung berichtigt (Nachtrag § 8.1 Nr. 3): '
+  '§ 5 Klusemann „77 % nach Ausschluss zweier Spieler“ → 77 % für alle 13 der Videogruppe (Zeile jetzt unter „Gelesen, nicht im Text“) · § 9.3 Nr. 1 Budget der '
+  'Einleitung 1.500 → Obergrenze 1.200 (Plan Nachtrag 30.09.) · T1 `Liu2024` Distanz 2 · 1 · 2 gegen 1 · 1 · 0 der Belegtabelle, Angleichung vor 12b vorgemerkt (§ 9.1 Nr. 4). '
+  'Der Wortlaut von A1, A4, A5, A6 und der unveränderten Sätze von A2 und A3 ist seit 15:31 Sitzungsuhr unverändert und am 02.10. abends per Prüfskript erneut '
+  'ohne Befund (0 Semikola, 0 Abschnittsverweise, kein Satz über 32, Mechanismen modalisiert, keine Verbotswörter).')
+w('')
+w('**Zweitprüfung des Nachtrags Argumentationsstruktur (03.10.2026, 15 Befunde: 1 A, 5 B, 9 C, Nachtrag § 9, Bericht im Arbeitsordner '
+  '`S3_Nachtrag_Zweitpruefung_Bericht.md`):** Geprüft wurden die geänderten Sätze von A3 bis A5 mit Messung, Probelauf, Fundstellen, Lage, Codes und Grenzen. '
+  'Den Befund A (Lesefehler „(1:3)“ bei Ramirez-Campillo et al., 2023) hatte Fassung 2 dieses Textvorschlags in § 5 mit dem Nachtrag gemeinsam. Mit der '
+  'Nachführung in Fassung 3 übernommen (Nachtrag § 8): die Lesart „(1:3)“ und die Distanz Population 2 (§ 5), die Lage bei Lloyd et al. (2016) als '
+  'Modellrechnung (§ 5, § 6), „vereinbar“ statt Übereinstimmung nach dem p-Wert (§ 0, § 3, § 4, § 5), „entkräftet“ statt „widerlegt“ (§ 2, § 3), die '
+  'Abhängigkeit von Stufe 4 (§ 7) und die Vormerkungen für die Einleitung (§ 9.3 Nr. 3 und 6). Der Wortlaut von A1, A2 und A6 ist unverändert, das '
+  'Prüfskript des Erzeugers ist in Fassung 3 ohne Befund.')
+w('')
+w('## 11 Einbau')
+w('')
+w('**11.1 Probelauf (02.10., 16:40 Sitzungsuhr, ohne Einbau).** Das Einbauskript `03_Skripte\\Master_6_1_2026-10-02.py` und das Abgleichskript '
+  '`03_Skripte\\Abgleich_Kapitel6_1_Master_2026-10-02.py` liegen bereit und sind an einer Kopie des Masters (MD5 `caa5dee2…`, 42.318 Byte) '
+  'geprüft, Protokoll `03_Skripte\\Master_6_1_2026-10-02_Probelauf.txt`: sechs Absätze A1 bis A6 unter „6.1 Einordnung der Ergebnisse“ eingefügt '
+  '(Probelauf mit der JSON der Fassung 1 vom Nachmittag: dort das Modul A2-M als offen gemeldet und nicht eingebaut, die JSON der Fassung 2 nach Variante A '
+  'enthält kein Modul mehr), Überschriften 6.1 bis 6.3 und 7 unverändert, 182 → 188 Absätze, Abgleich ohne Befund (zeichengleich, '
+  'Formatvorlage Standard, keine Direktformatierung, 700 Wörter, 0 Semikola außerhalb von Zitierklammern, 0 Abschnittsverweise, kein Satz über 32), '
+  'validate.py des docx-Skills bestanden, Messskript Fassung 4 an der Probe: 6.1 700 gegen 700, Absatztext 4.496 gegen 6.350, Prognose 27,8 Seiten '
+  '(Modellrechnung, unverändert gegenüber Rev. 146, weil das Budget schon eingerechnet war), LibreOffice-Rendering gesichtet. Der Master im Ordner '
+  'ist unverändert. Die Wortzahl von 6.1 ist mit Variante A unverändert %d, der Probelauf gilt für die Fassung 2 sinngemäß, das Einbauskript prüft die JSON beim Lauf erneut.' % kern)
+w('')
+w('**11.2 Einbau nach der Freigabe (Ablauf, K7).** Voraussetzungen: Klickfreigabe je Absatz (A1 bis A6 nach Variante A, § 8 Nr. 3), PDF der Version of Record '
+  'von Boumparis et al. (2026) in `Ideen und Studien` (Verfasser 02.10., 18:38, § 8 Nr. 1), JSON der Fassung 2 (`Textvorschlag_6.1_2026-10-02.py`, Variante A, '
+  '700 Wörter, kein Modul), Word geschlossen, Master '
+  'frisch gestagt und per MD5 gegen den Referenzstand geprüft. Dann: `python Master_6_1_2026-10-02.py <Master> Textvorschlag_6.1_2026-10-02.json '
+  '<Ausgabe>` aus einem frischen Ausgabepfad, Rückschreibung, neu stagen, MD5-Vergleich, `Abgleich_Kapitel6_1_Master_2026-10-02.py` (Master gegen '
+  'Ausgabe und JSON), Messskript Fassung 4 mit Seitenschätzung, Endabgleich Fassung 3 in `03_Skripte\\Endabgleich_2026-10-02_Kapitel6_1\\`, '
+  'Zahlenliste bis Task 18 unverändert, Ergebnis hier als 11.3, Teil 0 und Maßnahmenliste.')
+w('')
+w('**11.3 Ergebnis des Einbaus (02.10.2026, 19:18 bis 19:21 Sitzungsuhr).** Voraussetzungen erfüllt: Klickfreigabe aller sechs Absätze (§ 8 Nr. 3), PDF der '
+  'Version of Record in `Ideen und Studien` (503.950 Byte, MD5 `7b0c5660…`, Titel, 116 Studien und DOI am Text geprüft), JSON der Fassung 2 (MD5 `627f6b15…`, '
+  '700 Wörter, kein Modul), Master frisch gestagt und per MD5 gegen den Referenzstand geprüft (`caa5dee2…`, 42.318 Byte, 182 Absätze, keine comments.xml). '
+  '`Master_6_1_2026-10-02.py` aus dem frischen Ausgabepfad: sechs Absätze A1 bis A6 unter „6.1 Einordnung der Ergebnisse“ eingefügt, 182 → 188 Absätze, '
+  'Ausgabe MD5 `2fda2144…` (40.331 Byte), `validate.py` bestanden, Abgleich der Ausgabe gegen das Original zeigt nur die sechs neuen Absätze. Rückschreibung mit '
+  'mtime-Prüfung (Word geschlossen), 10 s Wartezeit, neu gestagt: MD5 `2fda2144…` gleich der Ausgabe. `Abgleich_Kapitel6_1_Master_2026-10-02.py` Master gegen '
+  'Ausgabe und JSON: ohne Befund (A1 bis A6 zeichengleich, 99 · 116 · 131 · 133 · 153 · 68 = 700 Wörter, Formatvorlage Standard, keine Direktformatierung, '
+  'Überschriften 6 bis 7 an den Positionen 135, 136, 143, 144, 145, 6.2 und 6.3 leer, 0 Semikola außerhalb von Zitierklammern, 0 Abschnittsverweise, kein Satz '
+  'über 32), Protokoll `03_Skripte\\Abgleich_Kapitel6_1_Master_2026-10-02.txt`, Einbauprotokoll `03_Skripte\\Master_6_1_2026-10-02.txt`. Messskript Fassung 4 am '
+  'Master (`03_Skripte\\Manuskriptstand_2026-09-25.txt` und `.csv`): 6.1 700 gegen 700, Kapitel 6 700 gegen 1.600, Absatztext Kapitel 1 bis 7 4.496 gegen 6.350, '
+  'ungeschrieben 6.2 (mit 6.3) und 7 mit 1.150 Wörtern Budget, 0 Semikola, 0 Abschnittsverweise, 7 Platzhalter (Anhang H), 47 verschiedene Autor-Jahr-Belege, '
+  'Prognose 27,8 Seiten (Modellrechnung, wie Probelauf und Rev. 146). Endabgleich Fassung 3 (`03_Skripte\\Endabgleich_2026-10-02_Kapitel6_1\\`, drei Dateien): 383 Zahlen '
+  '(Kapitel 5: 357), davon 26 in 6.1: 16 Zitatjahre, 7 Testnamen und Messstrecken (30, 40, 505) und drei Klassifikationsartefakte des Zahlenprüfers („15“ in U15 und '
+  'in „15 bis 40 m“ als „Kennzahl neu, mehrdeutig“, „90“ im 90. Perzentil als K-10.7), keine Ergebniszahl und keine Zahl aus dem Kennzahlenblatt im Text. Satzprüfungen '
+  '23, Abweichungen 2 wie im Lauf für Kapitel 5 (Tab. 1 bis Task 18 nicht im Master, P-09 Stufe-1-Pause), Vorschläge 0. Die Zahlenliste '
+  '`03_Skripte\\Endabgleich_Manuskript_2026-09-25_Zahlen.csv` bleibt bis Task 18 unverändert. T1 nachgeführt per `03_Skripte\\T1_Nachtrag_Einbau61_2026-10-02.py` '
+  '(76 Steckbriefe, MD5 `9f9dd85b…`): `Liu2024` Feld `kapitel` „2.3, 5.5“ → 6.2/6.3 G8 (Distanzfelder unverändert, Angleichung vor 12b vorgemerkt), `Boumparis2026` '
+  'Feld `fassung` mit der PDF der Version of Record und den Seitenzahlen (H16 erledigt). Hinweis: `T1_T4_Nachtrag_Boumparis_2026-10-02.py` setzt bei einem erneuten '
+  'Lauf das Feld `fassung` auf seinen eigenen Stand zurück, es darf ohne Nachführung seiner T1-Zeile nicht erneut laufen. Projektkopie dieses Dokuments in `claude/`, '
+  'Teil 0 Rev. 152, Maßnahmenliste (Taskzeile 12, H16, G35).')
+w('')
+if EINBAU_ERGEBNIS is None:
+    w('**11.4 Einbau des Nachtrags Argumentationsstruktur (angewiesen 03.10.2026, gegen 15:52 Sitzungsuhr, Ergebnis folgt).** Voraussetzungen: Klickfreigabe '
+      'von A3, A4 und A5 (§ 8 Nr. 5), diese Nachführung (Fassung 3, JSON mit A1 bis A6 zeichengleich aus `S3_Nachtrag.json`), Word geschlossen, Master frisch '
+      'gestagt und gegen den Referenzstand geprüft (40.331 Byte, MD5 `2fda2144…`, 188 Absätze, keine comments.xml). Ablauf: '
+      '`03_Skripte\\Diskussion_Anwendung_2026-10-03\\S4_Einbau_6_1_2026-10-03.py` (abgeleitet aus `S3_Nachtrag_Probelauf_2026-10-03.py`): alter Wortlaut aus der '
+      'JSON der Fassung 2 zeichengleich gefordert in den Absätzen 3 bis 5 nach der Überschrift „6.1 Einordnung der Ergebnisse“, neuer Wortlaut aus der JSON der '
+      'Fassung 3, übrige Absätze zeichengleich, 188 Absätze, erwartet bytegleich mit der Probekopie (40.337 Byte, MD5 `6c1db455…`, Nachtrag § 6.4a), '
+      '`validate.py` des docx-Skills, Rückschreibung aus frischem Ausgabepfad mit mtime-Prüfung, neu stagen und MD5-Vergleich, '
+      '`Abgleich_Kapitel6_1_Master_2026-10-02.py` gegen die JSON der Fassung 3, Messskript Fassung 4, Endabgleich Fassung 3 in '
+      '`03_Skripte\\Endabgleich_2026-10-03_Kapitel6_1_Nachtrag\\`, Zahlenliste bis Task 18 unverändert. Das Ergebnis wird hier nachgetragen.')
+else:
+    w(EINBAU_ERGEBNIS['text'])
+w('')
+
+ziel = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HIER, 'Textvorschlag_6.1_2026-10-02.md')
+with open(ziel, 'w', encoding='utf-8') as f:
+    f.write('\n'.join(out))
+print('geschrieben:', ziel, len('\n'.join(out).encode('utf-8')), 'Byte')
