@@ -1,0 +1,324 @@
+Nachrechnung zur Zweitprüfung der Teiltabelle 2c (nachrechnung.py, 03.10.2026)
+
+0 Eingänge (MD5)
+  W/teiltabelle_2c.md                                                                                  4387af3951c0aaa7214eb535639da111
+  W/teiltabelle_2c.csv                                                                                 0f3473b4d72f27a4d073313b039b0a5a
+  W/bausteine_2c.py                                                                                    1f1a5d595d1038a918067d3033a91f72
+  W/bausteine_2c.txt                                                                                   2598eba74fcb2f04d74b5722320b3008
+  W/textstand.json                                                                                     bb86ed78a6ba45038d57b8cb4f763fb4
+  W/textstand_saetze.md                                                                                5658c9cda70cd90f3badea4791007390
+  W/konsens_2a.csv                                                                                     39aa513a4a0b44d83905d738778124c1
+  W/eigen.json                                                                                         9be17451a95ee26cb1ca5834f4cc9a5d
+  W/eigen.txt                                                                                          dee8cc39be0f4dd9960216a123510739
+  W/abgleich_2a.json                                                                                   e4dd277510d056abfa72a397353bc34c
+  W/master_saetze.json                                                                                 4d06c614536fc21c2a2b57b284d9d925
+  W/master_saetze.md                                                                                   31d55bef07e17f200b26f3711521c767
+  W/teiltabelle_2b.csv                                                                                 2df928fc099818876d62cf0f5aa479dc
+  W/teiltabelle_2b.md                                                                                  8c74cac77146ddb14d341ce965456fcd
+  W/register_pruefung.md                                                                               d1de8266e4267d88c94366eb6963a397
+  W/zweitpruefung_2b.md                                                                                45b93e1849c155450cff522de940137a
+  C/02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02.md                                  c474dbf0f14b89fe581b67f4249d3387
+  C/02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02_Saetze.csv                          db2501d4b66838c9f15a6249514f4c88
+  C/03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/textbausteine.json                      1abdcda3b515cffb9cad106b1d549ba3
+  C/03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/textbausteine.txt                       44dc8b4477a3eea4c958ac6b6ad7e4fd
+  C/03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/codebook.md                             d69930967134fe8238aa20bb3fc033a1
+  C/02_Befunde/Abgleich_Ergebnisse_Argumentationsstruktur_2026-10-03.md                                553ace3fc05b4cc1119fbe8ca5b2f00e
+  C/00_Steuerung/Projektanweisungen_Fassung17.md                                                       0bd441fc265f08a6280d2ad582008f60
+  C/01_Verfahren/Stilprofil_2026-09-13.md                                                              de1a8fa4e639735b7999193a0870096c
+  C/02_Befunde/Berichtsraster_2026-09-23.md                                                            527009f05fb25ea0b64abac4aa49bf55
+  C/04_Uebergaben/Plan_Weitere_Schritte_2026-09-25.md                                                  89fdd838993f66611b5b2fbe238d06eb
+  C/04_Uebergaben/Textvorschlag_5_2026-09-30.md                                                        835c3a45dd3a4e702684d05838bc38a1
+  C/03_Skripte/Abgleich_Ergebnisse_2026-10-03/quellen/Auswertungs_und_Berichtsumfang_2026-09-24.md     521f22ec2656a63dd3409b2633db20f7
+  C/04_Uebergaben/Uebergabe_Abgleich_Ergebnisse_Fortsetzung2_2026-10-03.md                             b824c5faa9bc8cd4ddd3a04c2815270b
+  W gegen C/03_Skripte/Abgleich_Ergebnisse_2026-10-03: textstand.json gleich, eigen.json gleich, abgleich_2a.json gleich, master_saetze.json gleich, konsens_2a.py gleich, konsens_2a.csv gleich, teiltabelle_2b.csv gleich, teiltabelle_2b.md gleich, register_pruefung.md gleich, textstand_saetze.md gleich, eigen.txt gleich, zweitpruefung_2b.md gleich
+
+1 Korpus
+  Kern 10 Studien 108 Sätze · erweitert 6 Studien 104 Sätze
+  Gruppen der Anlage: {'Kern': 10, 'RCT_Praevention': 1, 'Setting': 3, 'Ergaenzung': 2}
+
+2 Nachrechnung der Korpuszahlen und Satzlisten der Zeilen (erwartet laut Zeile → gerechnet)
+  ok    2c.1    OBJ_SUBJEKT Kern Sätze, Studien | erwartet (5, 3) | gerechnet (5, 3)
+  ok    2c.1    X1 mit O1 im Kern | erwartet [] | gerechnet []
+  ok    2c.1    X1 mit O1 im ganzen Korpus | erwartet [] | gerechnet []
+  ok    2c.1    Flussdiagramm im Korpustext | erwartet [] | gerechnet []
+  ok    2c.1    planmäßiges Ende im Korpustext | erwartet [] | gerechnet []
+  ok    2c.2    O1 im Kern, Studien | erwartet ['Negra2019', 'Negra2020', 'Sammoud2024'] | gerechnet ['Negra2019', 'Negra2020', 'Sammoud2024']
+         O1-Sätze im Kern: ['Negra2019 1.1', 'Negra2019 1.2', 'Negra2020 1.2', 'Sammoud2024 1.1']
+           Negra2019 1.1 O1: All subjects received treatment conditions as allocated.
+           Negra2019 1.2 O1: Three participants from the LPJT group withdrew from attending the youth soccer training center for personal reasons and were, therefore, excluded fro
+           Negra2020 1.2 O1(O2): All participants completed the aforementioned training programs.
+           Sammoud2024 1.1 O2(O1+V2): All the players successfully completed more than 85% of the training sessions and were consequently fully included in the final analyses.
+         Analysezahl im Korpus (n = …, „of the N participants“, „included“ mit Zahl): ['Hilska2021 6.2', 'Klusemann2012 1.7', 'Rogers2020 2.1', 'Rogers2020 2.7']
+           Hilska2021 6.2 B5(B1): Most acute LE injuries resulted in a time loss of between 0 and 7 days from soccer (n = 478 ‹SK›  73%), and the patterns of injury severity did not differ between the groups. · im Befundteil
+           Klusemann2012 1.7 O1: Final data analysis included a total number of 36 subjects (SG, n = 13 ‹SK›  VG, n = 11 ‹SK›  CG, n = 12). · vor dem ersten Befund
+           Rogers2020 2.1 B1(Z1): Nine of the 22 participants who completed pre- and post-testing of the AIMS across the two groups, made improvements > SWC in the MC screen, with seven of these coming fr · im Befundteil
+           Rogers2020 2.7 O2: Athletes from the OL group who completed pre- and post-physical testing (n = 8), logged between 0 and 11 sessions out of a possible 32 (mean of 12%). · nach dem letzten Befund
+  ok    2c.3    X1 mit O4 im ganzen Korpus | erwartet ['Hilska2021 1.1'] | gerechnet ['Hilska2021 1.1']
+  ok    2c.3    OBJ_ORT Kern | erwartet (10, 7) | gerechnet (10, 7)
+         Objektsätze mit zwei oder mehr Objekten (Tables/Figures n and m, n–m): ['Beato2018 3.2', 'Moran2024 1.5', 'Rogers2020 1.3', 'Rogers2020 1.7', 'Rogers2020 1.8', 'Asimakidis2022 1.2', 'Asimakidis2022 1.3', 'Asimakidis2022 1.4']
+           Beato2018 3.2 X1: Within-group changes for CODJ-G and COD-G are reported in Tables 1 and 2, respectively. · Subjekt 0 Ort 1
+           Rogers2020 1.3 X1(Z1): MC and physical capacity changes (whole points and percentage change) are presented in Figures 2–4 using an individual responses approach. · Subjekt 0 Ort 1
+           Rogers2020 1.7 X1: A summary of the raw scores of each respective movement task and physical capacity test are presented in Tables 3 and 4 respectively. · Subjekt 0 Ort 1
+           Rogers2020 1.8 X1(Z1): The number of participants per group that responded positively (n > SWC) in each physical capacity outcomes are also presented in Figures 3 and 4. · Subjekt 0 Ort 1
+           Asimakidis2022 1.2 X1: Figures 1–4 illustrate the group data for COD ability and linear sprint, respectively. · Subjekt 1 Ort 0
+         Moran 1.3: Fig 2 shows pre- and post-training measures for the two jumping tests (separate rows) and the rightmost panels illustrate the improvement, post minus pre.
+  ok    2c.4    Ausgangsvergleich mit Signifikanzaussage Kern (Sätze, Studien) | erwartet (5, 4) | gerechnet (5, 4)
+         O4-Sätze mit vorhandenem Unterschied (significant … differences were detected, except for, difference … of):
+           Sammoud2024 1.3 O4: Significant between groups differences were detected for the chronological age, height, body mass, and maturity offset. · Kern
+           Sammoud2024 1.5 O4: In terms of physical fitness measures, no significant baseline differences between groups were observed (p > 0.05), except for the inter-limb asymmetry score (p < 0.05). · Kern
+           Rogers2020 1.1 O4(O5): Group allocation, based on pair-matching participates from baseline MC (AIMS sum-score), led to a between group difference at baseline of only 0.9 points, which is < the SWC of on this primary outcome · Setting
+         Richtung eines Ausgangsunterschieds („in favour“, „favor“, „higher/lower at baseline“) in O4-Sätzen: []
+  ok    2c.5    „median“ im Korpus | erwartet ['Moran2024 1.2'] | gerechnet ['Moran2024 1.2']
+         Mittel der Einheiten oder je Woche (erweitert): ['Hilska2021 7.1', 'Veith2021 3.2', 'Rogers2020 2.5', 'Rogers2020 2.7']
+         Zählungen nach Status oder Anteil vollständiger Durchführung (erweitert): ['Klusemann2012 1.3', 'Klusemann2012 1.5', 'Veith2021 3.2', 'Veith2021 3.3']
+  ok    2c.5    Objekte im Kern, Erstnennung nach Form und Stellung | erwartet {('Objektsatz', 'vor dem ersten Befund'): 11, ('Klammer oder Nebenstellung', 'ab dem ersten Befund'): 9, ('Objektsatz', 'ab dem ersten Befund'): 3, ('Klammer oder Nebenstellung', 'vor dem ersten Befund'): 3} | gerechnet {('Objektsatz', 'vor dem ersten Befund'): 11, ('Klammer oder Nebenstellung', 'ab dem ersten Befund'): 9, ('Objektsatz', 'ab dem ersten Befund'): 3, ('Klammer oder Nebenstellung', 'vor dem ersten Befund'): 3}
+  ok    2c.6    Raten (O_RATE) im Kern, Studien | erwartet ['Beato2018', 'Lloyd2016', 'Negra2019'] | gerechnet ['Beato2018', 'Lloyd2016', 'Negra2019']
+         niedrige Umsetzung mit Einstufung (erweitert): ['Klusemann2012 1.4', 'Klusemann2012 1.5', 'Rogers2020 1.9', 'Rogers2020 2.6']
+  ok    2c.7    Schwelle der Umsetzung im Kern | erwartet ['Lloyd2016 1.3', 'Sammoud2024 1.1'] | gerechnet ['Lloyd2016 1.3', 'Sammoud2024 1.1']
+         Schwellen und Anteile an Schwellen in O2-Sätzen (erweitert): ['Hilska2021 2.2', 'Hilska2021 7.2', 'Hilska2021 7.4', 'Klusemann2012 1.5']
+  ok    2c.8    „respectively“ im Kern (Sätze, Studien), wie B_RESPECTIVELY | erwartet (8, 5) | gerechnet (8, 5)
+  ok    2c.8    „lower bound“ oder Untergrenze im Korpus | erwartet [] | gerechnet []
+         parallele Werte ohne „respectively“ (Klammer mit „x and y“ oder Paarliste ohne Zuordnungswort):
+           Klusemann2012 2.5 B2: Trivial or unclear changes occurred in 20-m sprint time (−0.5 ± 1.0% and −1.6 ± 2.0%) and line drill performance (0.5 ± 2.1% and −0.9 ± 1.4%) for the supervised and video groups. · Setting
+           Klusemann2012 4.1 B2: Both the supervised and video groups had small increases in the number of push-ups performed (20 ± 13% and 23 ± 15%). · Setting
+  ok    2c.9    O3 im Kern | erwartet ['Beato2018'] | gerechnet ['Beato2018']
+         „±“ in Befundsätzen, Kern und erweitert: Kern [] · erweitert ['Klusemann2012 2.2', 'Klusemann2012 2.3', 'Klusemann2012 2.4', 'Klusemann2012 2.5', 'Klusemann2012 2.6', 'Klusemann2012 2.8', 'Klusemann2012 2.9', 'Klusemann2012 3.1', 'Klusemann2012 3.3', 'Klusemann2012 4.1', 'Klusemann2012 4.2', 'Klusemann2012 4.4', 'Asimakidis2022 1.3', 'Asimakidis2022 1.4', 'Asimakidis2022 1.5']
+         Mittelwert mit Spanne in Klammer (erweitert): ['Hilska2021 7.5', 'Rogers2020 2.5']
+  ok    2c.10   „load“ im Korpus | erwartet [] | gerechnet []
+  ok    2c.10   Lloyd 1.3 mit V2 | erwartet True | gerechnet True
+  ok    2c.11   Z2 im Kern | erwartet [] | gerechnet []
+  ok    2c.11   Z2 erweitert (alle sekundär) | erwartet ['Klusemann2012 1.1', 'Klusemann2012 1.3', 'Klusemann2012 1.6', 'Veith2021 3.3'] | gerechnet ['Klusemann2012 1.1', 'Klusemann2012 1.3', 'Klusemann2012 1.6', 'Veith2021 3.3']
+  ok    2c.11   Z2 erweitert primär | erwartet [] | gerechnet []
+  ok    2c.12   Aussage über nicht erhobene Daten im Korpus | erwartet [] | gerechnet []
+         Erhebung oder Rücklauf bei der Kontrollgruppe (O-Sätze): ['Lloyd2016 1.3', 'Hilska2021 1.2', 'Hilska2021 2.1', 'Hilska2021 8.1', 'Hilska2021 8.3', 'Klusemann2012 1.1']
+           Lloyd2016 1.3 O2(V2): Attendance rates for pre-PHV (plyometric training = 91%, traditional strength training = 89%, and combined training = 90%) and post-PHV (plyometric training = 83%, tradit
+           Hilska2021 1.2 O3: Mean weekly exposure hours in practice and games were 5.44 in the intervention group and 4.45 in the control group (Table 1).
+           Hilska2021 2.1 O2: The average response rate for the 20 short message service messages was 95% (96% and 95% in the intervention and control groups, respectively).
+           Hilska2021 8.1 O3(O2): A total of 34 of 48 teams (71%) in the control group responded to the questionnaire considering injury preventive measures during the study period.
+           Hilska2021 8.3 O3: In their weekly training, most control teams included planks (94% of the teams who answered), single-leg squats and/or lunges (82%), and single-leg jumps (82%), while hip
+           Klusemann2012 1.1 O1(Z2): One control subject was unable to complete the posttesting because of a basketball-related injury and was excluded from the analysis.
+  ok    2c.13   O5 im Kern | erwartet ['Aloui2022'] | gerechnet ['Aloui2022']
+  ok    2c.13   Messfehler gegen SWC im Korpus | erwartet [] | gerechnet []
+  ok    2c.14   „trials“, „attempts“, „valid“ im Korpus (ohne „trial“ für die Studie) | erwartet [] | gerechnet []
+         „trial“ im Korpus (nur als Studie): ['Hammami2016 1.1: RSSA, RCOD or over the 8-week trial.']
+  ok    2c.17   „unadjusted“ im Kern | erwartet [] | gerechnet []
+  ok    2c.17   „unadjusted“ erweitert | erwartet ['Hilska2021 3.3', 'Hilska2021 4.1', 'Hilska2021 4.2', 'Hilska2021 6.4'] | gerechnet ['Hilska2021 3.3', 'Hilska2021 4.1', 'Hilska2021 4.2', 'Hilska2021 6.4']
+  ok    2c.17   B_RICHTUNG Kern (Sätze, Studien) | erwartet (9, 5) | gerechnet (9, 5)
+  ok    2c.17   Blockbeginn Quantor als Einzelbefund im Kern | erwartet 1 | gerechnet 1
+  ok    2c.18   B_POSTWERT Kern Studien | erwartet ['Bouafif2026', 'Sammoud2024'] | gerechnet ['Bouafif2026', 'Sammoud2024']
+         Rohdifferenz zwischen Gruppen mit Einheit und p (mean difference) im Kern: ['Liu2024 2.3', 'Liu2024 3.3', 'Liu2024 4.3']
+         Intervall in Befundsätzen (CI, CL, confidence) Kern / erweitert: ['Beato2018 4.1', 'Hilska2021 3.3', 'Hilska2021 4.1', 'Hilska2021 6.4', 'Klusemann2012 2.2', 'Veith2021 2.1', 'Veith2021 2.4', 'Veith2021 2.5']
+  ok    2c.19   Sammoud 3.1 Blockbeginn Themenanker | erwartet True | gerechnet True
+  ok    2c.20   B_NULL Kern Studien | erwartet 9 | gerechnet 9
+  ok    2c.21   Nullformel (Spalte null) und Intervall (Spalte ki) zugleich | erwartet ['Klusemann2012 2.2'] | gerechnet ['Klusemann2012 2.2']
+         Spalte msd (±) in Befundsätzen mit Null- oder Unklarheitsurteil (trivial, unclear, little difference, no clear, remained):
+           Klusemann2012 2.2 B4(B2): The control group’s performance deteriorated or remained similar to baseline in all physical tests except for the agility test (−1.5 ± 1.6%, mean ± 90% confidence limits ‹SK›  small, qualitative inference). · Setting · null 1 ki 1 msd 2
+           Klusemann2012 2.5 B2: Trivial or unclear changes occurred in 20-m sprint time (−0.5 ± 1.0% and −1.6 ± 2.0%) and line drill performance (0.5 ± 2.1% and −0.9 ± 1.4%) for the supervised and video groups. · Setting · null 0 ki 0 msd 4
+           Klusemann2012 2.6 B2: Sit and reach distance remained trivial for the supervised group (−1.2 ± 1.1%) but declined for the video group (−1.6 ± 1.7%) and control group (−1.9 ± 1.3%). · Setting · null 1 ki 0 msd 3
+           Klusemann2012 3.3 B1: The supervised group had a substantially larger mean change in CMJ height than the control group (−9.2 ± 7.3% ‹SK›  moderate) but with little difference compared with the video group (−4.2 ± 8.0% ‹SK›  unclear). · Setting · null 0 ki 0 msd 2
+           Klusemann2012 4.4 B2: No clear changes were found in the pull-up test for the supervised group (1 ± 13%) and video group (1 ± 21%) ‹SK›  however, the control group had a trivial decrease in pull-up strength (−6 ± 18%). · Setting · null 1 ki 0 msd 3
+         Klusemann 2.2 (Erklärung der ±-Angaben): The control group’s performance deteriorated or remained similar to baseline in all physical tests except for the agility test (−1.5 ± 1.6%, mean ± 90% confidence limits ‹SK›  small, qualitative inference).
+         Urteil „unclear“ im Korpus: ['Klusemann2012 2.5', 'Klusemann2012 2.7', 'Klusemann2012 3.2', 'Klusemann2012 3.3', 'Klusemann2012 4.3'] · im Kern: []
+           Klusemann2012 2.5 B2: Trivial or unclear changes occurred in 20-m sprint time (−0.5 ± 1.0% and −1.6 ± 2.0%) and line drill performance (0.5 ± 2.1% and −0.9 ± 1.4%) for the supervised and video groups.
+           Klusemann2012 2.7 B1: Differences between the supervised and video groups were trivial or unclear in vertical jump, sit and reach, and 20-m sprint performance.
+           Klusemann2012 3.2 B2: The change in the video group was unclear.
+           Klusemann2012 3.3 B1: The supervised group had a substantially larger mean change in CMJ height than the control group (−9.2 ± 7.3% ‹SK›  moderate) but with little difference compared with the video group (−4.2 ± 8.0% ‹SK›  unclear).
+           Klusemann2012 4.3 B1: Although the experimental groups had substantial differences in the mean changes to the control group, differences between the supervised and video groups in push-up strength were unclear (Table 2).
+         Nullurteil gegen eine Schwelle im Kern („trivial“, „substantial“): ['Lloyd2016 4.2', 'Beato2018 4.1', 'Beato2018 4.2', 'Negra2019 2.8', 'Moran2024 1.5', 'Moran2024 1.6']
+           Lloyd2016 4.2 B4(B3): Nearly all the differences in training responses between pre- and post-PHV cohorts were not significant and “trivial” for traditional strength training, combined training, and control groups.
+           Beato2018 4.1 B1: After 6 weeks of training, CODJ-G reported substantially better results in long jump test (ES = 0.32 (small), [CL90% -0.05 ‹SK› 0.69], with chances for beneficial, trivial, detrimental performance of 71/27/2%) than COD-G.
+           Beato2018 4.2 B4(B1): All the other tests did not report any substantial variation between groups after the protocol.
+           Negra2019 2.8 B4(B1): For the remaining tests (ICoD, 10-m, 20-m, and CMJ), trivial between-group differences were demonstrated (Table 4).
+           Moran2024 1.5 B2: Effect sizes (Tables 2 and 3) for the 10 m sprint were trivial in every group.
+           Moran2024 1.6 B2: A trivial effect size was also observed in the V+HPT group for the 40 m sprint while small effect sizes were observed in the VPT and HPT groups.
+         Einordnung nach vorab genannter Schwelle (acceptable, poor, notably): ['Aloui2022 1.2', 'Rogers2020 1.9', 'Rogers2020 2.6']
+  ok    2c.23   „hypothes“ in der Anlage | erwartet [] | gerechnet []
+         Regeln mit Entscheidung im Ergebnisteil (V2 primär oder sekundär): ['Lloyd2016 1.3', 'Sammoud2024 1.1', 'Hilska2021 6.1', 'Klusemann2012 1.5', 'Veith2021 2.3', 'Rogers2020 1.2', 'Rogers2020 1.9']
+         Quantor mit Nullbefund als Einzelbefund (none of, no …) in B1/B2-Sätzen des Kerns: ['Hammami2016 1.3', 'Hammami2016 1.5', 'Bouafif2026 3.3']
+         Hammami 1.3: None of the 3 agility tests showed any significant gains for the experimental group (S180°, SBF and S 4 X 5 had respective p values of 0.08, 0.06 and 0.142) (Table 4).
+  ok    2c.25   V2 im Kern primär | erwartet [] | gerechnet []
+  ok    2c.25   V2 im Kern sekundär | erwartet ['Lloyd2016 1.3', 'Sammoud2024 1.1'] | gerechnet ['Lloyd2016 1.3', 'Sammoud2024 1.1']
+  ok    2c.25   V2 erweitert primär | erwartet ['Hilska2021 6.1', 'Veith2021 2.3', 'Rogers2020 1.2', 'Rogers2020 1.9'] | gerechnet ['Hilska2021 6.1', 'Veith2021 2.3', 'Rogers2020 1.2', 'Rogers2020 1.9']
+         Stellung aller V2-Sätze: [('Lloyd2016 1.3', 'im Befundteil'), ('Sammoud2024 1.1', 'vor dem ersten Befund'), ('Hilska2021 6.1', 'im Befundteil'), ('Klusemann2012 1.5', 'vor dem ersten Befund'), ('Veith2021 2.3', 'im Befundteil'), ('Rogers2020 1.2', 'vor dem ersten Befund'), ('Rogers2020 1.9', 'vor dem ersten Befund')]
+         Master 4.7 A1 S5: Beschreibend berichtet werden die 505-Seitenwerte laut Studienprotokoll sowie alle Teilmengen unter acht Spielern je Gruppe, so die 5- und 10-m-Sprintzeiten und Teile des Per-Protokoll-Vergleichs.
+  ok    2c.26   V1 im Korpus (primär oder sekundär) | erwartet ['Hilska2021 6.1', 'Veith2021 1.1', 'Veith2021 2.3', 'Asimakidis2022 1.1'] | gerechnet ['Hilska2021 6.1', 'Veith2021 1.1', 'Veith2021 2.3', 'Asimakidis2022 1.1']
+         Stellung V1: [('Hilska2021 6.1', 'im Befundteil'), ('Veith2021 1.1', 'vor dem ersten Befund'), ('Veith2021 2.3', 'im Befundteil'), ('Asimakidis2022 1.1', 'vor dem ersten Befund')]
+         Themenanker und Verfahren als Subjekt (Regarding/For …, the … analysis indicated/revealed): ['Aloui2022 5.1', 'Sammoud2024 3.1', 'PadronCabo2025 2.3', 'PadronCabo2025 3.1', 'PadronCabo2025 4.1', 'PadronCabo2025 5.1']
+  ok    2c.27   Z1 Kern primär | erwartet [] | gerechnet []
+  ok    2c.27   Z1 Kern sekundär | erwartet ['Liu2024 2.5', 'Moran2024 1.1', 'Moran2024 1.2', 'Moran2024 1.3'] | gerechnet ['Liu2024 2.5', 'Moran2024 1.1', 'Moran2024 1.2', 'Moran2024 1.3']
+         Stellung Z1 erweitert: [('Hilska2021 4.2', 'im Befundteil'), ('Rogers2020 1.3', 'vor dem ersten Befund'), ('Rogers2020 1.8', 'vor dem ersten Befund'), ('Rogers2020 2.1', 'im Befundteil'), ('Rogers2020 2.3', 'im Befundteil'), ('Rogers2020 2.4', 'im Befundteil'), ('Asimakidis2022 1.6', 'nach dem letzten Befund')]
+  ok    2c.27   Sensitivität, Per-Protokoll, Bootstrap im Kern | erwartet [] | gerechnet []
+         Per-Protokoll-ähnliche Regeln im Korpus (compliance-Ausschluss, regardless of compliance): ['Klusemann2012 1.5', 'Rogers2020 1.2']
+  ok    2c.28   „remaining“, „other tests“ im Kern | erwartet ['Beato2018 4.2', 'Negra2019 2.8'] | gerechnet ['Beato2018 4.2', 'Negra2019 2.8']
+  ok    2c.29   letzter Satz mit Klammer am Satzende (Kern) | erwartet 5 | gerechnet 5
+  ok    2c.29   letzter Satz mit Z (Kern und erweitert) | erwartet [] | gerechnet []
+  ok    2c.31   mehrsätzige O2-Folgen (zwei O2-Sätze nacheinander) im Kern | erwartet [] | gerechnet []
+  ok    2c.36   V1 erweitert, Studien | erwartet ['Asimakidis2022', 'Hilska2021', 'Veith2021'] | gerechnet ['Asimakidis2022', 'Hilska2021', 'Veith2021']
+  ok    2c.42   unadjustiert und adjustiert im selben Satz | erwartet ['Hilska2021 3.3', 'Hilska2021 4.1', 'Hilska2021 6.4'] | gerechnet ['Hilska2021 3.3', 'Hilska2021 4.1', 'Hilska2021 6.4']
+  ok    2c.44   Objektformen erweitert Subjekt / Ort | erwartet (5, 5) | gerechnet (5, 5)
+  ok    2c.45   Blockanfänge Kern gesamt | erwartet 38 | gerechnet 38
+  ok    2c.46   „respectively“ erweitert, Studien | erwartet 6 | gerechnet 6
+  ok    2c.47   „except“ im Kern | erwartet ['Bouafif2026 1.1', 'Negra2020 1.4', 'Negra2020 1.5', 'Sammoud2024 1.5'] | gerechnet ['Bouafif2026 1.1', 'Negra2020 1.4', 'Negra2020 1.5', 'Sammoud2024 1.5']
+         „except“ erweitert: ['Klusemann2012 2.2', 'Veith2021 1.1']
+         Ausnahme zu einem Sammelbefund in eigenem Folgesatz (B4 gefolgt von „However“ oder B-Satz mit Ausnahme), Kern:
+           Lloyd2016 4.2 B4(B3): Nearly all the differences in training responses between pre- and post-PHV cohorts were not significant and “trivial” for traditio
+           → Lloyd2016 4.3 B3: However, pre-PHV children who completed the plyometric training intervention showed changes in acceleration and squat jump height that were “very likely greater” than post-PHV youth who also followed 
+           Hammami2016 1.1 B4(B2+O4): The control group did not show any significant differences in anthropometric measures, sprint, agility, RSSA, RCOD or over the 8-w
+           → Hammami2016 1.2 B2: However, the plyometric training program induced significant increases in sprint times for the experimental group over distances of 5m, 10m and 20m (p≤0.05) (Table 4).
+         Sätze über die übrigen Tests (Kern) mit den Sätzen davor im selben Absatz:
+           Beato2018 4.1 B1: After 6 weeks of training, CODJ-G reported substantially better results in long jump test (ES = 0.32 (small), [CL90% -0.05 ‹SK› 0.69], with chances for beneficial, t
+           → Beato2018 4.2 B4(B1): All the other tests did not report any substantial variation between groups after the protocol.
+           Negra2019 2.5 B2: The performance improvement for the SLJ test was small.
+           Negra2019 2.6 B1: Outcomes of the between-group analyses favored the LPJT group for the modified 505 CoD, SLJ, and MKD tests with small to moderate effect sizes (Table 4).
+           Negra2019 2.7 B1: However, there were greater performance improvements in the 5-m sprint for the UPJT group.
+           → Negra2019 2.8 B4(B1): For the remaining tests (ICoD, 10-m, 20-m, and CMJ), trivial between-group differences were demonstrated (Table 4).
+         Familie B_NULL (maßgeblich nach Befund Anhang B): 35 Belege · davon mit Intervall (Spalte ki oder ± in der Spalte msd): ['Klusemann2012 2.2', 'Klusemann2012 2.5', 'Klusemann2012 2.6', 'Klusemann2012 4.4']
+         Gruppenvergleich (B1) mit dem Urteil „unclear“: ['Klusemann2012 2.7', 'Klusemann2012 3.3', 'Klusemann2012 4.3']
+  Prüfungen: 51 von 51 wie in der Zeile
+
+3 Sequenzen § 5.2 gegen A1 bis A6 (längste gemeinsame Teilfolge der Primärcodes, wie bausteine_2c.py § 2)
+  A1 X1 O1 X1 O4                          S1 3/3 · S2 0/0 · S3 1/1 · S4 0/0 · S5 0/0 · S6 2/2
+  A2 O2 O2 O2 O2                          S1 1/1 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  A3 O3 O3 Z2 Z2                          S1 0/0 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  A4 O5 O5                                S1 0/0 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  A5 X1 X1 B1 B1 B1 B1 B1 B1 B1 B4 V2     S1 1/1 · S2 2/2 · S3 6/6 · S4 6/6 · S5 3/3 · S6 2/2
+  A6 V1 Z1 V1 Z1                          S1 0/0 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+
+4 Zitate der Spalte Ergebnis: Fundorte (Anlage-Satz, Abschnitt des Befunds, Quelle, Kapitel-5-Satz, Master-Satz)
+  2c.1    Fig 1 shows …                                                            → Anlage Moran2024 1.1, Befund § 3.2, Befund § 5.1, Befund § 5.2
+  2c.1    Table 3 displays …                                                       → Anlage Negra2019 1.4, Befund § 2.2, Befund § 3.2, Befund § 5.1, Befund § 5.2
+  2c.1    Kein Kern-Ergebnistext verweist auf ein Flussdiagramm.                   → Befund § 3.1
+  2c.1    All subjects received treatment conditions as allocated.                 → Anlage Negra2019 1.1, Befund § 2.2, Befund § 5.1, Befund § 5.2
+  2c.1    Tab. ⟨n⟩ zeigt …                                                         → Befund § 5.1
+  2c.1    Flussdiagramm im Methodikteil – es gehört nach 5.1 (CONSORT 13a).        → f17
+  2c.1    planmäßig                                                                → Befund § 7, raster, plan, tv5, register, Kap5 A1 S1 …
+  2c.2    Three participants … withdrew …                                          → Anlage Negra2019 1.2, Befund § 5.1, Befund § 5.2
+  2c.2    Final data analysis included a total number of 36 subjects               → Anlage Klusemann2012 1.7
+  2c.2    zur Eingangstestung angetreten                                           → Befund § 5.1, raster, tv5, register, Kap5 A1 S2, Master 5 A1 S2
+  2c.3    Table 3 displays test data for all components of physical fitness asse   → Anlage Negra2019 1.4
+  2c.3    The player characteristics for the intervention and study groups are p   → Anlage Hilska2021 1.1
+  2c.4    Baseline comparisons revealed no significant differences between group   → Anlage Liu2024 1.1, Befund § 2.2, Befund § 5.1
+  2c.4    No parameter showed between-group differences at baseline.               → Anlage Aloui2022 1.3, Befund § 3.1
+  2c.4    zugunsten der ⟨Gruppe⟩                                                   → Befund § 5.1
+  2c.4    zugunsten der IG                                                         → f17, raster, tv5, umfang
+  2c.5    The training compliance rate was 95% for the two groups.                 → Anlage Negra2019 1.3, Befund § 2.2, Befund § 5.1
+  2c.5    6,0 vollständige je Spieler                                              → tv5, register, Kap5 A2 S1, Master 5 A2 S1
+  2c.6    Bei zwölf angebotenen Einheiten je Spieler                               → tv5, Kap5 A2 S2, Master 5 A2 S2
+  2c.6    notably poor                                                             → Anlage Rogers2020 2.6, Befund § 6.4
+  2c.6    Beteiligungsrate                                                         → tv5, register
+  2c.7    above the predetermined attendance threshold                             → Anlage Lloyd2016 1.3
+  2c.7    more than 85% of the training sessions                                   → Anlage Sammoud2024 1.1
+  2c.7    Only 5 subjects from the video group completed all 12 sessions           → Anlage Klusemann2012 1.5
+  2c.8    respectively                                                             → Anlage Lloyd2016 1.1, Anlage Hammami2016 1.4, Anlage Beato2018 2.1, Anlage Beato2018 2.2, Anlage Beato2018 3.2, Anlage Negra2019 2.3 …
+  2c.8    neun und zwei                                                            → tv5, Kap5 A2 S4, Master 5 A2 S4
+  2c.8    neun und einer                                                           → tv5, Kap5 A2 S4, Master 5 A2 S4
+  2c.8    in 5.1 als Sensitivität                                                  → f17, tv5
+  2c.9    The average RPE was 5.5 ± 0.99 and 5.50 ± 1 for CODJ-G and COD-G, resp   → Anlage Beato2018 2.2
+  2c.9    nur in Orientierungssätzen (Beato)                                       → Befund § 3.4
+  2c.9    als vollständig gemeldet                                                 → tv5, register, Kap5 A3 S1, Master 5 A3 S1, Master 6.1 A2 S5, Master 6.1 A6 S1
+  2c.10   Der mit der Solldauer berechnete …                                       → tv5, Kap5 A3 S2, Master 5 A3 S2
+  2c.10   Der sRPE-Load ist CR-10 mal Solldauer.                                   → f17
+  2c.11   Having no partner (48.9%) and injury/soreness/sickness (44.7%) were re   → Anlage Veith2021 3.3, Befund § 5.1
+  2c.12   The training logs did not reveal all causes for the lower compliance i   → Anlage Klusemann2012 1.4, Befund § 3.1
+  2c.13   Reliability is summarized in Table 3.                                    → Anlage Aloui2022 1.1, Befund § 5.1
+  2c.13   ICC and CV, including 95% CI, show acceptable reliability for all vari   → Anlage Aloui2022 1.2, Befund § 2.2, Befund § 5.1
+  2c.13   Der TE überstieg bei allen Zielgrößen den SESOI                          → tv5, Master 4.4 A3 S2
+  2c.15   Table 3 displays test data …                                             → Anlage Negra2019 1.4, Befund § 2.2, Befund § 5.1, Befund § 5.2
+  2c.15   … sowie Hedges' g.                                                       → tv5, Kap5 A5 S1, Master 5 A5 S1
+  2c.16   Fig 1 shows pre- and post-training measures for each participant …       → Anlage Moran2024 1.1
+  2c.17   unadjusted IRR, 0.81 [95% CI, 0.63-1.03]                                 → Anlage Hilska2021 3.3, Befund § 5.1
+  2c.17   with the EG improving more than CG                                       → Anlage Aloui2022 3.1, Anlage Aloui2022 4.1, Befund § 5.1, Befund § 5.2
+  2c.17   favored the LPJT group                                                   → Anlage Negra2019 2.6, Befund § 5.2
+  2c.17   zugunsten der Interventionsgruppe                                        → tv5, Kap5 A1 S4, Kap5 A5 S3, Master 5 A1 S4, Master 5 A5 S3
+  2c.17   weiter von null entfernt als                                             → tv5, Kap5 A5 S3, Master 5 A5 S3
+  2c.17   zugunsten der ⟨Gruppe⟩                                                   → Befund § 5.1
+  2c.18   A significant large between-group difference at post-test was observed   → Anlage Sammoud2024 2.1, Befund § 5.1
+  2c.18   (1.6 kg, CI 0.1 to 3.2, p = 0.036)                                       → Anlage Veith2021 2.5, Befund § 5.1
+  2c.18   Adjustiert für …                                                         → tv5, Kap5 A5 S4, Master 5 A5 S4
+  2c.18   the ANCOVA analysis indicated …                                          → Anlage Sammoud2024 3.1, Befund § 3.6, Befund § 5.1, Befund § 5.2
+  2c.18   signifikant                                                              → Befund § 3.5, Befund § 5.1, f17, plan, tv5, umfang
+  2c.19   Regarding the asymmetry scores, the ANCOVA analysis indicated …          → Anlage Sammoud2024 3.1, Befund § 5.2
+  2c.19   beim Standweitsprung                                                     → f17, plan, tv5, register, Kap5 A5 S5, Master 5 A5 S5
+  2c.19   Kap. 5: je Zielgröße derselbe Satzbau                                    → stil, register
+  2c.20   No significant changes of RSSA performance were seen (Table 5).          → Anlage Hammami2016 1.5, Befund § 3.5, Befund § 5.1
+  2c.20   No differences were found in the improvements between experimental gro   → Anlage Negra2020 1.5, Befund § 5.1
+  2c.20   trivial between-group differences                                        → Anlage Negra2019 2.8, Befund § 2.2, Befund § 5.1, Befund § 5.2
+  2c.20   Bei keiner Zielgröße                                                     → tv5, Kap5 A5 S6, Master 5 A5 S6
+  2c.20   none of …                                                                → Anlage Lloyd2016 1.2, Befund § 3.5, Befund § 5.1
+  2c.20   No parameter …                                                           → Anlage Aloui2022 1.3, Befund § 3.1
+  2c.20   kein Gruppenunterschied nachweisbar                                      → Befund § 5.1, Befund § 6.3, f17, raster, tv5, register
+  2c.20   Ein Gruppenunterschied ist nicht nachweisbar.                            → umfang, register
+  2c.21   Keine Studie liest einen Nullbefund über ein Intervall oder gegen eine   → Befund § 3.5
+  2c.21   except for the agility test                                              → Anlage Klusemann2012 2.2
+  2c.21   Das Intervall ist mit relevanten Effekten in beide Richtungen vereinba   → umfang, register
+  2c.21   Unterschieden                                                            → tv5, register, Kap5 A5 S7, Master 5 A5 S7
+  2c.21   Effekten                                                                 → umfang, register
+  2c.22   Der Befund ist unschlüssig.                                              → umfang, register
+  2c.23   Entscheidung über eine Hypothese 0                                       → Befund § 3.7
+  2c.23   hypothes…                                                                → tv5, register, Kap5 A5 S10, Master B5 S3, Master B5 S4, Master 5 A5 S10 …
+  2c.23   none of …                                                                → Anlage Lloyd2016 1.2, Befund § 3.5, Befund § 5.1
+  2c.23   H0 gilt als verworfen, wenn mindestens eine davon einen Vorteil der In   → register, Master 4.7 A3 S8
+  2c.24   Irrespective of maturation, none of the control groups made any signif   → Anlage Lloyd2016 1.2
+  2c.24   Kein Ergebnisteil endet mit einem Resümee, keiner entscheidet über ein   → Befund § 0
+  2c.24   Studienprotokoll                                                         → f17, raster, tv5, register, Master 4.1 A5 S2, Master 4.4.1 A1 S3 …
+  2c.24   Ethikantrag                                                              → f17, stil, raster, plan, umfang, register …
+  2c.25   The number of injuries was too small for analyzing each severity group   → Anlage Hilska2021 6.1, Befund § 3.1
+  2c.25   alle Teilmengen unter acht Spielern je Gruppe                            → plan, tv5, Master 4.7 A1 S5
+  2c.25   ein Satz im Text. Ohne p und ohne Effektstärke, Grund in 4.7             → raster
+  2c.26   A normal distribution was observed for all data (p > 0.05).              → Anlage Asimakidis2022 1.1, Befund § 5.1
+  2c.26   All data except age were normally distributed.                           → Anlage Veith2021 1.1, Befund § 2.2, Befund § 5.1
+  2c.27   Sensitivitätsanalysen 0                                                  → Befund § 3.7
+  2c.27   CI 0.1 to 3.2                                                            → Anlage Veith2021 2.5, Befund § 3.4, Befund § 5.1
+  2c.27   … bis +0,107 s.                                                          → tv5, Kap5 A6 S2, Master 5 A6 S2
+  2c.28   Die übrigen … wurden nicht verworfen (Tab. H4)                           → tv5, Kap5 A6 S3, Master 5 A6 S3
+  2c.28   For the remaining tests (ICoD, 10-m, 20-m, and CMJ), trivial between-g   → Anlage Negra2019 2.8
+  2c.28   All the other tests did not report any substantial variation between g   → Anlage Beato2018 4.2
+  2c.28   geprüft und nicht verworfen                                              → Befund § 5.1, Befund § 6.3, f17, raster, plan, tv5 …
+  2c.28   mit Tests                                                                → f17, tv5, register, Kap5 A6 S3, Master 5 A6 S3
+  2c.29   Significant reductions in the incidence rates were also seen in the su   → Anlage Hilska2021 4.2
+  2c.29   Irrespective of maturation, none of the control groups made any signif   → Anlage Lloyd2016 1.2
+  2c.29   und keine davon …                                                        → tv5, Kap5 A6 S4, Master 5 A6 S4
+  2c.30   Eine feste Folge innerhalb der Orientierung zeigt der Korpus nicht.      → Befund § 3.1
+  2c.33   unerwünschte Ereignisse, gültige Versuche und TE post                    → Befund § 7, plan
+  2c.35   erst die Regel                                                           → stil
+  2c.35   dann die Einschränkung                                                   → stil
+  2c.36   geprüft und nicht verworfen                                              → Befund § 5.1, Befund § 6.3, f17, raster, plan, tv5 …
+  2c.38   in 5.1 als Sensitivität                                                  → f17, tv5
+  2c.41   Unterschieden                                                            → tv5, register, Kap5 A5 S7, Master 5 A5 S7
+  2c.41   Effekten                                                                 → umfang, register
+  2c.42   der Abstand ist der Befund, nicht die Deutung                            → raster
+  2c.43   in 5.1 als Sensitivität                                                  → f17, tv5
+  2c.44   … stehen in Tab. ⟨n⟩.                                                    → Befund § 5.1
+  2c.44   als Subjekt oder Ort im Präsens                                          → Befund § 6.2, Befund § 6.5, register
+  2c.46   respectively                                                             → Anlage Lloyd2016 1.1, Anlage Hammami2016 1.4, Anlage Beato2018 2.1, Anlage Beato2018 2.2, Anlage Beato2018 3.2, Anlage Negra2019 2.3 …
+  2c.46   neun und zwei                                                            → tv5, Kap5 A2 S4, Master 5 A2 S4
+  2c.46   neun und einer                                                           → tv5, Kap5 A2 S4, Master 5 A2 S4
+  2c.47   All data except age were normally distributed.                           → Anlage Veith2021 1.1, Befund § 2.2, Befund § 5.1
+  2c.47   Eine Aussage je Satz, Ausnahmen in einen eigenen Satz.                   → stil, register
+  2c.47   erst die Regel                                                           → stil
+  2c.47   dann die Einschränkung                                                   → stil
+  Zitate geprüft: 112 · kurze Einzelwörter ohne Ortsprüfung: 21 · nicht gefunden: 0
+  Platzhalter „Tab. ⟨n⟩ zeigt“ in stil: False · in Befund § 5.1: True
+  Platzhalter „stehen in Tab. ⟨n⟩“ in stil: False · in Befund § 5.1: True
+  Platzhalter „zugunsten der ⟨Gruppe⟩“ in f17: False · in Befund § 5.1: True
+  Stilprofil Teil 4 wörtlich: „Tab. 3 zeigt …“ True · „… stehen in Tab. 2.“ True
+  „mit Tests“ in F17 nur als Wortanfang von „mit Testspielen“: ['mit Testspielen', 'mit Testspielen']
+
+5 Status der Teiltabelle 2c und Verweise auf Teiltabelle 2b
+  Korpus: {'abgewandelt': 14, 'wie Muster': 9, 'nur erweitert': 17, 'kein Muster': 7} · Fundstelle: {'erfüllt': 33, 'teilweise': 10, 'bewusst anders': 3, 'keine Regel': 1}
+  2c.1    Fundstellenstatus erfüllt (2b.4) stützt sich auf 2b.4 (Maßstab Korpus, Status erfüllt)
+  2c.3    Fundstellenstatus erfüllt (2b.4, 2b.15) stützt sich auf 2b.4 (Maßstab Korpus, Status erfüllt)
+  2c.15   Fundstellenstatus erfüllt (2b.4, 2b.17, 2b.18) stützt sich auf 2b.4 (Maßstab Korpus, Status erfüllt)
+  2c.16   Fundstellenstatus erfüllt (2b.4) stützt sich auf 2b.4 (Maßstab Korpus, Status erfüllt)
+  2c.20   Fundstellenstatus erfüllt (2b.20, 2b.11) stützt sich auf 2b.11 (Maßstab Korpus, Status erfüllt (nach dem Codebuch gegenstandslos))
+  2c.32   Fundstellenstatus bewusst anders (2b.2) stützt sich auf 2b.2 (Maßstab Korpus, Status erfüllt (Rahmen aus O und X wie Korpus), Z2 im Rahmen bewusst anders)
+  2c.35   Fundstellenstatus teilweise (2b.13) stützt sich auf 2b.13 (Maßstab Korpus, Status teilweise (nach dem Codebuch Z1 am Schluss, Befundinhalt und Klammer wie Kern))
+  2c.44   Fundstellenstatus erfüllt (2b.4) stützt sich auf 2b.4 (Maßstab Korpus, Status erfüllt)
+
+6 Semikola
+  bausteine_2c.py        0
+  bausteine_2c.txt       0
+  teiltabelle_2c.md      0
+  teiltabelle_2c.csv     288
+  CSV: Zeilen 48 · Felder je Zeile [7] · Zellen mit Semikolon 0
+  dieses Skript: 0

@@ -1,0 +1,36 @@
+textstand.py — Schritt 1 (Textstand Kapitel 5)
+Master: master.docx
+  Größe 40331 Byte, MD5 2fda214483ffe46d652cb7b7a8882df9
+Wortlaut: /mnt/user-data/uploads/Bachelorarbeit/Claude/03_Skripte/Textvorschlag_5_2026-09-30.json MD5 d604ebdc5a5749dbe99fc6725765a795 · 6 Absätze
+Textvorschlag: /mnt/user-data/uploads/Bachelorarbeit/Claude/04_Uebergaben/Textvorschlag_5_2026-09-30.md MD5 835c3a45dd3a4e702684d05838bc38a1
+
+1 word/comments.xml im Master: nein
+  Absätze im Dokument: 188
+  „5 Ergebnisse“ an Position 128, „6 Diskussion“ an Position 135
+
+2 Kapitel 5: 6 nicht leere, 0 leere Absätze zwischen den Überschriften
+  A1: zeichengleich, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine, Felder nein, Textmarken 0
+  A2: zeichengleich, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine, Felder nein, Textmarken 0
+  A3: zeichengleich, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine, Felder nein, Textmarken 0
+  A4: zeichengleich, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine, Felder nein, Textmarken 0
+  A5: zeichengleich, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine, Felder nein, Textmarken 0
+  A6: zeichengleich, Formatvorlage Standard, Absatzeigenschaften keine, Laufeigenschaften keine, Felder nein, Textmarken 0
+
+3 Messung (Satzteilung und Wortzählung wie Manuskriptstand_2026-09-25.py Fassung 4)
+  A1: 49 Wörter, 4 Sätze, längster 22
+  A2: 80 Wörter, 4 Sätze, längster 27
+  A3: 66 Wörter, 4 Sätze, längster 22
+  A4: 41 Wörter, 2 Sätze, längster 26
+  A5: 146 Wörter, 11 Sätze, längster 24
+  A6: 68 Wörter, 4 Sätze, längster 28
+  Kapitel 5: 450 Wörter (Budget 450), 6 Absätze, 29 Sätze, Median 15.0, längster 28, kürzester 4
+  Sätze über 32: 0 · Absätze über 250: 0 · Semikola 0 · Abschnittsverweise 0 · Belegklammern 0
+  Satzende auf Ziffer oder Einzelbuchstaben (Zeichen vor dem Schlusspunkt): A5 S1 „…e Hedges' g.“, A6 S2 „…is +0,107 s.“
+  Hinweis auf zusammengezogene Sätze (Satzteilung): keiner
+  Ziffernzahlen (Regex, ohne Zahlwörter): 61
+
+4 Gegenprobe Satznummern gegen Textvorschlag 5 § 4: 29 Einträge
+  übereinstimmend 29 von 29, Sätze im Master 29
+
+Ergebnis: 1 Befunde
+  - Satzende auf Ziffer oder Einzelbuchstaben: A5 S1, A6 S2

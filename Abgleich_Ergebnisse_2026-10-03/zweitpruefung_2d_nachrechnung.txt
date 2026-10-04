@@ -1,0 +1,322 @@
+Zweitpruefung 2 (d): unabhaengige Nachrechnung (zweitpruefung_2d_nachrechnung.py)
+
+0 Eingaenge (MD5)
+  Claude/02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02_Saetze.csv db2501d4b66838c9f15a6249514f4c88
+  Claude/02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02.md c474dbf0f14b89fe581b67f4249d3387
+  Claude/02_Befunde/Abgleich_Ergebnisse_Argumentationsstruktur_2026-10-03.md 5f5ef327e95c76121c36a90de44b4a94
+  Claude/03_Skripte/Abgleich_Ergebnisse_2026-10-03/teiltabelle_2b.csv 2df928fc099818876d62cf0f5aa479dc
+  Claude/03_Skripte/Abgleich_Ergebnisse_2026-10-03/teiltabelle_2c.csv 39e6cb0d950c62ff393f1e647c657890
+  Claude/03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/codes_B.json 9b9ac918bfe7db84c34c4abb1bcd67aa
+  Claude/03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/Quell_PDF_md5.txt e3b30ee1ba30f68e4d73e8907a282777
+  Claude/03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/codebook.md d69930967134fe8238aa20bb3fc033a1
+  geprueft nachzaehlung_2d.py 9021fed2b23fe22854bffe5c08b911f5
+  geprueft nachzaehlung_2d.txt c9b3a4a5622a3d759d45f0ba213cd76e
+  geprueft teiltabelle_2d.csv 22f5f5cdad311dc560379484b1a55354
+  geprueft teiltabelle_2d.md c951e2a808fe327a3b9511a60b7be444
+
+1 Reproduktion (Lauf aus dem gestagten Ordner in /tmp/claude-0/-home-claude/fc9b783f-3d83-59c0-836f-f5e1bc1ba8fe/scratchpad/zweitpruefung_2d/lauf)
+  nachzaehlung_2d.txt neben dem Skript c9b3a4a5622a3d759d45f0ba213cd76e | eigener Lauf c9b3a4a5622a3d759d45f0ba213cd76e | gleich
+  teiltabelle_2d.csv neben dem Skript 22f5f5cdad311dc560379484b1a55354 | eigener Lauf 22f5f5cdad311dc560379484b1a55354 | gleich
+  teiltabelle_2d.md neben dem Skript c951e2a808fe327a3b9511a60b7be444 | eigener Lauf c951e2a808fe327a3b9511a60b7be444 | gleich
+  Ergebnis: bytegleich
+
+2 Korpus: Kern 10 Studien 108 Saetze, erweitert 6 Studien 104 Saetze
+
+3 Nullbefunde im Kern (2d.1, 2d.2)
+  Definition: Kern-Satz mit Primaercode B, der wortwoertlich keinen (signifikanten) Effekt, keine Veraenderung, keinen Unterschied oder die Klasse "trivial" bzw. "nicht substantiell" berichtet. Screening: 28 Kandidaten, jeder mit Handurteil:
+    Lloyd 1.2 B4 | ja SIG | Irrespective of maturation, none of the control groups made any significant changes in performance o …
+    Lloyd 4.1 B4 | ja SIG | Although within-group analysis showed that all training groups improved some aspect of neuromuscular …
+    Lloyd 4.2 B4 | ja SIG KAT | Nearly all the differences in training responses between pre- and post-PHV cohorts were not signific …
+    Hammami 1.1 B4 | ja SIG | The control group did not show any significant differences in anthropometric measures, sprint, agili …
+    Hammami 1.3 B2 | ja SIG | None of the 3 agility tests showed any significant gains for the experimental group (S180°, SBF and  …
+    Hammami 1.4 B2 | ja DIFF | Two of the 3 RCOD scores (RCODbest [SK] RCODtotal) improved significantly for the experimental subjects …
+    Hammami 1.5 B2 | ja SIG | No significant changes of RSSA performance were seen (Table 5).
+    Beato 4.1 B1 | nein "trivial" nur in der Chancenfolge eines Befunds mit Vorteil | After 6 weeks of training, CODJ-G reported substantially better results in long jump test (ES = 0.32 …
+    Beato 4.2 B4 | ja KAT | All the other tests did not report any substantial variation between groups after the protocol.
+    Negra 2019 2.8 B4 | ja KAT | For the remaining tests (ICoD, 10-m, 20-m, and CMJ), trivial between-group differences were demonstr …
+    Negra 2020 1.4 B4 | ja SIG DIFF | After training, the RTG showed significant improvements in all tests (p < 0.05)[SK] the PTG showed sign …
+    Negra 2020 1.5 B4 | ja DIFF | No differences were found in the improvements between experimental groups except in the 1RM half-squ …
+    Aloui 6.2 B1 | nein "similar results" meint gleich signifikante Verbesserungen am linken Bein | For the left support leg, we found similar results (anterior: Δ11%, p < 0.05, d = 0.53[SK] posteromedia …
+    Liu 2.1 B2 | ja SIG | There was not a significant main effect of time on CMJ (F=0.457[SK] p=0.502[SK] ηp²=0.008) excluding the i …
+    Liu 2.4 B2 | ja SIG | Considering the within-group differences, HIIT and HIIT+PJT did not significantly vary from pre to p …
+    Liu 3.3 B1 | ja SIG | Group*time interaction revealed that control group was significantly different from HIIT (mean diffe …
+    Liu 3.4 B2 | ja SIG | Considering the within group differences, HIIT did not significantly varied from pre to post (p=0.47 …
+    Moran 1.5 B2 | ja KAT | Effect sizes (Tables 2 and 3) for the 10 m sprint were trivial in every group.
+    Moran 1.6 B2 | ja KAT | A trivial effect size was also observed in the V+HPT group for the 40 m sprint while small effect si …
+    Moran 1.8 B2 | nein "Largely equivalent small effects" ist eine Groessenaussage, kein Nullbefund | Largely equivalent small effects were observed for the SLJ test while the V+HPT group achieved the l …
+    Sammoud 2.3 B2 | ja SIG | However, for the CG, no significant pre-to-post changes were found for CMJ height (∆0.76%[SK] d = 0.07) …
+    Sammoud 3.2 B2 | ja SIG | A significant small pre-to-post reduction was found for the PJT group (change = -4.75%%, d = 0.43) b …
+    Bouafif 1.1 B4 | ja SIG | All performances were significantly enhanced from pre- to post test (F ≥ 4.3, p ≤ 0.045, η2 ≥ 0.10)  …
+    Bouafif 1.3 B3 | nein nur implizit ueber "Only", kein ausdruecklicher Nullbefund | Only balance with the right foot showed a significant training group and time × age interaction effe …
+    Bouafif 3.1 B3 | ja SIG | About asymmetry, balance asymmetry was effected by training age (F = 15.0, p < 0.001, η2 = 0.29), te …
+    Bouafif 3.2 B3 | ja SIG | Jumping asymmetry was only significantly affected by training group (F = 6.5, p = 0.015, η2 = 0.14), …
+    Bouafif 3.3 B2 | ja SIG | No significant effects were found for change of direction over time, training and age (F ≤ 3.1, p ≥  …
+    Bouafif 4.1 B2 | ja SIG | Post hoc comparison revealed that for balance post hoc comparison revealed that asymmetry increased  …
+  Nullbefundsaetze: 24 in 9 Kernstudien, ohne: Aloui
+  Formen: SIG 18 · DIFF 3 (Hammami 1.4, Negra 2020 1.4, Negra 2020 1.5) · KAT 5 (Lloyd 4.2, Beato 4.2, Negra 2019 2.8, Moran 1.5, Moran 1.6) · zwei Formen 2 (Lloyd 4.2, Negra 2020 1.4)
+  [2d.1] Nullbefundsaetze: eigen 24 | 2d gleich
+  [2d.1] fehlende Signifikanz: eigen 18 | 2d gleich
+  [2d.1] fehlender Unterschied: eigen 3 | 2d gleich
+  [2d.1] Kategorie: eigen 5 | 2d gleich
+  [2d.1] zwei Formen: eigen 2 | 2d gleich
+  [2d.2] Nullbefundsaetze mit Intervall (Spalte ki): eigen 0 | 2d gleich
+  Implizite Nullbefunde, nicht gezaehlt: Bouafif 1.3 ("Only ..."), Moran 1.8 ("Largely equivalent"), Lloyd 2.4, 2.6, 3.6 (Gruppen nur durch Weglassen)
+  Kategorie je Satz und Methodenteil (Volltext, Abschnitt 14):
+    Lloyd 4.2 "trivial": MBI des Reifevergleichs, SWE 0,20 der gepoolten SD (S. 1244), Kategorie mit der groessten Wahrscheinlichkeit, Abb. 1 kennzeichnet T und U. Lesart Kategorie an der SWC: traegt.
+    Negra 2019 2.8 "trivial": ES 0,2 als SWC (PDF-Seite 11). Tab. 4 nennt die vier Vergleiche "most likely similar" bzw. "very likely similar" (ES 0,00 und 0,09) mit Grenzen -0,6 bis 0,6 und -0,7 bis 0,5, die nach der eigenen Intervallregel beide Schwellen schneiden. Lesart Kategorie (nicht Intervall): traegt.
+    Beato 4.2 "not ... any substantial": "substantial" im Methodenteil nicht definiert. Diskussion (Manuskript S. 12, Z. 274 f.): "trivial and unclear differences". Abb. 2 (Forest plot, PDF-Seite 23, Sichtpruefung): Sprint 10, 30 und 40 m "Unclear", Dreisprung rechts "Likely trivial", links "Most likely trivial", 505 "Trivial". Der Satz fasst also drei unclear- und drei trivial-Urteile als "nicht substantiell" zusammen. Lesart "Kategorie an der SWC": nur ungenau, es ist die Verneinung von "substantial" (trivial ODER unclear).
+    Moran 1.5, 1.6 "trivial": keine Schwelle im Text, Tab. 3 nur ES mit 95-%-KI. Lesart Kategorie ohne Schwelle: traegt.
+  Kern-Abbildungen mit "unclear" je Vergleich (nicht Ergebnistext, Sichtpruefung): Lloyd Abb. 1 (U bei COM 20 m, S. 1244), Beato Abb. 2 (3 x Unclear). Im Ergebnistext fassen Lloyd 4.2 ("Nearly all ... trivial") und Beato 4.2 ("not ... any substantial") diese Vergleiche zusammen, ohne "unclear" zu nennen.
+  [2d.2] "unclear" bei Klusemann: eigen 5 | 2d gleich | 2.5, 2.7, 3.2, 3.3, 4.3
+  [2d.2] "unclear" im Kern-Ergebnistext: eigen 0 | 2d gleich
+  Klusemann, B-Saetze mit ± (90-%-Grenzen nach 2.2): 12 (2.2, 2.3, 2.4, 2.5, 2.6, 2.8, 2.9, 3.1, 3.3, 4.1, 4.2, 4.4)
+    2.2 nein | Nullteil "remained similar" ohne Grenzen, die Grenzen gehoeren zur Ausnahme (agility)
+    2.3 nein | Verbesserung "small improvements"
+    2.4 nein | Verbesserung
+    2.5 ja | "Trivial or unclear changes" mit Grenzen
+    2.6 ja | "remained trivial" mit Grenzen
+    2.8 nein | Vorteil "greater improvements"
+    2.9 nein | Vorteil "better"
+    3.1 nein | substantielle Veraenderungen
+    3.3 ja | zweiter Teil "little difference ... unclear" mit Grenzen (Gruppenvergleich)
+    4.1 nein | Verbesserung
+    4.2 nein | substantielle Abnahme
+    4.4 ja | "No clear changes" mit Grenzen
+  [2d.2] Klusemann Nullbefund mit ± im Satz: eigen 2.5, 2.6, 3.3, 4.4 | 2d ABWEICHEND | 2d nennt 2.5, 4.4, 2c.41 nennt 2.2, 2.5, 2.6, 4.4
+
+4 Schlusslogik, Klusemann, Beato, Urteil in der Klammer (2d.3 bis 2d.6)
+  [2d.3] Kern-Befundsaetze mit Intervall (ki): eigen Beato 4.1 | 2d gleich
+  Methodenteile mit SWC 0,2 SD und "unclear" ueber ein Intervall oder die Chancen: Lloyd (S. 1244), Negra 2019 (PDF-Seite 11, dazu eine zweite, klinische Regel ueber Chancen >25 % und >0,5 %), Beato (Chancen >5 %, Manuskript S. 9), erweitert Klusemann (S. 2679). Die uebrigen sieben Kernstudien nennen nach Befund § 2.1 (Hauptverfahren) keine MBI, ihre Volltexte sind nicht gestagt, daher nicht am Volltext geprueft.
+  [2d.4] Klusemann unclear, Gruppenvergleich B1: eigen 2.7, 3.3, 4.3 | 2d gleich
+  [2d.4] Klusemann unclear mit ±: eigen 2.5, 3.3 | 2d gleich
+  [2d.4] Klusemann B-Saetze mit ±: eigen 12 | 2d gleich
+  [2d.6] Klasse neben Grenzen in der Klammer, Kern: eigen Beato 4.1 | 2d gleich
+  [2d.6] dito erweitert: eigen 7 | 2d gleich | Klusemann 2.2, Klusemann 2.4, Klusemann 2.8, Klusemann 2.9, Klusemann 3.1, Klusemann 3.3, Klusemann 4.2
+  [2d.6] "unclear" in der Klammer: eigen Klusemann 3.3 | 2d gleich
+  [2d.6] Klasse in der Klammer ohne Grenzen: eigen 12 | 2d gleich | Kern 0, erweitert Padrón-Cabo 2.1, Padrón-Cabo 2.2, Padrón-Cabo 3.1, Padrón-Cabo 3.2, Padrón-Cabo 3.5, Padrón-Cabo 4.1, Padrón-Cabo 4.2, Padrón-Cabo 5.1, Padrón-Cabo 5.3, Asimakidis 1.3, Asimakidis 1.4, Asimakidis 1.5
+
+5 Beato Tab. 1 (pypdf, PDF-Seiten 20 und 21): Zeilen 14
+  "Unclear": 505 COD test (s) 29/47/24 · groesster Schaden der uebrigen Zeilen: 3 %
+  Regel "unclear, wenn Nutzen UND Schaden ueber 5 %": Widersprueche 0 · Wortlaut des Methodenteils "beneficial OR detrimental >5%": Widersprueche 11 (woertlich angewandt waeren 12 der 14 Zeilen unclear, auch Beato 4.1 mit 71/27/2)
+  [2d.5] Tab. 1 Zeilen: eigen 14 | 2d gleich
+  [2d.5] Tab. 1 unclear: eigen 505 COD test (s) 29/47/24 | 2d gleich
+
+6 Zuordnung paralleler Werte (2d.7, 2d.8)
+  [2d.7] "respectively" Kern: eigen 7 in 5 | 2d gleich
+  [2d.7] mit "respectfully": eigen 8 in 5 | 2d gleich
+  [2d.7] "respectively" erweitert: eigen 11 in 6 | 2d gleich
+  Zuordnungswort im Kern: 9 Saetze in 5 Studien. Ordnet Werte zu: 7 in 4 (Hammami 1.3, Hammami 1.4, Beato 1.1, Beato 2.1, Beato 2.2, Negra 2019 2.3, Liu 2.4), ordnet Objekte zu: 2 (Lloyd 1.1, Beato 3.2)
+  [2d.7] Zuordnungswort Kern (Saetze in Studien): eigen 9 in 5 | 2d gleich | davon nur fuer Werte 7 in 4
+  Bezeichnung je Wert (eigener Kandidatenausdruck, jeder Treffer mit Handurteil): 19 Saetze in 5 Studien: Negra 2020 1.4, Aloui 2.1, Aloui 3.1, Aloui 4.1, Aloui 6.1, Aloui 6.2, Liu 1.1, Liu 2.3, Liu 3.4, Liu 4.3, Liu 4.4, Sammoud 2.1, Sammoud 2.2, Sammoud 2.3, Sammoud 3.2, Bouafif 1.1, Bouafif 1.2, Bouafif 3.1, Bouafif 3.2
+    ausserhalb der Zaehlung: Liu 2.4 (ja, mit Zuordnungswort im ersten Teil), Liu 3.3 (Grenzfall), Sammoud 1.5 (ja, Orientierungssatz O4) · Aloui 5.1 ordnet ueber die Folge zu
+  erweitert, Kandidaten des Ausdrucks ohne Handurteil (Sichtpruefung: Bezeichnung je Wert): 15 (Veith 1.3, Veith 2.1, Veith 2.4, Veith 2.5, Padrón-Cabo 2.1, Padrón-Cabo 2.3, Padrón-Cabo 2.4, Padrón-Cabo 3.1, Padrón-Cabo 3.2, Padrón-Cabo 3.3, Padrón-Cabo 3.4, Padrón-Cabo 4.1, Padrón-Cabo 5.1, Asimakidis 1.3, Asimakidis 1.4), 2d nennt erweitert 5
+    in 2d nicht gezaehlt: 10 (Negra 2020 1.4, Liu 2.3, Liu 3.4, Liu 4.3, Liu 4.4, Sammoud 3.2, Bouafif 1.1, Bouafif 1.2, Bouafif 3.1, Bouafif 3.2)
+  [2d.7] Bezeichnung je Wert Kern: eigen 19 in 5 | 2d ABWEICHEND | 2d: 9 in 3 (Aloui, Liu, Sammoud). Die Folge "Zuordnungswort mit der breitesten Kernbasis" kehrt sich um
+  [2d.8] Bezeichnung je Wert Kern: eigen 19 | 2d ABWEICHEND
+  [2d.8] "=" als Zuordnung im Kern: eigen Lloyd 1.3 | 2d gleich
+  Folge ohne Zuordnungswort, Bezugsfolge im selben Satz: Aloui 5.1, Klusemann 2.3, Klusemann 2.5, Klusemann 4.1 · weitere Kandidaten zwei mit "and" verbundener Werte ohne Zuordnungswort: keine
+  Bezugsfolge im vorigen Satz: kein Treffer (jede Folge oben hat die Bezugsfolge im selben Satz)
+
+7 Ordnung, Befundbloecke und Themenanker (2d.9 bis 2d.11)
+    Lloyd X S S S S S S J J J J J J X X S+J
+    Hammami X S C W W
+    Beato J X
+    Negra 2019 X S S+C X J X S X
+    Negra 2020 X X
+    Aloui J S C W Ba Ba
+    Liu J J J J E E E E S S S S
+    Moran S S C J J
+    Sammoud X X X A A
+    Bouafif X X X Ba Ba J J C A A A A A
+  [2d.9] nach Zielgroesse: eigen Lloyd, Hammami, Aloui, Liu, Moran, Bouafif | 2d gleich
+  [2d.9] nach Analyseschritt: eigen Negra 2019, Negra 2020, Sammoud | 2d gleich
+  [2d.9] Bouafif, B-Saetze ueber alle vorn: eigen 3 | 2d gleich
+  Bloecke: (a) gleicher Absatz und erste Zielgroesse 38 · (b) gleicher Absatz und volle zg 39 · (c) erste Zielgroesse ohne Absatzgrenze 37
+  [2d.10] Befundbloecke (a): eigen 38 | 2d gleich
+  Blockbeginn, eigenes Urteil: Zielgroesse, Befund oder Analyse 10, Modellterm 9, Sammelbefund 6, Themenanker 5, Konnektor 4, Quantor 2, Zeitangabe 1, Gruppe 1
+  Hammami 1.4 "Two of the 3 RCOD scores" ist eine Mengenangabe ueber die Tests einer Zielgroesse wie Hammami 1.3, in Abschnitt 11 von nachzaehlung_2d.txt als "Tests · Teil mit Liste" gefuehrt. Als Quantor gezaehlt: Quantor 2, Zielgroesse/Befund/Analyse/Modellterm 19.
+  [2d.10] Quantor als Blockbeginn: eigen 2 | 2d ABWEICHEND | mit Allquantor oder Verneinung allein 1 (Hammami 1.3), wie 2d
+  [2d.10] Zielgroesse, Befund, Modellterm oder Analyse: eigen 19 | 2d ABWEICHEND | mit Hammami 1.4 als Zielgroesse 20, wie 2d
+  [2d.10] Sammelbefund, Themenanker, Konnektor, Zeitangabe, Gruppe: eigen 6 5 4 1 1 | 2d gleich
+  [2d.11] Themenanker: eigen 14 in 6 | 2d gleich | Grenzfaelle ohne Zaehlung: Lloyd 3.6, Negra 2019 2.2
+  [2d.11] davon Blockbeginn: eigen Negra 2019 2.4, Negra 2019 2.8, Aloui 5.1, Sammoud 3.1, Bouafif 3.1 | 2d gleich
+
+8 Modellergebnis und Einzelgruppen, unadjustierter Schaetzer (2d.12, 2d.13)
+  Modellergebnis zuerst: 4 von 5 (Lloyd, Liu, Bouafif, Sammoud)
+  Grenzfall ausserhalb der Zaehlung: Aloui nennt die Veraenderung der Interventionsgruppe nur in der Klammer des Modellsatzes (Befund § 3.3), dort ebenfalls nach dem Modellterm.
+  [2d.12] Modellergebnis zuerst: eigen 4 von 5 | 2d gleich
+  [2d.13] Kern adjust/crude: eigen 0 | 2d gleich
+  [2d.13] erweitert "unadjusted": eigen 3.3, 4.1, 4.2, 6.4 | 2d gleich
+  [2d.13] beide Schaetzer in einer Klammer: eigen 3.3, 4.1, 6.4 | 2d gleich
+  davon mit Werten je Gruppe im selben Satz: 3.3, 4.1 · ohne Werte je Gruppe (nur "smaller in the intervention group compared with the control group"): 6.4
+  [2d.13] "jeweils ... nach den Werten je Gruppe": eigen 3.3, 4.1 | 2d ABWEICHEND | Hilska 6.4 hat keine Werte je Gruppe, 2c.43 "nach den Inzidenzen je Gruppe" gilt fuer 3.3 und 4.1
+
+9 Schluss, Resuemee, Analyseregel, Datenpruefung, Zusatzanalysen (2d.14 bis 2d.18)
+  [2d.14] letzter Satz B, X, Objekt, Klammer am Satzende: eigen 8 2 7 5 | 2d gleich | Lloyd, Hammami, Negra 2019, Aloui, Bouafif
+  [2d.15] Schluss Z, erweitert O: eigen 0 4 | 2d gleich | Hilska, Klusemann, Rogers, Asimakidis
+  breitere Liste der Wendungen (in summary, to summarize, overall, taken together, in conclusion, we conclude, collectively, in sum, altogether, in general, to sum up): 0 Treffer. "summarized in" nur im Objektsatz Aloui 1.1
+  [2d.16] hypothes / zusammenfassende Wendung (breitere Liste): eigen 0 0 | 2d gleich
+  V2: 7 Saetze · vorn 4 (Sammoud 1.1 sek, Klusemann 1.5 sek, Rogers 1.2, Rogers 1.9) · Befundteil 3 (Lloyd 1.3 sek, Hilska 6.1, Veith 2.3) · danach 0 ()
+  [2d.17] V2 Saetze, danach: eigen 7 0 | 2d gleich
+  V1: 4 Saetze · vorn 2 (Veith 1.1, Asimakidis 1.1) · Befundteil 2 (Hilska 6.1 sek, Veith 2.3 sek) · danach 0 ()
+  [2d.18] V1 Kern, alle, danach: eigen 0 4 0 | 2d gleich
+  Z1: 11 Saetze · vorn 5 (Moran 1.1 sek, Moran 1.2 sek, Moran 1.3 sek, Rogers 1.3 sek, Rogers 1.8 sek) · Befundteil 5 (Liu 2.5 sek, Hilska 4.2 sek, Rogers 2.1 sek, Rogers 2.3 sek, Rogers 2.4 sek) · danach 1 (Asimakidis 1.6)
+  [2d.18] Z1 Saetze, Kern nur sekundaer, danach: eigen 11 True Asimakidis 1.6 | 2d gleich
+  Asimakidis 1.6 traegt B4 und B2 als Sekundaercode: "nach dem letzten Befund" gilt nach dem Primaercode.
+
+10 Folge der Zielgroessen in Saetzen mit mindestens zwei von Sprint (S), Richtungswechsel (C), Sprung (J) (2d.19)
+    Lloyd 1.1 SJ
+    Lloyd 4.3 SJ
+    Hammami 1.1 SC
+    Negra 2019 2.1 CSJ
+    Negra 2019 2.3 SC
+    Negra 2019 2.4 CSJ
+    Negra 2019 2.6 CJ
+    Negra 2019 2.8 CSJ
+    Liu 1.1 JS
+    Sammoud 2.1 JC
+    Sammoud 2.2 JC
+    Sammoud 2.3 JC
+    Bouafif 1.2 JC
+    Bouafif 1.3 JC
+  [2d.19] Saetze, Studien, gleich, abweichend: eigen 14 6 7 Negra 2019 2.3 SC gegen CSJ | 2d gleich
+
+11 Umsetzung (2d.20)
+  [2d.20] O2 Kern: eigen 5 in 5 | 2d gleich
+  [2d.20] Wortwahl: eigen compliance 2 attendance 1 completed 2 adherence 0 | 2d gleich
+  [2d.20] Werte: eigen 82 bis 96 | 2d gleich
+  [2d.20] "adherence" erweitert, "median": eigen Hilska 7.3 | Moran 1.2 | 2d gleich
+  "out of ... possible" je Teilnehmer: Rogers 2.5, Rogers 2.7 · Hilska 7.1 je Team und Woche, Klusemann 1.5 "completed all 12 sessions" (Anzahl Spieler an der vollen Dosis, kein Wert je Spieler)
+
+12 Sammelbefund, Ausnahme, Menge des Quantors (2d.21)
+  [2d.21] B4 Konsens, Codierer B, B primaer: eigen 6 8 7 | 2d gleich
+  [2d.21] "except" in Sammelbefunden: eigen Negra 2020, Bouafif | 2d gleich
+  Quantorwoerter, eigenes breiteres Screening: 35 Kern-Befundsaetze · Liste in nachzaehlung_2d.txt Abschnitt 11: 33 · nur im eigenen Screening: Bouafif 2.1, Bouafif 2.3 · nur in der Liste: keine
+     Bouafif 2.1 | always | Jump performance was always better for the post-PHV group compared to the pre-PHV group.
+     Bouafif 2.3 | always | Also, in the CoD times the times (left and right foot) were always better for the post -PHV group co …
+  Quantor ueber Tests (dieselben 18 Saetze wie 2d): 18 · alle Tests der Studie 9 (Lloyd 1.2, Lloyd 4.1, Lloyd 4.2, Hammami 1.1, Negra 2020 1.4, Negra 2020 1.5, Bouafif 1.1, Bouafif 1.2, Bouafif 1.3) · Teil 9
+  [2d.21] alle / Teil: eigen 9 9 | 2d ABWEICHEND | 2d: 8 / 10, Hammami 1.1 dort als Teil mit Liste, die Liste nennt aber alle Tests
+
+13 Zusatz: Klammer am Satzende mit Objekt (Befund § 3.2 "22 Saetze, 7 Studien, davon 18 Befundsaetze in 5 Studien")
+  Kern: Klammer am Satzende mit Objekt 22 Saetze in 7 Studien, davon Befundsaetze 18 in 5 (Lloyd, Hammami, Negra 2019, Aloui, Bouafif)
+
+14 Volltexte, unabhaengig mit pypdf gelesen
+  PDF Klusemann2012 7de4b88fc68e10c5d20ab7e3792611bd (gleich Quell_PDF_md5.txt)
+  PDF Lloyd2016 e2b04c14b511acb64299832312f02151 (gleich Quell_PDF_md5.txt)
+  PDF Beato2018 34c689b02fd7961ea5165d0e859ebc48 (gleich Quell_PDF_md5.txt)
+  PDF Negra2019 92245a9a6b11c9becc850a3ab39c461e (gleich Quell_PDF_md5.txt)
+  PDF Moran2024 01397ca6a99af9632fe48d412c7cd666 (gleich Quell_PDF_md5.txt)
+  ok    Klusemann2012 PDF-Seite 3 | Qualitative descriptors of standardized effects were assessed using these criter
+  ok    Klusemann2012 PDF-Seite 3 | Precision of estimates is indicated with 90% confidence limits
+  ok    Klusemann2012 PDF-Seite 3 | Effects with confidence limits overlapping the thresholds for small positive and
+  ok    Klusemann2012 PDF-Seite 3 | Clear small or larger effect sizes were defined as substantial.
+  ok    Beato2018 PDF-Seite 9 | Threshold values for benefit or harmful effect was evaluated based on the smalle
+  ok    Beato2018 PDF-Seite 9 | Effect size (ES) based on the Cohen d principle was interpreted as trivial <0.2,
+  ok    Beato2018 PDF-Seite 9 | Data were analyzed for mechanistic (practical) significance using magnitude-base
+  ok    Beato2018 PDF-Seite 9 | >25% to 75%, possible
+  ok    Beato2018 PDF-Seite 10 | If the chance of having beneficial or detrimental performances was >5%, the true
+  ok    Beato2018 PDF-Seite 10 | CODJ-G reported substantially better results in long jump test (ES = 0.32 (small
+  ok    Beato2018 PDF-Seite 10 | with chances for beneficial, trivial, detrimental performance of 71/27/2%) than 
+  ok    Beato2018 PDF-Seite 10 | All the other tests did not report any substantial variation between groups afte
+  ok    Beato2018 PDF-Seite 12 | found a meaningful improvement in 505 COD test (unclear effect).
+  ok    Beato2018 PDF-Seite 13 | all the other parameters showed trivial and unclear differences between the two 
+  ok    Lloyd2016 PDF-Seite 6 | The smallest worthwhile effect was used to determine whether the observed change
+  ok    Lloyd2016 PDF-Seite 6 | The smallest worthwhile effect was calculated as 0.20 of the pooled between-grou
+  ok    Lloyd2016 PDF-Seite 6 | The outcome was deemed unclear when the 90% confidence interval of the mean chan
+  ok    Lloyd2016 PDF-Seite 6 | the inference reported as the category (negative, trivial, or positive) where th
+  ok    Negra2019 PDF-Seite 11 | An effect size of 0.2 was considered to be the “smallest worthwhile change”.
+  ok    Negra2019 PDF-Seite 11 | Uncertainty in the effect sizes was represented by 90% confidence limits.
+  ok    Negra2019 PDF-Seite 11 | Effects were considered unclear if the confidence interval crossed thresholds fo
+  ok    Negra2019 PDF-Seite 11 | Otherwise, the effect was clear and reported as the magnitude of the observed va
+  ok    Negra2019 PDF-Seite 12 | trivial between-group differences were demonstrated (Table 4).
+  ok    Moran2024 PDF-Seite 5 | For informational rather than analytical purposes, we also present group effect 
+  ok    Moran2024 PDF-Seite 5 | Effect sizes (Tables 2 and 3) for the 10 m sprint were trivial in every group.
+  Volltextzitate im Protokoll: 25 · auf der genannten Seite gefunden: 25
+  ok    Klusemann S. 2679 auf PDF-Seite 3
+  ok    Lloyd S. 1244 auf PDF-Seite 6
+  ok    Moran 5 / 12 auf PDF-Seite 5
+  ok    Negra Kopf des akzeptierten Manuskripts PDF-Seite 11
+  ok    Negra Kopf des akzeptierten Manuskripts PDF-Seite 12
+  Negra PDF-Seite 11 Zeilen nur aus einer Zahl (Seitenzahl): 0
+  Negra PDF-Seite 12 Zeilen nur aus einer Zahl (Seitenzahl): 0
+  ok    Beato PDF-Seite 9 Manuskriptseite 8 (erste Zeile "8")
+  ok    Beato PDF-Seite 10 Manuskriptseite 9 (erste Zeile "9")
+  ok    Beato PDF-Seite 12 Manuskriptseite 11 (erste Zeile "11")
+  ok    Beato PDF-Seite 13 Manuskriptseite 12 (erste Zeile "12")
+  ok    Beato Manuskript S. 8, Z. 190 f. | eigene Zeilen (190, 191)
+  ok    Beato Manuskript S. 8, Z. 191 bis 193 | eigene Zeilen (191, 193)
+  ok    Beato Manuskript S. 8, Z. 193 f. | eigene Zeilen (193, 194)
+  ok    Beato Manuskript S. 8, Z. 196 | eigene Zeilen (196, 196)
+  ok    Beato Manuskript S. 9, Z. 197 bis 199 | eigene Zeilen (197, 199)
+  ok    Beato Manuskript S. 9, Z. 215 f. | eigene Zeilen (215, 216)
+  ok    Beato Manuskript S. 9, Z. 216 f. | eigene Zeilen (216, 217)
+  ok    Beato Manuskript S. 9, Z. 217 f. | eigene Zeilen (217, 218)
+  ok    Beato Manuskript S. 11, Z. 255 | eigene Zeilen (255, 255)
+  ok    Beato Manuskript S. 12, Z. 274 f. | eigene Zeilen (274, 275)
+  Moran Seiten 1 bis 5 vor "Results": trivial 0 · smallest worthwhile 0 · threshold 0 · 0.2 0
+  Moran ganzes PDF: "trivial" nur in [5] (Ergebnisse, Seite 5), Schwellenangaben wie "<0.2" oder "smallest worthwhile": 0
+  Beato "substantial" (ohne Leerraum gesucht) auf PDF-Seiten: [2, 10] · im Methodenteil (PDF-Seite 9 und Seite 10 vor "Results"): 0
+  Negra 2019 PDF-Seite 11, zweite Regel fuer "unclear" ueber Chancen: ja (">25%" Nutzen und ">0.5%" Schaden, Odds Ratio etwa 60)
+  Lloyd S. 1244: MBI fuer die Reifegruppen je Trainingsform ("differences in the training response between pre- and post-PHV groups"): ja
+  Lloyd Abb. 1 Legende "U = unclear": ja (Sichtpruefung der Abbildung: U bei COM, 20 m)
+  Beato Abb. 2 (PDF-Seite 23, Bild ohne Textschicht, Sichtpruefung): Long jump Possible, Triple hop right Likely trivial, Triple hop left Most likely trivial, Sprint 10, 30, 40 m Unclear, 505 COD Trivial
+
+15 Zitate der Spalte Korpusaussage am genannten Ort (eigene Ortsauflösung)
+  Zitate geprueft: 43 · am Ort an Wortgrenzen in Folge gefunden: 43
+  Zahlen der Spalte "Zahl laut Befund", die im zitierten Wortlaut fehlen (nur ausserhalb der Zitate belegt):
+     2d.8 | Zahl laut Befund: „=“ 1, Bezeichnungen Aloui 3.1 und 4.1, Folge nur erweitert (3), Bezugsfolge im vorigen Satz 0 | nicht im Zitat: 0
+     2d.14 | Zahl laut Befund: 8 · 2 · 7 · 5 | nicht im Zitat: 8, 7
+     2d.15 | Zahl laut Befund: Z am Schluss 0, erweitert O-Satz 4 | nicht im Zitat: 0, 4
+     2d.16 | Zahl laut Befund: 10 von 10 | nicht im Zitat: 10
+     2d.17 | Zahl laut Befund: V2 7 Sätze, nach dem letzten Befund 0 | nicht im Zitat: 7, 0
+     2d.18 | Zahl laut Befund: V1 Kern 0, erweitert 4 · Z1 Kern 4 sekundär, erweitert 7, danach 1 | nicht im Zitat: 0, 7
+
+16 Teiltabelle 2d: Befundstelle und Ergebnis
+  Massstab vorn: {'Korpus': 17, 'Korpus und Volltext': 4} · Konvention (Fortsetzung 3 § 5 Nr. 6): "Korpus, Fundstelle oder beides"
+  Ergebnis: {'bestätigt': 16, 'abweichend': 1, 'ungenau': 4}
+
+17 Konventionen
+  Semikolon in nachzaehlung_2d.py: 0
+  Semikolon in nachzaehlung_2d.txt: 0
+  Semikolon in teiltabelle_2d.md: 0
+  teiltabelle_2d.csv: 22 Zeilen, Trennzeichen je Zeile [8] · Felder in Anfuehrung 0
+  teiltabelle_2d.md gegen .csv: Zeilen 22 gegen 22 · Zellen gleich True
+  Vorlagen der Spalte Nachzaehlung im Quelltext: 21
+    Vorlage 1 | Satzangaben von Hand: - | Zahlen von Hand: 10
+    Vorlage 2 | Satzangaben von Hand: Lloyd 4.2, Negra 2019 2.8, Beato 4.2, Moran 1.5 und 1.6, (2.5, 4.4) | Zahlen von Hand: 0,2, 2019, 90
+    Vorlage 3 | Satzangaben von Hand: Negra 2019, Beato 4.1 | Zahlen von Hand: 0,2, 2019, 71/27/2
+    Vorlage 4 | Satzangaben von Hand: - | Zahlen von Hand: 2679, 90, 0,2, 2
+    Vorlage 5 | Satzangaben von Hand: 4.1, 4.2 | Zahlen von Hand: 8, 190, 199, 0,2, 0,6, 25, 75, 5, 1, 0,32, 0,05, 0,69, 71/27/2, 12
+    Vorlage 7 | Satzangaben von Hand: Beato 1.1, Hammami 1.3 | Zahlen von Hand: -
+    Vorlage 9 | Satzangaben von Hand: - | Zahlen von Hand: -
+    Vorlage 10 | Satzangaben von Hand: Hammami 1.3, Negra 2019 2.8, Negra 2020 1.4, Lloyd 1.2 | Zahlen von Hand: 2019, 2020
+    Vorlage 12 | Satzangaben von Hand: Negra 2020, 1.4 vor 1.5 | Zahlen von Hand: 2020
+    Vorlage 13 | Satzangaben von Hand: Hilska 4.2 | Zahlen von Hand: -
+    Vorlage 16 | Satzangaben von Hand: - | Zahlen von Hand: 6
+    Vorlage 18 | Satzangaben von Hand: Asimakidis 1.7, Veith 2.3 | Zahlen von Hand: -
+    Vorlage 19 | Satzangaben von Hand: 4.3, 3.1, 3.3, 4.1, 4.2 | Zahlen von Hand: -
+    Vorlage 20 | Satzangaben von Hand: Rogers 2.5 und 2.7, Hilska 7.1 | Zahlen von Hand: -
+    Vorlage 21 | Satzangaben von Hand: Sammoud 1.5 | Zahlen von Hand: -
+
+18 Abgleich eigener Werte mit der Spalte Nachzaehlung
+  ABWEICHEND 2d.2 Klusemann Nullbefund mit ± im Satz | eigen 2.5, 2.6, 3.3, 4.4 | 2d nennt 2.5, 4.4, 2c.41 nennt 2.2, 2.5, 2.6, 4.4
+  ABWEICHEND 2d.7 Bezeichnung je Wert Kern | eigen 19 in 5 | 2d: 9 in 3 (Aloui, Liu, Sammoud). Die Folge "Zuordnungswort mit der breitesten Kernbasis" kehrt sich um
+  ABWEICHEND 2d.8 Bezeichnung je Wert Kern | eigen 19 | 
+  ABWEICHEND 2d.10 Quantor als Blockbeginn | eigen 2 | mit Allquantor oder Verneinung allein 1 (Hammami 1.3), wie 2d
+  ABWEICHEND 2d.10 Zielgroesse, Befund, Modellterm oder Analyse | eigen 19 | mit Hammami 1.4 als Zielgroesse 20, wie 2d
+  ABWEICHEND 2d.13 "jeweils ... nach den Werten je Gruppe" | eigen 3.3, 4.1 | Hilska 6.4 hat keine Werte je Gruppe, 2c.43 "nach den Inzidenzen je Gruppe" gilt fuer 3.3 und 4.1
+  ABWEICHEND 2d.21 alle / Teil | eigen 9 9 | 2d: 8 / 10, Hammami 1.1 dort als Teil mit Liste, die Liste nennt aber alle Tests
+  Werte verglichen: 54 · abweichend: 7
+
+19 Zusatz zu Befund A1: Zaehlung von 2c, wenn 2c.21 und 2c.22 "abgewandelt" sind
+  Claude/03_Skripte/Abgleich_Ergebnisse_2026-10-03/textstand.json bb86ed78a6ba45038d57b8cb4f763fb4
+  Saetze in textstand.json: 29 · Woerter: 450 (Messung: 450)
+  laut § 3.3: wie Muster 5 Saetze mit 91 | nachgerechnet 5 mit 91 | gleich
+  laut § 3.3: abgewandelt 12 Saetze mit 206 | nachgerechnet 12 mit 206 | gleich
+  laut § 3.3: nur erweitert 10 Saetze mit 136 | nachgerechnet 10 mit 136 | gleich
+  laut § 3.3: kein Muster 2 Saetze mit 17 | nachgerechnet 2 mit 17 | gleich
+  laut § 3.3: Kernbaustein 17 Saetze mit 297 | nachgerechnet 17 mit 297 | gleich
+  2c.21 | Satz A5 S7 | 10 Woerter | Status: Korpus: nur erweitert · Fundstelle: erfüllt (2b.19)
+  2c.22 | Satz A5 S8 | 4 Woerter | Status: Korpus: nur erweitert · Fundstelle: erfüllt (2b.19)
+  danach je Satz: abgewandelt 14 mit 220 · nur erweitert 8 mit 122 · Kernbaustein 19 Saetze mit 311 von 450 Woertern
+  Zeilen von 2c: 48 · Korpus jetzt {'abgewandelt': 19, 'wie Muster': 8, 'nur erweitert': 18, 'kein Muster': 3} · danach abgewandelt 21 · nur erweitert 16

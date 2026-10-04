@@ -1,0 +1,196 @@
+{
+  "A1 S1": {
+    "primaer": "X1",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A1 S2": {
+    "primaer": "O1",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A1 S3": {
+    "primaer": "X1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A1 S4": {
+    "primaer": "O4",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A2 S1": {
+    "primaer": "O2",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A2 S2": {
+    "primaer": "O2",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A2 S3": {
+    "primaer": "O2",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A2 S4": {
+    "primaer": "O2",
+    "sekundaer": [
+      "Z1",
+      "V2"
+    ],
+    "zg": "",
+    "deutung": 0
+  },
+  "A3 S1": {
+    "primaer": "O3",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A3 S2": {
+    "primaer": "O3",
+    "sekundaer": [
+      "V2"
+    ],
+    "zg": "",
+    "deutung": 0
+  },
+  "A3 S3": {
+    "primaer": "Z2",
+    "sekundaer": [
+      "O2"
+    ],
+    "zg": "",
+    "deutung": 0
+  },
+  "A3 S4": {
+    "primaer": "Z2",
+    "sekundaer": [],
+    "zg": "",
+    "deutung": 0
+  },
+  "A4 S1": {
+    "primaer": "O5",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A4 S2": {
+    "primaer": "O5",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S1": {
+    "primaer": "X1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S2": {
+    "primaer": "X1",
+    "sekundaer": [
+      "Z1"
+    ],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S3": {
+    "primaer": "B1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S4": {
+    "primaer": "B1",
+    "sekundaer": [
+      "V2"
+    ],
+    "zg": "S",
+    "deutung": 0
+  },
+  "A5 S5": {
+    "primaer": "B1",
+    "sekundaer": [],
+    "zg": "C+J",
+    "deutung": 0
+  },
+  "A5 S6": {
+    "primaer": "B4",
+    "sekundaer": [
+      "B1"
+    ],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S7": {
+    "primaer": "B1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S8": {
+    "primaer": "B1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S9": {
+    "primaer": "B1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S10": {
+    "primaer": "B4",
+    "sekundaer": [
+      "B1"
+    ],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A5 S11": {
+    "primaer": "V2",
+    "sekundaer": [],
+    "zg": "S+C",
+    "deutung": 0
+  },
+  "A6 S1": {
+    "primaer": "V1",
+    "sekundaer": [],
+    "zg": "S",
+    "deutung": 0
+  },
+  "A6 S2": {
+    "primaer": "Z1",
+    "sekundaer": [
+      "B1"
+    ],
+    "zg": "S",
+    "deutung": 0
+  },
+  "A6 S3": {
+    "primaer": "V1",
+    "sekundaer": [],
+    "zg": "X",
+    "deutung": 0
+  },
+  "A6 S4": {
+    "primaer": "Z1",
+    "sekundaer": [
+      "B1",
+      "V2"
+    ],
+    "zg": "X",
+    "deutung": 0
+  }
+}

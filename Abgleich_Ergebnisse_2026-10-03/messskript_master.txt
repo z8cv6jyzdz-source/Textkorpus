@@ -1,0 +1,90 @@
+Manuskriptstand am Master, gemessen mit Manuskriptstand_2026-09-25.py (Fassung 4)
+Quelle: master.docx
+
+Nummerierung im Master: Arbeitsnummern (Einleitung 1, Methodik 4 bis Fazit 7)
+
+Nr.      Arbeit   Abschnitt                                        Wörter Richtw   Diff   Abs  Semi  Verw   Plh  Mark   >32   >40
+Abkürzun          Abkürzungsverzeichnis                                 0                   0     0     0     0     0     0     0
+Abbildun          Abbildungsverzeichnis                                 9                   1     0     0     0     0     0     0
+Tabellen          Tabellenverzeichnis                                   9                   1     0     0     0     0     0     0
+1                 1 Einleitung                                        930   1500            6     0     0     0     0     0     0
+4                 4 Methodik                                            0                   0     0     0     0     0     0     0
+4.1               4.1 Studiendesign                                   291    300     -9     5     0     0     0     0     0     0
+4.2               4.2 Stichprobe                                      208    215     -7     2     0     0     0     0     0     0
+4.3               4.3 Untersuchungsablauf                             340    340      0     6     0     0     0     0     1     0
+4.4               4.4 Leistungsdiagnostik                             155    420            3     0     0     0     0     0     0
+4.4.1             4.4.1 30-m-Sprint mit Zwischenzeiten (5/10 m)        62                   1     0     0     0     0     0     0
+4.4.2             4.4.2 505-Richtungswechseltest (bilateral)          103                   1     0     0     0     0     0     0
+4.4.3             4.4.3 Standweitsprung                                72                   1     0     0     0     0     0     0
+4.5               4.5 Trainingsintervention                             0                   0     0     0     0     0     0     0
+4.5.1             4.5.1 Plyometrisches Heimtrainingsprogramm          418    420     -2     4     0     0     0     0     1     0
+4.5.2             4.5.2 Vergleichs- und Begleitbedingung              150    150      0     2     0     0     0     0     0     0
+4.6               4.6 Adhärenz- und Belastungsmonitoring              154    155     -1     2     0     0     0     0     0     0
+4.7               4.7 Statistische Auswertung                         463    550    -87     6     0     0     0     0     0     0
+5                 5 Ergebnisse                                        450                   6     0     0     0     0     0     0
+6                 6 Diskussion                                          0                   0     0     0     0     0     0     0
+6.1               6.1 Einordnung der Ergebnisse                       700    700      0     6     0     0     0     0     0     0
+6.2               6.2 Methodendiskussion                                0    400   -400     0     0     0     0     0     0     0
+6.3               6.3 Stärken und Limitationen                          0    500   -500     0     0     0     0     0     0     0
+7                 7 Fazit und Ausblick                                  0    250   -250     0     0     0     0     0     0     0
+Literatu          Literaturverzeichnis                                  0                   0     0     0     0     0     0     0
+Anhang            Anhang                                                0                   0     0     0     0     0     0     0
+Anhang A          Anhang A: Fragebogen A (SoSci Survey)                 0                   0     0     0     0     0     0     0
+Anhang B          Anhang B: Übungs- und Videoübersicht                  0                   0     0     0     0     0     0     0
+Anhang C          Anhang C: Standardisiertes Aufwärmprogramm der T     50                   1     1     0     0     0     0     0
+Anhang D          Anhang D: Vereins-Sommerprogramme (anonymisierte      0                   0     0     0     0     0     0     0
+Anhang E          Anhang E: Ethikvotum und Ethikantrag                  0                   0     0     0     0     0     0     0
+Anhang F          Anhang F: Einverständniserklärung und Erhebung d      0                   0     0     0     0     0     0     0
+Anhang G          Anhang G: Sensitivitäts-Poweranalyse und R-Skrip      0                   0     0     0     0     0     0     0
+Anhang H          Anhang H: Ergänzende Tabellen                         0                   0     0     0     7     0     0     0
+
+Budgets je Abschnitt der Gliederung v6 (verbindlich, E4), Schlüssel Arbeitsnummer, Endnummer ab Task 18:
+  1     1     Einleitung                                        930 gegen  1500  (-570)
+  4.1   2.1   Studiendesign                                     291 gegen   300  (-9)
+  4.2   2.2   Stichprobe                                        208 gegen   215  (-7)
+  4.3   2.3   Untersuchungsablauf                               340 gegen   340  (+0)
+  4.4   2.4   Leistungsdiagnostik                               392 gegen   420  (-28)  (mit 4.4.1, 4.4.2, 4.4.3)
+  4.5   2.5   Trainingsintervention und Begleitbedingungen      722 gegen   725  (-3)  (mit 4.5.1, 4.5.2, 4.6)
+  4.7   2.6   Statistische Auswertung                           463 gegen   550  (-87)
+  5     3     Ergebnisse                                        450 gegen   450  (+0)
+  6.1   4.1   Einordnung der Ergebnisse                         700 gegen   700  (+0)
+  6.2   4.2   Methodendiskussion, Stärken und Limitationen        0 gegen   900  (-900)  (mit 6.3)
+  7     5     Fazit und Ausblick                                  0 gegen   250  (-250)
+
+Blockrichtwerte der Vorgabe (Arbeitsnummern, 4.4 = 4.4 + 4.4.1 bis 4.4.3):
+  4.1           291 gegen   300  (-9)
+  4.2           208 gegen   215  (-7)
+  4.3           340 gegen   340  (+0)
+  4.4           392 gegen   420  (-28)
+  4.5.1         418 gegen   420  (-2)
+  4.5.2         150 gegen   150  (+0)
+  4.6           154 gegen   155  (-1)
+  4.7           463 gegen   550  (-87)
+  5.1        ohne eigene Überschrift im Master, im Abschnitt 5 enthalten, Richtwert 230 gilt für die Absatzgruppe im Textvorschlag
+  5.2        ohne eigene Überschrift im Master, im Abschnitt 5 enthalten, Richtwert 220 gilt für die Absatzgruppe im Textvorschlag
+  6.1           700 gegen   700  (+0)
+  6.2             0 gegen   400  (-400)
+  6.3             0 gegen   500  (-500)
+  7               0 gegen   250  (-250)
+
+Einleitung (1): 930 gegen 1500 (-570)
+Kapitel 4 (4.1 bis 4.6): 1953 gegen 2000 (-47)
+Kapitel 4 (4.1 bis 4.7): 2416 gegen 2550 (-134)
+Kapitel 5: 450 gegen 450 (+0)
+Kapitel 6 (6.1, 6.2 mit 6.3): 700 gegen 1600 (-900)
+Kapitel 7: 0 gegen 250 (-250)
+Absatztext Kapitel 1 bis 7 (Arbeitsnummern): 4496 gegen 6350 (-1854)
+Noch nicht geschrieben (0 Wörter, v6-Abschnitte): 6.2 (Endnr. 4.2), 7 (Endnr. 5)
+Budget der ungeschriebenen Abschnitte: 1150
+Semikola außerhalb von Zitierklammern, Kapitel 1 bis 7: 0
+Nummerierte Abschnittsverweise, Kapitel 1 bis 7: 0
+Platzhalter ⟨…⟩ im ganzen Master: 7
+Marker im ganzen Master: 0
+
+Seitenschätzung — Modellrechnung, keine Messung (Parameter aus dem Seitenmodell, Zählweise K1: Einleitung bis Ende des Literaturverzeichnisses, ohne Vorspann und Anhang)
+  Wörter: Einleitung 930 (gemessen), Methodik bis Fazit 4716 (gemessen, wo geschrieben, sonst Budget)
+  Text 16,9 Seiten (Dichte 359 und 330 Wörter je Seite) + Objekte 2,0 + Kapitelenden 2,5 = Textteil 21,4 Seiten
+  Verschiedene Autor-Jahr-Belege im Master: 47 in Kapitel 1 bis 7, 47 ohne Altbestand, Sekundärquellen ohne Eintrag: Draper & Lancaster 1985
+  Einträge im Modell: 49 (höherer Wert aus Ist ohne Altbestand und Basis des Seitenmodells) bei 8,3 je Seite -> Literaturverzeichnis 6,4 Seiten
+  Prognose Einleitung bis Ende Literaturverzeichnis: 27,8 Seiten gegen die Grenze 33 (Schwelle der Tauschregel 32)
+  Kontrolle bleibt die Word-Messung am fertigen Dokument (F17 § 1.1).

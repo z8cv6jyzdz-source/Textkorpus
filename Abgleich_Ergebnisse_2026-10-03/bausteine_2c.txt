@@ -1,0 +1,308 @@
+Teilschritt 2 (c), bausteine_2c.py — Belege der Teiltabelle 2c (Abgleichbefund § 3.3)
+
+0 Eingänge (MD5)
+  textstand.json                                                   bb86ed78a6ba45038d57b8cb4f763fb4
+  eigen.json                                                       9be17451a95ee26cb1ca5834f4cc9a5d
+  abgleich_2a.json                                                 e4dd277510d056abfa72a397353bc34c
+  master_saetze.json                                               4d06c614536fc21c2a2b57b284d9d925
+  konsens_2a.py                                                    55d9bb51a13fcc8ec00ec5370c696eae
+  teiltabelle_2b.csv                                               2df928fc099818876d62cf0f5aa479dc
+  02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02.md c474dbf0f14b89fe581b67f4249d3387
+  02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02_Saetze.csv db2501d4b66838c9f15a6249514f4c88
+  03_Skripte/Argumentationsstruktur_Ergebnisteile_2026-10-02/textbausteine.json 1abdcda3b515cffb9cad106b1d549ba3
+  01_Verfahren/Stilprofil_2026-09-13.md                            de1a8fa4e639735b7999193a0870096c
+  00_Steuerung/Projektanweisungen_Fassung17.md                     0bd441fc265f08a6280d2ad582008f60
+  02_Befunde/Berichtsraster_2026-09-23.md                          527009f05fb25ea0b64abac4aa49bf55
+  04_Uebergaben/Plan_Weitere_Schritte_2026-09-25.md                89fdd838993f66611b5b2fbe238d06eb
+  04_Uebergaben/Textvorschlag_5_2026-09-30.md                      835c3a45dd3a4e702684d05838bc38a1
+  03_Skripte/Abgleich_Ergebnisse_2026-10-03/quellen/Auswertungs_und_Berichtsumfang_2026-09-24.md 521f22ec2656a63dd3409b2633db20f7
+  04_Uebergaben/Uebergabe_Abgleich_Ergebnisse_Fortsetzung2_2026-10-03.md b824c5faa9bc8cd4ddd3a04c2815270b
+
+1 Bausteine des Befunds § 5.1 (19 Zeilen), Kernhäufigkeit gegen textbausteine.json und Anlage
+  Objekt einführen, Subjekt        | Kern laut § 5.1: 5 · 3 | geprüft: OBJ_SUBJEKT 5 Sätze, 3 Studien
+  Objekt einführen, Ort            | Kern laut § 5.1: 10 · 7 | geprüft: OBJ_ORT 10 Sätze, 7 Studien
+  Objekt wieder aufrufen           | Kern laut § 5.1: Wiederaufruf als Klammer am Satzende 11 · 4 (11 von 14 Wiederaufrufen) | geprüft: Wiederaufruf als Klammer 11 von 14, Klammer am Satzende 22 in 7, davon 11 mit Erstnennung
+  Zuteilung, Fluss                 | Kern laut § 5.1: O1 in 3 | geprüft: O1 in 3 Kernstudien
+  Umsetzung                        | Kern laut § 5.1: O2 in 5 | geprüft: O2 in 5 Kernstudien
+  Ausgangslage                     | Kern laut § 5.1: O4 in 7, Test in 4 | geprüft: O4 in 7, Test in 4 Studien
+  Messgüte                         | Kern laut § 5.1: O5 in 1 | geprüft: O5 in 1 Kernstudie
+  Gruppenvergleich im Post-Wert    | Kern laut § 5.1: 2 Studien | geprüft: Post-Wert in 2 Studien
+  Wechselwirkung mit Richtung      | Kern laut § 5.1: 4 Studien mit Wechselwirkung | geprüft: Wechselwirkung in 4 Studien
+  Analyse als Subjekt              | Kern laut § 5.1: 9 · 5 | geprüft: Analyse als Subjekt 9 Sätze, 5 Studien
+  Themenanker                      | Kern laut § 5.1: 14 · 6, als Blockbeginn 5 von 38 | geprüft: Themenanker 14 Sätze, 6 Studien, Blockbeginn 5 von 38
+  Gegenbefund                      | Kern laut § 5.1: als Kontrast 5 · 5 | geprüft: Kontrastmarker 7 Sätze in 5 Studien, davon als Kontrast 5 in 5 (Liu 3.2 und 4.2 formelhaft, Befund § 3.5)
+  Sammelbefund                     | Kern laut § 5.1: B4 in 6 | geprüft: B4 in 6 Kernstudien
+  Sammelbefund mit Ausnahme        | Kern laut § 5.1: in Sammelbefunden 3 · 2 | geprüft: „except“ in 4 Kernsätzen, in Sammelbefunden 3 in 2 Studien (Negra 2020 1.4, 1.5, Bouafif 1.1), dazu Sammoud 1.5 (O4)
+  Nullbefund                       | Kern laut § 5.1: 9 Studien | geprüft: Nullformeln in 9 Kernstudien
+  Datenprüfung                     | Kern laut § 5.1: 0 | geprüft: V1 Kern 0
+  Ereignisse, Gründe               | Kern laut § 5.1: 0 | geprüft: Z2 Kern 0
+  unadjustiert neben adjustiert    | Kern laut § 5.1: 0 | geprüft: „unadjusted“ im Kern 0
+  Intervall im Satz                | Kern laut § 5.1: 1 (Beato 4.1, 90 %) | geprüft: Intervall in einem Kern-Befundsatz nur Beato
+
+2 Sequenzen des Befunds § 5.2 (Codefolge nach der Anlage) gegen die Absätze von Kapitel 5 (Code nach dem Codebuch)
+  Sequenz 1 Orientierung, vollständig (Negra 2019, Absatz 1): O1 O1 O2 X1 O4 O4 · ohne B2 (P2): O1 O1 O2 X1 O4 O4
+  Sequenz 2 Befundblock einer a priori geplanten ANCOVA (Sammoud, Absatz 2 und 3): B1 B2 B2 B1 B2 · ohne B2 (P2): B1 B1
+  Sequenz 3 Befundblock einer Varianzanalyse, je Zielgröße wiederholt (Liu, Absatz 2 bis 4, dreimal gleich gebaut, Statistik als Schema): B2 B1 B1 B2 X1 B2 B1 B1 B2 B2 B1 B1 B2 · ohne B2 (P2): B1 B1 X1 B1 B1 B1 B1
+  Sequenz 4 Ein Satz je Zielgröße (Aloui, Absatz 2 bis 6, Statistik als Schema): B1 B1 B1 B1 B1 B1 · ohne B2 (P2): B1 B1 B1 B1 B1 B1
+  Sequenz 5 Veränderung je Gruppe in Größenklassen, dann Gruppenvergleich (Negra 2019, Absatz 2): B2 B2 B2 B2 B2 B1 B1 B4 · ohne B2 (P2): B1 B1 B4
+  Sequenz 6 Objekte zuerst, Befunde kurz (Moran, ein Absatz): X1 X1 X1 X1 B2 B2 B2 B2 B2 · ohne B2 (P2): X1 X1 X1 X1
+  A1 X1 O1 X1 O4                              | gemeinsame Teilfolge (Länge mit und ohne B2): S1 3/3 · S2 0/0 · S3 1/1 · S4 0/0 · S5 0/0 · S6 2/2
+  A2 O2 O2 O2 O2                              | gemeinsame Teilfolge (Länge mit und ohne B2): S1 1/1 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  A3 O3 O3 Z2 Z2                              | gemeinsame Teilfolge (Länge mit und ohne B2): S1 0/0 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  A4 O5 O5                                    | gemeinsame Teilfolge (Länge mit und ohne B2): S1 0/0 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  A5 X1 X1 B1 B1 B1 B1 B1 B1 B1 B4 V2         | gemeinsame Teilfolge (Länge mit und ohne B2): S1 1/1 · S2 2/2 · S3 6/6 · S4 6/6 · S5 3/3 · S6 2/2
+  A6 V1 Z1 V1 Z1                              | gemeinsame Teilfolge (Länge mit und ohne B2): S1 0/0 · S2 0/0 · S3 0/0 · S4 0/0 · S5 0/0 · S6 0/0
+  Beato Absatz 2 (Umsetzung → Beanspruchung): O2 O3 · Aloui Absatz 1: X1 O5 O4 · Klusemann Absatz 1: O1 O2 O2 O2 O2 O2 O1 · Rogers 2.5 bis 2.7: O2 O2 O2
+
+3 Kapitel 5 je Satz: Code nach dem Codebuch (nach dem Hinweis, wo anders), Satzanfang, Verb, Objektformen
+  A1 S1   X1 (O1)                               | Objekt als Subjekt | zeigt (Präsens) | Subjekt 1 Ort 0 Klammer 0
+  A1 S2   O1                                    | Bezugsmenge (Präpositionalgruppe mit Zahl) | gingen … ein (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A1 S3   X1 (O4)                               | Objekt als Subjekt (zweites elliptisch) | enthält (Präsens) | Subjekt 2 Ort 0 Klammer 0
+  A1 S4   O4                                    | Quantor | lagen (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A2 S1   O2                                    | Gruppe als Subjekt (mit Bezugsmenge) | meldeten (Präteritum) | Subjekt 0 Ort 0 Klammer 1
+  A2 S2   O2                                    | Themenanker (Bezugsgröße) | entsprach (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A2 S3   O2                                    | Zahl als Subjekt | erreichten (Präteritum) | Subjekt 0 Ort 0 Klammer 1
+  A2 S4   O2 (Z1, V2)                           | Themenanker („Als Untergrenzen“) | ergaben sich (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A3 S1   O3                                    | Größe als Subjekt | lag (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A3 S2   O3 (V2)                               | Größe als Subjekt | betrug (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A3 S3   Z2 (O2)                               | Zahl als Subjekt | nannten (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A3 S4   Z2                                    | Themenanker (Gruppe) | wurden … erhoben (Präteritum, Passiv) | Subjekt 0 Ort 0 Klammer 0
+  A4 S1   O5                                    | Größe als Subjekt | überstieg (Präteritum) | Subjekt 0 Ort 0 Klammer 1
+  A4 S2   O5                                    | Größe im Vorfeld (Objekt) | hatte (Präteritum) | Subjekt 0 Ort 0 Klammer 1
+  A5 S1   X1                                    | Objekt als Subjekt | enthält (Präsens) | Subjekt 1 Ort 0 Klammer 0
+  A5 S2   X1 (Z1)                               | Objekt als Subjekt | zeigt (Präsens) | Subjekt 1 Ort 0 Klammer 0
+  A5 S3   B1              · nach Hinweis B4 (B1) | Quantor | lagen (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S4   B1                                    | Modell (Partizip „Adjustiert für …“) | betrug (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S5   B1                                    | Themenanker (Zielgröße) | betrug (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S6   B1              · nach Hinweis B4 (B1) | Quantor (Präpositionalgruppe „Bei keiner Zielgröße“) | war (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S7   B1              · nach Hinweis B4 (B1) | Quantor | war (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S8   B1              · nach Hinweis B4 (B1) | Befund als Subjekt | waren (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S9   B1              · nach Hinweis B4 (B1) | Quantor | zeigte (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A5 S10  B4 (B1)                               | Hypothese als Subjekt | wurde … verworfen (Präteritum, Passiv) | Subjekt 0 Ort 0 Klammer 0
+  A5 S11  V2                                    | Zielgrößen als Subjekt | wurden … beschrieben (Präteritum, Passiv) | Subjekt 0 Ort 0 Klammer 1
+  A6 S1   V1                                    | Themenanker (Zielgröße), Test als Subjekt | verwarf (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A6 S2   Z1 (B1)                               | Analyse als Subjekt | reichte (Präteritum) | Subjekt 0 Ort 0 Klammer 0
+  A6 S3   V1                                    | „übrige“ als Subjekt | wurden … verworfen (Präteritum, Passiv) | Subjekt 0 Ort 0 Klammer 1
+  A6 S4   Z1 (B1, V2)     · nach Hinweis Z1 (B4, V2) | Subjunktion („Soweit …“) | zuließ, änderten, erreichte (Präteritum) | Subjekt 0 Ort 0 Klammer 1
+
+4 Prüfbedingungen der Handurteile je Satz (alle bestanden)
+  A1 S1   Objekt als Subjekt im Präsens · kein Korpussatz verweist auf ein Flussdiagramm · kein Objektsatz des Kerns mit O1 · kein Satz der Anlage zum planmäßigen Ende · Negra 2019 1.1 O1 · „planmäßig“ im Satz
+  A1 S2   O1 · Analysezahl je Gruppe in einem O1-Satz nur Klusemann 1.7 (erweitert), „n =“ im Kern 0 · O1 im Kern: Negra 2019 1.1, 1.2, Negra 2020 1.2, Sammoud 1.1 · Sammoud 1.1 Aufnahme in die Analyse, Negra 2020 1.2 Abschluss · Rogers 2.1 und 2.7 mit Bezugsmenge · Zahlen 31 und 26, keine Gruppen
+  A1 S3   zwei Objekte als Subjekt, keine Ort-Form · X1 mit O4 nur Hilska 1.1, Ort-Form · mehrere Objekte in einem Objektsatz: Kern nur Beato 3.2 (Ort), als Subjekt nur Asimakidis 1.2 · Negra 2019 1.4 Ausgangswerte, Subjekt · Negra 2020 1.3 Ausgangswerte, Ort
+  A1 S4   O4 ohne Test · Ausgangsvergleich mit Signifikanzaussage 5 Sätze in 4 Studien · ohne Signifikanzwort Aloui 1.3 und Negra 2019 1.6 · Ausgangsvergleich in 5 Kernstudien · vorhandene Unterschiede Sammoud 1.3, 1.5, Rogers 1.1 · keine Richtung in einem Satz mit O4 · Quantor und „zugunsten“
+  A2 S1   O2 · „median“ nur in Moran 1.2 (Objektsatz) · Mittel und Häufigkeit der Einheiten erweitert · Klusemann 1.3 verpasste Einheiten, Veith 3.2 Anteil · Erstnennung Tab. H2 in der Klammer · Kern 26 Objekte, 12 zuerst in der Klammer, davon 3 vor dem ersten Befund
+  A2 S2   Rate in Prozent · Raten Lloyd, Beato, Negra 2019 · Themenanker · Rogers 2.6 „notably poor“ · Klusemann 1.5 Schwelle niedriger Umsetzung je Spieler
+  A2 S3   O2 · Schwelle der Umsetzung im Kern Lloyd 1.3 und Sammoud 1.1 · Klusemann 1.5 O2 · Hilska 7.2, 7.4 Anteile an Schwellen (Teams) · Erstnennung Tab. H5 in A2 S3
+  A2 S4   O2 mit Z1 und V2 · Untergrenzen im Korpus 0 · „respectively“ 8 Sätze in 5 Kernstudien · Zuordnung mit „=“ (Lloyd 1.3) und Bezeichnungen in der Klammer (Aloui 3.1, 4.1) · Klusemann 2.3, 2.5, 4.1 Zuordnung über die Folge · A2 S4 ohne Zuordnungswort
+  A3 S1   O3 im Kern nur Beato, M ± SD im Satz · keine Zeile zur Beanspruchung in § 5.1 · ± in Befundsätzen nur erweitert: Klusemann 12, Asimakidis 3
+  A3 S2   O3 mit V2, Solldauer genannt · Load im Korpus 0 · Lloyd 1.3 mit V2
+  A3 S3   Z2, Kern 0 · erweitert nur sekundär (Klusemann, Veith)
+  A3 S4   Z2 mit Gruppe als Themenanker · keine Aussage über nicht erhobene Daten in der Anlage · Klusemann 1.4 Erhebungslücke, O2 · Hilska 2.1, 1.2, 8.1 bis 8.3
+  A4 S1   O5 im Kern nur Aloui, Klammer · Präteritum · Messgüte im Kern 1 Satz · kein Satz der Anlage legt den Messfehler gegen eine Relevanzschwelle · Klusemann 4.6, Padrón-Cabo 1.2, Asimakidis 1.7 O5
+  A4 S2   gültige Versuche im Korpus 0 · Kontrast im selben Satz
+  A5 S1   Objektsatz Subjekt Präsens · Satzende „g.“
+  A5 S2   X1 mit Z1, Subjekt · Moran 1.1 X1 mit Z1
+  A5 S3   B1, nach Hinweis B4 · unadjustiert im Kern 0, erweitert Hilska 3.3 · Richtungsformeln 9 Sätze in 5 Kernstudien · Quantor und „zugunsten“ · Quantor als Blockbeginn 1 von 38
+  A5 S4   Intervall und p, keine Teststatistik · Post-Wert Sammoud und Bouafif · Liu 2.3, 3.3, 4.3 Rohdifferenz mit Einheit und p · Veith 2.5 Intervall · Modell als Partizip
+  A5 S5   zwei Zielgrößen, Themenanker · zwei Intervalle, zwei p · Aloui 4.1 zwei Tests, Wechselwirkung
+  A5 S6   fehlender Nachweis, B1, nach Hinweis B4 · „damit“ im Satz · Hammami 1.3 Einzelbefund mit Quantor · Klusemann 4.4 „No clear changes“, B2
+  A5 S7   Intervall gegen den SESOI · „unclear“ nur Klusemann (erweitert), Kern 0 · Klusemann 2.2 Grenzen, 3.3 Urteil in der Klammer · Nullformel mit Grenzen nur Klusemann 2.2, 2.5, 2.6, 4.4, je Gruppe · Beato 4.1 Schwellen in beide Richtungen
+  A5 S8   B1, vier Wörter · Klusemann 2.7, 4.3 Vergleich als Subjekt mit „unclear“
+  A5 S9   Schwelle p, kein Intervall · Hypothese im Korpus 0 · Regeln mit Entscheidung nur als V2 (Rogers 1.9, Veith 2.3)
+  A5 S10  B4 als Hypothesenentscheidung
+  A5 S11  V2 Kern nur sekundär (Lloyd, Sammoud) · V2 erweitert primär 4 Sätze in 3 Studien · Klammer am Satzende
+  A6 S1   V1, Kern 0, W und p · Verteilungsprüfung nur Asimakidis 1.1 und Veith 1.1 · Veith 2.3 einzelnes Prüfergebnis mit p, V2 mit V1 · Bauform wie Sammoud 3.1
+  A6 S2   Z1, Kern primär 0, Intervall · Satzende „s.“
+  A6 S3   V1, „übrigen“, Klammer · „remaining“ und „other tests“ im Kern Beato 4.2, Negra 2019 2.8 · beide B4 · Ausnahme vor den übrigen: Beato 4.1 → 4.2, Negra 2019 2.6, 2.7 → 2.8, umgekehrt Lloyd 4.2 → 4.3
+  A6 S4   Z1, „Soweit …“, Klammer · Lloyd 1.2 B4 mit vorangestellter Einschränkung · Z1 erweitert: Asimakidis 1.6, Hilska 4.2, Rogers · kein Kern-Ergebnisteil endet mit Z · letzter Satz mit Klammer in 5 von 10 Kernstudien
+
+5 Funktionen ohne Muster: Studien mit dem Code (primär oder sekundär), Kern und erweitert, Sätze in Kapitel 5
+  V1 | Kern 0 [] (primär 0 ) | erweitert 3 ['Asimakidis2022', 'Hilska2021', 'Veith2021'] (primär 2 ) | Kapitel 5 primär ['A6 S1', 'A6 S3'] · sekundär []
+  V2 | Kern 2 ['Lloyd2016', 'Sammoud2024'] (primär 0 ) | erweitert 4 ['Hilska2021', 'Klusemann2012', 'Rogers2020', 'Veith2021'] (primär 3 ) | Kapitel 5 primär ['A5 S11'] · sekundär ['A2 S4', 'A3 S2', 'A6 S4']
+  Z1 | Kern 2 ['Liu2024', 'Moran2024'] (primär 0 ) | erweitert 3 ['Asimakidis2022', 'Hilska2021', 'Rogers2020'] (primär 1 ) | Kapitel 5 primär ['A6 S2', 'A6 S4'] · sekundär ['A2 S4', 'A5 S2']
+  Z2 | Kern 0 [] (primär 0 ) | erweitert 2 ['Klusemann2012', 'Veith2021'] (primär 0 ) | Kapitel 5 primär ['A3 S3', 'A3 S4'] · sekundär []
+  O3 | Kern 1 ['Beato2018'] (primär 1 ) | erweitert 1 ['Hilska2021'] (primär 1 ) | Kapitel 5 primär ['A3 S1', 'A3 S2'] · sekundär []
+  Schlusslogik: Nullformel und Intervall zugleich nur Klusemann 2.2, Intervall der Ausnahme (PB A5 S7) · „hypothes…“ in der Anlage 0 (PB A5 S9)
+  Umsetzung: Schwellen im Kern ['Lloyd2016 1.3', 'Sammoud2024 1.1'] · „lower bound“ in der Anlage 0 · „median“ nur Moran 1.2 (Objektsatz)
+
+6 Prüfpunkte aus Fortsetzungsübergabe 2 § 5 Nr. 4
+  Objektsätze: ['A1 S1', 'A1 S3', 'A5 S1', 'A5 S2'] · Subjekt-Verweise 5 · Ort-Form 0 · Kern Subjekt (5, 3) Ort (10, 7) · erweitert Subjekt ['Asimakidis2022 1.2', 'PadronCabo2025 1.1', 'PadronCabo2025 1.3', 'PadronCabo2025 1.4', 'Rogers2020 1.4'] Ort ['Hilska2021 1.1', 'Rogers2020 1.3', 'Rogers2020 1.7', 'Rogers2020 1.8', 'Veith2021 3.5']
+  Blockanfänge A5: A5 S3 Quantor · A5 S4 Modell (Partizip „Adjustiert für …“) · A5 S5 Themenanker (Zielgröße) · A5 S6 Quantor (Präpositionalgruppe „Bei keiner Zielgröße“)
+  Blockanfänge Kern: {'Sammelbefund (B4)': 6, 'Modellterm': 9, 'Konnektor': 4, 'Quantor ueber die Tests einer Zielgroesse (Einzelbefund)': 1, 'Zielgroesse, Befund oder Analyse als Subjekt': 11, 'Zeitangabe': 1, 'Gruppe als Subjekt': 1, 'Themenanker': 5}
+  Zuordnung paralleler Werte: A2 S1 als … · A2 S3 direkte Paarung · A3 S3 je · A5 S5 Themenanker je Glied · A2 S4 ohne Zuordnungswort · Kern „respectively“ (8, 5)
+  Ausnahmen: Kern „except“ ['Negra2020 1.4', 'Negra2020 1.5', 'Sammoud2024 1.5', 'Bouafif2026 1.1'] · erweitert ['Klusemann2012 2.2', 'Veith2021 1.1']
+  unadjustiert vor adjustiert: A5 S3 vor A5 S4 (2b.6) · Fall C1 in A5 S6 bis S8 · Schlusssatz A6 S4 (2c.29, 2b.13) · Sequenz 2 für A5 (2c.34)
+
+7 Zitatprüfung: jedes Zitat in „…“ der Spalte Ergebnis am genannten Ort (Studie mit Satz, Befund oder Paragraf, Steuerdokument, Registerbericht), ohne Ortsangabe in allen Quelltexten, Groß- und Kleinschreibung gleichgesetzt, an Wortgrenzen, Auslassung „…“ teilt in Bruchstücke
+  gefunden  2c.1    am Ort Moran 1.1                Fig 1 shows …
+  gefunden  2c.1    am Ort Negra 2019 1.4           Table 3 displays …
+  gefunden  2c.1    am Ort befund                   Kein Kern-Ergebnistext verweist auf ein Flussdiagramm.
+  gefunden  2c.1    am Ort Negra 2019 1.1           All subjects received treatment conditions as allocated.
+  gefunden  2c.1    am Ort f17                      Tab. 3 zeigt …
+  gefunden  2c.1    am Ort f17                      Flussdiagramm im Methodikteil – es gehört nach 5.1 (CONSORT 13a).
+  gefunden  2c.1    frei, raster                    planmäßig
+  gefunden  2c.2    am Ort Negra 2019 1.1           All subjects received treatment conditions as allocated.
+  gefunden  2c.2    am Ort Negra 2019 1.2           Three participants … withdrew …
+  gefunden  2c.2    am Ort Negra 2020 1.2           All participants completed the aforementioned training programs.
+  gefunden  2c.2    am Ort Sammoud 1.1              … were consequently fully included in the final analyses.
+  kurz      2c.2    n =
+  gefunden  2c.2    frei, anlage                    Final data analysis included a total number of 36 subjects
+  gefunden  2c.2    am Ort f17                      zur Eingangstestung angetreten
+  gefunden  2c.3    frei, anlage                    Table 3 displays test data for all components of physical fitness assessed at baseline and
+  gefunden  2c.3    frei, anlage                    The player characteristics for the intervention and study groups are provided in Table 1.
+  gefunden  2c.3    am Ort Beato 3.2                Within-group changes for CODJ-G and COD-G are reported in Tables 1 and 2, respectively.
+  gefunden  2c.4    am Ort Liu 1.1                  Baseline comparisons revealed no significant differences between groups …
+  gefunden  2c.4    frei, befund                    No parameter showed between-group differences at baseline.
+  gefunden  2c.4    am Ort Sammoud 1.3              Significant between groups differences were detected for the chronological age, height, bo
+  gefunden  2c.4    am Ort befund                   zugunsten der ⟨Gruppe⟩
+  gefunden  2c.4    am Ort f17                      zugunsten der IG
+  gefunden  2c.5    frei, befund                    alle
+  gefunden  2c.5    am Ort Negra 2019 1.3           The training compliance rate was 95% for the two groups.
+  gefunden  2c.5    frei, befund                    median
+  gefunden  2c.5    frei, tv5                       6,0 vollständige je Spieler
+  gefunden  2c.6    frei, tv5                       Bei zwölf angebotenen Einheiten je Spieler
+  gefunden  2c.6    frei, befund                    notably poor
+  gefunden  2c.6    frei, anlage                    low compliance (<75%)
+  gefunden  2c.6    am Ort register                 Beteiligungsrate
+  gefunden  2c.7    frei, anlage                    above the predetermined attendance threshold
+  gefunden  2c.7    frei, anlage                    more than 85% of the training sessions
+  gefunden  2c.7    frei, anlage                    Only 5 subjects from the video group completed all 12 sessions
+  gefunden  2c.8    frei, befund                    respectively
+  kurz      2c.8    =
+  gefunden  2c.8    frei, anlage                    Both the supervised and video groups had small increases in the number of push-ups perform
+  gefunden  2c.8    frei, tv5                       neun und zwei
+  gefunden  2c.8    frei, tv5                       neun und einer
+  gefunden  2c.8    am Ort f17                      in 5.1 als Sensitivität
+  gefunden  2c.9    am Ort Beato 2.2                The average RPE was 5.5 ± 0.99 and 5.50 ± 1 for CODJ-G and COD-G, respectively.
+  gefunden  2c.9    am Ort befund                   nur in Orientierungssätzen (Beato)
+  gefunden  2c.9    frei, tv5                       als vollständig gemeldet
+  gefunden  2c.10   frei, tv5                       Der mit der Solldauer berechnete …
+  gefunden  2c.10   am Ort f17                      Der sRPE-Load ist CR-10 mal Solldauer.
+  gefunden  2c.11   am Ort Veith 3.3                Having no partner (48.9%) and injury/soreness/sickness (44.7%) were reported as the main r
+  gefunden  2c.11   frei, befund                    ganz
+  gefunden  2c.12   frei, befund                    The training logs did not reveal all causes for the lower compliance in the video group.
+  gefunden  2c.12   frei, anlage                    96% and 95% in the intervention and control groups, respectively
+  gefunden  2c.13   frei, befund                    Reliability is summarized in Table 3.
+  gefunden  2c.13   am Ort Aloui 1.1, 1.2           ICC and CV, including 95% CI, show acceptable reliability for all variables.
+  gefunden  2c.13   frei, befund                    auch
+  gefunden  2c.13   frei, tv5                       Der TE überstieg bei allen Zielgrößen den SESOI
+  gefunden  2c.14   frei, befund                    whereas
+  gefunden  2c.14   frei, befund                    while
+  kurz      2c.14   but
+  gefunden  2c.15   am Ort Negra 2019 1.4           Table 3 displays test data …
+  gefunden  2c.15   frei, tv5                       … sowie Hedges' g.
+  gefunden  2c.16   am Ort Moran 1.1                Fig 1 shows pre- and post-training measures for each participant …
+  gefunden  2c.17   frei, befund                    unadjusted IRR, 0.81 [95% CI, 0.63-1.03]
+  gefunden  2c.17   am Ort Aloui 3.1                with the EG improving more than CG
+  gefunden  2c.17   am Ort Negra 2019 2.6           favored the LPJT group
+  gefunden  2c.17   frei, tv5                       zugunsten der Interventionsgruppe
+  gefunden  2c.17   frei, tv5                       weiter von null entfernt als
+  gefunden  2c.17   am Ort f17                      zugunsten der IG
+  kurz      2c.17   und
+  gefunden  2c.18   frei, befund                    A significant large between-group difference at post-test was observed for CMJ height
+  gefunden  2c.18   frei, anlage                    mean difference: 0.031s
+  gefunden  2c.18   frei, befund                    (1.6 kg, CI 0.1 to 3.2, p = 0.036)
+  gefunden  2c.18   frei, tv5                       Adjustiert für …
+  gefunden  2c.18   am Ort Sammoud 3.1              the ANCOVA analysis indicated …
+  gefunden  2c.18   frei, befund                    signifikant
+  kurz      2c.18   bis
+  gefunden  2c.19   am Ort Sammoud 3.1              Regarding the asymmetry scores, the ANCOVA analysis indicated …
+  gefunden  2c.19   frei, f17                       beim Standweitsprung
+  gefunden  2c.19   frei, stil                      betrug
+  gefunden  2c.19   frei, stil                      Kap. 5: je Zielgröße derselbe Satzbau
+  gefunden  2c.20   am Ort Hammami 1.5              No significant changes of RSSA performance were seen (Table 5).
+  gefunden  2c.20   am Ort Negra 2020 1.5           No differences were found in the improvements between experimental groups
+  gefunden  2c.20   am Ort Negra 2019 2.8           trivial between-group differences
+  gefunden  2c.20   am Ort Klusemann 4.4            No clear changes were found …
+  gefunden  2c.20   frei, anlage                    None of the 3 agility tests showed any significant gains for the experimental group
+  gefunden  2c.20   frei, befund                    kein Gruppenunterschied nachweisbar
+  gefunden  2c.20   am Ort umfang                   Ein Gruppenunterschied ist nicht nachweisbar.
+  gefunden  2c.20   frei, befund                    damit
+  gefunden  2c.21   frei, anlage                    mean ± 90% confidence limits
+  gefunden  2c.21   frei, anlage                    but with little difference compared with the video group
+  gefunden  2c.21   frei, anlage                    unclear
+  gefunden  2c.21   frei, anlage                    unclear
+  gefunden  2c.21   frei, anlage                    with chances for beneficial, trivial, detrimental performance of 71/27/2%
+  gefunden  2c.21   frei, befund                    Keine Studie liest einen Nullbefund über ein Intervall oder gegen eine Relevanzschwelle.
+  gefunden  2c.21   am Ort umfang                   Das Intervall ist mit relevanten Effekten in beide Richtungen vereinbar.
+  gefunden  2c.21   frei, tv5                       Unterschieden
+  gefunden  2c.21   frei, umfang                    Effekten
+  gefunden  2c.22   frei, anlage                    unclear
+  gefunden  2c.22   frei, anlage                    Differences between the supervised and video groups were trivial or unclear in vertical ju
+  gefunden  2c.22   am Ort umfang                   Der Befund ist unschlüssig.
+  gefunden  2c.22   frei, befund                    waren
+  gefunden  2c.22   am Ort tv5                      blieben
+  gefunden  2c.23   am Ort befund                   Entscheidung über eine Hypothese 0
+  gefunden  2c.23   frei, befund                    hypothes…
+  gefunden  2c.23   am Ort Hammami 1.3              None of the 3 agility tests showed any significant gains for the experimental group
+  gefunden  2c.23   am Ort master                   H0 gilt als verworfen, wenn mindestens eine davon einen Vorteil der Interventionsgruppe mi
+  gefunden  2c.24   am Ort Lloyd 1.2                Irrespective of maturation, none of the control groups made any significant changes in per
+  gefunden  2c.24   am Ort befund                   Kein Ergebnisteil endet mit einem Resümee, keiner entscheidet über eine Hypothese.
+  gefunden  2c.24   frei, f17                       Studienprotokoll
+  gefunden  2c.24   frei, stil                      Ethikantrag
+  gefunden  2c.25   am Ort Hilska 6.1               The number of injuries was too small for analyzing each severity group separately.
+  gefunden  2c.25   frei, raster                    laut Studienprotokoll
+  gefunden  2c.25   am Ort master                   alle Teilmengen unter acht Spielern je Gruppe
+  gefunden  2c.25   frei, raster                    ein Satz im Text. Ohne p und ohne Effektstärke, Grund in 4.7
+  gefunden  2c.26   am Ort Asimakidis 1.1           A normal distribution was observed for all data (p > 0.05).
+  gefunden  2c.26   am Ort Veith 1.1                All data except age were normally distributed.
+  gefunden  2c.26   frei, anlage                    ROG impacted upon the statistical model assessing EH-S (p = 0.016)
+  gefunden  2c.26   am Ort Sammoud 3.1              Regarding the asymmetry scores, the ANCOVA analysis indicated …
+  gefunden  2c.26   frei, befund                    das Verfahren nur, wo es den Schätzer unterscheidet
+  gefunden  2c.27   am Ort befund                   Sensitivitätsanalysen 0
+  kurz      2c.27   von … bis
+  gefunden  2c.27   frei, befund                    CI 0.1 to 3.2
+  gefunden  2c.27   frei, tv5                       … bis +0,107 s.
+  gefunden  2c.28   frei, tv5                       Die übrigen … wurden nicht verworfen (Tab. H4)
+  gefunden  2c.28   am Ort Negra 2019 2.8           For the remaining tests (ICoD, 10-m, 20-m, and CMJ), trivial between-group differences wer
+  gefunden  2c.28   am Ort Beato 4.2                All the other tests did not report any substantial variation between groups after the prot
+  gefunden  2c.28   frei, befund                    except
+  gefunden  2c.28   am Ort f17                      geprüft und nicht verworfen
+  gefunden  2c.28   frei, tv5                       mit Tests
+  gefunden  2c.29   frei, anlage                    Significant reductions in the incidence rates were also seen in the subanalyses of acute n
+  gefunden  2c.29   frei, anlage                    Irrespective of maturation, none of the control groups made any significant changes in per
+  gefunden  2c.29   frei, tv5                       und keine davon …
+  gefunden  2c.30   am Ort befund                   Eine feste Folge innerhalb der Orientierung zeigt der Korpus nicht.
+  gefunden  2c.33   frei, befund                    unerwünschte Ereignisse, gültige Versuche und TE post
+  gefunden  2c.35   frei, befund                    except
+  gefunden  2c.35   frei, raster                    Schluss = letzter Befundsatz mit Objektverweis
+  gefunden  2c.36   frei, befund                    geprüft und nicht verworfen
+  gefunden  2c.38   am Ort f17                      in 5.1 als Sensitivität
+  gefunden  2c.41   frei, anlage                    unclear
+  gefunden  2c.41   frei, anlage                    unclear
+  gefunden  2c.41   frei, tv5                       Unterschieden
+  gefunden  2c.41   frei, umfang                    Effekten
+  gefunden  2c.42   am Ort befund                   Kein Ergebnisteil endet mit einem Resümee, keiner entscheidet über eine Hypothese.
+  gefunden  2c.42   frei, f17                       Studienprotokoll
+  gefunden  2c.42   frei, stil                      Ethikantrag
+  gefunden  2c.43   frei, raster                    der Abstand ist der Befund, nicht die Deutung
+  gefunden  2c.44   frei, f17                       in 5.1 als Sensitivität
+  gefunden  2c.45   frei, befund                    zeigt
+  gefunden  2c.45   frei, f17                       enthält
+  gefunden  2c.45   am Ort befund                   … stehen in Tab. ⟨n⟩.
+  gefunden  2c.47   frei, befund                    respectively
+  kurz      2c.47   =
+  kurz      2c.47   als …
+  kurz      2c.47   je
+  gefunden  2c.47   frei, tv5                       neun und zwei
+  gefunden  2c.47   frei, tv5                       neun und einer
+  gefunden  2c.48   frei, befund                    except
+  gefunden  2c.48   frei, befund                    except
+  gefunden  2c.48   am Ort Veith 1.1                All data except age were normally distributed.
+  gefunden  2c.48   frei, stil                      Eine Aussage je Satz, Ausnahmen in einen eigenen Satz.
+  gefunden  2c.48   frei, stil                      erst die Regel …, dann die Einschränkung
+  gefunden  2c.48   frei, befund                    keine eigene Projektregel (K8)
+  158 Zitate: 58 am genannten Ort gefunden, 91 ohne Ortsangabe in den Quelltexten gefunden, 9 unter vier Zeichen
+
+8 Teiltabelle 2c (Registerkennungen verwendet, alle vorhanden: 10c, 10e, 10f, 10h, 10n, 10p, 10s, 10t, 10u, 11h, 12a, 1e, 1f, 2b, 2f, 2g, 3c, 3f, 4a, 5b, 6a, 6b, 6f, 6g, 6i, 6k, 7a, 8a, 9c, 9d, U2, c4, c8, r1)
+  Regel: Funktion ist der Baustein von § 5.1, dem der Satz dient, ohne passende Zeile der Code nach dem Codebuch (§ 2.2, Zählregel § 6.5). Lesart des Intervalls, Urteil und Entscheidung der Schlusslogik (A5 S7 bis S10) zählen als eigene Funktionen, der Befund führt sie gesondert (§ 3.5, § 3.7, § 6.4).
+  Regel: Korpus wie Muster: Kernbaustein der Funktion in derselben Bauform, Gegenstand und Statistik im Satz zählen nicht (§ 5.2). Abgewandelt: Kernbaustein der Funktion, Bauform verändert oder um einen Teil ohne Kernvorbild ergänzt. Nur erweitert: Die Funktion hat im Kern keinen Baustein (Kern 0 oder nur als Sekundärcode), die erweiterte Gruppe hat einen. Kein Muster: weder Kern noch erweiterte Gruppe. Teil B entsprechend für die Zugfolge.
+  Regel: Fundstelle gilt der Projektregel der Funktion (rechte Spalte von § 5.1 oder ihre Fundstelle), Stilbefunde (2b.46, 2b.47) stehen im Ergebnis. Bewusst anders nur mit Entscheidung und Fundstelle. Ein 2b-Verweis steht hinter dem Statuswort, das er belegt, und zeigt auf eine 2b-Zeile mit Maßstab Fundstelle, die dasselbe Statuswort trägt.
+   48 Zeilen · Korpus: wie Muster 8 · abgewandelt 19 · nur erweitert 18 · kein Muster 3 · Fundstelle: erfüllt 35 · teilweise 8 · nicht erfüllt 0 · bewusst anders 3 · keine Regel 2
+  Teil A je Satz: 29 Zeilen · Korpus {'abgewandelt': 12, 'wie Muster': 5, 'nur erweitert': 10, 'kein Muster': 2} · Fundstelle {'erfüllt': 26, 'teilweise': 3}
+  Teil B je Absatz: 6 Zeilen · Korpus {'abgewandelt': 4, 'nur erweitert': 2} · Fundstelle {'bewusst anders': 3, 'erfüllt': 1, 'teilweise': 2}
+  Teil C Funktionen ohne Muster: 9 Zeilen · Korpus {'nur erweitert': 6, 'wie Muster': 1, 'kein Muster': 1, 'abgewandelt': 1} · Fundstelle {'teilweise': 2, 'erfüllt': 7}
+  Teil D Prüfpunkte: 4 Zeilen · Korpus {'wie Muster': 2, 'abgewandelt': 2} · Fundstelle {'erfüllt': 1, 'teilweise': 1, 'keine Regel': 2}
+  Teil A nach Wörtern (450): wie Muster 91 · abgewandelt 206 · nur erweitert 136 · kein Muster 17
+  Teil A je Absatz: A1 A/A/A/A · A2 A/W/A/A · A3 W/W/E/E · A4 A/A · A5 W/W/E/A/A/A/E/E/K/K/E · A6 E/E/E/E (W wie Muster, A abgewandelt, E nur erweitert, K kein Muster)
+  je Satz nach Primärcode: B1 7 · X1 4 · O2 4 · O3 2 · Z2 2 · O5 2 · V1 2 · Z1 2 · O1 1 · O4 1 · B4 1 · V2 1

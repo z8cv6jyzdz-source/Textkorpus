@@ -1,0 +1,520 @@
+{
+ "master": {
+  "pfad": "master.docx",
+  "bytes": 40331,
+  "md5": "2fda214483ffe46d652cb7b7a8882df9",
+  "comments_xml": false,
+  "absaetze_dokument": 188,
+  "pos_5": 128,
+  "pos_6": 135
+ },
+ "absaetze": [
+  {
+   "kennung": "A1",
+   "gruppe": "5.1",
+   "text": "Abb. 1 zeigt den Teilnehmerfluss bis zum planmäßigen Studienende. Von 31 zur Eingangstestung angetretenen Spielern gingen 26 in die Analyse ein. Tab. 2 enthält die Ausgangswerte im Analyseset mit standardisierter Differenz d und Überlappung der Kovariaten, Tab. H3 die Ausgangswerte aller eingangsgetesteten Spieler. Alle Ausgangsunterschiede lagen zugunsten der Interventionsgruppe.",
+   "woerter": 49,
+   "saetze": [
+    {
+     "id": "A1 S1",
+     "absatz": "A1",
+     "nr": 1,
+     "text": "Abb. 1 zeigt den Teilnehmerfluss bis zum planmäßigen Studienende.",
+     "woerter": 9,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 1,
+     "objekte": [
+      "Abb. 1"
+     ]
+    },
+    {
+     "id": "A1 S2",
+     "absatz": "A1",
+     "nr": 2,
+     "text": "Von 31 zur Eingangstestung angetretenen Spielern gingen 26 in die Analyse ein.",
+     "woerter": 12,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 2,
+     "objekte": []
+    },
+    {
+     "id": "A1 S3",
+     "absatz": "A1",
+     "nr": 3,
+     "text": "Tab. 2 enthält die Ausgangswerte im Analyseset mit standardisierter Differenz d und Überlappung der Kovariaten, Tab. H3 die Ausgangswerte aller eingangsgetesteten Spieler.",
+     "woerter": 22,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 2,
+     "objekte": [
+      "Tab. 2",
+      "Tab. H3"
+     ]
+    },
+    {
+     "id": "A1 S4",
+     "absatz": "A1",
+     "nr": 4,
+     "text": "Alle Ausgangsunterschiede lagen zugunsten der Interventionsgruppe.",
+     "woerter": 6,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    }
+   ],
+   "zeichengleich_json": true
+  },
+  {
+   "kennung": "A2",
+   "gruppe": "5.1",
+   "text": "Die 18 zugeteilten Spieler der Interventionsgruppe meldeten 92 Einheiten als vollständig, 6 als teilweise und 13 als nicht durchgeführt, im Median 6,0 vollständige je Spieler (Tab. H2). Bei zwölf angebotenen Einheiten je Spieler entsprach das einer Umsetzungsrate von 42,6 % (45,4 % mit den teilweise durchgeführten). Zehn Spieler erreichten mindestens sechs, drei mindestens neun Einheiten (Tab. H2 und Tab. H5). Als Untergrenzen ergaben sich mit höchstens zwei Meldungen je Programmwoche neun und zwei Spieler, nach verschiedenen Einheitennummern neun und einer.",
+   "woerter": 80,
+   "saetze": [
+    {
+     "id": "A2 S1",
+     "absatz": "A2",
+     "nr": 1,
+     "text": "Die 18 zugeteilten Spieler der Interventionsgruppe meldeten 92 Einheiten als vollständig, 6 als teilweise und 13 als nicht durchgeführt, im Median 6,0 vollständige je Spieler (Tab. H2).",
+     "woerter": 27,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 6,
+     "objekte": [
+      "Tab. H2"
+     ]
+    },
+    {
+     "id": "A2 S2",
+     "absatz": "A2",
+     "nr": 2,
+     "text": "Bei zwölf angebotenen Einheiten je Spieler entsprach das einer Umsetzungsrate von 42,6 % (45,4 % mit den teilweise durchgeführten).",
+     "woerter": 19,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 2,
+     "objekte": []
+    },
+    {
+     "id": "A2 S3",
+     "absatz": "A2",
+     "nr": 3,
+     "text": "Zehn Spieler erreichten mindestens sechs, drei mindestens neun Einheiten (Tab. H2 und Tab. H5).",
+     "woerter": 14,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 2,
+     "objekte": [
+      "Tab. H2",
+      "Tab. H5"
+     ]
+    },
+    {
+     "id": "A2 S4",
+     "absatz": "A2",
+     "nr": 4,
+     "text": "Als Untergrenzen ergaben sich mit höchstens zwei Meldungen je Programmwoche neun und zwei Spieler, nach verschiedenen Einheitennummern neun und einer.",
+     "woerter": 20,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    }
+   ],
+   "zeichengleich_json": true
+  },
+  {
+   "kennung": "A3",
+   "gruppe": "5.1",
+   "text": "Die Beanspruchung der 92 als vollständig gemeldeten Einheiten lag auf der CR-10-Skala bei 2,9 ± 0,9 (Median 3,0, Spanne 0,0 bis 5,0). Der mit der Solldauer berechnete sRPE-Load betrug 106,7 ± 35,9 AU (Median 110,8, Spanne 0,0 bis 199,7). Zwölf Meldungen von neun Spielern nannten Schmerzen oder Probleme, davon je zwei zu nicht und zu teilweise durchgeführten Einheiten. Für die Kontrollgruppe wurden solche Angaben nicht erhoben.",
+   "woerter": 66,
+   "saetze": [
+    {
+     "id": "A3 S1",
+     "absatz": "A3",
+     "nr": 1,
+     "text": "Die Beanspruchung der 92 als vollständig gemeldeten Einheiten lag auf der CR-10-Skala bei 2,9 ± 0,9 (Median 3,0, Spanne 0,0 bis 5,0).",
+     "woerter": 22,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 7,
+     "objekte": []
+    },
+    {
+     "id": "A3 S2",
+     "absatz": "A3",
+     "nr": 2,
+     "text": "Der mit der Solldauer berechnete sRPE-Load betrug 106,7 ± 35,9 AU (Median 110,8, Spanne 0,0 bis 199,7).",
+     "woerter": 17,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 5,
+     "objekte": []
+    },
+    {
+     "id": "A3 S3",
+     "absatz": "A3",
+     "nr": 3,
+     "text": "Zwölf Meldungen von neun Spielern nannten Schmerzen oder Probleme, davon je zwei zu nicht und zu teilweise durchgeführten Einheiten.",
+     "woerter": 19,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    },
+    {
+     "id": "A3 S4",
+     "absatz": "A3",
+     "nr": 4,
+     "text": "Für die Kontrollgruppe wurden solche Angaben nicht erhoben.",
+     "woerter": 8,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    }
+   ],
+   "zeichengleich_json": true
+  },
+  {
+   "kennung": "A4",
+   "gruppe": "5.1",
+   "text": "Der typische Messfehler überstieg auch bei der Abschlusstestung in allen Zielgrößen den SESOI (Tab. 1). Mehr gültige Versuche je Spieler hatte im Mittel beim 30-m-Sprint und Standweitsprung zu beiden Zeitpunkten die Interventionsgruppe, beim 505-Test je Seite überwiegend die Kontrollgruppe (Tab. H1).",
+   "woerter": 41,
+   "saetze": [
+    {
+     "id": "A4 S1",
+     "absatz": "A4",
+     "nr": 1,
+     "text": "Der typische Messfehler überstieg auch bei der Abschlusstestung in allen Zielgrößen den SESOI (Tab. 1).",
+     "woerter": 15,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 1,
+     "objekte": [
+      "Tab. 1"
+     ]
+    },
+    {
+     "id": "A4 S2",
+     "absatz": "A4",
+     "nr": 2,
+     "text": "Mehr gültige Versuche je Spieler hatte im Mittel beim 30-m-Sprint und Standweitsprung zu beiden Zeitpunkten die Interventionsgruppe, beim 505-Test je Seite überwiegend die Kontrollgruppe (Tab. H1).",
+     "woerter": 26,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 3,
+     "objekte": [
+      "Tab. H1"
+     ]
+    }
+   ],
+   "zeichengleich_json": true
+  },
+  {
+   "kennung": "A5",
+   "gruppe": "5.2",
+   "text": "Tab. 3 enthält für die konfirmatorischen Zielgrößen die unadjustierten und adjustierten Gruppendifferenzen im Post-Wert sowie Hedges' g. Abb. 2 zeigt je Zielgröße Ausgangswert und reifeadjustierten Abschlusswert jedes Spielers mit den Modelllinien beider Gruppen. Alle unadjustierten Differenzen lagen zugunsten der Interventionsgruppe und weiter von null entfernt als die adjustierten. Adjustiert für Ausgangswert und Reifestatus betrug die Differenz Interventions- minus Kontrollgruppe beim 30-m-Sprint −0,045 s (95-%-Konfidenzintervall −0,199 bis +0,110 s, p = 0,557). Beim 505-Seitenmittel betrug sie −0,012 s (−0,085 bis +0,061 s, p = 0,734), beim Standweitsprung −0,1 cm (−8,7 bis +8,6 cm, p = 0,987). Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar. Jedes Intervall war mit relevanten Unterschieden in beide Richtungen vereinbar. Die Befunde waren unschlüssig. Keine adjustierte Differenz zeigte mit p < 0,05 einen Vorteil der Interventionsgruppe. Die Nullhypothese wurde nicht verworfen. Die 5- und 10-m-Sprintzeiten und die 505-Seitenwerte wurden nur beschrieben (Tab. H3).",
+   "woerter": 146,
+   "saetze": [
+    {
+     "id": "A5 S1",
+     "absatz": "A5",
+     "nr": 1,
+     "text": "Tab. 3 enthält für die konfirmatorischen Zielgrößen die unadjustierten und adjustierten Gruppendifferenzen im Post-Wert sowie Hedges' g.",
+     "woerter": 17,
+     "ende_ziffer_oder_buchstabe": true,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 1,
+     "objekte": [
+      "Tab. 3"
+     ]
+    },
+    {
+     "id": "A5 S2",
+     "absatz": "A5",
+     "nr": 2,
+     "text": "Abb. 2 zeigt je Zielgröße Ausgangswert und reifeadjustierten Abschlusswert jedes Spielers mit den Modelllinien beider Gruppen.",
+     "woerter": 16,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 1,
+     "objekte": [
+      "Abb. 2"
+     ]
+    },
+    {
+     "id": "A5 S3",
+     "absatz": "A5",
+     "nr": 3,
+     "text": "Alle unadjustierten Differenzen lagen zugunsten der Interventionsgruppe und weiter von null entfernt als die adjustierten.",
+     "woerter": 15,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    },
+    {
+     "id": "A5 S4",
+     "absatz": "A5",
+     "nr": 4,
+     "text": "Adjustiert für Ausgangswert und Reifestatus betrug die Differenz Interventions- minus Kontrollgruppe beim 30-m-Sprint −0,045 s (95-%-Konfidenzintervall −0,199 bis +0,110 s, p = 0,557).",
+     "woerter": 23,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 6,
+     "objekte": []
+    },
+    {
+     "id": "A5 S5",
+     "absatz": "A5",
+     "nr": 5,
+     "text": "Beim 505-Seitenmittel betrug sie −0,012 s (−0,085 bis +0,061 s, p = 0,734), beim Standweitsprung −0,1 cm (−8,7 bis +8,6 cm, p = 0,987).",
+     "woerter": 24,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 9,
+     "objekte": []
+    },
+    {
+     "id": "A5 S6",
+     "absatz": "A5",
+     "nr": 6,
+     "text": "Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar.",
+     "woerter": 8,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    },
+    {
+     "id": "A5 S7",
+     "absatz": "A5",
+     "nr": 7,
+     "text": "Jedes Intervall war mit relevanten Unterschieden in beide Richtungen vereinbar.",
+     "woerter": 10,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    },
+    {
+     "id": "A5 S8",
+     "absatz": "A5",
+     "nr": 8,
+     "text": "Die Befunde waren unschlüssig.",
+     "woerter": 4,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    },
+    {
+     "id": "A5 S9",
+     "absatz": "A5",
+     "nr": 9,
+     "text": "Keine adjustierte Differenz zeigte mit p < 0,05 einen Vorteil der Interventionsgruppe.",
+     "woerter": 12,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 1,
+     "objekte": []
+    },
+    {
+     "id": "A5 S10",
+     "absatz": "A5",
+     "nr": 10,
+     "text": "Die Nullhypothese wurde nicht verworfen.",
+     "woerter": 5,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 0,
+     "objekte": []
+    },
+    {
+     "id": "A5 S11",
+     "absatz": "A5",
+     "nr": 11,
+     "text": "Die 5- und 10-m-Sprintzeiten und die 505-Seitenwerte wurden nur beschrieben (Tab. H3).",
+     "woerter": 12,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 4,
+     "objekte": [
+      "Tab. H3"
+     ]
+    }
+   ],
+   "zeichengleich_json": true
+  },
+  {
+   "kennung": "A6",
+   "gruppe": "5.2",
+   "text": "Beim 30-m-Sprint verwarf der Shapiro-Wilk-Test die Normalverteilung der Residuen (W = 0,915, p = 0,034). Das nachträglich festgelegte Bootstrap-Konfidenzintervall der adjustierten Differenz reichte dort von −0,177 bis +0,107 s. Die übrigen mit Tests geprüften Voraussetzungen wurden nicht verworfen (Tab. H4). Soweit die Fallzahl eine Inferenz zuließ, änderten weder der beobachtende Per-Protokoll-Vergleich noch die sechs Sensitivitätsanalysen die Einordnung als unschlüssig, und keine davon erreichte p < 0,05 (Tab. H4).",
+   "woerter": 68,
+   "saetze": [
+    {
+     "id": "A6 S1",
+     "absatz": "A6",
+     "nr": 1,
+     "text": "Beim 30-m-Sprint verwarf der Shapiro-Wilk-Test die Normalverteilung der Residuen (W = 0,915, p = 0,034).",
+     "woerter": 15,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 3,
+     "objekte": []
+    },
+    {
+     "id": "A6 S2",
+     "absatz": "A6",
+     "nr": 2,
+     "text": "Das nachträglich festgelegte Bootstrap-Konfidenzintervall der adjustierten Differenz reichte dort von −0,177 bis +0,107 s.",
+     "woerter": 14,
+     "ende_ziffer_oder_buchstabe": true,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 2,
+     "objekte": []
+    },
+    {
+     "id": "A6 S3",
+     "absatz": "A6",
+     "nr": 3,
+     "text": "Die übrigen mit Tests geprüften Voraussetzungen wurden nicht verworfen (Tab. H4).",
+     "woerter": 11,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 1,
+     "objekte": [
+      "Tab. H4"
+     ]
+    },
+    {
+     "id": "A6 S4",
+     "absatz": "A6",
+     "nr": 4,
+     "text": "Soweit die Fallzahl eine Inferenz zuließ, änderten weder der beobachtende Per-Protokoll-Vergleich noch die sechs Sensitivitätsanalysen die Einordnung als unschlüssig, und keine davon erreichte p < 0,05 (Tab. H4).",
+     "woerter": 28,
+     "ende_ziffer_oder_buchstabe": false,
+     "verschmolzen": false,
+     "semikola": 0,
+     "abschnittsverweise": 0,
+     "belegklammern": 0,
+     "ziffernzahlen": 2,
+     "objekte": [
+      "Tab. H4"
+     ]
+    }
+   ],
+   "zeichengleich_json": true
+  }
+ ],
+ "messung": {
+  "woerter": 450,
+  "budget": 450,
+  "absaetze": 6,
+  "saetze": 29,
+  "median_satzlaenge": 15,
+  "laengster_satz": 28,
+  "kuerzester_satz": 4,
+  "saetze_ueber_32": 0,
+  "absaetze_ueber_250": 0,
+  "semikola": 0,
+  "abschnittsverweise": 0,
+  "belegklammern": 0,
+  "ende_ziffer_oder_buchstabe": [
+   "A5 S1",
+   "A6 S2"
+  ],
+  "verschmolzen": [],
+  "ziffernzahlen": 61
+ },
+ "befunde": [
+  "Satzende auf Ziffer oder Einzelbuchstaben: A5 S1, A6 S2"
+ ]
+}

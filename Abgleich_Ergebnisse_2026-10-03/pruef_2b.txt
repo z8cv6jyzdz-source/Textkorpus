@@ -1,0 +1,362 @@
+Teilschritt 2 (b), pruef_2b.py — Belege der Teiltabelle 2b (Abgleichbefund § 3.2)
+
+0 Eingänge (MD5)
+  textstand.json                                                 bb86ed78a6ba45038d57b8cb4f763fb4
+  eigen.json                                                     9be17451a95ee26cb1ca5834f4cc9a5d
+  abgleich_2a.json                                               e4dd277510d056abfa72a397353bc34c
+  master_saetze.json                                             4d06c614536fc21c2a2b57b284d9d925
+  konsens_2a.py                                                  55d9bb51a13fcc8ec00ec5370c696eae
+  02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02.md c474dbf0f14b89fe581b67f4249d3387
+  02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02_Saetze.csv db2501d4b66838c9f15a6249514f4c88
+  00_Steuerung/Projektanweisungen_Fassung17.md                   0bd441fc265f08a6280d2ad582008f60
+  01_Verfahren/Stilprofil_2026-09-13.md                          de1a8fa4e639735b7999193a0870096c
+  01_Verfahren/Gliederung_2026-09-28.md                          e50ad22049affdae0d54832a72d2b429
+  02_Befunde/Berichtsraster_2026-09-23.md                        527009f05fb25ea0b64abac4aa49bf55
+  04_Uebergaben/Plan_Weitere_Schritte_2026-09-25.md              89fdd838993f66611b5b2fbe238d06eb
+  04_Uebergaben/Textvorschlag_5_2026-09-30.md                    835c3a45dd3a4e702684d05838bc38a1
+  04_Uebergaben/Textvorschlag_6.1_2026-10-02.md                  c3de94d3bbfaa82f32f98fff09ea8364
+  04_Uebergaben/Uebergabe_Abgleich_Ergebnisse_Argumentationsstruktur_2026-10-02.md fc1e1d52b1c427b77f8501a691c9c735
+  03_Skripte/Abgleich_Ergebnisse_2026-10-03/quellen/Auswertungs_und_Berichtsumfang_2026-09-24.md 521f22ec2656a63dd3409b2633db20f7
+  02_Befunde/Kennzahlen_2026-09-25_Werte.csv                     25bca501fb60680c584fc6e7796dc31e
+  03_Skripte/Abgleich_Ergebnisse_2026-10-03/blind/memo_B.md      cd1759f79a739529ffe219ef367357c9
+  03_Skripte/Abgleich_Ergebnisse_2026-10-03/register_pruefung.md d1de8266e4267d88c94366eb6963a397
+
+1 Umfang und Gewicht (Prüfkatalog Nr. 1, Prüfpunkt Befundanteil und Rahmen)
+  Wörter 450 · Absätze 6 · Sätze 29 · Median Satzlänge 15 · längster Satz 28
+  Codegruppen nach Codebuch (Wörter): {'O': 178, 'V': 38, 'X': 64, 'B': 101, 'Z': 69} · B 22,4 % · O 39,6 % · V+Z 23,8 %
+  Kern Befundanteil (B in % der Wörter): Median 72,5 · Spanne 26,4 bis 100,0
+  Nachrechnung: Kern ohne B2-Sätze (Zähler und Nenner ohne B2): Median 56,8 · Spanne 0,0 bis 100,0
+    Lloyd2016      B   78,3 · ohne B2   69,9
+    Hammami2016    B  100,0 · ohne B2  100,0
+    Beato2018      B   26,4 · ohne B2   26,4
+    Negra2019      B   60,2 · ohne B2   36,8
+    Negra2020      B   38,8 · ohne B2   38,8
+    Aloui2022      B   91,1 · ohne B2   91,1
+    Liu2024        B   84,5 · ohne B2   69,4
+    Moran2024      B   58,2 · ohne B2    0,0
+    Sammoud2024    B   66,7 · ohne B2   44,3
+    Bouafif2026    B  100,0 · ohne B2  100,0
+  Kernstudien ohne B2 unter Kapitel 5 (22,4 %): Moran2024 (alle Befundsätze B2) · nächste darüber: Beato2018 26,4 %
+  Rasterzeilen der Sätze vor dem ersten Befund (Textvorschlag 5 § 4):
+    A1 S1   5.1.1 P · 5.1.4 P° · 5.1.3 P
+    A1 S2   5.1.2 E
+    A1 S3   5.1.5 P · 5.2.7 E
+    A1 S4   5.1.5 P
+    A2 S1   5.1.6 P
+    A2 S2   5.1.6 P
+    A2 S3   5.1.6 P · 5.1.11 E · 5.2.6 E
+    A2 S4   5.1.6 P
+    A3 S1   5.1.7 E
+    A3 S2   5.1.7 E
+    A3 S3   5.1.8 P
+    A3 S4   5.1.8 P
+    A4 S1   5.1.9 E
+    A4 S2   5.1.9 E
+    A5 S1   5.2.1 P · 5.2.2 P
+    A5 S2   5.2.8 E
+
+2 Rahmen vor dem ersten Befund (K1)
+  Kapitel 5: erster Befund A5 S3 · 16 Sätze · 269 Wörter = 59,8 %
+  Codes vor dem ersten Befund: X1 O1 X1 O4 O2 O2 O2 O2 O3 O3 Z2 Z2 O5 O5 X1 X1 · Z-Sätze: A3 S3, A3 S4 (27 Wörter)
+  Lloyd2016       Kern             vor dem ersten Befund: X1
+  Hammami2016     Kern             vor dem ersten Befund: —
+  Beato2018       Kern             vor dem ersten Befund: O4 O2 O3 X2 X1
+  Negra2019       Kern             vor dem ersten Befund: O1 O1 O2 X1 O4 O4
+  Negra2020       Kern             vor dem ersten Befund: O4 O1 X1
+  Aloui2022       Kern             vor dem ersten Befund: X1 O5 O4
+  Liu2024         Kern             vor dem ersten Befund: O4 X1
+  Moran2024       Kern             vor dem ersten Befund: X1 X1 X1 X1
+  Sammoud2024     Kern             vor dem ersten Befund: O2 X1 O4 O4 O4
+  Bouafif2026     Kern             vor dem ersten Befund: —
+  Hilska2021      RCT_Praevention  vor dem ersten Befund: X1 O3 O2 O2
+  Klusemann2012   Setting          vor dem ersten Befund: O1 O2 O2 O2 O2 O2 O1
+  Veith2021       Setting          vor dem ersten Befund: V1 O4 O4
+  Rogers2020      Setting          vor dem ersten Befund: O4 V2 X1 X1 O1 O1 X1 X1 V2
+  PadronCabo2025  Ergaenzung       vor dem ersten Befund: X1 O5 X1 X1
+  Asimakidis2022  Ergaenzung       vor dem ersten Befund: V1 X1
+  Kern mit Rahmen vor dem ersten Befund: 8 von 10 · Z2 primär vor dem ersten Befund: keiner · Z2 sekundär vor dem ersten Befund: Klusemann2012 1.1, Klusemann2012 1.3, Klusemann2012 1.6
+
+3 Objekte (K3)
+  Abb. 1  in Kapitel 5: A1 S1                  · vor Kapitel 5: — · Erstnennung in Kapitel 5: A1 S1 · Objektsatz · vor dem ersten Befund
+  Tab. 2  in Kapitel 5: A1 S3                  · vor Kapitel 5: — · Erstnennung in Kapitel 5: A1 S3 · Objektsatz · vor dem ersten Befund
+  Tab. H3 in Kapitel 5: A1 S3, A5 S11          · vor Kapitel 5: — · Erstnennung in Kapitel 5: A1 S3 · Objektsatz · vor dem ersten Befund
+  Tab. H2 in Kapitel 5: A2 S1, A2 S3           · vor Kapitel 5: — · Erstnennung in Kapitel 5: A2 S1 · Klammer am Satzende · vor dem ersten Befund
+  Tab. H5 in Kapitel 5: A2 S3                  · vor Kapitel 5: — · Erstnennung in Kapitel 5: A2 S3 · Klammer am Satzende · vor dem ersten Befund
+  Tab. 1  in Kapitel 5: A4 S1                  · vor Kapitel 5: 4.4 A3 S1 · Erstnennung in Kapitel 5: A4 S1 · Klammer am Satzende · vor dem ersten Befund
+  Tab. H1 in Kapitel 5: A4 S2                  · vor Kapitel 5: 4.4 A2 S3 · Erstnennung in Kapitel 5: A4 S2 · Klammer am Satzende · vor dem ersten Befund
+  Tab. 3  in Kapitel 5: A5 S1                  · vor Kapitel 5: — · Erstnennung in Kapitel 5: A5 S1 · Objektsatz · vor dem ersten Befund
+  Abb. 2  in Kapitel 5: A5 S2                  · vor Kapitel 5: — · Erstnennung in Kapitel 5: A5 S2 · Objektsatz · vor dem ersten Befund
+  Tab. H4 in Kapitel 5: A6 S3, A6 S4           · vor Kapitel 5: 4.7 A5 S1 · Erstnennung in Kapitel 5: A6 S3 · Klammer am Satzende · ab dem ersten Befund
+  zuerst in Kapitel 5 genannt: 7 (Abb. 1, Tab. 2, Tab. H3, Tab. H2, Tab. H5, Tab. 3, Abb. 2), davon per Objektsatz 5 · per Klammer 2 (Tab. H2, Tab. H5)
+  Wiederaufrufe aus Kapitel 4: Tab. 1, Tab. H1, Tab. H4 · Wiederaufrufe im Kapitel: A2 S3 Tab. H2 Klammer am Satzende · A5 S11 Tab. H3 Klammer am Satzende · A6 S4 Tab. H4 Klammer am Satzende
+  Objektsätze: A1 S1, A1 S3, A5 S1, A5 S2 (Ort-Form 0 ) · Klammer am Satzende: A2 S1, A2 S3, A4 S1, A4 S2, A5 S11, A6 S3, A6 S4 · in Befundsätzen: 0
+  Folge der Textobjekte, die Kapitel 5 zuerst nennt: Abb. 1, Tab. 2, Tab. 3, Abb. 2
+
+4 Zielgrößenfolge (K5, Prüfkatalog Nr. 3, F17 § 5.1)
+  A4 S2   O5 SJC
+  A5 S5   B1 CJ
+  A5 S11  V2 SC
+  Bezüge: B5 S1 SCJ · B5 S3 SCJ · B5 S4 — · 4.1 A4 S2 SCJ · 4.7 A3 S1 SCJ · Titel (F17 § 2) SCJ · 6.1 A3 S1 S · 6.1 A4 S1 C · 6.1 A5 S1 J
+  Methodik 4.4.1 bis 4.4.3 erste Sätze: 4.4.1 S · 4.4.2 C · 4.4.3 J
+  Blockfolge der Befundsätze: S C J · erste Nennung im Befundtext (B-Sätze): S CJ
+
+5 Befundordnung und Blockbeginn (K4, K6)
+  A5 S3   B1  Quantor                                              | Alle unadjustierten Differenzen lagen zugunsten der Interventionsgrupp
+  A5 S4   B1  Modell (Partizip „Adjustiert für …“)                 | Adjustiert für Ausgangswert und Reifestatus betrug die Differenz Inter
+  A5 S5   B1  Themenanker (Zielgröße)                              | Beim 505-Seitenmittel betrug sie −0,012 s (−0,085 bis +0,061 s, p = 0,
+  A5 S6   B1  Quantor (Präpositionalgruppe „Bei keiner Zielgröße“) | Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar.
+  A5 S7   B1  Quantor                                              | Jedes Intervall war mit relevanten Unterschieden in beide Richtungen v
+  A5 S8   B1  Befund als Subjekt                                   | Die Befunde waren unschlüssig.
+  A5 S9   B1  Quantor                                              | Keine adjustierte Differenz zeigte mit p < 0,05 einen Vorteil der Inte
+  A5 S10  B4  Hypothese als Subjekt                                | Die Nullhypothese wurde nicht verworfen.
+  A5 S11  V2  Zielgrößen als Subjekt                               | Die 5- und 10-m-Sprintzeiten und die 505-Seitenwerte wurden nur beschr
+  Sätze mit B2 (Veränderung je Gruppe): 0 · Blöcke nach abgleich_2a: X:A5 S3 · S:A5 S4 · C:A5 S5 · X:A5 S6–A5 S7–A5 S8–A5 S9–A5 S10
+
+6 Nullbefunde, Sammelbefunde, Kontraste (K7 bis K9)
+  Nullbefund A5 S6 · fehlender Nachweis („kein Gruppenunterschied nachweisbar“)
+  Nullbefund A5 S7 · Intervall gegen den SESOI („mit relevanten Unterschieden in beide Richtungen vereinbar“)
+  Nullbefund A5 S8 · Fall der Schlusslogik („unschlüssig“)
+  Nullbefund A5 S9 · Entscheidungsregel („Keine … mit p < 0,05 einen Vorteil“)
+  Nullbefund A5 S10 · Hypothesenentscheidung („nicht verworfen“)
+  Nullbefund A6 S4 · Absicherung („änderten weder … noch … die Einordnung“, „keine davon erreichte p < 0,05“)
+  Quantor A1 S4   K O4  · KH O4  | Alle
+  Quantor A4 S1   K O5  · KH O5  | allen
+  Quantor A5 S2   K X1 Z1 · KH X1 Z1 | jedes
+  Quantor A5 S3   K B1  · KH B4 B1 | Alle
+  Quantor A5 S6   K B1  · KH B4 B1 | keiner
+  Quantor A5 S7   K B1  · KH B4 B1 | Jedes
+  Quantor A5 S9   K B1  · KH B4 B1 | Keine
+  Quantor A6 S4   K Z1 B1+V2 · KH Z1 B4+V2 | keine
+  Quantor in A5 S2 über Spieler (Objektsatz), in A6 S4 über Analysen (memo_B), A1 S4 und A4 S1 über alle sieben Zielgrößen, A5 S3, S6, S7, S9 über die drei konfirmatorischen
+  B4 nach Codebuch: A5 S10 · nach den Hinweisen: A5 S3, A5 S6, A5 S7, A5 S8, A5 S9, A5 S10, A6 S4 · Kontrastkonnektoren: keine
+  Memo B zu A5 S6: „Nach Wortlaut erfasst „bei keiner Zielgröße“ alle Zielgrößen der Studie.“
+
+7 Schluss (K10, Prüfkatalog Nr. 6)
+  Kapitel 5: letzter Satz A6 S4 K Z1 B1+V2 · KH Z1 B4+V2 · Klammer am Satzende ja · letzter Befundsatz A5 S10 ohne Klammer, danach A5 S11, A6 S1, A6 S2, A6 S3, A6 S4
+  Lloyd2016       Kern             letzter Satz B3           Klammer am Satzende
+  Hammami2016     Kern             letzter Satz B2           Klammer am Satzende
+  Beato2018       Kern             letzter Satz X1           
+  Negra2019       Kern             letzter Satz B4 (B1)      Klammer am Satzende
+  Negra2020       Kern             letzter Satz X1           
+  Aloui2022       Kern             letzter Satz B1 (B2)      Klammer am Satzende
+  Liu2024         Kern             letzter Satz B2           
+  Moran2024       Kern             letzter Satz B2           
+  Sammoud2024     Kern             letzter Satz B2           
+  Bouafif2026     Kern             letzter Satz B3 (B1)      Klammer am Satzende
+  Hilska2021      RCT_Praevention  letzter Satz O3           
+  Klusemann2012   Setting          letzter Satz O5           
+  Veith2021       Setting          letzter Satz X1 (O2)      Klammer am Satzende
+  Rogers2020      Setting          letzter Satz O2           
+  PadronCabo2025  Ergaenzung       letzter Satz B3           
+  Asimakidis2022  Ergaenzung       letzter Satz O5           Klammer am Satzende
+  Kern: letzter Satz nach Gruppe {'B': 8, 'X': 2} · mit Klammer am Satzende 5 (Lloyd2016, Hammami2016, Negra2019, Aloui2022, Bouafif2026) · erweitert {'O': 4, 'X': 1, 'B': 1}
+
+8 Tempus (Prüfkatalog Nr. 6)
+  Präsens: A1 S1, A1 S3, A5 S1, A5 S2 · Präteritum: 25 Sätze
+
+9 Projektregeln am Satz (P1 bis P12)
+  P1   Satzprüfung bestanden 
+  P2   Satzprüfung bestanden 
+  P3   Satzprüfung bestanden 
+  P4   Satzprüfung bestanden 
+  P5   Satzprüfung bestanden 
+  P6   Satzprüfung bestanden 
+  P7   Satzprüfung bestanden 
+  P8   Satzprüfung bestanden (P8: Inhalt, Wortlaut der Formel gesondert)
+  P9   Satzprüfung bestanden 
+  P10  Satzprüfung bestanden 
+  P11  Satzprüfung bestanden 
+  P12  Satzprüfung bestanden 
+  P2 Prozentzeichen in: A2 S2, A5 S4 (Umsetzungsrate, 95-%-Konfidenzintervall)
+  P3 Treffer (Wert, Stellen Wert/untere/obere Grenze): −0,045 s (3, 3, 3) · −0,012 s (3, 3, 3) · −0,1 cm (1, 1, 1)
+  P8 Formel „geprüft und nicht verworfen“ wörtlich in A6 S3: nein · Wortlaut: Die übrigen mit Tests geprüften Voraussetzungen wurden nicht verworfen (Tab. H4).
+  P10 K-10.12: 12 · 8 · 2 · 2 · 9 Spieler · K-10.4: 18 · K-10.9: 15 (Berichtsort A · Tab. H2 Anmerkung)
+  P11 „Zehn Spieler“ in A2 S3 ist K-10.10 (Schwelle sechs), keine Gruppengröße (TV5 § 5)
+  P12 Median 15 · längster 28 · Semikola 0 · adverbiale Konnektoren 0
+
+10 Umsetzung (Prüfkatalog Nr. 8)
+  Kapitel 5: A2 S1, A2 S2, A2 S3, A2 S4 · 80 Wörter = 17,8 % · vor dem ersten Befund: True
+  Lloyd2016       Kern             O2  11,8 % · im Befundteil
+  Beato2018       Kern             O2  10,9 % · vor
+  Negra2019       Kern             O2   4,1 % · vor
+  Sammoud2024     Kern             O2   8,0 % · vor
+  Hilska2021      RCT_Praevention  O2  21,2 % · nach, vor
+  Klusemann2012   Setting          O2  15,6 % · vor
+  Veith2021       Setting          O2  15,0 % · nach
+  Rogers2020      Setting          O2  15,5 % · nach
+  Gründe nicht durchgeführter Einheiten: nicht erfasst (Textvorschlag 6.1 § 9, Vormerkung 6.3 G6)
+
+11 Absicherung (Prüfkatalog Nr. 9)
+  Kapitel 5 nach dem letzten Befundsatz: A5 S11 V2 · A6 S1 V1 · A6 S2 Z1 · A6 S3 V1 · A6 S4 Z1
+  Lloyd2016       Kern             1.3 O2(V2) im Befundteil
+  Liu2024         Kern             2.5 X1(Z1) im Befundteil
+  Moran2024       Kern             1.1 X1(Z1) vor · 1.2 X1(Z1) vor · 1.3 X1(Z1) vor
+  Sammoud2024     Kern             1.1 O2(O1+V2) vor
+  Hilska2021      RCT_Praevention  4.2 B1(Z1) im Befundteil · 6.1 V2(V1) im Befundteil
+  Klusemann2012   Setting          1.5 O2(O1+V2) vor
+  Veith2021       Setting          1.1 V1 vor · 2.3 V2(V1) im Befundteil
+  Rogers2020      Setting          1.2 V2(O1) vor · 1.3 X1(Z1) vor · 1.8 X1(Z1) vor · 1.9 V2(O2) vor · 2.1 B1(Z1) im Befundteil · 2.3 B1(Z1) im Befundteil · 2.4 B2(Z1) im Befundteil
+  Asimakidis2022  Ergaenzung       1.1 V1 vor · 1.6 Z1(B4+B2) nach
+  V2 im Korpus (primär oder sekundär): 7 Sätze · im Befundteil 3, vor 4 · nach dem letzten Befund keiner · Kapitel 5: A5 S11 (V2) nach A5 S10
+  Zwischen dem 30-m-Befund (A5 S4) und seiner Einschränkung (A6 S1) stehen 7 Sätze
+  Plan § 3 Task 11: … Abb. 2 mit einem einführenden Satz, Voraussetzungen …, Sensitivitäten als Sammelsatz …, deskriptive Zielgrößen in einem Satz (Tab. H3), Antragskriterium deskriptiv, letzter Satz mit Objektverweis, kein Resümee
+  Kapitel 5: Tab. 3 (A5 S1) → Abb. 2 (A5 S2) → Befunde (A5 S3 bis S10) → deskriptive Zielgrößen (A5 S11) → Voraussetzungen (A6 S1 bis S3) → Sammelsatz (A6 S4) · Antragskriterium in A2 S3 (Register 9c)
+
+12 Anschluss an 6.1 (Prüfkatalog Nr. 10, Zuordnung nach Abgleichbefund § 1.4)
+   24 Sätze von 6.1, alle im Master, jedes Objekt, auf das sie bauen, wird in Kapitel 5 verwiesen: Abb. 2, Tab. 2, Tab. 3, Tab. H2, Tab. H4, Tab. H5
+  A1 berührt 1 Satz: 6.1 A1 S4
+  A2 berührt 3 Sätze: 6.1 A2 S2, 6.1 A2 S4, 6.1 A2 S5
+  A3 berührt 5 Sätze: 6.1 A6 S1, 6.1 A6 S2, 6.1 A6 S3, 6.1 A6 S4, 6.1 A6 S5
+  A4 berührt 0 Sätze: — (6.1 nimmt den Absatz nicht auf)
+  A5 berührt 11 Sätze: 6.1 A1 S2, 6.1 A1 S3, 6.1 A1 S4, 6.1 A1 S5, 6.1 A1 S6, 6.1 A3 S3, 6.1 A3 S6, 6.1 A4 S3, 6.1 A4 S4, 6.1 A5 S3, 6.1 A5 S4
+  A6 berührt 2 Sätze: 6.1 A2 S5, 6.1 A2 S6
+  nur über Objekte: 6.1 A3 S2, 6.1 A4 S2, 6.1 A5 S2, 6.1 A5 S8 · dazu Teile von 6.1 A2 S2 (K-10.15), A2 S6 (K-08.1), A6 S2 (K-10.9, Bezugsmenge 15)
+
+13 Weitere Aussagen des Befunds
+  § 4 Budget: 450 von 6.350 = 7,09 % · Gliederung v6: Ergebnisse 450, Objekte „Abb. 1, Tab. 2, Abb. 2, Tab. 3“ · Kapitel 5 im Master 450
+  Folge der Textobjekte, die Kapitel 5 zuerst nennt: Abb. 1, Tab. 2, Tab. 3, Abb. 2 · Tab. 1 seit 4.4 eingeführt
+  § 1.1 vier Fragen: Umsetzung ohne Aufsicht A2 S1, A2 S2, A2 S3, A2 S4 · unerwünschte Ereignisse A3 S3, A3 S4 · Intervalle A5 S4, A5 S5, A6 S2 · Messgüte gegen den SESOI A4 S1
+
+14 Stil (Stilprofil Teil 2, 3, 5 und 7, Registerergänzung r1)
+  eine Aussage je Satz (Handurteil, Regel: Werte derselben Größe in der Klammer zählen nicht als weitere Aussage · zwei gleichrangige Hauptsätze mit Komma ohne Konjunktion, der zweite elliptisch, fallen unter die Komma-Ausnahme von Teil 3 · eine zweite Aussage, die anders angehängt ist, und eine vorangestellte Bedingung zählen gesondert):
+    A1 S3   komma: Tab. 2 …, Tab. H3 … (zweiter Hauptsatz elliptisch)
+    A2 S1   angehängt: Status der Meldungen, nach dem Komma der Median je Spieler (andere Größe)
+    A2 S3   komma: zehn …, drei … (zweiter Hauptsatz elliptisch)
+    A2 S4   komma: zwei Zählregeln (zweiter Hauptsatz elliptisch)
+    A3 S3   angehängt: „davon je zwei …“ (Status der Meldungen)
+    A4 S2   komma: Interventionsgruppe …, Kontrollgruppe … (zweiter Hauptsatz elliptisch)
+    A5 S3   angehängt: zweite Angabe mit „und“ an dasselbe Verb (Richtung, Abstand zur adjustierten)
+    A5 S5   komma: zwei Zielgrößen (zweiter Hauptsatz elliptisch)
+    A6 S4   Bedingung im vorangestellten Nebensatz und zwei Hauptsätze mit „und“ („Soweit …, änderten …, und keine davon …“)
+  eine Aussage: 20 (davon mit Werten derselben Größe in der Klammer: A2 S2, A3 S1, A3 S2) · Komma-Ausnahme: 5 (A1 S3, A2 S3, A2 S4, A4 S2, A5 S5) · zweite Aussage angehängt: 3 (A2 S1, A3 S3, A5 S3) · Bedingung im Nebensatz: A6 S4
+  Kommas außerhalb der Klammern (Komma mit Leerzeichen, Dezimalkommas zählen nicht): A1 S3 1 · A2 S1 2 · A2 S3 1 · A2 S4 1 · A3 S3 1 · A4 S2 1 · A5 S5 1 · A6 S4 2
+  Registerprüfung r1 nannte: A2 S1, A2 S4, A5 S5, A6 S4
+  Verbots- und Deutungswörter (Stilprofil Teil 3 und 5, Plan § 3 Task 11, TV5 § 0): keine
+  Themenanker am Satzanfang: A2 S2, A2 S4, A3 S4, A5 S5, A6 S1 · Klammerverweise am Satzende: 7 von 29 Sätzen, alle Objektverweise (Zielwert Teil 2 etwa jeder sechste, bei 29 Sätzen etwa fünf)
+  je Zielgröße derselbe Satzbau: A5 S4 „betrug die Differenz … beim 30-m-Sprint … (95-%-KI …, p = …)“, A5 S5 „betrug sie … (…, p = …), beim Standweitsprung … (…, p = …)“
+
+15 Prüfpunkte aus Schritt 1 (Bezugsmenge, Satzenden)
+  A3 S3: Zwölf Meldungen von neun Spielern nannten Schmerzen oder Probleme, davon je zwei zu nicht und zu teilweise durchgeführten Einheiten.
+  Mengen: zugeteilte IG-Spieler K-10.4 = 18 · Spieler mit mindestens einer Meldung K-10.9 = 15 · neun von 18 = 50,0 % · neun von 15 = 60,0 %
+  6.1 A6 S2: Mehr als die Hälfte der Spieler mit Meldungen nannte mindestens einmal Schmerzen oder Probleme, überwiegend zu vollständig durchgeführten Einheiten.
+  Satzende auf einen einzelnen Kleinbuchstaben: A5 S1, A6 S2 · auf eine Ziffer: keiner
+
+16 Zitatprüfung der angeführten Fundstellen (Leerraum vereinheitlicht)
+  gefunden befund     Rahmen vor dem ersten Befund: Orientierung oder Objektsätze
+  gefunden befund     Den Ausgangsvergleich der Gruppen vor die Befunde stellen
+  gefunden befund     Die Objekte des Rahmens vor dem ersten Befund mit einem Objektsatz einführen, als Subjekt oder Ort im Präsens,
+  gefunden befund     Das Modellergebnis vor Vergleiche einzelner Gruppen stellen
+  gefunden befund     Eine Reihenfolge der Zielgrößen mit einem Bezug im Text (Methodik oder Titel), bei Wiederkehr dieselbe
+  gefunden befund     Für Kapitel 5 zählt die Blockfolge, weil K5 die Blöcke ordnet.
+  gefunden befund     Befunde nach Zielgröße ordnen, den Block mit Zielgröße, Befund, Modellterm oder der Analyse beginnen
+  gefunden befund     Nullbefunde ausdrücklich berichten
+  gefunden befund     Sammelbefund mit Quantor, wo er über alle Zielgrößen gilt, Ausnahmen benennen
+  gefunden befund     Gegenbefunde und Kontraste am Ort des Befunds, den sie einschränken
+  gefunden befund     Schluss mit einem Befund- oder Objektsatz, kein Resümee, kein Beleg, Befunde im Präteritum
+  gefunden befund     → Absicherung (Voraussetzungen, Sensitivität) → letzter Befundsatz mit Objektklammer.
+  gefunden befund     Steht je Zielgröße das Modellergebnis vor allem anderen?
+  gefunden befund     Gilt die Reihenfolge Sprint → Richtungswechsel → Sprung durchgehend, und deckt sie sich mit Titel, Hypothesen,
+  gefunden befund     Endet das Kapitel mit einem Befundsatz und Objektklammer? Steht ein Satz im Präsens außerhalb der Objektsätze?
+  gefunden befund     Ausgangslage ohne Signifikanztest, Größe und Überlappung im Objekt
+  gefunden befund     Keine Veränderung innerhalb der Gruppen mit Test, keine Prozentveränderung
+  gefunden befund     Adjustierte Differenz mit 95-%-KI und p im Satz, g im Objekt
+  gefunden befund     Unadjustiert neben adjustiert (CONSORT 18)
+  gefunden befund     Keine Größenklasse, Einordnung über die Schlusslogik
+  gefunden befund     Nullbefund als „kein Gruppenunterschied nachweisbar“ mit Schätzer, Intervall und Fall
+  gefunden befund     Entscheidung über H0 im Ergebnisteil
+  gefunden befund     Verworfene Voraussetzung mit Prüfgröße, p und Bootstrap-KI, übrige „geprüft und nicht verworfen“
+  gefunden befund     Sensitivität und Per-Protokoll in einem Sammelsatz (R1)
+  gefunden befund     Ereignisse und Schmerzmeldungen je Status, Kontrollgruppe ohne Instrument (CONSORT 19)
+  gefunden befund     Analysezahl je Gruppe und Zielgröße im Objekt (CONSORT 16, Abb. 1, Tab. 3)
+  gefunden befund     Satzlänge im Median 14 bis 18, höchstens 32 Wörter, kein Semikolon
+  gefunden befund     Kapitel 5 hat 450 Wörter Budget (Gliederung v6), 7,1 % von 6.350.
+  gefunden befund     Umsetzung ohne Aufsicht, unerwünschte Ereignisse, Intervalle, Messgüte gegen eine kleinste bedeutsame Veränder
+  gefunden befund     Interviewbefunde sind eine eigene Textsorte, Kapitel 5 hat keine
+  gefunden befund     Kein Ergebnisteil endet mit einem Resümee, keiner entscheidet über eine Hypothese.
+  gefunden befund     Für die adjustierte Differenz mit Intervall im Satz ist Veith et al. (2021, 2.5) das nächste Vorbild
+  gefunden f17        keine Signifikanztests auf Baseline-Unterschiede (15)
+  gefunden f17        adjustierte und unadjustierte Differenz nebeneinander (18)
+  gefunden f17        **Reihenfolgetreue:** Sprint → Richtungswechsel → Sprung in den Hypothesen, den Ergebnissen und der Diskussion
+  gefunden f17        Verbindliche Formulierung in 5.2: „geprüft und nicht verworfen“, 4.7 kündigt sie nicht an.
+  gefunden f17        Der Fließtext nennt Teststatistik, Richtung und den Fall der Schlusslogik
+  gefunden f17        Flussdiagramm im Methodikteil – es gehört nach 5.1 (CONSORT 13a).
+  gefunden f17        Ordnung: Orientierungszug (Teilnehmerfluss, Adhärenz, Ausgangswerte, Messgüte – zugleich Einführung der Objekt
+  gefunden f17        Korrekt: „kein Gruppenunterschied nachweisbar“, mit Punktschätzer, Konfidenzintervall und der Einordnung nach 
+  gefunden f17        wie bisher: drei konfirmatorische Zielgrößen plus Fluss, Adhärenz, Ausgangswerte
+  gefunden f17        **Thema:** Effekte eines sechswöchigen videobasierten, gerätefreien plyometrischen Heimtrainings während der S
+  gefunden plan       je Zielgröße in fester Reihenfolge ein Block (adjustierte Differenz, KI, p, g als Verweis auf Tab. 3, Fall nac
+  gefunden plan       Antragskriterium deskriptiv, letzter Satz mit Objektverweis, kein Resümee
+  gefunden plan       unerwünschte Ereignisse, gültige Versuche und TE post
+  gefunden plan       Der Text führt Abb. 1, Tab. 2, Abb. 2 und Tab. 3 per Verweis ein
+  gefunden raster     Schluss = letzter Befundsatz mit Objektverweis
+  gefunden raster     hier: adjustierte Differenz → KI → p → g
+  gefunden stil       Eine Aussage je Satz, Ausnahmen in einen eigenen Satz.
+  gefunden stil       Bedingungen hängen nicht als Nebensatz an, sie stehen separat
+  gefunden stil       ist zulässig, aber die Teilung in zwei Sätze ist die Regel
+  gefunden stil       Konnektoren maximal einer pro drei Sätze
+  gefunden stil       Etwa jeder sechste Satz trägt einen Klammerverweis
+  gefunden stil       Kap. 5: je Zielgröße derselbe Satzbau
+  gefunden stil       **Kapitel 5** verbietet jede Bewertung.
+  gefunden stil       danach höchstens die Klammer am Satzende, wo die Daten besprochen werden
+  gefunden gliederung 450 Wörter mit vier Objekten in fester Reihenfolge
+  gefunden tv5        Schluss: letzter Befundsatz mit Objektverweis, kein Resümee
+  gefunden tv5        der Gruppenvergleich mit „Tab. 3 enthält …“ deutlich einsetzt
+  gefunden tv5        A6 S3 spricht deshalb von den „mit Tests geprüften Voraussetzungen“
+  gefunden umfang     Das Intervall ist mit relevanten Effekten in beide Richtungen vereinbar. Der Befund ist unschlüssig.
+  gefunden umfang     **R1 Sensitivität.** Ändert eine der vorab festgelegten Varianten den Fall nach § 5.1 oder die Entscheidung üb
+  gefunden umfang     **R4 Fallzahlregel.** Unter acht Spielern je Gruppe keine Inferenz
+  gefunden uebergabe  Projektauslegung: Anhangsobjekte (Tab. H1 bis H5) dürfen beim Erstverweis in der Klammer stehen
+  gefunden uebergabe  kein Satz endet auf eine Ziffer oder einen Einzelbuchstaben
+  gefunden register   „eine Aussage je Satz“ in A2 S1, A2 S4, A5 S5 und A6 S4 mehrdeutig
+  gefunden tv61       6.3 G6: Gründe nicht durchgeführter Einheiten wurden nicht erfasst
+  gefunden memo_b     Nach Wortlaut erfasst „bei keiner Zielgröße“ alle Zielgrößen der Studie.
+  gefunden befund     in 5 von 10, vor dem ersten Befund in 4 (Lloyd danach)
+  gefunden befund     einer mit einem Quantor über die Tests einer Zielgröße (Hammami 1.3)
+  gefunden befund     nur, wo sie Frage der Studie sind
+  gefunden befund     Erweitert am Anfang (Padrón-Cabo 1.1 und 1.2, Rogers 1.1 mit dem Ausgangsunterschied gegen die SWC) oder am Sc
+  gefunden befund     Kein Kern-Ergebnistext verweist auf ein Flussdiagramm.
+  gefunden befund     Die Zahl der analysierten Spieler je Gruppe nennt kein Kern-Ergebnistext.
+  gefunden befund     Beanspruchung** einmal im Kern (Beato, RPE je Gruppe)
+  gefunden befund     Nach Zielgröße geordnet sind 6 von 10
+  gefunden befund     Einen Befundblock eröffnen sie in 5 von 38 Blöcken
+  gefunden befund     Adverbiale Konnektoren am Satzanfang in 14 von 108 Kernsätzen (13 %)
+  gefunden befund     ordnet parallele Werte Gruppen oder Tests zu (8 Sätze in 5 Studien)
+  gefunden befund     Abweichungen davon entscheidet Textvorschlag 5.
+  gefunden befund     Vorbild sind sie für Objektführung und Kürze.
+  gefunden befund     Eröffnung mit Objektverweis oder Orientierungsbefund (8 von 10, Hammami und Bouafif mit Sammelbefund)
+  gefunden befund     drei Unterüberschriften-Studien unter den elf des Bauplans
+  gefunden befund     An denselben acht Studien gemessen: Mittel 347
+  gefunden tv5        Block je Zielgröße: Objekt, Richtung, adjustierte Differenz → KI → p (g in Tab. 3) → Fall
+  gefunden tv5        Status der betroffenen Meldungen
+  gefunden register   letzter Satz Befund mit Klammer
+  gefunden f17        Jede Zahl im Text nennt ihre Bezugsmenge.
+  gefunden f17        Vorlage: Moran et al. (2024) und Negra et al. (2019).
+  gefunden f17        | 3 Ergebnisse (5) | 336 | **450** |
+  gefunden plan       Fall nach der Schlusslogik im Wortlaut der Musterformulierung, keine verbalen Effektetiketten
+  gefunden gliederung Ergebnisse (ohne Unterabschnitte, Ä16)
+  gefunden kap5       beim 30-m-Sprint und Standweitsprung zu beiden Zeitpunkten die Interventionsgruppe, beim 505-Test je Seite übe
+  gefunden kap5       Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar.
+  gefunden kap5       Die übrigen mit Tests geprüften Voraussetzungen wurden nicht verworfen
+  gefunden kap5       Soweit die Fallzahl eine Inferenz zuließ,
+  gefunden kap5       , und keine davon
+  gefunden kap5       Adjustiert für
+  gefunden kap5       Beim 505-Seitenmittel
+  gefunden kap5       sowie Hedges' g.
+  gefunden kap5       bis +0,107 s.
+  gefunden kap5       neun und zwei Spieler, nach verschiedenen Einheitennummern neun und einer
+  gefunden kap5       Zwölf Meldungen von neun Spielern
+  gefunden kap5       davon je zwei zu nicht und zu teilweise durchgeführten Einheiten
+  gefunden master     Sprung, Beschleunigung und Richtungswechsel
+  gefunden master     Mehr als die Hälfte der Spieler mit Meldungen
+  gefunden master     überwiegend zu vollständig durchgeführten Einheiten
+  gefunden anlage     notably poor
+  gefunden anlage     unadjusted IRR, 0.81 [95% CI, 0.63-1.03]
+  gefunden anlage     adjusted IRR, 0.82 [95% CI, 0.64-1.04]) (Table 2).
+  gefunden anlage     None of the 3 agility tests
+  111 Zitate, alle gefunden
+
+17 Teiltabelle 2b (Registerkennungen der Statusspalte, alle vorhanden: 10a, 10b, 10c, 10d, 10e, 10g, 10h, 10i, 10m, 10n, 10p, 10r, 10s, 10t, 11e, 11f, 11h, 14a, 15b, 1a, 1b, 1d, 1e, 1f, 2a, 2c, 2f, 2g, 3a, 3c, 3d, 4a, 6a, 6d, 6f, 6g, 6i, 6j, 6k, 7a, 7b, 7c, 8a, 9a, 9b, 9c, 9d, U1, U2, U3, U4, U8, U9, V1, c4, c7, c8, c9, r1, r2)
+   47 Zeilen · Status erfüllt 32 · teilweise 9 · bewusst 6 · davon gegenstandslos 2 (2b.5, 2b.11)
+  Maßstab Korpus und Fundstelle: 6 Zeilen · bewusst 3 · erfüllt 2 · teilweise 1
+  Maßstab Korpus: 19 Zeilen · erfüllt 14 · teilweise 3 · bewusst 2
+  Maßstab Fundstelle: 22 Zeilen · erfüllt 16 · teilweise 5 · bewusst 1

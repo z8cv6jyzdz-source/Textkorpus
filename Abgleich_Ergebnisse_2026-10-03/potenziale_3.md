@@ -1,0 +1,24 @@
+### 4.1 Potenzialseite (Schritt 3, im Chat vorgelegt 03.10.2026, 21:23 Sitzungsuhr)
+
+Grundlage: Teiltabellen 2a bis 2e mit den Vermerken, Kandidatenliste Fortsetzung 5 § 5 Nr. 4. Geprüft per `potenziale_3.py` (Protokoll `potenziale_3.txt`): 80 Zitate am Ort, jede neue Zahl am Kennzahlenblatt, Satzregeln, Bilanz je Variante und je Schritt. Kapitel 5 steht bei 450 von 450.
+
+**Was der Text schon leistet und bleibt.** Wie der Kern: Rahmen vor dem ersten Befund, Objekte als Subjekt im Präsens, Ausgangslage vor den Befunden, Wiederaufruf als Klammer, ausdrückliche Nullbefunde, keine Belege und keine Deutung, 19 von 29 Sätzen auf einem Kernbaustein. Wo der Korpus nichts vorgibt, trägt der Text die Projektregeln: adjustierte Differenz mit Intervall im Satz, unadjustiert gegen adjustiert, Fall C1, Entscheidung über H0, verworfene Prüfung mit Bootstrap.
+
+| Nr | Satz und neuer Wortlaut | Grundlage · Korpus | Wörter | Folge | Konflikt |
+|---|---|---|---|---|---|
+| 1 (A) | A3 S3: „Zwölf Meldungen von neun der 15 meldenden Spieler nannten Schmerzen oder Probleme. Acht davon betrafen als vollständig gemeldete Einheiten, je zwei teilweise und nicht durchgeführte.“ | Bezugsmengen-Regel, 2b.45 und 2e.11 (B), Berichtsort von K-10.12 ist der Text · Schäden im Kern 0 von 10 | +6, Paar mit b und c | trägt 6.1 A6 S2 im Text (9 von 15, 8 von 12), Berichtsort K-10.9 nachführen | keiner |
+| 2 (A) | A5 S6: „Bei keiner konfirmatorischen Zielgröße war damit ein Gruppenunterschied nachweisbar.“ | 2b.11, Codierer B las den Satz über alle Zielgrößen · Kern nennt bei einem Teil der Tests die Menge, 8 von 8 (2d.21) | +1, Paar mit a | 6.1 A1 S2 hat denselben Quantor | keiner |
+| 3 (B) | A4 S2: „Mehr gültige Versuche je Spieler hatte im Mittel beim 30-m-Sprint die Interventionsgruppe, beim 505-Test je Seite überwiegend die Kontrollgruppe, beim Standweitsprung die Interventionsgruppe (Tab. H1).“ | F17 § 5.1, 2e.19 (B) · Kern-Aufzählungen folgen der ersten Folge der Studie 7 von 8 (2d.19) | −1, „zu beiden Zeitpunkten“ nur noch in Tab. H1 | TV 6.2/6.3 A5 S5 gruppiert ebenso nach dem Inhalt, Hinweis an den parallelen Task | keiner |
+| 4 (B) | A5 S11 nach A5 S2, vor die Befunde | Analyseregeln im Korpus vorn 4, im Befundteil 3, nach dem letzten Befund 0 von 7 (2d.17) | ±0 | der Gruppenvergleich endet mit der Entscheidung über H0 | ⚑ nimmt die Stellung aus TV5 (2b.31) mit neuem Grund zurück |
+| 5 (B) | A2 S4: „Als Untergrenzen für sechs und neun Einheiten ergaben sich …“ | Bezugsfolge im vorigen Satz 0, im selben Satz 1 (Aloui 5.1), Bezeichnung je Wert 19 Sätze (2d.8) | +5, nur mit d | keine | keiner |
+| 6 (C) | A2 S1 geteilt, nach A2 S2: „Die mediane Adhärenz betrug 6,0 Einheiten.“ | Register 10u offen, 2e.20, 2b.47 · kein „adherence“ je Spieler im Korpus (2d.20) | ±0 | Begriff wie 4.6 A2 S1 und 4.7 A1 S3 | keiner |
+
+**Kürzungen, nur im Paar:** a A4 S1 „Der TE“ statt „Der typische Messfehler“ (−1, Abkürzung aus 4.4) · b A5 S11 „Die übrigen Zielgrößen wurden nur beschrieben (Tab. H3).“ (−4, Namen stehen in 4.7 A1 S5 und Tab. H3) · c A3 S1 „Die CR-10-Werte der 92 als vollständig gemeldeten Einheiten lagen bei …“ (−3, Satzbau wie A3 S2 und Beato, „Beanspruchung“ dann nur in 4.6) · d A6 S4 ohne „und keine davon erreichte p < 0,05“ (−7, alle 19 Varianten mit Inferenz liegen im Fall C1, die Entscheidung über H0 bliebe für die Varianten implizit, nicht empfohlen).
+
+**Bilanz.** Empfehlung 1 bis 4 und 6 mit a bis c: 448 Wörter, 31 Sätze, Median 14,0, längster Satz 28. Schritt 4 mit jedem Paar im selben Schritt: A2 450, A3 mit b in A5 S11 449, A4 mit 2 in A5 S6 448, A5 448, A1 und A6 wortgleich. Mit 5 und d (A2 mit d in A6 S4): 446.
+
+**Belassen, der Grund wird Registerzeile:** A5 S3 vor dem Modellergebnis (der Abstand ist nach F17 § 11.2a der tragende Befund, Hilska nennt den unadjustierten Schätzer zuerst, „damit“ in A5 S6 bindet an A5 S4 und S5) · Fall C1 einmal für alle drei Zielgrößen (Beato 4.2, Ordnung nach Analyseschritt wie Sammoud) · Absicherung und 30-m-Einschränkung nach dem Gruppenvergleich, Schluss mit A6 S4 (keine Stellungsregel, Plan und TV5) · A6 S3 sinngleich (der Wortlaut „geprüft und nicht verworfen“ schlösse die Linearität ein) · A6 S4 mit Bedingung vorn (R4 gehört in den Satz) · Satzenden A5 S1 und A6 S2 (Teilung richtig) · A5 S3 mit zwei Angaben, Klammerverweise (alle Objektverweise) · Befundanteil (strukturell).
+
+**Beim Abschluss ohnehin fällig:** 6.1 „lag nahe null“ (2e.8) und 6.1 A6 S2 (2e.11). Von Kapitel 5 hängen jetzt zusätzlich A1 S3, A2 S1, A4 S1, A5 S2, A5 S4, A6 S3 und A6 S4 ab (S4b-Gerüst und Textvorschlag 6.2/6.3).
+
+**Neu vorgemerkt, unabhängig vom Klick:** Die Titel von Tab. H2a und H2c sagen „vollständig durchgeführte“, das widerspricht Textvorschlag 5 § 10 Nr. 3 (Task 18). Nach der Vorlage am Objekt nachgeprüft: auch der Titel von Tab. H5 („vollständig durchgeführten Einheiten“, `Objekte_2026-10-01.md`).

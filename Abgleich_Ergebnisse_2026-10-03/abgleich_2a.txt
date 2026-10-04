@@ -1,0 +1,123 @@
+1 Umfang (Befund § 0 Nr. 3, § 2.1, § 4)
+  Wörter                450 | in der Spanne, über dem Median (Kern Median 252,5, Spanne 115 bis 539)
+  Absätze                 6 | in der Spanne, über dem Median (Kern Median 3,5, Spanne 1 bis 6)
+  Sätze                  29 | über der Spanne, über dem Median (Kern Median 9,5, Spanne 5 bis 18)
+  Satzlänge Median       15 | unter der Spanne, unter dem Median (Kern Median 22,5, Spanne 15,5 bis 36)
+  längster Satz          28 | in der Spanne, unter dem Median (Kern Median 50,0, Spanne 26 bis 80)
+  Wörter je Absatz     75,0 | in der Spanne, unter dem Median (Kern Median 98,1, Spanne 43,5 bis 182,0)
+
+2 Wortanteile (Wortanteil der Primärcodes, Befund § 2.2 und § 4 „Gewicht der Funktionen“)
+  Gruppen nach Codebuch:
+    O: 178 Wörter =  39,6 % | Kern Mittel 17,2 %, Median 9,4 %, Spanne 0,0 bis 51,1 %
+    V:  38 Wörter =   8,4 % | Kern Mittel 0,0 %, Median 0,0 %, Spanne 0,0 bis 0,0 %
+    X:  64 Wörter =  14,2 % | Kern Mittel 12,3 %, Median 7,6 %, Spanne 0,0 bis 41,8 %
+    B: 101 Wörter =  22,4 % | Kern Mittel 70,4 %, Median 72,5 %, Spanne 26,4 bis 100,0 %
+    Z:  69 Wörter =  15,3 % | Kern Mittel 0,0 %, Median 0,0 %, Spanne 0,0 bis 0,0 %
+  Codes nach Codebuch (Kern: Mittel der Wortanteile über die zehn Studien, Befund § 2.2):
+    O1:  12 Wörter =   2,7 % | Kern Mittel 1,7 %, in 2 Studien tragend
+    O2:  80 Wörter =  17,8 % | Kern Mittel 3,5 %, in 4 Studien tragend
+    O3:  39 Wörter =   8,7 % | Kern Mittel 0,9 %, in 1 Studien tragend
+    O4:   6 Wörter =   1,3 % | Kern Mittel 10,7 %, in 6 Studien tragend
+    O5:  41 Wörter =   9,1 % | Kern Mittel 0,4 %, in 1 Studien tragend
+    V1:  26 Wörter =   5,8 % | Kern Mittel 0 %, in 0 Studien tragend
+    V2:  12 Wörter =   2,7 % | Kern Mittel 0 %, in 0 Studien tragend
+    X1:  64 Wörter =  14,2 % | Kern Mittel 11,5 %, in 8 Studien tragend
+    X2:   0 Wörter =   0,0 % | Kern Mittel 0,8 %, in 1 Studien tragend
+    B1:  96 Wörter =  21,3 % | Kern Mittel 20,6 %, in 7 Studien tragend
+    B2:   0 Wörter =   0,0 % | Kern Mittel 32,1 %, in 7 Studien tragend
+    B3:   0 Wörter =   0,0 % | Kern Mittel 7,0 %, in 2 Studien tragend
+    B4:   5 Wörter =   1,1 % | Kern Mittel 10,8 %, in 6 Studien tragend
+    Z1:  42 Wörter =   9,3 % | Kern Mittel 0 %, in 0 Studien tragend
+    Z2:  27 Wörter =   6,0 % | Kern Mittel 0 %, in 0 Studien tragend
+  Gruppen nach Hinweis:
+    O: 178 Wörter =  39,6 % | Kern Mittel 17,2 %, Median 9,4 %, Spanne 0,0 bis 51,1 %
+    V:  38 Wörter =   8,4 % | Kern Mittel 0,0 %, Median 0,0 %, Spanne 0,0 bis 0,0 %
+    X:  64 Wörter =  14,2 % | Kern Mittel 12,3 %, Median 7,6 %, Spanne 0,0 bis 41,8 %
+    B: 101 Wörter =  22,4 % | Kern Mittel 70,4 %, Median 72,5 %, Spanne 26,4 bis 100,0 %
+    Z:  69 Wörter =  15,3 % | Kern Mittel 0,0 %, Median 0,0 %, Spanne 0,0 bis 0,0 %
+  Codes nach Hinweis (Kern: Mittel der Wortanteile über die zehn Studien, Befund § 2.2):
+    O1:  12 Wörter =   2,7 % | Kern Mittel 1,7 %, in 2 Studien tragend
+    O2:  80 Wörter =  17,8 % | Kern Mittel 3,5 %, in 4 Studien tragend
+    O3:  39 Wörter =   8,7 % | Kern Mittel 0,9 %, in 1 Studien tragend
+    O4:   6 Wörter =   1,3 % | Kern Mittel 10,7 %, in 6 Studien tragend
+    O5:  41 Wörter =   9,1 % | Kern Mittel 0,4 %, in 1 Studien tragend
+    V1:  26 Wörter =   5,8 % | Kern Mittel 0 %, in 0 Studien tragend
+    V2:  12 Wörter =   2,7 % | Kern Mittel 0 %, in 0 Studien tragend
+    X1:  64 Wörter =  14,2 % | Kern Mittel 11,5 %, in 8 Studien tragend
+    X2:   0 Wörter =   0,0 % | Kern Mittel 0,8 %, in 1 Studien tragend
+    B1:  47 Wörter =  10,4 % | Kern Mittel 20,6 %, in 7 Studien tragend
+    B2:   0 Wörter =   0,0 % | Kern Mittel 32,1 %, in 7 Studien tragend
+    B3:   0 Wörter =   0,0 % | Kern Mittel 7,0 %, in 2 Studien tragend
+    B4:  54 Wörter =  12,0 % | Kern Mittel 10,8 %, in 6 Studien tragend
+    Z1:  42 Wörter =   9,3 % | Kern Mittel 0 %, in 0 Studien tragend
+    Z2:  27 Wörter =   6,0 % | Kern Mittel 0 %, in 0 Studien tragend
+
+3 Vorkommen je Funktion (primär oder sekundär), Kapitel 5 gegen Zahl der Kernstudien
+  Codebuch: O1 T (3/10) · O2 T (5/10) · O3 T (1/10) · O4 T (7/10) · O5 T (1/10) · V1 T (0/10) · V2 T (2/10) · X1 T (8/10) · X2 – (1/10) · B1 T (9/10) · B2 – (9/10) · B3 – (2/10) · B4 T (6/10) · B5 – (0/10) · Z1 T (2/10) · Z2 T (0/10)
+  Hinweis: O1 T (3/10) · O2 T (5/10) · O3 T (1/10) · O4 T (7/10) · O5 T (1/10) · V1 T (0/10) · V2 T (2/10) · X1 T (8/10) · X2 – (1/10) · B1 T (9/10) · B2 – (9/10) · B3 – (2/10) · B4 T (6/10) · B5 – (0/10) · Z1 T (2/10) · Z2 T (0/10)
+  T tragend (Primärcode), s nur Sekundärcode, – fehlt · in Klammern Kernstudien mit dem Code (primär oder sekundär)
+
+4 Rahmen (Wörter in O-, V- und X-Sätzen) und Text vor dem ersten Befund (Sätze vor dem ersten B-Code)
+  Codebuch: Rahmen O+V+X 280 Wörter = 62,2 % | in der Spanne, über dem Median (Kern Median 27,5, Spanne 0,0 bis 73,6)
+  Codebuch: ohne V (O+X) 242 Wörter = 53,8 %
+  Codebuch: vor dem ersten Befund (A5 S3) 269 Wörter = 59,8 % in 16 Sätzen, davon Z 27 Wörter | in der Spanne, über dem Median (Kern Median 22,3, Spanne 0,0 bis 67,2)
+  Hinweis: Rahmen O+V+X 280 Wörter = 62,2 % | in der Spanne, über dem Median (Kern Median 27,5, Spanne 0,0 bis 73,6)
+  Hinweis: ohne V (O+X) 242 Wörter = 53,8 %
+  Hinweis: vor dem ersten Befund (A5 S3) 269 Wörter = 59,8 % in 16 Sätzen, davon Z 27 Wörter | in der Spanne, über dem Median (Kern Median 22,3, Spanne 0,0 bis 67,2)
+  Kern: Sätze vor dem ersten Befund Median 3,0, Spanne 0 bis 6
+
+5 Zugfolge nach Primärcodes, aufeinanderfolgende gleiche zusammengefasst
+  Codebuch: Codes X1 O1 X1 O4 O2 O3 Z2 O5 X1 B1 B4 V2 V1 Z1 V1 Z1
+  Codebuch: Gruppen X O X O Z O X B V Z V Z | erster X1 | letzter Z1 (A6 S4) | letzter Befundsatz A5 S10
+  Codebuch: vor dem ersten Befund X1 O1 X1 O4 O2 O2 O2 O2 O3 O3 Z2 Z2 O5 O5 X1 X1 | danach O/V V2 V1 V1 | danach Z Z1 Z1
+  Hinweis: Codes X1 O1 X1 O4 O2 O3 Z2 O5 X1 B4 B1 B4 V2 V1 Z1 V1 Z1
+  Hinweis: Gruppen X O X O Z O X B V Z V Z | erster X1 | letzter Z1 (A6 S4) | letzter Befundsatz A5 S10
+  Hinweis: vor dem ersten Befund X1 O1 X1 O4 O2 O2 O2 O2 O3 O3 Z2 Z2 O5 O5 X1 X1 | danach O/V V2 V1 V1 | danach Z Z1 Z1
+  Kern: erster Primärcode {'X1': 3, 'B4': 2, 'O4': 3, 'O1': 1, 'O2': 1} | letzter nach Gruppe {'B': 8, 'X': 2}
+
+6 Befundordnung: Blöcke je Zielgröße (aufeinanderfolgende B-Sätze mit gleicher erster Kategorie im Absatz), Folge der Zielgrößen
+  Codebuch: X:A5 S3 · S:A5 S4 · C:A5 S5 · X:A5 S6–S10 | Folge der Zielgrößen S C J
+  Hinweis: X:A5 S3 · S:A5 S4 · C:A5 S5 · X:A5 S6–S10 | Folge der Zielgrößen S C J
+  Methodik (4.4.1 Sprint, 4.4.2 505, 4.4.3 Standweitsprung) S C J · Titel „Sprint-, Richtungswechsel- und Sprungleistung“ S C J
+  Kern: Veränderung je Gruppe (B2) in 9 von 10 · nach Zielgröße geordnet 6 von 10 (Befund § 3.3)
+
+7 Statistik im Befundsatz (Primärcode B): statistischer Wert, p, Teststatistik, Effektstärke als Wert, Intervall, Prozent, M±SD, Größenklasse
+  Codebuch: B-Sätze 8 | mit Wert 3 (37,5 %) | p 3 | F/t 0 | ES 0 | KI 2 | Prozent 1 | M±SD 0 | Klasse 0 | Differenz 2
+  Hinweis: B-Sätze 8 | mit Wert 3 (37,5 %) | p 3 | F/t 0 | ES 0 | KI 2 | Prozent 1 | M±SD 0 | Klasse 0 | Differenz 2
+  Kern: B-Sätze 74 | mit Wert 35 (47,3 %) | Studien mit p 6 | mit KI 1 | mit ES-Wert 5 | mit Klasse 5
+  alle Sätze: p in A5 S4, A5 S5, A5 S9, A6 S1, A6 S4 | Intervall in A5 S4, A5 S5, A6 S2 | ± in A3 S1, A3 S2 | Teststatistik in A6 S1
+
+8 Nullbefunde (Handprüfung in eigen.py), Sammelbefunde, Kontraste
+  A5 S6 (B1): fehlender Nachweis („kein Gruppenunterschied nachweisbar“)
+  A5 S7 (B1): Intervall gegen den SESOI („mit relevanten Unterschieden in beide Richtungen vereinbar“)
+  A5 S8 (B1): Fall der Schlusslogik („unschlüssig“)
+  A5 S9 (B1): Entscheidungsregel („Keine … mit p < 0,05 einen Vorteil“)
+  A5 S10 (B4): Hypothesenentscheidung („nicht verworfen“)
+  A6 S4 (Z1): Absicherung („änderten weder … noch … die Einordnung“, „keine davon erreichte p < 0,05“)
+  B4 primär oder sekundär nach Codebuch: A5 S10
+  B4 primär oder sekundär nach Hinweis: A5 S3, A5 S6, A5 S7, A5 S8, A5 S9, A5 S10, A6 S4
+  Kontraste mit „jedoch“, „aber“, „während“, „dagegen“: keine
+
+9 Objektführung: Verweise, Formen, Erstnennung, Wiederaufruf, Präsens
+  Verweise 13 in 11 Sätzen, Objekte 10 (Kern: 38 Verweise, 26 Objekte in zehn Studien)
+  Objekt als Subjekt: 5 Verweise in 4 Sätzen (Kern 5 Sätze in 3 Studien) · Ort-Form: 0 (Kern 10 Sätze in 7 Studien) · Klammer am Satzende: 7 Sätze (Kern 22 Sätze in 7 Studien)
+  Klammer am Satzende in Befundsätzen: 0 (Kern 18 Befundsätze in 5 Studien) · in Sätzen nach Code: A2 S1 O2, A2 S3 O2, A4 S1 O5, A4 S2 O5, A5 S11 V2, A6 S3 V1, A6 S4 Z1
+  Erstnennung: Abb. 1 A1 S1 Objektsatz vor dem ersten Befund · Tab. 2 A1 S3 Objektsatz vor dem ersten Befund · Tab. H3 A1 S3 Objektsatz vor dem ersten Befund · Tab. H2 A2 S1 Klammer am Satzende vor dem ersten Befund · Tab. H5 A2 S3 Klammer am Satzende vor dem ersten Befund · Tab. 1 A4 S1 Klammer am Satzende vor dem ersten Befund · Tab. H1 A4 S2 Klammer am Satzende vor dem ersten Befund · Tab. 3 A5 S1 Objektsatz vor dem ersten Befund · Abb. 2 A5 S2 Objektsatz vor dem ersten Befund · Tab. H4 A6 S3 Klammer am Satzende ab dem ersten Befund
+  Erstnennung gezählt: Objektsatz vor dem ersten Befund: 5, Klammer am Satzende vor dem ersten Befund: 4, Klammer am Satzende ab dem ersten Befund: 1 (Kern: Objektsatz vor 11, Objektsatz ab 3, Klammer vor 3, Klammer ab 9)
+  Wiederaufrufe: Tab. H2 A2 S3 Klammer am Satzende · Tab. H3 A5 S11 Klammer am Satzende · Tab. H4 A6 S4 Klammer am Satzende (Kern 14, davon Klammer am Satzende 11)
+  Objektsätze im Präsens: A1 S1 zeigt (Präsens), A1 S3 enthält (Präsens), A5 S1 enthält (Präsens), A5 S2 zeigt (Präsens) (Kern 15 von 15)
+
+10 Leseführung und Tempus
+  Adverbiale Konnektoren am Satzanfang: 0 von 29 (Kern 14 von 108, 13 %, „However“ 7)
+  Satzanfänge (Handprüfung): Quantor 5, Themenanker 5, Objekt als Subjekt 4, Größe als Subjekt 3, Zahl als Subjekt 2, Bezugsmenge 1, Gruppe als Subjekt 1, Größe im Vorfeld 1, Modell 1, Befund als Subjekt 1, Hypothese als Subjekt 1, Zielgrößen als Subjekt 1, Analyse als Subjekt 1, „übrige“ als Subjekt 1, Subjunktion 1
+  Befundsätze im Präteritum 8 von 8 (Kern 73 von 74) · alle Sätze außerhalb der Objektsätze im Präteritum: 25 von 25
+  Passiv: A3 S4, A5 S10, A5 S11, A6 S3 · Wir-Form: 0
+
+11 Was der Ergebnisteil des Kerns nicht tut, Kapitel 5 dagegen
+  Belege 0 (Kern 0 in 10) · Deutung 0 Sätze (Kern 4 Sätze in 4 Studien)
+  Entscheidung über eine Hypothese: A5 S10 (Kern 0)
+  Unerwünschte Ereignisse (Z2): A3 S3, A3 S4 (Kern 0, erweitert 2)
+  Datenprüfung und Voraussetzungen (V1): A6 S1, A6 S3 (Kern 0)
+  Zusatz- und Sensitivitätsanalysen (Z1 primär): A6 S2, A6 S4 (Kern 0, Einzelwerte sekundär bei Liu und Moran)
+  Analysezahl je Gruppe im Text: keine (A1 S2 nennt 26 gesamt, je Gruppe nur Abb. 1, Tab. 2, Tab. 3) (Kern 0)
+  Unadjustierter neben adjustiertem Schätzer: A5 S3 (unadjustiert, ohne Zahl) neben A5 S4 und S5 (adjustiert mit Intervall) (Kern 0, erweitert Hilska)

@@ -1,0 +1,3480 @@
+{
+ "zahlen_kapitel5": [
+  "5",
+  "6",
+  "13",
+  "18",
+  "26",
+  "31",
+  "92",
+  "0,0",
+  "0,1",
+  "0,9",
+  "2,9",
+  "3,0",
+  "5,0",
+  "6,0",
+  "8,6",
+  "8,7",
+  "0,05",
+  "35,9",
+  "42,6",
+  "45,4",
+  "0,012",
+  "0,034",
+  "0,045",
+  "0,061",
+  "0,085",
+  "0,107",
+  "0,110",
+  "0,177",
+  "0,199",
+  "0,557",
+  "0,734",
+  "0,915",
+  "0,987",
+  "106,7",
+  "110,8",
+  "199,7"
+ ],
+ "begriffe": [
+  "Teilnehmerfluss",
+  "planmäßig",
+  "Eingangstestung angetreten",
+  "Analyseset",
+  "Analysepopulation",
+  "Ausgangswert",
+  "Ausgangsunterschied",
+  "Ausgangsvorsprung",
+  "zugunsten",
+  "standardisierte",
+  "Überlappung",
+  "zugeteilt",
+  "meldeten",
+  "Meldung",
+  "vollständig",
+  "teilweise",
+  "nicht durchgeführt",
+  "Median",
+  "Umsetzung",
+  "angebotene",
+  "mindestens sechs",
+  "mindestens neun",
+  "Untergrenze",
+  "Programmwoche",
+  "Einheitennummer",
+  "Beanspruchung",
+  "CR-10",
+  "sRPE",
+  "Solldauer",
+  "Schmerz",
+  "Probleme",
+  "typische Messfehler",
+  "typischen Messfehler",
+  "SESOI",
+  "gültige Versuche",
+  "gültigen Versuche",
+  "unadjustiert",
+  "adjustiert",
+  "Gruppendifferenz",
+  "Gruppenunterschied",
+  "Hedges",
+  "Modelllinie",
+  "reifeadjustiert",
+  "Konfidenzintervall",
+  "nachweisbar",
+  "beide Richtungen",
+  "unschlüssig",
+  "Nullhypothese",
+  "verworfen",
+  "nur beschrieben",
+  "beschreibend",
+  "Beschreibend",
+  "Shapiro-Wilk",
+  "Normalverteilung",
+  "Residuen",
+  "Bootstrap",
+  "Voraussetzung",
+  "Per-Protokoll",
+  "Sensitivitätsanalyse",
+  "Fallzahl",
+  "Inferenz",
+  "Programmangebot",
+  "Antragskriterium",
+  "Adhärenz",
+  "Versuche"
+ ],
+ "saetze": [
+  {
+   "abschnitt": "1",
+   "absatz": "B1a",
+   "satz": 1,
+   "id": "B1a S1",
+   "platzhalter": false,
+   "woerter": 30,
+   "text": "Im Wettkampf von U14- bis U16-Fußballspielern aus Akademievereinen sind Beschleunigungen, Entschleunigungen und Richtungswechsel um 45 bis 135° häufig (Algroy et al., 2021; Havanecz et al., 2026; Parr et al., 2022).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1a",
+   "satz": 2,
+   "id": "B1a S2",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Auf sehr hohe Geschwindigkeiten entfällt nur ein kleiner Teil der Laufstrecke (Algroy et al., 2021; Parr et al., 2022).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1a",
+   "satz": 3,
+   "id": "B1a S3",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Plyometrisches Training verbessert nach Metaanalysen die Sprint-, Richtungswechsel- und Sprungleistung junger Fußballspieler (Oliver et al., 2024; Ramirez-Campillo et al., 2020; Zheng et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1a",
+   "satz": 4,
+   "id": "B1a S4",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Bei der Richtungswechselleistung war die Verbesserung in einer Metaanalyse nur im Illinois-Test nachweisbar, weder im Zickzack-Lauf noch im T-Test (Zheng et al., 2025).",
+   "merkmale": [
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1a",
+   "satz": 5,
+   "id": "B1a S5",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "In einer weiteren Metaanalyse verbesserten schon Programme bis sieben Wochen Sprint über 20 und 30 m und Sprunghöhe, die 10-m-Zeit dagegen nicht nachweisbar (Ramirez-Campillo et al., 2020).",
+   "merkmale": [
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1a",
+   "satz": 6,
+   "id": "B1a S6",
+   "platzhalter": false,
+   "woerter": 30,
+   "text": "Die Programme, nach denen sich alle drei Leistungen verbesserten, dauerten überwiegend sechs bis zwölf Wochen (Oliver et al., 2024; Zheng et al., 2025), eine Mindestdauer lässt sich daraus nicht ableiten.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 1,
+   "id": "B1b S1",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Der Dehnungs-Verkürzungs-Zyklus (DVZ) stellt bei Sprung- und Hüpfbewegungen die grundlegende Muskelaktion des plyometrischen Trainings dar (Markovic & Mikulic, 2010).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 2,
+   "id": "B1b S2",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Er verbindet eine exzentrische Dehnung des Muskels mit der unmittelbar folgenden Verkürzung, die dadurch mehr Leistung abgibt als ohne Vordehnung (Radnor et al., 2018).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 3,
+   "id": "B1b S3",
+   "platzhalter": false,
+   "woerter": 29,
+   "text": "Zu dieser Mehrleistung könnten ein Kraftaufbau schon während der Dehnung, gespeicherte elastische Energie, Dehnreflexe sowie eine neuronale und kontraktile Potenzierung beitragen (Markovic & Mikulic, 2010; Radnor et al., 2018).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 4,
+   "id": "B1b S4",
+   "platzhalter": false,
+   "woerter": 30,
+   "text": "Mit Bodenkontakten unter 250 ms verläuft der DVZ im Maximalsprint schnell, mit längeren in der 180°-Wende und im Sprung mit Ausholbewegung langsam (Dos’Santos et al., 2018; Lloyd et al., 2011).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 5,
+   "id": "B1b S5",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "An Sprint-, Richtungswechsel- und Sprungleistung sind damit schneller und langsamer DVZ beteiligt.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 6,
+   "id": "B1b S6",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Ein Programm mit Übungen beider Formen setzt an dieser gemeinsamen Muskelaktion an (Lloyd et al., 2011).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B1b",
+   "satz": 7,
+   "id": "B1b S7",
+   "platzhalter": false,
+   "woerter": 22,
+   "text": "Plyometrische Übungen sind zudem Bestandteil mehrkomponentiger Präventionsprogramme, die in Metaanalysen zum Nachwuchssport Verletzungen verringerten (Olivier et al., 2026; Rössler et al., 2014).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 1,
+   "id": "B2 S1",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "In der Sommerpause, der Übergangsperiode zwischen zwei Spielzeiten, wird das Mannschaftstraining unterbrochen oder im Umfang reduziert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 2,
+   "id": "B2 S2",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Trainingsangebote für diese Zeit müssen daher niedrigschwellig sein, das heißt ohne Aufsicht durch Trainer und ohne Trainingsgeräte auskommen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 3,
+   "id": "B2 S3",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Plyometrische Trainingsprogramme sind ohne Trainingsgeräte durchführbar, wenn sie aus grundlegenden Sprungübungen wie Sprüngen auf der Stelle und Standsprüngen bestehen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 4,
+   "id": "B2 S4",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die Belastung im plyometrischen Training wird unter anderem über Intensität, Umfang und Häufigkeit gesteuert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 5,
+   "id": "B2 S5",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Die Intensität wird vor allem über die Übungsauswahl bestimmt und der Umfang in Bodenkontakten je Einheit bemessen (Lloyd et al., 2011).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 6,
+   "id": "B2 S6",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Auch ohne Trainingsgeräte lässt sich die Intensität etwa über Sprungrichtung, Bodenkontaktzeit und ein- oder beidbeinige Landung abstufen (Ramirez-Campillo et al., 2023).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 7,
+   "id": "B2 S7",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Da Trainingsvideos diese Belastungsgrößen vorgeben können, ist ein gerätefreies Programm als Heimtraining umsetzbar, ohne Trainingszeiten und Trainer des Vereins zu beanspruchen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 8,
+   "id": "B2 S8",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Wird das Training unterbrochen oder deutlich reduziert, können trainingsbedingte Anpassungen teilweise oder vollständig verloren gehen, was als Detraining bezeichnet wird (Mujika & Padilla, 2000).",
+   "merkmale": [
+    "vollständig",
+    "teilweise"
+   ]
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 9,
+   "id": "B2 S9",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Bei U15-Spielern der Akademie eines spanischen Fußball-Erstligisten sanken Sprint- und Sprungleistung nach einer 15-tägigen trainingsfreien Winterpause, während sich die Richtungswechselleistung nicht nachweisbar veränderte (Padrón-Cabo et al., 2025).",
+   "merkmale": [
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 10,
+   "id": "B2 S10",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Im Kindes- und Jugendalter sind die Befunde insgesamt uneinheitlich, da neben Rückgängen auch unveränderte und gestiegene Leistungen berichtet wurden (Asimakidis et al., 2022; Dambel et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B2",
+   "satz": 11,
+   "id": "B2 S11",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Die Sommerpause führt damit nicht zwangsläufig zu einem Leistungsverlust, bietet aber ein Zeitfenster, das sich für ein gerätefreies Heimtrainingsprogramm nutzen lässt.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B3",
+   "satz": 1,
+   "id": "B3 S1",
+   "platzhalter": false,
+   "woerter": 29,
+   "text": "Im Sprint entscheidet in der Beschleunigungsphase vor allem die horizontale Ausrichtung der Bodenreaktionskraft, in der Phase maximaler Geschwindigkeit eine hohe vertikale Kraft in kurzen Bodenkontakten (Hicks et al., 2020).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B3",
+   "satz": 2,
+   "id": "B3 S2",
+   "platzhalter": false,
+   "woerter": 29,
+   "text": "Da beide Phasen eine unterschiedliche Kraftentwicklung verlangen, werden Sprintzeiten bis 10 m der Beschleunigung und Zeiten über 15 bis 40 m der maximalen Geschwindigkeit zugeordnet (Oliver et al., 2024).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B3",
+   "satz": 3,
+   "id": "B3 S3",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Entschleunigen und erneutes Beschleunigen fordert der 505-Test, der in seinen Varianten zu den gebräuchlichsten Richtungswechseltests gehört (Dugdale et al., 2020).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B3",
+   "satz": 4,
+   "id": "B3 S4",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Der Standweitsprung ist ein bei Kindern und Jugendlichen international verbreiteter Feldtest der Schnellkraft (Tomkinson et al., 2021).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B3",
+   "satz": 5,
+   "id": "B3 S5",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Im Nachwuchsfußball gehören alle drei Testformen zu gängigen Testbatterien und erwiesen sich bei U14- bis U16-Spielern zwischen Testtagen als reliable feldbasierte Leistungsdiagnostiktests (Dugdale et al., 2019).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 1,
+   "id": "B4 S1",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Spieler der U15 befinden sich häufig in der Phase um den Wachstumsgipfel.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 2,
+   "id": "B4 S2",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "In einer britischen Längsschnittstudie erreichten Jungen ihn im Mittel mit 14 Jahren, bei einer Spanne von 12 bis 16 Jahren (Tanner et al., 1966).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 3,
+   "id": "B4 S3",
+   "platzhalter": false,
+   "woerter": 30,
+   "text": "Nach einer Übersichtsarbeit steigern Wachstum und Reifung die Sprint- und Sprungleistung von Kindern und Jugendlichen auch ohne Training, wozu eine verbesserte Funktion des DVZ beitragen könnte (Radnor et al., 2018).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 4,
+   "id": "B4 S4",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Einem Training lassen sich Leistungsveränderungen in diesem Alter deshalb verlässlicher zuschreiben, wenn beim Vergleich von Interventions- und Kontrollgruppe der Reifestatus konstant gehalten wird.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 5,
+   "id": "B4 S5",
+   "platzhalter": false,
+   "woerter": 29,
+   "text": "Plyometrisches Training verbesserte nach einer Metaanalyse zu Kindern und Jugendlichen die meisten Leistungsmerkmale vor wie nach dem Wachstumsgipfel, den Richtungswechsel dagegen in keiner Reifegruppe nachweisbar (Ramirez-Campillo et al., 2023).",
+   "merkmale": [
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 6,
+   "id": "B4 S6",
+   "platzhalter": false,
+   "woerter": 31,
+   "text": "Die Phase um den Gipfel selbst, Spieler des leistungsorientierten Breitensports und die Übergangsperiode sind in den Metaanalysen eingeschränkt abgebildet (Oliver et al., 2024; Ramirez-Campillo et al., 2023; Zheng et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B4",
+   "satz": 7,
+   "id": "B4 S7",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Welches Potenzial ein unbeaufsichtigtes, videobasiertes und gerätefreies plyometrisches Heimtrainingsprogramm in der Sommerpause für U15-Spieler des leistungsorientierten Breitensports bietet, ist nach derzeitigem Kenntnisstand in kontrollierten Studien unzureichend untersucht.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B5",
+   "satz": 1,
+   "id": "B5 S1",
+   "platzhalter": false,
+   "woerter": 32,
+   "text": "Ziel der Studie war es deshalb zu prüfen, ob ein sechswöchiges videobasiertes, gerätefreies plyometrisches Heimtrainingsprogramm in der Sommerpause die Sprint-, Richtungswechsel- und Sprungleistung männlicher U15-Fußballspieler des leistungsorientierten Breitensports gegenüber einer Kontrollgruppe verbessert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B5",
+   "satz": 2,
+   "id": "B5 S2",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Dazu wurde eine quasi-experimentelle, kontrollierte Feldstudie mit Leistungsdiagnostik vor und nach der Sommerpause durchgeführt.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B5",
+   "satz": 3,
+   "id": "B5 S3",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Die Nullhypothese lautete, dass sich Interventions- und Kontrollgruppe in der Grundgesamtheit nach der Sommerpause nicht in den Veränderungen der Sprint-, Richtungswechsel- und Sprungleistung unterscheiden.",
+   "merkmale": [
+    "Nullhypothese"
+   ]
+  },
+  {
+   "abschnitt": "1",
+   "absatz": "B5",
+   "satz": 4,
+   "id": "B5 S4",
+   "platzhalter": false,
+   "woerter": 29,
+   "text": "Die Alternativhypothese lautete, dass in der Grundgesamtheit die Interventionsgruppe in mindestens einem der drei gleichrangigen Parameter eine bessere Leistungsveränderung zeigt als die Kontrollgruppe, einen geringeren Rückgang oder eine Verbesserung.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A1",
+   "satz": 1,
+   "id": "4.1 A1 S1",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Die Untersuchung wurde als quasi-experimentelle, kontrollierte Prä-Post-Feldstudie mit Wartelisten-Kontrollgruppe durchgeführt (Fröhlich et al., 2020, S. 21).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A1",
+   "satz": 2,
+   "id": "4.1 A1 S2",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Beteiligt war je eine männliche Nachwuchsmannschaft dreier Kölner Fußballvereine (Verein A, B und C).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A1",
+   "satz": 3,
+   "id": "4.1 A1 S3",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Die Interventionsphase lag in der Sommerpause vom 20.07. bis 30.08.2026.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A2",
+   "satz": 1,
+   "id": "4.1 A2 S1",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Die Zuteilung erfolgte auf Vereinsebene und ohne Zufallsmechanismus.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A2",
+   "satz": 2,
+   "id": "4.1 A2 S2",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Gegen eine individuelle Zuteilung sprach das Kontaminationsrisiko durch weitergegebene Videoinhalte.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A2",
+   "satz": 3,
+   "id": "4.1 A2 S3",
+   "platzhalter": false,
+   "woerter": 25,
+   "text": "Die Untersuchungsleitung legte die Zuordnung vor der ersten Eingangstestung nach der Reihenfolge der verbindlichen Zusagen fest: die Vereine A und B Interventions-, Verein C Kontrollgruppe.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A2",
+   "satz": 4,
+   "id": "4.1 A2 S4",
+   "platzhalter": false,
+   "woerter": 7,
+   "text": "Das Zuteilungsverhältnis betrug zwei Vereine zu einem.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A2",
+   "satz": 5,
+   "id": "4.1 A2 S5",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Die Mannschaften und Trainerteams erfuhren die Zuordnung erst nach ihrer Eingangstestung.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A3",
+   "satz": 1,
+   "id": "4.1 A3 S1",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Beiden Gruppen war ihr vereinsseitiges Vorbereitungsprogramm vorgegeben, der Interventionsgruppe zusätzlich das videogestützte Heimtrainingsprogramm.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A3",
+   "satz": 2,
+   "id": "4.1 A3 S2",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Über den Antrag hinaus war der Kontrollgruppe das Programm nach ihrer Abschlusstestung zugesagt (Wartegruppendesign nach Fröhlich et al., 2020, S. 125).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A4",
+   "satz": 1,
+   "id": "4.1 A4 S1",
+   "platzhalter": false,
+   "woerter": 5,
+   "text": "Unabhängige Variable war die Gruppenzugehörigkeit.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A4",
+   "satz": 2,
+   "id": "4.1 A4 S2",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Abhängige Variablen waren in festgelegter Reihenfolge die Sprintzeiten über 5, 10 und 30 m, die 505-Zeit als Mittelwert beider Seiten und die Standweitsprungweite.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A4",
+   "satz": 3,
+   "id": "4.1 A4 S3",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Vorab festgelegte Kovariaten waren Ausgangswert und Reifestatus (%PAH).",
+   "merkmale": [
+    "Ausgangswert"
+   ]
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A4",
+   "satz": 4,
+   "id": "4.1 A4 S4",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Berichtet wird in Anlehnung an CONSORT 2010 (Schulz et al., 2010) und TIDieR (Hoffmann et al., 2014).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 1,
+   "id": "4.1 A5 S1",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Die Studie wurde als studentische Qualifikationsarbeit nicht registriert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 2,
+   "id": "4.1 A5 S2",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Als Studienprotokoll dient der Ethikantrag vom 16.06.2026 (Anhang E).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 3,
+   "id": "4.1 A5 S3",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Abweichend vom Antrag gab der vorgesehene Kontrollverein keine Rückmeldung und Verein A sagte nach Antragstellung zu.",
+   "merkmale": [
+    "Meldung"
+   ]
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 4,
+   "id": "4.1 A5 S4",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Verein C wurde nach der Zusagereihenfolge Kontroll- statt Interventionsgruppe.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 5,
+   "id": "4.1 A5 S5",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Die geplante Fallzahl von etwa 45 Spielern wurde nicht erreicht.",
+   "merkmale": [
+    "Fallzahl"
+   ]
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 6,
+   "id": "4.1 A5 S6",
+   "platzhalter": false,
+   "woerter": 7,
+   "text": "Testtermine lagen teils außerhalb des geplanten Zeitfensters.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 7,
+   "id": "4.1 A5 S7",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Entgegen der Antragsannahme trainingsfreier Ferien fanden Vereinsprogramme und in der Interventionsgruppe ab August Mannschaftstraining statt.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 8,
+   "id": "4.1 A5 S8",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Eine Zweitvereinstätigkeit, im Antrag Ausschlusskriterium, wurde nicht erhoben.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 9,
+   "id": "4.1 A5 S9",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Das Adhärenzkriterium wurde in der Hauptanalyse nicht angewandt.",
+   "merkmale": [
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.1",
+   "absatz": "4.1 A5",
+   "satz": 10,
+   "id": "4.1 A5 S10",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Die Studie wurde ohne Drittmittel durchgeführt, die Messtechnik stellte die Deutsche Sporthochschule Köln.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 1,
+   "id": "4.2 A1 S1",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die Zielpopulation bildeten männliche Nachwuchsfußballspieler der Geburtsjahrgänge 2011 und 2012 aus dem leistungsorientierten Breitensport.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 2,
+   "id": "4.2 A1 S2",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Nach Wettkampfebene und Vereinsbindung entsprach dies Tier 2 (Trained/Developmental) im Sinne von McKay et al. (2022).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 3,
+   "id": "4.2 A1 S3",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Rekrutiert wurde im Juni 2026 über die Trainerteams von drei Kölner Fußballvereinen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 4,
+   "id": "4.2 A1 S4",
+   "platzhalter": false,
+   "woerter": 6,
+   "text": "Analysiert wurden N = 26 Spieler.",
+   "merkmale": [
+    "Zahl 26"
+   ]
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 5,
+   "id": "4.2 A1 S5",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Auf die Interventionsgruppe entfielen 16 Spieler (Verein A n = 7, Verein B n = 9, Geburtsjahrgang 2011), auf die Kontrollgruppe 10 (Verein C, Geburtsjahrgang 2012).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 6,
+   "id": "4.2 A1 S6",
+   "platzhalter": false,
+   "woerter": 25,
+   "text": "Die Interventionsgruppe war bei der Eingangstestung 15,10 ± 0,26 Jahre alt, 173,9 ± 10,7 cm groß und 60,8 ± 10,1 kg schwer (M ± SD).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 7,
+   "id": "4.2 A1 S7",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Die Kontrollgruppe war 14,08 ± 0,31 Jahre alt, 168,7 ± 6,6 cm groß und 53,3 ± 7,5 kg schwer.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A1",
+   "satz": 8,
+   "id": "4.2 A1 S8",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Der Reifestatus lag bei 94,74 ± 2,77 %PAH in der Interventionsgruppe und bei 90,50 ± 2,73 %PAH in der Kontrollgruppe.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A2",
+   "satz": 1,
+   "id": "4.2 A2 S1",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Eingeschlossen wurden Spieler mit aktiver Vereinsmitgliedschaft, regelmäßiger Teilnahme am Mannschaftstraining, mindestens einem Familiarisierungstermin und schriftlicher Einwilligung eines Erziehungsberechtigten und des Spielers (Anhang F).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A2",
+   "satz": 2,
+   "id": "4.2 A2 S2",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Verletzungs- und Beschwerdefreiheit war Voraussetzung für beide Testungen.",
+   "merkmale": [
+    "Voraussetzung"
+   ]
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A2",
+   "satz": 3,
+   "id": "4.2 A2 S3",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Ausgeschlossen wurden Spieler mit chronischen orthopädischen, kardiovaskulären oder neurologischen Erkrankungen, die plyometrische Belastungen einschränken.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A2",
+   "satz": 4,
+   "id": "4.2 A2 S4",
+   "platzhalter": false,
+   "woerter": 7,
+   "text": "Trainingsalter und wöchentlicher Trainingsumfang wurden nicht erhoben.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.2",
+   "absatz": "4.2 A2",
+   "satz": 5,
+   "id": "4.2 A2 S5",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Die Lokale Ethikkommission der Deutschen Sporthochschule Köln erhob im Votum vom 08.07.2026 keine grundlegenden ethischen Bedenken (Nr. 157/2026).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A1",
+   "satz": 1,
+   "id": "4.3 A1 S1",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Je Verein folgten auf die Familiarisierung eine Eingangs- und eine Abschlusstestung.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A1",
+   "satz": 2,
+   "id": "4.3 A1 S2",
+   "platzhalter": false,
+   "woerter": 7,
+   "text": "Dazwischen erhielt die Interventionsgruppe das sechswöchige Heimtrainingsprogramm.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A1",
+   "satz": 3,
+   "id": "4.3 A1 S3",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Die Intervention fiel in die wettkampffreie Sommerpause, die Abschlusstestungen lagen teils bereits nach dem ersten Wettspiel der Saison.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A1",
+   "satz": 4,
+   "id": "4.3 A1 S4",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Die Termine richteten sich nach den Vereinsplänen, zwischen beiden Testungen lagen daher sieben bis zehn Wochen (Anhang H, Abb. H7).",
+   "merkmale": [
+    "Objekt Abb. H7"
+   ]
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A2",
+   "satz": 1,
+   "id": "4.3 A2 S1",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Getestet wurde je Verein auf derselben Kunstrasenanlage zur Abendtrainingszeit, mit identischen Geräten und Protokollen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A2",
+   "satz": 2,
+   "id": "4.3 A2 S2",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Auch die Organisation blieb an beiden Terminen gleich: Bei B und C durchliefen die Spieler die Diagnostik in Viererblöcken parallel zum Mannschaftstraining, bei A ohne paralleles Training.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A2",
+   "satz": 3,
+   "id": "4.3 A2 S3",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Die Spieler waren angewiesen, zu beiden Terminen dasselbe Schuhwerk zu tragen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A2",
+   "satz": 4,
+   "id": "4.3 A2 S4",
+   "platzhalter": false,
+   "woerter": 36,
+   "text": "Die Witterung war an allen Terminen vergleichbar, bei den Abschlusstestungen lag die Temperatur jedoch durchgehend niedriger, um bis zu 10 °C. Alle Testungen lagen mindestens 48 Stunden nach dem letzten Wettspiel und der letzten intensiven Trainingseinheit.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A3",
+   "satz": 1,
+   "id": "4.3 A3 S1",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Vor der Eingangstestung wurden zwei Familiarisierungstermine je Mannschaft angeboten, bei Verein A einer, die Teilnahme wurde je Spieler dokumentiert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A3",
+   "satz": 2,
+   "id": "4.3 A3 S2",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Die Termine sollten Lerneffekte verringern und umfassten Aufklärung und Technikeinweisung mit zwei Probeversuchen je Test, beim 505-Test je Seite.",
+   "merkmale": [
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A4",
+   "satz": 1,
+   "id": "4.3 A4 S1",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Bei der Eingangstestung wurden Körperhöhe (Stretch-Stature-Technik, Wandmaßband, 0,1 cm) und Körpermasse (0,1 kg) unbeschuht in Anlehnung an die ISAK-Standards erhoben (Norton, 2018, S. 94–97).",
+   "merkmale": [
+    "Zahl 0,1"
+   ]
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A4",
+   "satz": 2,
+   "id": "4.3 A4 S2",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Aus ihnen, dem Dezimalalter und der mittleren Elternhöhe nach Selbstauskunft wurde der Reifestatus als prozentualer Anteil der prognostizierten Erwachsenenkörperhöhe (%PAH) berechnet.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A4",
+   "satz": 3,
+   "id": "4.3 A4 S3",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Die Koeffizienten wurden dabei zwischen den Halbjahresstufen linear interpoliert (Khamis & Roche, 1994).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A5",
+   "satz": 1,
+   "id": "4.3 A5 S1",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "An beiden Testtagen folgte ein angeleitetes Aufwärmen (Anhang C) von etwa 15 Minuten nach dem RAMP-Schema (Jeffreys, 2007).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A5",
+   "satz": 2,
+   "id": "4.3 A5 S2",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Spieler der Vereine B und C, die erst nach einer Trainingsphase in die Diagnostik eintraten, wiederholten das Aufwärmen nicht.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A5",
+   "satz": 3,
+   "id": "4.3 A5 S3",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Die Tests liefen stets in derselben Reihenfolge ab, vom Sprint über den Standweitsprung bis zum belastungsintensivsten 505-Test.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A5",
+   "satz": 4,
+   "id": "4.3 A5 S4",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Zwischen den Versuchen lagen mindestens zwei, in der Regel zwei bis drei Minuten Pause.",
+   "merkmale": [
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A5",
+   "satz": 5,
+   "id": "4.3 A5 S5",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Alle Messwerte wurden von Hand protokolliert und ohne Geräteexport digitalisiert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.3",
+   "absatz": "4.3 A6",
+   "satz": 1,
+   "id": "4.3 A6 S1",
+   "platzhalter": false,
+   "woerter": 22,
+   "text": "Zuteilung, Einschluss, Testungen, Datenerhebung und Freigabe der Auswertung lagen allein bei der Untersuchungsleitung, die ebenso wie Spieler und Trainer nicht verblindet war.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A1",
+   "satz": 1,
+   "id": "4.4 A1 S1",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Die Zeiten wurden mit Einzelstrahl-Lichtschranken auf 1 m Höhe gemessen (Witty, Microgate, Bozen, Italien) und auf 0,01 s protokolliert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A1",
+   "satz": 2,
+   "id": "4.4 A1 S2",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Da das System im Basic-Modus Impulse keiner bestimmten Schranke zuordnet, wurden die Messstrecken nacheinander aufgebaut (Microgate, 2016).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A1",
+   "satz": 3,
+   "id": "4.4 A1 S3",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Hochstart in Schrittstellung und Auslösung folgten Altmann et al. (2015), abweichend davon mit einem Startkommando, das die Zeitnahme nicht auslöste.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A2",
+   "satz": 1,
+   "id": "4.4 A2 S1",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Vorgesehen waren drei Versuche je Spieler und Zielgröße, durchgeführt wurden stets mindestens zwei.",
+   "merkmale": [
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A2",
+   "satz": 2,
+   "id": "4.4 A2 S2",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Ungültige Versuche nach Urteil der Testleitung wurden wiederholt, soweit die Zeitplanung es zuließ.",
+   "merkmale": [
+    "gültige Versuche",
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A2",
+   "satz": 3,
+   "id": "4.4 A2 S3",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Gründe verbliebener Ausfälle waren Lichtschrankenausfall, Zeitmangel beim dritten Versuch und nicht wiederholbare Fehlversuche (Tab. H1).",
+   "merkmale": [
+    "Versuche",
+    "Objekt Tab. H1"
+   ]
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A2",
+   "satz": 4,
+   "id": "4.4 A2 S4",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Je Zielgröße ging der Bestwert der gültigen Versuche in die Auswertung ein, beim 505-Test je Seite.",
+   "merkmale": [
+    "gültigen Versuche",
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A3",
+   "satz": 1,
+   "id": "4.4 A3 S1",
+   "platzhalter": false,
+   "woerter": 28,
+   "text": "Tab. 1 zeigt je Zielgröße den typischen Messfehler (TE) der Wiederholungsversuche (Hopkins, 2000) und den kleinsten praktisch bedeutsamen Unterschied (SESOI) nach der Konvention von Cohen (1988, S. 25).",
+   "merkmale": [
+    "typischen Messfehler",
+    "SESOI",
+    "Versuche",
+    "Objekt Tab. 1"
+   ]
+  },
+  {
+   "abschnitt": "4.4",
+   "absatz": "4.4 A3",
+   "satz": 2,
+   "id": "4.4 A3 S2",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Der TE überstieg bei allen Zielgrößen den SESOI, Aussagen über einzelne Spieler unterblieben deshalb.",
+   "merkmale": [
+    "SESOI"
+   ]
+  },
+  {
+   "abschnitt": "4.4.1",
+   "absatz": "4.4.1 A1",
+   "satz": 1,
+   "id": "4.4.1 A1 S1",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Die Sprintschnelligkeit wurde mit Lichtschranken bei 0, 5, 10 und 30 m erhoben.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.1",
+   "absatz": "4.4.1 A1",
+   "satz": 2,
+   "id": "4.4.1 A1 S2",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Die Sprintzeit ist das Intervall ab der ersten Schranke.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.1",
+   "absatz": "4.4.1 A1",
+   "satz": 3,
+   "id": "4.4.1 A1 S3",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Abweichend vom Studienprotokoll stand der vordere Fuß 0,5 statt 0,3 m hinter der ersten Schranke (Padrón-Cabo et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.1",
+   "absatz": "4.4.1 A1",
+   "satz": 4,
+   "id": "4.4.1 A1 S4",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Ungültig waren Versuche mit Frühstart, unvollständiger Schrankenpassage oder Lichtschrankenausfall.",
+   "merkmale": [
+    "vollständig",
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.4.1",
+   "absatz": "4.4.1 A1",
+   "satz": 5,
+   "id": "4.4.1 A1 S5",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Bei der Abschlusstestung von Verein B fehlt die 10-m-Zeit wegen eines Lichtschrankenausfalls.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 1,
+   "id": "4.4.2 A1 S1",
+   "platzhalter": false,
+   "woerter": 30,
+   "text": "Die Richtungswechselleistung wurde mit dem 505-Test in der traditionellen Streckenkonfiguration erhoben (Draper & Lancaster, 1985, zitiert nach Nimphius et al., 2016): Startlinie, Lichtschranke bei 10 m, Wendelinie bei 15 m.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 2,
+   "id": "4.4.2 A1 S2",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Die 505-Zeit ist das Intervall zwischen beiden Schrankenpassagen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 3,
+   "id": "4.4.2 A1 S3",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Der Versuchsablauf folgte Clarke et al. (2020), abweichend davon mit maximalem Anlauf und fester Seitenfolge, zuerst mit Wende nach links.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 4,
+   "id": "4.4.2 A1 S4",
+   "platzhalter": false,
+   "woerter": 5,
+   "text": "Die Beindominanz wurde nicht erhoben.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 5,
+   "id": "4.4.2 A1 S5",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Ungültig waren Versuche mit mehrfachem oder fehlendem Bodenkontakt auf der Wendelinie, unvollständiger Schrankenpassage oder Frühstart.",
+   "merkmale": [
+    "vollständig",
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 6,
+   "id": "4.4.2 A1 S6",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Zielgröße war das Mittel der beiden Seiten-Bestwerte, sofern je Seite mindestens ein gültiger Versuch vorlag (Dugdale et al., 2019, 2020).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.2",
+   "absatz": "4.4.2 A1",
+   "satz": 7,
+   "id": "4.4.2 A1 S7",
+   "platzhalter": false,
+   "woerter": 5,
+   "text": "Ein Asymmetrie-Index wurde nicht berechnet.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.3",
+   "absatz": "4.4.3 A1",
+   "satz": 1,
+   "id": "4.4.3 A1 S1",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Die horizontale Sprungleistung wurde mit dem Standweitsprung erhoben (Thomas et al., 2020): Fersen an der Absprunglinie, beidbeiniger Absprung mit frei gewählter Ausholbewegung, beidbeinige Landung.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.3",
+   "absatz": "4.4.3 A1",
+   "satz": 2,
+   "id": "4.4.3 A1 S2",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Gemessen wurde am bodenfixierten Maßband auf 1 cm bis zum liniennächsten Fersenaufsatz.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.3",
+   "absatz": "4.4.3 A1",
+   "satz": 3,
+   "id": "4.4.3 A1 S3",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Abweichend vom Referenzprotokoll betrug die Pause etwa zwei bis drei statt fünf Minuten, gesprungen wurde in Fußballschuhen auf Kunstrasen statt auf hartem Boden.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.4.3",
+   "absatz": "4.4.3 A1",
+   "satz": 4,
+   "id": "4.4.3 A1 S4",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Ungültig waren Versuche mit einbeinigem Absprung oder einbeiniger Landung, Nachstolpern, Abstützen oder Rückwärtsfallen.",
+   "merkmale": [
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A1",
+   "satz": 1,
+   "id": "4.5.1 A1 S1",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Für die Interventionsgruppe war ein sechswöchiges, videogeführtes und gerätefreies plyometrisches Heimtrainingsprogramm mit zwölf Einheiten vorgesehen, zwei je Woche, einzeln und unbeaufsichtigt.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A1",
+   "satz": 2,
+   "id": "4.5.1 A1 S2",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Vorgegeben waren ein Mindestabstand von 48 Stunden ohne intensive Trainingseinheit dazwischen sowie der Verzicht auf zusätzliche Sprungübungen und Zusatzlasten.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A1",
+   "satz": 3,
+   "id": "4.5.1 A1 S3",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Grundlage waren die Stufen 1 bis 3 des plyometrischen Progressionsmodells für das Nachwuchsalter (Lloyd et al., 2011).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A1",
+   "satz": 4,
+   "id": "4.5.1 A1 S4",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Gesteuert wurde die Belastung über Kontaktzahl und Ausführungsinstruktion.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A2",
+   "satz": 1,
+   "id": "4.5.1 A2 S1",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Je Einheit standen zwei Videos bereit (Anhang B): das in allen Wochen identische Aufwärmvideo nach dem RAMP-Schema und das Wochenvideo mit dem Hauptteil.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A2",
+   "satz": 2,
+   "id": "4.5.1 A2 S2",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Das Aufwärmvideo dauerte 8:53 min, das Wochenvideo 24:17 bis 31:14 min, die Einheit damit 33:10 bis 40:07 min.",
+   "merkmale": [
+    "Zahl 31"
+   ]
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A2",
+   "satz": 3,
+   "id": "4.5.1 A2 S3",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Beide waren einmal zu starten und ohne Vor- oder Zurückspulen zu durchlaufen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A2",
+   "satz": 4,
+   "id": "4.5.1 A2 S4",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die Videos der Untersuchungsleitung zeigten jede Übung frontal und seitlich, typische Fehler als Standbild.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A2",
+   "satz": 5,
+   "id": "4.5.1 A2 S5",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Ein Infoblatt gab vor: ebener, trockener Rasen von etwa 10 × 3 m, feste Sportschuhe, Abspielgerät mit Ton.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 1,
+   "id": "4.5.1 A3 S1",
+   "platzhalter": false,
+   "woerter": 29,
+   "text": "Das Programm umfasste zehn Übungen in drei Zwei-Wochen-Blöcken: Technik und Fundament (Stufen 1 und 2), schnelle DVZ (Stufen 2 bis 3), reaktive und multidirektionale Sprungformen (Stufen 2 bis 3).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 2,
+   "id": "4.5.1 A3 S2",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Beide Einheiten einer Woche waren identisch, die Übungsreihenfolge blieb konstant.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 3,
+   "id": "4.5.1 A3 S3",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Je Übung waren ein bis drei Sätze mit drei bis zehn Wiederholungen vorgesehen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 4,
+   "id": "4.5.1 A3 S4",
+   "platzhalter": false,
+   "woerter": 37,
+   "text": "Die Bodenkontakte je Einheit stiegen von 52 über 66, 80, 96 und 106 auf 120. Der Verlauf entsprach nahezu zwei achtwöchigen Vorlagen mit 50 auf 120 Kontakten je Einheit (Negra et al., 2019; Sammoud et al., 2024).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 5,
+   "id": "4.5.1 A3 S5",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Zwischen den Sätzen lagen 90 Sekunden, zwischen den Übungen 120 Sekunden.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 6,
+   "id": "4.5.1 A3 S6",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Instruiert waren ab Woche 2 maximale Höhe oder Weite bei den beidbeinigen langsamen und Bodenkontaktzeiten unter 250 ms bei den schnellen DVZ-Übungen (Lloyd et al., 2011).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 7,
+   "id": "4.5.1 A3 S7",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Ab Woche 3 gab ein Tonsignal mit 120 Schlägen je Minute die Frequenz der Pogo Hops und Vorwärts Ankle Hops vor, ab Woche 5 auch der Zickzack-Sprünge.",
+   "merkmale": [
+    "Zahl 5"
+   ]
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A3",
+   "satz": 8,
+   "id": "4.5.1 A3 S8",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Sprintspezifische Inhalte enthielt das Programm über die submaximalen Beschleunigungsläufe des Aufwärmens hinaus nicht.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A4",
+   "satz": 1,
+   "id": "4.5.1 A4 S1",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Regressionen (geringere Höhe, Weite oder Wiederholungszahl) und Selbstkontrollkriterien je Übung ersetzten das trainerseitige Mastery-Kriterium des Modells.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A4",
+   "satz": 2,
+   "id": "4.5.1 A4 S2",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Bei Schmerzen, Erkrankung oder Verletzung war die Einheit abzubrechen.",
+   "merkmale": [
+    "Schmerz"
+   ]
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A4",
+   "satz": 3,
+   "id": "4.5.1 A4 S3",
+   "platzhalter": false,
+   "woerter": 30,
+   "text": "Das Video der Folgewoche erschien sonntags um 20 Uhr als nicht gelisteter YouTube-Link in einer WhatsApp-Gruppe je Verein, über die auch der Link zum Monitoringfragebogen verteilt und Rückfragen beantwortet wurden.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A4",
+   "satz": 4,
+   "id": "4.5.1 A4 S4",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Während der sechs Wochen blieb das Programm unverändert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A4",
+   "satz": 5,
+   "id": "4.5.1 A4 S5",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Abweichend vom Ethikantrag begann das Programm mit 52 statt etwa 60 bis 80 Kontakten je Einheit und enthielt in Woche 3 und 4 keinen eigenen Kraftblock.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.1",
+   "absatz": "4.5.1 A4",
+   "satz": 6,
+   "id": "4.5.1 A4 S6",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Statt zunehmend einbeiniger Übungen ab Woche 5 enthielt es nur niedrigintensive einbeinige Standsprünge.",
+   "merkmale": [
+    "Zahl 5"
+   ]
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A1",
+   "satz": 1,
+   "id": "4.5.2 A1 S1",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die Vereinsprogramme waren klubspezifisch und wurden studienseitig weder standardisiert noch in ihrer Umsetzung erfasst.",
+   "merkmale": [
+    "Umsetzung"
+   ]
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A1",
+   "satz": 2,
+   "id": "4.5.2 A1 S2",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Ihre Beschreibung stützt sich auf Plandokumente und Auskünfte der Trainerteams (Anhang D).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 1,
+   "id": "4.5.2 A2 S1",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "In den ersten beiden Interventionswochen gab Verein A einen extensiven Laufplan vor, Verein C keine Vorgaben.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 2,
+   "id": "4.5.2 A2 S2",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Verein A trainierte ab dem 03.08. mindestens dreimal wöchentlich als Mannschaft.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 3,
+   "id": "4.5.2 A2 S3",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Verein B gab in den ersten drei Wochen zwei Läufe je Woche vor, Dauerläufe und Fahrtspiele ohne Sprint- und Sprungübungen.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 4,
+   "id": "4.5.2 A2 S4",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Ab dem 10.08. folgten zweimal wöchentlich Mannschaftstraining und zwei Testspiele.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 5,
+   "id": "4.5.2 A2 S5",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Verein C gab vom 03. bis 30.08. einen Lauf- und Athletikplan an bis zu sechs Tagen je Woche vor.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 6,
+   "id": "4.5.2 A2 S6",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Er enthielt wöchentlich Sprints über 30 bis 40 m, in den letzten beiden Wochen zusätzlich über 100 beziehungsweise 60 m.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 7,
+   "id": "4.5.2 A2 S7",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Hinzu kamen Rumpf- und Körpergewichtsübungen, Sprungübungen wies der Plan nicht aus.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.5.2",
+   "absatz": "4.5.2 A2",
+   "satz": 8,
+   "id": "4.5.2 A2 S8",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Das Mannschaftstraining von Verein C begann am 07.09. Eigene Sprinteinheiten sah nur der Plan der Kontrollgruppe vor.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 1,
+   "id": "4.6 A1 S1",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Die Trainingsdurchführung wurde mit einem Online-Fragebogen (SoSci Survey) erhoben, der nach jeder Einheit auszufüllen war (Anhang A).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 2,
+   "id": "4.6 A1 S2",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Für die Kontrollgruppe sah der Ethikantrag kein Monitoring vor.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 3,
+   "id": "4.6 A1 S3",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Erfasst wurden unter anderem Spielercode, Durchführungsstatus, Beanspruchung und Schmerzen.",
+   "merkmale": [
+    "Beanspruchung",
+    "Schmerz"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 4,
+   "id": "4.6 A1 S4",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Jedes Wochenvideo endete mit einer Karte zum Programmfortschritt.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 5,
+   "id": "4.6 A1 S5",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Erinnerungen erfolgten über die WhatsApp-Gruppen ohne protokollierte Häufigkeit.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 6,
+   "id": "4.6 A1 S6",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Die Beanspruchung wurde nach der Session-RPE-Methode (sRPE) mit der CR-10-Skala erhoben (Foster et al., 2001).",
+   "merkmale": [
+    "Beanspruchung",
+    "CR-10",
+    "sRPE"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 7,
+   "id": "4.6 A1 S7",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die Methode gilt auch bei Jugendlichen als valide und reliabel (Haddad et al., 2017).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 8,
+   "id": "4.6 A1 S8",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Der sRPE-Load ist das Produkt aus CR-10-Wert und Solldauer der Einheit.",
+   "merkmale": [
+    "CR-10",
+    "sRPE",
+    "Solldauer"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A1",
+   "satz": 9,
+   "id": "4.6 A1 S9",
+   "platzhalter": false,
+   "woerter": 6,
+   "text": "Die Dauer wurde nicht individuell erfasst.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A2",
+   "satz": 1,
+   "id": "4.6 A2 S1",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Adhärenz ist die Zahl der Meldungen mit dem Status „ganz“ je Spieler bei zwölf angebotenen Einheiten.",
+   "merkmale": [
+    "Meldung",
+    "angebotene",
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A2",
+   "satz": 2,
+   "id": "4.6 A2 S2",
+   "platzhalter": false,
+   "woerter": 4,
+   "text": "Gezählt wurde je Meldung.",
+   "merkmale": [
+    "Meldung"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A2",
+   "satz": 3,
+   "id": "4.6 A2 S3",
+   "platzhalter": false,
+   "woerter": 6,
+   "text": "Die Einheitennummer diente nicht als Identitätsmerkmal.",
+   "merkmale": [
+    "Einheitennummer"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A2",
+   "satz": 4,
+   "id": "4.6 A2 S4",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Meldungen mit dem Status „teilweise“ zählten gesondert als Beteiligung.",
+   "merkmale": [
+    "Meldung",
+    "teilweise"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A2",
+   "satz": 5,
+   "id": "4.6 A2 S5",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Der Ethikantrag legte ein Adhärenzkriterium von mindestens 75 % fest.",
+   "merkmale": [
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.6",
+   "absatz": "4.6 A2",
+   "satz": 6,
+   "id": "4.6 A2 S6",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Die Compliance, die protokollgetreue Übungsausführung, war im unbeaufsichtigten Heimsetting nicht objektiv überprüfbar.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A1",
+   "satz": 1,
+   "id": "4.7 A1 S1",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Die Hauptanalyse umfasste unabhängig von der Adhärenz alle zugeteilten Spieler in ihrer Gruppe, je Zielgröße mit vollständigen Prä- und Post-Werten und Reifestatus, ohne Ersetzung fehlender Werte.",
+   "merkmale": [
+    "zugeteilt",
+    "vollständig",
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A1",
+   "satz": 2,
+   "id": "4.7 A1 S2",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Das Adhärenzkriterium (mindestens neun von zwölf Einheiten) entfiel als Ausschlussgrund, da es nur drei Spieler erreichten.",
+   "merkmale": [
+    "mindestens neun",
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A1",
+   "satz": 3,
+   "id": "4.7 A1 S3",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Ergänzend wurden die Spieler ab einer Adhärenz von sechs Einheiten, der Hälfte des Programms, mit der Kontrollgruppe verglichen.",
+   "merkmale": [
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A1",
+   "satz": 4,
+   "id": "4.7 A1 S4",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Dieser Per-Protokoll-Vergleich ist beobachtend (Moher et al., 2010, S. 17).",
+   "merkmale": [
+    "Per-Protokoll"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A1",
+   "satz": 5,
+   "id": "4.7 A1 S5",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Beschreibend berichtet werden die 505-Seitenwerte laut Studienprotokoll sowie alle Teilmengen unter acht Spielern je Gruppe, so die 5- und 10-m-Sprintzeiten und Teile des Per-Protokoll-Vergleichs.",
+   "merkmale": [
+    "Zahl 5",
+    "beschreibend",
+    "Beschreibend",
+    "Per-Protokoll"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A1",
+   "satz": 6,
+   "id": "4.7 A1 S6",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Diese Festlegungen erfolgten nach Sichtung der Adhärenz- und Abschlusswerte der Interventionsgruppe und vor der Abschlusstestung der Kontrollgruppe.",
+   "merkmale": [
+    "Adhärenz"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A2",
+   "satz": 1,
+   "id": "4.7 A2 S1",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Eine A-priori-Poweranalyse (f = 0,25) veranschlagte mindestens 34 Spieler, daran orientierte sich die Rekrutierung.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A2",
+   "satz": 2,
+   "id": "4.7 A2 S2",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Verfügbare Spieler und Testzeit reichten dafür nicht aus (Ressourcenbegründung nach Lakens, 2022, S. 3–5).",
+   "merkmale": [
+    "Zahl 5"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A2",
+   "satz": 3,
+   "id": "4.7 A2 S3",
+   "platzhalter": false,
+   "woerter": 25,
+   "text": "Für die erreichte Spielerzahl je konfirmatorische Zielgröße ermittelte eine Sensitivitäts-Poweranalyse die kleinste nachweisbare Effektstärke bei α = 0,05 und Power 0,80 (Lakens, 2022, S. 14–15).",
+   "merkmale": [
+    "Zahl 0,05",
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A2",
+   "satz": 4,
+   "id": "4.7 A2 S4",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Anders als die Hauptanalyse rechnete sie konservativ ohne Einfluss der Kovariaten, festgelegt nach einer ersten Auswertung.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 1,
+   "id": "4.7 A3 S1",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Je konfirmatorische Zielgröße (30-m-Sprint, 505-Seitenmittel, Standweitsprung) verglich eine Kovarianzanalyse die Post-Werte beider Gruppen bei rechnerisch gleichem Ausgangswert und Reifestatus.",
+   "merkmale": [
+    "Ausgangswert"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 2,
+   "id": "4.7 A3 S2",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Der Ausgangswert diente als Prädiktor des Post-Werts (Vickers & Altman, 2001).",
+   "merkmale": [
+    "Ausgangswert"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 3,
+   "id": "4.7 A3 S3",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Der Reifestatus diente als kontinuierliche Kovariate, weil er die Leistungsentwicklung im Jugendalter mitbestimmt, zumal sich die Gruppen im Reifestatus deutlich unterschieden.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 4,
+   "id": "4.7 A3 S4",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Berichtet werden die adjustierte Gruppendifferenz im Post-Wert mit 95-%-Konfidenzintervall und p-Wert sowie die unadjustierte Differenz der Post-Mittelwerte.",
+   "merkmale": [
+    "unadjustiert",
+    "adjustiert",
+    "Gruppendifferenz",
+    "Konfidenzintervall"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 5,
+   "id": "4.7 A3 S5",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Hedges' g bezieht die adjustierte Differenz auf die gepoolte Standardabweichung der Ausgangswerte und macht so die Gruppendifferenzen der Zielgrößen untereinander vergleichbar.",
+   "merkmale": [
+    "Ausgangswert",
+    "adjustiert",
+    "Gruppendifferenz",
+    "Hedges"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 6,
+   "id": "4.7 A3 S6",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Das Konfidenzintervall der adjustierten Differenz wird mit null und dem SESOI in beide Richtungen verglichen, um Nachweisbarkeit und Relevanz einzuordnen (Lakens, 2022, S. 13–14).",
+   "merkmale": [
+    "Zahl 13",
+    "SESOI",
+    "adjustiert",
+    "Konfidenzintervall",
+    "nachweisbar",
+    "beide Richtungen"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 7,
+   "id": "4.7 A3 S7",
+   "platzhalter": false,
+   "woerter": 7,
+   "text": "Laut Studienprotokoll waren die drei Zielgrößen gleichrangig.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A3",
+   "satz": 8,
+   "id": "4.7 A3 S8",
+   "platzhalter": false,
+   "woerter": 22,
+   "text": "H0 gilt als verworfen, wenn mindestens eine davon einen Vorteil der Interventionsgruppe mit p < 0,05 (zweiseitig) zeigt, ohne Adjustierung für Mehrfachtestung.",
+   "merkmale": [
+    "Zahl 0,05",
+    "verworfen"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A4",
+   "satz": 1,
+   "id": "4.7 A4 S1",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Um Verletzungen der Modellannahmen zu erkennen, prüfte der Shapiro-Wilk-Test die Modellresiduen auf Normalverteilung, der Brown-Forsythe-Test auf gleiche Streuung in beiden Gruppen.",
+   "merkmale": [
+    "Shapiro-Wilk",
+    "Normalverteilung",
+    "Residuen"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A4",
+   "satz": 2,
+   "id": "4.7 A4 S2",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Ob Ausgangswert und Reifestatus linear und in beiden Gruppen gleich steil mit dem Post-Wert zusammenhingen, prüften Residuengrafiken und je ein Interaktionsterm mit der Gruppe.",
+   "merkmale": [
+    "Ausgangswert",
+    "Residuen"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A4",
+   "satz": 3,
+   "id": "4.7 A4 S3",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Beschrieben wurde die Überlappung der Kovariaten beider Gruppen.",
+   "merkmale": [
+    "Überlappung"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A4",
+   "satz": 4,
+   "id": "4.7 A4 S4",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Das Modell des Studienprotokolls blieb auch bei verworfener Prüfung unverändert.",
+   "merkmale": [
+    "verworfen"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A5",
+   "satz": 1,
+   "id": "4.7 A5 S1",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Sechs vorab festgelegte Sensitivitätsanalysen prüften, ob die Ergebnisse von Bestwertregel, Per-Protokoll-Schwelle, Modellform oder Kovariaten abhängen (Tab. H4).",
+   "merkmale": [
+    "Per-Protokoll",
+    "Sensitivitätsanalyse",
+    "Objekt Tab. H4"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A5",
+   "satz": 2,
+   "id": "4.7 A5 S2",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Nachträglich kam für alle drei Zielgrößen ein Bootstrap-Konfidenzintervall der adjustierten Differenz hinzu, das keine Normalverteilung der Residuen voraussetzt (Fröhlich et al., 2020, S. 78).",
+   "merkmale": [
+    "adjustiert",
+    "Konfidenzintervall",
+    "Normalverteilung",
+    "Residuen",
+    "Bootstrap"
+   ]
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A6",
+   "satz": 1,
+   "id": "4.7 A6 S1",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Die digitalisierten Werte wurden auf Plausibilität geprüft, auffällige am Papierprotokoll kontrolliert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A6",
+   "satz": 2,
+   "id": "4.7 A6 S2",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Die statistische Auswertung erfolgte skriptbasiert in R 4.3.3 (R Core Team, 2024).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "4.7",
+   "absatz": "4.7 A6",
+   "satz": 3,
+   "id": "4.7 A6 S3",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die Skripte stehen mit der Poweranalyse und den Diagrammen der Voraussetzungsprüfung in Anhang G.",
+   "merkmale": [
+    "Voraussetzung"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A1",
+   "satz": 1,
+   "id": "5 A1 S1",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Abb. 1 zeigt den Teilnehmerfluss bis zum planmäßigen Studienende.",
+   "merkmale": [
+    "Teilnehmerfluss",
+    "planmäßig",
+    "Objekt Abb. 1"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A1",
+   "satz": 2,
+   "id": "5 A1 S2",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Von 31 zur Eingangstestung angetretenen Spielern gingen 26 in die Analyse ein.",
+   "merkmale": [
+    "Zahl 26",
+    "Zahl 31",
+    "Eingangstestung angetreten"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A1",
+   "satz": 3,
+   "id": "5 A1 S3",
+   "platzhalter": false,
+   "woerter": 22,
+   "text": "Tab. 2 enthält die Ausgangswerte im Analyseset mit standardisierter Differenz d und Überlappung der Kovariaten, Tab. H3 die Ausgangswerte aller eingangsgetesteten Spieler.",
+   "merkmale": [
+    "Analyseset",
+    "Ausgangswert",
+    "standardisierte",
+    "Überlappung",
+    "Objekt Tab. 2",
+    "Objekt Tab. H3"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A1",
+   "satz": 4,
+   "id": "5 A1 S4",
+   "platzhalter": false,
+   "woerter": 6,
+   "text": "Alle Ausgangsunterschiede lagen zugunsten der Interventionsgruppe.",
+   "merkmale": [
+    "Ausgangsunterschied",
+    "zugunsten"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A2",
+   "satz": 1,
+   "id": "5 A2 S1",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Die 18 zugeteilten Spieler der Interventionsgruppe meldeten 92 Einheiten als vollständig, 6 als teilweise und 13 als nicht durchgeführt, im Median 6,0 vollständige je Spieler (Tab. H2).",
+   "merkmale": [
+    "Zahl 6",
+    "Zahl 13",
+    "Zahl 18",
+    "Zahl 92",
+    "Zahl 6,0",
+    "zugeteilt",
+    "meldeten",
+    "vollständig",
+    "teilweise",
+    "nicht durchgeführt",
+    "Median",
+    "Objekt Tab. H2"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A2",
+   "satz": 2,
+   "id": "5 A2 S2",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Bei zwölf angebotenen Einheiten je Spieler entsprach das einer Umsetzungsrate von 42,6 % (45,4 % mit den teilweise durchgeführten).",
+   "merkmale": [
+    "Zahl 42,6",
+    "Zahl 45,4",
+    "teilweise",
+    "Umsetzung",
+    "angebotene"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A2",
+   "satz": 3,
+   "id": "5 A2 S3",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Zehn Spieler erreichten mindestens sechs, drei mindestens neun Einheiten (Tab. H2 und Tab. H5).",
+   "merkmale": [
+    "Zahl 5",
+    "mindestens sechs",
+    "mindestens neun",
+    "Objekt Tab. H2",
+    "Objekt Tab. H5"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A2",
+   "satz": 4,
+   "id": "5 A2 S4",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Als Untergrenzen ergaben sich mit höchstens zwei Meldungen je Programmwoche neun und zwei Spieler, nach verschiedenen Einheitennummern neun und einer.",
+   "merkmale": [
+    "Meldung",
+    "Untergrenze",
+    "Programmwoche",
+    "Einheitennummer"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A3",
+   "satz": 1,
+   "id": "5 A3 S1",
+   "platzhalter": false,
+   "woerter": 22,
+   "text": "Die Beanspruchung der 92 als vollständig gemeldeten Einheiten lag auf der CR-10-Skala bei 2,9 ± 0,9 (Median 3,0, Spanne 0,0 bis 5,0).",
+   "merkmale": [
+    "Zahl 92",
+    "Zahl 0,0",
+    "Zahl 0,9",
+    "Zahl 2,9",
+    "Zahl 5,0",
+    "meldeten",
+    "vollständig",
+    "Median",
+    "Beanspruchung",
+    "CR-10"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A3",
+   "satz": 2,
+   "id": "5 A3 S2",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Der mit der Solldauer berechnete sRPE-Load betrug 106,7 ± 35,9 AU (Median 110,8, Spanne 0,0 bis 199,7).",
+   "merkmale": [
+    "Zahl 0,0",
+    "Zahl 35,9",
+    "Zahl 106,7",
+    "Zahl 199,7",
+    "Median",
+    "sRPE",
+    "Solldauer"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A3",
+   "satz": 3,
+   "id": "5 A3 S3",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Zwölf Meldungen von neun Spielern nannten Schmerzen oder Probleme, davon je zwei zu nicht und zu teilweise durchgeführten Einheiten.",
+   "merkmale": [
+    "Meldung",
+    "teilweise",
+    "Schmerz",
+    "Probleme"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A3",
+   "satz": 4,
+   "id": "5 A3 S4",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Für die Kontrollgruppe wurden solche Angaben nicht erhoben.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A4",
+   "satz": 1,
+   "id": "5 A4 S1",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Der typische Messfehler überstieg auch bei der Abschlusstestung in allen Zielgrößen den SESOI (Tab. 1).",
+   "merkmale": [
+    "typische Messfehler",
+    "SESOI",
+    "Objekt Tab. 1"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A4",
+   "satz": 2,
+   "id": "5 A4 S2",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Mehr gültige Versuche je Spieler hatte im Mittel beim 30-m-Sprint und Standweitsprung zu beiden Zeitpunkten die Interventionsgruppe, beim 505-Test je Seite überwiegend die Kontrollgruppe (Tab. H1).",
+   "merkmale": [
+    "gültige Versuche",
+    "Versuche",
+    "Objekt Tab. H1"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 1,
+   "id": "5 A5 S1",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Tab. 3 enthält für die konfirmatorischen Zielgrößen die unadjustierten und adjustierten Gruppendifferenzen im Post-Wert sowie Hedges' g.",
+   "merkmale": [
+    "unadjustiert",
+    "adjustiert",
+    "Gruppendifferenz",
+    "Hedges",
+    "Objekt Tab. 3"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 2,
+   "id": "5 A5 S2",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Abb. 2 zeigt je Zielgröße Ausgangswert und reifeadjustierten Abschlusswert jedes Spielers mit den Modelllinien beider Gruppen.",
+   "merkmale": [
+    "Ausgangswert",
+    "adjustiert",
+    "Modelllinie",
+    "reifeadjustiert",
+    "Objekt Abb. 2"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 3,
+   "id": "5 A5 S3",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Alle unadjustierten Differenzen lagen zugunsten der Interventionsgruppe und weiter von null entfernt als die adjustierten.",
+   "merkmale": [
+    "zugunsten",
+    "unadjustiert",
+    "adjustiert"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 4,
+   "id": "5 A5 S4",
+   "platzhalter": false,
+   "woerter": 23,
+   "text": "Adjustiert für Ausgangswert und Reifestatus betrug die Differenz Interventions- minus Kontrollgruppe beim 30-m-Sprint −0,045 s (95-%-Konfidenzintervall −0,199 bis +0,110 s, p = 0,557).",
+   "merkmale": [
+    "Zahl 0,045",
+    "Zahl 0,110",
+    "Zahl 0,199",
+    "Zahl 0,557",
+    "Ausgangswert",
+    "adjustiert",
+    "Konfidenzintervall"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 5,
+   "id": "5 A5 S5",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Beim 505-Seitenmittel betrug sie −0,012 s (−0,085 bis +0,061 s, p = 0,734), beim Standweitsprung −0,1 cm (−8,7 bis +8,6 cm, p = 0,987).",
+   "merkmale": [
+    "Zahl 0,1",
+    "Zahl 8,6",
+    "Zahl 8,7",
+    "Zahl 0,012",
+    "Zahl 0,061",
+    "Zahl 0,085",
+    "Zahl 0,734",
+    "Zahl 0,987"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 6,
+   "id": "5 A5 S6",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar.",
+   "merkmale": [
+    "Gruppenunterschied",
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 7,
+   "id": "5 A5 S7",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Jedes Intervall war mit relevanten Unterschieden in beide Richtungen vereinbar.",
+   "merkmale": [
+    "beide Richtungen"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 8,
+   "id": "5 A5 S8",
+   "platzhalter": false,
+   "woerter": 4,
+   "text": "Die Befunde waren unschlüssig.",
+   "merkmale": [
+    "unschlüssig"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 9,
+   "id": "5 A5 S9",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Keine adjustierte Differenz zeigte mit p < 0,05 einen Vorteil der Interventionsgruppe.",
+   "merkmale": [
+    "Zahl 0,05",
+    "adjustiert"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 10,
+   "id": "5 A5 S10",
+   "platzhalter": false,
+   "woerter": 5,
+   "text": "Die Nullhypothese wurde nicht verworfen.",
+   "merkmale": [
+    "Nullhypothese",
+    "verworfen"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A5",
+   "satz": 11,
+   "id": "5 A5 S11",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Die 5- und 10-m-Sprintzeiten und die 505-Seitenwerte wurden nur beschrieben (Tab. H3).",
+   "merkmale": [
+    "Zahl 5",
+    "nur beschrieben",
+    "Objekt Tab. H3"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A6",
+   "satz": 1,
+   "id": "5 A6 S1",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Beim 30-m-Sprint verwarf der Shapiro-Wilk-Test die Normalverteilung der Residuen (W = 0,915, p = 0,034).",
+   "merkmale": [
+    "Zahl 0,034",
+    "Shapiro-Wilk",
+    "Normalverteilung",
+    "Residuen"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A6",
+   "satz": 2,
+   "id": "5 A6 S2",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Das nachträglich festgelegte Bootstrap-Konfidenzintervall der adjustierten Differenz reichte dort von −0,177 bis +0,107 s.",
+   "merkmale": [
+    "Zahl 0,107",
+    "Zahl 0,177",
+    "adjustiert",
+    "Konfidenzintervall",
+    "Bootstrap"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A6",
+   "satz": 3,
+   "id": "5 A6 S3",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Die übrigen mit Tests geprüften Voraussetzungen wurden nicht verworfen (Tab. H4).",
+   "merkmale": [
+    "verworfen",
+    "Voraussetzung",
+    "Objekt Tab. H4"
+   ]
+  },
+  {
+   "abschnitt": "5",
+   "absatz": "5 A6",
+   "satz": 4,
+   "id": "5 A6 S4",
+   "platzhalter": false,
+   "woerter": 28,
+   "text": "Soweit die Fallzahl eine Inferenz zuließ, änderten weder der beobachtende Per-Protokoll-Vergleich noch die sechs Sensitivitätsanalysen die Einordnung als unschlüssig, und keine davon erreichte p < 0,05 (Tab. H4).",
+   "merkmale": [
+    "Zahl 0,05",
+    "unschlüssig",
+    "Per-Protokoll",
+    "Sensitivitätsanalyse",
+    "Fallzahl",
+    "Inferenz",
+    "Objekt Tab. H4"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A1",
+   "satz": 1,
+   "id": "6.1 A1 S1",
+   "platzhalter": false,
+   "woerter": 31,
+   "text": "Ziel der Studie war es zu prüfen, ob ein sechswöchiges videobasiertes, gerätefreies plyometrisches Heimtrainingsprogramm in der Sommerpause die Sprint-, Richtungswechsel- und Sprungleistung männlicher U15-Fußballspieler des leistungsorientierten Breitensports gegenüber einer Kontrollgruppe verbessert.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A1",
+   "satz": 2,
+   "id": "6.1 A1 S2",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Nach Adjustierung für Ausgangswert und Reifestatus war bei keiner Zielgröße ein Gruppenunterschied nachweisbar, die Nullhypothese wurde nicht verworfen.",
+   "merkmale": [
+    "Ausgangswert",
+    "Gruppenunterschied",
+    "nachweisbar",
+    "Nullhypothese",
+    "verworfen"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A1",
+   "satz": 3,
+   "id": "6.1 A1 S3",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Zwar lag die Interventionsgruppe auch nach der Sommerpause in allen konfirmatorischen Zielgrößen vorn.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A1",
+   "satz": 4,
+   "id": "6.1 A1 S4",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Dieser Vorsprung entsprach jedoch weitgehend dem, was nach Ausgangswert und Reifestatus zu erwarten war.",
+   "merkmale": [
+    "Ausgangswert"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A1",
+   "satz": 5,
+   "id": "6.1 A1 S5",
+   "platzhalter": false,
+   "woerter": 10,
+   "text": "Die Konfidenzintervalle schlossen relevante Vorteile wie Nachteile des Programmangebots ein.",
+   "merkmale": [
+    "Konfidenzintervall",
+    "Programmangebot"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A1",
+   "satz": 6,
+   "id": "6.1 A1 S6",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Die Befunde sind unschlüssig, ein Vorteil des Angebots ist weder belegt noch ausgeschlossen.",
+   "merkmale": [
+    "unschlüssig"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A2",
+   "satz": 1,
+   "id": "6.1 A2 S1",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Die Hauptanalyse schätzt die Wirkung des Programmangebots, nicht die des Trainings.",
+   "merkmale": [
+    "Programmangebot"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A2",
+   "satz": 2,
+   "id": "6.1 A2 S2",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotenen Einheiten als vollständig, einige keine einzige.",
+   "merkmale": [
+    "zugeteilt",
+    "meldeten",
+    "vollständig",
+    "angebotene"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A2",
+   "satz": 3,
+   "id": "6.1 A2 S3",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Auch in digitalen Lebensstilprogrammen für Jugendliche wurde nach einer systematischen Übersicht im Mittel nur gut die Hälfte der Programmbestandteile absolviert, bei großer Streuung (Boumparis et al., 2026).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A2",
+   "satz": 4,
+   "id": "6.1 A2 S4",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Der Schätzer ist durch die eigene Umsetzung stark verdünnt: Ein nicht nachweisbarer Unterschied bedeutet zunächst nur, dass das Angebot in dieser Umsetzung nichts Nachweisbares bewirkt hat.",
+   "merkmale": [
+    "Umsetzung",
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A2",
+   "satz": 5,
+   "id": "6.1 A2 S5",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Der beobachtende Per-Protokoll-Vergleich der Spieler mit mindestens der Hälfte der Einheiten als vollständig gemeldet änderte die Einordnung nicht.",
+   "merkmale": [
+    "vollständig",
+    "Per-Protokoll"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A2",
+   "satz": 6,
+   "id": "6.1 A2 S6",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Seine Punktschätzer lagen nahe null und wechselten das Vorzeichen, beim Richtungswechsel reichte die Fallzahl nicht für eine Inferenz.",
+   "merkmale": [
+    "Fallzahl",
+    "Inferenz"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 1,
+   "id": "6.1 A3 S1",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Hohe Laufgeschwindigkeit, die die 30-m-Zeit mit erfasst, verlangt große Kräfte in kurzen Bodenkontakten (Oliver et al., 2024).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 2,
+   "id": "6.1 A3 S2",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Beschreibend lagen die mittleren 30-m-Zeiten der Interventionsgruppe nach der Sommerpause etwas höher als zuvor, die der Kontrollgruppe gleich.",
+   "merkmale": [
+    "beschreibend",
+    "Beschreibend"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 3,
+   "id": "6.1 A3 S3",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Die adjustierte Gruppendifferenz lag nahe null, ihr Intervall ließ relevante Unterschiede in beide Richtungen zu.",
+   "merkmale": [
+    "adjustiert",
+    "Gruppendifferenz",
+    "beide Richtungen"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 4,
+   "id": "6.1 A3 S4",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Metaanalysen fanden plyometrisches Training bei jungen Fußballspielern überwiegend höherer Spielklassen für die Sprintleistung über 15 bis 40 m wirksam (Oliver et al., 2024; Zheng et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 5,
+   "id": "6.1 A3 S5",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Eine weitere fand das schon für Programme bis sieben Wochen (Ramirez-Campillo et al., 2020).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 6,
+   "id": "6.1 A3 S6",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Der eigene Befund blieb dahinter zurück, schließt solche Effekte aber nicht aus.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A3",
+   "satz": 7,
+   "id": "6.1 A3 S7",
+   "platzhalter": false,
+   "woerter": 28,
+   "text": "Beim Sprint war zudem am wenigsten zu erwarten: Programme mit vertikalen Sprüngen und langen Bodenkontakten dürften eher Sprung, Beschleunigung und Richtungswechsel ansprechen (Oliver et al., 2024), Sprintinhalte fehlten.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 1,
+   "id": "6.1 A4 S1",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Der 505-Test prüft Entschleunigen und erneutes Beschleunigen, Bausteine der im Wettkampf häufigen Richtungswechsel.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 2,
+   "id": "6.1 A4 S2",
+   "platzhalter": false,
+   "woerter": 9,
+   "text": "Beschreibend blieb das 505-Seitenmittel in beiden Gruppen nahezu unverändert.",
+   "merkmale": [
+    "beschreibend",
+    "Beschreibend"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 3,
+   "id": "6.1 A4 S3",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Die adjustierte Differenz lag nahe null, ihr Intervall ließ relevante Unterschiede in beide Richtungen zu.",
+   "merkmale": [
+    "adjustiert",
+    "beide Richtungen"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 4,
+   "id": "6.1 A4 S4",
+   "platzhalter": false,
+   "woerter": 20,
+   "text": "Das stimmt mit einer Metaanalyse überein, in der die Richtungswechselleistung in keiner Reifegruppe nachweisbar besser wurde (Ramirez-Campillo et al., 2023).",
+   "merkmale": [
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 5,
+   "id": "6.1 A4 S5",
+   "platzhalter": false,
+   "woerter": 21,
+   "text": "Eine weitere fand sie insgesamt verbessert, in den Einzeltests nur im Illinois-Test, den 505-Test enthielt sie nicht (Zheng et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 6,
+   "id": "6.1 A4 S6",
+   "platzhalter": false,
+   "woerter": 16,
+   "text": "Dagegen verbesserte plyometrisches Training die Richtungswechselleistung hochtrainierter Akademiespieler nach einer Metaanalyse deutlich (Oliver et al., 2024).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 7,
+   "id": "6.1 A4 S7",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Auch ein achtwöchiges Programm mit nahezu gleichem Kontaktverlauf verbesserte die 505-Zeit präpubertärer Spieler deutlich, bei nicht adjustiertem Alters- und Reifeunterschied zur Kontrollgruppe (Sammoud et al., 2024).",
+   "merkmale": [
+    "adjustiert"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A4",
+   "satz": 8,
+   "id": "6.1 A4 S8",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Die Übungsauswahl erklärt den Unterschied kaum, auch das Vergleichsprogramm kam ohne Wende aus.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 1,
+   "id": "6.1 A5 S1",
+   "platzhalter": false,
+   "woerter": 11,
+   "text": "Der Standweitsprung steht den Programmübungen am nächsten, er gehörte selbst dazu.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 2,
+   "id": "6.1 A5 S2",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Beschreibend sanken die mittleren Weiten beider Gruppen, was mit der Sommerpause zusammenhängen könnte.",
+   "merkmale": [
+    "beschreibend",
+    "Beschreibend"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 3,
+   "id": "6.1 A5 S3",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Die adjustierte Differenz lag nahe null, ihr Intervall ließ relevante Unterschiede in beide Richtungen zu.",
+   "merkmale": [
+    "adjustiert",
+    "beide Richtungen"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 4,
+   "id": "6.1 A5 S4",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Das widerspricht Metaanalysen, nach denen plyometrisches Training die horizontale Sprungleistung junger Fußballspieler überwiegend höherer Spielklassen verbesserte (Oliver et al., 2024; Zheng et al., 2025).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 5,
+   "id": "6.1 A5 S5",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Auch das Programm mit nahezu gleichem Kontaktverlauf steigerte die Weite präpubertärer Spieler deutlich (Sammoud et al., 2024).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 6,
+   "id": "6.1 A5 S6",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Dagegen blieb die Sprunghöhe von Schülern nach dem Wachstumsgipfel in einer älteren kontrollierten Studie nach sechs Wochen ohne nachweisbare Veränderung (Lloyd et al., 2016).",
+   "merkmale": [
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 7,
+   "id": "6.1 A5 S7",
+   "platzhalter": false,
+   "woerter": 25,
+   "text": "Wann sich die Weite verbessert, ist offen: Bei präpubertären Spielern war sie erst nach acht Wochen gegenüber dem Ausgangswert nachweisbar besser (Negra et al., 2020).",
+   "merkmale": [
+    "Ausgangswert",
+    "nachweisbar"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A5",
+   "satz": 8,
+   "id": "6.1 A5 S8",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Beide Gruppen lagen im Mittel schon bei der Eingangstestung über dem 90. Perzentil gleichaltriger europäischer Schulkinder, erhoben auf hartem Boden (Thomas et al., 2020).",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A6",
+   "satz": 1,
+   "id": "6.1 A6 S1",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Die als vollständig gemeldeten Einheiten wurden im Mittel als leicht bis mäßig anstrengend empfunden.",
+   "merkmale": [
+    "meldeten",
+    "vollständig"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A6",
+   "satz": 2,
+   "id": "6.1 A6 S2",
+   "platzhalter": false,
+   "woerter": 19,
+   "text": "Mehr als die Hälfte der Spieler mit Meldungen nannte mindestens einmal Schmerzen oder Probleme, überwiegend zu vollständig durchgeführten Einheiten.",
+   "merkmale": [
+    "Meldung",
+    "vollständig",
+    "Schmerz",
+    "Probleme"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A6",
+   "satz": 3,
+   "id": "6.1 A6 S3",
+   "platzhalter": false,
+   "woerter": 14,
+   "text": "Einige betrafen teilweise oder nicht durchgeführte Einheiten, einen Abbruch wegen Beschwerden belegen sie nicht.",
+   "merkmale": [
+    "teilweise",
+    "nicht durchgeführt"
+   ]
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A6",
+   "satz": 4,
+   "id": "6.1 A6 S4",
+   "platzhalter": false,
+   "woerter": 13,
+   "text": "Ob sie mit dem Programm zusammenhingen, ist ohne Vergleichsdaten der Kontrollgruppe nicht beurteilbar.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "6.1",
+   "absatz": "6.1 A6",
+   "satz": 5,
+   "id": "6.1 A6 S5",
+   "platzhalter": false,
+   "woerter": 8,
+   "text": "Die Abwägung von Nutzen und Schaden bleibt unvollständig.",
+   "merkmale": [
+    "vollständig"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A1",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A1 S1",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Dokumentation des standardisierten Aufwärmens der Testtage (Gesamtdauer ca. 15 min) in Anlehnung an das RAMP-Schema (Jeffreys, 2007).",
+   "merkmale": [
+    "standardisierte"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A1",
+   "satz": 2,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A1 S2",
+   "platzhalter": false,
+   "woerter": 18,
+   "text": "Teil A wurde zu Beginn jedes Testtags einmal im Mannschaftsverbund durchgeführt, Teil B unmittelbar vor dem jeweiligen Testverfahren.",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A1",
+   "satz": 3,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A1 S3",
+   "platzhalter": false,
+   "woerter": 15,
+   "text": "Das Programm war bewusst niedrigvolumig gehalten; über die Probeversuche hinaus wurde kein zusätzliches Sprungvolumen absolviert.",
+   "merkmale": [
+    "Versuche"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A2",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A2 S1",
+   "platzhalter": false,
+   "woerter": 2,
+   "text": "Phase (RAMP-Funktion)",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A3",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A3 S1",
+   "platzhalter": false,
+   "woerter": 1,
+   "text": "Dauer",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A4",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A4 S1",
+   "platzhalter": false,
+   "woerter": 3,
+   "text": "Inhalte und Dosierung",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A5",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A5 S1",
+   "platzhalter": false,
+   "woerter": 4,
+   "text": "1 – Lauf-ABC (Raise)",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A6",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A6 S1",
+   "platzhalter": false,
+   "woerter": 3,
+   "text": "ca. 5 min",
+   "merkmale": [
+    "Zahl 5"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A7",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A7 S1",
+   "platzhalter": false,
+   "woerter": 24,
+   "text": "Korridor 15–20 m, Start im 3-s-Abstand, lockerer Rücklauf als Pause; je ein Durchgang: lockeres Einlaufen, Kniehebelauf mit Anfersen, Sidesteps, beid- und einbeinige Strecksprünge, Karaoke-Schritte",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A8",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A8 S1",
+   "platzhalter": false,
+   "woerter": 4,
+   "text": "2 – Miniband-Aktivierung (Activate)",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A9",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A9 S1",
+   "platzhalter": false,
+   "woerter": 3,
+   "text": "ca. 3 min",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A10",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A10 S1",
+   "platzhalter": false,
+   "woerter": 26,
+   "text": "Side Walks (Band um die Knöchel, 8–10 m je Richtung), Skater Walks (8–10 m diagonal), Around the Clock (Band über den Knien, 6–8 Wiederholungen je Seite)",
+   "merkmale": [
+    "Zahl 6"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A11",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A11 S1",
+   "platzhalter": false,
+   "woerter": 5,
+   "text": "3 – Dynamische Mobilisation (Mobilize)",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A12",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A12 S1",
+   "platzhalter": false,
+   "woerter": 3,
+   "text": "ca. 3 min",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A13",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A13 S1",
+   "platzhalter": false,
+   "woerter": 25,
+   "text": "World's Greatest Stretch (3–4 je Seite), Leg Swings sagittal und frontal (8–10 je Bein), Ausfallschritt mit Rotation (4–5 je Seite); ausschließlich dynamisch, kein statisches Dehnen",
+   "merkmale": [
+    "Zahl 5"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A14",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A14 S1",
+   "platzhalter": false,
+   "woerter": 1,
+   "text": "Testverfahren",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A15",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A15 S1",
+   "platzhalter": false,
+   "woerter": 6,
+   "text": "Testspezifische Aktivierung (je ca. 1–2 min)",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A16",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A16 S1",
+   "platzhalter": false,
+   "woerter": 1,
+   "text": "30-m-Sprint",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A17",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A17 S1",
+   "platzhalter": false,
+   "woerter": 27,
+   "text": "Zwei bis drei progressive Antritte über 20–30 m (ca. 70 → 85 → 95 % der subjektiven Maximalgeschwindigkeit) mit vollständigen Gehpausen; letzter Antritt aus der testidentischen Split-Startposition",
+   "merkmale": [
+    "vollständig"
+   ]
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A18",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A18 S1",
+   "platzhalter": false,
+   "woerter": 1,
+   "text": "Standweitsprung",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A19",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A19 S1",
+   "platzhalter": false,
+   "woerter": 12,
+   "text": "Zwei bis drei Probesprünge von submaximal bis annähernd maximal; beidbeinige, kontrollierte Landung",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A20",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A20 S1",
+   "platzhalter": false,
+   "woerter": 1,
+   "text": "505-Test",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage",
+   "absatz": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A21",
+   "satz": 1,
+   "id": "Anhang C: Standardisiertes Aufwärmprogramm der Testtage A21 S1",
+   "platzhalter": false,
+   "woerter": 17,
+   "text": "Je zwei submaximale 180°-Wenden pro Seite (ca. 75 %); Fokus auf Abbremsen und Pflanzschritt auf der Wendelinie",
+   "merkmale": []
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A1",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A1 S1",
+   "platzhalter": true,
+   "woerter": 12,
+   "text": "⟨Tab. H1: Versuchszahl und Versuchsausfälle nach Mechanismus, Gruppe und Zeitpunkt (aus 4.4)⟩",
+   "merkmale": [
+    "Objekt Tab. H1"
+   ]
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A2",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A2 S1",
+   "platzhalter": true,
+   "woerter": 12,
+   "text": "⟨Tab. H2: Adhärenz je Spieler mit beiden Untergrenzen und sRPE-Belastung (aus 5.1)⟩",
+   "merkmale": [
+    "Zahl 5",
+    "Untergrenze",
+    "sRPE",
+    "Adhärenz",
+    "Objekt Tab. H2"
+   ]
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A3",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A3 S1",
+   "platzhalter": true,
+   "woerter": 14,
+   "text": "⟨Tab. H3: Deskriptive Zielgrößen 5 m, 10 m, 505 links und rechts (aus 5.2)⟩",
+   "merkmale": [
+    "Zahl 5",
+    "Objekt Tab. H3"
+   ]
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A4",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A4 S1",
+   "platzhalter": true,
+   "woerter": 14,
+   "text": "⟨Tab. H4: Sensitivitätsanalysen – acht vorab festgelegte Varianten und Gegenprobe 30 m (aus 5.2)⟩",
+   "merkmale": [
+    "Zahl 5",
+    "Sensitivitätsanalyse",
+    "Objekt Tab. H4"
+   ]
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A5",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A5 S1",
+   "platzhalter": true,
+   "woerter": 7,
+   "text": "⟨Tab. H5: Schwellenlandschaft der Mindestdosis (aus 4.7)⟩",
+   "merkmale": [
+    "Zahl 5",
+    "Objekt Tab. H5"
+   ]
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A6",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A6 S1",
+   "platzhalter": true,
+   "woerter": 9,
+   "text": "⟨Tab. H6: Abweichungsregister zum Ethikantrag (aus 4.1, Kurzform 6.3)⟩",
+   "merkmale": [
+    "Zahl 6",
+    "Objekt Tab. H6"
+   ]
+  },
+  {
+   "abschnitt": "Anhang H: Ergänzende Tabellen",
+   "absatz": "Anhang H: Ergänzende Tabellen A7",
+   "satz": 1,
+   "id": "Anhang H: Ergänzende Tabellen A7 S1",
+   "platzhalter": true,
+   "woerter": 9,
+   "text": "⟨Abb. H7: Zeitstrahl der Termine je Verein (aus 4.3)⟩",
+   "merkmale": [
+    "Objekt Abb. H7"
+   ]
+  }
+ ]
+}

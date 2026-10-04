@@ -1,0 +1,56 @@
+Übereinstimmung A gegen B, Textstand Kapitel 5 (29 Sätze), Codebuch Fassung 2 ohne Anwendungshinweise
+A: codes_A.py (Ersteller, vor Kenntnis von B festgelegt) · B: blind/codes_B.json (unabhängiger Subagent, nur Codebuch und Textstand)
+
+alle Sätze                                   n 29 | Primär 27 ( 93.1 %, κ 0.922) | Gruppe 29 | Sekundär 21 ( 72.4 %) | zg 29 | deutung 29
+von einem Hinweis erfasst                    n 16 | Primär 14 ( 87.5 %, κ 0.853) | Gruppe 16 | Sekundär 12 ( 75.0 %) | zg 16 | deutung 16
+von keinem Hinweis erfasst                   n 13 | Primär 13 (100.0 %, κ 1.000) | Gruppe 13 | Sekundär  9 ( 69.2 %) | zg 13 | deutung 13
+
+Abweichungen beim Primärcode:
+  A5 S6: A B1 — | B B4 B1 | Konsens B1 — | Hinweise H2+H4
+  A5 S8: A B4 B1 | B B1 — | Konsens B1 — | Hinweise H2+H4
+Abweichungen nur bei den Sekundärcodes:
+  A1 S1: A O1 | B — | Konsens O1
+  A1 S3: A O4 | B — | Konsens O4
+  A2 S4: A V2 | B Z1+V2 | Konsens Z1+V2
+  A3 S2: A — | B V2 | Konsens V2
+  A5 S4: A — | B V2 | Konsens —
+  A6 S4: A B1 | B B1+V2 | Konsens B1+V2
+
+Konsens (nach Codebuch) gegen die Codierer:
+Konsens gegen A                              n 29 | Primär 28 ( 96.6 %, κ 0.961) | Gruppe 29 | Sekundär 25 ( 86.2 %) | zg 29 | deutung 29
+Konsens gegen B                              n 29 | Primär 28 ( 96.6 %, κ 0.961) | Gruppe 29 | Sekundär 25 ( 86.2 %) | zg 29 | deutung 29
+
+Fassung nach den Hinweisen gegen den Konsens nach Codebuch:
+Hinweis gegen Konsens, alle                  n 29 | Primär 24 ( 82.8 %, κ 0.811) | Gruppe 29 | Sekundär 23 ( 79.3 %) | zg 29 | deutung 29
+Hinweis gegen Konsens, erfasste Sätze        n 16 | Primär 11 ( 68.8 %, κ 0.655) | Gruppe 16 | Sekundär 10 ( 62.5 %) | zg 16 | deutung 16
+A gegen Fassung nach Hinweisen               n 29 | Primär 25 ( 86.2 %, κ 0.848) | Gruppe 29 | Sekundär 22 ( 75.9 %) | zg 29 | deutung 29
+B gegen Fassung nach Hinweisen               n 29 | Primär 25 ( 86.2 %, κ 0.848) | Gruppe 29 | Sekundär 21 ( 72.4 %) | zg 29 | deutung 29
+
+Von den Hinweisen erfasste Sätze und Code nach Codebuch gegen Code nach Hinweis:
+  A1 S4  H3        Codebuch O4 —       | Hinweis O4 —      
+  A3 S1  H8        Codebuch O3 —       | Hinweis O3 —      
+  A3 S2  H8        Codebuch O3 V2      | Hinweis O3 V2     
+  A3 S3  H6        Codebuch Z2 O2      | Hinweis Z2 O2     
+  A3 S4  H6        Codebuch Z2 —       | Hinweis Z2 —      
+  A4 S1  H3+H7     Codebuch O5 —       | Hinweis O5 —      
+  A4 S2  H7        Codebuch O5 —       | Hinweis O5 —      
+  A5 S3  H2        Codebuch B1 —       | Hinweis B4 B1       ← anders
+  A5 S6  H2+H4     Codebuch B1 —       | Hinweis B4 B1       ← anders
+  A5 S7  H2+H4     Codebuch B1 —       | Hinweis B4 B1       ← anders
+  A5 S8  H2+H4     Codebuch B1 —       | Hinweis B4 B1       ← anders
+  A5 S9  H2        Codebuch B1 —       | Hinweis B4 B1       ← anders
+  A5 S10 H1        Codebuch B4 B1      | Hinweis B4 B1     
+  A5 S11 H9        Codebuch V2 —       | Hinweis V2 —      
+  A6 S2  H5        Codebuch Z1 B1      | Hinweis Z1 B1     
+  A6 S4  H2+H4+H5  Codebuch Z1 B1+V2   | Hinweis Z1 B4+V2    ← anders
+
+Wortlaut der Hinweise (Übergabe § 5 Nr. 3):
+  H1: Entscheidung über eine Hypothese ist B4 (Codebuch)
+  H2: Quantor über alle konfirmatorischen Zielgrößen gilt als Sammelbefund B4 mit der Art als Sekundärcode (Projektauslegung)
+  H3: Regel 2 und O-Codes gehen dem Quantor vor (Ausgangslage O4, Messgüte O5)
+  H4: Einordnung nach vorab definierter Schwelle (Fall der Schlusslogik) ist deutung 0
+  H5: Bootstrap-Intervall, Per-Protokoll-Vergleich und Sensitivitätsanalysen sind Z1
+  H6: Meldungen mit Schmerzangabe sind Z2
+  H7: gültige Versuche und typischer Messfehler sind O5
+  H8: Beanspruchungsmaße (CR-10, sRPE-Load) sind O3
+  H9: ein Satz, der nur eine Analyseregel nennt, ist V2

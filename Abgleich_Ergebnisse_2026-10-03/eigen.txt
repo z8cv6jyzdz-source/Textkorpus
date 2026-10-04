@@ -1,0 +1,62 @@
+Merkmale je Satz, Textstand Kapitel 5 (eigen.py, deutsche Ausdrücke, Handprüfung je Satz)
+
+Satz        p   stat     es     ki prozen    msd differ statwe klasse    sig objekt objekt objekt objekt praese  beleg    wir   null zahlen
+A1 S1       0      0      0      0      0      0      0      0      0      0      1      1      0      0      1      0      0      0      1
+A1 S2       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2
+A1 S3       0      0      0      0      0      0      0      0      0      0      2      2      0      0      1      0      0      0      1
+A1 S4       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+A2 S1       0      0      0      0      0      0      0      0      0      0      1      0      0      1      0      0      0      1      5
+A2 S2       0      0      0      0      2      0      0      1      0      0      0      0      0      0      0      0      0      0      2
+A2 S3       0      0      0      0      0      0      0      0      0      0      2      0      0      1      0      0      0      0      0
+A2 S4       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+A3 S1       0      0      0      0      0      1      0      1      0      0      0      0      0      0      0      0      0      0      7
+A3 S2       0      0      0      0      0      1      0      1      0      0      0      0      0      0      0      0      0      0      5
+A3 S3       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0
+A3 S4       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0
+A4 S1       0      0      0      0      0      0      0      0      0      0      1      0      0      1      0      0      0      0      1
+A4 S2       0      0      0      0      0      0      0      0      0      0      1      0      0      1      0      0      0      0      2
+A5 S1       0      0      0      0      0      0      0      0      0      0      1      1      0      0      1      0      0      0      1
+A5 S2       0      0      0      0      0      0      0      0      0      0      1      1      0      0      1      0      0      0      1
+A5 S3       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+A5 S4       1      0      0      2      1      0      1      1      0      0      0      0      0      0      0      0      0      0      6
+A5 S5       2      0      0      2      0      0      1      1      0      0      0      0      0      0      0      0      0      0      9
+A5 S6       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0
+A5 S7       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+A5 S8       0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+A5 S9       1      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      1      1
+A5 S10      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0
+A5 S11      0      0      0      0      0      0      0      0      0      0      1      0      0      1      0      0      0      0      3
+A6 S1       1      1      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      3
+A6 S2       0      0      0      2      0      0      0      1      0      0      0      0      0      0      0      0      0      0      2
+A6 S3       0      0      0      0      0      0      0      0      0      0      1      0      0      1      0      0      0      1      0
+A6 S4       1      0      0      0      0      0      0      1      0      0      1      0      0      1      0      0      0      2      1
+
+A1 S1: Anfang Objekt als Subjekt · Verb zeigt (Präsens) · Handprüfung: Treffer richtig, keine fehlenden
+A1 S2: Anfang Bezugsmenge (Präpositionalgruppe mit Zahl) · Verb gingen … ein (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A1 S3: Anfang Objekt als Subjekt (zweites elliptisch) · Verb enthält (Präsens) · Handprüfung: Treffer richtig, keine fehlenden
+A1 S4: Anfang Quantor · Verb lagen (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A2 S1: Anfang Gruppe als Subjekt (mit Bezugsmenge) · Verb meldeten (Präteritum) · Handprüfung: null: „als nicht durchgeführt“ ist Status, kein Nullbefund
+A2 S2: Anfang Themenanker (Bezugsgröße) · Verb entsprach (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A2 S3: Anfang Zahl als Subjekt · Verb erreichten (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A2 S4: Anfang Themenanker („Als Untergrenzen“) · Verb ergaben sich (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A3 S1: Anfang Größe als Subjekt · Verb lag (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A3 S2: Anfang Größe als Subjekt · Verb betrug (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A3 S3: Anfang Zahl als Subjekt · Verb nannten (Präteritum) · Handprüfung: null: „zu nicht … durchgeführten“ ist Status, kein Nullbefund
+A3 S4: Anfang Themenanker (Gruppe) · Verb wurden … erhoben (Präteritum, Passiv) · Handprüfung: null: „nicht erhoben“ ist Erhebungsangabe, kein Nullbefund
+A4 S1: Anfang Größe als Subjekt · Verb überstieg (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A4 S2: Anfang Größe im Vorfeld (Objekt) · Verb hatte (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S1: Anfang Objekt als Subjekt · Verb enthält (Präsens) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S2: Anfang Objekt als Subjekt · Verb zeigt (Präsens) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S3: Anfang Quantor · Verb lagen (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S4: Anfang Modell (Partizip „Adjustiert für …“) · Verb betrug (Präteritum) · Handprüfung: prozent: „95-%“ im Wort Konfidenzintervall (im Korpus zählt „95% CI“ ebenso)
+A5 S5: Anfang Themenanker (Zielgröße) · Verb betrug (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S6: Anfang Quantor (Präpositionalgruppe „Bei keiner Zielgröße“) · Verb war (Präteritum) · Nullbefund fehlender Nachweis („kein Gruppenunterschied nachweisbar“) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S7: Anfang Quantor · Verb war (Präteritum) · Nullbefund Intervall gegen den SESOI („mit relevanten Unterschieden in beide Richtungen vereinbar“) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S8: Anfang Befund als Subjekt · Verb waren (Präteritum) · Nullbefund Fall der Schlusslogik („unschlüssig“) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S9: Anfang Quantor · Verb zeigte (Präteritum) · Nullbefund Entscheidungsregel („Keine … mit p < 0,05 einen Vorteil“) · Handprüfung: p: Schwelle der Entscheidungsregel, kein p-Wert (im Korpus zählt „p < 0.05“ ebenso)
+A5 S10: Anfang Hypothese als Subjekt · Verb wurde … verworfen (Präteritum, Passiv) · Nullbefund Hypothesenentscheidung („nicht verworfen“) · Handprüfung: Treffer richtig, keine fehlenden
+A5 S11: Anfang Zielgrößen als Subjekt · Verb wurden … beschrieben (Präteritum, Passiv) · Handprüfung: Treffer richtig, keine fehlenden
+A6 S1: Anfang Themenanker (Zielgröße), Test als Subjekt · Verb verwarf (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A6 S2: Anfang Analyse als Subjekt · Verb reichte (Präteritum) · Handprüfung: Treffer richtig, keine fehlenden
+A6 S3: Anfang „übrige“ als Subjekt · Verb wurden … verworfen (Präteritum, Passiv) · Handprüfung: null: „nicht verworfen“ ist Voraussetzungsprüfung, kein Nullbefund
+A6 S4: Anfang Subjunktion („Soweit …“) · Verb zuließ, änderten, erreichte (Präteritum) · Nullbefund Absicherung („änderten weder … noch … die Einordnung“, „keine davon erreichte p < 0,05“) · Handprüfung: p: Schwelle, kein p-Wert

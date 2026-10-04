@@ -1,0 +1,268 @@
+anschluss_2e.py — Teilschritt 2 (e), Anschluss von Kapitel 5 an Kapitel 4, 6.1 und weitere Teile
+
+§ 0 Eingänge (Pfade relativ zum Claude-Ordner, der Master relativ zu dessen Elternordner)
+  textstand  03_Skripte/Abgleich_Ergebnisse_2026-10-03/textstand.json · 16938 Byte · MD5 bb86ed78a6ba45038d57b8cb4f763fb4
+  alt        03_Skripte/Abgleich_Ergebnisse_2026-10-03/master_saetze.json · 97770 Byte · MD5 4d06c614536fc21c2a2b57b284d9d925
+  register   03_Skripte/Abgleich_Ergebnisse_2026-10-03/register_pruefung.md · 65715 Byte · MD5 d1de8266e4267d88c94366eb6963a397
+  umfang     03_Skripte/Abgleich_Ergebnisse_2026-10-03/quellen/Auswertungs_und_Berichtsumfang_2026-09-24.md · 97886 Byte · MD5 521f22ec2656a63dd3409b2633db20f7
+  abgleich   02_Befunde/Abgleich_Ergebnisse_Argumentationsstruktur_2026-10-03.md · 199382 Byte · MD5 0558e2a9009684fd1b7cbc55c070a1f6
+  werte      02_Befunde/Kennzahlen_2026-09-25_Werte.csv · 101985 Byte · MD5 25bca501fb60680c584fc6e7796dc31e
+  raster     02_Befunde/Berichtsraster_2026-09-23.md · 106370 Byte · MD5 527009f05fb25ea0b64abac4aa49bf55
+  f17        00_Steuerung/Projektanweisungen_Fassung17.md · 150926 Byte · MD5 0bd441fc265f08a6280d2ad582008f60
+  tv5        04_Uebergaben/Textvorschlag_5_2026-09-30.md · 67973 Byte · MD5 835c3a45dd3a4e702684d05838bc38a1
+  tv61       04_Uebergaben/Textvorschlag_6.1_2026-10-02.md · 123351 Byte · MD5 02d7e09c12f655476ca202352611071e
+  tv61j      03_Skripte/Textvorschlag_6.1_2026-10-02.json · 6460 Byte · MD5 30913b2113b3de33bfc763bdf547eb08
+  nachtrag61 04_Uebergaben/Textvorschlag_6.1_Nachtrag_Argumentationsstruktur_2026-10-03.md · 75397 Byte · MD5 4b35973e6770f93234057789fcd87def
+  abg61      02_Befunde/Abgleich_Diskussion_6.1_Argumentationsstruktur_2026-10-03.md · 181914 Byte · MD5 aa899bc1b41a1264ed738a5ecb713615
+  tv47       04_Uebergaben/Textvorschlag_4.7_2026-09-26.md · 187609 Byte · MD5 d5dca93c0db4117e72c392b6dfd8de71
+  s4a        03_Skripte/Diskussion_Anwendung_2026-10-03/S4a_Rasterzuordnung_12b.md · 76934 Byte · MD5 2c13ac3a72d5c4bac2a7af8fab9b8afe
+  fu4        04_Uebergaben/Uebergabe_Abgleich_Ergebnisse_Fortsetzung4_2026-10-03.md · 18987 Byte · MD5 d0a15287874aa492d88f1f8824d98c5a
+  master     Schreiben/Bachelorarbeit_Gerüst_v1_AKTUELL.docx · 40337 Byte · MD5 6c1db4554cba8d5b791c7884a28b6169
+
+§ 1 Textstand
+  Master 40337 Byte, MD5 6c1db4554cba8d5b791c7884a28b6169, word/comments.xml nicht vorhanden, 188 Absätze im Dokument
+  Kapitel 5: sechs Absätze zeichengleich mit textstand.json, 450 Wörter, 29 Sätze
+  6.1: sechs Absätze zeichengleich mit Textvorschlag_6.1_2026-10-02.json (Fassung 3), 700 Wörter, 40 Sätze
+  gegen master_saetze.json (Stand 03.10., 08:05): 295 Sätze dort, 295 hier, geändert nur die Absätze 6.1 A3, 6.1 A4, 6.1 A5, gleich 287 Sätze unter gleicher Kennung, 290 dem Wortlaut nach
+  Vorspann-Titel: Eidesstattliche Erklärung (mit Text) · Zusammenfassung (ohne Text) · Abstract (ohne Text) · Inhaltsverzeichnis (ohne Text)
+
+§ 2 Konkordanz 6.1 A3 bis A5 alt zu neu und Sätze anderer Teile mit Bezug auf Kapitel 5
+  6.1 A3 S1 → 6.1 A3 S1 (zeichengleich)
+  6.1 A3 S2 → 6.1 A3 S2 (zeichengleich)
+  6.1 A3 S3 → 6.1 A3 S3 (zeichengleich)
+  6.1 A3 S4 → 6.1 A3 S4 (zeichengleich)
+  6.1 A3 S5 → entfällt (Stufe 3 der Kürzungsleiter des Nachtrags, Satz zu Ramirez-Campillo et al., 2020)
+  6.1 A3 S6 → 6.1 A3 S5 (zeichengleich)
+  6.1 A3 S7 → 6.1 A3 S6 (ohne „zudem“ (P6))
+  6.1 A4 S1 → 6.1 A4 S1 (zeichengleich)
+  6.1 A4 S2 → 6.1 A4 S2 (zeichengleich)
+  6.1 A4 S3 → 6.1 A4 S3 (zeichengleich)
+  6.1 A4 S4 → 6.1 A4 S4 (neu gefasst: Population im Satz, kein Rückbezug mehr)
+  6.1 A4 S5 → 6.1 A4 S5 (zeichengleich)
+  6.1 A4 S6 → 6.1 A4 S7 (zeichengleich)
+  6.1 A4 S7 → 6.1 A4 S8 (zeichengleich)
+  6.1 A4 S8 → 6.1 A4 S9 (neu gefasst: Modalverb, eigene Umsetzung als Erklärungsangebot)
+  6.1 A5 S1 → 6.1 A5 S1 (zeichengleich)
+  6.1 A5 S2 → 6.1 A5 S2 (zeichengleich)
+  6.1 A5 S3 → 6.1 A5 S3 (zeichengleich)
+  6.1 A5 S4 → 6.1 A5 S4 (zeichengleich)
+  6.1 A5 S5 → 6.1 A5 S5 (zeichengleich)
+  6.1 A5 S6 → 6.1 A5 S6 (neu gefasst: „vereinbar“ markiert, ohne „Dagegen“)
+  6.1 A5 S7 → 6.1 A5 S7 (zeichengleich)
+  6.1 A5 S8 → 6.1 A5 S8 (zeichengleich)
+  neu ohne Vorgänger: 6.1 A4 S6 „Mit beiden ist der eigene Befund vereinbar.“
+  Regel: Bezug hat ein Satz mit eigenem Befund, Zahl oder Begriff aus Kapitel 5, mit ausdrücklichem Rückbezug auf den eigenen Befund oder mit einem Konnektor, der einen Vergleich mit ihm markiert (TV 6.1 § 4)
+  Sätze von 6.1 mit Bezug: 30 (§ 1.4 a: 24), ohne Bezug 10: 6.1 A1 S1, 6.1 A2 S1, 6.1 A3 S1, 6.1 A3 S4, 6.1 A3 S6, 6.1 A4 S1, 6.1 A4 S4, 6.1 A4 S5, 6.1 A5 S1, 6.1 A5 S7
+  Grenzfälle ohne Bezug: 6.1 A3 S6 (Erwartung aus dem Programm (4.5.1), ohne Marke) · 6.1 A5 S7 (Zeitverlauf als Vorbehalt, ohne Marke)
+  als Bezug entfällt: 6.1 A4 S4 · neu seit Rev. 163: 6.1 A4 S6, 6.1 A4 S9, 6.1 A5 S6 · nach der Regel ergänzt, Wortlaut unverändert: 6.1 A2 S3, 6.1 A4 S7, 6.1 A4 S8, 6.1 A5 S5 · umnummeriert: 6.1 A3 S6 → S5, A4 S6 und S7 → S7 und S8
+  nachführen: Abgleichbefund § 1.4 (a) (Vermerk am Ende von § 1.4: 30 Sätze nach bezuege_2e.md)
+  nachführen: Abgleichbefund 2b.8 (Vermerk in § 3.2: 6.1 A3 S7 heißt 6.1 A3 S6)
+  nachführen: Abgleichbefund 2b.29 (Vermerk in § 3.2: 30 statt 24 Sätze, nur über Objekte zusätzlich 6.1 A4 S7 (Tab. 3))
+  bleibt: Abgleichbefund § 1.1 (Stand 09:05 vor Rev. 163, jetzt 6.1 A4 S9)
+  bleibt: register_pruefung.md 6i (Bericht von Schritt 1, Stand vor Rev. 163, jetzt 6.1 A4 S7, S8, A5 S5)
+  bleibt: Fortsetzung 4 § 5 Nr. 4 (nennt selbst den Stand vor Rev. 163, 6.1 A3 S7 heißt jetzt 6.1 A3 S6)
+  6.1 A1 S2 · nimmt auf A5 S4, A5 S6, A5 S10 · Befund, Begriffe, nahezu wörtlich · gedeckt durch Text · „Nach Adjustierung für Ausgangswert und Reifestatus war bei keiner Ziel …“
+  6.1 A1 S3 · nimmt auf A5 S3 · Befund · gedeckt durch Text, Tab. 3 · „Zwar lag die Interventionsgruppe auch nach der Sommerpause in allen ko …“
+  6.1 A1 S4 · nimmt auf A5 S3, A1 S4 · Befund mit Deutung (in 6.1 zulässig) · gedeckt durch Text, Tab. 3, Abb. 2 · „Dieser Vorsprung entsprach jedoch weitgehend dem, was nach Ausgangswer …“
+  6.1 A1 S5 · nimmt auf A5 S7 · Befund (Fall C1) · gedeckt durch Text · „Die Konfidenzintervalle schlossen relevante Vorteile wie Nachteile des …“
+  6.1 A1 S6 · nimmt auf A5 S8 · Begriff „unschlüssig“ · gedeckt durch Text · „Die Befunde sind unschlüssig, ein Vorteil des Angebots ist weder beleg …“
+  6.1 A2 S2 · nimmt auf A2 S1, A2 S2 · Befund in Worten · gedeckt durch Text · „einige keine einzige“ nur Tab. H2 · „Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotene …“
+  6.1 A2 S3 · nimmt auf A2 S2 · Vergleich über Konnektor („Auch“, Umsetzung als Kontext) · gedeckt durch Text · „Auch in digitalen Lebensstilprogrammen für Jugendliche wurde nach eine …“
+  6.1 A2 S4 · nimmt auf A2 S2, A5 S6 · Begriffe „Umsetzung“ und „nicht nachweisbar“ · gedeckt durch Text · „Der Schätzer ist durch die eigene Umsetzung stark verdünnt: Ein nicht  …“
+  6.1 A2 S5 · nimmt auf A6 S4, A2 S3 · Befund, Begriffe · gedeckt durch Text · „Der beobachtende Per-Protokoll-Vergleich der Spieler mit mindestens de …“
+  6.1 A2 S6 · nimmt auf A6 S4 · Befund · gedeckt durch Text · Punktschätzer und Zielgröße ohne Inferenz nur Tab. H4 · „Seine Punktschätzer lagen nahe null und wechselten das Vorzeichen, bei …“
+  6.1 A3 S2 · nimmt auf Tab. 2, Tab. 3 (A1 S3, A5 S1) · Zahlen in Worten · gedeckt durch nur Tab. 2 und Tab. 3 · „Beschreibend lagen die mittleren 30-m-Zeiten der Interventionsgruppe n …“
+  6.1 A3 S3 · nimmt auf A5 S4, A5 S7 · Befund · gedeckt durch Text · „nahe null“ nicht · „Die adjustierte Gruppendifferenz lag nahe null, ihr Intervall ließ rel …“
+  6.1 A3 S5 · nimmt auf A5 S4, A5 S7 · Rückbezug (bis Rev. 162 S6) · gedeckt durch Text · „Der eigene Befund blieb dahinter zurück, schließt solche Effekte aber  …“
+  6.1 A4 S2 · nimmt auf Tab. 2, Tab. 3 (A1 S3, A5 S1) · Zahlen in Worten · gedeckt durch nur Tab. 2 und Tab. 3 · „Beschreibend blieb das 505-Seitenmittel in beiden Gruppen nahezu unver …“
+  6.1 A4 S3 · nimmt auf A5 S5, A5 S7 · Befund · gedeckt durch Text · „nahe null“ nicht · „Die adjustierte Differenz lag nahe null, ihr Intervall ließ relevante  …“
+  6.1 A4 S6 · nimmt auf A5 S5, A5 S7 · Rückbezug, Markierung „vereinbar“ (neu seit Rev. 163) · gedeckt durch Text, Tab. 3 · „Mit beiden ist der eigene Befund vereinbar. …“
+  6.1 A4 S7 · nimmt auf A5 S5, Tab. 3 · Widerspruch über Konnektor („Dagegen“, bis Rev. 162 S6) · gedeckt durch nur Tab. 3 (g-Intervall) · „Dagegen verbesserte plyometrisches Training die Richtungswechselleistu …“
+  6.1 A4 S8 · nimmt auf A5 S5 · Widerspruch über Konnektor („Auch“, bis Rev. 162 S7) · gedeckt durch Text · „Auch ein achtwöchiges Programm mit nahezu gleichem Kontaktverlauf verb …“
+  6.1 A4 S9 · nimmt auf A2 S2, A5 S5 · Begriff „Umsetzung“ (neu gefasst, bis Rev. 162 S8 ohne Bezug) · gedeckt durch Text · „Den Abstand könnte weniger die Übungsauswahl als die eigene Umsetzung  …“
+  6.1 A5 S2 · nimmt auf Tab. 2, Tab. 3 (A1 S3, A5 S1) · Zahlen in Worten · gedeckt durch nur Tab. 2 und Tab. 3 · „Beschreibend sanken die mittleren Weiten beider Gruppen, was mit der S …“
+  6.1 A5 S3 · nimmt auf A5 S5, A5 S7 · Befund · gedeckt durch Text · „Die adjustierte Differenz lag nahe null, ihr Intervall ließ relevante  …“
+  6.1 A5 S4 · nimmt auf A5 S5, A5 S6 · Rückbezug, Markierung „widerspricht“ · gedeckt durch Text, Tab. 3 · „Das widerspricht Metaanalysen, nach denen plyometrisches Training die  …“
+  6.1 A5 S5 · nimmt auf A5 S5 · Widerspruch über Konnektor („Auch“) · gedeckt durch Text · „Auch das Programm mit nahezu gleichem Kontaktverlauf steigerte die Wei …“
+  6.1 A5 S6 · nimmt auf A5 S5, A5 S7 · Rückbezug, Markierung „vereinbar“ (neu gefasst seit Rev. 163) · gedeckt durch Text, Tab. 3 · „Die Sprunghöhe von Schülern nach dem Wachstumsgipfel blieb in einer äl …“
+  6.1 A5 S8 · nimmt auf Tab. 2 (A1 S3) · Zahlen in Worten · gedeckt durch nur Tab. 2 · „Beide Gruppen lagen im Mittel schon bei der Eingangstestung über dem 9 …“
+  6.1 A6 S1 · nimmt auf A3 S1 · Befund mit Skalenanker · gedeckt durch Text · „Die als vollständig gemeldeten Einheiten wurden im Mittel als leicht b …“
+  6.1 A6 S2 · nimmt auf A3 S3 · Befund in Worten · gedeckt durch Text · Bezugsmenge 15 nur Tab. H2, Status „ganz“ nur rechnerisch · „Mehr als die Hälfte der Spieler mit Meldungen nannte mindestens einmal …“
+  6.1 A6 S3 · nimmt auf A3 S3 · Befund · gedeckt durch Text · „Einige betrafen teilweise oder nicht durchgeführte Einheiten, einen Ab …“
+  6.1 A6 S4 · nimmt auf A3 S4 · Befund, bewusst nicht wörtlich (Register c8) · gedeckt durch Text · „Ob sie mit dem Programm zusammenhingen, ist ohne Vergleichsdaten der K …“
+  6.1 A6 S5 · nimmt auf A3 S3, A3 S4 · Folgerung · gedeckt durch Text · „Die Abwägung von Nutzen und Schaden bleibt unvollständig. …“
+
+§ 3 Aussagen von 6.1 über Kapitel 5 am Kennzahlenblatt (Rohwerte aus Kennzahlen_2026-09-25_Werte.csv)
+  30-m-Sprint: Prä IG 4,51, KG 4,89 · Post IG 4,57, KG 4,89 · unadjustiert −0,327 · adjustiert −0,045 (p = 0,557) · g −0,18 · SESOI 0,063 · |adjustiert|/SESOI 0,71 · adjustiert/unadjustiert 0,14
+  505-Seitenmittel: Prä IG 2,46, KG 2,53 · Post IG 2,47, KG 2,53 · unadjustiert −0,060 · adjustiert −0,012 (p = 0,734) · g −0,11 · SESOI 0,020 · |adjustiert|/SESOI 0,60 · adjustiert/unadjustiert 0,20
+  Standweitsprung: Prä IG 238, KG 226 · Post IG 233, KG 223 · unadjustiert 10,1 · adjustiert −0,1 (p = 0,987) · g −0,00 · SESOI 3,3 · |adjustiert|/SESOI 0,02 · adjustiert/unadjustiert −0,01
+  Intervalle für die Markierungen in 6.1: 505-Seitenmittel −0,085 bis +0,061 s (g −0,81 bis +0,58), Standweitsprung −8,7 bis +8,6 cm, wie TV 6.1 § 4
+  Per-Protokoll ≥ 6 (K-08.1): 30 m +0,033 s (|·|/SESOI 0,52), Standweitsprung +0,5 cm (|·|/SESOI 0,15), 505-Seitenmittel ohne Schätzer (7 und 10 Spieler)
+  Umsetzungsrate 42,6 % (K-10.5), Spieler ohne vollständige Einheit 4 (K-10.15), Meldungen mit Schmerzangabe 12 (ganz 8, teilweise 2, gar nicht 2) von 9 Spielern (K-10.12), Spieler mit Meldungen 15 (K-10.9), zugeteilt 18 (K-10.4), CR-10 2,9 (Median 3,0), TE post über SESOI in allen sieben Zielgrößen
+
+§ 4 Gemeinsame Wortfolgen: jeder Satz von Kapitel 5 gegen jeden Satz außerhalb (ohne Platzhalter), Kandidat ab vier Wörtern in Folge, je Kandidat ein Handurteil
+  5 A2 S2 | 4.6 A2 S1 | „bei zwölf angebotenen einheiten“ | Nenner: Nenner der Umsetzung nach der Bezugsmengen-Regel, keine Doppelung
+  5 A3 S1 | 6.1 A6 S1 | „als vollständig gemeldeten einheiten“ | Bezeichnung: Status als Selbstauskunft, 6.1 nimmt ihn auf
+  5 A4 S1 | 4.4 A3 S2 | „allen zielgrößen den sesoi“ | Bezeichnung: Vergleich TE gegen SESOI, A4 S1 knüpft mit „auch“ an, neuer Zeitpunkt
+  5 A4 S2 | 4.3 A3 S2 | „beim 505-test je seite“ | Bezeichnung: Seitenangabe beim 505-Test
+  5 A4 S2 | 4.4 A2 S4 | „beim 505-test je seite“ | Bezeichnung: Seitenangabe beim 505-Test
+  5 A5 S4 | 6.1 A1 S2 | „für ausgangswert und reifestatus“ | Aufnahme nach Entscheidung: Hauptbefund in der Sprache von Kapitel 5 (Register 15b)
+  5 A5 S9 | 4.7 A3 S8 | „mit p < 0,05“ · „einen vorteil der interventionsgruppe“ | Aufnahme nach Entscheidung: Entscheidung an der adjustierten Differenz in der Sprache der Regel (Register 6f)
+  5 A5 S10 | 6.1 A1 S2 | „die nullhypothese wurde nicht verworfen“ | Aufnahme nach Entscheidung: ganzer Satz A5 S10 in 6.1 A1 S2 (Register 15b)
+  5 A5 S11 | 4.7 A1 S5 | „die 5- und 10-m-sprintzeiten und“ | Bezeichnung: Namen der deskriptiven Zielgrößen, die Regel steht in 4.7
+  5 A6 S2 | 4.7 A5 S2 | „bootstrap-konfidenzintervall der adjustierten differenz“ | Bezeichnung: Name des Verfahrens mit der Kennzeichnung „nachträglich“ (c4, Raster 5.2.4)
+  10 Kandidaten bei 259 Sätzen außerhalb, längste Folge 5 Wörter · Nenner 1 · Bezeichnung 6 · Aufnahme nach Entscheidung 3
+  zum Vergleich: A3 S4 gegen 6.1 A6 S4 längste Folge 1 Wort, A2 S1 gegen 6.1 A2 S2 3 Wörter
+  Stämme: 5 A2 S1 | 6.1 A2 S2 | 5, Anteil 0,56 | einheit meldet spiel vollständig zugeteilt | Aufnahme in 6.1: Umsetzung in Worten ohne Zahl (Raster 6.1.3, TV 6.1 § 4)
+  Stämme: 5 A2 S3 | 4.7 A1 S2 | 6, Anteil 0,75 | drei einheit erreicht mindesten neu spiel | Plan und Ergebnis: dieselbe Zahl als Ergebnis und als Grund der Festlegung (TV5 § 9.1 Nr. 5)
+  Stämme: 5 A3 S3 | 6.1 A6 S2 | 7, Anteil 0,58 | durchgeführt einheit meldung nannt problem schmerz spiel | Aufnahme in 6.1: Schmerzmeldungen in Worten (Raster 6.1.4)
+  Stämme: 5 A4 S1 | 4.4 A3 S1 | 4, Anteil 0,67 | messfehl sesoi typisch zielgröß | Plan und Ergebnis: 4.4 führt TE und SESOI ein, A4 S1 berichtet die Abschlusstestung
+  Stämme: 5 A4 S2 | 4.2 A1 S5 | 3, Anteil 0,50 | interventionsgrupp kontrollgrupp spiel | Bezeichnung: Gruppennamen und „Spieler“, verschiedene Aussagen
+  Stämme: 5 A5 S1 | 4.7 A3 S4 | 4, Anteil 0,50 | adjustiert gruppendifferenz post-wert unadjustiert | Plan und Ergebnis: Berichtsgrößen in 4.7, Objektsatz zu Tab. 3 in A5 S1
+  Stämme: 5 A5 S1 | 4.7 A3 S5 | 4, Anteil 0,50 | adjustiert gruppendifferenz hedges' zielgröß | Bezeichnung: Hedges' g und Gruppendifferenz, 4.7 definiert, A5 S1 verweist
+  Stämme: 5 A5 S6 | 6.1 A1 S2 | 3, Anteil 1,00 | gruppenunterschied nachweisbar zielgröß | Aufnahme in 6.1: Hauptbefund in der Sprache von Kapitel 5 (Register 15b)
+  Stämme: 5 A5 S7 | 6.1 A3 S3 | 4, Anteil 0,80 | intervall relevant richtung unterschied | Aufnahme in 6.1: eigener Befund je Zielgröße (Raster 6.1.2, Zug 2)
+  Stämme: 5 A5 S7 | 6.1 A4 S3 | 4, Anteil 0,80 | intervall relevant richtung unterschied | Aufnahme in 6.1: eigener Befund je Zielgröße (Raster 6.1.2, Zug 2)
+  Stämme: 5 A5 S7 | 6.1 A5 S3 | 4, Anteil 0,80 | intervall relevant richtung unterschied | Aufnahme in 6.1: eigener Befund je Zielgröße (Raster 6.1.2, Zug 2)
+  11 Paare über gemeinsame Wortstämme · Aufnahme in 6.1 6 · Plan und Ergebnis 3 · Bezeichnung 2
+
+§ 5 Spielerzahlen der Menge „zur Eingangstestung angetreten“ in Kapitel 4 und Platzhalter in Anhang H
+  4.7 A3 S6 „13“ in „…einzuordnen (Lakens, 2022, S. 13–14).…“: Seitenzahl (Lakens, 2022, S. 13–14)
+  Anhang H A1 S1: ⟨Tab. H1: Versuchszahl und Versuchsausfälle nach Mechanismus, Gruppe und Zeitpunkt (aus 4.4)⟩
+  Anhang H A2 S1: ⟨Tab. H2: Adhärenz je Spieler mit beiden Untergrenzen und sRPE-Belastung (aus 5.1)⟩
+  Anhang H A3 S1: ⟨Tab. H3: Deskriptive Zielgrößen 5 m, 10 m, 505 links und rechts (aus 5.2)⟩
+  Anhang H A4 S1: ⟨Tab. H4: Sensitivitätsanalysen – acht vorab festgelegte Varianten und Gegenprobe 30 m (aus 5.2)⟩
+  Anhang H A5 S1: ⟨Tab. H5: Schwellenlandschaft der Mindestdosis (aus 4.7)⟩
+  Anhang H A6 S1: ⟨Tab. H6: Abweichungsregister zum Ethikantrag (aus 4.1, Kurzform 6.3)⟩
+  Anhang H A7 S1: ⟨Abb. H7: Zeitstrahl der Termine je Verein (aus 4.3)⟩
+
+§ 6 Begriffe je Teil (Zählung der Fundstellen im Fließtext, Überschriften gesondert)
+  Adhärenz                   4.1 1 · 4.6 2 · 4.7 4  · Überschrift: 4.6 Adhärenz- und Belastungsmonitoring
+  Umsetzung                  4.5 1 · 5 1 · 6.1 3
+  „ganz“                     4.6 1
+  als vollständig            5 2 · 6.1 3
+  vollständig durchgeführt   6.1 1
+  teilweise durchgeführt     5 2
+  Beteiligung                4.6 1
+  TE                         4.4 2
+  typischer Messfehler       4.4 1 · 5 1
+  H0                         4.7 1
+  Nullhypothese              Einl. 1 · 5 1 · 6.1 1
+  unschlüssig                5 2 · 6.1 1
+  nachweisbar                Einl. 4 · 4.7 2 · 5 1 · 6.1 6
+  Relevanz, relevant         4.7 1 · 5 1 · 6.1 4
+  in beide Richtungen        4.7 1 · 5 1 · 6.1 3
+  Analyseset                 5 1
+  Hauptanalyse               4.1 1 · 4.7 2 · 6.1 1
+  Programmwoche              5 1
+  Schmerz                    4.5 1 · 4.6 1 · 5 1 · 6.1 1
+  Schmerzen oder Probleme    5 1 · 6.1 1
+  Spieler mit Meldungen      6.1 1
+  Post-Wert                  4.7 5 · 5 1
+  Abschlusswert              4.7 1 · 5 1
+  Voraussetzung              4.2 1 · 4.7 1 · 5 1
+  Modellannahmen             4.7 1
+  AU                         5 1
+  zugeteilt                  4.7 1 · 5 1 · 6.1 1
+  Effekt                     4.7 1 · 6.1 1
+  Beanspruchung              4.6 2 · 5 1
+  Belastung                  Einl. 2 · 4.2 1 · 4.5 1  · Überschrift: 4.6 Adhärenz- und Belastungsmonitoring
+  standardisierte Differenz  5 1
+  Überlappung                4.7 1 · 5 1
+  Untergrenze                5 1
+  Einheitennummer            4.6 1 · 5 1
+  Zielgröße                  4.4 5 · 4.7 6 · 5 4 · 6.1 2
+  abhängige Variable         4.1 1
+
+§ 7 Folge Sprint (S), Richtungswechsel (C), Sprung (J) in Sätzen mit mindestens zweien davon (erste Nennung)
+  B1a S1     SC
+  B1a S3     SCJ
+  B1a S5     SJ
+  B1b S4     SCJ
+  B1b S5     SCJ
+  B2 S9      SJC  abweichend: „Sprint- und Sprungleistung … während sich die Richtungswechselleistung“ · Kontrast nach dem Befund der Vorstudie, Einleitung · außerhalb der Regel
+  B4 S3      SJ
+  B5 S1      SCJ
+  B5 S3      SCJ
+  4.1 A4 S2  SCJ
+  4.3 A5 S3  SJC  abweichend: „vom Sprint über den Standweitsprung bis zum belastungsintensivsten 505-Test“ · Testfolge des Protokolls, Methodik · außerhalb der Regel
+  4.7 A1 S5  CS  abweichend: „die 505-Seitenwerte laut Studienprotokoll sowie alle Teilmengen … so die 5- und 10-m-Sprintzeiten“ · nach dem Grund der Festlegung, Methodik · außerhalb der Regel
+  4.7 A3 S1  SCJ
+  5 A4 S2    SJC  abweichend: „beim 30-m-Sprint und Standweitsprung … beim 505-Test je Seite“ · nach der Gruppe mit mehr gültigen Versuchen, Ergebnisse (2b.8) · gegen F17 § 5.1
+  5 A5 S5    CJ
+  5 A5 S11   SC
+  6.1 A1 S1  SCJ
+  6.1 A3 S6  SJC  abweichend: „Sprung, Beschleunigung und Richtungswechsel“ · Fähigkeiten, die ein Programm ansprechen dürfte, keine Zielgrößen (Transfer nach Oliver et al., 2024) · außerhalb der Regel
+
+§ 8 Spätere Teile (im Master ohne Text): geplante Übernahmen aus Kapitel 5
+  6.2, 6.3 und 7 ohne Textabsatz im Master (nur Überschriften), Zusammenfassung und Abstract als Vorspann-Titel ohne Text
+  S4a 6.2.5 a: W und p stehen in Kapitel 5
+  S4a 6.2.6 b: Mechanismen nennt 4.4, die Richtung Kapitel 5 (5.1), hier nur die Folge
+  S4a 6.3.2 G6-b: Untergrenzen nennt Kapitel 5, hier nur der Grund
+  S4a V06: Schmerzen ohne Lokalisation und Abbrüche: 6.1 A6 S2 und S3 und Kapitel 5
+  S4a V42: die fehlenden Vergleichsdaten der Kontrollgruppe nennen Kapitel 5 und 6.1 A6 S4
+  S4a V73: Kapitel 5 und Abb. 1 (Teilnehmerfluss)
+  S4a K7-a: Forschungsempfehlung zur Umsetzung und ihrer Berichterstattung
+
+§ 9 Satzkennungen und Zitate der Teiltabelle
+  Satzkennungen je Zeile, aufgelöst (ohne Präfix Kapitel 5, Aufzählungen erben das Präfix ihres ersten Glieds), jede im Master vorhanden:
+  2e.1: —
+  2e.2: 6.1 A3 S5, 6.1 A3 S6, 6.1 A4 S4, 6.1 A4 S6, 6.1 A4 S6 (bis Rev. 162), 6.1 A4 S9, 6.1 A5 S6, 6.1 A4 S6, 6.1 A4 S9, 6.1 A5 S6, 6.1 A4 S4, 6.1 A2 S3, 6.1 A4 S7, 6.1 A4 S8, 6.1 A5 S5, 6.1 A3 S6, 6.1 A5 S7, 6.1 A3 S7 (bis Rev. 162), 6.1 A3 S6
+  2e.3: 5 A4 S2, 4.3 A3 S2, 4.4 A2 S4, 5 A6 S2, 4.7 A5 S2, 5 A2 S2, 4.6 A2 S1, 5 A5 S10, 6.1 A1 S2, 5 A5 S9, 4.7 A3 S8, 5 A5 S7, 6.1 A3 S3, 6.1 A4 S3, 6.1 A5 S3, 5 A2 S1, 5 A3 S3, 5 A5 S6, 6.1 A2 S2, 6.1 A6 S2, 6.1 A1 S2, 5 A2 S3, 5 A4 S1, 5 A5 S1, 4.7 A1 S2, 4.4 A3 S1, 4.7 A3 S4, 5 A3 S4, 4.6 A1 S2, 5 A6 S4, 4.7 A1 S4, 6.1 A1 S5, 5 A5 S7, 5 A5 S11
+  2e.4: 6.1 A1 S2, 6.1 A1 S2, 5 A5 S3, 6.1 A1 S5, 5 A5 S7, 6.1 A1 S3, 5 A5 S3
+  2e.5: 6.1 A2 S2, 6.1 A4 S9, 6.1 A2 S2, 6.1 A4 S9, 5 A2 S1, 5 A5 S6, 5 A2 S1, 5 A2 S2, 6.1 A2 S3, 6.1 A2 S4, 5 A5 S6, 6.1 A4 S9, 5 A2 S1, 6.1 A2 S2
+  2e.6: 6.1 A2 S5, 6.1 A2 S5, 5 A2 S3, 5 A6 S4, 5 A6 S4, 4.7 A1 S4, 5 A2 S3, 4.7 A1 S3, 5 A6 S4
+  2e.7: 6.1 A3 S2, 6.1 A4 S2, 6.1 A5 S2, 6.1 A3 S2, 6.1 A4 S2, 6.1 A5 S2, 5 A1 S3, 5 A5 S1, 5 A5 S1
+  2e.8: 6.1 A3 S3, 6.1 A4 S3, 6.1 A5 S3, 6.1 A2 S6, 4.7 A3 S6, 6.1 A3 S3, 6.1 A4 S3, 6.1 A5 S3, 6.1 A2 S6, 5 A5 S4, 5 A6 S4, 5 A5 S7, 4.7 A3 S6, 6.1 A2 S6
+  2e.9: 6.1 A3 S5, 6.1 A4 S6, 6.1 A5 S4, 6.1 A3 S5, 6.1 A4 S6, 6.1 A5 S4, 5 A5 S4, 5 A5 S4, 5 A5 S7, 6.1 A4 S6, 6.1 A5 S6, 5 A5 S7, 6.1 A5 S4, 6.1 A4 S7, 6.1 A4 S8, 6.1 A5 S5, 6.1 A4 S8, 6.1 A5 S5, 5 A5 S5, 6.1 A4 S7, 6.1 A3 S5, 6.1 A4 S4, 6.1 A4 S7
+  2e.10: 6.1 A5 S8, 6.1 A6 S1, 6.1 A5 S8, 6.1 A6 S1, 5 A1 S3, 5 A3 S1, 6.1 A5 S8, 6.1 A6 S1, 5 A3 S1, 6.1 A5 S8
+  2e.11: 6.1 A6 S2, 6.1 A6 S2, 5 A3 S3, 5 A3 S3, 5 A2 S1, 6.1 A6 S2, 5 A2 S1, 5 A3 S1, 6.1 A6 S3
+  2e.12: 6.1 A6 S4, 6.1 A6 S4, 5 A3 S4, 6.1 A6 S4, 5 A3 S4, 6.1 A6 S5
+  2e.13: 5 A1 S2, 5 A2 S1, 4.2 A1 S4, 4.7 A1 S1, 5 A1 S2, 5 A2 S1, 5 A1 S2, 5 A1 S2, 5 A2 S1, 4.7 A1 S1, 4.2 A1 S5
+  2e.14: 5 A1 S1, 4.1 A5 S6, 5 A1 S1, 4.1 A5 S6, 5 A1 S1
+  2e.15: 5 A1 S3, 5 A2 S4, 4.7 A1 S1, 5 A1 S3, 4.7 A1 S1, 5 A2 S4
+  2e.16: 4.6 A2 S2, 5 A2 S4, 4.6 A2 S2, 5 A2 S4, 5 A2 S4, 4.6 A2 S2, 4.6 A2 S3
+  2e.17: 4.4 A2 S1, 4.4 A3 S1, 5 A4 S1, 5 A4 S2, 4.4 A2 S4, 4.4 A2 S3, 5 A4 S2, 5 A4 S1, 4.4 A3 S2, 4.4 A3 S1, 4.4 A3 S2, 5 A4 S1
+  2e.18: 4.1 A4 S2, 4.4.2 A1 S6, 4.7 A3 S1, 4.7 A4 S3, 5 A1 S3, 5 A4 S1, 5 A5 S1, 4.1 A4 S2, 4.4 A3 S1, 4.4.2 A1 S6, 4.7 A3 S1, 4.7 A4 S3, 5 A1 S3, 5 A4 S1, 5 A5 S1, 5 A1 S3, 5 A1 S3, 4.7 A4 S3, 5 A5 S4, 4.1 A4 S3, 5 A4 S1, 4.4 A3 S1, 5 A5 S1, 4.7 A3 S1, 4.4.2 A1 S6, 4.1 A4 S2, 4.4.2 A1 S6, 4.4.2 A1 S6
+  2e.19: 4.1 A4 S2, 4.7 A3 S1, 6.1 A1 S1, 5 A5 S5, 5 A5 S4, 5 A5 S11, 5 A4 S2, B2 S9, 4.3 A5 S3, 4.7 A1 S5, 6.1 A3 S6, 5 A4 S2, 5 A4 S2, 5 A4 S2
+  2e.20: 4.6 A2 S1, 4.7 A1 S1, 4.1 A5 S9, 5 A2 S1, 6.1 A2 S2, 6.1 A4 S9, 5 A2 S1, 4.6 A2 S1, 5 A2 S3, 4.7 A1 S2, 5 A2 S2, 5 A2 S2, 5 A2 S1, 4.6 A2 S4, 5 A2 S2, 5 A2 S2, 4.6 A2 S1, 5 A2 S1
+  2e.21: 4.6 A1 S2, 5 A3 S1, 5 A3 S2, 4.6 A1 S8, 5 A3 S2, 4.6 A1 S3, 5 A3 S4, 4.6 A1 S2, 4.6 A1 S3
+  2e.22: 4.7 A3 S1, 4.7 A4 S1, 4.7 A5 S1, 5 A5 S1, 5 A6 S1, 4.7 A3 S1, 4.7 A4 S2, 5 A5 S1, 5 A5 S2, 4.7 A1 S6, 5 A5 S1, 4.7 A3 S4
+  2e.23: 4.7 A3 S6, 5 A5 S6, 6.1 A1 S5, 4.7 A3 S6, 5 A5 S6, 6.1 A1 S5, 5 A5 S6, 5 A5 S7, 4.7 A3 S6, 5 A5 S8, 5 A6 S4, 6.1 A1 S6, 5 A5 S7, 5 A5 S9, 4.7 A3 S8, 4.7 A3 S8, B5 S3, 4.7 A3 S8, 4.7 A3 S8
+  2e.24: 5 A5 S11, 4.7 A1 S5, 4.4.1 A1 S5, 5 A5 S11, 4.7 A1 S5, 4.4.1 A1 S5, 4.7 A1 S5, 5 A5 S11, 4.7 A1 S5, 4.4.1 A1 S5, 5 A5 S11, 4.4.1 A1 S5, 4.4.1 A1 S5
+  2e.25: 5 A2 S3, 4.6 A2 S5, 4.7 A1 S2, 4.1 A5 S9, 5 A2 S3, 4.6 A2 S5, 4.7 A1 S2, 4.1 A5 S9, 5 A2 S3, 4.7 A1 S2, 4.6 A2 S5, 4.7 A1 S2, 4.1 A5 S9, 4.6 A2 S5, 4.7 A1 S2
+  2e.26: B1a S5, B5 S1, 5 A5 S6, B5 S3, 5 A5 S10, B5 S4, B1a S5, 5 A5 S11, B1a S5, B5 S1, 5 A5 S6, 6.1 A1 S1, B5 S4
+  2e.27: Anhang H A2 S1, Anhang H A5 S1, 4.7 A5 S1, 5 A6 S4, 5 A2 S3, 5 A3 S2, 5 A1 S3, 5 A6 S3, 5 A1 S3, 5 A6 S3
+  2e.28: 5 A4 S2, 5 A3 S3, 5 A3 S4, 5 A1 S1, 5 A5 S6, 5 A2 S2, 5 A3 S3, 5 A1 S1, 5 A2 S2, 5 A2 S4, 5 A3 S3, 5 A3 S4, 5 A4 S2, 5 A5 S6, 5 A6 S1, 5 A6 S2
+  179 Zitate am genannten Ort an Wortgrenzen gefunden, Bruchstücke in ihrer Folge · Orte: 5 A3 S2 3 · 6.1 A4 S6 2 · 6.1 A5 S6 1 · 6.1 A2 S3 2 · tv61 | A4 S7 | 2 · 4.4 A2 S4 2 · 4.7 A5 S2 1 · 5 A6 S2 3 · 4.6 A2 S1 5 · 6.1 A1 S2 4 · 4.7 A3 S8 2 · 4.7 A1 S4 1 · 6.1 A1 S6 1 · 6.1 A1 S5 1 · 6.1 A1 S4 1 · 6.1 A2 S2 5 · 6.1 A2 S4 2 · 5 A2 S2 2 · 6.1 A2 S5 3 · 4.7 A1 S3 1 · 6.1 A2 S6 2 · 5 A6 S4 3 · 6.1 A3 S2 2 · 6.1 A4 S2 1 · 6.1 A5 S2 1 · 6.1 A3 S3 2 · 4.7 A3 S6 4 · f17 5 · abg61 | 2c.3 | 1 · 6.1 A5 S4 1 · tv61 | A4 S8 | 1 · tv61 | A5 S5 | 1 · 6.1 A3 S5 1 · 6.1 A6 S1 2 · 6.1 A6 S2 3 · tv5 10 Zweitprüfung 3 · 5 A3 S1 1 · 5 A3 S3 2 · 6.1 A6 S3 1 · 6.1 A6 S4 1 · 4.2 A1 S4 2 · 5 A1 S2 1 · 4.7 A1 S1 2 · 4.1 A5 S6 1 · 5 A1 S1 1 · 5 A1 S3 4 · raster 5 · 5 A2 S4 4 · tv5 9.1 Kapitel 4 5 · 4.6 A2 S2 1 · 4.6 A2 S3 1 · s4a 4 · 5 A4 S2 1 · 5 A4 S1 1 · 4.4 A3 S2 1 · 4.4 A3 S1 1 · tv47 43. [ÄNDERN] 1 · tv47 | 4.7.5 | 1 · 5 A5 S4 2 · f17 | Tab. 1 Messgüte je Zielgröße | 1 · 4.4.2 A1 S6 1 · 6.1 A3 S6 1 · 5 A2 S1 4 · 6.1 A4 S9 1 · 4.6 A2 S4 2 · Anhang H A2 S1 3 · 4.6 A1 S6 2 · 4.6 A1 S8 3 · tv5 9.6 Task 16 bis 18 2 · 4.6 A1 S3 1 · 4.7 A3 S1 1 · 4.7 A3 S5 1 · 5 A6 S1 1 · 5 A6 S3 2 · 4.7 A4 S1 1 · 4.7 A6 S3 1 · 5 A5 S1 1 · 5 A5 S2 1 · 4.7 A1 S6 1 · 5 A5 S6 1 · 5 A5 S7 1 · 5 A5 S8 1 · umfang 1 · abgleich Lesart der Methodenteile. 1 · 4.7 A1 S5 3 · 5 A5 S11 1 · 4.4.1 A1 S5 1 · 5 A2 S3 1 · 4.7 A1 S2 2 · 4.6 A2 S5 1 · B5 S3 1 · tv5 9.2 2 · B5 S4 1 · B1a S5 1 · nachtrag61 6. **Schlussfassung der Einleitung (G35): 1 · Anhang H A3 S1 1 · Anhang H A4 S1 3 · Anhang H A5 S1 1 · tv5 Nr. 3 — Lokalisation 1 · tv5 9.5 1
+
+§ 10 Zählung der Teiltabelle 2e
+  28 Zeilen: erfüllt 17 · teilweise 10 · nicht erfüllt 1 · bewusst anders 0 · davon mit einem Teil „bewusst anders“ 3
+  2e.1 · erfüllt
+  2e.2 · erfüllt (Liste am Master neu aufgestellt, Satznummern nachgeführt)
+  2e.3 · erfüllt (keine wörtliche Doppelung einer Methodenangabe ohne Entscheidung), Aufnahmen bewusst anders · Register 15b, 6f, c4
+  2e.4 · erfüllt (Begriffe, Deckung), Doppelung bewusst anders · Register 15b
+  2e.5 · erfüllt (zweiter Teil von 6.1 A2 S2 nur über Tab. H2)
+  2e.6 · teilweise („nahe null“ beim Per-Protokoll-Schätzer des 30-m-Sprints, Schwere B, siehe 2e.8), Punktschätzer und Zielgröße ohne Inferenz nur über Tab. H4
+  2e.7 · erfüllt (nur über Tab. 2 und Tab. 3)
+  2e.8 · teilweise (Fall C1 erfüllt, „nahe null“ beim 30-m-Sprint und 505-Seitenmittel und beim Per-Protokoll-Schätzer des 30-m-Sprints von Kapitel 5 nicht getragen, Schwere B, Folgeänderung für 6.1 als eigene Klickfrage beim Abschluss)
+  2e.9 · erfüllt (6.1 A4 S7 nur über Tab. 3)
+  2e.10 · erfüllt (6.1 A5 S8 nur über Tab. 2)
+  2e.11 · teilweise (Bezugsmenge und Status „ganz“ nur über Tab. H2 und Rechnung, Statuswort gegen TV5 § 10 Nr. 3, Schwere B)
+  2e.12 · erfüllt (Register c8)
+  2e.13 · erfüllt (18 als Ausnahme nach Register 2g)
+  2e.14 · erfüllt (verschiedener Bezug, Register 8a)
+  2e.15 · erfüllt (aus dem Zusammenhang verständlich nach TV5 § 9.1 Nr. 4, ohne Handlungsbedarf)
+  2e.16 · teilweise (Zählregeln der Untergrenzen ohne Einführung in Kapitel 4, Grund erst in 6.3, Schwere C, Folgeänderung für 4.6 als mögliche Klickfrage beim Abschluss)
+  2e.17 · erfüllt (Langform ohne Handlungsbedarf nach TV5 § 9.1 Nr. 5)
+  2e.18 · teilweise (Umfang von „Zielgröße“ in 4.4.2 A1 S6 gegen Tab. 1, Schwere C, Vormerkung für die Endredaktion), d und Überlappung erfüllt
+  2e.19 · teilweise (A4 S2 gegen den Wortlaut von F17 § 5.1, Schwere B, keine Entscheidung), Korpus: Ordnung nach dem Inhalt mit Kernvorbild (2d.19)
+  2e.20 · teilweise (Begriffsbrücke Adhärenz offen, Register 10u, TV5 § 9.1 Nr. 4, Status „ganz“ gegen „vollständig“, Schwere C), „Beteiligung“ bewusst anders · Register 10s, Korpus: kein Vorbild für einen Wert je Spieler (2d.20)
+  2e.21 · teilweise („Schmerzen“ in 4.6 A1 S3 gegen „Schmerzen oder Probleme“, Schwere C, Vormerkung 4.6), AU über das Abkürzungsverzeichnis vorgemerkt
+  2e.22 · erfüllt
+  2e.23 · teilweise („unschlüssig“ und „H0“ in 4.7 nicht eingeführt, Schwere C, neue Vormerkung zu 4.7 A3 S8), Korpus: Urteil im Methodenteil definiert (2d.3, 2d.4), im Übrigen erfüllt
+  2e.24 · erfüllt (Inhalt der Regel wiederholt, Ort nach Raster 5.2.5), Ausfallgrund in 4.4.1 A1 S5 offen nach TV5 § 9.1 Nr. 2
+  2e.25 · erfüllt
+  2e.26 · teilweise („Parameter“ in B5 S4, Schwere C, Entscheidung in der Schlussfassung), Kapitel 5 erfüllt
+  2e.27 · nicht erfüllt (Platzhalter veraltet, Schwere C, vorgemerkt für Task 18, TV5 § 9.6 Nr. 4)
+  2e.28 · erfüllt (am Master gegenstandslos, Abhängigkeiten vermerkt)

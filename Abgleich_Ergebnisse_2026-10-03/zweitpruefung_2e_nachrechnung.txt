@@ -1,0 +1,398 @@
+zweitpruefung_2e_nachrechnung.py, unabhängige Nachrechnung zur Teiltabelle 2e
+
+N0 Eingänge
+  werte      02_Befunde/Kennzahlen_2026-09-25_Werte.csv · 101985 Byte · MD5 25bca501fb60680c584fc6e7796dc31e
+  kz         02_Befunde/Kennzahlen_2026-09-25.md · 72683 Byte · MD5 3c5ff704294fefa4e63f6af0e73bd915
+  abgleich   02_Befunde/Abgleich_Ergebnisse_Argumentationsstruktur_2026-10-03.md · 199382 Byte · MD5 0558e2a9009684fd1b7cbc55c070a1f6
+  raster     02_Befunde/Berichtsraster_2026-09-23.md · 106370 Byte · MD5 527009f05fb25ea0b64abac4aa49bf55
+  f17        00_Steuerung/Projektanweisungen_Fassung17.md · 150926 Byte · MD5 0bd441fc265f08a6280d2ad582008f60
+  tv5        04_Uebergaben/Textvorschlag_5_2026-09-30.md · 67973 Byte · MD5 835c3a45dd3a4e702684d05838bc38a1
+  tv61       04_Uebergaben/Textvorschlag_6.1_2026-10-02.md · 123351 Byte · MD5 02d7e09c12f655476ca202352611071e
+  tv61j      03_Skripte/Textvorschlag_6.1_2026-10-02.json · 6460 Byte · MD5 30913b2113b3de33bfc763bdf547eb08
+  nachtrag   04_Uebergaben/Textvorschlag_6.1_Nachtrag_Argumentationsstruktur_2026-10-03.md · 75397 Byte · MD5 4b35973e6770f93234057789fcd87def
+  s4a        03_Skripte/Diskussion_Anwendung_2026-10-03/S4a_Rasterzuordnung_12b.md · 76934 Byte · MD5 2c13ac3a72d5c4bac2a7af8fab9b8afe
+  register   03_Skripte/Abgleich_Ergebnisse_2026-10-03/register_pruefung.md · 65715 Byte · MD5 d1de8266e4267d88c94366eb6963a397
+  umfang     03_Skripte/Abgleich_Ergebnisse_2026-10-03/quellen/Auswertungs_und_Berichtsumfang_2026-09-24.md · 97886 Byte · MD5 521f22ec2656a63dd3409b2633db20f7
+  fu4        04_Uebergaben/Uebergabe_Abgleich_Ergebnisse_Fortsetzung4_2026-10-03.md · 18987 Byte · MD5 d0a15287874aa492d88f1f8824d98c5a
+  textstand  03_Skripte/Abgleich_Ergebnisse_2026-10-03/textstand.json · 16938 Byte · MD5 bb86ed78a6ba45038d57b8cb4f763fb4
+  alt        03_Skripte/Abgleich_Ergebnisse_2026-10-03/master_saetze.json · 97770 Byte · MD5 4d06c614536fc21c2a2b57b284d9d925
+  gliederung 01_Verfahren/Gliederung_2026-09-28.md · 35150 Byte · MD5 e50ad22049affdae0d54832a72d2b429
+  master     Bachelorarbeit_Gerüst_v1_AKTUELL.docx · 40337 Byte · MD5 6c1db4554cba8d5b791c7884a28b6169
+  erste      erste_fassung/anschluss_2e.py · 70610 Byte · MD5 1426ce8dfcedf8bbaf7580f0d512f530
+  erste      erste_fassung/anschluss_2e.txt · 19336 Byte · MD5 73dbd93c1aef25362ec07efc3aefb7dc
+  erste      erste_fassung/teiltabelle_2e.csv · 22007 Byte · MD5 03733cfe4462a6d7af9347767ba3bc32
+  erste      erste_fassung/teiltabelle_2e.md · 22091 Byte · MD5 cf590434ec51ee9391160e5636a67589
+  erste      erste_fassung/bezuege_2e.md · 6170 Byte · MD5 0df95ec47223db9c929bafaf5fd7a2f9
+
+N1 Master, eigene Textgewinnung (lxml)
+  Größe 40337 Byte, MD5 6c1db4554cba8d5b791c7884a28b6169, comments.xml nicht vorhanden
+  w:p gesamt 188 · Body 134 · Inhaltsverzeichnisfeld 34 · Tabellenzelle 20
+  Titel in der Formatvorlage Vorspann-Titel (ohne Text darunter): Eidesstattliche Erklärung, Zusammenfassung, Abstract, Inhaltsverzeichnis
+  Textabsätze (Standard, nach der ersten Überschrift, nicht leer, ohne Feldabsätze, mit Tabellenzellen): 79, davon mit Tabulator 0
+
+N2 Eigene Satzteilung gegen die Satzliste neu_master_saetze.json
+  Absätze: eigene 79, Satzliste 79, Absatzkennungen gleich True, Absatztext gleich (Sätze mit Leerzeichen verbunden) bis auf 0
+  Sätze: Satzliste 295, eigene Teilung 298
+    abweichend 4.3 A2: Satzliste 4, eigene Teilung 5
+      eigener Satz: Die Witterung war an allen Terminen vergleichbar, bei den Abschlusstestungen lag die Temperatur jedoch durchgehend niedriger, um bis zu 10 °C.
+      eigener Satz: Alle Testungen lagen mindestens 48 Stunden nach dem letzten Wettspiel und der letzten intensiven Trainingseinheit.
+    abweichend 4.5.1 A3: Satzliste 8, eigene Teilung 9
+      eigener Satz: Die Bodenkontakte je Einheit stiegen von 52 über 66, 80, 96 und 106 auf 120.
+      eigener Satz: Der Verlauf entsprach nahezu zwei achtwöchigen Vorlagen mit 50 auf 120 Kontakten je Einheit (Negra et al., 2019 · Sammoud et al., 2024).
+    abweichend 4.5.2 A2: Satzliste 8, eigene Teilung 9
+      eigener Satz: Das Mannschaftstraining von Verein C begann am 07.09.
+      eigener Satz: Eigene Sprinteinheiten sah nur der Plan der Kontrollgruppe vor.
+  Kapitel 5: 450 Wörter, 29 Sätze · 6.1: 700 Wörter, 40 Sätze
+  Kapitel 5 gleich textstand.json: True · 6.1 gleich Textvorschlag_6.1 JSON: True
+
+N3 Satzliste alt (master_saetze.json, 08:05) gegen neu (difflib, eigene Zuordnung)
+  Sätze alt 295, neu 295 · gleicher Wortlaut unter gleicher Kennung 287 · gleicher Wortlaut irgendwo 290
+  delete: 6.1 A3 S5 → —
+  gleich, umnummeriert: 6.1 A3 S6 → 6.1 A3 S5
+  replace: 6.1 A3 S7 → 6.1 A3 S6
+  replace: 6.1 A4 S4 → 6.1 A4 S4
+  insert: — → 6.1 A4 S6
+  gleich, umnummeriert: 6.1 A4 S6 → 6.1 A4 S7
+  gleich, umnummeriert: 6.1 A4 S7 → 6.1 A4 S8
+  replace: 6.1 A4 S8 → 6.1 A4 S9
+  replace: 6.1 A5 S6 → 6.1 A5 S6
+  außerhalb 6.1 alle Sätze gleich: True
+
+N4 Sätze von 6.1 mit Bezug auf Kapitel 5 (eigene Zuordnung, Marke am Wortlaut geprüft)
+  explizit 26 · implizit (Markierung über Konnektor nach TV 6.1 § 4) 3 · ohne 11
+  implizit: 6.1 A4 S7 „Dagegen“ (Widerspruch nach der Lage im eigenen g-Intervall (TV 6.1 § 4, K-06.2)), 6.1 A4 S8 „Auch ein“ (Widerspruch, Lage gegen −0,085 bis +0,061 s aus A5 S5 (TV 6.1 § 4)), 6.1 A5 S5 „Auch das Programm“ (Widerspruch, Lage gegen −8,7 bis +8,6 cm aus A5 S5 (TV 6.1 § 4))
+  ohne: 6.1 A1 S1, 6.1 A2 S1, 6.1 A2 S3, 6.1 A3 S1, 6.1 A3 S4, 6.1 A3 S6, 6.1 A4 S1, 6.1 A4 S4, 6.1 A4 S5, 6.1 A5 S1, 6.1 A5 S7
+  Ersteller (bezuege_2e.md) 26 Sätze mit Bezug · gleich meinen expliziten: True · zusätzlich bei mir implizit: 6.1 A4 S7, 6.1 A4 S8, 6.1 A5 S5
+
+N5 Kennzahlen aus der Spalte darstellung (eigene Ableitung) und eigene Rechnung
+  30-m-Sprint: Prä IG 4,51 KG 4,89 · Post IG 4,57 KG 4,89 · unadj. −0,327 · adj. −0,045 [−0,199 bis 0,110] · p 0,557 · g −0,18 · SESOI 0,063 · |adj.|/SESOI 0,71 · adj./unadj. 0,14 · Intervall schließt ±SESOI ein: True · Fall C1
+  505-Seitenmittel: Prä IG 2,46 KG 2,53 · Post IG 2,47 KG 2,53 · unadj. −0,060 · adj. −0,012 [−0,085 bis 0,061] · p 0,734 · g −0,11 · SESOI 0,020 · |adj.|/SESOI 0,60 · adj./unadj. 0,20 · Intervall schließt ±SESOI ein: True · Fall C1
+  Standweitsprung: Prä IG 238 KG 226 · Post IG 233 KG 223 · unadj. 10,1 · adj. −0,1 [−8,7 bis 8,6] · p 0,987 · g −0,00 · SESOI 3,3 · |adj.|/SESOI 0,02 · adj./unadj. −0,01 · Intervall schließt ±SESOI ein: True · Fall C1
+  Per-Protokoll ≥ 6 (K-08.1): Z30 n 9/10 Schätzer 0,033 · CM n 7/10 Schätzer fehlend · SBJ n 9/10 Schätzer 0,5
+  |PP30|/SESOI 0,52 · |PPSBJ|/SESOI 0,15
+  Meldungen ganz/teilw./gar nicht [92.0, 6.0, 13.0] · zugeteilt 18 · Rate ganz 42,6 % (92/216 = 42,6) · mit teilweise 45,4 % (98/216 = 45,4)
+  Verteilung genau 0..12: [4, 0, 2, 0, 1, 1, 2, 3, 2, 2, 0, 0, 1] · Summe 18 Spieler, 92 Einheiten · Median aus der Verteilung 6,0 (K-10.8 6,0) · Spieler mit 0 vollständigen 4 · mit ≥ 6 10 · mit ≥ 7 8 · mit ≥ 9 3
+  Schmerzmeldungen [12.0, 8.0, 2.0, 2.0, 9.0] (gesamt, ganz, teilw., gar nicht, Spieler) · Spieler mit Meldung 15 · 9/15 = 0,60 · 9/18 = 0,50 · 8/12 = 0,67 · 4/12 = 0,33 · CR-10 M 2,9 Median 3,0
+  TE prä und post über dem SESOI: Sprint 5 m ja/ja · Sprint 10 m ja/ja · Sprint 30 m ja/ja · 505 links ja/ja · 505 rechts ja/ja · 505-Seitenmittel ja/ja · Standweitsprung ja/ja
+  mittlere Zahl gültiger Versuche IG prä, KG prä, IG post, KG post (K-11.3): Sprint 30 m 2,61 2,38 2,56 2,18 · 505 links 1,83 1,69 1,62 2,00 · 505 rechts 1,89 1,92 1,44 1,55 · Standweitsprung 2,50 2,08 2,00 1,91
+  505 je Seite: Kontrollgruppe mit mehr gültigen Versuchen in 3 von 4 Zellen
+  K-11.4 Sprint 10 m post, Interventionsgruppe: 1 0 0 27 6 0 (Kategorien TECH ZEIT FEHL FALSCH NANG AUSL)
+
+N6 Begriffe je Teil (eigene Muster mit Wortgrenzen, Fließtext ohne Platzhalter)
+  Adhärenz                   4.1 1 · 4.6 2 · 4.7 4  gleich
+  Umsetzung                  4.5 1 · 5 1 · 6.1 3  gleich
+  „ganz“                     4.6 1  gleich
+  als vollständig            5 2 · 6.1 3  gleich
+  vollständig durchgeführt   6.1 1  gleich
+  teilweise durchgeführt     5 2  gleich
+  Beteiligung                4.6 1  gleich
+  TE                         4.4 2  gleich
+  typischer Messfehler       4.4 1 · 5 1  gleich
+  H0                         4.7 1  gleich
+  Nullhypothese              Einl. 1 · 5 1 · 6.1 1  gleich
+  unschlüssig                5 2 · 6.1 1  gleich
+  nachweisbar                Einl. 4 · 4.7 2 · 5 1 · 6.1 6  gleich
+  Relevanz, relevant         4.7 1 · 5 1 · 6.1 4  gleich
+  in beide Richtungen        4.7 1 · 5 1 · 6.1 3  gleich
+  Analyseset                 5 1  gleich
+  Hauptanalyse               4.1 1 · 4.7 2 · 6.1 1  gleich
+  Programmwoche              5 1  gleich
+  Schmerz                    4.5 1 · 4.6 1 · 5 1 · 6.1 1  gleich
+  Schmerzen oder Probleme    5 1 · 6.1 1  gleich
+  Spieler mit Meldungen      6.1 1  gleich
+  Post-Wert                  4.7 5 · 5 1  gleich
+  Abschlusswert              4.7 1 · 5 1  gleich
+  Voraussetzung              4.2 1 · 4.7 1 · 5 1  gleich
+  Modellannahmen             4.7 1  gleich
+  AU                         5 1  gleich
+  zugeteilt                  4.7 1 · 5 1 · 6.1 1  gleich
+  Effekt                     4.7 1 · 6.1 1  gleich
+  Beanspruchung              4.6 2 · 5 1  gleich
+  Belastung                  Einl. 2 · 4.2 1 · 4.5 1  gleich
+  Untergrenze                5 1  
+  Einheitennummer            4.6 1 · 5 1  
+  standardisierte Differenz  5 1  
+  Überlappung                4.7 1 · 5 1  
+  Ausgangswert               4.1 1 · 4.7 4 · 5 4 · 6.1 3  
+  Abschlusstestung           4.1 1 · 4.3 3 · 4.4 1 · 4.7 1 · 5 1  
+  Begriffe mit Gegenstück beim Ersteller 30, davon abweichend 0
+
+N7 Folge Sprint (S), Richtungswechsel (C), Sprung (J), eigene Muster ohne Großschreibung, Programm- und Planinhalte ausgenommen
+  B1a S1     SC
+  B1a S3     SCJ
+  B1a S5     SJ
+  B1b S4     SCJ
+  B1b S5     SCJ
+  B2 S9      SJC  abweichend
+  B4 S3      SJ
+  B5 S1      SCJ
+  B5 S3      SCJ
+  4.1 A4 S2  SCJ
+  4.3 A5 S3  SJC  abweichend
+  4.7 A1 S5  CS  abweichend
+  4.7 A3 S1  SCJ
+  5 A4 S2    SJC  abweichend
+  5 A5 S5    CJ
+  5 A5 S11   SC
+  6.1 A1 S1  SCJ
+  6.1 A3 S6  SJC  abweichend
+  18 Sätze mit mindestens zwei, 13 in der Folge S → C → J, abweichend: B2 S9, 4.3 A5 S3, 4.7 A1 S5, 5 A4 S2, 6.1 A3 S6
+  Ersteller: 17 Sätze · bei mir zusätzlich: B1b S4 · beim Ersteller zusätzlich: —
+
+N8 Gemeinsame Wortfolgen (eigene Tokenisierung, längste gemeinsame Folge je Satzpaar)
+  Sätze außerhalb (ohne Platzhalter) 259 · Paare mit mindestens vier Wörtern 10, längste 5
+    5 A2 S2 | 4.6 A2 S1 | 4
+    5 A3 S1 | 6.1 A6 S1 | 4
+    5 A4 S1 | 4.4 A3 S2 | 4
+    5 A4 S2 | 4.3 A3 S2 | 4
+    5 A4 S2 | 4.4 A2 S4 | 4
+    5 A5 S4 | 6.1 A1 S2 | 4
+    5 A5 S9 | 4.7 A3 S8 | 4
+    5 A5 S10 | 6.1 A1 S2 | 5
+    5 A5 S11 | 4.7 A1 S5 | 5
+    5 A6 S2 | 4.7 A5 S2 | 4
+  Paare mit genau drei Wörtern: 27 (nur Kapitel 4 und 6.1):
+    5 A1 S3 | 4.7 A4 S3 | überlappung der kovariaten
+    5 A2 S1 | 6.1 A2 S2 | einheiten als vollständig
+    5 A2 S1 | 6.1 A2 S5 | einheiten als vollständig
+    5 A3 S3 | 6.1 A6 S2 | schmerzen oder probleme
+    5 A3 S4 | 4.6 A1 S2 | für die kontrollgruppe
+    5 A4 S1 | 4.4.1 A1 S5 | bei der abschlusstestung
+    5 A4 S2 | 4.4 A2 S1 | versuche je spieler
+    5 A4 S2 | 4.4 A2 S3 | tab h1 .
+    5 A5 S2 | 4.4 A3 S1 | zeigt je zielgröße
+    5 A5 S3 | 4.2 A1 S8 | der interventionsgruppe und
+    5 A5 S3 | 4.7 A1 S6 | der interventionsgruppe und
+    5 A5 S4 | 4.1 A4 S3 | ausgangswert und reifestatus
+    5 A5 S4 | 4.7 A3 S1 | ausgangswert und reifestatus
+    5 A5 S4 | 4.7 A4 S2 | ausgangswert und reifestatus
+    5 A5 S4 | 6.1 A1 S4 | ausgangswert und reifestatus
+    5 A5 S6 | 6.1 A1 S2 | bei keiner zielgröße / ein gruppenunterschied nachweisbar
+    5 A5 S7 | 4.7 A3 S6 | in beide richtungen
+    5 A5 S7 | 6.1 A3 S3 | in beide richtungen
+    5 A5 S7 | 6.1 A4 S3 | in beide richtungen
+    5 A5 S7 | 6.1 A5 S3 | in beide richtungen
+    5 A6 S1 | 4.7 A4 S1 | der shapiro-wilk-test die
+    5 A6 S1 | 4.7 A5 S2 | normalverteilung der residuen
+    5 A6 S2 | 4.7 A3 S6 | der adjustierten differenz
+    5 A6 S3 | 4.7 A5 S1 | tab h4 .
+    5 A6 S4 | 4.7 A3 S8 | p < 0,05
+    5 A6 S4 | 4.7 A5 S1 | tab h4 .
+    5 A6 S4 | 6.1 A2 S5 | der beobachtende per-protokoll-vergleich
+  Aussagenähe ohne Folge ab vier Wörtern (mindestens drei gemeinsame Stämme, Überlappung ≥ 0,5): 11 Paare
+    5 A2 S1 | 6.1 A2 S2 | 5 Stämme, 0,56 | einheit meldet spiel vollständig zugeteilt
+    5 A2 S3 | 4.7 A1 S2 | 6 Stämme, 0,75 | drei einheit erreicht mindesten neu spiel
+    5 A3 S3 | 6.1 A6 S2 | 6 Stämme, 0,50 | durchgeführt einheit meldung nannt problem schmerz
+    5 A4 S1 | 4.4 A3 S1 | 4 Stämme, 0,57 | messfehl sesoi typisch zielgröß
+    5 A4 S2 | 4.2 A1 S5 | 3 Stämme, 0,50 | interventionsgrupp kontrollgrupp spiel
+    5 A5 S1 | 4.7 A3 S4 | 4 Stämme, 0,50 | adjustiert gruppendifferenz post-wert unadjustiert
+    5 A5 S1 | 4.7 A3 S5 | 4 Stämme, 0,50 | adjustiert gruppendifferenz hedges' zielgröß
+    5 A5 S6 | 6.1 A1 S2 | 3 Stämme, 1,00 | gruppenunterschied nachweisbar zielgröß
+    5 A5 S7 | 6.1 A3 S3 | 4 Stämme, 0,80 | intervall relevant richtung unterschied
+    5 A5 S7 | 6.1 A4 S3 | 4 Stämme, 0,80 | intervall relevant richtung unterschied
+    5 A5 S7 | 6.1 A5 S3 | 4 Stämme, 0,80 | intervall relevant richtung unterschied
+
+N9 Teiltabelle 2e (erste Fassung): Status, Schwere, Satzkennungen ohne Präfix, Zitate
+  26 Zeilen: erfüllt 18 · teilweise 7 · nicht erfüllt 1 · mit Teil „bewusst anders“ 3
+  nicht „erfüllt“ und ohne Schwere im Status: 2e.17, 2e.24, 2e.25
+    2e.2 Ergebnis: „A3 S5“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A3 S6“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A4 S4“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A4 S6“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A4 S6“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A4 S6“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A4 S9“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A4 S4“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A3 S6“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.4 Ergebnis: „A1 S5“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.5 Ergebnis: „A4 S9“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.9 Ergebnis: „A4 S6“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.9 Ergebnis: „A3 S5“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.9 Ergebnis: „A4 S4“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.12 Ergebnis: „A6 S5“ ohne Präfix, in Kapitel 5 nicht vorhanden (6.1: ja)
+    2e.2 Ergebnis: „A5 S6“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: … S9, S9 neu gefasst (eigene Umsetzung), A5 S6 neu gefasst („was mit dem eigenen Befun…
+    2e.2 Ergebnis: „A5 S6“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …ätzen (vorher 24): neu A4 S6, A4 S9 und A5 S6, als Bezug entfällt A4 S4. Nachzuführen…
+    2e.4 Ergebnis: „A5 S7“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: … Befunde sind unschlüssig“. A1 S5 fasst A5 S7 als „relevante Vorteile wie Nachteile d…
+    2e.4 Ergebnis: „A1 S3“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …Programmangebots“ (ITT-Sprachregelung). A1 S3 und S4 nehmen A5 S3 auf: Die IG lag in …
+    2e.4 Ergebnis: „A5 S3“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …TT-Sprachregelung). A1 S3 und S4 nehmen A5 S3 auf: Die IG lag in allen drei Post-Wert…
+    2e.5 Ergebnis: „A2 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …en Einheiten“ und „als vollständig“ wie A2 S1 und S2, „Umsetzung“ wie „Umsetzungsrate…
+    2e.5 Ergebnis: „A2 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …d S2, „Umsetzung“ wie „Umsetzungsrate“ (A2 S2). „weniger als die Hälfte“ trägt 42,6 %…
+    2e.5 Ergebnis: „A2 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: … die Rate. Längste gemeinsame Folge mit A2 S1 drei Wörter.…
+    2e.6 Ergebnis: „A6 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …obachtende Per-Protokoll-Vergleich“ wie A6 S4 und 4.7 A1 S4, „mindestens der Hälfte d…
+    2e.6 Ergebnis: „A2 S3“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …ändig gemeldet“ ist die Schwelle sechs (A2 S3, 4.7 A1 S3 „der Hälfte des Programms“).…
+    2e.6 Ergebnis: „A6 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …). „änderte die Einordnung nicht“ trägt A6 S4, „beim Richtungswechsel reichte die Fal…
+    2e.7 Ergebnis: „A5 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …, Post M ± SD in Tab. 3 (Raster 5.2.1). A5 S1 nennt als Inhalt von Tab. 3 die Differe…
+    2e.8 Ergebnis: „A5 S7“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …nterschiede in beide Richtungen zu“ ist A5 S7 (Fall C1). „lag nahe null“ steht in Kap…
+    2e.9 Ergebnis: „A5 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …ie adjustierte Differenz mit Intervall (A5 S4, S5) und den Fall C1 (A5 S7). „vereinba…
+    2e.9 Ergebnis: „A5 S7“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: … Intervall (A5 S4, S5) und den Fall C1 (A5 S7). „vereinbar“ in A4 S6 und A5 S6 (beide…
+    2e.9 Ergebnis: „A5 S6“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …ll C1 (A5 S7). „vereinbar“ in A4 S6 und A5 S6 (beide seit Rev. 163) misst die Lage ei…
+    2e.9 Ergebnis: „A5 S7“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …e einer Vorstudie im eigenen Intervall, A5 S7 nutzt das Wort für das Intervall selbst…
+    2e.10 Ergebnis: „A5 S8“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …A5 S8 stützt sich auf die Ausgangswerte im St…
+    2e.10 Ergebnis: „A6 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: … nennt nur die Richtung, Register 10e). A6 S1 übernimmt „als vollständig gemeldeten E…
+    2e.10 Ergebnis: „A3 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …„als vollständig gemeldeten Einheiten“ (A3 S1, vier Wörter, Bezeichnung) und ordnet 2…
+    2e.10 Status: „A5 S8“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …erfüllt (A5 S8 nur über Tab. 2)…
+    2e.11 Ergebnis: „A3 S3“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …2, Kapitel 5 nennt die neun ohne Menge (A3 S3) und als Bezugsmenge sonst die 18 Zuget…
+    2e.11 Ergebnis: „A2 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …s Bezugsmenge sonst die 18 Zugeteilten (A2 S1), mit ihnen wäre es genau die Hälfte. (…
+    2e.11 Ergebnis: „A2 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …en Status „als vollständig gemeldeten“ (A2 S1, A3 S1), „durchgeführten“ nur bei den ü…
+    2e.11 Ergebnis: „A3 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …us „als vollständig gemeldeten“ (A2 S1, A3 S1), „durchgeführten“ nur bei den übrigen …
+    2e.11 Ergebnis: „A6 S3“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …hgeführten Einheiten“). (4) „Einige“ in A6 S3 sind 4 von 12.…
+    2e.12 Ergebnis: „A6 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …A6 S4 nimmt A3 S4 ohne wörtliche Doppelung au…
+    2e.12 Ergebnis: „A3 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …A6 S4 nimmt A3 S4 ohne wörtliche Doppelung auf („ohne Ver…
+    2e.17 Ergebnis: „A5 S5“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …e der Einleitung, 4.1 A4 S2, 4.7 A3 S1, A5 S5 im Anschluss an A5 S4, A5 S11, 6.1 A1 S…
+    2e.17 Ergebnis: „A5 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …A4 S2, 4.7 A3 S1, A5 S5 im Anschluss an A5 S4, A5 S11, 6.1 A1 S1). F17 § 5.1: „Sprint…
+    2e.17 Ergebnis: „A4 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …chend und nach dem Inhalt geordnet sind A4 S2 (nach der Gruppe mit mehr gültigen Vers…
+    2e.17 Ergebnis: „A4 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …plante G5-Zeile übernimmt die Folge von A4 S2 (S4a 6.2.6 b).…
+    2e.17 Status: „A4 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …teilweise (A4 S2 und 6.1 A3 S6 gegen den Wortlaut von F1…
+    2e.18 Ergebnis: „A2 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …im Median 6,0 vollständige je Spieler“ (A2 S1) ist die mediane Adhärenz im Sinn von 4…
+    2e.18 Ergebnis: „A2 S3“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: … dem Status „ganz“ je Spieler, K-10.8), A2 S3 nennt die Schwellen von 4.7 A1 S2 und S…
+    2e.18 Ergebnis: „A2 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …S3 ohne das Wort. (2) „Umsetzungsrate“ (A2 S2, Raster 5.1.6) und „Umsetzung“ (6.1) fü…
+    2e.18 Ergebnis: „A2 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …tzung“ (6.1) führt Kapitel 4 nicht ein, A2 S2 bestimmt die Rate im Satz. (3) Status: …
+    2e.18 Ergebnis: „A2 S1“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …eilweise“ und „als nicht durchgeführt“ (A2 S1). (4) „Beteiligung“ (4.6 A2 S4) meidet …
+    2e.18 Ergebnis: „A2 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …itel 5 nach Register 10s, die 45,4 % in A2 S2 umfassen beide Status. (5) Nenner „bei …
+    2e.18 Ergebnis: „A2 S2“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …angebotenen Einheiten“ in 4.6 A2 S1 und A2 S2 (Bezugsmengen-Regel). Der Korpus kennt …
+    2e.21 Ergebnis: „A5 S6“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …„nachweisbar“ (A5 S6) entspricht „Nachweisbarkeit“, „relevan…
+    2e.21 Ergebnis: „A5 S7“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …ten Unterschieden in beide Richtungen“ (A5 S7) entspricht „Relevanz“ und „mit null un…
+    2e.21 Ergebnis: „A5 S8“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …Richtungen“ (4.7 A3 S6). „unschlüssig“ (A5 S8, A6 S4, 6.1 A1 S6) führt 4.7 nicht ein,…
+    2e.21 Ergebnis: „A6 S4“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …gen“ (4.7 A3 S6). „unschlüssig“ (A5 S8, A6 S4, 6.1 A1 S6) führt 4.7 nicht ein, die Le…
+    2e.21 Ergebnis: „A5 S7“ ohne Präfix, in Kapitel 5 und 6.1 vorhanden, Kontext: …) führt 4.7 nicht ein, die Lesart trägt A5 S7 unmittelbar davor, im Umfangsdokument i…
+  Zitate „…“ in Befundstelle, Ergebnis und Status: 161, gefunden in Master oder Quelle 161
+
+N10 Reproduktion des Erstellerskripts im eigenen Ordner (zweit/repro)
+  anschluss_2e.txt     erste Fassung 73dbd93c1aef · Lauf 73dbd93c1aef · bytegleich True
+  bezuege_2e.md        erste Fassung 0df95ec47223 · Lauf 0df95ec47223 · bytegleich True
+  teiltabelle_2e.csv   erste Fassung 03733cfe4462 · Lauf 03733cfe4462 · bytegleich True
+  teiltabelle_2e.md    erste Fassung cf590434ec51 · Lauf cf590434ec51 · bytegleich True
+
+N11 Nachrechnung: Werte der Teiltabelle gegen die eigene Rechnung
+  2e.4      Post IG 30 m                                 Ersteller 4,57                         eigen 4,57                         gleich
+  2e.4      Post KG 30 m                                 Ersteller 4,89                         eigen 4,89                         gleich
+  2e.4      Post IG 505                                  Ersteller 2,47                         eigen 2,47                         gleich
+  2e.4      Post KG 505                                  Ersteller 2,53                         eigen 2,53                         gleich
+  2e.4      Post IG SBJ                                  Ersteller 233                          eigen 233                          gleich
+  2e.4      Post KG SBJ                                  Ersteller 223                          eigen 223                          gleich
+  2e.4      adj./unadj. 30 m                             Ersteller 14 %                         eigen 14 %                         gleich
+  2e.4      adj./unadj. 505                              Ersteller 20 %                         eigen 20 %                         gleich
+  2e.4      adj./unadj. SBJ                              Ersteller −1 %                         eigen −1 %                         gleich
+  2e.5      Umsetzungsrate                               Ersteller 42,6                         eigen 42,6                         gleich
+  2e.5      Spieler ohne vollständige Einheit            Ersteller 4                            eigen 4                            gleich
+  2e.6      PP 505 n IG                                  Ersteller 7                            eigen 7                            gleich
+  2e.6      PP 505 n KG                                  Ersteller 10                           eigen 10                           gleich
+  2e.6      PP 30 m                                      Ersteller +0,033                       eigen +0,033                       gleich
+  2e.6      ITT 30 m                                     Ersteller −0,045                       eigen −0,045                       gleich
+  2e.6      PP SBJ                                       Ersteller +0,5                         eigen +0,5                         gleich
+  2e.6      ITT SBJ                                      Ersteller −0,1                         eigen −0,1                         gleich
+  2e.6      |PP30|/SESOI                                 Ersteller 0,52                         eigen 0,52                         gleich
+  2e.7      Prä IG 30 m                                  Ersteller 4,51                         eigen 4,51                         gleich
+  2e.7      Post IG 30 m                                 Ersteller 4,57                         eigen 4,57                         gleich
+  2e.7      Prä KG 30 m                                  Ersteller 4,89                         eigen 4,89                         gleich
+  2e.7      Post KG 30 m                                 Ersteller 4,89                         eigen 4,89                         gleich
+  2e.7      Prä IG 505                                   Ersteller 2,46                         eigen 2,46                         gleich
+  2e.7      Post IG 505                                  Ersteller 2,47                         eigen 2,47                         gleich
+  2e.7      Prä KG 505                                   Ersteller 2,53                         eigen 2,53                         gleich
+  2e.7      Post KG 505                                  Ersteller 2,53                         eigen 2,53                         gleich
+  2e.7      Prä IG SBJ                                   Ersteller 238                          eigen 238                          gleich
+  2e.7      Post IG SBJ                                  Ersteller 233                          eigen 233                          gleich
+  2e.7      Prä KG SBJ                                   Ersteller 226                          eigen 226                          gleich
+  2e.7      Post KG SBJ                                  Ersteller 223                          eigen 223                          gleich
+  2e.8      |adj.|/SESOI 30 m                            Ersteller 0,71                         eigen 0,71                         gleich
+  2e.8      adj. 30 m                                    Ersteller −0,045                       eigen −0,045                       gleich
+  2e.8      SESOI 30 m                                   Ersteller 0,063                        eigen 0,063                        gleich
+  2e.8      |adj.|/SESOI 505                             Ersteller 0,60                         eigen 0,60                         gleich
+  2e.8      adj. 505                                     Ersteller −0,012                       eigen −0,012                       gleich
+  2e.8      SESOI 505                                    Ersteller 0,020                        eigen 0,020                        gleich
+  2e.8      |adj.|/SESOI SBJ                             Ersteller 0,02                         eigen 0,02                         gleich
+  2e.8      adj. SBJ                                     Ersteller −0,1                         eigen −0,1                         gleich
+  2e.8      SESOI SBJ                                    Ersteller 3,3                          eigen 3,3                          gleich
+  2e.8      g 30 m                                       Ersteller −0,18                        eigen −0,18                        gleich
+  2e.8      g 505                                        Ersteller −0,11                        eigen −0,11                        gleich
+  2e.8      g SBJ                                        Ersteller −0,00                        eigen −0,00                        gleich
+  2e.8      |PP30|/SESOI                                 Ersteller 0,52                         eigen 0,52                         gleich
+  2e.10     Prä IG SBJ                                   Ersteller 238                          eigen 238                          gleich
+  2e.10     Prä KG SBJ                                   Ersteller 226                          eigen 226                          gleich
+  2e.10     CR-10 M                                      Ersteller 2,9                          eigen 2,9                          gleich
+  2e.10     CR-10 Median                                 Ersteller 3,0                          eigen 3,0                          gleich
+  2e.11     Spieler mit Schmerzmeldung                   Ersteller 9                            eigen 9                            gleich
+  2e.11     Spieler mit Meldung                          Ersteller 15                           eigen 15                           gleich
+  2e.11     zugeteilt                                    Ersteller 18                           eigen 18                           gleich
+  2e.11     Meldungen ganz mit Schmerz                   Ersteller 8                            eigen 8                            gleich
+  2e.11     Meldungen mit Schmerz                        Ersteller 12                           eigen 12                           gleich
+  2e.11     teilweise oder gar nicht mit Schmerz         Ersteller 4                            eigen 4                            gleich
+  2e.13     eingangsgetestet                             Ersteller 31                           eigen 31                           gleich
+  2e.13     analysiert                                   Ersteller 26                           eigen 26                           gleich
+  2e.13     IG analysiert                                Ersteller 16                           eigen 16                           gleich
+  2e.16     TE post über SESOI in allen sieben           Ersteller ja                           eigen ja                           gleich
+  2e.18     Median vollständige je Spieler               Ersteller 6,0                          eigen 6,0                          gleich
+  2e.18     Rate mit teilweise                           Ersteller 45,4                         eigen 45,4                         gleich
+  2e.23     Antragskriterium Spieler                     Ersteller drei                         eigen drei                         gleich
+  2e.23     9 von 12 in Prozent                          Ersteller 75 %                         eigen 75 %                         gleich
+  2e (§ 6)  Begriff Adhärenz                             Ersteller [('4.1', 1), ('4.6', 2), ('4 eigen [('4.1', 1), ('4.6', 2), ('4 gleich
+  2e (§ 6)  Begriff Umsetzung                            Ersteller [('4.5', 1), ('5', 1), ('6.1 eigen [('4.5', 1), ('5', 1), ('6.1 gleich
+  2e (§ 6)  Begriff „ganz“                               Ersteller [('4.6', 1)]                 eigen [('4.6', 1)]                 gleich
+  2e (§ 6)  Begriff als vollständig                      Ersteller [('5', 2), ('6.1', 3)]       eigen [('5', 2), ('6.1', 3)]       gleich
+  2e (§ 6)  Begriff vollständig durchgeführt             Ersteller [('6.1', 1)]                 eigen [('6.1', 1)]                 gleich
+  2e (§ 6)  Begriff teilweise durchgeführt               Ersteller [('5', 2)]                   eigen [('5', 2)]                   gleich
+  2e (§ 6)  Begriff Beteiligung                          Ersteller [('4.6', 1)]                 eigen [('4.6', 1)]                 gleich
+  2e (§ 6)  Begriff TE                                   Ersteller [('4.4', 2)]                 eigen [('4.4', 2)]                 gleich
+  2e (§ 6)  Begriff typischer Messfehler                 Ersteller [('4.4', 1), ('5', 1)]       eigen [('4.4', 1), ('5', 1)]       gleich
+  2e (§ 6)  Begriff H0                                   Ersteller [('4.7', 1)]                 eigen [('4.7', 1)]                 gleich
+  2e (§ 6)  Begriff Nullhypothese                        Ersteller [('5', 1), ('6.1', 1), ('Ein eigen [('5', 1), ('6.1', 1), ('Ein gleich
+  2e (§ 6)  Begriff unschlüssig                          Ersteller [('5', 2), ('6.1', 1)]       eigen [('5', 2), ('6.1', 1)]       gleich
+  2e (§ 6)  Begriff nachweisbar                          Ersteller [('4.7', 2), ('5', 1), ('6.1 eigen [('4.7', 2), ('5', 1), ('6.1 gleich
+  2e (§ 6)  Begriff Relevanz, relevant                   Ersteller [('4.7', 1), ('5', 1), ('6.1 eigen [('4.7', 1), ('5', 1), ('6.1 gleich
+  2e (§ 6)  Begriff in beide Richtungen                  Ersteller [('4.7', 1), ('5', 1), ('6.1 eigen [('4.7', 1), ('5', 1), ('6.1 gleich
+  2e (§ 6)  Begriff Analyseset                           Ersteller [('5', 1)]                   eigen [('5', 1)]                   gleich
+  2e (§ 6)  Begriff Hauptanalyse                         Ersteller [('4.1', 1), ('4.7', 2), ('6 eigen [('4.1', 1), ('4.7', 2), ('6 gleich
+  2e (§ 6)  Begriff Programmwoche                        Ersteller [('5', 1)]                   eigen [('5', 1)]                   gleich
+  2e (§ 6)  Begriff Schmerz                              Ersteller [('4.5', 1), ('4.6', 1), ('5 eigen [('4.5', 1), ('4.6', 1), ('5 gleich
+  2e (§ 6)  Begriff Schmerzen oder Probleme              Ersteller [('5', 1), ('6.1', 1)]       eigen [('5', 1), ('6.1', 1)]       gleich
+  2e (§ 6)  Begriff Spieler mit Meldungen                Ersteller [('6.1', 1)]                 eigen [('6.1', 1)]                 gleich
+  2e (§ 6)  Begriff Post-Wert                            Ersteller [('4.7', 5), ('5', 1)]       eigen [('4.7', 5), ('5', 1)]       gleich
+  2e (§ 6)  Begriff Abschlusswert                        Ersteller [('4.7', 1), ('5', 1)]       eigen [('4.7', 1), ('5', 1)]       gleich
+  2e (§ 6)  Begriff Voraussetzung                        Ersteller [('4.2', 1), ('4.7', 1), ('5 eigen [('4.2', 1), ('4.7', 1), ('5 gleich
+  2e (§ 6)  Begriff Modellannahmen                       Ersteller [('4.7', 1)]                 eigen [('4.7', 1)]                 gleich
+  2e (§ 6)  Begriff AU                                   Ersteller [('5', 1)]                   eigen [('5', 1)]                   gleich
+  2e (§ 6)  Begriff zugeteilt                            Ersteller [('4.7', 1), ('5', 1), ('6.1 eigen [('4.7', 1), ('5', 1), ('6.1 gleich
+  2e (§ 6)  Begriff Effekt                               Ersteller [('4.7', 1), ('6.1', 1)]     eigen [('4.7', 1), ('6.1', 1)]     gleich
+  2e (§ 6)  Begriff Beanspruchung                        Ersteller [('4.6', 2), ('5', 1)]       eigen [('4.6', 2), ('5', 1)]       gleich
+  2e (§ 6)  Begriff Belastung                            Ersteller [('4.2', 1), ('4.5', 1), ('E eigen [('4.2', 1), ('4.5', 1), ('E gleich
+  2e.17     Sätze mit mindestens zwei Zielgrößen         Ersteller 17                           eigen 18                           ABWEICHEND
+  2e.17     davon in der Folge                           Ersteller 12                           eigen 13                           ABWEICHEND
+  2e.17     abweichende Sätze                            Ersteller B2 S9, 4.3 A5 S3, 4.7 A1 S5, eigen B2 S9, 4.3 A5 S3, 4.7 A1 S5, gleich
+  2e.3      Paare ab vier Wörtern                        Ersteller 10                           eigen 10                           gleich
+  2e.3      Paare gleich                                 Ersteller ja                           eigen ja                           gleich
+  2e.3      längste Folge                                Ersteller 5                            eigen 5                            gleich
+  2e.3      Sätze außerhalb                              Ersteller 259                          eigen 259                          gleich
+  2e.5      längste Folge 5 A2 S1 gegen 6.1 A2 S2        Ersteller 3                            eigen 3                            gleich
+  2e.12     längste Folge 5 A3 S4 gegen 6.1 A6 S4        Ersteller 1                            eigen 1                            gleich
+  2e.22     gemeinsame Folge 5 A5 S11 gegen 4.7 A1 S5    Ersteller 5                            eigen 5                            gleich
+  2e.16     gemeinsame Folge 5 A4 S2 gegen 4.4 A2 S4     Ersteller 4                            eigen 4                            gleich
+  2e (§ 10) Zählung der Stufen                           Ersteller erfüllt 18 · teilweise 7 · n eigen erfüllt 18 · teilweise 7 · n gleich
+  103 Werte, gleich 101, abweichend 2
+
+N12 Belege zu den eigenen Befunden (Marke und Wortlaut in derselben Zeile der Quelle)
+  B1   tv61      | A4 S7 | Dagegen verbesserte                  gefunden
+  B1   tv61      | A4 S8 | Auch ein achtwöchiges                gefunden
+  B1   tv61      | A5 S5 | Auch das Programm                    gefunden
+  B4   raster    | 4.6.3 |                                      gefunden
+  B4   s4a       | 6.3.2 G6-b |                                 gefunden
+  B4   f17       **Zählregel:**                                 gefunden
+  B5   tv5       **9.5 Task 13b                                 gefunden
+  B5   raster    | 7.1 |                                        gefunden
+  B5   raster    | 7.2 |                                        gefunden
+  B5   s4a       | V06 |                                        gefunden
+  B5   s4a       | V42 |                                        gefunden
+  B5   s4a       | V73 |                                        gefunden
+  B5   s4a       | K7-a |                                       gefunden
+  C1   umfang    C1                                             gefunden
+  C5   tv5       4. **Begriffe zwischen 4.6 und Kapitel 5       gefunden
+  C6   tv5       5. **Kein Handlungsbedarf, zur Kenntnis:**     gefunden
+  C8   tv5       5. Abkürzungsverzeichnis:                      gefunden
+  C9   tv5       2. **Ausfallkategorie der 10-m-Zeiten          gefunden
+  C4   f17       8. **Voraussetzungsbefunde:**                  gefunden
+  C13  tv5       | 18 | C |                                     gefunden
+  C14  register  | 6i |                                         gefunden
+  C14  abgleich  **Seit Rev. 154 entschieden?**                 gefunden
+  C3   nachtrag  6. **Schlussfassung der Einleitung (G35):**    gefunden
+  C8   „H0“ in der Abkürzungsliste TV5 § 9.6 Nr. 5: nein
+  C14  Vorspann-Titel im Master: Eidesstattliche Erklärung, Zusammenfassung, Abstract, Inhaltsverzeichnis
+  C4   Platzhalter Tab. H2 bis H4: ⟨Tab. H2: Adhärenz je Spieler mit beiden Untergrenzen und sRPE-Belastung (aus 5.1)⟩ | ⟨Tab. H3: Deskriptive Zielgrößen 5 m, 10 m, 505 links und rechts (aus 5.2)⟩ | ⟨Tab. H4: Sensitivitätsanalysen – acht vorab festgelegte Varianten und Gegenprobe 30 m (aus 5.2)⟩

@@ -1,0 +1,236 @@
+# Prüfprotokoll potenziale_3.py (Schritt 3)
+
+## 0 Eingänge
+- textstand: 03_Skripte/Abgleich_Ergebnisse_2026-10-03/textstand.json, 16938 Byte, MD5 bb86ed78a6ba45038d57b8cb4f763fb4
+- bezuege: 03_Skripte/Abgleich_Ergebnisse_2026-10-03/bezuege_2e.md, 8066 Byte, MD5 f2a1e2c50bc064585b7840327c5ebd88
+- abgleich: 02_Befunde/Abgleich_Ergebnisse_Argumentationsstruktur_2026-10-03.md, 242439 Byte, MD5 aa2fd4f7524f1547ca38a74885b8a03e
+- befund: 02_Befunde/Argumentationsstruktur_Ergebnisteile_RCT_2026-10-02.md, 78208 Byte, MD5 c474dbf0f14b89fe581b67f4249d3387
+- werte: 02_Befunde/Kennzahlen_2026-09-25_Werte.csv, 101985 Byte, MD5 25bca501fb60680c584fc6e7796dc31e
+- f17: 00_Steuerung/Projektanweisungen_Fassung17.md, 150926 Byte, MD5 0bd441fc265f08a6280d2ad582008f60
+- stilprofil: 01_Verfahren/Stilprofil_2026-09-13.md, 14661 Byte, MD5 de1a8fa4e639735b7999193a0870096c
+- raster: 02_Befunde/Berichtsraster_2026-09-23.md, 106370 Byte, MD5 527009f05fb25ea0b64abac4aa49bf55
+- tv5: 04_Uebergaben/Textvorschlag_5_2026-09-30.md, 67973 Byte, MD5 835c3a45dd3a4e702684d05838bc38a1
+- tab1: 03_Skripte/Objekte_2026-10-01/Tab_1_Messguete.csv, 801 Byte, MD5 022c1b0f98d61fc93412dcccca95f9c8
+- tabh1a: 03_Skripte/Objekte_2026-10-01/Tab_H1a_Versuche.csv, 514 Byte, MD5 bb331cde3d94f0103896f5b6b199a5a1
+- tabh4c: 03_Skripte/Objekte_2026-10-01/Tab_H4c_Varianten.csv, 2611 Byte, MD5 9d8696b681f4a48e0f7bfb6116206e2b
+- s4b: 03_Skripte/Diskussion_Anwendung_2026-10-03/S4b_Geruest_12b.md, 44638 Byte, MD5 8b9953477e57922024106238bef853d3
+- s4c: 03_Skripte/Diskussion_Anwendung_2026-10-03/S4c_Saetze.csv, 11597 Byte, MD5 419c90618669e95edd28614416614aaa
+- master: 40337 Byte, MD5 6c1db4554cba8d5b791c7884a28b6169, ohne comments.xml, 188 Absätze
+- Kapitel 5 im Master zeichengleich mit textstand.json (29 Sätze, 450 Wörter), 6.1 mit 40 Sätzen
+
+## 1 Wortlaut, Zahlen, Satzregeln
+- 1 (A3 S3): alt 19 Wörter, neu 12 + 13 Wörter, Bilanz +6, Zahlen Zwölf K-10.12, neun K-10.12, 15 K-10.9, Acht K-10.12, zwei K-10.12
+- 2 (A5 S6): alt 8 Wörter, neu 9 Wörter, Bilanz +1, Zahlen keine
+- 3 (A4 S2): alt 26 Wörter, neu 25 Wörter, Bilanz -1, Zahlen keine
+- 4 (A5 S11): verschoben nach A5 S2, Bilanz 0
+- 5 (A2 S4): alt 20 Wörter, neu 25 Wörter, Bilanz +5, Zahlen sechs Bezeichnung, neun Bezeichnung, zwei Konstante, neun K-10.11, zwei K-10.11, neun K-10.11, einer K-10.11
+- 6 (A2 S1): alt 27 Wörter, neu 21 + 6 Wörter, Bilanz +0, Zahlen 18 K-10.4, 92 K-10.3, 6 K-10.3, 13 K-10.3, 6,0 K-10.8
+- a (A4 S1): alt 15 Wörter, neu 14 Wörter, Bilanz -1, Zahlen keine
+- b (A5 S11): alt 12 Wörter, neu 8 Wörter, Bilanz -4, Zahlen keine
+- c (A3 S1): alt 22 Wörter, neu 19 Wörter, Bilanz -3, Zahlen 92 K-10.13, 2,9 K-10.13, 0,9 K-10.13, 3,0 K-10.13, 0,0 K-10.13, 5,0 K-10.13
+- d (A6 S4): alt 28 Wörter, neu 21 Wörter, Bilanz -7, Zahlen keine
+
+## 2 Zitate am Ort: 80 gefunden
+- Grundlage 1 · F17 · „Jede Zahl im Text nennt ihre Bezugsmenge.“
+- Grundlage 1 · 2b.45 · „nennt die Menge der Spieler nicht“
+- Grundlage 1 · 2e.11 · „Bezugsmenge und Status „ganz“ nur über Tab. H2 und Rechnung“
+- Grundlage 1 · K-10.12 · „T · 5.1 unerwünschte Ereignisse (CONSORT 19)“
+- Grundlage 1 · K-10.9 · „Spieler mit mindestens einer Meldung (gleich welchen Status)“
+- Korpus 1 · Befund · „Schäden | 0 | 0 | 0 % | Krankheit als Grund verpasster Einheiten (Klusemann, erweitert) | 2“
+- Folge 1 · 6.1 A6 S2 · „Mehr als die Hälfte der Spieler mit Meldungen“
+- Folge 1 · 6.1 A6 S3 · „Einige betrafen teilweise oder nicht durchgeführte Einheiten“
+- Folge 1 · TV62 A1 S6 · „unerwünschte Ereignisse je Einheit“
+- Folge 1 · K-10.9 · „A · Tab. H2 Anmerkung“
+- Grundlage 2 · 2b.11 · „Codierer B las ihn nach dem Wortlaut zunächst über alle Zielgrößen“
+- Grundlage 2 · 2d.21 · „über einen Teil nur aus dem Zusammenhang 0“
+- Korpus 2 · 2d.21 · „über einen Teil mit der Menge in der Nominalphrase 8“
+- Folge 2 · 6.1 A1 S2 · „war bei keiner Zielgröße ein Gruppenunterschied nachweisbar“
+- Folge 2 · TV62 A2 S3 · „Der Nullbefund beschreibt damit das Auflösungsvermögen der Studie“
+- Grundlage 3 · F17 · „Sprint → Richtungswechsel → Sprung in den Hypothesen, den Ergebnissen und der Diskussion identisch.“
+- Grundlage 3 · 2e.19 · „A4 S2 gegen den Wortlaut von F17 § 5.1, Schwere B, keine Entscheidung“
+- Korpus 3 · 2d.19 · „folgen 7 der übrigen 8 derselben Folge, abweichend Negra 2019 2.3“
+- Folge 3 · TV62 A5 S5 · „beim 30-m-Sprint und Standweitsprung um bis zu ein Viertel des SESOI, beim 505-Test je Seite“
+- Folge 3 · S4b G5a · „Richtung je Zielgröße steht in Kapitel 5, hier nur die Folge“
+- Grundlage 4 · 2d.17 · „nach dem letzten Befund: keine“
+- Grundlage 4 · 2b.31 · „für die Stellung von Abb. 2 und A5 S11 steht nur die Folge der Zug-Tabelle“
+- Korpus 4 · 2d.17 · „V2 primär oder sekundär in 7 Sätzen“
+- Folge 4 · A5 S10 · „Die Nullhypothese wurde nicht verworfen.“
+- Grundlage 5 · 2d.8 · „Bezugsfolge im vorigen Satz: 0“
+- Grundlage 5 · 2b.34 · „Parallele Werte ohne Zuordnungswort in A2 S4“
+- Korpus 5 · 2d.8 · „Bezeichnung je Wert 19 Sätze in 5 Studien“
+- Korpus 5 · 2d.8 · „Folge ohne Zuordnungswort mit Bezugsfolge im selben Satz 1 (Aloui 5.1)“
+- Folge 5 · TV62 A6 S4 · „Die Umsetzung ist deshalb auch mit Untergrenzen berichtet.“
+- Grundlage 6 · 4.6 A2 S1 · „Adhärenz ist die Zahl der Meldungen mit dem Status „ganz“ je Spieler bei zwölf angebotenen Einheiten.“
+- Grundlage 6 · 4.7 A1 S3 · „ab einer Adhärenz von sechs Einheiten“
+- Grundlage 6 · 2e.20 · „Begriffsbrücke Adhärenz offen, Register 10u“
+- Grundlage 6 · 2b.47 · „A2 S1 (Median je Spieler nach dem Komma, eine andere Größe)“
+- Korpus 6 · 2d.20 · „Der Korpus kennt kein „adherence“ als Bezeichnung eines Werts je Spieler.“
+- Folge 6 · 6.1 A2 S2 · „Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotenen Einheiten als vollständig“
+- Folge 6 · TV62 A1 S6 · „die Umsetzung je Spieler“
+- Kürzung a · 4.4 A3 S1 · „den typischen Messfehler (TE)“
+- Kürzung a · 4.4 A3 S2 · „Der TE überstieg bei allen Zielgrößen den SESOI“
+- Folge Kürzung a · TV62 A5 S1 · „Viertens wurde der typische Messfehler nur innerhalb einer Sitzung bestimmt“
+- Kürzung b · 4.7 A1 S5 · „Beschreibend berichtet werden die 505-Seitenwerte laut Studienprotokoll sowie alle Teilmengen unter acht Spielern je …“
+- Kürzung b · Raster · „Ohne p und ohne Effektstärke, Grund in 4.7“
+- Kürzung c · Befund · „The average RPE was 5.5 ± 0.99 and 5.50 ± 1“
+- Kürzung c · 4.6 A1 S8 · „Der sRPE-Load ist das Produkt aus CR-10-Wert und Solldauer der Einheit.“
+- Folge Kürzung c · 6.1 A6 S1 · „Die als vollständig gemeldeten Einheiten wurden im Mittel als leicht bis mäßig anstrengend empfunden.“
+- Kürzung d · TV5 · „kleinster p 0,372“
+- Folge Kürzung d · 6.1 A2 S5 · „änderte die Einordnung nicht“
+- Belassen: A5 S3 vor dem Modellergebnis · 2d.12 · „K4 ordnet Modellergebnis und Einzelgruppen, nicht unadjustiert und adjustiert.“
+- Belassen: A5 S3 vor dem Modellergebnis · 2d.13 · „Das einzige Vorbild stellt beide Schätzer in denselben Satz, den unadjustierten zuerst“
+- Belassen: A5 S3 vor dem Modellergebnis · A5 S6 · „Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar.“
+- Belassen: A5 S3 vor dem Modellergebnis · F17 · „Der tragende Befund für Kapitel 5 und 6 ist der Abstand zwischen unadjustierter und adjustierter Differenz (Tab. 3, A…“
+- Belassen: Fall C1 einmal für alle drei Zielgrößen · 2d.6 · „Auch die jetzige Form, der Fall einmal für mehrere Zielgrößen (2b.9), hat Vorbilder“
+- Belassen: Fall C1 einmal für alle drei Zielgrößen · 2d.9 · „Beide Ordnungen sind im Kern belegt.“
+- Belassen: Absicherung nach dem Gruppenvergleich, Schluss mit A6 S4 · 2d.18 · „Die Stellung von A6 entscheiden Plan § 3 Task 11 und Textvorschlag 5 (2b.28).“
+- Belassen: Absicherung nach dem Gruppenvergleich, Schluss mit A6 S4 · 2b.28 · „R2 verlangt das Bootstrap-KI neben der verworfenen Prüfung, keine Stellung im Kapitel“
+- Belassen: A6 S3 sinngleich statt „geprüft und nicht verworfen“ · 2b.22 · „„mit Tests“ grenzt die nur grafisch geprüfte Linearität aus“
+- Belassen: A6 S4 mit vorangestellter Bedingung · 2c.29 · „Inferenz nur, soweit die Fallzahl reicht (R4)“
+- Belassen: Satzenden A5 S1 und A6 S2 · 2b.46 · „beide Sätze sind richtig geteilt (29 Sätze), kein Satz endet auf eine Ziffer“
+- Belassen: A5 S3 mit zwei Angaben an einem Verb, Klammerverweise über dem Zielwert · 2b.47 · „A5 S3 (zweite Angabe mit „und“ an dasselbe Verb)“
+- Belassen: A5 S3 mit zwei Angaben an einem Verb, Klammerverweise über dem Zielwert · 2b.47 · „alle sind Objektverweise“
+- Belassen: Befundanteil · 2b.1 · „P2 erklärt den Abstand also nur zum Teil, den Rest tragen Rahmen und Absicherung.“
+- Bezug auf A4 S1 · S4b B3 · „ohne Wiederholung von 4.4 und Kapitel 5 (TE über SESOI)“
+- Bezug auf A2 S1, A3 S3 · S4b C2 · „die Umsetzung je Spieler und in der Interventionsgruppe unerwünschte Ereignisse je Einheit“
+- Bezug auf A6 S3 · S4b G1f · „nicht verworfene Prüfungen belegen die Voraussetzungen nicht“
+- Bezug auf A6 S1, A6 S2 · S4b G1g · „W, p und Intervall stehen in Kapitel 5, hier die Einordnung“
+- Bezug auf A1 S3, A5 S2 · S4b G2c · „im gemeinsamen Bereich des Ausgangswerts (Tab. 2, Abb. 2)“
+- Bezug auf A4 S1 · S4b G4a · „TE über SESOI steht in 4.4 und Kapitel 5“
+- Bezug auf A4 S2 · S4b G5a · „Richtung je Zielgröße steht in Kapitel 5, hier nur die Folge“
+- Bezug auf A2 S4 · S4b G6c · „Untergrenzen nennt Kapitel 5“
+- Bezug auf A6 S4 · S4b G7b · „Sensitivitätsanalyse steht im Sammelsatz von Kapitel 5“
+- Bezug auf A4 S1 · TV62 A1 S4 · „typische Messfehler je Zielgröße“
+- Bezug auf A2 S1, A3 S3 · TV62 A1 S6 · „die Umsetzung je Spieler“
+- Bezug auf A5 S6 · TV62 A2 S3 · „Der Nullbefund“
+- Bezug auf A6 S3 · TV62 A2 S6 · „Die Voraussetzungstests entdecken bei dieser Fallzahl nur große Abweichungen.“
+- Bezug auf A6 S3 · TV62 A2 S7 · „Nicht verworfene Prüfungen belegen die Voraussetzungen nicht.“
+- Bezug auf A6 S1, A6 S2 · TV62 A2 S8 · „änderte ein Bootstrap-Intervall die Einordnung nicht“
+- Bezug auf A1 S3, A5 S2 · TV62 A3 S4 · „(Tab. 2, Abb. 2)“
+- Bezug auf A5 S4 · TV62 A3 S5 · „Die adjustierte Differenz ruht damit auf wenigen Spielern“
+- Bezug auf A4 S2 · TV62 A5 S4 · „die ungleiche Zahl gültiger Versuche“
+- Bezug auf A4 S2 · TV62 A5 S5 · „beim 30-m-Sprint und Standweitsprung“
+- Bezug auf A2 S4 · TV62 A6 S4 · „auch mit Untergrenzen berichtet“
+
+## 3 Sachprüfungen
+- Potenzial 3: k̄ IG über KG bei 30-m-Sprint und Standweitsprung zu beiden Zeitpunkten, 505 je Seite KG in 3 von 4 Zellen (Tab. H1a)
+- Kürzung d: 19 Varianten mit Inferenz, jedes Intervall schließt −SESOI und +SESOI ein (Fall C1), damit auch null, kein p < 0,05 (Tab. H4c, Tab. 1)
+- Potenzial 1: 12 = 8 + 2 + 2 (K-10.12), 9 von 15 Spielern über der Hälfte, 8 von 12 Meldungen überwiegend (trägt 6.1 A6 S2)
+
+## 4 Bilanz
+- Empfehlung: 448 Wörter (A1 49 · A2 80 · A3 69 · A4 39 · A5 143 · A6 68), 31 Sätze, Median 14.0, längster Satz 28
+- Empfehlung mit Potenzial 5: 446 Wörter (A1 49 · A2 85 · A3 69 · A4 39 · A5 143 · A6 61), 31 Sätze, Median 14.0, längster Satz 25
+- nur Potenzial 1 mit b und c: 449 Wörter (A1 49 · A2 80 · A3 69 · A4 41 · A5 142 · A6 68), 30 Sätze, Median 14.5, längster Satz 28
+- nur Potenzial 2 mit a: 450 Wörter (A1 49 · A2 80 · A3 66 · A4 40 · A5 147 · A6 68), 29 Sätze, Median 15.0, längster Satz 28
+- Schritt 4 in der Folge der Absätze (Empfehlung), Paare je im selben Schritt:
+  - nach A1: 450
+  - nach A2: 450
+  - nach A3 mit A5 S11: 449
+  - nach A4 mit A5 S6: 448
+  - nach A5: 448
+  - nach A6: 448
+- Schritt 4 in der Folge der Absätze (Empfehlung mit Potenzial 5), Paare je im selben Schritt:
+  - nach A1: 450
+  - nach A2 mit A6 S4: 448
+  - nach A3 mit A5 S11: 447
+  - nach A4 mit A5 S6: 446
+  - nach A5: 446
+  - nach A6: 446
+
+## 5 Abhängigkeiten der späteren Teile
+- 2e.28: A1 S1, A2 S2, A2 S4, A3 S3, A3 S4, A4 S2, A5 S6, A5 S7, A5 S8, A5 S9, A5 S10, A6 S1, A6 S2
+- dazu aus S4b-Gerüst und Textvorschlag 6.2 und 6.3: A1 S3, A2 S1, A4 S1, A5 S2, A5 S4, A6 S3, A6 S4
+  - S4b B3 → A4 S1
+  - S4b C2 → A2 S1, A3 S3
+  - S4b G1f → A6 S3
+  - S4b G1g → A6 S1, A6 S2
+  - S4b G2c → A1 S3, A5 S2
+  - S4b G4a → A4 S1
+  - S4b G5a → A4 S2
+  - S4b G6c → A2 S4
+  - S4b G7b → A6 S4
+  - TV62 A1 S4 → A4 S1
+  - TV62 A1 S6 → A2 S1, A3 S3
+  - TV62 A2 S3 → A5 S6
+  - TV62 A2 S6 → A6 S3
+  - TV62 A2 S7 → A6 S3
+  - TV62 A2 S8 → A6 S1, A6 S2
+  - TV62 A3 S4 → A1 S3, A5 S2
+  - TV62 A3 S5 → A5 S4
+  - TV62 A5 S4 → A4 S2
+  - TV62 A5 S5 → A4 S2
+  - TV62 A6 S4 → A2 S4
+
+## 6 Klickergebnis (03.10.2026)
+- freigegeben: Potenziale 1, 3, 4, 6 mit den Kürzungen b, c · nicht freigegeben: 2, 5 mit ihren Kürzungen a, d
+- als Registerzeile festgehalten: Belassen in den Gruppen Stellung, Wortlaut, Form (8 Punkte)
+- Kapitel 5 nach der Freigabe: 448 Wörter (A1 49 · A2 80 · A3 69 · A4 40 · A5 142 · A6 68), 31 Sätze, Median 14.0, längster Satz 28, 0 Semikola
+- Schritt 4 mit jedem Paar im selben Schritt: A1 450 · A2 450 · A3 mit A5 S11 449 · A4 448 · A5 448 · A6 448
+- Satznummern-Konkordanz alt zu neu (29 alte, 31 neue Sätze):
+  - A1 S1 → A1 S1 · wortgleich · 9 Wörter
+  - A1 S2 → A1 S2 · wortgleich · 12 Wörter
+  - A1 S3 → A1 S3 · wortgleich · 22 Wörter
+  - A1 S4 → A1 S4 · wortgleich · 6 Wörter
+  - A2 S1 → A2 S1 · geändert · 21 Wörter
+  - A2 S2 → A2 S2 · wortgleich · 19 Wörter
+  - – → A2 S3 · neu, nach dem bisherigen A2 S2 · 6 Wörter
+  - A2 S3 → A2 S4 · wortgleich, umnummeriert · 14 Wörter
+  - A2 S4 → A2 S5 · wortgleich, umnummeriert · 20 Wörter
+  - A3 S1 → A3 S1 · geändert · 19 Wörter
+  - A3 S2 → A3 S2 · wortgleich · 17 Wörter
+  - A3 S3 → A3 S3 · geändert · 12 Wörter
+  - A3 S3 → A3 S4 · neu, zweiter Teil von A3 S3 · 13 Wörter
+  - A3 S4 → A3 S5 · wortgleich, umnummeriert · 8 Wörter
+  - A4 S1 → A4 S1 · wortgleich · 15 Wörter
+  - A4 S2 → A4 S2 · geändert · 25 Wörter
+  - A5 S1 → A5 S1 · wortgleich · 17 Wörter
+  - A5 S2 → A5 S2 · wortgleich · 16 Wörter
+  - A5 S11 → A5 S3 · geändert, verschoben · 8 Wörter
+  - A5 S3 → A5 S4 · wortgleich, umnummeriert · 15 Wörter
+  - A5 S4 → A5 S5 · wortgleich, umnummeriert · 23 Wörter
+  - A5 S5 → A5 S6 · wortgleich, umnummeriert · 24 Wörter
+  - A5 S6 → A5 S7 · wortgleich, umnummeriert · 8 Wörter
+  - A5 S7 → A5 S8 · wortgleich, umnummeriert · 10 Wörter
+  - A5 S8 → A5 S9 · wortgleich, umnummeriert · 4 Wörter
+  - A5 S9 → A5 S10 · wortgleich, umnummeriert · 12 Wörter
+  - A5 S10 → A5 S11 · wortgleich, umnummeriert · 5 Wörter
+  - A6 S1 → A6 S1 · wortgleich · 15 Wörter
+  - A6 S2 → A6 S2 · wortgleich · 14 Wörter
+  - A6 S3 → A6 S3 · wortgleich · 11 Wörter
+  - A6 S4 → A6 S4 · wortgleich · 28 Wörter
+- Bezüge auf Kapitel 5 mit Kennung nach der Freigabe, nur wo sich Kennung oder Wortlaut ändert:
+  - 6.1 A1 S2: A5 S4 → A5 S5 (umnummeriert) · A5 S6 → A5 S7 (umnummeriert) · A5 S10 → A5 S11 (umnummeriert)
+  - 6.1 A1 S3: A5 S3 → A5 S4 (umnummeriert)
+  - 6.1 A1 S4: A5 S3 → A5 S4 (umnummeriert)
+  - 6.1 A1 S5: A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A1 S6: A5 S8 → A5 S9 (umnummeriert)
+  - 6.1 A2 S2: A2 S1 → A2 S1 (Wortlaut geändert)
+  - 6.1 A2 S4: A5 S6 → A5 S7 (umnummeriert)
+  - 6.1 A2 S5: A2 S3 → A2 S4 (umnummeriert)
+  - 6.1 A3 S3: A5 S4 → A5 S5 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A3 S5: A5 S4 → A5 S5 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A4 S3: A5 S5 → A5 S6 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A4 S6: A5 S5 → A5 S6 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A4 S7: A5 S5 → A5 S6 (umnummeriert)
+  - 6.1 A4 S8: A5 S5 → A5 S6 (umnummeriert)
+  - 6.1 A4 S9: A5 S5 → A5 S6 (umnummeriert)
+  - 6.1 A5 S3: A5 S5 → A5 S6 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A5 S4: A5 S5 → A5 S6 (umnummeriert) · A5 S6 → A5 S7 (umnummeriert)
+  - 6.1 A5 S5: A5 S5 → A5 S6 (umnummeriert)
+  - 6.1 A5 S6: A5 S5 → A5 S6 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert)
+  - 6.1 A6 S1: A3 S1 → A3 S1 (Wortlaut geändert)
+  - 6.1 A6 S2: A3 S3 → A3 S3 + A3 S4 (Wortlaut geändert)
+  - 6.1 A6 S3: A3 S3 → A3 S3 + A3 S4 (Wortlaut geändert)
+  - 6.1 A6 S4: A3 S4 → A3 S5 (umnummeriert)
+  - 6.1 A6 S5: A3 S3 → A3 S3 + A3 S4 (Wortlaut geändert) · A3 S4 → A3 S5 (umnummeriert)
+  - S4b C2: A2 S1 → A2 S1 (Wortlaut geändert) · A3 S3 → A3 S3 + A3 S4 (Wortlaut geändert)
+  - S4b G5a: A4 S2 → A4 S2 (Wortlaut geändert)
+  - S4b G6c: A2 S4 → A2 S5 (umnummeriert)
+  - TV62 A1 S6: A2 S1 → A2 S1 (Wortlaut geändert) · A3 S3 → A3 S3 + A3 S4 (Wortlaut geändert)
+  - TV62 A2 S3: A5 S6 → A5 S7 (umnummeriert)
+  - TV62 A3 S5: A5 S4 → A5 S5 (umnummeriert)
+  - TV62 A5 S4: A4 S2 → A4 S2 (Wortlaut geändert)
+  - TV62 A5 S5: A4 S2 → A4 S2 (Wortlaut geändert)
+  - TV62 A6 S4: A2 S4 → A2 S5 (umnummeriert)
+  - 2e.28: A2 S4 → A2 S5 (umnummeriert) · A3 S3 → A3 S3 + A3 S4 (Wortlaut geändert) · A3 S4 → A3 S5 (umnummeriert) · A4 S2 → A4 S2 (Wortlaut geändert) · A5 S6 → A5 S7 (umnummeriert) · A5 S7 → A5 S8 (umnummeriert) · A5 S8 → A5 S9 (umnummeriert) · A5 S9 → A5 S10 (umnummeriert) · A5 S10 → A5 S11 (umnummeriert)
+

@@ -1,0 +1,414 @@
+{
+ "umfang": {
+  "W": 450,
+  "P": 6,
+  "S": 29,
+  "med": 15,
+  "maxsatz": 28,
+  "w_je_absatz": 75.0
+ },
+ "anteile": {
+  "Codebuch": {
+   "gruppe": {
+    "O": 178,
+    "V": 38,
+    "X": 64,
+    "B": 101,
+    "Z": 69
+   },
+   "code": {
+    "X1": 64,
+    "O1": 12,
+    "O4": 6,
+    "O2": 80,
+    "O3": 39,
+    "Z2": 27,
+    "O5": 41,
+    "B1": 96,
+    "B4": 5,
+    "V2": 12,
+    "V1": 26,
+    "Z1": 42
+   }
+  },
+  "Hinweis": {
+   "gruppe": {
+    "O": 178,
+    "V": 38,
+    "X": 64,
+    "B": 101,
+    "Z": 69
+   },
+   "code": {
+    "X1": 64,
+    "O1": 12,
+    "O4": 6,
+    "O2": 80,
+    "O3": 39,
+    "Z2": 27,
+    "O5": 41,
+    "B4": 54,
+    "B1": 47,
+    "V2": 12,
+    "V1": 26,
+    "Z1": 42
+   }
+  }
+ },
+ "vorkommen": {
+  "Codebuch": [
+   "B1",
+   "B4",
+   "O1",
+   "O2",
+   "O3",
+   "O4",
+   "O5",
+   "V1",
+   "V2",
+   "X1",
+   "Z1",
+   "Z2"
+  ],
+  "Hinweis": [
+   "B1",
+   "B4",
+   "O1",
+   "O2",
+   "O3",
+   "O4",
+   "O5",
+   "V1",
+   "V2",
+   "X1",
+   "Z1",
+   "Z2"
+  ]
+ },
+ "rahmen": {
+  "Codebuch": {
+   "ovx": 280,
+   "ox": 242,
+   "vor": 269,
+   "saetze_vor": 16,
+   "erster_befund": "A5 S3",
+   "z_vor": 27
+  },
+  "Hinweis": {
+   "ovx": 280,
+   "ox": 242,
+   "vor": 269,
+   "saetze_vor": 16,
+   "erster_befund": "A5 S3",
+   "z_vor": 27
+  }
+ },
+ "zugfolge": {
+  "Codebuch": {
+   "seqc": "X1 O1 X1 O4 O2 O3 Z2 O5 X1 B1 B4 V2 V1 Z1 V1 Z1",
+   "seq": "X O X O Z O X B V Z V Z",
+   "erster": "X1",
+   "letzter": "Z1",
+   "letzter_befund": "A5 S10",
+   "vor": [
+    "X1",
+    "O1",
+    "X1",
+    "O4",
+    "O2",
+    "O2",
+    "O2",
+    "O2",
+    "O3",
+    "O3",
+    "Z2",
+    "Z2",
+    "O5",
+    "O5",
+    "X1",
+    "X1"
+   ],
+   "nach_ov": [
+    "V2",
+    "V1",
+    "V1"
+   ],
+   "nach_z": [
+    "Z1",
+    "Z1"
+   ]
+  },
+  "Hinweis": {
+   "seqc": "X1 O1 X1 O4 O2 O3 Z2 O5 X1 B4 B1 B4 V2 V1 Z1 V1 Z1",
+   "seq": "X O X O Z O X B V Z V Z",
+   "erster": "X1",
+   "letzter": "Z1",
+   "letzter_befund": "A5 S10",
+   "vor": [
+    "X1",
+    "O1",
+    "X1",
+    "O4",
+    "O2",
+    "O2",
+    "O2",
+    "O2",
+    "O3",
+    "O3",
+    "Z2",
+    "Z2",
+    "O5",
+    "O5",
+    "X1",
+    "X1"
+   ],
+   "nach_ov": [
+    "V2",
+    "V1",
+    "V1"
+   ],
+   "nach_z": [
+    "Z1",
+    "Z1"
+   ]
+  }
+ },
+ "bloecke": {
+  "Codebuch": {
+   "bloecke": [
+    [
+     "X",
+     [
+      "A5 S3"
+     ]
+    ],
+    [
+     "S",
+     [
+      "A5 S4"
+     ]
+    ],
+    [
+     "C",
+     [
+      "A5 S5"
+     ]
+    ],
+    [
+     "X",
+     [
+      "A5 S6",
+      "A5 S7",
+      "A5 S8",
+      "A5 S9",
+      "A5 S10"
+     ]
+    ]
+   ],
+   "zfolge": "S C J"
+  },
+  "Hinweis": {
+   "bloecke": [
+    [
+     "X",
+     [
+      "A5 S3"
+     ]
+    ],
+    [
+     "S",
+     [
+      "A5 S4"
+     ]
+    ],
+    [
+     "C",
+     [
+      "A5 S5"
+     ]
+    ],
+    [
+     "X",
+     [
+      "A5 S6",
+      "A5 S7",
+      "A5 S8",
+      "A5 S9",
+      "A5 S10"
+     ]
+    ]
+   ],
+   "zfolge": "S C J"
+  }
+ },
+ "statistik": {
+  "Codebuch": {
+   "n": 8,
+   "statwert": 3,
+   "p": 3,
+   "stat": 0,
+   "es": 0,
+   "ki": 2,
+   "prozent": 1,
+   "msd": 0,
+   "klasse": 0,
+   "differenz": 2,
+   "saetze": [
+    "A5 S3",
+    "A5 S4",
+    "A5 S5",
+    "A5 S6",
+    "A5 S7",
+    "A5 S8",
+    "A5 S9",
+    "A5 S10"
+   ]
+  },
+  "Hinweis": {
+   "n": 8,
+   "statwert": 3,
+   "p": 3,
+   "stat": 0,
+   "es": 0,
+   "ki": 2,
+   "prozent": 1,
+   "msd": 0,
+   "klasse": 0,
+   "differenz": 2,
+   "saetze": [
+    "A5 S3",
+    "A5 S4",
+    "A5 S5",
+    "A5 S6",
+    "A5 S7",
+    "A5 S8",
+    "A5 S9",
+    "A5 S10"
+   ]
+  },
+  "alle": {
+   "p": [
+    "A5 S4",
+    "A5 S5",
+    "A5 S9",
+    "A6 S1",
+    "A6 S4"
+   ],
+   "ki": [
+    "A5 S4",
+    "A5 S5",
+    "A6 S2"
+   ],
+   "msd": [
+    "A3 S1",
+    "A3 S2"
+   ],
+   "stat": [
+    "A6 S1"
+   ]
+  }
+ },
+ "null": [
+  [
+   "A5 S6",
+   "fehlender Nachweis („kein Gruppenunterschied nachweisbar“)"
+  ],
+  [
+   "A5 S7",
+   "Intervall gegen den SESOI („mit relevanten Unterschieden in beide Richtungen vereinbar“)"
+  ],
+  [
+   "A5 S8",
+   "Fall der Schlusslogik („unschlüssig“)"
+  ],
+  [
+   "A5 S9",
+   "Entscheidungsregel („Keine … mit p < 0,05 einen Vorteil“)"
+  ],
+  [
+   "A5 S10",
+   "Hypothesenentscheidung („nicht verworfen“)"
+  ],
+  [
+   "A6 S4",
+   "Absicherung („änderten weder … noch … die Einordnung“, „keine davon erreichte p < 0,05“)"
+  ]
+ ],
+ "objekte": {
+  "verweise": 13,
+  "erstnennung": {
+   "Abb. 1": [
+    "A1 S1",
+    "Objektsatz",
+    "vor dem ersten Befund"
+   ],
+   "Tab. 2": [
+    "A1 S3",
+    "Objektsatz",
+    "vor dem ersten Befund"
+   ],
+   "Tab. H3": [
+    "A1 S3",
+    "Objektsatz",
+    "vor dem ersten Befund"
+   ],
+   "Tab. H2": [
+    "A2 S1",
+    "Klammer am Satzende",
+    "vor dem ersten Befund"
+   ],
+   "Tab. H5": [
+    "A2 S3",
+    "Klammer am Satzende",
+    "vor dem ersten Befund"
+   ],
+   "Tab. 1": [
+    "A4 S1",
+    "Klammer am Satzende",
+    "vor dem ersten Befund"
+   ],
+   "Tab. H1": [
+    "A4 S2",
+    "Klammer am Satzende",
+    "vor dem ersten Befund"
+   ],
+   "Tab. 3": [
+    "A5 S1",
+    "Objektsatz",
+    "vor dem ersten Befund"
+   ],
+   "Abb. 2": [
+    "A5 S2",
+    "Objektsatz",
+    "vor dem ersten Befund"
+   ],
+   "Tab. H4": [
+    "A6 S3",
+    "Klammer am Satzende",
+    "ab dem ersten Befund"
+   ]
+  },
+  "wiederaufruf": [
+   [
+    "A2 S3",
+    "Tab. H2",
+    "Klammer am Satzende"
+   ],
+   [
+    "A5 S11",
+    "Tab. H3",
+    "Klammer am Satzende"
+   ],
+   [
+    "A6 S4",
+    "Tab. H4",
+    "Klammer am Satzende"
+   ]
+  ],
+  "klammer_befund": []
+ },
+ "nicht": {
+  "belege": 0,
+  "deutung": 0
+ }
+}
