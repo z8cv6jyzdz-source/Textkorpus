@@ -1,0 +1,154 @@
+Textvorschlag_2.4_2026-09-27.py, Laufprotokoll
+Eingang Master_neu.docx 48791 Byte, SHA-256 90598e2355706599f3890f6ed87ffd4c039790710dc9a8fc51c97c0bd9ce429f
+Eingang Textvorschlag_2.4_2026-09-27.txt 3208 Byte, SHA-256 8a0d2fdc8ea4ecb9c1f96c8c413b966428e7df9f22633625a482f66a1c29e148
+Eingang Textvorschlag_2.4_2026-09-27_VarianteB.txt 3325 Byte, SHA-256 16cd842101cdf5584e86d70154252b348465148a6867812cb2892965b0114cc4
+Eingang Textvorschlag_2.4_2026-09-26_Fassung3.txt 5259 Byte, SHA-256 bba3c81f2d8704969ac4b0b2e0fec85d5ebd67698ed1cf0829cf24b72802d596
+Eingang Kuerzungsleiter_2.4_2026-09-26.tsv 13357 Byte, SHA-256 1805f72a88a558a7391695a74dbb54927689f1ce4d8abc10dff68f6eb1609a5b
+Eingang Verbleib_Fassung3_2.4_2026-09-27.tsv 2950 Byte, SHA-256 fd4685f9b0ae9fe1d94e125e54834efa9f21188d578857c4164923b263cc5967
+Eingang Herkunft_Fassung4_2.4_2026-09-27.tsv 326 Byte, SHA-256 ab9790a5b6d27402881940d62627f52c7249ebc44438f664518d8ff134384926
+Eingang Optionale_Stufen_2.4_2026-09-27.tsv 498 Byte, SHA-256 2df535171696a1807f7b92405f166b2d48c4a33416b862e351ee34f1c02e7574
+Eingang Kennzahlen_2026-09-22.md 11557 Byte, SHA-256 3a6cc286e1a5ccc687474b39f781e6f007812f081bc30abaf5f1ffedbf86b258
+Master ohne comments.xml
+
+Messung (Master, Fassung 3, Fassung 4 Variante A und B)
+  Master:        Wörter 1376 · Absätze 9 · Sätze 32 · Median 40.0 · längster 96 · über 32 22 · über 40 15 · Semikola 16 · Doppelpunkte 13 · Verweise 13 · Belegklammern 27
+  Fassung 3:     Wörter 693 · Absätze 6 · Sätze 34 · Median 20.5 · längster 31 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 5 · Verweise 0 · Belegklammern 23
+  Fassung 4 A:   Wörter 380 · Absätze 3 · Sätze 17 · Median 23 · längster 31 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 0 · Verweise 0 · Belegklammern 13
+  Fassung 4 B:   Wörter 409 · Absätze 4 · Sätze 19 · Median 23 · längster 31 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 0 · Verweise 0 · Belegklammern 15
+  Variante B 2.4    Wörter 44 · Absätze 1 · Sätze 2 · Median 22.0 · längster 26 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 0 · Verweise 0 · Belegklammern 1
+  Variante B 2.4.1  Wörter 131 · Absätze 1 · Sätze 6 · Median 22.5 · längster 30 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 0 · Verweise 0 · Belegklammern 4
+  Variante B 2.4.2  Wörter 142 · Absätze 1 · Sätze 7 · Median 22 · längster 31 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 0 · Verweise 0 · Belegklammern 6
+  Variante B 2.4.3  Wörter 92 · Absätze 1 · Sätze 4 · Median 24.0 · längster 29 · über 32 0 · über 40 0 · Semikola 0 · Doppelpunkte 0 · Verweise 0 · Belegklammern 4
+  Budget 700 · Variante A 380 (Abstand -320) · Variante B 409 (Abstand -291) · gegenüber Fassung 3 -313 und -284 · gegenüber dem Master -996 und -967
+
+Sätze der Variante A mit Wortzahl
+  2.4 Abs. 1 S1 (15): Norwegische U14-Spieler erreichten im Spiel Spitzengeschwindigkeiten von im Mittel 27,0 km/h (Algroy et al., 2021).
+  2.4 Abs. 1 S2 (13): Hinzu kamen je Spiel 38,6 intensive Beschleunigungen, gezählt erst oberhalb von 13,6 km/h.
+  2.4 Abs. 1 S3 (23): Richtungswechsel ohne eigenen Ballbesitz waren bei Akademiespielern der U18 und U23 häufig, 77 % davon mit Winkeln bis 90° (Morgan et al., 2022).
+  2.4 Abs. 1 S4 (10): Nur etwa 1,5 % ähnelten einer exakten Wende um 180°.
+  2.4 Abs. 1 S5 (23): In einer systematischen Übersicht zur Laufleistung im Nachwuchsfußball erfasste nur eine von 50 Studien Sprünge als eigene Kategorie (Palucci Vieira et al., 2019).
+  2.4 Abs. 1 S6 (30): In einer Reliabilitäts- und Validitätsstudie an 373 schottischen Nachwuchsspielern trennten unter sieben Feldtests jedoch Standweitsprung und 505-Test Amateur- und Akademiespieler am stärksten, die 10-m-Zeit am wenigsten (Dugdale et al., 2019).
+  2.4 Abs. 2 S1 (30): Sprinttests mit Zwischenzeiten geben Aufschluss über beide Anteile der linearen Sprintschnelligkeit, 5 bis 10 m über die Beschleunigung und 20 bis 40 m über die Maximalgeschwindigkeit (Ferguson et al., 2024).
+  2.4 Abs. 2 S2 (23): Der 505-Test verlangt eine vorgeplante Wende um 180° und erfasst damit nach der grundlegenden Begriffstrennung Richtungswechselschnelligkeit, nicht reizgesteuerte Agilität (Sheppard & Young, 2006).
+  2.4 Abs. 2 S3 (14): Er prüft einen Grenzfall des Richtungswechsels, nicht dessen spieltypische Form (Morgan et al., 2022).
+  2.4 Abs. 2 S4 (25): Der Standweitsprung, ein beidbeiniger Sprung auf größtmögliche horizontale Weite, gilt bei Kindern und Jugendlichen als praktikables und verbreitetes Feldmaß funktioneller Explosivkraft (Tomkinson et al., 2021).
+  2.4 Abs. 3 S1 (26): Der nötige Stichprobenumfang einer Interventionsstudie wächst nach der grundlegenden Übersicht zur Reliabilität mit dem Quadrat des typischen Messfehlers, gemessen über die Dauer der Studie (Hopkins, 2000).
+  2.4 Abs. 3 S2 (18): Dieser Messfehler ist die Standardabweichung wiederholter Messungen derselben Person, oft ausgedrückt als Variationskoeffizient (CV) in Prozent des Mittelwerts.
+  2.4 Abs. 3 S3 (31): Bei den schottischen U15-Spielern lag der CV zwischen zwei Terminen für die 10-m-Zeit, das Mittel der Seiten-Bestwerte im 505-Test und den Standweitsprung bei 1,7 bis 2,1 % (Dugdale et al., 2019).
+  2.4 Abs. 3 S4 (28): Bei im Mittel 14,7 Jahre alten Akademiespielern betrug der typische Messfehler der Sprintzeiten zwischen drei Terminen innerhalb von vier Tagen 0,05 bis 0,07 s (Ferguson et al., 2024).
+  2.4 Abs. 3 S5 (18): In Prozent der Laufzeit sank er von 4 % für 5 m auf 1 % für 30 m.
+  2.4 Abs. 3 S6 (31): Beim traditionellen 505-Test präpubertärer Spieler überstieg der typische Messfehler mit 0,07 s den kleinsten praktisch bedeutsamen Unterschied von 0,04 s, angesetzt als 0,2 Standardabweichungen zwischen den Spielern (Sammoud et al., 2021).
+  2.4 Abs. 3 S7 (22): Für einzelne Spieler reicht eine solche Messgenauigkeit kaum aus, Gruppenunterschiede dieser Größe lassen sich nur in großen Stichproben präzise schätzen (Hopkins, 2000).
+
+Sätze der Variante B mit Wortzahl
+  2.4 Abs. 1 S1 (26): Der nötige Stichprobenumfang einer Interventionsstudie wächst nach der grundlegenden Übersicht zur Reliabilität mit dem Quadrat des typischen Messfehlers, gemessen über die Dauer der Studie (Hopkins, 2000).
+  2.4 Abs. 1 S2 (18): Dieser Messfehler ist die Standardabweichung wiederholter Messungen derselben Person, oft ausgedrückt als Variationskoeffizient (CV) in Prozent des Mittelwerts.
+  2.4.1 Abs. 1 S1 (15): Norwegische U14-Spieler erreichten im Spiel Spitzengeschwindigkeiten von im Mittel 27,0 km/h (Algroy et al., 2021).
+  2.4.1 Abs. 1 S2 (13): Hinzu kamen je Spiel 38,6 intensive Beschleunigungen, gezählt erst oberhalb von 13,6 km/h.
+  2.4.1 Abs. 1 S3 (30): Sprinttests mit Zwischenzeiten geben Aufschluss über beide Anteile der linearen Sprintschnelligkeit, 5 bis 10 m über die Beschleunigung und 20 bis 40 m über die Maximalgeschwindigkeit (Ferguson et al., 2024).
+  2.4.1 Abs. 1 S4 (28): Bei im Mittel 14,7 Jahre alten Akademiespielern betrug der typische Messfehler der Sprintzeiten zwischen drei Terminen innerhalb von vier Tagen 0,05 bis 0,07 s (Ferguson et al., 2024).
+  2.4.1 Abs. 1 S5 (18): In Prozent der Laufzeit sank er von 4 % für 5 m auf 1 % für 30 m.
+  2.4.1 Abs. 1 S6 (27): Bei 81 schottischen U15-Spielern aus einer Reliabilitäts- und Validitätsstudie an 373 Nachwuchsspielern lag der CV der 10-m-Zeit zwischen zwei Terminen bei 1,7 % (Dugdale et al., 2019).
+  2.4.2 Abs. 1 S1 (23): Richtungswechsel ohne eigenen Ballbesitz waren bei Akademiespielern der U18 und U23 häufig, 77 % davon mit Winkeln bis 90° (Morgan et al., 2022).
+  2.4.2 Abs. 1 S2 (10): Nur etwa 1,5 % ähnelten einer exakten Wende um 180°.
+  2.4.2 Abs. 1 S3 (23): Der 505-Test verlangt eine vorgeplante Wende um 180° und erfasst damit nach der grundlegenden Begriffstrennung Richtungswechselschnelligkeit, nicht reizgesteuerte Agilität (Sheppard & Young, 2006).
+  2.4.2 Abs. 1 S4 (14): Er prüft einen Grenzfall des Richtungswechsels, nicht dessen spieltypische Form (Morgan et al., 2022).
+  2.4.2 Abs. 1 S5 (19): Als Mittel der Seiten-Bestwerte erreichte er bei den schottischen U15-Spielern einen CV von 1,9 % (Dugdale et al., 2019).
+  2.4.2 Abs. 1 S6 (31): Beim traditionellen 505-Test präpubertärer Spieler überstieg der typische Messfehler mit 0,07 s den kleinsten praktisch bedeutsamen Unterschied von 0,04 s, angesetzt als 0,2 Standardabweichungen zwischen den Spielern (Sammoud et al., 2021).
+  2.4.2 Abs. 1 S7 (22): Für einzelne Spieler reicht eine solche Messgenauigkeit kaum aus, Gruppenunterschiede dieser Größe lassen sich nur in großen Stichproben präzise schätzen (Hopkins, 2000).
+  2.4.3 Abs. 1 S1 (23): In einer systematischen Übersicht zur Laufleistung im Nachwuchsfußball erfasste nur eine von 50 Studien Sprünge als eigene Kategorie (Palucci Vieira et al., 2019).
+  2.4.3 Abs. 1 S2 (29): Unter sieben Feldtests an 373 schottischen Spielern der U11 bis U17 trennten jedoch Standweitsprung und 505-Test Amateur- und Akademiespieler am stärksten, die 10-m-Zeit am wenigsten (Dugdale et al., 2019).
+  2.4.3 Abs. 1 S3 (25): Der Standweitsprung, ein beidbeiniger Sprung auf größtmögliche horizontale Weite, gilt bei Kindern und Jugendlichen als praktikables und verbreitetes Feldmaß funktioneller Explosivkraft (Tomkinson et al., 2021).
+  2.4.3 Abs. 1 S4 (15): Bei den schottischen U15-Spielern erreichte er einen CV von 2,1 % (Dugdale et al., 2019).
+
+Kürzungsleiter
+  Zuordnung gibt den Masterbestand Wort für Wort wieder: 1376 Wörter in 52 Teilstücken
+  Stufe 0: Master 1376
+  Stufe 1: Selbstkommentar, Überleitung und Abschnittsverweise streichen, −82 → 1294
+  Stufe 2: Fehler und Zitierfallen streichen (W14, W16, T4), −72 → 1222
+  Stufe 3: Methodendiskussion und Bezüge auf die eigene Studie nach 6.1 und 6.2 verlagern, −206 → 1016
+  Stufe 4: Rollentrennung: Mechanismus nach 2.1, Testaufbau steht in 4.4, −122 → 894
+  Stufe 5: Doppelungen und entbehrliche Einzelbefunde streichen, −219 → 675
+  Stufe 6: Fassung 3 vom 26.09. (Übernommenes verdichtet, korrigiert, ergänzt), +18 → 693
+  Stufe 7: Kern nach Lloyd et al. (2016), Fassung 3 → Fassung 4, Variante A
+    7N entbehrliche Einzelbefunde und Kennwerte streichen, −71 → 622
+    7D Doppelung streichen, steht an anderer Stelle (4.4.2), −23 → 599
+    7L Validitätsdebatte und Gegenbefunde zur eigenen Messung nach Kapitel 6 verlagern, −102 → 497
+    7M Rollentrennung: Mechanismus und Komponentenbegriff nach 2.1, −45 → 452
+    7V Verdichten (331 Wörter der Fassung 3 in 201 Wörtern der Fassung 4), -130 → 322
+    7B Übernommenes angepasst (Doppelpunkt, Überdehnung, Beleg, Gruppenschluss), +14 → 336
+    7neu Leitgedanke Messfehler und Stichprobenumfang (Hopkins, 2000) mit Definition, +44 → 380
+  Verbleib der Sätze der Fassung 3:
+    V 2.4 Abs. 1 S1 (30) → A1 S6: Feldtests können zwischen Amateur- und Akademiespielern unterscheiden: Eine … · 70,2 % entfällt (Trefferquote einer Batterie aus sieben Tests, 10 m r = 0,02). Der Trennbefund bleibt als Relevanzbeleg für Sprung und Richtungswechsel, mit der Gegenrichtung für 10 m
+    L 2.4 Abs. 1 S2 (10) → 6.1: Zwischen Entwicklungs- und Leistungsstufe der Akademiespieler trennten die … · Entwicklungs- gegen Leistungsstufe, nur falls 6.1 die Aussagekraft auf höheren Stufen braucht
+    V 2.4.1 Abs. 1 S1 (21) → A1 S1: Das Fußballspiel verlangt hohe Geschwindigkeiten und wiederholte Beschleunigungen: … · Anforderung als Befund mit Population, ohne Doppelpunkt
+    B 2.4.1 Abs. 1 S2 (14) → A1 S2: Hinzu kamen je Spiel 38,6 Beschleunigungen über 3 … · Zählschwelle bleibt, sie zeigt, dass die Zählung konservativ ist
+    N 2.4.1 Abs. 1 S3 (14) → —: Intensive Beschleunigungen können aber auch bei geringer Geschwindigkeit … · Relaisaussage der Übersicht (Ref. 67, Vigh-Larsen et al., 2018), dort Begründung einer Empfehlung, kein Ergebnis. Die Zählschwelle trägt den Punkt
+    B 2.4.1 Abs. 1 S4 (29) → A2 S1: Sprinttests mit Zwischenzeiten erfassen beide Anteile der linearen … · „geben Aufschluss“ statt „erfassen“ (Quelle: „provides information on“), ohne Doppelpunkt
+    N 2.4.1 Abs. 1 S5 (8) → —: Die relative Reliabilität kurzer Teilstrecken schwankt zwischen Stichproben. … · ICC entfällt, für Veränderungen zählt der typische Messfehler (Hopkins, 2000)
+    N 2.4.1 Abs. 1 S6 (31) → —: Bei 37 im Mittel 14,7 Jahre alten Akademiespielern … · ICC entfällt, der Messfehler derselben Studie bleibt
+    V 2.4.1 Abs. 1 S7 (21) → A3 S4 und S5: Der Standardmessfehler lag absolut bei 0,05 bis 0,07 … · Messfehler absolut und prozentual, jetzt mit 30 m und Terminabstand
+    V 2.4.1 Abs. 1 S8 (26) → A3 S3: Bei den 373 schottischen Nachwuchsspielern lag der ICC … · U15-Wert als CV, gebündelt für alle drei Tests
+    N 2.4.1 Abs. 1 S9 (18) → —: Bei präpubertären Fußballspielern lag der ICC der 5- … · Sprint-ICC aus dem Methodenteil der Quelle, entbehrlich
+    V 2.4.2 Abs. 1 S1 (28) → A1 S3: Richtungswechsel sind im Fußball häufig: Bei Spielern der … · Häufigkeit ohne Zählwert, „ohne eigenen Ballbesitz“
+    V 2.4.2 Abs. 1 S2 (18) → A1 S3 und S4: Davon wiesen 77 % Winkel bis 90° auf, … · Winkelverteilung, „exakten“ bleibt
+    M 2.4.2 Abs. 1 S3 (20) → 2.1 oder entfällt: Nach biomechanischen Studien überwiegend an Erwachsenen steigen mit … · Winkelanforderung biomechanisch, Mechanismus
+    V 2.4.2 Abs. 1 S4 (23) → A2 S2: Vorgeplante Richtungswechsel fallen nach der grundlegenden Begriffstrennung unter … · Begriffstrennung im Testsatz
+    M 2.4.2 Abs. 1 S5 (25) → 2.1 (Task 9): Beide zählen wie die lineare Schnelligkeit zu den … · Komponenten multidirektionaler Schnelligkeit als Begriff in 2.1
+    V 2.4.2 Abs. 2 S1 (12) → A2 S2: Der 505-Test verlangt eine vorgeplante Wende um 180° … · vorgeplante Wende im Testsatz
+    B 2.4.2 Abs. 2 S2 (11) → A2 S3: Er prüft damit einen Grenzfall des Richtungswechsels, nicht … · mit Beleg (Morgan et al., 2022), ohne „damit“
+    V 2.4.2 Abs. 2 S3 (16) → A2 S3 und A1 S6: Solche Tests unterscheiden zwar Leistungsniveaus, könnten aber ökologisch … · Morgans Einschränkung trägt den Grenzfall-Satz, die Trennschärfe steht über Dugdale in A1 S6
+    D 2.4.2 Abs. 2 S4 (23) → 4.4.2: Nach der Originalarbeit kann die 180°-Wende die Richtungswechselfähigkeit … · Protokollherkunft steht mit „zitiert nach Nimphius et al. (2016)“ in 4.4.2
+    L 2.4.2 Abs. 2 S5 (13) → 6.2: Wie stark die 505-Zeit dennoch mit der linearen … · Sprintanteil der 505-Zeit, Verzerrung durch Sprintinhalte im KG-Plan (G2)
+    L 2.4.2 Abs. 2 S6 (18) → 6.2: Bei erwachsenen Cricketspielern lag ihre Korrelation mit Sprintzeiten … · mit S5
+    L 2.4.2 Abs. 2 S7 (16) → 6.2: Bei präpubertären Fußballspielern lag sie nur bei r … · mit S5
+    V 2.4.2 Abs. 3 S1 (29) → A3 S3: Als Mittel der Bestwerte beider Seiten erreichte der … · 505 als Mittel der Seiten-Bestwerte, U15-Wert
+    V 2.4.2 Abs. 3 S2 (8) → A3 S3: Der Variationskoeffizient (CV) betrug 1,0 bis 2,2 %. … · CV gebündelt
+    L 2.4.2 Abs. 3 S3 (31) → 6.2 (optional): Bei 110 englischen Akademiespielern, ausgewertet nach Alters- und … · modifizierter 505 in englischen Akademien
+    L 2.4.2 Abs. 3 S4 (14) → 6.2 (optional): Die Autoren stuften seine praktische Nutzbarkeit für die … · mit S3
+    B 2.4.2 Abs. 3 S5 (29) → A3 S6: Bei präpubertären Spielern überstieg der typische Messfehler des … · Standardabweichung zwischen den Spielern ergänzt
+    B 2.4.2 Abs. 3 S6 (13) → A3 S7: Für Aussagen über einzelne Spieler reicht die Messgenauigkeit … · auf den Grundsatz gehoben, Gruppenschluss nach Hopkins (2000) ergänzt
+    V 2.4.3 Abs. 1 S1 (16) → A1 S5: Anders als bei Sprint und Richtungswechsel lässt sich … · Sprung nicht aus Spielanalysen
+    V 2.4.3 Abs. 1 S2 (27) → A1 S5: In einer systematischen Übersicht über 50 Studien zur … · Übersicht zur Laufleistung, Begründungshalbsatz
+    V 2.4.3 Abs. 1 S3 (29) → A1 S6: Hinweise darauf liefert stattdessen die Leistungsdiagnostik: Von sieben … · Rangfolge mit 505-Test, Begründungshalbsatz, ohne Doppelpunkt
+    B 2.4.3 Abs. 1 S4 (25) → A2 S4: Der Standweitsprung, ein beidbeiniger Sprung auf größtmögliche horizontale … · unverändert
+    V 2.4.3 Abs. 1 S5 (27) → A3 S3: Bei den schottischen U14- und U15-Spielern erreichte er … · U15-Wert als CV
+
+Optionale Stufen unterhalb der Empfehlung (Variante A, kumuliert)
+  O1: -14 → 366 · Preis: Die Verbindung zwischen Winkelverteilung und 505-Test bleibt dem Leser überlassen
+  O2: -10 → 356 · Preis: Der 180°-Befund entfällt, die Einschränkung des 505-Tests trägt nur noch die 77-%-Angabe
+
+Satzvergleich: Variante A 17 Sätze, davon wortgleich aus Fassung 3 1 · Fassung 3 34 Sätze
+
+Probeexemplar Variante A Probeexemplar_2.4_A_nicht_zurueckschreiben.docx 46098 Byte (nur Arbeitsordner), 2.4 wortgleich, Überschriften 2.4.1 bis 2.4.3 entfernt
+  Manuskriptstand am Probeexemplar A:
+    2.4      2.4 Zielgrößen und ihre Diagnostik                      380    700            3     0     0     0     0     0     0
+    2.4       380 gegen   700  (-320)
+    Kapitel 2 (2.1 bis 2.5): 3924 gegen 3350 (+574)
+    Absatztext Kapitel 1 bis 7 gesamt: 6340 gegen 9000 (-2660)
+    Semikola außerhalb von Zitierklammern, Kapitel 1 bis 7: 45
+    Nummerierte Abschnittsverweise, Kapitel 1 bis 7: 22
+Probeexemplar Variante B Probeexemplar_2.4_B_nicht_zurueckschreiben.docx 46302 Byte (nur Arbeitsordner), 2.4 bis 2.4.3 wortgleich
+  Manuskriptstand am Probeexemplar B:
+    2.4      2.4 Zielgrößen und ihre Diagnostik                       44    700            1     0     0     0     0     0     0
+    2.4.1    2.4.1 Lineare Sprintschnelligkeit (5/10/30 m)           131                   1     0     0     0     0     0     0
+    2.4.2    2.4.2 Richtungswechselfähigkeit (505)                   142                   1     0     0     0     0     0     0
+    2.4.3    2.4.3 Sprungkraft (Standweitsprung)                      92                   1     0     0     0     0     0     0
+    2.4       409 gegen   700  (-291)
+    Kapitel 2 (2.1 bis 2.5): 3953 gegen 3350 (+603)
+    Absatztext Kapitel 1 bis 7 gesamt: 6369 gegen 9000 (-2631)
+    Semikola außerhalb von Zitierklammern, Kapitel 1 bis 7: 45
+    Nummerierte Abschnittsverweise, Kapitel 1 bis 7: 22
+Endabgleich am Probeexemplar A:
+  Zahlen im Master gesamt: 533
+  SP6 | Tab. 1 | Tabelle nicht gefunden |  | ABWEICHUNG
+  SP11 | 4.5.1 Pausen (Sätze, Stufe-1-Sätze, Übungen) | Text 90 120 | P-09 90 45 120 (⚠ P-09: die Stufe-1-Pause steht nur im Produktionsleitfaden, am Video prüfen) | ABWEICHUNG
+  Satzprüfungen: 23 davon stimmt 21 Abweichungen 2
+  Wortprüfung randomisiert: 2 Fundstellen 2.2 (et al., 2017). Eine aktuelle randomisierte Studie auf lokalem Wettkampf)· 2.2 (mme die Verletzungszahl (acht randomisierte Studien, 7521 Teilnehmer)
+  Wortprüfung SPSS: 0 Fundstellen
+  Wortprüfung leistungsunabhängig: 0 Fundstellen
+  Wortprüfung MDC: 0 Fundstellen
+  Wortprüfung TE/√n: 0 Fundstellen
+  Wortprüfung ITT: 0 Fundstellen
+  Wortprüfung Signifikanz: 1 Fundstellen 2.2 (hied verfehlte allerdings die Signifikanz (p = 0,09)
+  Vorschläge: 0 · bestätigte Stellen: 1

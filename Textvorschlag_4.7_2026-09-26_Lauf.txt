@@ -1,0 +1,165 @@
+Textvorschlag_4.7_2026-09-26.py, Laufprotokoll
+Eingang master_26-09.docx 53034 Byte, SHA-256 271c4d10f6c728dc797de52857bc8fff87d0e31ee3cc995b3e5c53c4ec6e0fee
+Eingang Textvorschlag_4.7_2026-09-26.txt 5324 Byte, SHA-256 76fe6cd87dd4b65da4da452f2a9b9579cd87da35a4d6c765f07adda5f54066fa
+Eingang Wortlaut_4.6_Rev105_2026-09-26.txt 1578 Byte, SHA-256 857b465a6886b41f52427f1f1866250188cc870b0c2b61241361b68e0c4ee08a
+Eingang Kennzahlen_2026-09-22.md 11557 Byte, SHA-256 3a6cc286e1a5ccc687474b39f781e6f007812f081bc30abaf5f1ffedbf86b258
+Eingang Satzersetzungen_4.1_4.4.2_2026-09-26.tsv 941 Byte, SHA-256 2bc6240a3f75aca8f584c8911609f1334761625f0efa0b4e1a97d849b2990707
+Master ohne comments.xml
+
+Messung 4.7 im Master
+  Absatz 1: 87 Wörter, 6 Sätze, längster 25
+  Absatz 2: 102 Wörter, 5 Sätze, längster 32
+  Absatz 3: 113 Wörter, 6 Sätze, längster 30
+  Absatz 4: 151 Wörter, 7 Sätze, längster 29
+  Absatz 5: 72 Wörter, 3 Sätze, längster 31
+  Absatz 6: 91 Wörter, 5 Sätze, längster 29
+  Absatz 7: 105 Wörter, 7 Sätze, längster 24
+  gesamt 721 Wörter · 39 Sätze · Median 18.0 · längster 32 · über 32: 0 · über 40: 0
+  Semikola gesamt 0, außerhalb von Klammern 0 · Abschnittsverweise 0 · Belegklammern 10 · Objektverweise ['Tab. 8'] · Anhangsverweise ['Anhang G']
+Messung 4.7 Textvorschlag
+  Absatz 1: 120 Wörter, 6 Sätze, längster 26
+  Absatz 2: 69 Wörter, 4 Sätze, längster 25
+  Absatz 3: 142 Wörter, 8 Sätze, längster 24
+  Absatz 4: 63 Wörter, 4 Sätze, längster 24
+  Absatz 5: 41 Wörter, 2 Sätze, längster 24
+  Absatz 6: 37 Wörter, 3 Sätze, längster 14
+  gesamt 472 Wörter · 27 Sätze · Median 18.0 · längster 26 · über 32: 0 · über 40: 0
+  Semikola gesamt 0, außerhalb von Klammern 0 · Abschnittsverweise 0 · Belegklammern 8 · Objektverweise ['Tab. H4'] · Anhangsverweise ['Anhang G']
+Messung 4.6 im Master
+  Absatz 1: 95 Wörter, 8 Sätze, längster 19
+  Absatz 2: 58 Wörter, 6 Sätze, längster 16
+  gesamt 153 Wörter · 14 Sätze · Median 10.5 · längster 19 · über 32: 0 · über 40: 0
+  Semikola gesamt 0, außerhalb von Klammern 0 · Abschnittsverweise 0 · Belegklammern 2 · Objektverweise [] · Anhangsverweise ['Anhang A']
+Messung 4.6 Wortlaut Rev. 105
+  Absatz 1: 97 Wörter, 9 Sätze, längster 17
+  Absatz 2: 57 Wörter, 6 Sätze, längster 16
+  gesamt 154 Wörter · 15 Sätze · Median 9.0 · längster 17 · über 32: 0 · über 40: 0
+  Semikola gesamt 0, außerhalb von Klammern 0 · Abschnittsverweise 0 · Belegklammern 2 · Objektverweise [] · Anhangsverweise ['Anhang A']
+
+Satzvergleich 4.7 (Master gegen Textvorschlag), Wortdifferenz je Stelle
+  replace (-249):
+     alt (25): Je Zielgröße gingen alle zugeteilten Spieler mit vollständigen Prä- und Post-Werten und Reifestatus in ihrer Gruppe in die Auswertung ein, fehlende Werte wurden nicht ersetzt.
+     alt (8): Die Hauptanalyse schätzt damit die Wirkung des Programmangebots.
+     alt (11): Nicht enthalten waren Spieler ohne Abschlusstestung und ein Spieler ohne Reifestatus.
+     alt (17): Geringe Adhärenz und die fehlende Auswählbarkeit eines Spielers im Fragebogen führten nicht zum Ausschluss aus der Hauptanalyse.
+     alt (8): Die Nenner werden je Zielgröße und Gruppe berichtet.
+     alt (18): Zugeteilt wurde auf Vereinsebene, analysiert auf Spielerebene, eine Varianzkomponente für den Verein wurde bei drei Vereinen nicht modelliert.
+     alt (22): Abweichend vom Ethikantrag umfasste die Hauptanalyse alle zugeteilten Spieler statt nur die Spieler mit mindestens 75 % der Einheiten (neun von zwölf).
+     alt (9): Dieses Kriterium erreichten drei Spieler, es wird beschreibend berichtet.
+     alt (20): Ein Per-Protokoll-Vergleich ab sechs absolvierten Einheiten, der Hälfte des Programms, diente als beobachtender Zusatzvergleich (Moher et al., 2010, Box 6).
+     alt (19): Beide Festlegungen (11. und 12.09.2026) erfolgten nach Sichtung der Adhärenz- und Abschlusswerte der Interventionsgruppe und vor Kenntnis der Kontrollgruppenwerte.
+     alt (32): Beschreibend berichtet werden nach Antrag die 505-Seitenwerte und nach einer Festlegung vom 11.09.2026 alle Teilmengen unter acht Spielern je Gruppe, so die Sprintzeiten über 5 und 10 m und Teile des Per-Protokoll-Vergleichs.
+     alt (14): Die Fallzahl war durch die zusagenden Vereine vorgegeben, eine Ressourcenbegründung (Lakens, 2022, S. 3–5).
+     alt (25): Die Antragsrechnung (f = 0,25, erforderlich n = 34) ist für die berichtete Kovarianzanalyse nicht nachvollziehbar (Cohen, 1988, Tab. 8.4.4) und wird als Planungsstand berichtet.
+     alt (21): Statt einer nachträglichen Powerberechnung (Moher et al., 2010, Item 7a) wurde je konfirmatorischer Zielgröße eine Sensitivitäts-Poweranalyse gerechnet (Lakens, 2022, S. 14–15).
+     alt (30): Eingaben waren der F-Test des Gruppenterms bei zwei Gruppen und zwei Kovariaten (Freiheitsgrade 1 und N − 4), das n des Analysesets, α = 0,05 und Power 0,80, ohne Kovariatengewinn.
+     alt (18): Dazu wurde die Power bei den vorab aus der Literatur entnommenen Effektstärken berechnet, für den 10-m-Sprint nur diese.
+     alt (5): Der Rechenweg wurde nachträglich festgelegt.
+     alt (24): Je konfirmatorischer Zielgröße (30-m-Sprint, 505-Seitenmittel, Standweitsprung) wurde der Post-Wert in einer Kovarianzanalyse mit der Gruppe als Faktor und Ausgangswert und Reifestatus als Kovariaten modelliert.
+     alt (20): Der Gruppenkoeffizient ist die adjustierte Gruppendifferenz im Post-Wert, berichtet mit 95-%-Konfidenzintervall und exaktem p-Wert neben der unadjustierten Differenz der Post-Mittelwerte.
+     alt (29): Der Ausgangswert diente als Prädiktor des Post-Werts (Vickers & Altman, 2001), der Reifestatus wegen der reifeabhängigen Trainierbarkeit und des Jahrgangsunterschieds der Gruppen, beides unabhängig von der Größe der Ausgangsunterschiede.
+     alt (12): Ausgangswerte wurden nicht auf Signifikanz getestet, berichtet wird die standardisierte Differenz d.
+     alt (24): Hedges' g ist die adjustierte Differenz, geteilt durch die gepoolte Standardabweichung der Ausgangswerte, korrigiert um den Kleinstichprobenfaktor J, mit Konfidenzintervall aus dem der Differenz.
+     alt (14): Jedes Konfidenzintervall wird gegen null und gegen den SESOI gelegt (Lakens, 2022, S. 13–14).
+     alt (28): Ohne primäre Zielgröße gilt H0 als verworfen, wenn in mindestens einer konfirmatorischen Zielgröße p < 0,05 zugunsten der Interventionsgruppe liegt (α = 0,05 zweiseitig, ohne Adjustierung für Mehrfachtestung).
+     alt (31): Sechs weitere Modellvarianten waren vorab als Sensitivitätsanalysen festgelegt: Mittelwert statt Bestwert der Versuche, Per-Protokoll-Schwellen von fünf und sieben Einheiten, ein Änderungswertmodell, das Modell ohne Reifestatus und die Familiarisierungstermine als dritte Kovariate.
+     alt (10): Letztere fallen in der Interventionsgruppe weitgehend mit der Vereinszugehörigkeit zusammen.
+     alt (31): Nach einer ersten Auswertung am 15.09.2026 mit Zweifeln an der Normalverteilung der Residuen kam nachträglich für alle drei Zielgrößen ein Bootstrap-Konfidenzintervall der adjustierten Differenz hinzu (Fröhlich et al., 2020, S. 78).
+     alt (29): Die Voraussetzungen wurden geprüft (Fröhlich et al., 2020, S. 59), und zwar an den Modellresiduen: Normalverteilung mit Shapiro-Wilk-Test und Q-Q-Diagramm, Varianzgleichheit der Gruppen mit Brown-Forsythe-Test und Residuenstreuung je Gruppe.
+     alt (19): Parallele Steigungen wurden über je einen Interaktionsterm Gruppe × Kovariate geprüft, die Linearität grafisch, die Überlappung der Kovariaten beschrieben.
+     alt (9): Bei dieser Fallzahl entdecken die Tests nur große Abweichungen.
+     alt (17): Eine nicht verworfene Prüfung belegt die Voraussetzung deshalb nicht und wird als geprüft und nicht verworfen berichtet.
+     alt (17): Eine verworfene Prüfung wird mit Prüfgröße und p-Wert berichtet, ohne das im Antrag festgelegte Modell zu wechseln.
+     alt (15): Die digitalisierten Werte wurden auf Plausibilität geprüft, Auffälligkeiten am Papierprotokoll kontrolliert und belegte Korrekturen protokolliert.
+     alt (7): Der eingefrorene Datenstand war die einzige Datenquelle.
+     alt (18): Alle Rechenschritte standen vor der berichteten Rechnung in einer Spezifikation fest, die die Untersuchungsleitung ohne unabhängige Methodenprüfung freigab.
+     alt (17): Die Skripte erstellte ein KI-Sprachmodell (Claude, Anthropic) allein nach der Spezifikation und ohne Kenntnis der ersten Auswertung.
+     alt (24): Eine zweite KI-gestützte Implementierung in Python und eine Formelprobe in Excel dienten als Gegenproben, der Abgleich je Kennwert blieb innerhalb der vorab festgelegten Toleranzen.
+     alt (11): Prüfprotokolle, Poweranalyse, Skripte und Diagramme der Voraussetzungsprüfung stehen in Anhang G.
+     alt (13): Die berichtete Rechnung erfolgte ohne Zusatzpakete in R 4.3.3 (R Core Team, 2024).
+     neu (26): Die Hauptanalyse umfasste unabhängig von der Adhärenz alle zugeteilten Spieler in ihrer Gruppe, je Zielgröße mit vollständigen Prä- und Post-Werten und Reifestatus, ohne Ersetzung fehlender Werte.
+     neu (19): Abweichend vom Studienprotokoll entfiel dessen Adhärenzkriterium (mindestens neun von zwölf Einheiten) als Ausschlussgrund, weil es nur drei Spieler erreichten.
+     neu (18): Zusätzlich wurden die Spieler ab einer Adhärenz von sechs Einheiten, der Hälfte des Programms, mit der Kontrollgruppe verglichen.
+     neu (10): Dieser Per-Protokoll-Vergleich ist beobachtend (Moher et al., 2010, Box 6).
+     neu (24): Beschreibend berichtet werden die 505-Seitenwerte laut Studienprotokoll sowie alle Teilmengen unter acht Spielern je Gruppe, so die 5- und 10-m-Sprintzeiten und Teile des Per-Protokoll-Vergleichs.
+     neu (23): Die Festlegungen (Per-Protokoll-Schwelle und Mindestgruppengröße 11.09.2026, Hauptanalyse 12.09.2026) erfolgten nach Sichtung der Adhärenz- und Abschlusswerte der Interventionsgruppe und vor der Abschlusstestung der Kontrollgruppe.
+     neu (14): Eine A-priori-Poweranalyse (f = 0,25) veranschlagte mindestens 34 Spieler, daran orientierte sich die Rekrutierung.
+     neu (14): Verfügbare Spieler und Testzeit reichten dafür nicht aus (Ressourcenbegründung nach Lakens, 2022, S. 3–5).
+     neu (25): Für die erreichte Spielerzahl je konfirmatorische Zielgröße ermittelte eine Sensitivitäts-Poweranalyse die kleinste nachweisbare Effektstärke bei α = 0,05 und Power 0,80 (Lakens, 2022, S. 14–15).
+     neu (16): Anders als die Hauptanalyse rechnete sie konservativ ohne Einfluss der Kovariaten, festgelegt nach einer ersten Auswertung.
+     neu (19): Je konfirmatorische Zielgröße (30-m-Sprint, 505-Seitenmittel, Standweitsprung) verglich eine Kovarianzanalyse die Post-Werte beider Gruppen bei rechnerisch gleichem Ausgangswert und Reifestatus.
+     neu (11): Der Ausgangswert diente als Prädiktor des Post-Werts (Vickers & Altman, 2001).
+     neu (21): Der Reifestatus diente als kontinuierliche Kovariate, weil er die Leistungsentwicklung im Jugendalter mitbestimmt, zumal sich die Gruppen im Reifestatus deutlich unterschieden.
+     neu (17): Berichtet werden die adjustierte Gruppendifferenz im Post-Wert mit 95-%-Konfidenzintervall und p-Wert sowie die unadjustierte Differenz der Post-Mittelwerte.
+     neu (21): Hedges' g bezieht die adjustierte Differenz auf die gepoolte Standardabweichung der Ausgangswerte und macht so die Gruppendifferenzen der Zielgrößen untereinander vergleichbar.
+     neu (24): Das Konfidenzintervall der adjustierten Differenz wird mit null und dem SESOI in beide Richtungen verglichen, um Nachweisbarkeit und Relevanz einzuordnen (Lakens, 2022, S. 13–14).
+     neu (7): Laut Studienprotokoll waren die drei Zielgrößen gleichrangig.
+     neu (22): H0 gilt als verworfen, wenn mindestens eine davon einen Vorteil der Interventionsgruppe mit p < 0,05 (zweiseitig) zeigt, ohne Adjustierung für Mehrfachtestung.
+     neu (21): Um Verletzungen der Modellannahmen zu erkennen, prüfte der Shapiro-Wilk-Test die Modellresiduen auf Normalverteilung, der Brown-Forsythe-Test auf gleiche Streuung in beiden Gruppen.
+     neu (24): Ob Ausgangswert und Reifestatus linear und in beiden Gruppen gleich steil mit dem Post-Wert zusammenhingen, prüften Residuengrafiken und je ein Interaktionsterm mit der Gruppe.
+     neu (8): Beschrieben wurde die Überlappung der Kovariaten beider Gruppen.
+     neu (10): Das Modell des Studienprotokolls blieb auch bei verworfener Prüfung unverändert.
+     neu (17): Sechs vorab festgelegte Sensitivitätsanalysen prüften, ob die Ergebnisse von Bestwertregel, Per-Protokoll-Schwelle, Modellform oder Kovariaten abhängen (Tab. H4).
+     neu (24): Nachträglich kam für alle drei Zielgrößen ein Bootstrap-Konfidenzintervall der adjustierten Differenz hinzu, das keine Normalverteilung der Residuen voraussetzt (Fröhlich et al., 2020, S. 78).
+     neu (11): Die digitalisierten Werte wurden auf Plausibilität geprüft, auffällige am Papierprotokoll kontrolliert.
+     neu (12): Die statistische Auswertung erfolgte skriptbasiert in R 4.3.3 (R Core Team, 2024).
+     neu (14): Die Skripte stehen mit der Poweranalyse und den Diagrammen der Voraussetzungsprüfung in Anhang G.
+  Summe der Differenzen -249
+
+Satzvergleich 4.6 (Master gegen Wortlaut Rev. 105)
+  --- 
+  +++ 
+  @@ -1,2 +1,2 @@
+  -Die Trainingsdurchführung der Interventionsgruppe wurde mit einem Online-Fragebogen (SoSci Survey) erhoben, der nach jeder Einheit auszufüllen war (Anhang A). Für die Kontrollgruppe sah der Ethikantrag kein Monitoring vor. Je Meldung wurden unter anderem Spielercode, Durchführungsstatus, Beanspruchung und Schmerzen erfasst. Erinnerungen erfolgten über die WhatsApp-Gruppen, ihre Häufigkeit wurde n
+  -Adhärenz ist die Zahl der Meldungen mit dem Status „ganz“ je Spieler bei zwölf angebotenen Einheiten. Gezählt wurde je Meldung. Die gemeldete Einheitennummer diente nicht als Identitätsmerkmal. Meldungen mit dem Status „teilweise“ zählten gesondert als Beteiligung. Der Ethikantrag legte ein Analysekriterium von mindestens 75 % fest. Die Compliance, die protokollgetreue Übungsausführung, war im un
+  +Die Trainingsdurchführung wurde mit einem Online-Fragebogen (SoSci Survey) erhoben, der nach jeder Einheit auszufüllen war (Anhang A). Für die Kontrollgruppe sah das Studienprotokoll kein Monitoring vor. Erfasst wurden unter anderem Spielercode, Durchführungsstatus, Beanspruchung und Schmerzen. Jedes Wochenvideo endete mit einer Karte zum Programmfortschritt. Erinnerungen erfolgten über die Whats
+  +Adhärenz ist die Zahl der Meldungen mit dem Status „ganz“ je Spieler bei zwölf angebotenen Einheiten. Gezählt wurde je Meldung. Die Einheitennummer diente nicht als Identitätsmerkmal. Meldungen mit dem Status „teilweise“ zählten gesondert als Beteiligung. Das Studienprotokoll legte ein Adhärenzkriterium von mindestens 75 % fest. Die Compliance, die protokollgetreue Übungsausführung, war im unbeau
+Satzersetzung 4.1 (-9 Wörter):
+     alt: Das Adhärenzkriterium wurde nach Sichtung der Adhärenz- und Abschlusswerte der Interventionsgruppe und vor Kenntnis der Kontrollgruppenwerte angepasst.
+     neu: Das Adhärenzkriterium wurde in der Hauptanalyse nicht angewandt.
+Satzersetzung 4.4.2 (+0 Wörter):
+     alt: Ein Asymmetrie-Index wurde nicht berechnet
+     neu: Ein Asymmetrie-Index wurde nicht berechnet.
+Satzersetzung 4.5.1 (+0 Wörter):
+     alt: Abweichend vom Ethikantrag begann das Programm
+     neu: Abweichend vom Studienprotokoll begann das Programm
+Satzersetzung 4.1 (+0 Wörter):
+     alt: Über den Antrag hinaus war der Kontrollgruppe
+     neu: Über das Studienprotokoll hinaus war der Kontrollgruppe
+Satzersetzung 4.1 (-1 Wörter):
+     alt: Abweichend vom Antrag gab der vorgesehene Kontrollverein
+     neu: Abweichend davon gab der vorgesehene Kontrollverein
+Satzersetzung 4.1 (+0 Wörter):
+     alt: Eine Zweitvereinstätigkeit, im Antrag Ausschlusskriterium,
+     neu: Eine Zweitvereinstätigkeit, im Studienprotokoll Ausschlusskriterium,
+
+Probeexemplar arbeit/Probeexemplar_nicht_zurueckschreiben.docx 48351 Byte (nur Arbeitsordner, wird nicht zurückgeschrieben)
+Manuskriptstand am Probeexemplar:
+  4.1       290 gegen   300  (-10)
+  4.2       208 gegen   215  (-7)
+  4.3       340 gegen   340  (+0)
+  4.4       392 gegen   420  (-28)
+  4.5.1     418 gegen   420  (-2)
+  4.5.2     150 gegen   150  (+0)
+  4.6       154 gegen   155  (-1)
+  4.7       472 gegen   550  (-78)
+  Kapitel 4 (4.1 bis 4.6): 1952 gegen 2000 (-48)
+  Kapitel 4 (4.1 bis 4.7): 2424 gegen 2550 (-126)
+  Absatztext Kapitel 1 bis 7 gesamt: 7344 gegen 9000 (-1656)
+  Semikola außerhalb von Zitierklammern, Kapitel 1 bis 7: 61
+  Nummerierte Abschnittsverweise, Kapitel 1 bis 7: 35
+Endabgleich am Probeexemplar:
+  Zahlen im Master gesamt: 659
+  SP6 | Tab. 1 | Tabelle nicht gefunden |  | ABWEICHUNG
+  SP9c | 4.7 Absatz 116: Prozessdatum „11.09.2026“ (Kontext …e und Mindestgruppengröße 11.09.2026 , Hauptanaly…) | Text 11.09.2026 | Register: Mindestdosis sechs Einheiten und Fallzahlregel acht je Gruppe, Verfasser nach Sichtung der | stimmt
+  SP9c | 4.7 Absatz 116: Prozessdatum „12.09.2026“ (Kontext … 11.09.2026, Hauptanalyse 12.09.2026 ) erfolgten …) | Text 12.09.2026 | Register: Adhärenzkriterium: Hauptanalyse mit allen Zugeteilten, Verfasser vor Kenntnis der KG-Werte | stimmt
+  SP11 | 4.5.1 Pausen (Sätze, Stufe-1-Sätze, Übungen) | Text 90 120 | P-09 90 45 120 (⚠ P-09: die Stufe-1-Pause steht nur im Produktionsleitfaden, am Video prüfen) | ABWEICHUNG
+  Satzprüfungen: 25 davon stimmt 23 Abweichungen 2
+  Wortprüfung randomisiert: 2 Fundstellen 2.2 (et al., 2017). Eine aktuelle randomisierte Studie auf lokalem Wettkampf)· 2.2 (mme die Verletzungszahl (acht randomisierte Studien, 7521 Teilnehmer)
+  Wortprüfung SPSS: 0 Fundstellen
+  Wortprüfung leistungsunabhängig: 0 Fundstellen
+  Wortprüfung MDC: 0 Fundstellen
+  Wortprüfung TE/√n: 0 Fundstellen
+  Wortprüfung ITT: 0 Fundstellen
+  Wortprüfung Signifikanz: 1 Fundstellen 2.2 (hied verfehlte allerdings die Signifikanz (p = 0,09)
+  Vorschläge: 0 · bestätigte Stellen: 1

@@ -1,0 +1,3 @@
+Sitzungsnotizen: Eingang 941.954/7bf2f3031f62ab68e23c00b11cf4e1d1, Rev. 170 über Rev. 169 eingesetzt, Ausgabe 948.276/13f0696d62690bc410ce1b4bdc2117c4
+Maßnahmenliste: Eingang 245.175/314934c6bea8fe52e021203cbafbeba2, Stand-Zeile, G37 (q), Taskzeile 12 und Summe fortgeschrieben, Ausgabe 248.489/a678bab5203aa1342419b0c53b113a43
+Fortsetzungsübergabe 9: 8.162 Byte, MD5 a58f958d4c11474c3cfd8b578ece7648

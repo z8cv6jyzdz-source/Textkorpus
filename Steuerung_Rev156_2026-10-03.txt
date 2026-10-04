@@ -1,0 +1,5 @@
+Steuerung Rev. 156 (03.10.2026)
+vorher: 848278 Byte, MD5 146a8d99ed05e3b0493f0e3cbfec43da
+nachher: 853742 Byte, MD5 6077eb396a4a28d837a0a78a7882a6a8
+Block: 5424 Byte, eingesetzt vor Rev. 155, Stand-Zeile auf Rev. 156
+Prüfungen: Stand-Zeile auf Rev. 155, oberster Block Rev. 155, Rev. 156 nicht vorhanden, kein Semikolon im Block

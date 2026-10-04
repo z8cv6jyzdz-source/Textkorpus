@@ -1,0 +1,9 @@
+Steuerung_Rev143_2026-10-01.py, Lauf 2026-10-01 19:16:23 (Sitzungsuhr)
+  Notizen, Stand: ersetzt
+  Notizen, Block vor Rev. 142: ersetzt
+  Maßnahmenliste, Stand: ersetzt
+  Maßnahmenliste, L9: ersetzt
+  Maßnahmenliste, Summe: ersetzt
+Cowork_Sitzungsnotizen.md: vorher 759521 B MD5 73606ce4bfef7e2c01c3584d4b33972e, nachher 767447 B MD5 f3d9b1da27c587b9a6950921b6aebf96
+Massnahmenliste_Datenverarbeitung.md: vorher 223745 B MD5 c2331c015a2959c0e718853330b3573d, nachher 225043 B MD5 8d1cd14ca645bd4450e0dd89a8dbdd5f
+Semikola im neuen Text: 0

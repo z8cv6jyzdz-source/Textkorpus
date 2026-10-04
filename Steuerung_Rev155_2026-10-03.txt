@@ -1,0 +1,5 @@
+Eingabe: rev155/Cowork_Sitzungsnotizen_vor_Rev155.md, 842908 Byte, MD5 b3e50fbccdeeef46b21a6aff13b7182a
+Jüngste Rev. vor dem Lauf: 154
+Ausgabe: rev155/Cowork_Sitzungsnotizen.md, 848278 Byte, MD5 146a8d99ed05e3b0493f0e3cbfec43da
+Block Rev. 155: 5330 Byte, eingefügt über Rev. 154, Stand-Zeile ergänzt
+Unverändert außer Block und Stand-Zeile: True

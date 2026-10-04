@@ -1,0 +1,9 @@
+ersetzt: Rev.-Block vor Rev. 153
+ersetzt: Stand-Zeile der Notizen
+ersetzt: Stand-Zeile der Maßnahmenliste
+ersetzt: G37 (p)
+ersetzt: Taskzeile Ergebnisse
+ersetzt: Summe
+Zeit 23:42 Sitzungsuhr
+Cowork_Sitzungsnotizen.md: vorher 835783 Byte, MD5 e9d47848d5402934fc8f242f67976489 · nachher 842908 Byte, MD5 b3e50fbccdeeef46b21a6aff13b7182a
+Massnahmenliste_Datenverarbeitung.md: vorher 242581 Byte, MD5 c8a18462e14fb3f1b27fd2f2fccbf8a6 · nachher 245175 Byte, MD5 314934c6bea8fe52e021203cbafbeba2

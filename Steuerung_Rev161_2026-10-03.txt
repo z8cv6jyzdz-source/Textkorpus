@@ -1,0 +1,5 @@
+Steuerung Rev. 161 (03.10.2026)
+vorher: 874501 Byte, MD5 80fb20453b2420ab48dccf97849ea47d
+nachher: 880877 Byte, MD5 aadd858046ead27e93f9ed0555d85e90
+Block: 6336 Byte, eingesetzt vor Rev. 160, Stand-Zeile auf Rev. 161
+Prüfungen: Stand-Zeile auf Rev. 160, oberster Block Rev. 160, Rev. 161 nicht vorhanden, kein Semikolon im Block

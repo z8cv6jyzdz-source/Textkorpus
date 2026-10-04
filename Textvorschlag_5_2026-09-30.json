@@ -1,0 +1,407 @@
+{
+ "absaetze": [
+  {
+   "gruppe": "5.1",
+   "kennung": "A1",
+   "text": "Abb. 1 zeigt den Teilnehmerfluss bis zum planmäßigen Studienende. Von 31 zur Eingangstestung angetretenen Spielern gingen 26 in die Analyse ein. Tab. 2 enthält die Ausgangswerte im Analyseset mit standardisierter Differenz d und Überlappung der Kovariaten, Tab. H3 die Ausgangswerte aller eingangsgetesteten Spieler. Alle Ausgangsunterschiede lagen zugunsten der Interventionsgruppe."
+  },
+  {
+   "gruppe": "5.1",
+   "kennung": "A2",
+   "text": "Die 18 zugeteilten Spieler der Interventionsgruppe meldeten 92 Einheiten als vollständig, 6 als teilweise und 13 als nicht durchgeführt, im Median 6,0 vollständige je Spieler (Tab. H2). Bei zwölf angebotenen Einheiten je Spieler entsprach das einer Umsetzungsrate von 42,6 % (45,4 % mit den teilweise durchgeführten). Zehn Spieler erreichten mindestens sechs, drei mindestens neun Einheiten (Tab. H2 und Tab. H5). Als Untergrenzen ergaben sich mit höchstens zwei Meldungen je Programmwoche neun und zwei Spieler, nach verschiedenen Einheitennummern neun und einer."
+  },
+  {
+   "gruppe": "5.1",
+   "kennung": "A3",
+   "text": "Die Beanspruchung der 92 als vollständig gemeldeten Einheiten lag auf der CR-10-Skala bei 2,9 ± 0,9 (Median 3,0, Spanne 0,0 bis 5,0). Der mit der Solldauer berechnete sRPE-Load betrug 106,7 ± 35,9 AU (Median 110,8, Spanne 0,0 bis 199,7). Zwölf Meldungen von neun Spielern nannten Schmerzen oder Probleme, davon je zwei zu nicht und zu teilweise durchgeführten Einheiten. Für die Kontrollgruppe wurden solche Angaben nicht erhoben."
+  },
+  {
+   "gruppe": "5.1",
+   "kennung": "A4",
+   "text": "Der typische Messfehler überstieg auch bei der Abschlusstestung in allen Zielgrößen den SESOI (Tab. 1). Mehr gültige Versuche je Spieler hatte im Mittel beim 30-m-Sprint und Standweitsprung zu beiden Zeitpunkten die Interventionsgruppe, beim 505-Test je Seite überwiegend die Kontrollgruppe (Tab. H1)."
+  },
+  {
+   "gruppe": "5.2",
+   "kennung": "A5",
+   "text": "Tab. 3 enthält für die konfirmatorischen Zielgrößen die unadjustierten und adjustierten Gruppendifferenzen im Post-Wert sowie Hedges' g. Abb. 2 zeigt je Zielgröße Ausgangswert und reifeadjustierten Abschlusswert jedes Spielers mit den Modelllinien beider Gruppen. Alle unadjustierten Differenzen lagen zugunsten der Interventionsgruppe und weiter von null entfernt als die adjustierten. Adjustiert für Ausgangswert und Reifestatus betrug die Differenz Interventions- minus Kontrollgruppe beim 30-m-Sprint −0,045 s (95-%-Konfidenzintervall −0,199 bis +0,110 s, p = 0,557). Beim 505-Seitenmittel betrug sie −0,012 s (−0,085 bis +0,061 s, p = 0,734), beim Standweitsprung −0,1 cm (−8,7 bis +8,6 cm, p = 0,987). Bei keiner Zielgröße war damit ein Gruppenunterschied nachweisbar. Jedes Intervall war mit relevanten Unterschieden in beide Richtungen vereinbar. Die Befunde waren unschlüssig. Keine adjustierte Differenz zeigte mit p < 0,05 einen Vorteil der Interventionsgruppe. Die Nullhypothese wurde nicht verworfen. Die 5- und 10-m-Sprintzeiten und die 505-Seitenwerte wurden nur beschrieben (Tab. H3)."
+  },
+  {
+   "gruppe": "5.2",
+   "kennung": "A6",
+   "text": "Beim 30-m-Sprint verwarf der Shapiro-Wilk-Test die Normalverteilung der Residuen (W = 0,915, p = 0,034). Das nachträglich festgelegte Bootstrap-Konfidenzintervall der adjustierten Differenz reichte dort von −0,177 bis +0,107 s. Die übrigen mit Tests geprüften Voraussetzungen wurden nicht verworfen (Tab. H4). Soweit die Fallzahl eine Inferenz zuließ, änderten weder der beobachtende Per-Protokoll-Vergleich noch die sechs Sensitivitätsanalysen die Einordnung als unschlüssig, und keine davon erreichte p < 0,05 (Tab. H4)."
+  }
+ ],
+ "zahlen": [
+  {
+   "absatz": "A1",
+   "zahl": "31",
+   "wert": "31",
+   "kennung": "K-01.1",
+   "bezugsmenge": "zur Eingangstestung angetreten (einziger Satz dieser Menge, Bezugsmengen-Regel 1)"
+  },
+  {
+   "absatz": "A1",
+   "zahl": "26",
+   "wert": "26",
+   "kennung": "K-01.14",
+   "bezugsmenge": "Analysepopulation (Menge ANA)"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "18",
+   "wert": "18",
+   "kennung": "K-10.4",
+   "bezugsmenge": "zugeteilte IG-Spieler, Nenner der Umsetzung"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "92",
+   "wert": "92",
+   "kennung": "K-10.3",
+   "bezugsmenge": "Meldungen Status ganz"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "6",
+   "wert": "6",
+   "kennung": "K-10.3",
+   "bezugsmenge": "Meldungen Status teilweise (Ziffer neben 92 und 13, Zweitprüfung Nr. 17)"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "13",
+   "wert": "13",
+   "kennung": "K-10.3",
+   "bezugsmenge": "Meldungen Status gar nicht"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "6,0",
+   "wert": "6,0",
+   "kennung": "K-10.8",
+   "bezugsmenge": "Median der Einheiten ganz je zugeteiltem IG-Spieler"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "zwölf",
+   "wert": "12",
+   "kennung": "K-10.4",
+   "bezugsmenge": "angebotene Einheiten je Spieler (Nenner, Bezeichnung von K-10.4)"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "42,6",
+   "wert": "42,6",
+   "kennung": "K-10.5",
+   "bezugsmenge": "Umsetzungsrate GANZ, zugeteilte IG-Spieler"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "45,4",
+   "wert": "45,4",
+   "kennung": "K-10.6",
+   "bezugsmenge": "Beteiligungsrate ganz oder teilweise, zugeteilte IG-Spieler"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "Zehn",
+   "wert": "10",
+   "kennung": "K-10.10",
+   "bezugsmenge": "Spieler mit GANZ ≥ 6 (Hauptzählung)"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "sechs",
+   "wert": "6",
+   "kennung": "K-10.10",
+   "bezugsmenge": "Schwelle (Per-Protokoll-Schwelle, Festlegung 11.09.2026), Bezeichnung von K-10.10"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "drei",
+   "wert": "3",
+   "kennung": "K-10.10",
+   "bezugsmenge": "Spieler mit GANZ ≥ 9 (Hauptzählung, Antragskriterium)"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "neun",
+   "wert": "9",
+   "kennung": "K-10.10",
+   "bezugsmenge": "Schwelle des Antragskriteriums, Bezeichnung von K-10.10"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "zwei",
+   "wert": "2",
+   "kennung": "Konstante",
+   "bezugsmenge": "Deckel der Zählweise WOCAP: höchstens zwei Meldungen ganz je Programmwoche (Spezifikation S07, F17 § 3.2, Anmerkung Tab. H2)"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "neun",
+   "wert": "9",
+   "kennung": "K-10.11",
+   "bezugsmenge": "WOCAP ≥ 6"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "zwei",
+   "wert": "2",
+   "kennung": "K-10.11",
+   "bezugsmenge": "WOCAP ≥ 9"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "neun",
+   "wert": "9",
+   "kennung": "K-10.11",
+   "bezugsmenge": "DIST ≥ 6"
+  },
+  {
+   "absatz": "A2",
+   "zahl": "einer",
+   "wert": "1",
+   "kennung": "K-10.11",
+   "bezugsmenge": "DIST ≥ 9"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "92",
+   "wert": "92",
+   "kennung": "K-10.13",
+   "bezugsmenge": "n der Meldungen ganz (CR-10)"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "2,9",
+   "wert": "2,9",
+   "kennung": "K-10.13",
+   "bezugsmenge": "CR-10 M"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "0,9",
+   "wert": "0,9",
+   "kennung": "K-10.13",
+   "bezugsmenge": "CR-10 SD"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "3,0",
+   "wert": "3,0",
+   "kennung": "K-10.13",
+   "bezugsmenge": "CR-10 Median"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "0,0",
+   "wert": "0,0",
+   "kennung": "K-10.13",
+   "bezugsmenge": "CR-10 Minimum"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "5,0",
+   "wert": "5,0",
+   "kennung": "K-10.13",
+   "bezugsmenge": "CR-10 Maximum"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "106,7",
+   "wert": "106,7",
+   "kennung": "K-10.14",
+   "bezugsmenge": "sRPE-Load M (AU, CR-10 mal Solldauer)"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "35,9",
+   "wert": "35,9",
+   "kennung": "K-10.14",
+   "bezugsmenge": "sRPE-Load SD"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "110,8",
+   "wert": "110,8",
+   "kennung": "K-10.14",
+   "bezugsmenge": "sRPE-Load Median"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "0,0",
+   "wert": "0,0",
+   "kennung": "K-10.14",
+   "bezugsmenge": "sRPE-Load Minimum"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "199,7",
+   "wert": "199,7",
+   "kennung": "K-10.14",
+   "bezugsmenge": "sRPE-Load Maximum"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "Zwölf",
+   "wert": "12",
+   "kennung": "K-10.12",
+   "bezugsmenge": "Meldungen mit H007 = 1 gesamt"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "neun",
+   "wert": "9",
+   "kennung": "K-10.12",
+   "bezugsmenge": "Spieler mit mindestens einer solchen Meldung"
+  },
+  {
+   "absatz": "A3",
+   "zahl": "zwei",
+   "wert": "2",
+   "kennung": "K-10.12",
+   "bezugsmenge": "davon je Status gar nicht und teilweise („je zwei“: 2 und 2)"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "−0,045",
+   "wert": "−0,045",
+   "kennung": "K-06.1",
+   "bezugsmenge": "adjustierte Differenz 30 m (b1), Analyseset"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "−0,199",
+   "wert": "−0,199",
+   "kennung": "K-06.1",
+   "bezugsmenge": "untere KI-Grenze"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "+0,110",
+   "wert": "+0,110",
+   "kennung": "K-06.1",
+   "bezugsmenge": "obere KI-Grenze"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "0,557",
+   "wert": "0,557",
+   "kennung": "K-06.1",
+   "bezugsmenge": "p"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "−0,012",
+   "wert": "−0,012",
+   "kennung": "K-06.2",
+   "bezugsmenge": "adjustierte Differenz 505-Seitenmittel"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "−0,085",
+   "wert": "−0,085",
+   "kennung": "K-06.2",
+   "bezugsmenge": "untere KI-Grenze"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "+0,061",
+   "wert": "+0,061",
+   "kennung": "K-06.2",
+   "bezugsmenge": "obere KI-Grenze"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "0,734",
+   "wert": "0,734",
+   "kennung": "K-06.2",
+   "bezugsmenge": "p"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "−0,1",
+   "wert": "−0,1",
+   "kennung": "K-06.3",
+   "bezugsmenge": "adjustierte Differenz Standweitsprung"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "−8,7",
+   "wert": "−8,7",
+   "kennung": "K-06.3",
+   "bezugsmenge": "untere KI-Grenze"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "+8,6",
+   "wert": "+8,6",
+   "kennung": "K-06.3",
+   "bezugsmenge": "obere KI-Grenze"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "0,987",
+   "wert": "0,987",
+   "kennung": "K-06.3",
+   "bezugsmenge": "p"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "null",
+   "wert": "0",
+   "kennung": "Konstante",
+   "bezugsmenge": "Bezugswert der Differenz (keine Ergebniszahl)"
+  },
+  {
+   "absatz": "A5",
+   "zahl": "0,05",
+   "wert": "0,05",
+   "kennung": "Konstante",
+   "bezugsmenge": "Testniveau der Entscheidungsregel (4.7, Studienprotokoll)"
+  },
+  {
+   "absatz": "A6",
+   "zahl": "0,915",
+   "wert": "0,915",
+   "kennung": "K-07.1 Z30",
+   "bezugsmenge": "Shapiro-Wilk W der Residuen, 30 m"
+  },
+  {
+   "absatz": "A6",
+   "zahl": "0,034",
+   "wert": "0,034",
+   "kennung": "K-07.1 Z30",
+   "bezugsmenge": "p"
+  },
+  {
+   "absatz": "A6",
+   "zahl": "−0,177",
+   "wert": "−0,177",
+   "kennung": "K-08.8 Z30",
+   "bezugsmenge": "Bootstrap-KI untere Grenze"
+  },
+  {
+   "absatz": "A6",
+   "zahl": "+0,107",
+   "wert": "+0,107",
+   "kennung": "K-08.8 Z30",
+   "bezugsmenge": "Bootstrap-KI obere Grenze"
+  },
+  {
+   "absatz": "A6",
+   "zahl": "sechs",
+   "wert": "6",
+   "kennung": "K-08.2 bis K-08.7",
+   "bezugsmenge": "vorab festgelegte Sensitivitätsanalysen wie in 4.7 (K-08.2 bis K-08.7), der Per-Protokoll-Vergleich (K-08.1) ist gesondert genannt"
+  },
+  {
+   "absatz": "A6",
+   "zahl": "0,05",
+   "wert": "0,05",
+   "kennung": "Konstante",
+   "bezugsmenge": "Testniveau"
+  }
+ ]
+}

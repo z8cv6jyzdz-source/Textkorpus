@@ -1,0 +1,11 @@
+Eingabe: 71507 Byte, MD5 d98a80ae971601a328be881294d94907
+Ausgabe: 72849 Byte, MD5 ac232b81fdfff548a7574af477a7ff1a
+T4: 152 Einträge ohne Kopfzeile (unverändert), Eintrag Aloui2022 in Zeile 153 berichtigt
+Einträge Aloui2022: 4
+  ersetzt: Kopf: Prüfumfang (75 -> 115 Zeichen)
+  ersetzt: Kopf: PMC-Liste (67 -> 121 Zeichen)
+  ersetzt: Punkt (4): Herkunft der Formel (81 -> 337 Zeichen)
+  ersetzt: Punkt (5): Dauer gedeckt, Übungsmix nicht (201 -> 557 Zeichen)
+  ersetzt: Lücke und wiederholte Sprints (182 -> 624 Zeichen)
+  ersetzt: Herkunftsvermerk (85 -> 248 Zeichen)
+Text: 3250 -> 4561 Zeichen, Bestand außerhalb der Zeile byte-gleich

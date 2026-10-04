@@ -1,0 +1,7 @@
+Eingang Notizen: 820015 Byte, MD5 630dd3fe50607ac9fea219f88380fd1d
+  Notizen Rev. 151 Punkt (3): 1 Ersetzung
+  Notizen Rev. 151 Korrektur (5): 1 Ersetzung
+  Notizen Rev. 151 Stand der Dateien: 1 Ersetzung
+Ausgang Notizen: 820746 Byte, MD5 0d5f519cd07c918749b4dba4cf9fd51d
+Rücklesen: 3381 Zeilen, geändert 3 (Zeile 26, 28, 32, erwartet: nur der Eintrag Rev. 151)
+Semikola in den neuen Teilen: 0

@@ -1,0 +1,3 @@
+Eingabe: 894070 Byte, MD5 9cc5ef30e7b7bf39cda3fc884e48133b
+Ausgabe: 901331 Byte, MD5 05a59bad7f167de7cdf15c831ceebc39
+Block vor Zeile 12 (Rev. 163) eingefügt, 16 Zeilen, Stand-Zeile ergänzt, sonst unverändert (geprüft)

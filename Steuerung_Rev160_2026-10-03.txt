@@ -1,0 +1,4 @@
+Steuerung_Rev160_2026-10-03.py — Rev.-Block 160 in Teil 0
+Eingabe: 870264 Byte, MD5 75b15739039f7cbd3efec9c8cdfcb2da
+Ausgabe: 874501 Byte, MD5 80fb20453b2420ab48dccf97849ea47d
+Block vor Zeile 12 (Rev. 159) eingefügt, 14 Zeilen, Stand-Zeile ergänzt, sonst unverändert (geprüft)

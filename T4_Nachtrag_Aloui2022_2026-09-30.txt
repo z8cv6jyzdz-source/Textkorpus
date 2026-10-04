@@ -1,0 +1,5 @@
+Eingabe: 68054 Byte, MD5 4d981572bef92f9279f9f89cff6cd84c
+Ausgabe: 71507 Byte, MD5 d98a80ae971601a328be881294d94907
+T4: 152 Einträge ohne Kopfzeile (vorher 151)
+Einträge Aloui2022 jetzt: 4
+Neuer Eintrag: 3250 Zeichen, Bestand byte-gleich übernommen

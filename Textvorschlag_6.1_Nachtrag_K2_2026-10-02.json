@@ -1,0 +1,80 @@
+{
+ "quelle": "Textvorschlag_6.1_2026-10-02.json",
+ "stufe1_gestrichen": "In der einzigen kontrollierten Studie zur Übergangsperiode mit plyometrischem Arm wurden regionale U19-Spieler auch mit sechs Einheiten in drei Wochen im 30-m-Sprint langsamer, ohne Training stärker (Liu et al., 2024).",
+ "varianten": {
+  "A": {
+   "modul": "Auch in digitalen Lebensstilprogrammen für Jugendliche wurde nach einer systematischen Übersicht im Mittel nur gut die Hälfte der Programmbestandteile absolviert, bei großer Streuung (Boumparis et al., 2026).",
+   "A2": "Die Hauptanalyse schätzt die Wirkung des Programmangebots, nicht die des Trainings. Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotenen Einheiten als vollständig, einige keine einzige. Auch in digitalen Lebensstilprogrammen für Jugendliche wurde nach einer systematischen Übersicht im Mittel nur gut die Hälfte der Programmbestandteile absolviert, bei großer Streuung (Boumparis et al., 2026). Der Schätzer ist durch die eigene Umsetzung stark verdünnt: Ein nicht nachweisbarer Unterschied bedeutet zunächst nur, dass das Angebot in dieser Umsetzung nichts Nachweisbares bewirkt hat. Der beobachtende Per-Protokoll-Vergleich der Spieler mit mindestens der Hälfte der Einheiten als vollständig gemeldet änderte die Einordnung nicht. Seine Punktschätzer lagen nahe null und wechselten das Vorzeichen, beim Richtungswechsel reichte die Fallzahl nicht für eine Inferenz.",
+   "A3": "Hohe Laufgeschwindigkeit, die die 30-m-Zeit mit erfasst, verlangt große Kräfte in kurzen Bodenkontakten (Oliver et al., 2024). Beschreibend lagen die mittleren 30-m-Zeiten der Interventionsgruppe nach der Sommerpause etwas höher als zuvor, die der Kontrollgruppe gleich. Die adjustierte Gruppendifferenz lag nahe null, ihr Intervall ließ relevante Unterschiede in beide Richtungen zu. Metaanalysen fanden plyometrisches Training bei jungen Fußballspielern überwiegend höherer Spielklassen für die Sprintleistung über 15 bis 40 m wirksam (Oliver et al., 2024; Zheng et al., 2025). Eine weitere fand das schon für Programme bis sieben Wochen (Ramirez-Campillo et al., 2020). Der eigene Befund blieb dahinter zurück, schließt solche Effekte aber nicht aus. Beim Sprint war zudem am wenigsten zu erwarten: Programme mit vertikalen Sprüngen und langen Bodenkontakten dürften eher Sprung, Beschleunigung und Richtungswechsel ansprechen (Oliver et al., 2024), Sprintinhalte fehlten.",
+   "summe": 700,
+   "saetze": 40,
+   "median": 16.0,
+   "laengster": 31
+  },
+  "B": {
+   "modul": "In digitalen Lebensstilprogrammen für Jugendliche blieben nach einer systematischen Übersicht die meisten in der Studie, absolviert wurde im Mittel nur gut die Hälfte der Programmbestandteile (Boumparis et al., 2026).",
+   "A2": "Die Hauptanalyse schätzt die Wirkung des Programmangebots, nicht die des Trainings. Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotenen Einheiten als vollständig, einige keine einzige. In digitalen Lebensstilprogrammen für Jugendliche blieben nach einer systematischen Übersicht die meisten in der Studie, absolviert wurde im Mittel nur gut die Hälfte der Programmbestandteile (Boumparis et al., 2026). Der eigene Schätzer ist damit stark verdünnt: Ein nicht nachweisbarer Unterschied bedeutet zunächst nur, dass das Angebot in dieser Umsetzung nichts Nachweisbares bewirkt hat. Der beobachtende Per-Protokoll-Vergleich der Spieler mit mindestens der Hälfte der Einheiten als vollständig gemeldet änderte die Einordnung nicht. Seine Punktschätzer lagen nahe null und wechselten das Vorzeichen, beim Richtungswechsel reichte die Fallzahl nicht für eine Inferenz.",
+   "A3": "Hohe Laufgeschwindigkeit, die die 30-m-Zeit mit erfasst, verlangt große Kräfte in kurzen Bodenkontakten (Oliver et al., 2024). Beschreibend lagen die mittleren 30-m-Zeiten der Interventionsgruppe nach der Sommerpause etwas höher als zuvor, die der Kontrollgruppe gleich. Die adjustierte Gruppendifferenz lag nahe null, ihr Intervall ließ relevante Unterschiede in beide Richtungen zu. Metaanalysen fanden plyometrisches Training bei jungen Fußballspielern überwiegend höherer Spielklassen für die Sprintleistung über 15 bis 40 m wirksam (Oliver et al., 2024; Zheng et al., 2025). Eine weitere fand das schon für Programme bis sieben Wochen (Ramirez-Campillo et al., 2020). Der eigene Befund blieb dahinter zurück, schließt solche Effekte aber nicht aus. Beim Sprint war zudem am wenigsten zu erwarten: Programme mit vertikalen Sprüngen und langen Bodenkontakten dürften eher Sprung, Beschleunigung und Richtungswechsel ansprechen (Oliver et al., 2024), Sprintinhalte fehlten.",
+   "summe": 700,
+   "saetze": 40,
+   "median": 16.0,
+   "laengster": 31
+  },
+  "Verzicht": {
+   "modul": "",
+   "A2": "Die Hauptanalyse schätzt die Wirkung des Programmangebots, nicht die des Trainings. Die zugeteilten Spieler meldeten weniger als die Hälfte der angebotenen Einheiten als vollständig, einige keine einzige. Der Schätzer ist damit stark verdünnt: Ein nicht nachweisbarer Unterschied bedeutet zunächst nur, dass das Angebot in dieser Umsetzung nichts Nachweisbares bewirkt hat. Der beobachtende Per-Protokoll-Vergleich der Spieler mit mindestens der Hälfte der Einheiten als vollständig gemeldet änderte die Einordnung nicht. Seine Punktschätzer lagen nahe null und wechselten das Vorzeichen, beim Richtungswechsel reichte die Fallzahl nicht für eine Inferenz.",
+   "A3": "Hohe Laufgeschwindigkeit, die die 30-m-Zeit mit erfasst, verlangt große Kräfte in kurzen Bodenkontakten (Oliver et al., 2024). Beschreibend lagen die mittleren 30-m-Zeiten der Interventionsgruppe nach der Sommerpause etwas höher als zuvor, die der Kontrollgruppe gleich. Die adjustierte Gruppendifferenz lag nahe null, ihr Intervall ließ relevante Unterschiede in beide Richtungen zu. Metaanalysen fanden plyometrisches Training bei jungen Fußballspielern überwiegend höherer Spielklassen für die Sprintleistung über 15 bis 40 m wirksam (Oliver et al., 2024; Zheng et al., 2025). Eine weitere fand das schon für Programme bis sieben Wochen (Ramirez-Campillo et al., 2020). Der eigene Befund blieb dahinter zurück, schließt solche Effekte aber nicht aus. Beim Sprint war zudem am wenigsten zu erwarten: Programme mit vertikalen Sprüngen und langen Bodenkontakten dürften eher Sprung, Beschleunigung und Richtungswechsel ansprechen (Oliver et al., 2024), Sprintinhalte fehlten. In der einzigen kontrollierten Studie zur Übergangsperiode mit plyometrischem Arm wurden regionale U19-Spieler auch mit sechs Einheiten in drei Wochen im 30-m-Sprint langsamer, ohne Training stärker (Liu et al., 2024).",
+   "summe": 700,
+   "saetze": 40,
+   "median": 16.0,
+   "laengster": 31
+  }
+ },
+ "satzkerne": {
+  "Nr. 3 (6.3 G3, Klusemann)": {
+   "text": "In einer kontrollierten Studie mit Nachwuchsbasketballspielern absolvierte die Videogruppe eines sechswöchigen Krafttrainings mit zwölf Einheiten nach Online-Tagebuch gut drei Viertel davon, die betreute Gruppe fast alle (Klusemann et al., 2012).",
+   "woerter_je_satz": [
+    30
+   ]
+  },
+  "Nr. 4 (6.3 G3, nur bei A oder Verzicht)": {
+   "text": "Auch in digitalen Lebensstilprogrammen für Jugendliche überschätzte nach einer systematischen Übersicht der Verbleib in der Studie die tatsächliche Nutzung (Boumparis et al., 2026).",
+   "woerter_je_satz": [
+    23
+   ]
+  },
+  "Nr. 5 (6.3 Stärken oder G6)": {
+   "text": "Die Umsetzung wurde mit Definition als Anteil vollständig gemeldeter Einheiten und als Verteilung je Spieler berichtet, wie es eine systematische Übersicht zu digitalen Lebensstilprogrammen für Jugendliche empfiehlt (Boumparis et al., 2026).",
+   "woerter_je_satz": [
+    31
+   ]
+  },
+  "Nr. 6 (6.3 G6)": {
+   "text": "Objektive Nutzungsdaten der Videos und Gründe für nicht durchgeführte Einheiten wurden nicht erfasst, der Trainingstag nur über den Meldezeitpunkt. Wie genau die Selbstauskunft die Durchführung abbildet, bleibt offen.",
+   "woerter_je_satz": [
+    19,
+    9
+   ]
+  },
+  "Nr. 7 (Kapitel 7, ohne Quelle)": {
+   "text": "Künftige Studien sollten die Umsetzung unbeaufsichtigter Heimprogramme als Anteil absolvierter Einheiten und als Anteil der Spieler mit vollständigem Programm berichten, jeweils mit Definition. Dazu gehören objektive Nutzungsdaten und die Gründe ausgelassener Einheiten. Welche Merkmale der Vermittlung die Umsetzung unbeaufsichtigter Heimprogramme im Nachwuchssport erhöhen, wäre experimentell zu prüfen.",
+   "woerter_je_satz": [
+    23,
+    9,
+    15
+   ]
+  },
+  "Nr. 8 (Einleitung Abs. 3, Vormerkung)": {
+   "text": "Jugendliche nutzten digitale Lebensstilprogramme nach einer systematischen Übersicht allerdings im Mittel nur teilweise (Boumparis et al., 2026).",
+   "woerter_je_satz": [
+    17
+   ]
+  },
+  "Alternative Lücke Abs. 5 (nicht empfohlen)": {
+   "text": "Wie weit Spieler ein solches Programm ohne Aufsicht umsetzen, ist ebenso offen.",
+   "woerter_je_satz": [
+    12
+   ]
+  }
+ }
+}

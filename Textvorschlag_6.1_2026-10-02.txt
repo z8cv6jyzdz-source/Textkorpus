@@ -1,0 +1,13 @@
+Textvorschlag 6.1 — Messprotokoll (Fassung 3, 03.10.2026, A3 bis A5 nach dem freigegebenen Nachtrag Argumentationsstruktur, Zählung wie Messskript Fassung 4)
+
+A1: 99 Wörter (Ziel 105), 6 Sätze, Median 13.5, längster 31, Belegklammern 0
+A2: 116 Wörter (Ziel 120), 6 Sätze, Median 18.0, längster 27, Belegklammern 1, Semikola in Klammern 0
+A3: 116 Wörter (Ziel 130), 6 Sätze, Median 17.5, längster 27, Belegklammern 3, Semikola in Klammern 1
+A4: 142 Wörter (Ziel 135), 9 Sätze, Median 16.0, längster 26, Belegklammern 4, Semikola in Klammern 0
+A5: 159 Wörter (Ziel 135), 8 Sätze, Median 20.5, längster 30, Belegklammern 5, Semikola in Klammern 1
+A6: 68 Wörter (Ziel 55), 5 Sätze, Median 14.0, längster 19, Belegklammern 0
+
+Summe 6.1 (A1 bis A6, kein offenes Modul): 700 Wörter (Budget 700, Rest 0)
+Sätze gesamt: 40, Median 16.5 Wörter, längster 31
+Semikola außerhalb von Zitierklammern: 0 · nummerierte Abschnittsverweise: 0 · Belegklammern: 13
+Ziffernzahlen außerhalb von Zitierklammern: 15, 30, 30, 15, 40, 505, 505, 505, 505, 90

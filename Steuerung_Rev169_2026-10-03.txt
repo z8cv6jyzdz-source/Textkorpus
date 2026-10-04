@@ -1,0 +1,5 @@
+Steuerung Rev. 169
+Eingang /mnt/user-data/uploads/Bachelorarbeit/Claude/00_Steuerung/Cowork_Sitzungsnotizen.md 933936 Byte MD5 27becb6d93b2cae3a66b930eb6659d82
+Ausgang /mnt/user-data/outputs/rev169_2026-10-03_a/Cowork_Sitzungsnotizen.md 941954 Byte MD5 7bf2f3031f62ab68e23c00b11cf4e1d1
+oberster Block vorher Rev. 168, neu Rev. 169
+Uebergabe 6 /mnt/user-data/uploads/Bachelorarbeit/Claude/04_Uebergaben/Uebergabe_Abgleich_Ergebnisse_Fortsetzung6_2026-10-03.md 17466 Byte MD5 6f61e853b6c471c64e4fc959d8ffca14

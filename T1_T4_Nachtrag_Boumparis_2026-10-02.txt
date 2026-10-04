@@ -1,0 +1,18 @@
+Lauf 1 (02.10.2026, 17:53 Sitzungsuhr, nach der Zweitprüfung, Quelle: Ordnerstand T1 MD5 a4d07a26…, T4 MD5 cba50a05…)
+T1: 75 Steckbriefe vorher, 1 neu (Boumparis2026), 76 nachher
+T1 geändert: Klusemann2012.evidenzsicherheit + Vermerk Distanzregel
+T4: 158 Zitierfallen vorher, 12 neu, 0 korrigiert, 170 nachher
+T1_steckbriefe.csv: MD5 vorher a4d07a26ec62c45bd6444e3001b898c4, nachher 4183ced20ee5dce612cc890377d27116, 102374 Byte
+T4_zitierfallen.csv: MD5 vorher cba50a05a3e7250683dc170b71f1451d, nachher 074e70a6ac5efc9ebf2bb01b90e9d1db, 85384 Byte
+T1_steckbriefe.csv rückgelesen: 76 Zeilen, 15 Felder, Altzeilen außer Boumparis2026, Klusemann2012 unverändert
+T4_zitierfallen.csv rückgelesen: 170 Zeilen, 3 Felder
+
+Lauf 2 (02.10.2026, 18:06 Sitzungsuhr, nach Klick K2: Modul A2-M Variante A, Einleitung Gegenbefund in Absatz 3, Quelle: Ordnerstand T1 MD5 4183ced2…, T4 MD5 074e70a6…)
+T1: 76 Steckbriefe vorher, 0 neu (), 76 nachher
+T1 geändert: Klusemann2012.kapitel → 6.3 G3 (Aufsicht, Umsetzung der Videogruppe, Klick K2 02.10.2026), nicht mehr 6.1 · Boumparis2026.kapitel → 6.1 (Modul A2-M, Variante A, Klick K2 02.10.2026), 6.3 G3 (Verbleib überschätzt Nutzung) und Stärken oder G6 (Berichtsempfehlung), 7 ohne Quelle, Einleitung Abs. 3 (Gegenbefund, Klick 02.10.2026, Schlussfassung)
+T4: 170 Zitierfallen vorher, 0 neu, 0 korrigiert, 170 nachher
+T1_steckbriefe.csv: MD5 vorher 4183ced20ee5dce612cc890377d27116, nachher 5e4f17544f8f6f1fa1f59b2662ebc733, 102519 Byte
+T4_zitierfallen.csv: MD5 vorher 074e70a6ac5efc9ebf2bb01b90e9d1db, nachher 074e70a6ac5efc9ebf2bb01b90e9d1db, 85384 Byte
+T1_steckbriefe.csv rückgelesen: 76 Zeilen, 15 Felder, Altzeilen außer Boumparis2026, Klusemann2012 unverändert
+T4_zitierfallen.csv rückgelesen: 170 Zeilen, 3 Felder
+T4_zitierfallen.csv unverändert (MD5 gleich), nicht zurückgeschrieben

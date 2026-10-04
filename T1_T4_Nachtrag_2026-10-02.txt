@@ -1,0 +1,15 @@
+Lauf 1 (02.10.2026, 14:40 Sitzungsuhr, Quelle: Ordnerstand vor dem Nachtrag)
+T1: 72 Steckbriefe vorher, 3 neu (Klusemann2012, Rogers2020, Veith2021), 75 nachher
+T4: 152 Zitierfallen vorher, 5 neu, 157 nachher
+T1_steckbriefe.csv: MD5 vorher 7bab35b273989f36cf035f280a2fa916, nachher a4d07a26ec62c45bd6444e3001b898c4, 97687 Byte
+T4_zitierfallen.csv: MD5 vorher ac232b81fdfff548a7574af477a7ff1a, nachher 14d28c34184e5852b280ab76b1be2cbd, 75429 Byte
+T1_steckbriefe.csv rückgelesen: 75 Zeilen, 15 Felder
+T4_zitierfallen.csv rückgelesen: 157 Zeilen, 3 Felder
+
+Lauf 2 (02.10.2026, nach Klick K5, Quelle: Ordnerstand nach Lauf 1, nur die T4-Zeile Zheng2025 „Leistungsniveau nicht berichtet“ neu)
+T1: 75 Steckbriefe vorher, 0 neu (), 75 nachher
+T4: 157 Zitierfallen vorher, 1 neu, 158 nachher
+T1_steckbriefe.csv: MD5 vorher a4d07a26ec62c45bd6444e3001b898c4, nachher a4d07a26ec62c45bd6444e3001b898c4, 97687 Byte
+T4_zitierfallen.csv: MD5 vorher 14d28c34184e5852b280ab76b1be2cbd, nachher cba50a05a3e7250683dc170b71f1451d, 76133 Byte
+T1_steckbriefe.csv rückgelesen: 75 Zeilen, 15 Felder
+T4_zitierfallen.csv rückgelesen: 158 Zeilen, 3 Felder

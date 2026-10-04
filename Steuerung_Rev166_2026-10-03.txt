@@ -1,0 +1,6 @@
+Eingang: 908847 Byte · MD5 a5fb694fc174c60dbd46a9b707e16175
+Block Rev. 166 vor Zeile 12 eingefügt (16 Zeilen), Standzeile auf Rev. 166
+Ausgang: 916537 Byte · MD5 bbc37ebf6c217dd085e9a70e8a9587f6
+Übriger Text unverändert: ja
+Semikola im Block: 0
+Semikola im Skript: 0

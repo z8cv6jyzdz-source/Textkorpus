@@ -1,0 +1,90 @@
+Textvorschlag Kapitel 5, Messung und Prüfungen (Textvorschlag_5_2026-09-30.py)
+
+Gr.  Abs  Wörter  Sätze längster  Median  Semi  Verw   Bel  Dopp
+5.1  A1       49      4       22    10,5     0     0     0     0
+5.1  A2       80      4       27    19,5     0     0     0     0
+5.1  A3       66      4       22    18,0     0     0     0     0
+5.1  A4       41      2       26    20,5     0     0     0     0
+5.2  A5      146     11       24    12,0     0     0     0     0
+5.2  A6       68      4       28    14,5     0     0     0     0
+
+Absatzgruppe 5.1: 236 Wörter gegen Richtwert 230 (+6)
+Absatzgruppe 5.2: 214 Wörter gegen Richtwert 220 (-6)
+Kapitel 5: 450 Wörter gegen Budget 450 (+0), 29 Sätze, Median 15,0, längster Satz 28, Sätze über 32: 0
+
+Wortprüfung (Deutungs- und Verbotswörter): 0 Treffer
+
+Zahlen gegen Kennungen:
+  A1  31       K-01.1      stimmt zur Eingangstestung angetreten (einziger Satz dieser Menge, Bezugsmengen-Regel 1)
+  A1  26       K-01.14     stimmt Analysepopulation (Menge ANA)
+  A2  18       K-10.4      stimmt zugeteilte IG-Spieler, Nenner der Umsetzung
+  A2  92       K-10.3      stimmt Meldungen Status ganz
+  A2  6        K-10.3      stimmt Meldungen Status teilweise (Ziffer neben 92 und 13, Zweitprüfung Nr. 17)
+  A2  13       K-10.3      stimmt Meldungen Status gar nicht
+  A2  6,0      K-10.8      stimmt Median der Einheiten ganz je zugeteiltem IG-Spieler
+  A2  zwölf    K-10.4      stimmt angebotene Einheiten je Spieler (Nenner, Bezeichnung von K-10.4)
+  A2  42,6     K-10.5      stimmt Umsetzungsrate GANZ, zugeteilte IG-Spieler
+  A2  45,4     K-10.6      stimmt Beteiligungsrate ganz oder teilweise, zugeteilte IG-Spieler
+  A2  Zehn     K-10.10     stimmt Spieler mit GANZ ≥ 6 (Hauptzählung)
+  A2  sechs    K-10.10     stimmt Schwelle (Per-Protokoll-Schwelle, Festlegung 11.09.2026), Bezeichnung von K-10.10
+  A2  drei     K-10.10     stimmt Spieler mit GANZ ≥ 9 (Hauptzählung, Antragskriterium)
+  A2  neun     K-10.10     stimmt Schwelle des Antragskriteriums, Bezeichnung von K-10.10
+  A2  zwei     Konstante  Deckel der Zählweise WOCAP: höchstens zwei Meldungen ganz je Programmwoche (Spezifikation S07, F17 § 3.2, Anmerkung Tab. H2)
+  A2  neun     K-10.11     stimmt WOCAP ≥ 6
+  A2  zwei     K-10.11     stimmt WOCAP ≥ 9
+  A2  neun     K-10.11     stimmt DIST ≥ 6
+  A2  einer    K-10.11     stimmt DIST ≥ 9
+  A3  92       K-10.13     stimmt n der Meldungen ganz (CR-10)
+  A3  2,9      K-10.13     stimmt CR-10 M
+  A3  0,9      K-10.13     stimmt CR-10 SD
+  A3  3,0      K-10.13     stimmt CR-10 Median
+  A3  0,0      K-10.13     stimmt CR-10 Minimum
+  A3  5,0      K-10.13     stimmt CR-10 Maximum
+  A3  106,7    K-10.14     stimmt sRPE-Load M (AU, CR-10 mal Solldauer)
+  A3  35,9     K-10.14     stimmt sRPE-Load SD
+  A3  110,8    K-10.14     stimmt sRPE-Load Median
+  A3  0,0      K-10.14     stimmt sRPE-Load Minimum
+  A3  199,7    K-10.14     stimmt sRPE-Load Maximum
+  A3  Zwölf    K-10.12     stimmt Meldungen mit H007 = 1 gesamt
+  A3  neun     K-10.12     stimmt Spieler mit mindestens einer solchen Meldung
+  A3  zwei     K-10.12     stimmt davon je Status gar nicht und teilweise („je zwei“: 2 und 2)
+  A5  −0,045   K-06.1      stimmt adjustierte Differenz 30 m (b1), Analyseset
+  A5  −0,199   K-06.1      stimmt untere KI-Grenze
+  A5  +0,110   K-06.1      stimmt obere KI-Grenze
+  A5  0,557    K-06.1      stimmt p
+  A5  −0,012   K-06.2      stimmt adjustierte Differenz 505-Seitenmittel
+  A5  −0,085   K-06.2      stimmt untere KI-Grenze
+  A5  +0,061   K-06.2      stimmt obere KI-Grenze
+  A5  0,734    K-06.2      stimmt p
+  A5  −0,1     K-06.3      stimmt adjustierte Differenz Standweitsprung
+  A5  −8,7     K-06.3      stimmt untere KI-Grenze
+  A5  +8,6     K-06.3      stimmt obere KI-Grenze
+  A5  0,987    K-06.3      stimmt p
+  A5  null     Konstante  Bezugswert der Differenz (keine Ergebniszahl)
+  A5  0,05     Konstante  Testniveau der Entscheidungsregel (4.7, Studienprotokoll)
+  A6  0,915    K-07.1 Z30  stimmt Shapiro-Wilk W der Residuen, 30 m
+  A6  0,034    K-07.1 Z30  stimmt p
+  A6  −0,177   K-08.8 Z30  stimmt Bootstrap-KI untere Grenze
+  A6  +0,107   K-08.8 Z30  stimmt Bootstrap-KI obere Grenze
+  A6  sechs    K-08.2 bis K-08.7 stimmt vorab festgelegte Sensitivitätsanalysen wie in 4.7 (K-08.2 bis K-08.7), der Per-Protokoll-Vergleich (K-08.1) ist gesondert genannt
+  A6  0,05     Konstante  Testniveau
+  53 von 53 Einträgen stimmen. Ziffernzahlen im Text 38, erfasst 38. Zahlwörter im Text 15, erfasst 15.
+
+Objektverweise:
+  Abb. 1  A1 S1  Subjekt  Erstverweis
+  Tab. 2  A1 S3  Subjekt  Erstverweis
+  Tab. H3 A1 S3  Subjekt  Erstverweis
+  Tab. H2 A2 S1  Klammer  Erstverweis
+  Tab. H2 A2 S3  Klammer  Wiederaufruf
+  Tab. H5 A2 S3  Klammer  Erstverweis
+  Tab. 1  A4 S1  Klammer  Wiederaufruf (eingeführt in 4.4)
+  Tab. H1 A4 S2  Klammer  Wiederaufruf (eingeführt in 4.4)
+  Tab. 3  A5 S1  Subjekt  Erstverweis
+  Abb. 2  A5 S2  Subjekt  Erstverweis
+  Tab. H3 A5 S11 Klammer  Wiederaufruf
+  Tab. H4 A6 S3  Klammer  Wiederaufruf (eingeführt in 4.7)
+  Tab. H4 A6 S4  Klammer  Wiederaufruf
+
+Satzenden auf Ziffer oder Einzelbuchstaben (von saetze() nicht getrennt): 0
+
+Ergebnis: ohne Befund

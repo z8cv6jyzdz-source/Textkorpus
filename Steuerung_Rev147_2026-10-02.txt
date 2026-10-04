@@ -1,0 +1,15 @@
+Eingang Notizen: 784235 Byte, MD5 cf2fd27c4413f9ab49fd8af38258e2df
+Eingang Maßnahmenliste: 228821 Byte, MD5 e3a17f63c3103bd2cb4f9df909d8bf26
+Befund: 33248 Byte, MD5 49bbb998dfcd168fb9d400a274f562f7
+  Notizen Stand: 1 Ersetzung
+  Notizen Block Rev. 147: 1 Ersetzung
+  Liste Stand: 1 Ersetzung
+  Liste H13: 1 Ersetzung
+  Liste H16 neu: 1 Ersetzung
+  Liste Taskzeile 12: 1 Ersetzung
+  Liste Taskzeile 13: 1 Ersetzung
+  Liste Beschaffung: 1 Ersetzung
+  Liste Summe: 1 Ersetzung
+Ausgang Notizen: 789378 Byte, MD5 a0efd5f008307c32cf2f6af684dc8fd2
+Ausgang Maßnahmenliste: 230912 Byte, MD5 386094f0d5786b108ca7d2afaf00c32c
+Semikola im neuen Block: 0 · in H16: 0

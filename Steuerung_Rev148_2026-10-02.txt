@@ -1,0 +1,17 @@
+Eingang Notizen: 789378 Byte, MD5 a0efd5f008307c32cf2f6af684dc8fd2
+Eingang Maßnahmenliste: 230912 Byte, MD5 386094f0d5786b108ca7d2afaf00c32c
+Eingang Plan: 82833 Byte, MD5 947bfb9ddbd0f0de31629a6aef5816be
+Prompt: 11605 Byte, MD5 ade0fb0e3eadfb8f956610c98012c8ca, Semikola 0
+  Notizen Stand: 1 Ersetzung
+  Notizen Block Rev. 148: 1 Ersetzung
+  Liste Stand: 1 Ersetzung
+  Liste H16: 1 Ersetzung
+  Liste Taskzeile 12: 1 Ersetzung
+  Liste Taskzeile 13: 1 Ersetzung
+  Liste Summe: 1 Ersetzung
+  Plan Nachtrag 02.10.: 1 Ersetzung
+  Plan Startsatz § 8: 1 Ersetzung
+Ausgang Notizen: 795072 Byte, MD5 e86716485d323af2c786c371d28929fd
+Ausgang Maßnahmenliste: 232091 Byte, MD5 92d9fead881589e478e313b9497bc3f0
+Ausgang Plan: 84286 Byte, MD5 f9e716b6269d90bfbdde303df18237ff
+Semikola im neuen Block: 0 · im H16-Vermerk: 0 · im Plan-Nachtrag: 0 · im Startsatz: 0

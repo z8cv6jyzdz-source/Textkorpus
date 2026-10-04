@@ -1,0 +1,51 @@
+Textvorschlag 6.1, Nachtrag K2 — Messprotokoll (02.10.2026, Zählung wie Messskript Fassung 4)
+
+Ausgangsstand (JSON Task 12a): A1 99 + A2 86 + A3 161 + A4 133 + A5 153 + A6 68 = 700 Wörter ohne Modul, Modul A2-M alt 29 Wörter
+Stufe 1: A3 S8 gestrichen (30 Wörter): „In der einzigen kontrollierten Studie zur Übergangsperiode mit…“
+Ausgangsstand A2 S3: „Der Schätzer ist damit stark verdünnt: Ein nicht nachweisbarer Unterschied bedeutet zunächst nur, dass das Angebot in dieser Umsetzung nichts Nachweisbares bewirkt hat.“ (23 Wörter)
+
+Variante A (Modul nach A2 S2, A2 S3 „Der Schätzer ist durch die eigene Umsetzung stark verdünnt:“, Stufe 1)
+  Modul: 27 Wörter, 1 Satz, Belegklammern 1, Wertungswörter: keine
+  Modul + Anschluss S3: 30 Wörter
+  A1: 99 Wörter, 6 Sätze, Median 13.5, längster 31
+  A2: 116 Wörter, 6 Sätze, Median 18.0, längster 27
+  A3: 131 Wörter, 7 Sätze, Median 17.0, längster 28
+  A4: 133 Wörter, 8 Sätze, Median 15.5, längster 26
+  A5: 153 Wörter, 8 Sätze, Median 20.5, längster 25
+  A6: 68 Wörter, 5 Sätze, Median 14.0, längster 19
+  Summe 6.1: 700 Wörter (Budget 700, Rest 0)
+  Sätze 40, Median 16.0, längster 31 · Semikola außerhalb von Zitierklammern 0 · Abschnittsverweise 0 · Belegklammern 14 · Quellen 9
+  Quellen: Boumparis et al. (2026), Lloyd et al. (2016), Negra et al. (2020), Oliver et al. (2024), Ramirez-Campillo et al. (2020), Ramirez-Campillo et al. (2023), Sammoud et al. (2024), Thomas et al. (2020), Zheng et al. (2025)
+
+Variante B (Modul nach A2 S2, A2 S3 „Der eigene Schätzer ist damit stark verdünnt:“, Stufe 1)
+  Modul: 29 Wörter, 1 Satz, Belegklammern 1, Wertungswörter: keine
+  Modul + Anschluss S3: 30 Wörter
+  A1: 99 Wörter, 6 Sätze, Median 13.5, längster 31
+  A2: 116 Wörter, 6 Sätze, Median 18.0, längster 29
+  A3: 131 Wörter, 7 Sätze, Median 17.0, längster 28
+  A4: 133 Wörter, 8 Sätze, Median 15.5, längster 26
+  A5: 153 Wörter, 8 Sätze, Median 20.5, längster 25
+  A6: 68 Wörter, 5 Sätze, Median 14.0, längster 19
+  Summe 6.1: 700 Wörter (Budget 700, Rest 0)
+  Sätze 40, Median 16.0, längster 31 · Semikola außerhalb von Zitierklammern 0 · Abschnittsverweise 0 · Belegklammern 14 · Quellen 9
+  Quellen: Boumparis et al. (2026), Lloyd et al. (2016), Negra et al. (2020), Oliver et al. (2024), Ramirez-Campillo et al. (2020), Ramirez-Campillo et al. (2023), Sammoud et al. (2024), Thomas et al. (2020), Zheng et al. (2025)
+
+Variante Verzicht
+  A1: 99 Wörter, 6 Sätze, Median 13.5, längster 31
+  A2: 86 Wörter, 5 Sätze, Median 18.0, längster 23
+  A3: 161 Wörter, 8 Sätze, Median 17.5, längster 30
+  A4: 133 Wörter, 8 Sätze, Median 15.5, längster 26
+  A5: 153 Wörter, 8 Sätze, Median 20.5, längster 25
+  A6: 68 Wörter, 5 Sätze, Median 14.0, längster 19
+  Summe 6.1: 700 Wörter (Budget 700, Rest 0)
+  Sätze 40, Median 16.0, längster 31 · Semikola außerhalb von Zitierklammern 0 · Abschnittsverweise 0 · Belegklammern 14 · Quellen 9
+  Quellen: Liu et al. (2024), Lloyd et al. (2016), Negra et al. (2020), Oliver et al. (2024), Ramirez-Campillo et al. (2020), Ramirez-Campillo et al. (2023), Sammoud et al. (2024), Thomas et al. (2020), Zheng et al. (2025)
+
+Satzkerne für die Folgetasks (Nachtrag § 2), Wörter je Satz und gesamt:
+  Nr. 3 (6.3 G3, Klusemann): 30 = 30 Wörter, längster Satz 30
+  Nr. 4 (6.3 G3, nur bei A oder Verzicht): 23 = 23 Wörter, längster Satz 23
+  Nr. 5 (6.3 Stärken oder G6): 31 = 31 Wörter, längster Satz 31
+  Nr. 6 (6.3 G6): 19 + 9 = 28 Wörter, längster Satz 19
+  Nr. 7 (Kapitel 7, ohne Quelle): 23 + 9 + 15 = 47 Wörter, längster Satz 23
+  Nr. 8 (Einleitung Abs. 3, Vormerkung): 17 = 17 Wörter, längster Satz 17
+  Alternative Lücke Abs. 5 (nicht empfohlen): 12 = 12 Wörter, längster Satz 12

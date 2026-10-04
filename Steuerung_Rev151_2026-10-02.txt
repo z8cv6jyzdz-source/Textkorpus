@@ -1,0 +1,23 @@
+Eingang Notizen: 808825 Byte, MD5 7d6ccb8ab54435c18da39e79a90940e2
+Eingang Maßnahmenliste: 235044 Byte, MD5 e02a9560da060fcfd2e0ada966f5e3d6
+Eingang Plan: 84286 Byte, MD5 f9e716b6269d90bfbdde303df18237ff
+Nachtrag K2: 43891 Byte, MD5 c91b8e992edb8639a2bbcd3259e381e9, Semikola 0
+  Notizen Stand: 1 Ersetzung
+  Notizen Block Rev. 151: 1 Ersetzung
+  Liste Stand: 1 Ersetzung
+  Liste H16: 1 Ersetzung
+  Liste G35: 1 Ersetzung
+  Liste G37: 1 Ersetzung
+  Liste Taskzeile 12: 1 Ersetzung
+  Liste Taskzeile 13: 1 Ersetzung
+  Liste Summe: 1 Ersetzung
+  Plan Nachtrag 02.10. abends: 1 Ersetzung
+  Plan Startsatz Boumparis erledigt: 1 Ersetzung
+  Plan Startsatz 12a Fortsetzung: 1 Ersetzung
+Ausgang Notizen: 820015 Byte, MD5 630dd3fe50607ac9fea219f88380fd1d
+Ausgang Maßnahmenliste: 237932 Byte, MD5 fdc385d13911a32e9fc5bf77d2bd7653
+Ausgang Plan: 85531 Byte, MD5 89fdd838993f66611b5b2fbe238d06eb
+Semikola im neuen Block: 0 · H16: 0 · G35: 0 · G37: 0 · Plan-Nachtrag: 0 · Startsatz: 0
+Rücklesen Notizen: 3357 Zeilen vorher, 3381 nachher, 1 alte Zeilen verändert (erwartet: nur die ergänzten)
+Rücklesen Maßnahmenliste: 367 Zeilen vorher, 367 nachher, 7 alte Zeilen verändert (erwartet: nur die ergänzten)
+Rücklesen Plan: 359 Zeilen vorher, 362 nachher, 1 alte Zeilen verändert (erwartet: nur die ergänzten)

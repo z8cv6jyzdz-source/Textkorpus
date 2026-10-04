@@ -1,0 +1,12 @@
+Steuerung Rev. 150 (02.10.2026, Task 12a, Nachtrag) — Protokoll
+Cowork_Sitzungsnotizen.md: vorher 805464 Byte, 3344 Zeilen, MD5 37364120f089065cc81ca7082b99f6ef, Zeilenende '\n'
+  Stand-Zeile Notizen: Anker gefunden (1x), ersetzt
+  Eintrag Rev. 150 vor Rev. 149: Anker gefunden (1x), ersetzt
+Cowork_Sitzungsnotizen.md: nachher 808825 Byte, 3356 Zeilen, MD5 7d6ccb8ab54435c18da39e79a90940e2
+Massnahmenliste_Datenverarbeitung.md: vorher 234490 Byte, 366 Zeilen, MD5 acf51b47969f2648121876b465dd89a4
+  Stand-Zeile Maßnahmenliste: Anker gefunden (1x), ersetzt
+  Taskzeile 12: Anker gefunden (1x), ersetzt
+  Summe: Anker gefunden (1x), ersetzt
+Massnahmenliste_Datenverarbeitung.md: nachher 235044 Byte, 366 Zeilen, MD5 e02a9560da060fcfd2e0ada966f5e3d6
+Cowork_Sitzungsnotizen.md rückgelesen: Rev. 150 enthalten
+Massnahmenliste_Datenverarbeitung.md rückgelesen: Rev. 150 enthalten
